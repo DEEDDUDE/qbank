@@ -1,0 +1,19 @@
+# Raw captures and lecture material — large binaries, consumed once, never committed
+courses/*/raw/
+courses/*/slides/
+
+# Local Stage 0 work product — regenerated from raw at any time
+courses/*/.prep/
+
+# Site build output
+site/dist/
+site/node_modules/
+
+# Generated PDFs anywhere outside course output
+*.pdf
+!courses/*/out/*.pdf
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
