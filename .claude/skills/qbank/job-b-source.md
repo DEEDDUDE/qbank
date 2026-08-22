@@ -18,11 +18,13 @@ scanned chapters, photographed book pages.
 
 ### Read in this order, take the first that works
 
-1. **Text layer** — `pdffonts` lists fonts → `pdftotext -layout`. Exact, instant, free.
-   Most PowerPoint-exported PDFs land here, which is most of your material.
-2. **OCR** — image-only PDFs and scans. `pdftoppm` at 300 dpi → Tesseract with `-l eng`;
-   med course material is English throughout. Slower and imperfect, but source prose is
-   redundant enough to survive it.
+1. **Text layer** — PyMuPDF (`page.get_text()`) per page; a real text layer comes back as
+   actual prose, not a handful of stray characters. Exact, instant, free, and Unicode-safe
+   on Arabic filenames — no poppler binary required. Most PowerPoint-exported PDFs land
+   here, which is most of your material.
+2. **OCR** — image-only PDFs and scans. Render each page with PyMuPDF
+   (`page.get_pixmap(dpi=300)`) → Tesseract with `-l eng`; med course material is English
+   throughout. Slower and imperfect, but source prose is redundant enough to survive it.
 3. **Vision** — only what OCR mangles badly: diagrams with embedded labels, tables that
    collapse, handwriting.
 
