@@ -2,6 +2,12 @@
 courses/*/raw/
 courses/*/slides/
 
+# Leftover unsorted tree — the 30 flagged files awaiting a keep/drop decision.
+# Named explicitly so it stays excluded even if a non-PDF lands here; today it is
+# covered only incidentally by the *.pdf rule below. Remove this line once the
+# folder is resolved and deleted.
+microbiology/
+
 # Local Stage 0 work product — regenerated from raw at any time
 courses/*/.prep/
 
