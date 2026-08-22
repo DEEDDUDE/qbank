@@ -41,9 +41,11 @@ If either is missing, ask once. Don't guess from filenames.
 
 Runs before anything is sent to the model.
 
-1. **Flatten to pages.** PDFs render at 200 dpi. Loose images pass through.
-2. **Check for a text layer.** `pdffonts` on each PDF — if fonts are listed, pull the
-   text with `pdftotext` and skip vision for those pages entirely. Free and exact.
+1. **Flatten to pages.** PyMuPDF renders PDF pages at 200 dpi. Loose images pass through.
+2. **Check for a text layer.** PyMuPDF (`page.get_text()`) per page — a real text layer
+   comes back as actual prose, not a handful of stray characters; pull it directly and
+   skip vision for those pages entirely. Free, exact, and Unicode-safe on Arabic
+   filenames, which the poppler `pdftotext` on this machine cannot open at all.
 3. **Auto-rotate** using EXIF, then correct obvious skew.
 4. **Crop to content.** Detect the lit screen / white page region and cut the bezel,
    keyboard, desk and taskbar. On phone-photo sources this alone removes 40–50% of
