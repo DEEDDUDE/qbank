@@ -71,13 +71,15 @@ job, not the skill's.
 reused, never renumbered. The `microlab` tab uses `MICRO-LAB-NNN` (e.g. `MICRO-LAB-007`)
 instead of a single-letter tab code.
 
-**Routing** — a course's lab tab (`microlab`) verifies only against `source.lab.index.md`
-and the `{#labNN}` chapters it indexes, never `source.index.md`. Lecture tabs (`quizzes`,
-`midterm`, `finals`, `practice`) verify only against `source.index.md` and its `{#chNN}`
-chapters, never the lab index. A `microlab` question with no supporting `{#labNN}`
-chapter is `not-in-source` — it is never rescued by searching the lecture chapters, since
-the lab is taught and examined separately and its answers come from the lab manual, not
-the lecture slides.
+**Routing** — the lab tab (`microlab`) routes to `source.lab.index.md` first. If no
+`{#labNN}` chapter supports the question, fall back to `source.index.md` and its
+`{#chNN}` chapters. Only when neither index has it is the question `not-in-source`. Cite
+whichever chapter actually answered — a lab question resolved from a lecture chapter
+carries that `{#chNN}` anchor, not a lab one. Lecture tabs (`quizzes`, `midterm`,
+`finals`, `practice`) route to `source.index.md` first and may fall back to
+`source.lab.index.md` the same way. The order matters, not the exclusivity: the lab
+manual is the better authority for a lab question, but the lecture chapters are not
+off-limits when it is silent.
 
 **Tier** — how much the answer can be trusted:
 - `official` — an authority stated it (Moodle's printed key, a professor's answer sheet)

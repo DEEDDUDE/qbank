@@ -61,7 +61,8 @@ silently overwritten files.
 A fourth tab, added because Lab is taught and examined separately from the lecture
 course. `2023-2024-Finals/Dentistry|Medicine`, `Quizzes-2022/`, `Quizzes-2023/`, and
 `before2020-2018-Lab/` ← `Before 2020/2018/Lab/`. IDs on this tab use `MICRO-LAB-NNN`,
-and it verifies only against `source.lab.index.md` — see CLAUDE.md's Routing entry.
+and it routes to `source.lab.index.md` first, falling back to `source.index.md` when the
+lab index has no supporting chapter — see CLAUDE.md's Routing entry.
 
 **Renamed from `raw/lab/`.** A folder appeared at the repo root as `microlab/`, meant as
 a fourth tab of lab captures. All 10 of its files were byte-identical (sha1) to files

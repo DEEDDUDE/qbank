@@ -120,9 +120,17 @@ continues onto the next page or block.
 
 ### Step 3: hard rules
 
-- **Ignore hand-drawn marks.** Green ticks, pen circles, highlighter — these are a
-  student's annotations, not Moodle's. Only the radio/checkbox state and the printed
-  answer line count.
+- **Hand-drawn marks depend on what else the page records.** When the page carries its
+  own answer state — a Moodle radio/checkbox, a printed `The correct answer is:` line, a
+  typed key — that state is the record, and pen circles, ticks and highlighter over it
+  are a student's annotation: ignore them. When the page has no answer state of its own,
+  a hand mark is the *only* way an answer was ever recorded, and it **is** the claim —
+  tier `claimed`, per the Tier table's own example of "a circled option in a shared
+  file." A printed paper quiz with circled options is the common case.
+
+  Two independent mark systems on one page (e.g. an inline ring on the option plus a
+  separate margin digit) are two claims, not one. Record both with `disputed: true` —
+  see the Output section.
 - **Decode HTML entities.** `&gt;` → `>`, `&lt;` → `<`, `&amp;` → `&`. Moodle leaks
   raw entities; left alone they make questions meaningless.
 - **Detect multi-answer.** Checkboxes instead of radios, or `The correct answers are:`
@@ -141,7 +149,7 @@ continues onto the next page or block.
 
 ## Anti-loss checks
 
-Run after Stage 1. All three are arithmetic — no judgement, no trust.
+Run after Stage 1. All five are arithmetic — no judgement, no trust.
 
 1. **Number continuity** — *when the material is numbered.* Numbers must run unbroken
    within a source. A gap means a question was dropped → re-read that region.
@@ -154,6 +162,10 @@ Run after Stage 1. All three are arithmetic — no judgement, no trust.
 4. **Language check** — *always.* Question text is English. Arabic characters inside a
    stem or an option mean interface text leaked in or the read failed → flag it.
    Arabic-Indic digits in question *numbers* are normal and just get converted.
+5. **Computed header counts** — *always.* Every number in the frontmatter (`questions`,
+   `tiers`, `forms`, `needs-eye`, `disputed`) is derived by counting the entries that
+   follow, never written by hand and never carried over from a draft. A hand-written
+   header can drift from the body silently; a computed one cannot.
 
 A question never leaves the batch because it was hard to read. It leaves with a status.
 
@@ -225,10 +237,36 @@ Field rules:
   `answer: a, b`
 - `form: qa` puts the answer text in `answer:` with no option letters.
 - `needs-eye` adds `img:` pointing into `flagged/` (screenshots) or quotes the raw
-  text block (documents).
+  text block (documents). Reserve it for content that is genuinely unreadable or
+  unresolvable — a blurred page, a stem cut off with no continuation elsewhere in the
+  batch. A question that is perfectly legible and simply carries two competing answers
+  is `disputed`, not `needs-eye`.
+- `disputed: true` marks a question whose source page recorded two or more competing
+  claims — e.g. an inline ring on the option and a separate margin digit that disagree.
+  It is a fact about the page, not a verification judgment, so Job A records it rather
+  than resolving it:
 
-Duplicates are merged **within this batch only** — same stem, one entry. Cross-batch
-matching is the app's job, not this one.
+  ```
+  ### MICRO-LAB-009
+  tier: claimed
+  form: mcq
+  type: single
+  disputed: true
+  claims:
+    - source: inline mark on option
+      answer: b
+    - source: margin digit
+      answer: c
+  note: Two mark systems, different ink and hand.
+  ```
+
+  When the two systems agree, there is no dispute — just one claim, same as any other
+  claimed question.
+
+Duplicates are merged **within this batch only** — same stem, one entry. This runs across
+every page in the batch, after all pages are read, not page by page: a stem that appears
+cut off on one page and answered in full on another is one question, and the fuller
+version wins. Cross-batch matching is the app's job, not this one.
 
 ---
 

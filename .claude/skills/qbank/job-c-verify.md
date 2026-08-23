@@ -11,7 +11,9 @@ accusation to be tested, never as information.
 ## Input
 
 - the extract from Job A
-- `source.md` and `source.index.md` from Job B
+- `source.md` and `source.index.md` from Job B, plus `source.lab.md` and
+  `source.lab.index.md` where the course has a lab track — see Routing below for which
+  index a given tab checks first
 
 ## Who needs work
 
@@ -23,23 +25,37 @@ accusation to be tested, never as information.
 
 Roughly a third of a typical pile is `official` and costs nothing here.
 
+A `claimed` question may carry `disputed: true` from Job A — two or more competing
+claims from the same source page rather than one. It still goes through the same
+independent-answer-first process as any claimed question; see `### disputed input`
+below for how the comparison step differs.
+
 ---
 
 ## Routing — how this stays cheap
 
 Never load the whole source. For each question:
 
-1. Read `source.index.md` (small, loads whole).
+1. Read the tab's **primary** index first (small, loads whole) — `source.lab.index.md`
+   for a lab tab, `source.index.md` for a lecture tab. See CLAUDE.md's Routing entry for
+   which is primary per tab.
 2. Match the question's terms against chapter entries → pick the chapter.
-3. **Group every question that routed to the same chapter**, then load that chapter
-   once and verify the whole group against it.
+3. If the primary index has no supporting chapter, check the **other** index before
+   giving up — a lab question is occasionally answered only in a lecture chapter (e.g. a
+   biochemical-test fact that the lecture covers but the lab manual assumes), and the
+   reverse happens too. Cite whichever chapter actually answered — `{#labNN}` or
+   `{#chNN}`, not necessarily the tab's own namespace.
+4. **Group every question that routed to the same chapter**, then load that chapter
+   once and verify the whole group against it. Group across both indexes if both were
+   used — a chapter is still read once, regardless of which index named it.
 
 Grouping by chapter rather than question order means each chapter is read once per
 course instead of once per question. On a 325-question course that is the difference
 between a few passes and a few hundred.
 
-If routing is ambiguous, take the two best chapters. If still unresolved after that,
-the question is `not-in-source` — do not go fishing through the whole file.
+If routing is ambiguous, take the two best chapters. If still unresolved after checking
+both indexes, the question is `not-in-source` — do not go fishing through the whole
+file.
 
 ---
 
@@ -109,6 +125,38 @@ note: The circulating file marks b. The source supports c.
 Never silently correct. Seeing the wrong answer next to the right one is how you avoid
 re-learning the mistake, and it is also how you catch *my* errors — if you think the
 claim was right, the evidence line is right there to check.
+
+### disputed input
+
+A question arriving with `disputed: true` carries two or more competing claims from a
+single source page — this is the within-page counterpart to
+[Cross-checking duplicates](#cross-checking-duplicates) below, which handles the same
+kind of disagreement across exam models instead of within one page.
+
+**The answer-first rule applies with extra force here.** Decide from the source before
+looking at either claim, precisely because two claims sitting side by side make it twice
+as easy to find a reason to agree with one of them.
+
+Then compare:
+
+- If the source supports one claim, the status is `verified`, and `answer:` is that
+  claim. The `note:` records which claim system won and which lost — do not just drop
+  the loser silently.
+- If the source supports neither, the status is `conflict`. Both losing claims stay
+  recorded in `note:`, same as any conflict.
+
+```
+status: verified
+answer: c
+basis: Ch. 4 — Bacterial Growth {#ch04}
+evidence: Penicillin acts on cells actively building peptidoglycan, which occurs
+  during exponential growth.
+note: Disputed source (inline mark: b, margin mark: c). The source supports the
+  margin claim, c.
+```
+
+Never treat a dispute as a reason to hedge or average — decide the same way you would
+for a single claim, then say which claim was right.
 
 ### external
 
