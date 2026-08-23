@@ -17,9 +17,10 @@ qbank/
   courses/
     <course>/
       raw/
-        quizzes/ midterm/ finals/   ← original captures, gitignored
+        quizzes/ midterm/ finals/ microlab/ practice/   ← original captures, gitignored
       slides/                        ← lecture material, gitignored
       source.md                      ← clean study source (Job B)
+      source.lab.md                  ← lab study source, own anchor namespace (Job B)
       out/                           ← verified batch files (Job D)
       flagged/                       ← crops needing human eyes
       .ledger.json                   ← hashes of everything already processed
@@ -67,7 +68,16 @@ job, not the skill's.
 ## Conventions
 
 **IDs** — `MICRO-Q-014`: course, tab, number. Assigned at extraction, permanent, never
-reused, never renumbered.
+reused, never renumbered. The `microlab` tab uses `MICRO-LAB-NNN` (e.g. `MICRO-LAB-007`)
+instead of a single-letter tab code.
+
+**Routing** — a course's lab tab (`microlab`) verifies only against `source.lab.index.md`
+and the `{#labNN}` chapters it indexes, never `source.index.md`. Lecture tabs (`quizzes`,
+`midterm`, `finals`, `practice`) verify only against `source.index.md` and its `{#chNN}`
+chapters, never the lab index. A `microlab` question with no supporting `{#labNN}`
+chapter is `not-in-source` — it is never rescued by searching the lecture chapters, since
+the lab is taught and examined separately and its answers come from the lab manual, not
+the lecture slides.
 
 **Tier** — how much the answer can be trusted:
 - `official` — an authority stated it (Moodle's printed key, a professor's answer sheet)
