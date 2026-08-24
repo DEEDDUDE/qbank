@@ -241,6 +241,16 @@ Field rules:
   unresolvable — a blurred page, a stem cut off with no continuation elsewhere in the
   batch. A question that is perfectly legible and simply carries two competing answers
   is `disputed`, not `needs-eye`.
+- **`img:` always points to a saved crop, never a prose description of one — on any
+  question, not just `needs-eye` ones.** A question whose stem or answer choices depend
+  on a photo (an antibiotic zone, a colony plate, a stain result) needs that photo saved
+  to `flagged/` even when Job A can transcribe the surrounding text just fine and
+  doesn't judge the question `needs-eye` — Job A never resolves answers, so it isn't
+  positioned to know whether the image will turn out to be load-bearing for
+  verification. `img: (question shows a photo of...)` is not a valid value; it is the
+  exact bug that left four microlab questions' true answers unrecoverable until a later
+  session tracked the originals back down. If the image can't be cropped and saved for
+  some reason, that is itself a `needs-eye` case, not a reason to fall back to prose.
 - `disputed: true` marks a question whose source page recorded two or more competing
   claims — e.g. an inline ring on the option and a separate margin digit that disagree.
   It is a fact about the page, not a verification judgment, so Job A records it rather

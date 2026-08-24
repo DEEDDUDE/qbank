@@ -55,10 +55,12 @@ covers: colony morphology and purity, colony confluence, hemolysis types (alpha,
 gamma), growth-characteristics demonstration and worksheet (ten organisms x four
 media), restreaking a pure colony, Gram-positive and Gram-negative identification
 algorithms (catalase, coagulase, novobiocin, PYR, oxidase, urease, lactose
-fermentation)
+fermentation), EMB agar lactose-fermenter photo comparison (E. coli metallic green
+sheen vs. Enterobacter cloacae), Moraxella colony morphology
 terms: colony, pure culture, alpha hemolysis, beta hemolysis, gamma hemolysis,
 catalase test, coagulase test, novobiocin, oxidase test, urease test, Moraxella,
-Candida albicans
+Candida albicans, metallic green sheen, EMB agar, Enterobacter cloacae, pinpoint
+colonies
 
 ## {#lab07} Lab 7 — The Gram Stain / The Acid-Fast Stain
 covers: Gram stain theory and mechanism, 4-step vs. 3-step Gram stain procedures,

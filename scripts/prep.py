@@ -11,13 +11,19 @@ one folder within a tab (e.g. one exam's subfolder) without disturbing the
 tab-level prep output a later full-tab run would use — the shared
 .ledger.json is still consulted either way, so nothing gets double-processed.
 
-    py scripts/prep.py <course> --file <path under courses/<course>/> --pages 1,2,3 [--out label]
+    py scripts/prep.py <course> --file <path under courses/<course>/> --pages 1,2,3 [--out label] [--color]
 
 Patch mode, for Job B: prep specific known pages of one slide deck (e.g. a
 handful of diagram-only pages whose caption text a first pass couldn't
 extract) without re-running the whole deck. Bypasses the raw/ ledger — this
 is slides/, not exam captures. Output goes to
 courses/<course>/.prep/slides-patch/<label>/.
+
+--color skips the grayscale step. Default grayscale is correct for Job A
+exam captures (the answer is which radio is filled, not what color it is)
+but wrong for a slide whose diagnostic content IS color — a plate photo
+distinguished by a colored sheen or pigment, a stained-slide comparison.
+Use --color when the fact being patched in is itself a color.
 
 Never writes to, renames, or deletes anything under raw/.
 
@@ -191,12 +197,13 @@ def prep_image(path: Path, out_path: Path) -> dict:
     return info
 
 
-def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None) -> dict:
+def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None, grayscale: bool = True) -> dict:
     """Returns per-page results: list of dicts with keys
     {page, mode: text|image, chars, out_path, below_floor}.
     only_pages, if given, is a set of 1-indexed page numbers — every other
     page is skipped entirely (used for patching specific known-diagram pages
-    rather than re-processing a whole deck)."""
+    rather than re-processing a whole deck). grayscale=False preserves color
+    for pages whose diagnostic content is itself a color."""
     results = []
     doc = fitz.open(str(path))
     for i, page in enumerate(doc, start=1):
@@ -216,11 +223,11 @@ def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None) -> di
 
         below_floor = orig_long <= FLOOR_PX
         if not below_floor:
-            im2 = ImageOps.grayscale(im)
+            im2 = ImageOps.grayscale(im) if grayscale else im
             scale = FLOOR_PX / float(orig_long)
             new_size = (max(1, int(im2.width * scale)), max(1, int(im2.height * scale)))
             im2 = im2.resize(new_size, Image.LANCZOS)
-            im2.convert("L").save(out_path, "JPEG", quality=JPEG_QUALITY)
+            im2.convert("L" if grayscale else "RGB").save(out_path, "JPEG", quality=JPEG_QUALITY)
         else:
             im.convert("RGB").save(out_path, "JPEG", quality=JPEG_QUALITY)
 
@@ -240,7 +247,7 @@ def estimate_tokens(vision_pages: int, text_chars: int) -> tuple:
     return low, high
 
 
-def patch_file(course: str, file_arg: str, pages_arg: str, out_label: str = None):
+def patch_file(course: str, file_arg: str, pages_arg: str, out_label: str = None, color: bool = False):
     course_dir = REPO_ROOT / "courses" / course
     src_path = course_dir / file_arg
     if not src_path.exists():
@@ -253,7 +260,7 @@ def patch_file(course: str, file_arg: str, pages_arg: str, out_label: str = None
     prep_dir.mkdir(parents=True, exist_ok=True)
 
     stem = re.sub(r"[^A-Za-z0-9._-]", "_", src_path.stem)
-    page_results = prep_pdf(src_path, prep_dir, stem, only_pages=only_pages)
+    page_results = prep_pdf(src_path, prep_dir, stem, only_pages=only_pages, grayscale=not color)
 
     manifest = {
         "course": course, "mode": "patch", "file": file_arg,
@@ -285,17 +292,22 @@ def main():
         args = sys.argv[2:]
         opts = {}
         i = 0
+        BOOL_FLAGS = {"color"}
         while i < len(args):
             if args[i].startswith("--"):
                 key = args[i][2:]
-                opts[key] = args[i + 1]
-                i += 2
+                if key in BOOL_FLAGS:
+                    opts[key] = True
+                    i += 1
+                else:
+                    opts[key] = args[i + 1]
+                    i += 2
             else:
                 i += 1
         if "file" not in opts or "pages" not in opts:
-            print("usage: py scripts/prep.py <course> --file <path> --pages 1,2,3 [--out label]", file=sys.stderr)
+            print("usage: py scripts/prep.py <course> --file <path> --pages 1,2,3 [--out label] [--color]", file=sys.stderr)
             sys.exit(1)
-        patch_file(course, opts["file"], opts["pages"], opts.get("out"))
+        patch_file(course, opts["file"], opts["pages"], opts.get("out"), color=("color" in opts))
         return
 
     if len(sys.argv) not in (3, 4):

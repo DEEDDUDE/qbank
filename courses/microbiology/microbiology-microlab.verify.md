@@ -2,11 +2,11 @@
 course: microbiology
 tab: microlab
 questions: 90
-verified: 46
+verified: 52
 conflict: 2
-external: 33
+external: 31
 not-in-source: 3
-needs-eye: 6
+needs-eye: 2
 ---
 
 ### MICRO-LAB-001
@@ -76,29 +76,30 @@ evidence: "Aureus" is Latin for "golden," referencing S. aureus's golden-yellow
   pigmented colonies — standard etymology, not discussed in either source file.
 
 ### MICRO-LAB-008
-status: external
+status: verified
 answer: Enterobacter
-basis: external — not covered in course material
-evidence: Lab 5 establishes MacConkey's lactose-fermentation color mechanism {#lab05-1}
-  but doesn't name which of these four organisms ferments lactose. Enterobacter is a
-  standard lactose-positive coliform; Salmonella and Shigella are the classic
-  lactose-negative counterexamples taught alongside it.
+basis: Lab 6 — Growth Characteristics of Bacteria {#lab06-3}
+evidence: The patched-in EMB lactose-fermenters photo (`2024 Slides/Lab 1.pdf` p. 17)
+  shows Enterobacter cloacae growing as dark, lactose-fermenting colonies alongside
+  E. coli. Lactose fermentation is an organism trait, not a medium-specific
+  artifact — the same fermentation MacConkey's neutral-red indicator would show as
+  pink is what EMB's dark-colony indicator is showing here.
+note: Originally external. Re-verified after patching Lab 6 with two previously
+  unmined slide photos — see the patch note at {#lab06-3} in source.lab.md.
 
 ### MICRO-LAB-009
-status: external
+status: verified
 answer: c
-basis: external — not covered in course material
-evidence: Neither source file mentions EMB agar's metallic green sheen or attributes
-  it to a specific organism (Ch.4's agar table only says EMB "differentiates lactose
-  fermenters from nonfermenters," no sheen detail). The metallic green sheen on EMB
-  is the classic, uncontested identifying feature of E. coli, from its vigorous
-  lactose fermentation; Pseudomonas does not ferment lactose and produces no such
-  sheen.
-note: Disputed source (inline mark: b/Pseudomonas, margin mark: c/E. coli). Decided
-  from external standard knowledge since the source doesn't cover EMB specifically —
-  supports the margin claim, consistent with this page's pattern (see the note on
-  this ID in the extract file: margin agrees with inline on every non-disputed
-  question on this page, reading as a corrected key).
+basis: Lab 6 — Growth Characteristics of Bacteria {#lab06-3}
+evidence: The patched-in EMB lactose-fermenters photo (`2024 Slides/Lab 1.pdf` p.
+  17, rendered in color) directly shows E. coli growing with a distinct metallic
+  green sheen on EMB agar, while Enterobacter cloacae (also lactose-fermenting)
+  grows dark without the sheen — E. coli is the organism the sheen specifically
+  identifies.
+note: Disputed source (inline mark: b/Pseudomonas, margin mark: c/E. coli). Originally
+  resolved external, favoring the margin claim on settled outside knowledge since
+  neither source covered EMB. Now directly source-confirmed after patching Lab 6 —
+  see the patch note at {#lab06-3} in source.lab.md. Margin was right.
 
 ### MICRO-LAB-010
 status: external
@@ -309,22 +310,32 @@ evidence: "Antiseptics are chemicals used to kill microorganisms on the surface 
   operationally without this definitional distinction — lecture fallback.
 
 ### MICRO-LAB-037
-status: external
+status: verified
 answer: a
-basis: external — not covered in course material
-evidence: Moraxella catarrhalis's pinpoint colonies is standard microbiology. (N.
-  gonorrhoeae does ferment glucose, and Neisseria/Moraxella are aerobic/facultative
-  rather than anaerobic, ruling out b and c independently of source coverage.)
+basis: Lab 6 — Growth Characteristics of Bacteria {#lab06-3}
+evidence: The patched-in Moraxella colony photo (`2024 Slides/Lab 1.pdf` p. 48,
+  matching `2023 Slides/lab 3.pdf` p. 24) directly shows small, numerous pinpoint
+  colonies. (N. gonorrhoeae does ferment glucose, and Neisseria/Moraxella are
+  aerobic/facultative rather than anaerobic, independently ruling out b and c.)
+note: Originally external. Re-verified after patching Lab 6 — see the patch note at
+  {#lab06-3} in source.lab.md.
 
 ### MICRO-LAB-038
-status: needs-eye
-img: (referenced in extract, not captured to flagged/)
-note: The question describes a photographed streak plate whose growth pattern
-  determines whether the medium was purely differential, purely selective, or both —
-  a distinction that depends on seeing the actual colony appearance, not
-  recoverable from the text alone. The image exists (referenced in the extract) but
-  was never saved as a crop; worth pulling from the original raw capture rather than
-  guessed here.
+status: external
+answer: b
+img: flagged/MICRO-LAB-038.jpg
+basis: external — not covered in course material
+evidence: Recovered from the original capture (`raw/microlab/.../نموذج 2.pdf` p. 15,
+  Question 14) — a dark-background plate with clean streaked growth, visually
+  consistent with a MacConkey/EMB-style medium that is simultaneously selective
+  (inhibits one bacterial group) and differential (distinguishes growth types) —
+  standard recognition rather than a source-citable fact, since the question's own
+  medium name ("x media") is a placeholder and the lab manual has no matching
+  reference photo to check against.
+note: Was needs-eye — Job A referenced this image without saving it (the bug fixed
+  in job-a-extract.md this session). Recovered from the raw capture; readable and
+  answerable, but resolved externally rather than verified, since there's no source
+  passage to cite against a plate photo like this one.
 
 ### MICRO-LAB-039
 status: not-in-source
@@ -413,14 +424,18 @@ evidence: Moraxella is the aerobic organism among these four; Clostridium and
   classification, not detailed for these specific organisms in either source.
 
 ### MICRO-LAB-049
-status: needs-eye
-img: (referenced in extract, not captured to flagged/)
-note: The stem's own description (round, gram-positive, catalase-positive via H2O2
-  bubbles, coagulase-negative) is consistent with any coagulase-negative
-  Staphylococcus — the novobiocin result shown in the photo is what actually
-  distinguishes S. epidermidis (sensitive) from S. saprophyticus (resistant), and
-  that image was never captured to flagged/. Not resolvable from text alone. Worth
-  pulling the original image from the raw capture.
+status: verified
+answer: c
+img: flagged/MICRO-LAB-049.jpg
+basis: Lab 8 — Antibiotic Sensitivity Testing {#lab08-4}
+evidence: Recovered from the original capture (`raw/microlab/.../Lab 2 + 3 quiz
+  (نموذج 1).pdf` p. 5, Question 10) — the novobiocin disc shows confluent growth
+  right up to its edge, no clear zone at all. Per the source's own R/S framework, no
+  zone of inhibition is the definition of resistant, not sensitive — matching
+  option (c), "Coagulase negative, Cluster like, novobiocin resistant."
+note: Was needs-eye — Job A referenced this image without saving it (the bug fixed
+  in job-a-extract.md this session). Recovered from the raw capture; the zone result
+  is unambiguous.
 
 ### MICRO-LAB-050
 status: external
@@ -483,18 +498,32 @@ evidence: H. pylori's urease enabling ammonia production to neutralize stomach a
   is standard, uncontested microbiology; H. pylori isn't mentioned in either source.
 
 ### MICRO-LAB-059
-status: needs-eye
-img: (referenced in extract, not captured to flagged/)
-note: Same underlying question and missing image as MICRO-LAB-049 — a second,
-  independent capture of the same novobiocin test, same unresolved need for the
-  actual image.
+status: verified
+answer: d
+img: flagged/MICRO-LAB-059.jpg
+basis: Lab 8 — Antibiotic Sensitivity Testing {#lab08-4}
+evidence: Recovered from the original capture (`raw/microlab/.../Lab 2 + 3 quiz
+  (نموذج 2).pdf` p. 12) — same reasoning as MICRO-LAB-049: no zone around the
+  novobiocin disc means resistant, matching option (d), "Coagulase negative,
+  Cluster like, novobiocin resistant" (same text as 049's answer, different letter
+  position in this reshuffled capture).
+note: Was needs-eye — same missing-image bug as MICRO-LAB-049, now fixed. This
+  capture independently confirms 049's result.
 
 ### MICRO-LAB-060
-status: needs-eye
-img: (referenced in extract, not captured to flagged/)
-note: The answer depends entirely on comparing the appearance of two photographed
-  agar plates (labelled H and X) against five hemolysis/organism-pattern
-  descriptions — inherently visual, and the image was never captured to flagged/.
+status: verified
+answer: e
+img: flagged/MICRO-LAB-060.jpg
+basis: Lab 6 — Growth Characteristics of Bacteria {#lab06-2}
+evidence: Recovered from the original capture (`raw/microlab/.../Lab 2 + 3 quiz
+  (نموذج 2).pdf` p. 9) — plate X shows colonies surrounded by a distinctly more
+  open, cleared halo than plate H, consistent with the source's definition of beta
+  hemolysis as "complete clearing" (versus alpha's partial, discolored clearing) —
+  matching option (e).
+note: Was needs-eye — same missing-image bug, now fixed. Grayscale limits full
+  certainty distinguishing beta (clear) from a heavily-cleared alpha (greenish/
+  brownish tint) with total confidence, but the degree of clearing visible favors
+  beta, matching the claim.
 
 ### MICRO-LAB-061
 status: external

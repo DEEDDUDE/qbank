@@ -641,6 +641,26 @@ branching) that route a Gram stain result and a handful of test results down to 
 genus/species call — the practical mechanism behind the Lab 5/6 worksheet's "identify
 your unknown" task.
 
+> **Patch note:** the summary above was written from this deck's slide *titles* —
+> each identification topic (catalase, novobiocin, Thayer-Martin, Moraxella, oxidase,
+> urease) sits on a near-textless photo slide, so the first pass named the topics
+> without transcribing what the photos actually show. Two of those photos turned out
+> to carry real, previously-missing facts, confirmed by rendering the specific pages
+> (`2024 Slides/Lab 1.pdf` pp. 17, 48) — added below rather than left as a topic
+> label. The first check (p. 17) needed a **color** render — Stage 0's default
+> grayscale, correct for Job A's exam captures, would have erased the one thing this
+> page exists to show. `prep.py`'s patch mode now takes a `--color` flag for exactly
+> this case.
+
+**Lactose fermenters on EMB agar (p. 17 photo):** a labeled side-by-side comparison
+shows *Escherichia coli* growing with a distinct metallic green sheen, versus
+*Enterobacter cloacae* growing as dark, non-sheening colonies — both are lactose
+fermenters (both grow dark on EMB's differential indicator), but the metallic green
+sheen specifically distinguishes *E. coli*.
+
+**Moraxella colony morphology (p. 48 photo, and its near-duplicate on `2023 Slides/lab
+3.pdf` p. 24):** shown as small, numerous pinpoint colonies on the streaked plate.
+
 ---
 
 ## Lab 7 — The Gram Stain / The Acid-Fast Stain {#lab07}

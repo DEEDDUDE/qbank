@@ -158,6 +158,18 @@ note: Disputed source (inline mark: b, margin mark: c). The source supports the
 Never treat a dispute as a reason to hedge or average — decide the same way you would
 for a single claim, then say which claim was right.
 
+**Margin outranks inline when the source can't decide.** For the specific two-mark-
+system dispute job-a-extract.md documents — an inline ring drawn tight on the option
+itself, versus a larger digit circled in the margin — margin is the higher-trust
+claim. Confirmed across every such dispute checked so far (three, all on one page,
+microbiology microlab batch: MICRO-LAB-009, 010, 012 — margin was correct in all
+three, including one, 012, that was directly source-verifiable rather than decided
+on outside knowledge). This is a tie-breaker only, not a replacement for the rule
+above: decide from source first, and if the source actually supports one claim over
+the other, that decides it regardless of which mark made it. Margin only gets the
+benefit of the doubt when the source is silent and the question has to be answered
+`external` or left `not-in-source`.
+
 ### external
 
 Some questions are fair game but simply absent from your slides — standard facts the

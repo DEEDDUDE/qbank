@@ -452,7 +452,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-img: (question shows a photo of a streaked agar plate)
+img: flagged/MICRO-LAB-038.jpg
 You prepared x media and poured it into a petri dish, after cooling you streaked
 unknown bacteria on it. After incubation, growth appeared as shown in the photo below.
 What do you think the type of this media is:
@@ -589,7 +589,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-img: (question shows a photo of an agar plate with a novobiocin disc and growth pattern)
+img: flagged/MICRO-LAB-049.jpg
 A bacteria that looks round shape under microscope, stains purple to blue with gram
 stain, produce bubbles when we put H2O2, the bacteria doesn't have enzyme that clots
 plasma, we did novobiocin test which looked as in the picture, the bacteria:
@@ -752,7 +752,7 @@ claimed: Coagulase negative, Cluster like, novobiocin resistant
 note: Same stem and answer as MICRO-LAB-049 (نموذج 1), independently confirming it —
   answer text recorded rather than letter since it sat at a different position in each
   capture of this file too.
-img: (question shows a photo of an agar plate with a novobiocin disc and growth pattern)
+img: flagged/MICRO-LAB-059.jpg
 A bacteria that looks round shape under microscope, stains purple to blue with gram
 stain, produce bubbles when we put H2O2, the bacteria doesn't have enzyme that clots
 plasma, we did novobiocin test which looked as in the picture, the bacteria:
@@ -766,7 +766,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-img: (question shows two agar plates side by side, labelled H and X)
+img: flagged/MICRO-LAB-060.jpg
 the agar X in this picture represents:
 a) Gama hemolytic bacteria on blood agar
 b) Klebsiella on MacConkey agar.
