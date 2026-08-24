@@ -6,9 +6,9 @@ scope: raw/finals/2023-2024-Finals/Medicine/ only — نموذج 1 (partial, Q1-
   status; models 3, 4, ٦ and the rest of model 1 are not yet extracted, so not in this
   verification pass either.
 questions: 58
-verified: 47
+verified: 49
 conflict: 1
-external: 10
+external: 8
 not-in-source: 0
 needs-eye: 0
 ---
@@ -228,12 +228,17 @@ evidence: Hand hygiene interrupting S. aureus (including MRSA) transmission is
   precaution generally, without tying it to a specific organism.
 
 ### MICRO-F-026
-status: external
+status: verified
 answer: d
-basis: external — not covered in course material
-evidence: Chlamydia trachomatis is transmitted perinatally via the birth canal,
-  causing neonatal conjunctivitis/pneumonia — standard teaching. Ch.8 defines vertical
-  transmission's three routes without naming specific pathogens per route.
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: The vertical-transmission reference table (patched in from previously
+  uncaptioned diagram pages) lists "Chlamydia trachomatis | Conjunctivitis or
+  pneumonia" under "Within birth canal / at birth" — one of Ch.8's three vertical
+  transmission routes.
+note: Originally external — Ch.8 defined the three vertical-transmission routes
+  without naming pathogens per route. Re-verified after patching Ch.8 with 8
+  previously-uncaptioned pages, which turned out to hold reference tables rather than
+  content-free diagrams.
 
 ### MICRO-F-027
 status: verified
@@ -408,8 +413,17 @@ status: external
 answer: c
 basis: external — not covered in course material
 evidence: HIV and Rubella are classic TORCH-group transplacental pathogens — standard
-  teaching. Ch.8 defines the transplacental route generally but names no specific
-  organisms per vertical-transmission route.
+  teaching.
+note: Re-checked after patching Ch.8 with 8 previously-uncaptioned pages. The new
+  vertical-transmission table complicates rather than confirms this: its
+  Transplacental row lists Treponema pallidum, Listeria monocytogenes,
+  Cytomegalovirus, Parvovirus B19, and Toxoplasma gondii — HIV appears instead under
+  "Within birth canal," and Rubella isn't in the table at all. None of this
+  question's 4 options match the table's actual Transplacental row. Left external
+  rather than reclassified as conflict, since HIV/Rubella transplacental transmission
+  is still standard teaching elsewhere — the table more likely reflects each
+  pathogen's clinically predominant route than an exhaustive list of every possible
+  one. Flagged for a second opinion rather than decided unilaterally.
 
 ### MICRO-F-049
 status: verified
@@ -475,14 +489,15 @@ basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
 evidence: "Botulinum toxin... blocks acetylcholine release at the synapse."
 
 ### MICRO-F-056
-status: external
+status: verified
 answer: a
-basis: external — not covered in course material
-evidence: Legionella pneumophila's classic transmission route is inhalation of
-  contaminated water aerosols — standard teaching. Ch.8's transmission chapter names
-  "nonhuman sources: soil, water, and animals" generally but doesn't name Legionella
-  specifically (this chapter also has documented gaps from unextractable diagram
-  pages).
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: The waterborne-disease reference table lists "Respiratory tract — inhalation
+  of water aerosol | Legionella pneumophila | Pneumonia (Legionnaires' disease)" —
+  direct match.
+note: Originally external. Re-verified after patching Ch.8 with 8 previously-
+  uncaptioned pages, which turned out to hold reference tables rather than
+  content-free diagrams.
 
 ### MICRO-F-057
 status: verified

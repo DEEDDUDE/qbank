@@ -11,6 +11,14 @@ one folder within a tab (e.g. one exam's subfolder) without disturbing the
 tab-level prep output a later full-tab run would use — the shared
 .ledger.json is still consulted either way, so nothing gets double-processed.
 
+    py scripts/prep.py <course> --file <path under courses/<course>/> --pages 1,2,3 [--out label]
+
+Patch mode, for Job B: prep specific known pages of one slide deck (e.g. a
+handful of diagram-only pages whose caption text a first pass couldn't
+extract) without re-running the whole deck. Bypasses the raw/ ledger — this
+is slides/, not exam captures. Output goes to
+courses/<course>/.prep/slides-patch/<label>/.
+
 Never writes to, renames, or deletes anything under raw/.
 
 Steps, per CLAUDE.md and job-a-extract.md:
@@ -177,12 +185,17 @@ def prep_image(path: Path, out_path: Path) -> dict:
     return info
 
 
-def prep_pdf(path: Path, out_dir: Path, stem: str) -> dict:
+def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None) -> dict:
     """Returns per-page results: list of dicts with keys
-    {page, mode: text|image, chars, out_path, below_floor}."""
+    {page, mode: text|image, chars, out_path, below_floor}.
+    only_pages, if given, is a set of 1-indexed page numbers — every other
+    page is skipped entirely (used for patching specific known-diagram pages
+    rather than re-processing a whole deck)."""
     results = []
     doc = fitz.open(str(path))
     for i, page in enumerate(doc, start=1):
+        if only_pages is not None and i not in only_pages:
+            continue
         text = page.get_text("text")
         chars = len(text.strip())
         if chars >= 20:  # a real text layer, not stray OCR noise/watermark
@@ -221,7 +234,64 @@ def estimate_tokens(vision_pages: int, text_chars: int) -> tuple:
     return low, high
 
 
+def patch_file(course: str, file_arg: str, pages_arg: str, out_label: str = None):
+    course_dir = REPO_ROOT / "courses" / course
+    src_path = course_dir / file_arg
+    if not src_path.exists():
+        print(f"no such file: {src_path}", file=sys.stderr)
+        sys.exit(1)
+
+    only_pages = {int(p) for p in pages_arg.split(",") if p.strip()}
+    label = out_label or re.sub(r"[^A-Za-z0-9._-]", "_", src_path.stem)
+    prep_dir = course_dir / ".prep" / "slides-patch" / label
+    prep_dir.mkdir(parents=True, exist_ok=True)
+
+    stem = re.sub(r"[^A-Za-z0-9._-]", "_", src_path.stem)
+    page_results = prep_pdf(src_path, prep_dir, stem, only_pages=only_pages)
+
+    manifest = {
+        "course": course, "mode": "patch", "file": file_arg,
+        "requested_pages": sorted(only_pages),
+        "generated": datetime.now().isoformat(timespec="seconds"),
+        "pages": page_results,
+    }
+    (prep_dir / "manifest.json").write_text(
+        json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+
+    found = {pr["page"] for pr in page_results}
+    missing = sorted(only_pages - found)
+    print(f"# {course} — patch: {file_arg}")
+    print(f"- requested pages: {sorted(only_pages)}")
+    print(f"- found: {sorted(found)}")
+    if missing:
+        print(f"- MISSING (out of range for this PDF): {missing}")
+    for pr in page_results:
+        if pr["mode"] == "text":
+            print(f"  p{pr['page']:03d}: text layer ({pr['chars']} chars) — no vision needed")
+        else:
+            print(f"  p{pr['page']:03d}: image -> {pr['out_path']}")
+
+
 def main():
+    if "--file" in sys.argv:
+        course = sys.argv[1]
+        args = sys.argv[2:]
+        opts = {}
+        i = 0
+        while i < len(args):
+            if args[i].startswith("--"):
+                key = args[i][2:]
+                opts[key] = args[i + 1]
+                i += 2
+            else:
+                i += 1
+        if "file" not in opts or "pages" not in opts:
+            print("usage: py scripts/prep.py <course> --file <path> --pages 1,2,3 [--out label]", file=sys.stderr)
+            sys.exit(1)
+        patch_file(course, opts["file"], opts["pages"], opts.get("out"))
+        return
+
     if len(sys.argv) not in (3, 4):
         print("usage: py scripts/prep.py <course> <tab> [subpath]", file=sys.stderr)
         sys.exit(1)

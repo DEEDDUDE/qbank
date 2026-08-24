@@ -1713,9 +1713,113 @@ Examples: pili of *Neisseria gonorrhoeae* and *E. coli* mediate attachment to ur
 tract epithelium; glycocalyx of *Staphylococcus epidermidis* and certain viridans
 streptococci allows strong adherence to the endothelium of heart valves.
 
-**Unclear source text:** pages 19, 20, 24, 27, 29, 30, 33, and 35 of this deck carry
-diagrams (illustrating transmission routes, portals of entry, and adherence) with no
-extractable caption text.
+### Reference tables: portals, vertical transmission, food/waterborne and zoonotic pathogens {#ch08-5}
+
+> **Patch note:** these five tables come from pages 19, 20, 24, 27, 29, 30, 33, and 35
+> of the same deck, originally logged as image-only diagrams with no extractable
+> caption text. Re-read via `prep.py`'s patch mode (Stage 0 vision, scoped to just
+> these pages) — they turned out to be dense reference tables, not uncaptioned
+> diagrams. Page 20's text layer duplicates the stages-of-pathogenesis list already
+> in {#ch08-2}, so nothing new was added from it. Page 19 (a "Typhoid Mary" newspaper
+> clipping) and page 35 (an unlabeled flagellum/pili micrograph) remain genuinely
+> without extractable new facts — both are illustrations of points already stated in
+> prose ({#ch08-1}'s Typhoid Mary example; this section's adhesin discussion).
+
+**Portals of entry of common pathogens:**
+
+| Portal of entry | Pathogen | Disease |
+|---|---|---|
+| Respiratory tract | *Streptococcus pneumoniae* | Pneumonia |
+| | *Neisseria meningitidis* | Meningitis |
+| | *Haemophilus influenzae* | Meningitis |
+| | *Mycobacterium tuberculosis* | Tuberculosis |
+| | Influenza virus | Influenza |
+| | Rhinovirus | Common cold |
+| | Epstein-Barr virus | Infectious mononucleosis |
+| | *Coccidioides immitis* | Coccidioidomycosis |
+| | *Histoplasma capsulatum* | Histoplasmosis |
+| Gastrointestinal tract | *Shigella dysenteriae* | Dysentery |
+| | *Salmonella typhi* | Typhoid fever |
+| | *Vibrio cholerae* | Cholera |
+| | Hepatitis A virus | Infectious hepatitis |
+| | Poliovirus | Poliomyelitis |
+| | *Trichinella spiralis* | Trichinosis |
+| Skin | *Clostridium tetani* | Tetanus |
+| | *Rickettsia rickettsii* | Rocky Mountain spotted fever |
+| | Rabies virus | Rabies |
+| | *Trichophyton rubrum* | Tinea pedis (athlete's foot) |
+| | *Plasmodium vivax* | Malaria |
+| Genital tract | *Neisseria gonorrhoeae* | Gonorrhea |
+| | *Treponema pallidum* | Syphilis |
+| | *Chlamydia trachomatis* | Urethritis |
+| | Human papillomavirus | Genital warts |
+| | *Candida albicans* | Vaginitis |
+
+**Vertical transmission of important pathogens** — organized by the three routes
+already defined in {#ch08-3} (transplacental, birth canal, breast milk):
+
+| Route | Pathogen | Disease in fetus/neonate |
+|---|---|---|
+| Transplacental | *Treponema pallidum* | Congenital syphilis |
+| | *Listeria monocytogenes* | Neonatal sepsis and meningitis |
+| | Cytomegalovirus | Congenital abnormalities |
+| | Parvovirus B19 | Hydrops fetalis |
+| | *Toxoplasma gondii* | Toxoplasmosis |
+| Within birth canal / at birth | *Streptococcus agalactiae* (group B strep) | Neonatal sepsis and meningitis |
+| | *Escherichia coli* | Neonatal sepsis and meningitis |
+| | *Chlamydia trachomatis* | Conjunctivitis or pneumonia |
+| | *Neisseria gonorrhoeae* | Conjunctivitis |
+| | Herpes simplex virus type 2 | Skin, CNS, or disseminated infection (sepsis) |
+| | Hepatitis B virus | Hepatitis B |
+| | Human immunodeficiency virus | Asymptomatic infection |
+| | *Candida albicans* | Thrush |
+| Breast milk | *Staphylococcus aureus* | Oral or skin infections |
+| | Cytomegalovirus | Asymptomatic infection |
+| | Human T-cell leukemia virus | Asymptomatic infection |
+
+**Transmission of important waterborne diseases:**
+
+| Portal of entry | Pathogen | Disease |
+|---|---|---|
+| GI tract — ingestion of drinking water | *Salmonella* species, *Shigella* species, *Campylobacter jejuni*, Norovirus, *Giardia lamblia*, *Cryptosporidium parvum* | Diarrhea |
+| GI tract — ingestion of water while swimming | *Leptospira interrogans* | Leptospirosis |
+| Respiratory tract — inhalation of water aerosol | *Legionella pneumophila* | Pneumonia (Legionnaires' disease) |
+| Skin — penetration | *Pseudomonas aeruginosa* | Hot-tub folliculitis |
+| | *Schistosoma mansoni* | Schistosomiasis |
+| Nose — penetration through the cribriform plate into meninges/brain | *Naegleria fowleri* | Meningoencephalitis |
+
+**Bacterial diseases transmitted by food** (selected — full table covers more
+organisms than reproduced here):
+
+| Category | Bacterium | Typical food | Reservoir | Disease |
+|---|---|---|---|---|
+| Diarrheal — Gram-positive cocci | *Staphylococcus aureus* | Custard-filled pastries, potato/egg/tuna salad | Humans | Food poisoning, especially vomiting |
+| Diarrheal — Gram-positive rods | *Bacillus cereus* | Reheated rice | Soil | Diarrhea |
+| | *Clostridium perfringens* | Cooked meat, stew, gravy | Soil, animals, humans | Diarrhea |
+| | *Listeria monocytogenes* | Unpasteurized milk products | Soil, animals, plants | Diarrhea |
+| Diarrheal — Gram-negative rods | *Escherichia coli* | Various foods and water | Humans | Diarrhea |
+| | *E. coli* O157:H7 | Undercooked meat | Cattle | Hemorrhagic colitis |
+| | *Salmonella enteritidis* | Poultry, meats, eggs | Domestic animals | Diarrhea |
+| | *Salmonella typhi* | Various foods | Humans | Typhoid fever |
+| | *Shigella* species | Various foods and water | Humans | Diarrhea (dysentery) |
+| | *Vibrio cholerae* | Foods and water | Humans | Diarrhea |
+| | *Campylobacter jejuni* | Various foods | Domestic animals | Diarrhea |
+| Nondiarrheal — Gram-positive rods | *Clostridium botulinum* | Improperly canned vegetables, smoked fish | Soil | Botulism |
+| Nondiarrheal — Gram-negative rods | *Brucella* species | Meat and milk | Domestic animals | Brucellosis |
+| | *Francisella tularensis* | Meat | Rabbits | Tularemia |
+| Nondiarrheal — Mycobacteria | *Mycobacterium bovis* | Milk | Cows | Intestinal tuberculosis |
+
+**Zoonotic diseases caused by bacteria:**
+
+| Group | Pathogen | Animal reservoir | Route | Disease |
+|---|---|---|---|---|
+| Mycobacteria | *Mycobacterium bovis* | Cows | Ingestion of unpasteurized milk | Intestinal tuberculosis |
+| Spirochetes | *Borrelia burgdorferi* | Mice | Tick bite (*Ixodes*) | Lyme disease |
+| | *Leptospira interrogans* | Rats and dogs | Urine | Leptospirosis |
+| Chlamydiae | *Chlamydia psittaci* | Psittacine birds | Inhalation of aerosols | Psittacosis |
+| Rickettsiae | *Rickettsia rickettsii* | Rats and dogs | Tick bite (*Dermacentor*) | Rocky Mountain spotted fever |
+| | *Coxiella burnetii* | Sheep | Inhalation of aerosols of amniotic fluid | Q fever |
+| | *Ehrlichia chaffeensis* | Dogs | Tick bite (*Dermacentor*) | Ehrlichiosis |
 
 ---
 

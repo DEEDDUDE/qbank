@@ -95,10 +95,15 @@ covers: communicable disease, epidemic/pandemic/endemic, chronic carrier state, 
 of bacterial pathogenesis (transmission through resolution), modes of transmission
 (human-to-human, nonhuman source, fomites), vertical vs. horizontal transmission,
 portals of entry, tick-borne diseases, Lyme disease, vectors, zoonotic disease,
-adherence via adhesins (pili, glycocalyx)
+adherence via adhesins (pili, glycocalyx), reference tables: portals of entry by
+pathogen, vertical transmission by route (transplacental/birth canal/breast milk),
+waterborne disease transmission, foodborne bacterial disease, zoonotic bacterial
+disease
 terms: epidemic, pandemic, endemic, chronic carrier, vertical transmission, horizontal
 transmission, fomite, portal of entry, vector, zoonotic, Ixodes, Borrelia burgdorferi,
-erythema migrans, adhesin
+erythema migrans, adhesin, transplacental, Legionella pneumophila, Legionnaires'
+disease, Naegleria fowleri, Coxiella burnetii, Ehrlichia, Toxoplasma gondii,
+Chlamydia psittaci, psittacosis, waterborne, foodborne
 
 ## {#ch09} Ch. 9 — Antibiotics
 covers: empirical vs. prophylactic therapy, bactericidal vs. bacteriostatic, MIC/MBC,

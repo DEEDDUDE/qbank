@@ -101,6 +101,26 @@ own numbering and note the origin. Existing citations must never break.
 
 ---
 
+## Patching a source hole
+
+A chapter sometimes ships with a note like "pages N, M carry diagrams with no
+extractable caption text" — a first pass that gave up on a few pages rather than
+guess. When there's reason to revisit (Job C keeps landing on `external` for
+questions that smell like they belong to that chapter), re-read just those pages:
+
+```
+py scripts/prep.py <course> --file slides/<path-to-deck>.pdf --pages 19,20,24,27 --out <label>
+```
+
+Same Stage 0 discipline as Job A — no direct renders, downscaled to the 1000px floor.
+Add whatever real content turns up as a new subsection near where the gap was noted;
+update the note to say what's resolved and what still isn't (a genuinely
+caption-free diagram stays flagged — patching isn't a mandate to invent a caption).
+Regenerate `source.index.md`'s entry for that chapter if the new content adds
+covered concepts or terms.
+
+---
+
 ## What carries over unchanged
 
 From `book-to-study-source`, and non-negotiable here:
