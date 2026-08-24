@@ -134,3 +134,14 @@ line numbers.
 - Filenames carry capture order (`PHOTO-2022-12-27-16-39-37.jpg`). Never rename raw files.
 - Arabic filenames from Google Drive zips often arrive mangled (`#U0646#U0645...`).
   Repair the encoding, don't rename by hand.
+- **One tab per session; start fresh for large vision batches.** Cost tracks conversation
+  length — turn count and how much context has already accumulated — not page count. A
+  page processed late in a long-running session costs far more than the same page
+  processed in a short, fresh one, because every turn re-sends or rebuilds the whole
+  conversation so far. Don't carry Job A or Job B vision work for one tab into the next
+  tab's session.
+- **All vision input goes through `prep.py`'s Stage 0.** Never render pages directly into
+  context. Stage 0's downscale keeps each page's image tokens near the API's minimum; a
+  raw render can run well past it and cost several times more per page for no benefit.
+- **Job A appends to the extract file per batch**, rather than holding prior batches'
+  results in context, so the conversation doesn't grow past what the current batch needs.
