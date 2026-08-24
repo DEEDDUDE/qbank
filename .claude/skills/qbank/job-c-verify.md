@@ -184,6 +184,24 @@ Hard rules for `external`:
 A real gap. Not a failure — it tells you the slides don't cover something the exam did,
 which is worth knowing before the exam rather than during it.
 
+### When the source and standard teaching diverge
+
+Occasionally the source is genuinely narrower than settled outside knowledge — e.g. a
+table that categorizes each pathogen under its single most prominent transmission
+route reads, on a narrow view, as if it's denying every other route. **The source
+decides the answer.** But the divergence is a fact worth knowing, not noise — record
+it in `note:`, never drop it silently. This is the same instinct as `conflict`'s
+"never silently correct," applied to source-vs-outside-knowledge instead of
+source-vs-claim: whichever way the verdict lands, the tension that produced it stays
+visible.
+
+This is not license to override the source with outside knowledge whenever they
+disagree — `external`'s own rule still holds: the source wins whenever it actually
+covers the topic, full stop. This applies only to how a covered topic is read when
+its phrasing is narrower than what it plainly supports (e.g. one route listed doesn't
+imply an exclusive claim about every other route) — a judgment call, and one to make
+carefully and note explicitly, not a general permission to reach past the source.
+
 ---
 
 ## Building options for `qa` questions

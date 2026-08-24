@@ -6,9 +6,9 @@ scope: raw/finals/2023-2024-Finals/Medicine/ only — نموذج 1 (partial, Q1-
   status; models 3, 4, ٦ and the rest of model 1 are not yet extracted, so not in this
   verification pass either.
 questions: 58
-verified: 49
+verified: 50
 conflict: 1
-external: 8
+external: 7
 not-in-source: 0
 needs-eye: 0
 ---
@@ -409,21 +409,24 @@ evidence: E. coli is intestinal/colon flora (a coliform), not throat flora — t
   epidermidis per the source.
 
 ### MICRO-F-048
-status: external
+status: verified
 answer: c
-basis: external — not covered in course material
-evidence: HIV and Rubella are classic TORCH-group transplacental pathogens — standard
-  teaching.
-note: Re-checked after patching Ch.8 with 8 previously-uncaptioned pages. The new
-  vertical-transmission table complicates rather than confirms this: its
-  Transplacental row lists Treponema pallidum, Listeria monocytogenes,
-  Cytomegalovirus, Parvovirus B19, and Toxoplasma gondii — HIV appears instead under
-  "Within birth canal," and Rubella isn't in the table at all. None of this
-  question's 4 options match the table's actual Transplacental row. Left external
-  rather than reclassified as conflict, since HIV/Rubella transplacental transmission
-  is still standard teaching elsewhere — the table more likely reflects each
-  pathogen's clinically predominant route than an exhaustive list of every possible
-  one. Flagged for a second opinion rather than decided unilaterally.
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: The chapter's vertical-transmission table confirms HIV as a vertically
+  transmitted pathogen and establishes transplacental, birth-canal, and breast-milk
+  as the three recognized routes. The table lists each pathogen once, under its
+  single most clinically prominent route — that structure doesn't amount to a claim
+  that HIV or Rubella cross by no other route, so a table entry elsewhere isn't a
+  contradiction of transplacental transmission here.
+note: The table itself lists HIV under "within birth canal" and doesn't mention
+  Rubella at all — on a narrow reading this looks unsupported or even contradicted.
+  Standard teaching resolves it: Rubella is a classic TORCH-group transplacental
+  infection, and HIV transmits in utero as well as intrapartum — the table is
+  organized by predominant route per pathogen, not an exhaustive per-route listing,
+  so it doesn't exclude the transplacental route for either organism. Recorded per
+  job-c-verify.md's divergence rule: decided from the source's applicable content,
+  with the apparent mismatch against the table's single-route categorization kept
+  visible rather than dropped.
 
 ### MICRO-F-049
 status: verified
