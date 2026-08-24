@@ -2,11 +2,14 @@
 """
 Job A, Stage 0 — local prep. No model calls, no tokens spent.
 
-    py scripts/prep.py <course> <tab>
+    py scripts/prep.py <course> <tab> [subpath]
 
-Reads courses/<course>/raw/<tab>/ recursively. Writes prepped pages to
-courses/<course>/.prep/<tab>/ plus a manifest.json, and prints a pre-flight
-report (also written to courses/<course>/.prep/<tab>/preflight.md).
+Reads courses/<course>/raw/<tab>/[subpath] recursively. Writes prepped pages
+to courses/<course>/.prep/<tab>/[subpath] plus a manifest.json, and prints a
+pre-flight report (also written to .../preflight.md). subpath scopes a run to
+one folder within a tab (e.g. one exam's subfolder) without disturbing the
+tab-level prep output a later full-tab run would use — the shared
+.ledger.json is still consulted either way, so nothing gets double-processed.
 
 Never writes to, renames, or deletes anything under raw/.
 
@@ -219,14 +222,15 @@ def estimate_tokens(vision_pages: int, text_chars: int) -> tuple:
 
 
 def main():
-    if len(sys.argv) != 3:
-        print("usage: py scripts/prep.py <course> <tab>", file=sys.stderr)
+    if len(sys.argv) not in (3, 4):
+        print("usage: py scripts/prep.py <course> <tab> [subpath]", file=sys.stderr)
         sys.exit(1)
     course, tab = sys.argv[1], sys.argv[2]
+    subpath = sys.argv[3] if len(sys.argv) == 4 else None
 
     course_dir = REPO_ROOT / "courses" / course
-    raw_dir = course_dir / "raw" / tab
-    prep_dir = course_dir / ".prep" / tab
+    raw_dir = course_dir / "raw" / tab / subpath if subpath else course_dir / "raw" / tab
+    prep_dir = course_dir / ".prep" / tab / subpath if subpath else course_dir / ".prep" / tab
     if not raw_dir.exists():
         print(f"no such folder: {raw_dir}", file=sys.stderr)
         sys.exit(1)
@@ -254,7 +258,7 @@ def main():
         new_files.append((p, h))
 
     manifest = {
-        "course": course, "tab": tab,
+        "course": course, "tab": tab, "subpath": subpath,
         "generated": datetime.now().isoformat(timespec="seconds"),
         "inputs": len(all_files),
         "already_in_ledger": len(already_ledgered),
@@ -340,8 +344,9 @@ def main():
     tok_low, tok_high = estimate_tokens(vision_pages, total_text_chars)
     batches = max(1, -(-vision_pages // 7))  # ceil div, ~6-8 pages/batch
 
+    label = f"{tab}/{subpath}" if subpath else tab
     report_lines = [
-        f"# {course} / {tab} — Stage 0 pre-flight",
+        f"# {course} / {label} — Stage 0 pre-flight",
         "",
         f"- inputs: {len(all_files)}",
         f"- already in ledger (skipped): {len(already_ledgered)}",
