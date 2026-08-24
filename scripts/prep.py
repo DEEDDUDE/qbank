@@ -23,7 +23,10 @@ Never writes to, renames, or deletes anything under raw/.
 
 Steps, per CLAUDE.md and job-a-extract.md:
   1. Walk and hash every input file (sha1).
-  2. Skip anything already recorded in courses/<course>/.ledger.json.
+  2. Skip anything already recorded in courses/<course>/.ledger.json — except a
+     file recorded with "partial": true, which is never skipped, since a partial
+     entry means only some of its pages were consumed and the rest still need
+     Stage 0.
   3. Dedupe by hash within this run — first path by capture order wins,
      the rest are recorded as duplicates, never deleted.
   4. Classify: image / pdf-with-text-layer / pdf-image-only / document.
@@ -89,7 +92,10 @@ def load_ledger(course_dir: Path) -> set:
     seen = set()
     for batch in data.get("batches", []):
         for f in batch.get("files", []):
-            if "sha1" in f:
+            # A file marked partial was only part-consumed by that batch — record
+            # of work done, never a reason to skip. Suppressing it here would make
+            # its unextracted remainder invisible to every future run.
+            if "sha1" in f and not f.get("partial"):
                 seen.add(f["sha1"])
     return seen
 

@@ -10,6 +10,7 @@ tiers: claimed 57 | open 1
 forms: mcq 58
 disputed: 1
 needs-eye: 0
+next-id: MICRO-F-059
 ---
 
 ### MICRO-F-001
@@ -398,6 +399,9 @@ form: mcq
 type: single
 claimed: d
 models: [5]
+note: Near-duplicate theme of MICRO-F-006 (abdominal abscess, gram-negative anaerobic
+  rod) but a different clinical vignette and different stem wording, kept separate
+  rather than merged.
 Your patient is a 70-year-old man who underwent a certain bowel surgery 3 days ago.
 He now has a fever and abdominal pain that may due to peritonitis. Which one of the
 following agent is MOST likely to be the cause?
@@ -405,9 +409,6 @@ a) Salmonella enteritidis
 b) Campylobacter jejuni
 c) Shigella dysenteriae
 d) Bacteroides fragilis
-note: Near-duplicate theme of MICRO-F-006 (abdominal abscess, gram-negative anaerobic
-  rod) but a different clinical vignette and different stem wording, kept separate
-  rather than merged.
 
 ### MICRO-F-032
 tier: claimed
@@ -621,6 +622,10 @@ form: mcq
 type: single
 claimed: b
 models: [5]
+note: Near-duplicate stem of MICRO-F-007 (both about an 8-segment negative-polarity
+  ssRNA virus's properties) but the option sets diverge beyond simple reshuffling,
+  kept separate rather than merged, to avoid conflating two possibly-different
+  questions from the same question bank.
 Your summer research project is to study the viruses that cause upper respiratory
 tract infections. You have isolated a virus from a patients throat and find that its
 genome is RNA. Furthermore, you find that the genome is the complement of viral mRNA
@@ -630,10 +635,6 @@ a) A single-stranded DNA is synthesized during replication.
 b) The virion contains a polymerase.
 c) The genome RNA is segmented.
 d) The purified genome RNA is infectious.
-note: Near-duplicate stem of MICRO-F-007 (both about an 8-segment negative-polarity
-  ssRNA virus's properties) but the option sets diverge beyond simple reshuffling,
-  kept separate rather than merged, to avoid conflating two possibly-different
-  questions from the same question bank.
 
 ### MICRO-F-050
 tier: claimed
@@ -679,15 +680,15 @@ form: mcq
 type: single
 claimed: c
 models: [5]
+note: Page also carries a hand-drawn mark beside the question (an a with a question
+  mark). Moodle's own filled radio (c) is the record per job-a-extract.md; the mark
+  reads as the annotator puzzling over option a rather than a competing selection, so
+  it is noted here, not treated as a second claim.
 Toxic shock syndrome is mainly caused by the toxin of?
 a) Staphylococcus aureus
 b) Streptococcus pyogens
 c) Staphylococcus aureus and Streptococcus pyogens
 d) Candida
-note: Page also carries a hand-drawn mark beside the question (an a with a question
-  mark). Moodle's own filled radio (c) is the record per job-a-extract.md; the mark
-  reads as the annotator puzzling over option a rather than a competing selection, so
-  it is noted here, not treated as a second claim.
 
 ### MICRO-F-054
 tier: claimed
@@ -738,11 +739,11 @@ tier: open
 form: mcq
 type: single
 models: [5]
+note: No radio filled on this page, genuinely unanswered in model 5, unlike every
+  other question in this model. Left as open rather than guessed.
 Each of the following sentences concerning exotoxins is correct EXCEPT
 a) They can be chemically inactivated and used as immunogens in vaccines
 b) Some exotoxins contain lipopolysaccharides as the toxic component
 c) Some exotoxins can cause disease even if they were purified/isolated from the
    bacterial cells.
 d) Some exotoxins cause diarrhea
-note: No radio filled on this page, genuinely unanswered in model 5, unlike every
-  other question in this model. Left as open rather than guessed.

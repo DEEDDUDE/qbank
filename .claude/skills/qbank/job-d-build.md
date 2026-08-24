@@ -23,6 +23,47 @@ Batches stay independent.
 Question IDs carry the batch so they can never collide:
 `MICRO-Q2-014` = microbiology, quizzes batch 2, question 14.
 
+**Exception — IDs Job A already assigned.** CLAUDE.md's ID rule outranks this one:
+"assigned at extraction, permanent, never reused, never renumbered." When several
+source documents are one exam (job-a-extract.md's reshuffled-models exception) and
+Job A has already minted IDs across them in one namespace (`MICRO-F-001`…), Job D
+keeps those IDs as-is — it does not retrofit a batch number into them. Collision
+protection for the *next* batch is Job A's job at extraction time: the extract file
+records `next-id:` in its frontmatter so a later, stateless Job A run knows where to
+start. Batch-carrying IDs are for tabs where Job A mints fresh IDs per batch, which
+is the normal case this file otherwise describes.
+
+---
+
+## Partial batches
+
+A batch can close over a source that isn't fully extracted yet — e.g. one exam model
+of several, or a document only partway read. Job D still builds it; a batch is
+whatever Job C finished, not whatever the raw material eventually contains. Two
+frontmatter fields make the scope honest:
+
+```yaml
+complete: false
+covers: "what this batch actually includes, and what's known to be missing"
+```
+
+The remainder is a later batch, same ID namespace, same file, appended — not a
+rewrite of this one. Never mark `complete: false` from doubt; only when you know
+specifically what's outstanding (a model not yet extracted, a page range not yet
+read).
+
+**The matching ledger risk.** A partially-consumed input file must never be
+ledgered as done — `prep.py`'s dedup would then skip it forever, and whatever
+wasn't yet extracted becomes permanently invisible. Mark it in the ledger:
+
+```json
+{ "name": "...", "sha1": "...", "partial": true,
+  "pages_done": "1-8", "questions_done": "Q1-16 of 50" }
+```
+
+`prep.py`'s `load_ledger()` treats `partial: true` as never-skip. Check this before
+writing any ledger entry for a source a batch didn't fully consume.
+
 ---
 
 ## The file
