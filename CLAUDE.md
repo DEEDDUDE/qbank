@@ -22,7 +22,7 @@ qbank/
       source.md                      ← clean study source (Job B)
       source.lab.md                  ← lab study source, own anchor namespace (Job B)
       out/                           ← verified batch files (Job D)
-      flagged/                       ← crops needing human eyes
+      flagged/                       ← image evidence: crops any verdict depends on
       .ledger.json                   ← hashes of everything already processed
   site/                      ← the published app
 ```
@@ -38,7 +38,15 @@ Courses this semester: `microbiology`, `pharmacology`, `public-health`,
 ## What gets committed
 
 **Committed:** `source.md`, everything in `out/`, `.ledger.json`, the skill, scripts,
-the site, and only those `flagged/` crops still awaiting review.
+the site, and `flagged/`.
+
+**`flagged/` holds image evidence, not a pending queue.** Any question whose verdict
+depends on a photo — a zone of inhibition, a colony plate, a stain result — keeps its
+crop committed permanently, resolved or not. It's the visual equivalent of Job C's
+evidence line: a `verified` or `external` answer that cites what a photo shows is only
+checkable if the photo is still there to check. Pending review (`needs-eye`) is a
+status on the question, recorded in the extract/verify files — not a property of the
+folder. Don't delete a crop because its question got resolved.
 
 **Never committed:** `raw/`, `slides/`, any generated PDF or built HTML, any file with
 a version suffix. Git history is the version history — there is no `_v2`, no `_final`.
