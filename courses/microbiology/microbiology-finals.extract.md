@@ -2,10 +2,13 @@
 course: microbiology
 tab: finals
 scope: raw/finals/2023-2024-Finals/Medicine/ only — 5 duplicate models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured)
-questions: 16
-tiers: claimed 16
-forms: mcq 16
-disputed: 0
+status: IN PROGRESS — نموذج 1 (partial, Q1-16 of 50) and نموذج ٥ (complete, 50/50) done.
+  نموذج 3, 4, ٦ not started; نموذج 1's remaining pages (Q17-50) not started. Each
+  remaining model gets its own fresh session per CLAUDE.md's one-tab-per-session rule.
+questions: 58
+tiers: claimed 57 | open 1
+forms: mcq 58
+disputed: 1
 needs-eye: 0
 ---
 
@@ -27,7 +30,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 5]
 Each of the following statements concerning lysogeny is correct EXCEPT?
 a) Viral DNA is integrated into bacterial DNA
 b) Viral genes replicate independently of bacterial genes
@@ -39,7 +42,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 5]
 After extraction of a wisdom tooth, an 18-year-old male student was diagnosed as having
 subacute bacterial endocarditis. He has a congenital heart disease that has been under
 control. Which of the following is the most likely organism causing his infection?
@@ -124,8 +127,13 @@ d) It signifies a current infection
 tier: claimed
 form: mcq
 type: single
-claimed: c
-models: [1]
+disputed: true
+claims:
+  - source: model 1
+    answer: All the options are correct.
+  - source: model 5
+    answer: Protein A that binds to the Fc portion of IgG
+models: [1, 5]
 Which one of the following is considered a virulence factor for Staphylococcus aureus?
 a) Protein A that binds to the Fc portion of IgG
 b) A heat stable exotoxin.
@@ -161,7 +169,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 5]
 71 year old woman with chronic leukemia developed slow impairment of memory as well as
 deterioration of intellectual power and orientation. Brain autopsy specimens showed
 demyelination due to viral damage of oligodendroglial cells. Abundant JC virus particles
@@ -176,7 +184,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1]
+models: [1, 5]
 Which of the following mechanisms of bacterial killing is not correct?
 a) Lysozyme hydrolyzes bacterial cell walls
 b) Silver nitrate can inactivate bacterial enzymes
@@ -198,7 +206,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 5]
 A 30-year-old woman with nonbloody diarrhea for the past 14 hours. Which one of the
 following organisms is not likely to cause this illness?
 a) Salmonella
@@ -217,3 +225,524 @@ a) E. coli
 b) Mycoplasma pneumoniae
 c) Streptococcus Pyogenes
 d) Streptococcus pneumoniae
+
+### MICRO-F-017
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+One of the following statements is not related to cholera toxin?
+a) Cholera toxin activates the enzyme adenylate cyclase.
+b) Cholera toxin inhibits elongation factor 2.
+c) Binding of cholera toxin to the mucosal epithelium is mediated via its B subunit.
+d) Cholera toxin acts by adding ADP-ribose to a G protein
+
+### MICRO-F-018
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+Each of the following statements concerning Treponema is correct EXCEPT:
+a) Treponema pallidum produces an exotoxin that stimulates adenylate cyclase.
+b) Treponema pallidum cannot be grown on conventional laboratory media.
+c) Patients infected with T. pallidum produce antibodies that react with beef heart
+   cardiolipin.
+d) Treponemes are best diagnosed by fluorescent treponemal antibody-absorbed
+   (FTA-ABS) test on a specimen of her serum.
+
+### MICRO-F-019
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+Which one of the following infectious agents is NOT an obligate intracellular?
+a) Mycoplasma
+b) Rickettsia
+c) Adenovirus
+d) Chlamydia
+
+### MICRO-F-020
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [5]
+Which of the following viral diseases is a zoonotic disease?
+a) Herpes simplex virus 2
+b) Poliomyelitis
+c) Rabies
+d) Cytomegaloviruse
+
+### MICRO-F-021
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+One of the following molecules (structures) is not a component of any virus?
+a) Cell wall
+b) Enzyme
+c) DNA
+d) RNA
+
+### MICRO-F-022
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+Most viruses acquire surface glycoproteins by budding through the nuclear membrane.
+a) False
+b) True
+
+### MICRO-F-023
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Which of the following is not correct regarding human normal flora?
+a) Bacteroides fragilis is found in greater numbers than Escherichia coli in the colon
+b) Candida albicans is part of the normal flora of both men and women
+c) Streptococcus mutans is found in the mouth and they cause dental caries
+d) viridans streptococci are predominantly found in the alveoli.
+
+### MICRO-F-024
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+The main site of action of acyclovir is viral genome DNA synthesis.
+a) True
+b) False
+
+### MICRO-F-025
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [5]
+Infection by which one of the following bacteria is most likely to be interrupted by
+handwashing?
+a) Treponema pallidum
+b) Borrelia burgdorferi
+c) Staphylococcus aureus
+d) Streptococcus agalactiae (group B streptococcus)
+
+### MICRO-F-026
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Infection by which one of the following bacteria is most likely to be transmitted
+vertically?
+a) Clostridium tetani
+b) Streptococcus pneumonia
+c) Haemophilus influenzae
+d) Chlamydia trachomatis
+
+### MICRO-F-027
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+Ethylene oxide is used to sterilize heat-sensitive materials, such as surgical
+instruments, in hospitals.
+a) False
+b) True
+
+### MICRO-F-028
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+An immunological reaction that is produced between soluble antigen with antibody is
+called?
+a) Slide agglutination
+b) Precipitation
+c) Agglutination
+d) Cold serum reaction.
+
+### MICRO-F-029
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+Fungi are never considered as members of human normal flora
+a) True
+b) False
+
+### MICRO-F-030
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [5]
+Which one of the following BEST describes the mode of action of endotoxin?
+a) They blocks release of acetylcholine
+b) Endotoxins degrades lecithin in cell membranes
+c) Endotoxins causes the release of tumor necrosis factor
+d) They inactivates elongation factor 2
+
+### MICRO-F-031
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Your patient is a 70-year-old man who underwent a certain bowel surgery 3 days ago.
+He now has a fever and abdominal pain that may due to peritonitis. Which one of the
+following agent is MOST likely to be the cause?
+a) Salmonella enteritidis
+b) Campylobacter jejuni
+c) Shigella dysenteriae
+d) Bacteroides fragilis
+note: Near-duplicate theme of MICRO-F-006 (abdominal abscess, gram-negative anaerobic
+  rod) but a different clinical vignette and different stem wording, kept separate
+  rather than merged.
+
+### MICRO-F-032
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+How is the capsule surrounding a bacterium involved in the immune response?
+a) It induces granulomatous inflammation
+b) It retards phagocytosis
+c) It promotes phagocytosis
+d) It degrades IgA
+
+### MICRO-F-033
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Which of the following statements is not correct regarding human immunodeficiency
+virus (HIV)?
+a) A DNA copy of the HIV genome integrates into host cell DNA
+b) The virion contains an RNA-dependent DNA polymerase
+c) HIV is an enveloped RNA virus
+d) Acyclovir inhibits HIV replication
+
+### MICRO-F-034
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+The most correct choice represents the decreasing order of resistance to
+sterilization:
+a) Prions, bacteria, bacterial spores
+b) Bacterial spores, bacteria, Prions
+c) Bacteria, Prions, Bacterial spores
+d) Prions, bacterial spores, bacteria
+
+### MICRO-F-035
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [5]
+How is Chlamydia trachomatis typically diagnosed since it cannot be cultured?
+a) Serology
+b) Dark-field microscopy
+c) Nucleic acid amplification test (NAAT)
+d) Perform the VDRL test.
+
+### MICRO-F-036
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+One of the following is a pathogen with the ability to enter and survive inside cells?
+a) Staphylococcus aureus
+b) Streptococcus pyogenes
+c) Escherichia coli
+d) Mycobacterium tuberculosis
+
+### MICRO-F-037
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Which of the following is considered as a sterilizing agent?
+a) Carbon tetrachloride
+b) Oxygen
+c) Nitrogen
+d) Ethelene oxide
+
+### MICRO-F-038
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Which of the following component is found in all viruses
+a) The envelope
+b) Spikes
+c) DNA
+d) Capsid
+
+### MICRO-F-039
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Which one of the following sets of properties of exotoxins and endotoxins is
+correctly matched?
+a) Exotoxins-weakly antigenic; endotoxins-highly antigenic
+b) Exotoxins-weakly toxic per microgram; endotoxins-highly toxic per microgram
+c) Exotoxins-produced only by gram-negative bacteria; endotoxins-produced only by
+   gram positive bacteria
+d) Exotoxins-polypeptides; endotoxins-lipopolysaccharide
+
+### MICRO-F-040
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+Which of the following bacterial cells is an endospore forming AEROBIC bacteria?
+a) Bacillus anthracis
+b) Bacillus and Clostridium
+c) Clostridium botulinum
+d) Staphylococcus aureus
+
+### MICRO-F-041
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+Exotoxins are less toxic than the same amount of endotoxins
+a) False
+b) True
+
+### MICRO-F-042
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+What is the main purpose of throat cultures?
+a) To detect Mycobacterium tuberculosis
+b) To identify viruses causing respiratory infections
+c) To diagnose pneumonia
+d) To diagnose pharyngitis caused by Streptococcus pyogenes
+
+### MICRO-F-043
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [5]
+Which of the following actions is not related to endotoxins?
+a) Activation of the coagulation cascade
+b) Hypotension
+c) Opsonization
+d) Fever production
+
+### MICRO-F-044
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+All of the following are true of A-B exotoxins Except?
+a) They are only produced by gram-negative bacteria
+b) They consist of two polypeptide components.
+c) The B portion of the toxin binds to surface receptors on host cells
+d) The A portion of the toxin is the active component
+
+### MICRO-F-045
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+Common sexually transmitted disease that may lead to cervical carcinoma is caused by
+which one of the following viruses?
+a) Herpes simplex virus 2
+b) Papillomavirus
+c) Hepatitis A
+d) Hepatitis B
+
+### MICRO-F-046
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+A presumptive diagnosis of gonorrhea can be made by finding gram-negative kidney
+bean-shaped diplococci within neutrophils in a urethral discharge.
+a) True
+b) False
+
+### MICRO-F-047
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Which of the following sentences is worng regarding normal flora?
+a) Staphylococcus epidermidisfound on human skin.
+b) Staphylococcus aureus can be found is the nose
+c) The major site where Bacteroides fragilis is found is the colon
+d) Escherichia coli is a major normal flora of the throat
+
+### MICRO-F-048
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [5]
+The following pathogens are transmitted trans placentally?
+a) Escherichia coli, Neisseria gonorrhoeae
+b) Herpes simplex virus type 1 and 2
+c) HIV, Rubella
+d) Staphylococcus aureus, Group B streptococci
+
+### MICRO-F-049
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+Your summer research project is to study the viruses that cause upper respiratory
+tract infections. You have isolated a virus from a patients throat and find that its
+genome is RNA. Furthermore, you find that the genome is the complement of viral mRNA
+within the infected cell. Of the following, which one is the MOST appropriate
+conclusion you could draw?
+a) A single-stranded DNA is synthesized during replication.
+b) The virion contains a polymerase.
+c) The genome RNA is segmented.
+d) The purified genome RNA is infectious.
+note: Near-duplicate stem of MICRO-F-007 (both about an 8-segment negative-polarity
+  ssRNA virus's properties) but the option sets diverge beyond simple reshuffling,
+  kept separate rather than merged, to avoid conflating two possibly-different
+  questions from the same question bank.
+
+### MICRO-F-050
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Which one of the following sets of bacteria produces exotoxins that act by
+ADP-ribosylation?
+a) Clostridium tetani and Bacillus anthracis
+b) Corynebacterium diphtheriae and Escherichia coli
+c) Enterococcus faecalis and Mycobacterium tuberculosis
+d) Clostridium perfringens and Staphylococcus aureus
+
+### MICRO-F-051
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [5]
+Each of the following statements concerning exotoxins is correct EXCEPT?
+a) Cholera toxin are enterotoxin that stimulats adenylate cyclase
+b) Diphtheria is caused by an exotoxin that inhibits protein synthesis.
+c) Botulism is caused by a toxin that hydrolyzes lecithin (lecithinase).
+d) Some strains of Escherichia coli produce an enterotoxin that causes diarrhea
+
+### MICRO-F-052
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+Which of the following bacteria produce an exotoxin that inhibits the release of
+acetylcholine at the neuromuscular junction?
+a) Bordetella pertussis
+b) Corynebacterium diphtheriae
+c) Bacillus anthracis
+d) Clostridium botulinum
+
+### MICRO-F-053
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [5]
+Toxic shock syndrome is mainly caused by the toxin of?
+a) Staphylococcus aureus
+b) Streptococcus pyogens
+c) Staphylococcus aureus and Streptococcus pyogens
+d) Candida
+note: Page also carries a hand-drawn mark beside the question (an a with a question
+  mark). Moodle's own filled radio (c) is the record per job-a-extract.md; the mark
+  reads as the annotator puzzling over option a rather than a competing selection, so
+  it is noted here, not treated as a second claim.
+
+### MICRO-F-054
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+A patient with nausea, vomiting, and diarrhea within 3 hours after eating and being
+healthy most likely has?
+a) Shigellosis
+b) Intoxication
+c) Salmonellosis
+d) E. coli gastroenteritis
+
+### MICRO-F-055
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [5]
+Botulinum toxin causes paralysis by blocking release of acetylcholine
+a) False
+b) True
+
+### MICRO-F-056
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+Legionella pneumophila infection is acquired by inhalation of aerosols from
+environmental water sources.
+a) True
+b) False
+
+### MICRO-F-057
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [5]
+Lysol is considered as sterilizing agent.
+a) False
+b) True
+
+### MICRO-F-058
+tier: open
+form: mcq
+type: single
+models: [5]
+Each of the following sentences concerning exotoxins is correct EXCEPT
+a) They can be chemically inactivated and used as immunogens in vaccines
+b) Some exotoxins contain lipopolysaccharides as the toxic component
+c) Some exotoxins can cause disease even if they were purified/isolated from the
+   bacterial cells.
+d) Some exotoxins cause diarrhea
+note: No radio filled on this page, genuinely unanswered in model 5, unlike every
+  other question in this model. Left as open rather than guessed.

@@ -268,6 +268,57 @@ every page in the batch, after all pages are read, not page by page: a stem that
 cut off on one page and answered in full on another is one question, and the fuller
 version wins. Cross-batch matching is the app's job, not this one.
 
+### Exception: reshuffled models of one exam
+
+Some source material is several copies of the *same* exam, redistributed to different
+students as randomized "models" to discourage copying — same question pool, different
+order, different distractor order. When the user identifies input as this shape, Job A
+merges across the whole run instead of per-batch, and each entry gains a `models:` field
+listing every model it was seen in:
+
+```
+### MICRO-F-001
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1, 4]
+...
+```
+
+Three rules govern this exception:
+
+- **One question, one ID, assigned by whichever model contained it first.** Once minted,
+  an ID is never re-minted for the same question when it resurfaces in a later model —
+  append to `models:` instead.
+- **Match on stem text, never on question number.** The models are shuffled, so "Question
+  7" in one model and "Question 7" in another are almost never the same question.
+- **When two models' claims disagree, flag `disputed: true`** with a `claims:` list keyed
+  by model number, same shape as the standard disputed schema above:
+
+  ```
+  ### MICRO-F-009
+  tier: claimed
+  form: mcq
+  type: single
+  disputed: true
+  claims:
+    - source: model 1
+      answer: c
+    - source: model 4
+      answer: b
+  models: [1, 4]
+  ```
+
+  If one of the competing models is independently known to carry an official answer key
+  (a professor's printed key, not just another student's Moodle attempt), that model's
+  claim is tier `official` and wins outright — it is not a fifth vote among equals, and
+  the disagreement is recorded in `note:` rather than as a `disputed` claim.
+
+This is a scoped exception to the batch-only rule above, invoked only when the user has
+identified the input as reshuffled models of one exam — not a general license to match
+across arbitrary files.
+
 ---
 
 ## Done when
