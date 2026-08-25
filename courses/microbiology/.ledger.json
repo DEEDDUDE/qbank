@@ -536,6 +536,207 @@
           "pages": 1
         }
       ]
+    },
+    {
+      "id": "quizzes-01",
+      "built": "2026-08-25",
+      "questions": 54,
+      "note": "Job A on full quizzes tab (2022-2023-Quiz photo set + 2023-2024-Quizzes PDFs). Two Moodle bacteriology attempts and a phone-screenshot review both matched purely on stem text across reshuffled question numbers/option order, not on question number. prep.py gained trim_dark_border (letterbox black-bar crop) to fix Pathogenesis Quiz.pdf, which was shipping at ~40% of usable resolution.",
+      "files": [
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-27.jpg",
+          "sha1": "27f0f145a64f77886b61eae38cd5f953642f0812",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-28(1).jpg",
+          "sha1": "53088a0f3600984b5d1203e866795516a1f6639b",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-28.jpg",
+          "sha1": "b422dbd207c38256eab0128ce64af87767ceacc4",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-29(1).jpg",
+          "sha1": "060e195291e25fc9d3ef4cfe07c2f90f902c929e",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-29.jpg",
+          "sha1": "ec5c80ce0471127d155827288b2a49e9b69bd73d",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-30.jpg",
+          "sha1": "847590621bb134ced514f3dd54b57c5802a3e12e",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-31.jpg",
+          "sha1": "b526fd0b93ffd7759362648858f50705cd2236be",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-38.jpg",
+          "sha1": "262796684912a7f59810b0b32dc8dae3dd0035f8",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-39.jpg",
+          "sha1": "60ce436e876199d56a4c27c48e1730abcc56dd32",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-28-49.jpg",
+          "sha1": "b0d4661d1892af9b4792aa800a66f119f8d74276",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-29-00.jpg",
+          "sha1": "670b448be1e8e2dcfa23227927909000ddd77b37",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-20-29-08.jpg",
+          "sha1": "9bba49538740d0146aaa409632b964d9a961aee6",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-21-03-39.jpg",
+          "sha1": "5326161bbd398d0e921304228b13c0b789f54111",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-21-03-40(1).jpg",
+          "sha1": "9e8d275ba48aadb34d51078ccc4c7c70e8792c16",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-21-03-40.jpg",
+          "sha1": "4973e9e707bc276c68f95efb2e5e6bedd3e79fc0",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-21-03-41(1).jpg",
+          "sha1": "28924c09a23dd39ee134ae68d2c2563272c33db3",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-21-03-41.jpg",
+          "sha1": "aa80743744642f8aeeca870ad2f4e020de783f6c",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-21-03-42(1).jpg",
+          "sha1": "96d9e0573e2291c1f222a18a95427b5058f6ca92",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-21-03-42.jpg",
+          "sha1": "30d924c6983239686003866b23cd5b91f8893cec",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-10-22-21-03-44.jpg",
+          "sha1": "0a6ef9ca6c761a044a994e4e9c1431b28e0d7459",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-12-27-16-39-37(1).jpg",
+          "sha1": "99303e6b01f878362eb0c468228aec68a9211bfa",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-12-27-16-39-37.jpg",
+          "sha1": "88ae85ecad230c2f1d2929ae65f4b6f100ed91df",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-12-27-16-39-38(1).jpg",
+          "sha1": "edad4afb0b4232c469d147a9f973f31354824bdc",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-12-27-16-39-38.jpg",
+          "sha1": "d6219f012ba3d24d3ab356a83f2bdab8609cfa7f",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-12-27-16-39-39(1).jpg",
+          "sha1": "5134ea123aba9c6593768c146aefed7de2e63743",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-12-27-16-39-39.jpg",
+          "sha1": "03d0f6300428b55dd91957fb74241295d5184c11",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2022-2023-Quiz/PHOTO-2022-12-27-16-39-40.jpg",
+          "sha1": "6a32842b172e5a3ff4b27bec9d3785b9c6492930",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2023-2024-Quizzes/Pathogenesis Quiz.pdf",
+          "sha1": "4dbc8c492500ac8a3e8116636baeaa40a65a714a",
+          "pages": 8
+        },
+        {
+          "name": "raw/quizzes/2023-2024-Quizzes/Virology Quiz.pdf",
+          "sha1": "0e7e53d99a279df250be568d4dc080b2cfc5e84f",
+          "pages": 13
+        }
+      ]
+    },
+    {
+      "id": "practice-01",
+      "built": "2026-08-25",
+      "questions": 244,
+      "note": "Job A on full practice tab. Two printed MCQ banks (AE-MCQ.pdf via Pathogenesis+Antibiotics+Structure.pdf, and Sterilization.pdf) turned out to share substantial content under different local numbering -- matched by stem text, merged where the two answer keys agreed, marked disputed where they disagreed (2 cases). Worksheets and the student-predictions docx also overlap each other (docx is a student's own compilation of worksheet questions) -- merged the same way. Virology.pdf (9 pages, 8 free via text layer) yielded a full 21-question official-tier bank plus two fill-in-term sets from its own text layer alone, no vision needed except one blank page.",
+      "files": [
+        {
+          "name": "raw/practice/Worksheets/1-2-Work Sheet 1, Introduction to Microbial World.pdf",
+          "sha1": "4040ef3976a8045459b35657b7c41f9e7f853945",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/Worksheets/2-3-Work Sheet 2, Structure of Bacterial Cells.pdf",
+          "sha1": "f1ff443139a9e89dd05283076b1fbc7356030d9e",
+          "pages": 2
+        },
+        {
+          "name": "raw/practice/Worksheets/4-2-Work Sheet 3, Bacterial Growth  laboratory diagnosis.pdf",
+          "sha1": "2b79443e0e8f7493138c29729e4179960ae372ac",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/Worksheets/5-2-Work Sheet 4, Bacterial Genetics.pdf",
+          "sha1": "8cb901ddfbae6381e47c6bb73bad93935dc1ec68",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/External-MCQ_S/Pathogenesis + Antibiotics + Structure.pdf",
+          "sha1": "7583af0def874da07a50acfcbf9cf61f2a818aac",
+          "pages": 17
+        },
+        {
+          "name": "raw/practice/student-predictions/Short Essay Q_s- Odi.docx",
+          "sha1": "3b68da4738fc3b9e8bc58bba89f6ccb4f80a35b6",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/External-MCQ_S/Sterilization.pdf",
+          "sha1": "c716f3aedc7a79ee581b22e437e55eac0b19aa79",
+          "pages": 7
+        },
+        {
+          "name": "raw/practice/External-MCQ_S/Virology.pdf",
+          "sha1": "08348dbf56b1cead132bfd79bebb5b0c840919fe",
+          "pages": 9
+        }
+      ]
     }
   ]
 }
