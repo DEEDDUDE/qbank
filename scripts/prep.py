@@ -168,8 +168,95 @@ def safe_crop(im: Image.Image):
     return im.crop(bbox), None
 
 
+DARK_PIXEL = 60          # near-black; a status/nav bar or letterbox fill
+# A phone status/nav bar is mostly-dark, not uniformly dark — light clock text,
+# battery and signal icons punch dozens of rows below a near-100% threshold even
+# though the row is still clearly bar, not content. A real content row (question
+# text on a light background) sits far below this: text glyphs are sparse enough
+# against the background that its dark fraction stays near 0. 0.5 sits well
+# clear of both populations.
+DARK_EDGE_FRACTION = 0.5
+MIN_TRIMMED_PX = 150    # degenerate-result floor for trim_dark_border, in pixels
+
+
+def _walk_edge(n, is_dark, tolerance=8):
+    """How far a dark border region extends from index 0, tolerating up to
+    `tolerance` consecutive non-dark rows/cols before giving up — the outer
+    white-margin crop leaves a couple of antialiased fringe pixels right at its
+    own edge, and without this a single light row there would stop the walk
+    before it ever reaches the real bar. A page with no dark border at all
+    (first row already light) exceeds tolerance immediately and returns 0, so
+    this still can't trim a page that has none."""
+    border_end = 0
+    gap = 0
+    for i in range(n):
+        if is_dark(i):
+            gap = 0
+            border_end = i + 1
+        else:
+            gap += 1
+            if gap > tolerance:
+                break
+    return border_end
+
+
+def _trim_dark_axis(im: Image.Image, rows: bool):
+    """One axis of trim_dark_border. Must run on an image whose OTHER axis is
+    already trimmed of its own bars — a full-width top/bottom bar makes every
+    column look mostly-dark when evaluated over the untrimmed height, and
+    trims columns that were never actually part of a bar. Rows before columns,
+    each on the previous stage's output, keeps every dark-fraction measurement
+    restricted to the dimension it's actually testing."""
+    w, h = im.size
+    if w == 0 or h == 0:
+        return im, False
+    gray = im if im.mode == "L" else ImageOps.grayscale(im)
+    px = gray.load()
+    n = h if rows else w
+    step = max(1, (w if rows else h) // 200)
+
+    def dark_frac(i):
+        if rows:
+            vals = [px[x, i] for x in range(0, w, step)]
+        else:
+            vals = [px[i, y] for y in range(0, h, step)]
+        return sum(1 for v in vals if v < DARK_PIXEL) / len(vals)
+
+    def is_dark(i):
+        return dark_frac(i) >= DARK_EDGE_FRACTION
+
+    start = _walk_edge(n, is_dark)
+    end = n - _walk_edge(n, lambda i: is_dark(n - 1 - i))
+    if end < start:
+        end = start
+    if start == 0 and end == n:
+        return im, False
+    if end - start < MIN_TRIMMED_PX:
+        return im, False
+
+    box = (0, start, w, end) if rows else (start, 0, end, h)
+    return im.crop(box), True
+
+
+def trim_dark_border(im: Image.Image):
+    """Trim uniformly dark letterbox bars — a phone screenshot pasted into a page
+    keeps its own black status/nav bars, which content_bbox's not-near-white
+    threshold treats as content and safe_crop therefore leaves in place. Call this
+    AFTER safe_crop (or on an already content-cropped image): detecting a dark
+    edge-to-edge run requires the white page margin already gone, otherwise a
+    bar's dark-pixel fraction is diluted by that margin and never crosses
+    threshold. Returns (image, trimmed_bool); a no-op — same image back — on any
+    page with no such bar, which is why it cannot regress a page that's already
+    all white/gray background."""
+    trimmed_rows, row_hit = _trim_dark_axis(im, rows=True)
+    trimmed_both, col_hit = _trim_dark_axis(trimmed_rows, rows=False)
+    if not (row_hit or col_hit):
+        return im, False
+    return trimmed_both, True
+
+
 def prep_image(path: Path, out_path: Path) -> dict:
-    info = {"below_floor": False, "cropped": False, "flag": None}
+    info = {"below_floor": False, "cropped": False, "trimmed": False, "flag": None}
     with Image.open(path) as im:
         im = ImageOps.exif_transpose(im)  # auto-rotate via EXIF
         orig_long = max(im.size)
@@ -186,6 +273,9 @@ def prep_image(path: Path, out_path: Path) -> dict:
             info["cropped"] = True
         else:
             info["flag"] = reason
+
+        im, trimmed = trim_dark_border(im)
+        info["trimmed"] = trimmed
 
         im = ImageOps.grayscale(im)
         long_edge = max(im.size)
@@ -218,6 +308,19 @@ def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None, grays
         pix = page.get_pixmap(dpi=DPI)
         img_bytes = pix.tobytes("png")
         im = Image.open(io.BytesIO(img_bytes))
+
+        # A rendered PDF page never got safe_crop's white-margin crop before —
+        # only images from prep_image did. A phone screenshot pasted into a page
+        # (its own black status/nav bars, white A4 margin around it) needs both
+        # passes to reach true content resolution: crop the white margin, then
+        # trim the dark bars that survive that crop as "content".
+        cropped_ok = False
+        cropped, _reason = safe_crop(im)
+        if cropped is not None:
+            im = cropped
+            cropped_ok = True
+        im, trimmed_ok = trim_dark_border(im)
+
         orig_long = max(im.size)
         out_path = out_dir / f"{stem}__p{i:03d}.jpg"
 
@@ -234,6 +337,7 @@ def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None, grays
         results.append({
             "page": i, "mode": "image", "chars": chars,
             "out_path": str(out_path), "below_floor": below_floor,
+            "cropped": cropped_ok, "trimmed": trimmed_ok,
         })
     doc.close()
     return results
