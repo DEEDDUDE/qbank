@@ -365,6 +365,8 @@ def main():
     documents = 0
     flagged = []
     total_text_chars = 0
+    claimed_out_paths = set()
+    collided_out_paths = []
 
     for p, h in new_files:
         rel = str(p.relative_to(raw_dir))
@@ -372,8 +374,12 @@ def main():
         entry = {"path": rel, "sha1": h, "kind": kind, "pages": []}
 
         if kind == "image":
-            stem = re.sub(r"[^A-Za-z0-9._-]", "_", p.stem)
+            rel_stem = re.sub(r"[^A-Za-z0-9._-]", "_", str(Path(rel).with_suffix("")))
+            stem = f"{rel_stem}-{h[:8]}"
             out_path = prep_dir / f"{stem}.jpg"
+            if str(out_path) in claimed_out_paths:
+                collided_out_paths.append(str(out_path))
+            claimed_out_paths.add(str(out_path))
             info = prep_image(p, out_path)
             total_pages += 1
             vision_pages += 1
@@ -388,7 +394,8 @@ def main():
             })
 
         elif kind == "pdf":
-            stem = re.sub(r"[^A-Za-z0-9._-]", "_", p.stem)
+            rel_stem = re.sub(r"[^A-Za-z0-9._-]", "_", str(Path(rel).with_suffix("")))
+            stem = f"{rel_stem}-{h[:8]}"
             try:
                 page_results = prep_pdf(p, prep_dir, stem)
             except Exception as e:
@@ -397,6 +404,10 @@ def main():
                 continue
             for pr in page_results:
                 total_pages += 1
+                if pr.get("out_path"):
+                    if pr["out_path"] in claimed_out_paths:
+                        collided_out_paths.append(pr["out_path"])
+                    claimed_out_paths.add(pr["out_path"])
                 if pr["mode"] == "text":
                     text_pages += 1
                     total_text_chars += pr["chars"]
@@ -415,6 +426,17 @@ def main():
 
         manifest["files"].append(entry)
 
+    # Anti-loss check: every vision page must have claimed a unique output path.
+    # A repeat here means one page's file silently overwrote another's on disk —
+    # exactly the failure mode that lost 45 midterm pages before out_path stems
+    # carried a sha1 suffix. Surface it instead of writing a clean-looking report
+    # over a lossy run.
+    unique_out_paths = len(claimed_out_paths)
+    output_name_collisions = len(collided_out_paths)
+    if output_name_collisions:
+        for cp in collided_out_paths:
+            flagged.append({"file": None, "page": None, "reason": f"output-path-collision: {cp}"})
+
     manifest["summary"] = {
         "new_files": len(new_files),
         "total_pages": total_pages,
@@ -423,8 +445,16 @@ def main():
         "below_floor_pages": below_floor_pages,
         "documents": documents,
         "flagged": len(flagged),
+        "unique_out_paths": unique_out_paths,
+        "output_name_collisions": output_name_collisions,
     }
     manifest["flags"] = flagged
+
+    assert unique_out_paths == vision_pages, (
+        f"Stage 0 output-path collision: {vision_pages} vision pages claimed but only "
+        f"{unique_out_paths} unique out_paths written. {output_name_collisions} page(s) "
+        f"overwrote another page's file. See manifest.json 'flags' for the colliding paths."
+    )
 
     manifest_path = prep_dir / "manifest.json"
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -446,6 +476,7 @@ def main():
         f"- need vision: {vision_pages}",
         f"- below 1000px floor (passed through untouched): {below_floor_pages}",
         f"- flagged: {len(flagged)}",
+        f"- output-path collisions: {output_name_collisions}",
         f"- estimated Stage 1 read: ~{tok_low//1000}k-{tok_high//1000}k tokens across {batches} batches of 6-8 pages",
     ]
     if flagged:
