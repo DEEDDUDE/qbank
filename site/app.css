@@ -1,0 +1,100 @@
+/* Placeholder styling — legible at phone width, nothing more. Real design
+   pass comes after the data layer is confirmed working. */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 12px;
+  max-width: 600px;
+  margin-inline: auto;
+  font-family: -apple-system, system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #111;
+  background: #fff;
+}
+
+h1 { font-size: 1.2rem; }
+
+a { color: #06c; }
+
+.list { list-style: none; padding: 0; }
+.list li { padding: 10px 0; border-bottom: 1px solid #ddd; }
+
+.meta { color: #666; font-size: 0.9em; }
+
+.stem { white-space: pre-wrap; font-size: 1.05em; margin: 12px 0; }
+
+.options { list-style: none; padding: 0; margin: 0 0 16px; }
+.option {
+  padding: 12px;
+  margin-bottom: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.option:active { background: #f0f0f0; }
+.option.correct { border-color: #1a7a1a; background: #eaf7ea; font-weight: bold; }
+.option.claimed-wrong { border-color: #b02a2a; background: #fbeaea; }
+.option.picked:not(.correct) { outline: 2px solid #06c; }
+
+.reveal-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  margin-bottom: 16px;
+}
+
+.resolution {
+  border-left: 4px solid #999;
+  padding: 8px 12px;
+  margin-bottom: 24px;
+}
+.resolution-verified { border-color: #1a7a1a; }
+.resolution-conflict { border-color: #b02a2a; }
+.resolution-external { border-color: #b8860b; }
+.resolution-not-in-source { border-color: #888; }
+.resolution-needs-eye { border-color: #888; }
+
+.badge {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  background: #999;
+}
+.badge-verified { background: #1a7a1a; }
+.badge-conflict { background: #b02a2a; }
+.badge-external { background: #b8860b; }
+.badge-not-in-source { background: #666; }
+.badge-needs-eye { background: #666; }
+
+.answer-line { font-weight: bold; margin: 8px 0 4px; }
+.claimed-line { font-weight: normal; color: #b02a2a; }
+.basis { color: #444; font-size: 0.9em; margin: 4px 0; }
+.evidence {
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: #f6f6f6;
+  border-left: 3px solid #ccc;
+  font-style: italic;
+}
+
+.warning {
+  font-weight: bold;
+  background: #fff6e0;
+  border: 1px solid #e0c060;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.note-inline { color: #555; font-size: 0.9em; margin: 8px 0; }
+
+.images { margin: 12px 0; }
+.images img { max-width: 100%; border: 1px solid #ccc; margin-bottom: 8px; }
+
+.provenance { margin-top: 12px; font-size: 0.9em; color: #555; }

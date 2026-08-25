@@ -15,6 +15,7 @@ courses/*/.prep/
 # Site build output
 site/dist/
 site/node_modules/
+__pycache__/
 
 # Generated PDFs anywhere outside course output
 *.pdf
