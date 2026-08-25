@@ -124,6 +124,13 @@ line numbers.
 6. **Checks are arithmetic, not judgement.** Number continuity, count reconciliation,
    structural floor. A dropped question is caught by subtraction, not by care.
 
+   **Counts matching is not the same as content being correct.** A count check only
+   proves nothing was dropped or duplicated — it says nothing about whether what
+   survived is intact. Two separate bugs, multi-line field truncation and an unmatched
+   metadata key, each passed a clean count check while corrupting question stems. After
+   any merge or parse step, spot-read several rendered entries end to end — not just
+   diff the counts.
+
 7. **Cheapest capable method first.** Text layer → OCR → vision. Most lecture PDFs have
    real text and cost nothing. Vision is only for images where the answer is a *mark*,
    not a character — no OCR engine reports a filled radio button.
