@@ -2,15 +2,15 @@
 course: microbiology
 tab: finals
 scope: raw/finals/2023-2024-Finals/Medicine/ only — 5 duplicate models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured)
-status: IN PROGRESS — نموذج 1 (partial, Q1-16 of 50) and نموذج ٥ (complete, 50/50) done.
-  نموذج 3, 4, ٦ not started; نموذج 1's remaining pages (Q17-50) not started. Each
-  remaining model gets its own fresh session per CLAUDE.md's one-tab-per-session rule.
-questions: 58
-tiers: claimed 57 | open 1
-forms: mcq 58
+status: IN PROGRESS — نموذج 1 (complete, 50/50) and نموذج ٥ (complete, 50/50) done.
+  نموذج 3, 4, ٦ not started. Each remaining model gets its own fresh session per
+  CLAUDE.md's one-tab-per-session rule.
+questions: 76
+tiers: claimed 75 | open 1
+forms: mcq 76
 disputed: 1
 needs-eye: 0
-next-id: MICRO-F-059
+next-id: MICRO-F-077
 ---
 
 ### MICRO-F-001
@@ -258,7 +258,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [1, 5]
 Which one of the following infectious agents is NOT an obligate intracellular?
 a) Mycoplasma
 b) Rickettsia
@@ -270,7 +270,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [5]
+models: [1, 5]
 Which of the following viral diseases is a zoonotic disease?
 a) Herpes simplex virus 2
 b) Poliomyelitis
@@ -304,7 +304,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [1, 5]
 Which of the following is not correct regarding human normal flora?
 a) Bacteroides fragilis is found in greater numbers than Escherichia coli in the colon
 b) Candida albicans is part of the normal flora of both men and women
@@ -352,7 +352,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [5]
+models: [1, 5]
 Ethylene oxide is used to sterilize heat-sensitive materials, such as surgical
 instruments, in hospitals.
 a) False
@@ -376,7 +376,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [5]
+models: [1, 5]
 Fungi are never considered as members of human normal flora
 a) True
 b) False
@@ -398,7 +398,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [1, 5]
 note: Near-duplicate theme of MICRO-F-006 (abdominal abscess, gram-negative anaerobic
   rod) but a different clinical vignette and different stem wording, kept separate
   rather than merged.
@@ -415,7 +415,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [5]
+models: [1, 5]
 How is the capsule surrounding a bacterium involved in the immune response?
 a) It induces granulomatous inflammation
 b) It retards phagocytosis
@@ -489,7 +489,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [1, 5]
 Which of the following component is found in all viruses
 a) The envelope
 b) Spikes
@@ -527,7 +527,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [1, 5]
 Exotoxins are less toxic than the same amount of endotoxins
 a) False
 b) True
@@ -549,7 +549,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [5]
+models: [1, 5]
 Which of the following actions is not related to endotoxins?
 a) Activation of the coagulation cascade
 b) Hypotension
@@ -561,7 +561,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [1, 5]
 All of the following are true of A-B exotoxins Except?
 a) They are only produced by gram-negative bacteria
 b) They consist of two polypeptide components.
@@ -586,7 +586,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [1, 5]
 A presumptive diagnosis of gonorrhea can be made by finding gram-negative kidney
 bean-shaped diplococci within neutrophils in a urethral discharge.
 a) True
@@ -597,7 +597,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [1, 5]
 Which of the following sentences is worng regarding normal flora?
 a) Staphylococcus epidermidisfound on human skin.
 b) Staphylococcus aureus can be found is the nose
@@ -609,7 +609,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [5]
+models: [1, 5]
 The following pathogens are transmitted trans placentally?
 a) Escherichia coli, Neisseria gonorrhoeae
 b) Herpes simplex virus type 1 and 2
@@ -679,7 +679,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [5]
+models: [1, 5]
 note: Page also carries a hand-drawn mark beside the question (an a with a question
   mark). Moodle's own filled radio (c) is the record per job-a-extract.md; the mark
   reads as the annotator puzzling over option a rather than a competing selection, so
@@ -718,7 +718,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [1, 5]
 Legionella pneumophila infection is acquired by inhalation of aerosols from
 environmental water sources.
 a) True
@@ -747,3 +747,231 @@ b) Some exotoxins contain lipopolysaccharides as the toxic component
 c) Some exotoxins can cause disease even if they were purified/isolated from the
    bacterial cells.
 d) Some exotoxins cause diarrhea
+
+### MICRO-F-059
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [1]
+The main bacterial agents that cause meningitis are Streptococcus pneumoniae,
+Neisseria meningitidis, and Haemophilus influenzae. What is the most important
+virulent factor (structure) they share?
+a) Capsule
+b) Endotoxin
+c) Protein A
+d) b-Lactamase
+
+### MICRO-F-060
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [1]
+What is the term for the ability of members of the normal flora to limit the growth
+of pathogens, and how is it affected by alterations in the normal flora?
+a) Microbial interference; unchanged
+b) Antibiotic resistance; enhanced
+c) Colonization resistance; reduced
+d) Pathogen suppression; increased
+
+### MICRO-F-061
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1]
+note: Near-duplicate theme of MICRO-F-030 (mode of action of endotoxin, same TNF
+  answer content) but a different clinical vignette and different stem wording, kept
+  separate rather than merged.
+A 25-year-old man with abdominal pain was diagnosed with acute appendicitis. He then
+had a sudden rise in temperature to 39°C and a sudden fall in blood pressure. Which
+one of the following is the most likely cause of the fever and hypotension?
+a) An exotoxin that ADP-ribosylates elongation factor-2
+b) An endotoxin that causes release of tumor necrosis factor
+c) An exotoxin that stimulates production of large amounts of cyclic AMP
+d) An exoenzyme that cleaves hyaluronic acid
+e) An endotoxin that binds to class I MHC protein
+
+### MICRO-F-062
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [1]
+Viral surface proteins are important because they determine the species specificity
+of the virus-cell interaction and they protect the viral genetic material against
+nucleases
+a) True
+b) False
+
+### MICRO-F-063
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [1]
+Viral antigens are likely composed of lipo-proteins or glycoproteins.
+a) True
+b) False
+
+### MICRO-F-064
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1]
+The VDRL non-treponemal serological test?
+a) The test is cross reactive with many Gram negative infections.
+b) Heart beef extract is used as an antigen
+c) It is a terponemal ELISA test.
+d) It is more specific than treponemal ELISA test.
+
+### MICRO-F-065
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [1]
+Children aged 3-5 years old, visited a local zoo, and later they developed bloody
+diarrhea. The clinical laboratory reports the presence of 0157:H7 strains of E. coli
+in the bloody stools. These young children are at risk to develop.
+a) Rice water stools (watery diarrhea).
+b) Infant botulism
+c) Renal stones
+d) Hemolytic uremic syndrome
+
+### MICRO-F-066
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [1]
+A viroid is?
+a) A complete infectious enveloped virus particle
+b) A capsid without nucleic acid
+c) A provirus
+d) A naked infectious single molecule of circular RNA.
+
+### MICRO-F-067
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [1]
+Lyme disease is transmitted to human being via an arthropod vector?
+a) True
+b) False
+
+### MICRO-F-068
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1]
+A possible mechanisms for viral persistence in infected individuals include all of
+the following EXCEPT?
+a) Formation of non-neutralizing antibodies against the viral antigens.
+b) Virus-mediated inhibition of host DNA synthesis
+c) Integration of a provirus into the genome of the host
+d) Generation of defective-interfering particles
+
+### MICRO-F-069
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1]
+Which of the following viruses usually enters the body via fecal oral route?
+a) VZV
+b) Hepatitis A virus
+c) Influenza virus
+d) Hepatitis B virus
+
+### MICRO-F-070
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1]
+Which of the following sentences is not correct regarding Mycobacterium tuberculosis?
+a) M. tuberculosis appears as a red rod in acid-fast stain.
+b) M. tuberculosis are stained as a red rod in Gram stain.
+c) They are acid fast organisms.
+d) M. tuberculosis has mycolic acid in its cell wall.
+
+### MICRO-F-071
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [1]
+Viruses come out of the infected cell by budding through the outer membrane of the
+host cell. Which of the following statements is not correct regarding these viruses?
+a) Some of these viruses do not have an envelope
+b) Some of these viruses contain host cell lipids.
+c) Some of these viruses cause multinucleated giant cell formation
+d) Some new viral antigens appear on the surface of the host cell
+
+### MICRO-F-072
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1]
+Which of the following is an obligate anaerobe?
+a) Klebsiella
+b) Clostridium
+c) Bacillus
+d) Staphylococcus
+
+### MICRO-F-073
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1]
+Which of the following organisms is not causing diarrhea?
+a) Vibrio cholerae
+b) Enterococcus faecalis
+c) Escherichia coli
+d) Clostridium perfringens
+
+### MICRO-F-074
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [1]
+All of the following viruses evade host defenses by having multiple serotypes except?
+a) Human immunodeficiency virus (HIV)
+b) Polio virus
+c) Rhinovirus
+d) Measles virus
+
+### MICRO-F-075
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [1]
+One of these exotoxins does not act as a superantigen?
+a) Stphylococcus aureus toxic strock syndrome toxin
+b) Staphylococcus aureus enterotoxin
+c) E. coli verotoxin
+d) Erythrogenic toxin
+
+### MICRO-F-076
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [1]
+Which of the following statements regarding virus attachment to host cells is not
+correct?
+a) This attachment can be prevented by neutralizing antibody
+b) The interaction determines whether the purified genome of a virus is infectious
+c) The interaction between virus and host cell receptors determines the specific
+   target organs for infection
+d) If the target cell binding receptors are occupied, then interference with virus
+   infection occurs
