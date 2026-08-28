@@ -35,7 +35,7 @@ is `/subjectstart`'s own read-only-survey-then-move step, not a pipeline job.
 | 17 | D | `out/microbiology-finals-01.md` | 58 Q | done | 58 Q, 1 conflict, committed. Header says `complete: false` — this is only a slice of the finals tab. |
 | 18 | A | `raw/finals/2023-2024-Finals/Medicine/نموذج 1.pdf` — remainder, Q17-50 | 1 file (already read) | done | 34 more claims matched against extract.md: 16 matched existing نموذج ٥ entries by stem (now `models: [1,5]`), 18 are new (MICRO-F-059–076). Appended to `microbiology-finals.extract.md` (now 76 Q). **Not yet run through Job C or D.** |
 | 19 | C | finals verify batch 02 — MICRO-F-059 through MICRO-F-076 | 18 Q | done | all 18 verified, every claim correct — no conflicts, no external, no not-in-source. Ch.3 touched for the first time in this tab (MICRO-F-072) |
-| 20 | D | rebuild finals out file to include batch 02 | 76 Q total once done | todo | depends on #19 |
+| 20 | D | rebuild finals out file to include batch 02 | 76 Q total once done | done | `out/microbiology-finals-01.md` now 76 Q, 68 verified · 1 conflict · 7 external, `complete: false` (still only نموذج 1 + ٥ of 5 models). Appended the 18 new MICRO-F-059–076 blocks and updated the 16 pre-existing entries whose `models:` grew to `[1,5]` (their `seen:` line now reads "model 1, model 5"). No new ledger entry needed — `finals-01`/`finals-02` already recorded both source files' hashes at extraction time. `report.md`/`verify.md` were already current for all 76 from row 19, untouched here |
 | 21 | A | `raw/finals/2023-2024-Finals/Medicine/نموذج 3.pdf` | 1 file | todo | one of the 3 remaining models of the 2023-2024 Medicine final (نموذج 2 was never captured) |
 | 22 | A | `raw/finals/2023-2024-Finals/Medicine/نموذج 4.pdf` | 1 file | todo | |
 | 23 | A | `raw/finals/2023-2024-Finals/Medicine/نموذج ٦.pdf` | 1 file | todo | |
@@ -50,7 +50,8 @@ is `/subjectstart`'s own read-only-survey-then-move step, not a pipeline job.
 | 32 | D | rebuild finals out file, final pass | TBD | todo | last row for this tab — mark `complete: true` in the header when done |
 
 **Tab summary:** quizzes done · midterm done · practice done · microlab done ·
-finals in progress (58 of an unknown-but-large total committed; rows 19-32 remain).
+finals in progress (76 of an unknown-but-large total committed — نموذج 1 and ٥
+of 5 models; rows 21-32 remain).
 
 ---
 

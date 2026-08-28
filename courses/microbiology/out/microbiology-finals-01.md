@@ -2,13 +2,13 @@
 course: microbiology
 tab: finals
 batch: 01
-built: 2026-08-24
-questions: 58
-verified: 50 | conflict: 1 | external: 7 | not-in-source: 0 | needs-eye: 0
+built: 2026-08-28
+questions: 76
+verified: 68 | conflict: 1 | external: 7 | not-in-source: 0 | needs-eye: 0
 source: microbiology/source.md
 complete: false
-covers: "2023-2024 Medicine final — نموذج ٥ (50/50) and نموذج 1 (Q1-16 of 50).
-  Models 3, 4, ٦ and نموذج 1's Q17-50 land in a later batch."
+covers: "2023-2024 Medicine final — نموذج ٥ (50/50) and نموذج 1 (50/50, completed
+  this build). Models 3, 4, ٦ land in a later batch."
 ---
 
 ## MICRO-F-001
@@ -305,7 +305,7 @@ type: single
 answer: a
 basis: Ch. 4 — Classification of Bacteria and Diagnostic Methods {#ch04-1}
 evidence: The classification table places Mycoplasma under "III. Wall-less cells," a free-living category, separately from "B. Non-free-living (obligate intracellular parasites)," which lists Rickettsia and Chlamydia by name.
-seen: model 5
+seen: model 1, model 5
 
 Which one of the following infectious agents is NOT an obligate intracellular?
 a) Mycoplasma
@@ -320,7 +320,7 @@ type: single
 answer: c
 basis: external — not covered in course material
 evidence: Rabies is the standard example of a zoonotic viral disease (animal-bite transmission). Ch.8 defines "zoonotic disease" but its worked examples (Lyme disease, RMSF, ehrlichiosis) are all bacterial, and pages covering specific transmission-route diagrams are marked as lost caption text in this chapter.
-seen: model 5
+seen: model 1, model 5
 
 Which of the following viral diseases is a zoonotic disease?
 a) Herpes simplex virus 2
@@ -363,7 +363,7 @@ type: single
 answer: d
 basis: Ch. 6 — Normal Flora of the Body {#ch06-4}
 evidence: The respiratory tract "colonizes nose, throat, and mouth... but not the lower bronchi and alveoli" — viridans streptococci are throat flora, not alveolar.
-seen: model 5
+seen: model 1, model 5
 
 Which of the following is not correct regarding human normal flora?
 a) Bacteroides fragilis is found in greater numbers than Escherichia coli in the colon
@@ -424,7 +424,7 @@ type: single
 answer: b
 basis: Ch. 10 — Sterilization and Disinfection {#ch10-4}
 evidence: "Ethylene oxide gas: used extensively in hospitals to sterilize heat-sensitive materials such as surgical instruments and plastics."
-seen: model 5
+seen: model 1, model 5
 
 Ethylene oxide is used to sterilize heat-sensitive materials, such as surgical
 instruments, in hospitals.
@@ -454,7 +454,7 @@ type: single
 answer: b
 basis: Ch. 6 — Normal Flora of the Body {#ch06-1}
 evidence: "Normal flora describes the bacteria and fungi that are permanent residents" — fungi (e.g. Candida albicans, covered later in the chapter) are explicitly included, so "never" is false.
-seen: model 5
+seen: model 1, model 5
 
 Fungi are never considered as members of human normal flora
 a) True
@@ -483,7 +483,7 @@ answer: d
 basis: Ch. 6 — Normal Flora of the Body {#ch06-4}
 evidence: "Bacteroides fragilis causes peritonitis associated with perforation of the intestinal wall following trauma, appendicitis, or diverticulitis" — matches post-surgical bowel peritonitis directly.
 note: Near-duplicate theme of MICRO-F-006 (abdominal abscess, gram-negative anaerobic rod) but a different clinical vignette and different stem wording, kept separate rather than merged.
-seen: model 5
+seen: model 1, model 5
 
 Your patient is a 70-year-old man who underwent a certain bowel surgery 3 days ago.
 He now has a fever and abdominal pain that may due to peritonitis. Which one of the
@@ -500,7 +500,7 @@ type: single
 answer: b
 basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
 evidence: "The capsule... the polysaccharide capsule prevents phagocytosis" — retards, rather than promotes, phagocytosis; not a mechanism for inducing granulomatous inflammation or degrading IgA.
-seen: model 5
+seen: model 1, model 5
 
 How is the capsule surrounding a bacterium involved in the immune response?
 a) It induces granulomatous inflammation
@@ -592,7 +592,7 @@ type: single
 answer: d
 basis: Ch. 11 — Viral Structure and Classification {#ch11-1}
 evidence: "The nucleic acid is surrounded by a protein coat called a capsid" is part of the general properties of every virus; envelope, spikes, and DNA are each present in only some viruses.
-seen: model 5
+seen: model 1, model 5
 
 Which of the following component is found in all viruses
 a) The envelope
@@ -639,7 +639,7 @@ type: single
 answer: a
 basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
 evidence: Toxicity row: "High (fatal dose ~1 ug) [exotoxin] | Low (fatal dose ~hundreds of ug) [endotoxin]" — exotoxins are more, not less, toxic per microgram.
-seen: model 5
+seen: model 1, model 5
 
 Exotoxins are less toxic than the same amount of endotoxins
 a) False
@@ -667,7 +667,7 @@ type: single
 answer: c
 basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
 evidence: Endotoxin's biologic effects listed are fever, hypotension/shock, DIC (via coagulation-cascade activation), and complement activation — opsonization does not appear among them; it is discussed elsewhere in the source only in connection with the capsule.
-seen: model 5
+seen: model 1, model 5
 
 Which of the following actions is not related to endotoxins?
 a) Activation of the coagulation cascade
@@ -682,7 +682,7 @@ type: single
 answer: a
 basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
 evidence: A-B exotoxins named in the source (diphtheria, tetanus, botulinum) come from Gram-positive organisms — so "only produced by gram-negative bacteria" is false. The A-subunit/B-subunit roles and two-component structure are separately confirmed.
-seen: model 5
+seen: model 1, model 5
 
 All of the following are true of A-B exotoxins Except?
 a) They are only produced by gram-negative bacteria
@@ -713,7 +713,7 @@ type: single
 answer: a
 basis: Ch. 4 — Classification of Bacteria and Diagnostic Methods {#ch04-3}
 evidence: N. gonorrhoeae is "diagnosed by microscopic examination of a Gram-stained smear"; Ch.2 separately describes Neisseria's morphology as "pairs with kidney-bean shape" — together confirming Gram-negative kidney-bean diplococci as the presumptive-diagnosis finding.
-seen: model 5
+seen: model 1, model 5
 
 A presumptive diagnosis of gonorrhea can be made by finding gram-negative kidney
 bean-shaped diplococci within neutrophils in a urethral discharge.
@@ -727,7 +727,7 @@ type: single
 answer: d
 basis: Ch. 6 — Normal Flora of the Body {#ch06-4}
 evidence: E. coli is intestinal/colon flora (a coliform), not throat flora — the throat's normal flora is viridans streptococci, Neisseria species, and S. epidermidis per the source.
-seen: model 5
+seen: model 1, model 5
 
 Which of the following sentences is worng regarding normal flora?
 a) Staphylococcus epidermidisfound on human skin.
@@ -743,7 +743,7 @@ answer: c
 basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
 evidence: The chapter's vertical-transmission table confirms HIV as a vertically transmitted pathogen and establishes transplacental, birth-canal, and breast-milk as the three recognized routes. The table lists each pathogen once, under its single most clinically prominent route — that structure doesn't amount to a claim that HIV or Rubella cross by no other route, so a table entry elsewhere isn't a contradiction of transplacental transmission here.
 note: The table itself lists HIV under "within birth canal" and doesn't mention Rubella at all — on a narrow reading this looks unsupported or even contradicted. Standard teaching resolves it: Rubella is a classic TORCH-group transplacental infection, and HIV transmits in utero as well as intrapartum — the table is organized by predominant route per pathogen, not an exhaustive per-route listing, so it doesn't exclude the transplacental route for either organism. Recorded per job-c-verify.md's divergence rule: decided from the source's applicable content, with the apparent mismatch against the table's single-route categorization kept visible rather than dropped.
-seen: model 5
+seen: model 1, model 5
 
 The following pathogens are transmitted trans placentally?
 a) Escherichia coli, Neisseria gonorrhoeae
@@ -828,7 +828,7 @@ answer: c
 basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
 evidence: "TSST is a superantigen produced by certain S. aureus and S. pyogenes strains."
 note: Page also carries a hand-drawn mark beside the question (an "a" with a question mark), per Job A's note — read as the annotator's own uncertainty, not a competing claim; doesn't affect this verdict.
-seen: model 5
+seen: model 1, model 5
 
 Toxic shock syndrome is mainly caused by the toxin of?
 a) Staphylococcus aureus
@@ -873,7 +873,7 @@ answer: a
 basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
 evidence: The waterborne-disease reference table lists "Respiratory tract — inhalation of water aerosol | Legionella pneumophila | Pneumonia (Legionnaires' disease)" — direct match.
 note: Originally external. Re-verified after patching Ch.8 with 8 previously- uncaptioned pages, which turned out to hold reference tables rather than content-free diagrams.
-seen: model 5
+seen: model 1, model 5
 
 Legionella pneumophila infection is acquired by inhalation of aerosols from
 environmental water sources.
@@ -910,3 +910,283 @@ b) Some exotoxins contain lipopolysaccharides as the toxic component
 c) Some exotoxins can cause disease even if they were purified/isolated from the
    bacterial cells.
 d) Some exotoxins cause diarrhea
+
+## MICRO-F-059
+status: verified
+form: mcq
+type: single
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "The capsule — e.g., in S. pneumoniae and Neisseria meningitidis; the polysaccharide capsule prevents phagocytosis... Vaccines against S. pneumoniae, H. influenzae, and N. meningitidis contain capsular polysaccharides" — capsule is the shared antiphagocytic structure named for exactly these three organisms.
+seen: model 1
+
+The main bacterial agents that cause meningitis are Streptococcus pneumoniae,
+Neisseria meningitidis, and Haemophilus influenzae. What is the most important
+virulent factor (structure) they share?
+a) Capsule
+b) Endotoxin
+c) Protein A
+d) b-Lactamase
+
+## MICRO-F-060
+status: verified
+form: mcq
+type: single
+answer: c
+basis: Ch. 6 — Normal Flora of the Body {#ch06-2}
+evidence: "They constitute a protective host defense mechanism — nonpathogenic resident bacteria occupy attachment sites on skin and mucosa, interfering with colonization by pathogenic bacteria (colonization resistance)." {#ch06-3} then describes antibiotics diminishing resident flora, letting pathogens or yeasts overgrow — i.e. colonization resistance is reduced when normal flora is altered.
+seen: model 1
+
+What is the term for the ability of members of the normal flora to limit the growth
+of pathogens, and how is it affected by alterations in the normal flora?
+a) Microbial interference; unchanged
+b) Antibiotic resistance; enhanced
+c) Colonization resistance; reduced
+d) Pathogen suppression; increased
+
+## MICRO-F-061
+status: verified
+form: mcq
+type: single
+answer: b
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Sequence (as depicted): endotoxin (lipopolysaccharide) -> IL-1, TNF -> fever, DIC, septic shock -> death." Endotoxin from the ruptured appendix (a Gram-negative gut source) causing TNF release matches the fever/hypotension picture directly.
+note: Near-duplicate theme of MICRO-F-030 (same TNF/endotoxin content, different vignette) — Job A flagged this at extraction; both independently verify to the same mechanism.
+seen: model 1
+
+A 25-year-old man with abdominal pain was diagnosed with acute appendicitis. He then
+had a sudden rise in temperature to 39°C and a sudden fall in blood pressure. Which
+one of the following is the most likely cause of the fever and hypotension?
+a) An exotoxin that ADP-ribosylates elongation factor-2
+b) An endotoxin that causes release of tumor necrosis factor
+c) An exotoxin that stimulates production of large amounts of cyclic AMP
+d) An exoenzyme that cleaves hyaluronic acid
+e) An endotoxin that binds to class I MHC protein
+
+## MICRO-F-062
+status: verified
+form: mcq
+type: single
+answer: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "Viral surface proteins mediate attachment to specific host cell receptors (important in species and organ specificity)" and, from {#ch11-3}/{#ch11-4}, "Capsid proteins protect the genome DNA/RNA from degradation" — both halves of the compound statement are separately confirmed.
+seen: model 1
+
+Viral surface proteins are important because they determine the species specificity
+of the virus-cell interaction and they protect the viral genetic material against
+nucleases
+a) True
+b) False
+
+## MICRO-F-063
+status: verified
+form: mcq
+type: single
+answer: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "Viral surface proteins (capsid or envelope glycoproteins) are the principal antigens," and the envelope itself is described as "a lipoprotein membrane composed of host-cell-derived lipid and virus-specific protein" — antigens are glycoproteins carried on a lipoprotein envelope, matching "lipo-proteins or glycoproteins."
+seen: model 1
+
+Viral antigens are likely composed of lipo-proteins or glycoproteins.
+a) True
+b) False
+
+## MICRO-F-064
+status: verified
+form: mcq
+type: single
+answer: b
+basis: Ch. 4 — Classification of Bacteria and Diagnostic Methods {#ch04-4}
+evidence: "Nontreponemal antigen tests (lipids extracted from beef heart)...Also known as VDRL (Venereal Disease Research Laboratory test)." Treponemal tests (FTA-ABS, MHA-TP), not VDRL, use T. pallidum itself as antigen, and the source calls VDRL's disadvantage "not specific" — the opposite of option d.
+seen: model 1
+
+The VDRL non-treponemal serological test?
+a) The test is cross reactive with many Gram negative infections.
+b) Heart beef extract is used as an antigen
+c) It is a terponemal ELISA test.
+d) It is more specific than treponemal ELISA test.
+
+## MICRO-F-065
+status: verified
+form: mcq
+type: single
+answer: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Shiga toxin...produced by strains of E. coli (O157:H7)...When in the bloodstream, can cause hemolytic-uremic syndrome (HUS)."
+seen: model 1
+
+Children aged 3-5 years old, visited a local zoo, and later they developed bloody
+diarrhea. The clinical laboratory reports the presence of 0157:H7 strains of E. coli
+in the bloody stools. These young children are at risk to develop.
+a) Rice water stools (watery diarrhea).
+b) Infant botulism
+c) Renal stones
+d) Hemolytic uremic syndrome
+
+## MICRO-F-066
+status: verified
+form: mcq
+type: single
+answer: d
+basis: Ch. 11 — Viral Structure and Classification {#ch11-5}
+evidence: "Viroids: consist only of a single molecule of circular RNA without a protein coat or envelope."
+seen: model 1
+
+A viroid is?
+a) A complete infectious enveloped virus particle
+b) A capsid without nucleic acid
+c) A provirus
+d) A naked infectious single molecule of circular RNA.
+
+## MICRO-F-067
+status: verified
+form: mcq
+type: single
+answer: a
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-3}
+evidence: "Lyme disease is caused by Borrelia burgdorferi, transmitted to humans through the bite of infected black-legged ticks." The zoonotic-diseases table lists the route as "Tick bite (Ixodes)" — ticks are arthropods.
+seen: model 1
+
+Lyme disease is transmitted to human being via an arthropod vector?
+a) True
+b) False
+
+## MICRO-F-068
+status: verified
+form: mcq
+type: single
+answer: b
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}, {#ch13-7}
+evidence: The persistence-mechanisms list ({#ch13-7}) includes integration of a DNA provirus, immune tolerance (non-neutralizing/absent antibody), and generation of defective particles among its seven mechanisms — but "inhibition of...macromolecular synthesis" (host protein/DNA synthesis) is explicitly filed under {#ch13-2} as a cause of **cell death**, the opposite of persistence.
+seen: model 1
+
+A possible mechanisms for viral persistence in infected individuals include all of
+the following EXCEPT?
+a) Formation of non-neutralizing antibodies against the viral antigens.
+b) Virus-mediated inhibition of host DNA synthesis
+c) Integration of a provirus into the genome of the host
+d) Generation of defective-interfering particles
+
+## MICRO-F-069
+status: verified
+form: mcq
+type: single
+answer: b
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: The portals-of-entry table lists Hepatitis A virus under "Gastrointestinal tract," consistent with "fecal contamination of food and water" as the described GI transmission route. VZV, influenza, and hepatitis B are not GI-portal viruses in this table.
+seen: model 1
+
+Which of the following viruses usually enters the body via fecal oral route?
+a) VZV
+b) Hepatitis A virus
+c) Influenza virus
+d) Hepatitis B virus
+
+## MICRO-F-070
+status: verified
+form: mcq
+type: single
+answer: b
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-3}
+evidence: "Mycobacteria, including M. tuberculosis" are listed among organisms that "cannot be seen in the Gram stain" ("too much lipid in cell wall so dye cannot penetrate"), diagnosed instead by acid-fast stain — so M. tuberculosis is never seen as a red rod in a Gram stain at all.
+seen: model 1
+
+Which of the following sentences is not correct regarding Mycobacterium tuberculosis?
+a) M. tuberculosis appears as a red rod in acid-fast stain.
+b) M. tuberculosis are stained as a red rod in Gram stain.
+c) They are acid fast organisms.
+d) M. tuberculosis has mycolic acid in its cell wall.
+
+## MICRO-F-071
+status: verified
+form: mcq
+type: single
+answer: a
+basis: Ch. 12 — Viral Replication {#ch12-4}
+evidence: "Most enveloped viruses derive their lipoprotein envelope from the cell membrane" during budding — acquiring an envelope from the host membrane is the defining feature of budding release, so "some of these viruses do not have an envelope" is the false statement.
+seen: model 1
+
+Viruses come out of the infected cell by budding through the outer membrane of the
+host cell. Which of the following statements is not correct regarding these viruses?
+a) Some of these viruses do not have an envelope
+b) Some of these viruses contain host cell lipids.
+c) Some of these viruses cause multinucleated giant cell formation
+d) Some new viral antigens appear on the surface of the host cell
+
+## MICRO-F-072
+status: verified
+form: mcq
+type: single
+answer: b
+basis: Ch. 3 — Bacterial Physiology and Growth Requirements {#ch03-4}
+evidence: "Obligate anaerobes — (Clostridium tetani) cannot grow in the presence of oxygen because they lack superoxide dismutase, catalase, or both."
+seen: model 1
+
+Which of the following is an obligate anaerobe?
+a) Klebsiella
+b) Clostridium
+c) Bacillus
+d) Staphylococcus
+
+## MICRO-F-073
+status: verified
+form: mcq
+type: single
+answer: b
+basis: Ch. 6 — Normal Flora of the Body {#ch06-4}; Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: Ch. 6 confines Enterococcus faecalis to "UTI and endocarditis" — it never appears on any diarrhea-associated list. Ch. 8's foodborne-disease table explicitly lists Vibrio cholerae, E. coli, and Clostridium perfringens (via cooked meat/stew/gravy) as causing "Diarrhea."
+seen: model 1
+
+Which of the following organisms is not causing diarrhea?
+a) Vibrio cholerae
+b) Enterococcus faecalis
+c) Escherichia coli
+d) Clostridium perfringens
+
+## MICRO-F-074
+status: verified
+form: mcq
+type: single
+answer: d
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "measles virus has one serotype; polioviruses have three; rhinoviruses... have over 100...HIV...have multiple serotypes." Measles is the only option explicitly stated to have a single serotype, so it cannot be evading via multiple serotypes.
+seen: model 1
+
+All of the following viruses evade host defenses by having multiple serotypes except?
+a) Human immunodeficiency virus (HIV)
+b) Polio virus
+c) Rhinovirus
+d) Measles virus
+
+## MICRO-F-075
+status: verified
+form: mcq
+type: single
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: TSST is explicitly described as a superantigen. Shiga toxin (E. coli verotoxin) is instead described mechanistically as inactivating protein synthesis by removing adenine from 28S rRNA — a ribosome-inactivating action, not the nonspecific T-cell activation that defines a superantigen.
+seen: model 1
+
+One of these exotoxins does not act as a superantigen?
+a) Stphylococcus aureus toxic strock syndrome toxin
+b) Staphylococcus aureus enterotoxin
+c) E. coli verotoxin
+d) Erythrogenic toxin
+
+## MICRO-F-076
+status: verified
+form: mcq
+type: single
+answer: b
+basis: Ch. 12 — Viral Replication {#ch12-2}
+evidence: "Infectious nucleic acid can bypass the host range specificity provided by viral protein-cell receptor interaction" — whether a purified genome is infectious depends on whether the virus requires a virion polymerase, not on the virus-receptor attachment interaction.
+seen: model 1
+
+Which of the following statements regarding virus attachment to host cells is not
+correct?
+a) This attachment can be prevented by neutralizing antibody
+b) The interaction determines whether the purified genome of a virus is infectious
+c) The interaction between virus and host cell receptors determines the specific
+   target organs for infection
+d) If the target cell binding receptors are occupied, then interference with virus
+   infection occurs
