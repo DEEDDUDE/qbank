@@ -1,12 +1,12 @@
 ---
 course: microbiology
 tab: finals
-scope: raw/finals/2023-2024-Finals/Medicine/ only — نموذج 1 (partial, Q1-16 of 50) and
-  نموذج ٥ (complete) as extracted. See microbiology-finals.extract.md for extraction
-  status; models 3, 4, ٦ and the rest of model 1 are not yet extracted, so not in this
-  verification pass either.
-questions: 58
-verified: 50
+scope: raw/finals/2023-2024-Finals/Medicine/ only — نموذج 1 (complete) and نموذج ٥
+  (complete) as extracted. Batch 01 (MICRO-F-001–058) covered نموذج 1's first 16
+  questions plus all of نموذج ٥; batch 02 (MICRO-F-059–076) completes نموذج 1.
+  Models 3, 4, ٦ are not yet extracted, so not in this verification pass either.
+questions: 76
+verified: 68
 conflict: 1
 external: 7
 not-in-source: 0
@@ -521,3 +521,165 @@ evidence: Exotoxin chemistry is "Polypeptide," not lipopolysaccharide — LPS is
   separately confirmed elsewhere in the chapter.
 note: This question was tier open (no claimed answer) — answered directly from source
   per Job C's rule for open-tier questions.
+
+### MICRO-F-059
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "The capsule — e.g., in S. pneumoniae and Neisseria meningitidis; the
+  polysaccharide capsule prevents phagocytosis... Vaccines against S. pneumoniae, H.
+  influenzae, and N. meningitidis contain capsular polysaccharides" — capsule is the
+  shared antiphagocytic structure named for exactly these three organisms.
+
+### MICRO-F-060
+status: verified
+answer: c
+basis: Ch. 6 — Normal Flora of the Body {#ch06-2}
+evidence: "They constitute a protective host defense mechanism — nonpathogenic
+  resident bacteria occupy attachment sites on skin and mucosa, interfering with
+  colonization by pathogenic bacteria (colonization resistance)." {#ch06-3} then
+  describes antibiotics diminishing resident flora, letting pathogens or yeasts
+  overgrow — i.e. colonization resistance is reduced when normal flora is altered.
+
+### MICRO-F-061
+status: verified
+answer: b
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Sequence (as depicted): endotoxin (lipopolysaccharide) -> IL-1, TNF ->
+  fever, DIC, septic shock -> death." Endotoxin from the ruptured appendix (a
+  Gram-negative gut source) causing TNF release matches the fever/hypotension
+  picture directly.
+note: Near-duplicate theme of MICRO-F-030 (same TNF/endotoxin content, different
+  vignette) — Job A flagged this at extraction; both independently verify to the
+  same mechanism.
+
+### MICRO-F-062
+status: verified
+answer: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "Viral surface proteins mediate attachment to specific host cell receptors
+  (important in species and organ specificity)" and, from {#ch11-3}/{#ch11-4}, "Capsid
+  proteins protect the genome DNA/RNA from degradation" — both halves of the compound
+  statement are separately confirmed.
+
+### MICRO-F-063
+status: verified
+answer: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "Viral surface proteins (capsid or envelope glycoproteins) are the
+  principal antigens," and the envelope itself is described as "a lipoprotein
+  membrane composed of host-cell-derived lipid and virus-specific protein" — antigens
+  are glycoproteins carried on a lipoprotein envelope, matching "lipo-proteins or
+  glycoproteins."
+
+### MICRO-F-064
+status: verified
+answer: b
+basis: Ch. 4 — Classification of Bacteria and Diagnostic Methods {#ch04-4}
+evidence: "Nontreponemal antigen tests (lipids extracted from beef heart)...Also
+  known as VDRL (Venereal Disease Research Laboratory test)." Treponemal tests
+  (FTA-ABS, MHA-TP), not VDRL, use T. pallidum itself as antigen, and the source
+  calls VDRL's disadvantage "not specific" — the opposite of option d.
+
+### MICRO-F-065
+status: verified
+answer: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Shiga toxin...produced by strains of E. coli (O157:H7)...When in the
+  bloodstream, can cause hemolytic-uremic syndrome (HUS)."
+
+### MICRO-F-066
+status: verified
+answer: d
+basis: Ch. 11 — Viral Structure and Classification {#ch11-5}
+evidence: "Viroids: consist only of a single molecule of circular RNA without a
+  protein coat or envelope."
+
+### MICRO-F-067
+status: verified
+answer: a
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-3}
+evidence: "Lyme disease is caused by Borrelia burgdorferi, transmitted to humans
+  through the bite of infected black-legged ticks." The zoonotic-diseases table
+  lists the route as "Tick bite (Ixodes)" — ticks are arthropods.
+
+### MICRO-F-068
+status: verified
+answer: b
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}, {#ch13-7}
+evidence: The persistence-mechanisms list ({#ch13-7}) includes integration of a DNA
+  provirus, immune tolerance (non-neutralizing/absent antibody), and generation of
+  defective particles among its seven mechanisms — but "inhibition of...macromolecular
+  synthesis" (host protein/DNA synthesis) is explicitly filed under {#ch13-2} as a
+  cause of **cell death**, the opposite of persistence.
+
+### MICRO-F-069
+status: verified
+answer: b
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: The portals-of-entry table lists Hepatitis A virus under "Gastrointestinal
+  tract," consistent with "fecal contamination of food and water" as the described
+  GI transmission route. VZV, influenza, and hepatitis B are not GI-portal viruses in
+  this table.
+
+### MICRO-F-070
+status: verified
+answer: b
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-3}
+evidence: "Mycobacteria, including M. tuberculosis" are listed among organisms that
+  "cannot be seen in the Gram stain" ("too much lipid in cell wall so dye cannot
+  penetrate"), diagnosed instead by acid-fast stain — so M. tuberculosis is never
+  seen as a red rod in a Gram stain at all.
+
+### MICRO-F-071
+status: verified
+answer: a
+basis: Ch. 12 — Viral Replication {#ch12-4}
+evidence: "Most enveloped viruses derive their lipoprotein envelope from the cell
+  membrane" during budding — acquiring an envelope from the host membrane is the
+  defining feature of budding release, so "some of these viruses do not have an
+  envelope" is the false statement.
+
+### MICRO-F-072
+status: verified
+answer: b
+basis: Ch. 3 — Bacterial Physiology and Growth Requirements {#ch03-4}
+evidence: "Obligate anaerobes — (Clostridium tetani) cannot grow in the presence of
+  oxygen because they lack superoxide dismutase, catalase, or both."
+
+### MICRO-F-073
+status: verified
+answer: b
+basis: Ch. 6 — Normal Flora of the Body {#ch06-4}; Ch. 8 — Transmission and Spread
+  of Microorganisms {#ch08-5}
+evidence: Ch. 6 confines Enterococcus faecalis to "UTI and endocarditis" — it never
+  appears on any diarrhea-associated list. Ch. 8's foodborne-disease table explicitly
+  lists Vibrio cholerae, E. coli, and Clostridium perfringens (via cooked
+  meat/stew/gravy) as causing "Diarrhea."
+
+### MICRO-F-074
+status: verified
+answer: d
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "measles virus has one serotype; polioviruses have three; rhinoviruses...
+  have over 100...HIV...have multiple serotypes." Measles is the only option
+  explicitly stated to have a single serotype, so it cannot be evading via multiple
+  serotypes.
+
+### MICRO-F-075
+status: verified
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: TSST is explicitly described as a superantigen. Shiga toxin (E. coli
+  verotoxin) is instead described mechanistically as inactivating protein synthesis
+  by removing adenine from 28S rRNA — a ribosome-inactivating action, not the
+  nonspecific T-cell activation that defines a superantigen.
+
+### MICRO-F-076
+status: verified
+answer: b
+basis: Ch. 12 — Viral Replication {#ch12-2}
+evidence: "Infectious nucleic acid can bypass the host range specificity provided by
+  viral protein-cell receptor interaction" — whether a purified genome is infectious
+  depends on whether the virus requires a virion polymerase, not on the
+  virus-receptor attachment interaction.

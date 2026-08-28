@@ -1,6 +1,11 @@
-# microbiology / finals (نموذج 1 partial + نموذج ٥) — 58 questions
+# microbiology / finals (نموذج 1 complete + نموذج ٥) — 76 questions
 
-verified 50 · conflict 1 · external 7 · not-in-source 0 · needs-eye 0
+verified 68 · conflict 1 · external 7 · not-in-source 0 · needs-eye 0
+
+**Batch 02 (MICRO-F-059–076, 18 questions, completing نموذج 1) — all 18 verified,
+every claim correct.** No conflicts, no external, no not-in-source in this batch — an
+unusually clean run. Chapters newly touched: Ch.3 (Bacterial Physiology), previously
+untested in this tab.
 
 **Conflicts** — the circulating file is wrong on this 1: **MICRO-F-050**. Claimed
 Clostridium perfringens and Staphylococcus aureus as the ADP-ribosylating exotoxin
@@ -32,13 +37,15 @@ HIV appearing under "birth canal" there doesn't rule out transplacental transmis
 narrower categorization is kept visible in a note rather than silently dropped, per
 job-c-verify.md's new divergence rule.
 
-**Chapter coverage** — Ch.7 (Pathogenic Mechanisms) heaviest by far: 17 questions
-(001, 009, 011, 017, 030, 032, 036, 039, 041, 043, 044, 050, 051, 052, 053, 055, 058).
-Ch.4 (Diagnostic Methods) 8; Ch.6 (Normal Flora) 6; Ch.10 (Sterilization) and Ch.12
-(Viral Replication) 5 each; Ch.2, Ch.11, Ch.14 covered 2 each; Ch.8 (026, 048, 056, after patching) covered 3;
-Ch.13 covered 1. Untested in this batch: Ch.1, Ch.3, Ch.5, Ch.9, Ch.15, Ch.16 — expected,
-since only 2 of 5 exam models have been extracted so far, well under a third of the
-full finals/Medicine question pool.
+**Chapter coverage (batches 01+02 combined)** — Ch.7 (Pathogenic Mechanisms) heaviest
+by far: 21 questions (001, 009, 011, 017, 030, 032, 036, 039, 041, 043, 044, 050, 051,
+052, 053, 055, 058, 059, 061, 065, 075). Ch.4 (Diagnostic Methods) 9; Ch.11 (Viral
+Structure) 6; Ch.6 (Normal Flora) 8; Ch.12 (Viral Replication) and Ch.10
+(Sterilization) 7 and 5; Ch.2 3; Ch.8 5 (026, 048, 056 after patching, plus 067, 069;
+073 also cites Ch.8 secondarily); Ch.13 2; Ch.14 2; Ch.3 1 (072 — newly tested this
+batch, previously untouched in this tab). Untested: Ch.1, Ch.5, Ch.9, Ch.15, Ch.16 —
+expected, since only 2 of 5 exam models have been extracted so far, well under a third
+of the full finals/Medicine question pool.
 
 **Needs your eyes** — nothing. No question was unreadable or left unresolved; every
 verdict carries a chapter anchor and evidence, or is explicitly labelled external.
