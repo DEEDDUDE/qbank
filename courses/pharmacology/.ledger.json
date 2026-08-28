@@ -1,0 +1,132 @@
+{
+  "batches": [
+    {
+      "id": "quizzes-01",
+      "built": "2026-08-29",
+      "questions": 63,
+      "note": "Whole tab, all 24 raw/quizzes/ files. See RUN-PLAN rows 5-6 and the extract file header comment for the folder-name/tier-assumption corrections found during this batch.",
+      "files": [
+        {
+          "name": "raw/quizzes/Quiz(1).pdf",
+          "sha1": "81f14b35e1dcedfe4c98e44c7e3596380299f28f",
+          "pages": 3
+        },
+        {
+          "name": "raw/quizzes/2023 Quiz Pharmacodynamics/نموذج ١ .pdf",
+          "sha1": "9be1ea0d5aa02c149ecf4bf2e112e1442dca779b",
+          "pages": 6
+        },
+        {
+          "name": "raw/quizzes/2024 Quizzes/Quiz 1 (Chapter 1) - Correct Answers.pdf",
+          "sha1": "668ffcfb3cf3468c66e722b937e380f221bf20c2",
+          "pages": 6
+        },
+        {
+          "name": "raw/quizzes/2024 Quizzes/Quiz 2 (Introduction to Antimicrobial drugs) - Correct Answers.pdf",
+          "sha1": "1519bb7728e96a98517adb7d55e1e252fd8d404a",
+          "pages": 6
+        },
+        {
+          "name": "raw/quizzes/2023 Quiz Pharmacodynamics/نموذج ٢.pdf",
+          "sha1": "a6b94b236ee3c85fc62915052a3c7673c8b7ac56",
+          "pages": 11
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_151120473856626.jpeg",
+          "sha1": "0e1ba5c8340ba61db8eeadee52d29ca5b25e374c",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_231057052311207.jpeg",
+          "sha1": "9fad83c497483e0479aed158271c76d69d9668ee",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 1/received_245049547382633.jpeg",
+          "sha1": "9c36bb791a1bcdcd44a216e1140690c2c3755e24",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 1/received_258020869522169.jpeg",
+          "sha1": "b31641157b37bf65d9e69ebe28a1327ce6d04199",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_261303475848695.jpeg",
+          "sha1": "6e07ac511ba169ea44ba0a8c100e873dccd0b9ac",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_261603142481490.jpeg",
+          "sha1": "6c321aa5bca8e8dcde7dfc61abb429e983c5daca",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_399579458191570.jpeg",
+          "sha1": "b0942e6fc34aa475b8a77da276f452e386b87b55",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_534458044451490.jpeg",
+          "sha1": "c47d8b90b0f2d06ee117eb442180923e8ce3dd4e",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 1/received_598133741554648.jpeg",
+          "sha1": "e64553907856c5888465e9c89fcbc3897ba9705c",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 1/received_801380503891369.jpeg",
+          "sha1": "aeaf40536ca5ccd3fff44ea22c80dcdf412da9d2",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_851995642342644.jpeg",
+          "sha1": "19039684d1c9b9bf36f52a889cdf74ca438ef5a6",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_882228932674149.jpeg",
+          "sha1": "0336d5c9246a98088de78814a76eb38b6d84c901",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_921798808727323.jpeg",
+          "sha1": "a9e3911044f9fb880c415b3d00bf1ba4a3d2b2e3",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_1024824654746486.jpeg",
+          "sha1": "fe1043d7cd376293b4045bb21ab20e2a292e8521",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 1/received_1028942861205986.jpeg",
+          "sha1": "7dc3629689f9117407734f502d565bda1ffdd753",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 1/received_2369380479863377.jpeg",
+          "sha1": "ce4d308f5b081756317769eab742888990af2264",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_3059407721001849.jpeg",
+          "sha1": "95602d699c2df48e9516500a617a34da62b7a7ab",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz 2/received_4632782796734697.jpeg",
+          "sha1": "25b899d58fe6ffea47091a48d3935fa8c7a78072",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/Quiz.pdf",
+          "sha1": "d001a55865a3e6215de41a9c053e8f3ee286469d",
+          "pages": 3
+        }
+      ]
+    }
+  ]
+}
