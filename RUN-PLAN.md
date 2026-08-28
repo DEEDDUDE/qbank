@@ -79,7 +79,7 @@ time C finishes those the conversation is long and that is the real cost driver.
 | # | Job | Target | Size | Status | Note |
 |---|-----|--------|------|--------|------|
 | 1 | sort | `raw/` (4 tabs) + `slides/` | 159 files | done | surveyed and moved from `downloads/…/General Pharmacology/` |
-| 2 | A | `raw/practice/Pharmacology PYQ and Bank Questions.pdf` p1–46 | ~121 Q, text layer (free) | todo | **runs first as a probe** — depends on nothing, costs nothing, and proves the OCR-text path works before 368 vision pages get spent elsewhere. Fawzi/Malik (p1–26) has no answers → open tier; Rama/Sana "PAST PAPER" (p27–46) has `Ans:` lines → claimed. **The text layer is OCR, not native** (`B.Faise`, `Phase!`, `(Va)` for Vd) — transcribe what the page says, don't correct drug names. Numbering is discontinuous in the source itself (53 sits between 5 and 6; 19–24 and 27 absent) — the continuity check will fire and that is not a dropped question |
+| 2 | A | `raw/practice/Pharmacology PYQ and Bank Questions.pdf` p1–46 | 174 Q extracted (vs. ~121 estimated) | done | probe confirmed the OCR-text path works. **Real count beat the estimate by 53** — the original skim only caught Fawzi/Malik's 99 + Rama/Sana's 22 numbered "Midterm collected" questions; it missed a second, unnumbered "Final collected Questions" list (52 more) that a plain digit-prefix scan can't see. Also found a 174th question (PHARM-P-122) that exists only as an embedded image on p29 — invisible to any text-layer read, caught only by checking every page for embedded images. 3 of 5 embedded images turned out load-bearing and are saved to `flagged/`; 2 (a title-page photo, an untied decay graph) were decorative and discarded. 99 open-tier (Fawzi/Malik, no answers anywhere), 75 claimed-tier (Rama/Sana, `Ans:`/`ANSWER:`/`AMSWER:` lines). Output: `pharmacology-practice.extract.md` |
 | 3 | B | `slides/Slides/` — 8 numbered decks → `source.md` | 357p (279 text / 78 vision) | todo | the canonical, complete deck set. Skip `All slides.pdf` — it is those same 8 decks concatenated. Do **not** ingest `slides/_reference/`. `slides/2024 Slides/` and `slides/2023 slides/Dr.Afnan/` are duplicates/near-duplicates of this set — 3 files in `2024 Slides/` are zero-byte. **Long pole: every C row below is blocked on this** |
 | 4 | B | gap-fill `source.md` from `slides/2023 slides/Dr.Hussain/` | 271p, 7 pdf | todo | only the 3 decks with no counterpart in the numbered set: `Cephalosporins`, `Infection site antibiotics`, `(7) Quinolone_Sulfonamides`. The other 4 restate topics row 3 already covers |
 | 5 | A | `raw/quizzes/` — whole tab | 51 vision pages, 24 files | todo | confirmed by `prep.py` Stage 0. `2024 Quizzes/` (both files) and `Quiz(1).pdf` carry printed keys → official tier. `Quiz.pdf` and `Quiz(1).pdf` are two exports of one quiz; only `(1)` has the answers |
@@ -101,9 +101,10 @@ time C finishes those the conversation is long and that is the real cost driver.
 | 21 | C | finals verify | TBD, large | todo | expect heavy cross-model stem overlap from rows 15–20 |
 | 22 | D | `out/pharmacology-finals-01.md` | TBD | todo | |
 
-**Tab summary:** nothing extracted yet. 368 vision pages across quizzes / midterm /
-finals · ~430 free text-layer questions in practice, of which ~280 route to
-`source.md` and ~150 need the external path · 357 canonical slide pages for Job B.
+**Tab summary:** practice p1–46 done (174 Q, see row 2 — beat its own estimate by
+53; rows 10–12's "~98/~139/~73" estimates likely undercount the same way and
+should be treated as floors, not ceilings). 368 vision pages across quizzes /
+midterm / finals · 357 canonical slide pages for Job B.
 
 ## public-health
 
