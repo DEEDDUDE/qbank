@@ -127,6 +127,29 @@
           "pages": 3
         }
       ]
+    },
+    {
+      "id": "midterm-2023-01",
+      "built": "2026-08-29",
+      "questions": 49,
+      "note": "raw/midterm/2023/ only -- three reshuffled models of one 2023 midterm (نموذج ١, ٢, ٣). 2018/2022 material (RUN-PLAN row 8) is a separate batch.",
+      "files": [
+        {
+          "name": "raw/midterm/2023/نموذج ١.pdf",
+          "sha1": "71d81f2b27b3831e914c96932d099e81cda816b3",
+          "pages": 22
+        },
+        {
+          "name": "raw/midterm/2023/نموذج ٢.pdf",
+          "sha1": "5c99f9acd7ee6e671fcdf8e25f968581d4c152c2",
+          "pages": 16
+        },
+        {
+          "name": "raw/midterm/2023/نموذج ٣.pdf",
+          "sha1": "f77f6eec8c3a6a2254311adaa9271c1022e98206",
+          "pages": 11
+        }
+      ]
     }
   ]
 }
