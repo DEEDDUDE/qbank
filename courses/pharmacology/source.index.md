@@ -58,17 +58,22 @@ wall synthesis stages and inhibitors, gram-positive vs gram-negative cell wall
 structure, penicillins (natural, extended-spectrum/aminopenicillins,
 penicillinase-resistant, antipseudomonal, beta-lactamase inhibitor combinations —
 Timentin, Augmentin, Unasyn, Tazocin), penicillin resistance mechanisms,
-cephalosporins (1st–5th generation, per-drug PK/uses), carbapenems (imipenem-
-cilastatin, meropenem, doripenem), aztreonam, vancomycin (mechanism, red-man
-syndrome), bacitracin, daptomycin/fosfomycin/telavancin, polymyxins
+cephalosporins (1st–5th generation, per-drug PK/uses, parenteral vs oral split by
+decade, ceftobiprole), imipenem antimicrobial spectrum, carbapenems (imipenem-
+cilastatin, meropenem, doripenem), aztreonam, vancomycin (mechanism — NAM/NAG/
+bactoprenol/D-Ala-D-Ala, red-man syndrome, teicoplanin), bacitracin,
+daptomycin/fosfomycin/telavancin, polymyxins, antibiotic selection by infection
+site (bronchitis, otitis media, sinusitis, UTI, genitourinary/AVYCAZ/ZERBAXA,
+intra-abdominal infection/ESBLs, acne)
 terms: penicillin, penicillin G, penicillin V, amoxicillin, ampicillin, methicillin,
 oxacillin, nafcillin, piperacillin, ticarcillin, MRSA, beta-lactamase, clavulanic
 acid, sulbactam, tazobactam, transpeptidase, penicillin-binding protein, PBP,
 cephalosporin, cefazolin, cephalexin, cefuroxime, ceftriaxone, ceftazidime,
-cefepime, ceftaroline, carbapenem, imipenem, cilastatin, meropenem, doripenem,
-aztreonam, vancomycin, D-Ala-D-Ala, red man syndrome, bacitracin, daptomycin,
-fosfomycin, telavancin, polymyxin, MIC, MBC, bacteriostatic, bactericidal, efflux
-pump, porin
+cefepime, ceftaroline, ceftobiprole, carbapenem, imipenem, cilastatin, meropenem,
+doripenem, aztreonam, vancomycin, D-Ala-D-Ala, NAM, NAG, bactoprenol, teicoplanin,
+red man syndrome, bacitracin, daptomycin, fosfomycin, telavancin, polymyxin, MIC,
+MBC, bacteriostatic, bactericidal, efflux pump, porin, ESBL, AVYCAZ, ZERBAXA,
+otitis media, sinusitis, intra-abdominal infection, cIAI, cUTI
 
 ## {#ch05} Ch. 5 — Protein Synthesis Inhibitors
 covers: macrolides (erythromycin, clarithromycin, azithromycin — mechanism, PK,
@@ -88,15 +93,22 @@ gray baby syndrome, aplastic anemia, quinupristin, dalfopristin, linezolid, MRSA
 VRE
 
 ## {#ch06} Ch. 6 — Antimetabolites and DNA Synthesis Inhibitors
-covers: folate synthesis pathway, sulfonamides (mechanism, classification by
-duration, PK, resistance, toxicity — kernicterus, crystalluria), trimethoprim,
-cotrimoxazole, DNA gyrase and topoisomerase IV, quinolones/fluoroquinolones
-(ciprofloxacin, levofloxacin, moxifloxacin — mechanism, PK, spectrum, uses, adverse
-effects), urinary tract antiseptics (methenamine, nitrofurantoin)
-terms: sulfonamide, PABA, dihydrofolate reductase, DHFR, trimethoprim,
-sulfamethoxazole, cotrimoxazole, kernicterus, DNA gyrase, topoisomerase IV,
-quinolone, fluoroquinolone, ciprofloxacin, levofloxacin, moxifloxacin,
-methenamine, nitrofurantoin, G6PD
+covers: folate synthesis pathway (PABA -> dihydropteroate synthetase ->
+dihydrofolate reductase -> tetrahydrofolic acid), sulfonamides (mechanism,
+classification by duration and by absorption, PK, resistance, toxicity —
+kernicterus, crystalluria, hematologic), trimethoprim, cotrimoxazole synergism,
+DNA gyrase and topoisomerase IV, quinolones/fluoroquinolones (1st-4th generation
+brand names and spectrum, nalidixic acid history, ciprofloxacin, levofloxacin,
+moxifloxacin, pefloxacin — mechanism, resistance, PK, spectrum, uses, adverse
+effects), urinary tract antiseptics (methenamine, nitrofurantoin, nalidixic acid),
+antiprotozoal drugs (metronidazole — mechanism, uses, disulfiram effect, PK;
+antimalarials named)
+terms: sulfonamide, PABA, dihydropteroate synthetase, dihydrofolate reductase,
+DHFR, trimethoprim, sulfamethoxazole, cotrimoxazole, kernicterus, DNA gyrase,
+topoisomerase IV, quinolone, fluoroquinolone, nalidixic acid, ciprofloxacin,
+norfloxacin, ofloxacin, levofloxacin, moxifloxacin, pefloxacin, methenamine,
+nitrofurantoin, G6PD, metronidazole, disulfiram effect, quinine, chloroquine,
+primaquine, quinacrine, diloxanide, nifurtimox, suramin
 
 ## {#ch07} Ch. 7 — Antiviral Drugs
 covers: viral replication steps, antiviral strategies, respiratory virus agents

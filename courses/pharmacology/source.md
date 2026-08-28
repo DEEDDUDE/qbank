@@ -5,6 +5,12 @@ through `8-Antifungal drugs.pdf`). Chapter numbers follow the deck numbers in th
 source; nothing renumbered. `All slides.pdf` in the same folder is the same 8 decks
 concatenated and was not re-ingested.
 
+Gap-filled from 3 decks in `slides/2023 slides/Dr.Hussain/` that have no
+counterpart in the numbered set — `Cephalosporins.pdf`, `Infection site
+antibiotics.pdf`, `(7) Quinolone_Sulfonamides.pdf` — folded into Ch. 4 (new §4.4,
+§4.5) and Ch. 6 (new §6.4, plus additions inside §6.3) as clearly-labelled
+supplementary material rather than merged silently into the existing prose.
+
 ---
 
 ## Ch. 1 — Introduction to Pharmacology {#ch01}
@@ -1022,6 +1028,211 @@ of cell components and cell death. Systemic use causes nephrotoxicity and
 neurotoxicity; use limited to patients with multidrug-resistant infections; careful
 dosing and monitoring of adverse effects is important.
 
+### 4.4 Supplementary cell wall inhibitor detail (gap-fill from `slides/2023 slides/Dr.Hussain/Cephalosporins.pdf`) {#ch04-4}
+
+This deck restates cell wall inhibitor material already covered above and adds the
+following, which the numbered decks did not include.
+
+**Cephalosporins**: R groups determine spectrum of activity and pharmacological
+properties; mechanism of action/resistance and class pharmacology are essentially
+the same as penicillins. A fifth-generation agent is named **ceftobiprole**
+(spelled "Cetobiprole" on one slide of this deck and "ceftobiprole" on another —
+both transcribed as written).
+
+Per-generation summary (this deck's own phrasing, distinct from the Ch. 4.2.2
+generation lists already given):
+- **1st generation** — Cefazolin, Cephalexin, Cephadroxil: excellent against
+  susceptible staph and strep; modest activity against gram-negatives; cefazolin
+  given parenterally, others orally; excreted by kidneys unmetabolized; good for
+  staph/strep skin and soft tissue infections.
+- **2nd generation** — Cefaclor, cefuroxime, cefprozil, cefotetan, cefoxitin,
+  cefamandole: modest gram-positive activity, increased gram-negative activity,
+  works against anaerobes; absorption/excretion same as 1st gen. Good for
+  respiratory tract infections, intra-abdominal infections, pelvic inflammatory
+  disease, diabetic foot ulcers.
+- **3rd generation** — Cefotaxime, ceftriaxone, cefpodoxime, cefixime, cefdinir,
+  cefoperazone: broad-spectrum killers, drugs of choice for serious infections; no
+  effect against *Listeria* and beta-lactamase-producing pneumococci; cefpodoxime
+  and cefixime given orally, others parenterally; most excreted by kidney.
+  Therapeutic uses: bacterial meningitis (except cefoperazone, cefixime),
+  life-threatening gram-negative sepsis.
+- **4th generation** — Cefepime: same antimicrobial spectrum as 3rd generation but
+  resists more beta-lactamases; given parenterally, excellent CSF penetration; good
+  for nosocomial infections.
+
+Toxicity/contraindications of cephalosporins: hypersensitivity reactions
+(uncommon), essentially the same as for penicillins, with cross-reaction between
+the two classes. Other adverse effects: pain at injection site; phlebitis after IV
+injection; increased nephrotoxicity when given with aminoglycosides; drugs
+containing methylthiotetrazole (e.g. cefamandole, cefoperazone, cefotetan) may
+cause hypoprothrombinemia and a disulfiram-like reaction.
+
+A separate classification table in this deck adds the decade each generation was
+introduced, and splits drugs by parenteral vs. oral route:
+
+| Generation | Parenteral agents | Oral agents |
+|---|---|---|
+| 1st (1960s) | Cefazolin, Cephalothin | Cefadroxil, Cephalexin, Cephradine |
+| 2nd (1970s) | Cefotetan, Cefoxitin, Cefuroxime | Cefaclor, Cefprozil, Cefuroxime axetil |
+| 3rd (1980s) | Cefotaxime, Ceftazidime, Ceftizoxime, Ceftriaxone | Cefdinir, Cefditoren, Cefpodoxime proxetil, Ceftibuten, Cefixime |
+| 4th (1997–98) | Cefepime, Cefpirome | — |
+
+A further diagram-based classification (parenteral/oral by generation, with
+brand names) largely restates the above but also names: 2nd generation parenteral
+"CefamycinC" (as transcribed), Cefotitan, Cefmetazole; 1st generation oral
+Cephalexin (Keflex), Cephadroxil (Durecef), and Cephradine as oral-and-parenteral;
+5th generation — **ceftobiprole**.
+
+**Carbapenems** (Imipenem, Meropenem, Ertapenem): effect on microbes and
+pharmacology similar to penicillins, with wider gram-positive, gram-negative, and
+anaerobic activity. For pseudomonal infections, given with aminoglycosides.
+Parenteral administration. Drugs of choice for infections caused by *Enterobacter*.
+Toxicity: nausea and vomiting (common); hypersensitivity reactions (uncommon,
+essentially the same as for penicillins) with possible cross-reactivity — the
+monobactam (aztreonam) is the exception to both the toxicity profile and the
+cross-reactivity.
+
+Antimicrobial spectrum of **imipenem** (Figure 31.14 in this deck) — organisms
+listed as covered:
+- Gram (+) cocci: *Staphylococcus aureus* (methicillin-resistant strains
+  resistant), *Staphylococcus epidermidis*, *Enterococcus faecalis*,
+  *Streptococcus* groups A/B/C, *Streptococcus pneumoniae*.
+- Gram (+) bacilli: *Listeria monocytogenes*.
+- Gram (−) cocci: *Neisseria gonorrhoeae* (including penicillinase-producing
+  strains), *Neisseria meningitidis*.
+- Gram (−) rods: *Acinetobacter*, *Citrobacter*, *Enterobacter*, *Escherichia
+  coli*, *Gardnerella vaginalis*, *Haemophilus influenzae*, *Klebsiella*,
+  *Proteus*, *Providencia*, *Pseudomonas aeruginosa*, *Salmonella*, *Serratia*
+  species.
+- Anaerobic organisms: *Clostridium*, *Peptococcus*, *Peptostreptococcus*,
+  *Propionibacterium*, *Bacteroides*, *Fusobacterium* species.
+- Other: *Actinomyces*, *Nocardia* species. (Spirochetes, *Mycoplasma*, and
+  *Chlamydia* are shown grayed out on the source figure — i.e. not covered.)
+
+**Monobactam — Aztreonam**: works only on gram-negatives, including *Pseudomonas
+aeruginosa*; useful for treating gram-negative infections that require a
+beta-lactam because it does not elicit hypersensitivity reactions.
+
+**Non-beta-lactam cell wall synthesis inhibitors** (this deck's list): (1)
+Vancomycin, (2) Daptomycin, (3) Teicoplanin, (4) Telavancin ("Telvancin" as
+transcribed on one slide of this deck, matching the numbered-deck spelling), (5)
+Bacitracin.
+
+**Vancomycin — additional detail**: a tricyclic glycopeptide, effective against
+multiple drug-resistant organisms such as MRSA and enterococci; there is concern
+about the emergence of vancomycin resistance.
+- Mode of action (this deck's phrasing): inhibits synthesis of bacterial cell wall
+  phospholipids and inhibits peptidoglycan polymerization by binding to the
+  D-Ala-D-Ala side chain of the precursor pentapeptide, preventing the
+  transglycosylation step, weakening the cell wall and damaging the underlying cell
+  membrane. Also described as inhibiting cell wall synthesis by inhibiting
+  peptidoglycan synthetase. Diagrams (pp. 21–23 of this deck) illustrate the
+  peptidoglycan lattice as alternating NAM/NAG (N-acetylmuramic
+  acid/N-acetylglucosamine) units cross-linked by pentapeptide bridges, assembled
+  via a membrane-embedded carrier lipid called **bactoprenol**, with teichoic acid
+  and lipoteichoic acid anchored in the layer; vancomycin ("Van") binding is shown
+  preventing formation of the peptide cross-bridge at that site, while unaffected
+  sites ("A") complete normal cross-linking.
+- Antibacterial spectrum: effective primarily against gram-positive organisms;
+  lifesaving in MRSA, methicillin-resistant *Staphylococcus epidermidis* (MRSE),
+  and enterococcal infections. A spectrum figure in this deck lists: gram (+) cocci
+  — *Staphylococcus aureus* (including methicillin-resistant strains),
+  *Staphylococcus epidermidis*, *Streptococcus* groups A/B/C, *Streptococcus
+  pneumoniae*, *Enterococcus faecalis*; gram (+) bacilli — *Listeria
+  monocytogenes*; other — *Actinomyces*; anaerobic organisms — *Clostridium*
+  species.
+- Use restricted to: (1) treatment of serious infections caused by
+  beta-lactam-resistant, gram-positive microorganisms, or (2) patients with
+  gram-positive infections who have a serious allergy to beta-lactams. Oral
+  vancomycin is limited to treatment of potentially life-threatening,
+  antibiotic-associated colitis due to *C. difficile* or staphylococci.
+- Treatment options for vancomycin-resistant organisms: daptomycin,
+  quinupristin/dalfopristin, linezolid. Vancomycin acts synergistically with
+  aminoglycosides, a combination usable in treating enterococcal endocarditis.
+- Pharmacokinetics: usually given IV over an hour; can be given orally for
+  pseudomembranous colitis. ~30% bound to serum proteins; appears in various body
+  fluids, including CSF if inflammation is present. Excreted by the kidneys.
+- Toxicity: **A. Red-man syndrome** (common) — erythematous or urticarial reaction
+  to rapid infusion; mast cells release histamine because of vancomycin's
+  toxicity. **B. Ototoxicity and nephrotoxicity** (uncommon to rare), due to
+  excessively high concentrations.
+- A referenced chart (source: Center for Disease Dynamics, Economics & Policy,
+  using CDC data) shows oral vancomycin prescriptions per 100,000 population and
+  *C. difficile* mortality per 1,000,000 population both rising in the United
+  States from 2000–2007, with a brief production shortage of vancomycin noted
+  around 2002–2003.
+
+### 4.5 Antibiotic selection by infection site (gap-fill from `slides/2023 slides/Dr.Hussain/Infection site antibiotics.pdf`) {#ch04-5}
+
+A clinical-summary deck (slide courtesy of Dr. Maher Khdour, citing a 2015 study of
+the most commonly used antimicrobial agents in Palestinian hospitals) walking
+through empiric antibiotic choice by infection site.
+
+**Outpatient acute bronchitis**: antibiotics are generally not indicated, but when
+needed: extended macrolides like azithromycin; fluoroquinolones like ciprofloxacin
+or levofloxacin; amoxicillin; cephalosporins.
+
+**Otitis media** (table of antimicrobials and comments):
+
+| Antimicrobial | Comment |
+|---|---|
+| Amoxicillin | First-line drug. Safe, effective, and inexpensive. |
+| Amoxicillin/clavulanate (Augmentin) | Second-line drug. For recurrent/persistent acute otitis media, patients on prophylactic amoxicillin, those who used antibiotics in the previous month, and those with concurrent purulent conjunctivitis. |
+| Azithromycin (one dose; Zithromax) | For penicillin allergy. One dose is as effective as longer courses. |
+| Azithromycin (three-day course; Zithromax Tripak) | For recurrent acute otitis media. |
+| Azithromycin (five-day course; Zithromax Z-pak) | For penicillin allergy (type 1 hypersensitivity). |
+| Cefdinir | For penicillin allergy, excluding urticaria/anaphylaxis to penicillin (type 1 hypersensitivity). |
+| Cefpodoxime | Same as cefdinir. |
+| Ceftriaxone | For penicillin allergy, persistent or recurrent acute otitis media, or vomiting. |
+| Cefuroxime | Same as cefdinir/cefpodoxime. |
+| Clarithromycin | For penicillin allergy (type 1 hypersensitivity); may cause GI irritation. |
+| Clindamycin | For penicillin allergy (type 1 hypersensitivity). |
+
+**Uncomplicated acute sinusitis and rhinosinusitis in adults**: amoxicillin-
+clavulanate (Augmentin BID® extended-release, orally twice daily); levofloxacin
+orally once daily; moxifloxacin orally once daily. For penicillin-allergic
+patients: doxycycline orally once or twice daily; levofloxacin orally once daily;
+moxifloxacin orally once daily.
+
+**Outpatient simple UTIs**: trimethoprim and sulfamethoxazole; fosfomycin;
+nitrofurantoin; cephalexin; ceftriaxone. Complicated UTI or kidney infection may
+warrant a fluoroquinolone.
+
+**Genitourinary infections**: cephalexin and cefuroxime IV are first choices in
+pregnancy. Recently approved: AVYCAZ® (ceftazidime + avibactam) or ZERBAXA®
+(ceftolozane + tazobactam) injection, for complicated UTI (cUTI).
+- **AVYCAZ®** (ceftazidime and avibactam) — a new beta-lactam/beta-lactamase
+  inhibitor combination with expedited FDA approval for adults: complicated UTI
+  (cUTI); complicated intra-abdominal infection (cIAI, in combination with
+  metronidazole). Not suitable for empiric treatment — use only if there are
+  limited or no other available options.
+- **ZERBAXA®** (ceftolozane and tazobactam) — indicated for cUTI in adults; in
+  combination with metronidazole, indicated for cIAI caused by susceptible
+  gram-negative and gram-positive microorganisms.
+
+**Intra-abdominal infections (IAI)** — include peritonitis or abscess formation.
+Principles of treatment: timely diagnosis, hemodynamic resuscitation and support
+of vital organ function, source control to prevent further contamination, and
+antimicrobial therapy (initial empiric treatment as single-agent or combination
+regimens).
+- Current challenge in complicated IAI (cIAI): resistance is associated with
+  nosocomial infections; resistant gram-negative organisms are frequently
+  identified even in community-acquired cIAI. Large increase in the prevalence of
+  gram-negative bacteria producing plasmid-encoded extended-spectrum
+  beta-lactamases (ESBLs), which confer resistance to a broad range of beta-lactam
+  antibiotics. Carbapenems are not inactivated by ESBLs, but increased carbapenem
+  use has led to an increase in carbapenem-resistant infections. Gram-negative
+  strains are frequently resistant to other antibiotic classes as well, greatly
+  limiting choices and forcing physicians to use older antibiotics with
+  substantial toxicity.
+
+**Outpatient acne**: topical and oral antibiotics — clindamycin, doxycycline,
+erythromycin, tetracycline.
+
+*[The deck also has section-header-only slides for "Central Nervous System" and
+"Skin/Soft Tissue Infections" with no body content — flagged as source gaps, not
+filled in.]*
+
 ---
 
 ## Ch. 5 — Protein Synthesis Inhibitors {#ch05}
@@ -1393,6 +1604,167 @@ effects: GI disturbances, acute pneumonitis, neurologic problems, pulmonary
 fibrosis, hemolytic anemia in patients with G6PD deficiency. Contraindications:
 renal impairment, pregnancy (3rd trimester).
 
+A second slide on nitrofurantoin, from the gap-fill deck (`slides/2023
+slides/Dr.Hussain/(7) Quinolone_Sulfonamides.pdf`, §6.4 below), gives the spectrum
+slightly differently: *E. coli*, but other common urinary tract gram-negative
+bacteria may be resistant; gram-positive cocci. Adverse effects there are listed as
+GI disturbances and neurologic problems (pulmonary fibrosis and hemolytic anemia in
+G6PD deficiency are not repeated on that slide). Both are given as written, without
+merging into one adverse-effect list.
+
+Urinary tract antiseptics are also described (same gap-fill deck) as a group: UTIs
+are the most common problem seen by primary care physicians — *Escherichia coli*
+causes 80% of uncomplicated upper and lower UTIs, *Staphylococcus saprophyticus* is
+the second most common cause. These agents (methenamine, nitrofurantoin, nalidixic
+acid) do not achieve antibacterial levels in the circulation but work because they
+concentrate in the urine.
+
+### 6.4 Gap-fill: quinolones, sulfonamides, and antiprotozoal drugs (from `slides/2023 slides/Dr.Hussain/(7) Quinolone_Sulfonamides.pdf`) {#ch06-4}
+
+This deck restates quinolone and sulfonamide material already given in §6.1–6.2
+above and adds the following.
+
+**Quinolone history and spectrum**: the first quinolone, **nalidixic acid**, was a
+byproduct of chloroquine synthesis (an antimalarial drug). Current drugs are
+fluorinated 4-quinolones (fluoroquinolones). Spectrum of coverage: broad (both
+gram-positive and gram-negative); newer fluoroquinolones also work against
+anaerobes.
+
+**Fluoroquinolone generations** (brand names as given):
+- 1st gen.: **Nalidixic acid** (Neggram) — moderate gram-negative activity only
+  (weak against gram-positive cocci/bacilli, gram-negative cocci); achieves minimal
+  serum concentrations; restricted to uncomplicated urinary tract infections; used
+  less often today.
+- 2nd gen.: **Ciprofloxacin** (Cipro), **Norfloxacin** (Noroxin), **Ofloxacin**
+  (Floxin) — expanded gram-negative activity, plus some activity against
+  gram-positive and atypical organisms such as *Mycoplasma pneumoniae* and
+  *Chlamydia pneumoniae*.
+- 3rd gen.: **Levofloxacin** (Levaquin) — retains expanded gram-negative activity
+  and shows improved activity against atypical organisms and specific
+  gram-positive bacteria (including *Mycoplasma*, *Chlamydia*).
+- 4th gen.: **Moxifloxacin** (Avelox) — improved gram-positive coverage
+  (including gram-positive bacilli), maintains gram-negative activity, and gains
+  anaerobic coverage.
+
+**Mechanism of action** (as given in this deck): targets are DNA gyrase
+(topoisomerase II, for gram-negatives) and topoisomerase IV (for gram-positives).
+Inhibition of gyrase prevents negative supercoiling in replicating DNA; inhibition
+of topoisomerase IV prevents separation of DNA strands.
+
+**Mechanism of resistance**: (1) mutations in chromosomal genes for gyrase and
+topoisomerase IV that result in proteins with less binding potential; (2) active
+transport out of the cell via efflux pumps.
+
+**Pharmacokinetics**: well absorbed after oral administration; food does not
+impair absorption but may delay time to peak serum concentration. Bioavailability
+of fluoroquinolones is more than 50% for all agents (up to 95% for some).
+Bactericidal; killing is concentration dependent (AUC/MIC). Excretion: most are
+cleared by the kidney (adjust dosage for renal patients); exceptions are
+**pefloxacin and moxifloxacin**, which are metabolized by the liver — do not use in
+hepatic failure.
+
+**Pharmacology of select quinolones** (restating and lightly extending §6.2):
+ciprofloxacin (2nd gen.) is particularly useful for infections caused by many
+*Enterobacteriaceae* and other gram-negative bacilli (e.g. traveler's diarrhea), is
+the most potent fluoroquinolone for *Pseudomonas aeruginosa*, is used as an
+alternative to more toxic drugs such as aminoglycosides, may act synergistically
+with beta-lactams, and is of benefit in resistant tuberculosis — but is not
+effective against serious infections caused by MRSA, enterococci, or pneumococci.
+Levofloxacin (3rd gen.) is broad spectrum, used for prostatitis due to *E. coli*
+and for STDs including gonorrhea, and for skin infections, pneumonia, and *S.
+pneumoniae* respiratory infections. Moxifloxacin (4th gen.) has enhanced activity
+against gram-positive organisms (e.g. *S. pneumoniae*) and excellent activity
+against many anaerobes, but very poor activity against *P. aeruginosa*.
+
+Toxicity & contraindications (this deck's list): nausea, vomiting, abdominal
+discomfort (common); diarrhea and antibiotic-associated colitis (uncommon to
+rare); CNS side effects — mild headache and dizziness (common to rare);
+nephrotoxicity — crystalluria at 3–4x normal doses; phototoxicity (use sunscreen);
+**arthropathy in immature animals** (common) — quinolones must usually not be
+given to children, unless benefit outweighs risk.
+
+**Sulfonamides — additional mechanistic and classification detail**:
+Sulfonamide is a generic term for derivatives of para-aminobenzenesulfonamide,
+themselves analogues of para-aminobenzoic acid (PABA); sodium salts are water
+soluble. Spectrum of coverage: broad (both gram-positive and gram-negative).
+Mechanism: competitive inhibitors of dihydropteroate synthase, so bacteria cannot
+synthesize their own folic acid; bacteriostatic in most tissues, can be cidal in
+urine.
+
+Folate-pathway diagram (this deck): dihydropteroate diphosphate + PABA →
+[dihydropteroate synthetase, blocked by **sulfonamides**] → dihydropteroic acid →
+dihydrofolic acid → [dihydrofolate reductase, blocked by **trimethoprim**] →
+tetrahydrofolic acid.
+
+Pharmacokinetics of sulfonamides: 70–100% of an oral dose is absorbed from the GI
+tract (mostly small intestine, also stomach); distributed throughout all tissues
+of the body; readily cross the placenta and reach fetal circulation (hence
+contraindicated in pregnancy). Excretion: eliminated mostly by the kidneys into
+urine, partially unchanged and partially metabolized; some drugs become insoluble
+in acid urine and may precipitate.
+
+Classes of sulfonamides (this deck's grouping, by absorption/use rather than by
+duration of action as in §6.1):
+- **A. Rapidly absorbed and eliminated**: sulfisoxazole, sulfamethoxazole,
+  sulfadiazine. Sulfamethoxazole combined with trimethoprim is widely used to
+  treat UTIs, respiratory tract infections, and GI infections.
+- **B. Poorly absorbed**: sulfasalazine — poorly absorbed in the GI tract; used to
+  treat ulcerative colitis and irritable bowel syndrome; gut bacteria break the
+  drug down into sulfapyridine and 5-aminosalicylate; toxicity is attributed to the
+  sulfapyridine component, therapeutic action to the 5-aminosalicylate component.
+- **C. Topical use**: sulfacetamide and silver sulfadiazine.
+
+Toxicity & contraindications: **A. Urinary tract** — sulfamethoxazole and
+sulfadiazine can crystallize in acid urine or in dehydrated patients, causing
+urinary obstruction. **B. Hematopoietic system** (rare to extremely rare) — acute
+hemolytic anemia (associated with G6PD deficiency in RBCs), agranulocytosis,
+aplastic anemia. **C. Hypersensitivity reactions** (common to uncommon).
+
+**Co-trimoxazole** (trimethoprim + sulfamethoxazole): shows greater antimicrobial
+activity than equivalent quantities of either drug alone; the combination was
+selected for synergistic activity and because the two drugs have similar
+half-lives. A worked figure (Figure 33.13 in this deck) shows bacterial growth
+(*E. coli*, arbitrary units, over 10 hours) under no drug, trimethoprim alone,
+sulfamethoxazole alone, and both drugs together — trimethoprim alone and
+sulfamethoxazole alone each partially suppress growth to a similar degree, while
+both drugs together suppress growth far more than either alone, illustrating
+synergism. Resistance to the trimethoprim-sulfamethoxazole combination is less
+frequently encountered than resistance to either drug alone, because it would
+require the bacterium to have simultaneous resistance to both drugs.
+
+Additional brand names for folate-pathway drugs (this deck's own list): inhibitors
+of folate synthesis — Mafenide (Sulfamylon), Silver sulfadiazine (Silvadene),
+Sulfasalazine (Azulfidine), Sulfisoxazole (Gantrisin); inhibitors of folate
+reduction — Pyrimethamine (Daraprim), Trimethoprim (Proloprim); combination —
+Cotrimoxazole (Bactrim); urinary tract antiseptics — Methenamine (Mandelamine,
+Hiprex), Nitrofurantoin (Macrobid).
+
+**Antiprotozoal drugs** — named but not elaborated in this deck, beyond
+metronidazole (below):
+- Antimalarial drugs: quinine, chloroquine, primaquine, and (unnamed)
+  antimetabolites.
+- Other drugs: metronidazole, quinacrine (transcribed in source as "Quinicrine"),
+  diloxanide, nifurtimox, suramin.
+
+**Metronidazole**:
+- Mechanism of action: anaerobic organisms have electron transport proteins that
+  participate in electron-removal reactions; metronidazole is an electron acceptor
+  that gets activated inside the cell (cytotoxic once activated), and is activated
+  only in anaerobes, to metabolites that damage DNA. (Diagram: an electron transfer
+  protein at roughly −460 mV competes with metronidazole at roughly −415 mV for
+  2H⁺ + 2e⁻ → H₂ inside the nucleus/DNA environment, producing reduced
+  metronidazole metabolites.)
+- Clinical uses: anaerobes and parasites — amebiasis, trichomoniasis, giardiasis;
+  anaerobic bacterial infections including *C. difficile* and anaerobic abscesses.
+- Adverse reactions: GI distress, seizures, neuropathy; a **disulfiram effect** if
+  taken with alcohol (flushing of the face, headache, nausea, vomiting, chest
+  pain, weakness, blurred vision, mental confusion, sweating, choking, breathing
+  difficulty, and anxiety); metallic taste.
+- Distribution: nearly all tissues, including CSF, saliva, bone, abscesses; IV =
+  PO (i.e. comparable exposure by either route). Metabolized in the liver;
+  inducer: phenobarbital; inhibitor: cimetidine; lower the dose in hepatic
+  disease.
+
 ---
 
 ## Ch. 7 — Antiviral Drugs {#ch07}
@@ -1600,9 +1972,21 @@ versicolor.
   "Lamivudine — causes pancreatitis"; this is transcribed as written even though
   didanosine is the drug most commonly associated with pancreatitis in this class —
   not corrected, per the source-outranks-correction rule.
+- **Ch. 4, `Infection site antibiotics.pdf`** (`#ch04-5`): two slides titled
+  "Central Nervous System" and "Skin/ Soft Tissue Infections" carry section
+  headings only, no body content — genuine gaps, not filled in.
+- **Ch. 4/6, nitrofurantoin adverse-effect lists** (`#ch04-4`/`#ch06-3`): the
+  numbered-deck slide and the Dr.Hussain gap-fill slide give different adverse-
+  effect lists for nitrofurantoin (the former adds pulmonary fibrosis and
+  hemolytic anemia in G6PD deficiency; the latter omits them). Both are kept as
+  written rather than merged into one list.
 
-No pages were illegible; all 47 vision pages across the 8 decks were readable. No
-pages were dropped for being pure title/section-header slides with no propositional
-content (1-Intro p.?? etc.) — those are simply not separately cited since they add
-no facts beyond the section headings already reflected in the chapter structure
-above.
+No pages were illegible; all 47 vision pages from the 8 numbered decks, and all 15
+vision pages from the 3 gap-fill decks (`Cephalosporins.pdf`, `Infection site
+antibiotics.pdf`, `(7) Quinolone_Sulfonamides.pdf`), were readable. No pages were
+dropped for being pure title/section-header slides with no propositional content —
+those are simply not separately cited since they add no facts beyond the section
+headings already reflected in the chapter structure above. The other 4 decks in
+`slides/2023 slides/Dr.Hussain/` (`Antimicrobial 1.pdf`, `Pharmacodynamics.pdf`,
+`Protein Synthsis inhibitors.pdf`, `antifungal (1).pdf`) were not ingested — per
+RUN-PLAN row 4, they restate topics the 8 numbered decks already cover.
