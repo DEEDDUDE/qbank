@@ -64,36 +64,46 @@ exam pages go through Job A's vision path. The practice bank is the exception an
 is free. No question here depends on reading a photo, so no `flagged/` crops are
 expected.
 
+**Why C and D pair up on some tabs and not others.** Job D writes
+`out/<course>-<tab>-NN.md` — the tab is in the filename, so there is one D per tab
+no matter what; they cannot be merged into a single end-of-course build. Job C is
+split per tab for a different reason: it emits a verdict, a citation and often
+generated options *per question*, and this course is heading for ~900–1100
+questions. Microbiology's largest single C session was 421 Q — that is the
+demonstrated ceiling, and one C row for all four tabs would be far past it. Where a
+tab is small, C and D run in **one** session (rows 6, 9): Job D decides nothing that
+C didn't already decide, so a separate D session only pays to re-read the file C
+just wrote. Where a tab is large (practice, finals) they stay split, because by the
+time C finishes those the conversation is long and that is the real cost driver.
+
 | # | Job | Target | Size | Status | Note |
 |---|-----|--------|------|--------|------|
 | 1 | sort | `raw/` (4 tabs) + `slides/` | 159 files | done | surveyed and moved from `downloads/…/General Pharmacology/` |
-| 2 | B | `slides/Slides/` — 8 numbered decks → `source.md` | 357p (279 text / 78 vision) | todo | the canonical, complete deck set. Skip `All slides.pdf` — it is those same 8 decks concatenated. Do **not** ingest `slides/_reference/`. `slides/2024 Slides/` and `slides/2023 slides/Dr.Afnan/` are duplicates/near-duplicates of this set — 3 files in `2024 Slides/` are zero-byte |
-| 3 | B | gap-fill `source.md` from `slides/2023 slides/Dr.Hussain/` | 271p, 7 pdf | todo | only the 3 decks with no counterpart in the numbered set: `Cephalosporins`, `Infection site antibiotics`, `(7) Quinolone_Sulfonamides`. The other 4 restate topics row 2 already covers |
-| 4 | A | `raw/quizzes/` — whole tab | 51 vision pages, 24 files | todo | confirmed by `prep.py` Stage 0. `2024 Quizzes/` (both files) and `Quiz(1).pdf` carry printed keys → official tier. `Quiz.pdf` and `Quiz(1).pdf` are two exports of one quiz; only `(1)` has the answers |
-| 5 | C | quizzes verify | TBD | todo | depends on #2 |
-| 6 | D | `out/pharmacology-quizzes-01.md` | TBD | todo | |
+| 2 | A | `raw/practice/Pharmacology PYQ and Bank Questions.pdf` p1–46 | ~121 Q, text layer (free) | todo | **runs first as a probe** — depends on nothing, costs nothing, and proves the OCR-text path works before 368 vision pages get spent elsewhere. Fawzi/Malik (p1–26) has no answers → open tier; Rama/Sana "PAST PAPER" (p27–46) has `Ans:` lines → claimed. **The text layer is OCR, not native** (`B.Faise`, `Phase!`, `(Va)` for Vd) — transcribe what the page says, don't correct drug names. Numbering is discontinuous in the source itself (53 sits between 5 and 6; 19–24 and 27 absent) — the continuity check will fire and that is not a dropped question |
+| 3 | B | `slides/Slides/` — 8 numbered decks → `source.md` | 357p (279 text / 78 vision) | todo | the canonical, complete deck set. Skip `All slides.pdf` — it is those same 8 decks concatenated. Do **not** ingest `slides/_reference/`. `slides/2024 Slides/` and `slides/2023 slides/Dr.Afnan/` are duplicates/near-duplicates of this set — 3 files in `2024 Slides/` are zero-byte. **Long pole: every C row below is blocked on this** |
+| 4 | B | gap-fill `source.md` from `slides/2023 slides/Dr.Hussain/` | 271p, 7 pdf | todo | only the 3 decks with no counterpart in the numbered set: `Cephalosporins`, `Infection site antibiotics`, `(7) Quinolone_Sulfonamides`. The other 4 restate topics row 3 already covers |
+| 5 | A | `raw/quizzes/` — whole tab | 51 vision pages, 24 files | todo | confirmed by `prep.py` Stage 0. `2024 Quizzes/` (both files) and `Quiz(1).pdf` carry printed keys → official tier. `Quiz.pdf` and `Quiz(1).pdf` are two exports of one quiz; only `(1)` has the answers |
+| 6 | C+D | quizzes verify **and** build `out/pharmacology-quizzes-01.md` | TBD, small | todo | depends on #3. Small enough to verify and build in one session |
 | 7 | A | `raw/midterm/2023/` — نموذج ١، ٢، ٣ | 49 vision pages | todo | no key; claimed/open tier throughout |
 | 8 | A | `raw/midterm/2018/` + `raw/midterm/2022 (الاجابات صحيحة)/` | 22 vision pages | todo | 2022 has `Answers.jpg` → official. **2018 photos are 405–867 px, below `prep.py`'s 1000 px floor** — expect pages that can't be read; give those a status, never a guess |
-| 9 | C | midterm verify | TBD | todo | |
-| 10 | D | `out/pharmacology-midterm-01.md` | TBD | todo | |
-| 11 | A | `raw/practice/Pharmacology PYQ and Bank Questions.pdf` p1–46 | ~121 Q, text layer (free) | todo | Fawzi/Malik section (p1–26) has no answers → open tier; Rama/Sana "PAST PAPER" (p27–46) has `Ans:` lines → claimed. **The text layer is OCR, not native** (`B.Faise`, `Phase!`, `(Va)` for Vd) — transcribe what the page says, don't correct drug names. Numbering is discontinuous in the source itself (53 sits between 5 and 6; 19–24 and 27 absent) — the continuity check will fire and that is not a dropped question |
-| 12 | A | practice bank p47–66 | ~98 Q, free | todo | "Pharmacology TEST BANK" (p47–59) + dental students 2022/2023 (p60–66). No answers in either |
-| 13 | A | practice bank p67–115 | ~139 Q, free | todo | "Pharma020" section — numbered `Q1)` not `1.`, answers present on only some |
-| 14 | A | practice bank p116–134 | ~73 Q, free | todo | every question carries an `Ans:` line |
-| 15 | C | practice verify | TBD | todo | ~430 Q across rows 11–14; likely needs splitting into 2–3 sessions |
-| 16 | D | `out/pharmacology-practice-01.md` | TBD | todo | |
-| 17 | A | `raw/finals/2020-2021/` (folders 1 + 2 + 3) | 55 vision pages after hash dedupe | todo | **three separate captures of one sitting** — a scanned pdf, a Messenger photo set, a camera roll. `prep.py` drops the 4 exact-hash dups inside folder `3`, but the cross-folder overlap is different bytes of the same pages: dedupe by stem, the way microbiology's نموذج 1/5 were reconciled |
-| 18 | A | `raw/finals/2023-2024/Medicine/1.pdf` + `2.pdf` | 51 vision pages | todo | models 1 and 2 of 6 |
-| 19 | A | `raw/finals/2023-2024/Medicine/3.pdf` + `6.pdf` | 52 vision pages | todo | |
-| 20 | A | `raw/finals/2023-2024/Medicine/4.pdf` | 41 vision pages | todo | longest single model |
-| 21 | A | `raw/finals/2023-2024/Medicine/5/` | 27 vision pages | todo | model 5 is a photo set, not a pdf |
-| 22 | A | `raw/finals/2023-2024/Dentistry/` | 20 vision pages | todo | **different programme** — same course, dentistry sitting. Keep it, and tag it so it stays distinguishable from the Medicine models |
-| 23 | C | finals verify | TBD | todo | expect heavy cross-model stem overlap from rows 17–22 |
-| 24 | D | `out/pharmacology-finals-01.md` | TBD | todo | |
+| 9 | C+D | midterm verify **and** build `out/pharmacology-midterm-01.md` | TBD | todo | split into two rows if #7–8 land more than ~250 Q |
+| 10 | A | practice bank p47–66 | ~98 Q, free | todo | "Pharmacology TEST BANK" (p47–59) + dental students 2022/2023 (p60–66). No answers in either. **p47–59 is partly off-syllabus** — autonomics, opioids, epinephrine — none of which the 8 canonical decks cover; expect `not-in-source` |
+| 11 | A | practice bank p67–115 | ~139 Q, free | todo | "Pharma020" section — numbered `Q1)` not `1.`, answers present on only some. **The most off-syllabus section of the bank** — adrenergics, morphine, anaesthesia, insulin, aspirin all appear. Extract it all regardless; Job C decides what routes |
+| 12 | A | practice bank p116–134 | ~73 Q, free | todo | every question carries an `Ans:` line. Cleanly on-syllabus |
+| 13 | C | practice verify | ~430 Q | todo | **~150 of the 430 will not route to `source.md`** — rows 10 and 11 carry material this course never taught. That is `not-in-source`, which is a real status, not a failure. Before defaulting to it, try `slides/_reference/Pharmacology___Toxicology_-_3rd_Ed..pdf` as an external authority → `external` tier, the way microbiology's finals batch resolved 7. Likely needs splitting into 2–3 sessions |
+| 14 | D | `out/pharmacology-practice-01.md` | ~430 Q | todo | kept separate from #13 — the conversation is long by the time C finishes this many |
+| 15 | A | `raw/finals/2020-2021/` (folders 1 + 2 + 3) | 55 vision pages after hash dedupe | todo | **three separate captures of one sitting** — a scanned pdf, a Messenger photo set, a camera roll. `prep.py` drops the 4 exact-hash dups inside folder `3`, but the cross-folder overlap is different bytes of the same pages: dedupe by stem, the way microbiology's نموذج 1/5 were reconciled |
+| 16 | A | `raw/finals/2023-2024/Medicine/1.pdf` + `2.pdf` | 51 vision pages | todo | models 1 and 2 of 6 |
+| 17 | A | `raw/finals/2023-2024/Medicine/3.pdf` + `6.pdf` | 52 vision pages | todo | |
+| 18 | A | `raw/finals/2023-2024/Medicine/4.pdf` | 41 vision pages | todo | longest single model |
+| 19 | A | `raw/finals/2023-2024/Medicine/5/` | 27 vision pages | todo | model 5 is a photo set, not a pdf |
+| 20 | A | `raw/finals/2023-2024/Dentistry/` | 20 vision pages | todo | **different programme** — same course, dentistry sitting. Keep it, and tag it so it stays distinguishable from the Medicine models |
+| 21 | C | finals verify | TBD, large | todo | expect heavy cross-model stem overlap from rows 15–20 |
+| 22 | D | `out/pharmacology-finals-01.md` | TBD | todo | |
 
 **Tab summary:** nothing extracted yet. 368 vision pages across quizzes / midterm /
-finals · ~430 free text-layer questions in practice · 357 canonical slide pages for
-Job B.
+finals · ~430 free text-layer questions in practice, of which ~280 route to
+`source.md` and ~150 need the external path · 357 canonical slide pages for Job B.
 
 ## public-health
 
