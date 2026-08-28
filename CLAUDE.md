@@ -12,7 +12,9 @@ Built and maintained by one medical student. Read this before touching anything.
 ```
 qbank/
   CLAUDE.md                  ← this file
+  RUN-PLAN.md                ← single source of truth: what's done, what's next
   .claude/skills/qbank/      ← the skill: Jobs A–D
+  .claude/commands/          ← /subjectstart, /subjectnext, /subjectstatus
   scripts/                   ← local prep: crop, downscale, hash, OCR
   courses/
     <course>/
@@ -142,6 +144,14 @@ line numbers.
 
 ## Working style
 
+- **Every session starts by reading `RUN-PLAN.md`.** It's the single source of
+  truth for what's done and what's next, across every course. A session works
+  exactly one row — one job, one course, one tab or batch — then updates that
+  row's status before ending. A session that stops early leaves the row as
+  `doing`, not `todo`, with a note precise enough for a cold session to resume
+  from it. `/subjectstart`, `/subjectnext`, and `/subjectstatus` in
+  `.claude/commands/` wrap this: survey-and-plan, do-one-row, and report,
+  respectively.
 - One piece at a time. Show it, get agreement, then continue.
 - Report before spending: page count, how many are free via text layer, estimated tokens.
 - Batch the questions for the user — collect everything needing human eyes and present
