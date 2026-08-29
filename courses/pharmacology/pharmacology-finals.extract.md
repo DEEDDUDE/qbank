@@ -94,7 +94,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 6]
+models: [1, 3, 6]
 note: Same claim seen in two captures (PDF Q2, folder 2 Q19), reshuffled
   options. Also seen in the 2023-2024 sitting's model 3 (same claim, "The ED50
   is a measure of drug's efficacy") and model 6 (unanswered).
@@ -274,7 +274,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [6]
+models: [1, 6]
 note: Open in the PDF capture; filled in by a Messenger capture. Also seen in
   the 2023-2024 sitting's model 6 (unanswered, same stem/options reshuffled).
 Which of the following statements about the fluoroquinolones is LEAST
@@ -409,7 +409,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3, 6]
+models: [1, 3, 6]
 note: Same claim confirmed in two captures (PDF, Messenger), reshuffled
   options. Also seen in the 2023-2024 sitting's model 3 (same claim) and
   model 6 (unanswered).
@@ -477,7 +477,7 @@ tier: claimed
 form: mcq
 type: single
 disputed: true
-models: [3, 6]
+models: [1, 3, 6]
 claims:
   - source: PDF capture
     answer: e (Sulfasalazine)
@@ -728,7 +728,7 @@ tier: claimed
 form: mcq
 type: single
 disputed: true
-models: [3, 6]
+models: [1, 3, 6]
 img: flagged/PHARM-F-059-beta-lactamase-resistance-mechanism-incomplete-options.jpg
 claims:
   - source: 2020-2021 sitting (all captures)
@@ -1047,14 +1047,31 @@ e) Ofloxacin
 
   Zero questions in this batch depend on a photo/graph for their content --
   pure text MCQs, one matching question, and two EMQs throughout, so no img:
-  crops were needed. -->
+  crops were needed.
+
+  CORRECTION (post-write, confirmed against row 16's raw/finals/2023-2024/
+  Medicine/1.pdf): 1.pdf and 6.pdf are two captures of the SAME underlying
+  Moodle attempt, not two independently-reshuffled models -- word-for-word
+  identical stems AND identical option order across every question checked,
+  both entirely "Not yet answered." File hashes differ (not literally the
+  same file), so this is a re-export/re-capture of one exam instance under
+  two different raw filenames, not a coincidence -- confirmed independently
+  by both sessions comparing rendered pages directly, not just extracted
+  text. The "6-model reshuffle" framing this row and RUN-PLAN rows 16-19
+  inherited from the raw folder's 1.pdf-6.pdf naming does NOT reliably mean
+  six distinct Moodle models; at least one of the six raw files is a
+  duplicate capture. Every models: field that named 6 was updated to also
+  name 1 (models: [6] -> [1, 6], models: [3, 6] -> [1, 3, 6]) rather than
+  picking one numeral as canonical -- neither raw filename is known to be
+  the "true" Moodle model number, so both are kept. Row 16 is skipping
+  re-extraction of 1.pdf as a result; see its own RUN-PLAN note. -->
 
 ### PHARM-F-080
 tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 A 62-year old man recently diagnosed with onychomycosis started a treatment
 with terbinafine. Inhibition of which of the following enzymes most likely
@@ -1164,7 +1181,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 For bioequivalence tests, Cmax is a relevant measure to assess whether test
 and reference formulation have the same rate of absorption?
@@ -1192,7 +1209,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered. Possibly
   related to PHARM-F-067 (2020-2021 sitting, same stem) which carries a
   smaller, differently-worded 4-option set (no "Carbenicillin", no "None of
@@ -1211,7 +1228,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Which of the following antimicrobial agents is primary administered
 topically?
@@ -1225,7 +1242,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 The following adverse effects are matched with corresponding drug except?
 a) Fluroquinolones / QT prolonation
@@ -1293,7 +1310,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Which of the following antibiotic combinations is inappropriate based on
 antagonism at the same site of action?
@@ -1308,7 +1325,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Children younger than 8 years of age should not receive tetracycline's
 because these agents?
@@ -1323,7 +1340,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Which Among of the Following Antibiotics Act as Folate Antagonist?
 a) Cefotaxime
@@ -1337,7 +1354,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 In the treatment of a urinary tract infection in a patient known to have a
 deficiency of glucose-6-phosphate dehydrogenase, it would not be advisable to
@@ -1431,7 +1448,7 @@ e) Increase drug toxicity
 tier: claimed
 form: qa
 claimed: extended-spectrum penicillin
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries the same 5-pair matching question, marked "Not yet
   answered" -- its dropdowns show text by default even when unanswered (a
   Moodle display quirk for this question type, confirmed by the "Not yet
@@ -1442,28 +1459,28 @@ oxacillin (matching, item 1 of 5)
 tier: claimed
 form: qa
 claimed: second-generation cephalosporin's
-models: [3, 6]
+models: [1, 3, 6]
 cefuroxime (matching, item 2 of 5)
 
 ### PHARM-F-109
 tier: claimed
 form: qa
 claimed: carbapenems
-models: [3, 6]
+models: [1, 3, 6]
 imipenem (matching, item 3 of 5)
 
 ### PHARM-F-110
 tier: claimed
 form: qa
 claimed: third-generation cephalosporin
-models: [3, 6]
+models: [1, 3, 6]
 ceftriaxone (matching, item 4 of 5)
 
 ### PHARM-F-111
 tier: claimed
 form: qa
 claimed: first-generation cephalosporin
-models: [3, 6]
+models: [1, 3, 6]
 cefazolin (matching, item 5 of 5)
 
 ### PHARM-F-112
@@ -1550,7 +1567,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 The terminal slope of the concentration time profile is always reflective of
 the elimination rate constant ke?
@@ -1592,7 +1609,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 What is a common feature among the following group of antibiotics like
 Penicillin, Cephalosporins, Carbapenems, and Monobactams?
@@ -1608,7 +1625,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 All of the following factors influence the penetration and concentration of
 an antibacterial agent in the CSF except?
@@ -1662,7 +1679,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Which of the following group of antibiotics show bacteriostatic action?
 a) Fluoroquinolones
@@ -1676,7 +1693,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Cilastatin is given along with Imipenem for the following reason?
 a) Decreasing hydrolysis of Imipenem
@@ -1692,7 +1709,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3, 6]
+models: [1, 3, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Which adverse effect is appeared with sulfonamides?
 a) All of them
@@ -1705,7 +1722,7 @@ e) Crystalluria and nephrotoxicity
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 A 63-year-old male presents from a nursing home with fever, increased urinary
 frequency and urgency. He has a penicillin allergy of anaphylaxis. Which of
 the following B-lactams is the most appropriate choice for gram-negative
@@ -1720,7 +1737,7 @@ e) Aztreonam
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Which of the following statements about beta-lactam antibiotics is false?
 a) Ceftriaxone is eliminated mainly via biliary secretion
 b) Ticarcillin has activity against several gram negative rods
@@ -1733,7 +1750,7 @@ e) Instability of penicillins in gastric acid can limit their oral absorption
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 note: Thematically close to PHARM-F-069 (2020-2021 sitting, "Ototoxicity,
   nephrotoxicity, and muscle paralysis" / 4 options) but not the same
   question -- different third symptom listed (vestibulo-toxic impairment vs.
@@ -1751,7 +1768,7 @@ e) All of them
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Azithromycin is very convenient for the patient because it is administered
 once daily?
 a) True
@@ -1761,7 +1778,7 @@ b) False
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Through drug metabolism, conjugation is?
 a) Coupling of a drug with an endogenous substrate
 b) Solubilization in lipids
@@ -1773,7 +1790,7 @@ e) All of them
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Cytochrome P-450 inhibition results in drug-drug interaction potential, a
 classic example of strong cytochrome P-450 inhibitor is fluconazole?
 a) False
@@ -1783,7 +1800,7 @@ b) True
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Patient needs antibiotic treatment for native valve, culture positive
 infective enterococcal endocarditis. His medical history includes sever
 anaphylactic reaction to Penicillin G during the last year. The best approach
@@ -1798,7 +1815,7 @@ e) Aztreonam
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 What is the characteristic of the intramuscular route of drug
 administration?
 a) All of them
@@ -1811,7 +1828,7 @@ e) Opportunity of hyperonic solution injections
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Regarding toxicity of antibiotics, The correct statement is?
 a) Enamel dysplasia is common with aminoglycosides
 b) Disulfiram like reaction can occur with macrolides
@@ -1823,7 +1840,7 @@ e) Nephritis is the most common adverse reaction with ceftriaxone
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 An 18-year-old woman presents with urinary frequency, dysuria, and low-grade
 fever. Urinalysis shows pyuria and bacilli. Select the most appropriate
 treatment?
@@ -1837,7 +1854,7 @@ e) Sulfamethoxazole plus trimethoprim
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 A patient has been prescribed Ciprofloxacin. Which of the following is an
 important patient teaching for this drug?
 a) Take this medication on an empty stomach
@@ -1850,7 +1867,7 @@ d) This medication may stain your teeth, rinse with a hydrogen peroxide
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Which of the following drugs would be selected to treat a newborn infant
 with bacterial meningitis of unknown etiology?
 a) Tetracycline
@@ -1863,7 +1880,7 @@ e) Ceftriaxone
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Your patient has MRSA. You have an order to administer vancomyocin, 1G IV q
 12h. You remember that this medication can cause a rash on the face, neck,
 and trunk. What intervention would be the BEST to prevent this side effect?
@@ -1876,7 +1893,7 @@ d) Obtain an order for PO administration
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 A 58-year-old male with a history of hepatitis C, cirrhosis, and ascites
 presents with spontaneous bacterial peritonitis. Which of the following
 antibiotics requires close monitoring and dosing adjustment in this patient
@@ -1891,7 +1908,7 @@ e) Tobramycin.
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Bioavailability is?
 a) Amount of a substance obtained orally and quantity of intakes
 b) Safety of drug
@@ -1903,7 +1920,7 @@ e) Glomerular filtration rate
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Which of the following antifungal agents could be used during pregnancy?
 a) Fluconazole
 b) Griseofulvin
@@ -1915,7 +1932,7 @@ e) Amphotericin B
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Which of the following antifungal drugs act by inhibiting ergosterol
 synthesis?
 a) Terbinafine
@@ -1928,7 +1945,7 @@ e) Fluconazole and Terbinafine
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 A patient is being discharged from the hospital on a 3-week course of
 clindamycin. Which of the following potential adverse effects should be
 discussed with her?
@@ -1941,7 +1958,7 @@ d) Nephrotoxicity
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 The correct statement concerning Chloramphenicol is?
 a) Can cause discoloration of developing teeth when given to children
 b) Does not penetrate the blood brain barrier
@@ -1953,7 +1970,7 @@ e) Can be safely used in premature infants
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Which of the following statements about the fluoroquinolones is LEAST
 accurate?
 a) Antacids may decrease the oral bioavailability of fluoroquinolones
@@ -1967,7 +1984,7 @@ d) A fluoroquinolone is the drug of choice for treatment of an uncomplicated
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 For bioequivalence tests, AUC is a relevant measure to assess whether test
 and reference formulation have the same rate of absorption?
 a) False
@@ -1977,7 +1994,7 @@ b) True
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 A 22-year-old female patient, has a severe penicillin allergy, is diagnosed
 with community acquired pneumonia (caused by S. pneumonia), which of the
 following would be the appropriate treatment for this patient?
@@ -1990,7 +2007,7 @@ d) Ampicillin
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Regarding the mechanism of action of aminoglycosides, the drugs?
 a) Are bacteriostatic
 b) Inhibit peptidyltransferase
@@ -2001,7 +2018,7 @@ d) Bind to the 30S subunit interfere with cause misreading of mRNA
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Which of the following statements best explains the mechanism of antifungal
 action of azoles?
 a) Inhibition of squalene synthesis
@@ -2014,7 +2031,7 @@ e) Formation of artificial pores in the fungal membrane
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Which statement about vancomycin is accurate?
 a) All of them
 b) Binds to PBPs
@@ -2026,7 +2043,7 @@ e) Active against MRSA
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 Clarithromycin and erythromycin have very similar spectra of antimicrobial
 activity. The major advantage of clarithromycin is that it?
 a) Eradicates mycoplasmal infections in a single dose
@@ -2039,56 +2056,56 @@ e) Has greater activity against H-pylori
 ### PHARM-F-158
 tier: open
 form: qa
-models: [6]
+models: [1, 6]
 Natural penicillin's has more acid stable and it's route of administration
 orally (EMQ, part 1 of 8)
 
 ### PHARM-F-159
 tier: open
 form: qa
-models: [6]
+models: [1, 6]
 Broad spectrum and bacteriostatic antibiotic has dose-dependent bone marrow
 suppression and aplastic anemia by a non-dose related (EMQ, part 2 of 8)
 
 ### PHARM-F-160
 tier: open
 form: qa
-models: [6]
+models: [1, 6]
 Bacteriostatic antibiotic has activity against MRSA, VRE and excellent (100%)
 oral Bioavailability (EMQ, part 3 of 8)
 
 ### PHARM-F-161
 tier: open
 form: qa
-models: [6]
+models: [1, 6]
 Second generation cephalosporin antibiotic crosses the BPB and used for
 community acquired pneumonia as parentally (EMQ, part 4 of 8)
 
 ### PHARM-F-162
 tier: open
 form: qa
-models: [6]
+models: [1, 6]
 Third generation cephalosporin antibiotic is active against Pseudomonas
 aeruginosa (EMQ, part 5 of 8)
 
 ### PHARM-F-163
 tier: open
 form: qa
-models: [6]
+models: [1, 6]
 A macrolide antibiotic with a very long half-life (about 40 hours) (EMQ, part
 6 of 8)
 
 ### PHARM-F-164
 tier: open
 form: qa
-models: [6]
+models: [1, 6]
 An aminoglycoside antibiotic used in hepatic encephalopathy or hepatic coma
 (EMQ, part 7 of 8)
 
 ### PHARM-F-165
 tier: open
 form: qa
-models: [6]
+models: [1, 6]
 A tetracycline antibiotic glucuronide is excreted via bile and used in acne
 vulgaris (EMQ, part 8 of 8)
 
@@ -2096,7 +2113,7 @@ vulgaris (EMQ, part 8 of 8)
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 To treat an upper respiratory infection due to Streptococcus pneumoniae in a
 pregnant woman with a known history of penicillin allergy, all of the
 following drugs are contraindicated EXCEPT?
@@ -2110,7 +2127,7 @@ e) Tetracycline
 tier: open
 form: mcq
 type: single
-models: [6]
+models: [1, 6]
 There is only drug absorption until peak plasma concentrations are reached?
 a) False
 b) True
