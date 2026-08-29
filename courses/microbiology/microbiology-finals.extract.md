@@ -17,14 +17,20 @@ status: IN PROGRESS — نموذج 1 (complete, 50/50) and نموذج ٥ (comple
   already-disputed entry with model 4's own vote (MICRO-F-009, 054, 067, 073,
   each now a 2-vs-1 or 2-vs-2 split rather than resolved by count) and 2 turned
   a previously-undisputed entry into a fresh dispute (MICRO-F-049, 078). 7 were
-  genuinely new (MICRO-F-089-095). ٦ not started. Each remaining model gets its
-  own fresh session per CLAUDE.md's one-tab-per-session rule.
-questions: 95
-tiers: claimed 94 | open 1
-forms: mcq 95
+  genuinely new (MICRO-F-089-095). ٦ done, and unlike every other model in this
+  sitting, entirely unanswered -- all 50 questions show "Not yet answered", so
+  every one of them is a pure zero-information capture: it can extend a
+  models: list but can never contribute a claim or create/resolve a dispute.
+  48 of 50 matched an existing stem cleanly; 2 were genuinely new
+  (MICRO-F-096-097). All five Medicine models of this sitting are now
+  extracted -- what's left for this tab is the Dentistry sitting and every
+  pre-2023 folder (rows 24-30).
+questions: 97
+tiers: claimed 94 | open 3
+forms: mcq 97
 disputed: 9
 needs-eye: 0
-next-id: MICRO-F-096
+next-id: MICRO-F-098
 ---
 
 ### MICRO-F-001
@@ -32,7 +38,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 4]
+models: [1, 4, 6]
 Infection by which one of the following bacteria is most likely to elicit granulomatous
 inflammation?
 a) Escherichia coli
@@ -45,7 +51,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 3, 4, 5]
+models: [1, 3, 4, 5, 6]
 Each of the following statements concerning lysogeny is correct EXCEPT?
 a) Viral DNA is integrated into bacterial DNA
 b) Viral genes replicate independently of bacterial genes
@@ -71,7 +77,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1]
+models: [1, 6]
 note: Page also carries a hand-drawn X over (a) and a check mark on (c). Moodle's own
   filled radio already selected (c), so per job-a-extract.md the hand marks are ignored
   as annotation, not treated as a separate claim — they agree with the Moodle state
@@ -88,7 +94,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3]
+models: [1, 3, 6]
 Which one of the following bacteria has the lowest 50% infective dose (ID50)?
 a) Salmonella typhi
 b) Campylobacter jejuni
@@ -120,7 +126,7 @@ claims:
   - source: model 3
     answer: b (The virus particle have to contain a virus-encoded enzyme that
       can copy and replicate the genome)
-models: [1, 3]
+models: [1, 3, 6]
 The nucleic acid of a certain virus was found to be composed of eight pieces of
 single-stranded negative polarity RNA. Which one of the following statements is not
 correct?
@@ -190,7 +196,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 4, 5]
+models: [1, 4, 5, 6]
 71 year old woman with chronic leukemia developed slow impairment of memory as well as
 deterioration of intellectual power and orientation. Brain autopsy specimens showed
 demyelination due to viral damage of oligodendroglial cells. Abundant JC virus particles
@@ -217,7 +223,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 4]
+models: [1, 4, 6]
 Human immunodeficiency virus (HIV) contains an RNA-dependent DNA polymerase.
 a) True
 b) False
@@ -227,7 +233,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 4, 5]
+models: [1, 4, 5, 6]
 A 30-year-old woman with nonbloody diarrhea for the past 14 hours. Which one of the
 following organisms is not likely to cause this illness?
 a) Salmonella
@@ -240,7 +246,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3]
+models: [1, 3, 6]
 Capsules play a role in the vaccine production against --------?
 a) E. coli
 b) Mycoplasma pneumoniae
@@ -264,7 +270,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [3, 5]
+models: [3, 5, 6]
 Each of the following statements concerning Treponema is correct EXCEPT:
 a) Treponema pallidum produces an exotoxin that stimulates adenylate cyclase.
 b) Treponema pallidum cannot be grown on conventional laboratory media.
@@ -278,7 +284,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 5]
+models: [1, 5, 6]
 Which one of the following infectious agents is NOT an obligate intracellular?
 a) Mycoplasma
 b) Rickettsia
@@ -302,7 +308,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [3, 5]
+models: [3, 5, 6]
 One of the following molecules (structures) is not a component of any virus?
 a) Cell wall
 b) Enzyme
@@ -314,7 +320,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [3, 5]
+models: [3, 4, 5, 6]
 Most viruses acquire surface glycoproteins by budding through the nuclear membrane.
 a) False
 b) True
@@ -324,7 +330,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3, 5]
+models: [1, 3, 5, 6]
 Which of the following is not correct regarding human normal flora?
 a) Bacteroides fragilis is found in greater numbers than Escherichia coli in the colon
 b) Candida albicans is part of the normal flora of both men and women
@@ -336,7 +342,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [4, 5]
+models: [4, 5, 6]
 The main site of action of acyclovir is viral genome DNA synthesis.
 a) True
 b) False
@@ -346,7 +352,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [3, 5]
+models: [3, 5, 6]
 Infection by which one of the following bacteria is most likely to be interrupted by
 handwashing?
 a) Treponema pallidum
@@ -359,7 +365,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [4, 5]
+models: [4, 5, 6]
 Infection by which one of the following bacteria is most likely to be transmitted
 vertically?
 a) Clostridium tetani
@@ -372,7 +378,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 4, 5]
+models: [1, 4, 5, 6]
 Ethylene oxide is used to sterilize heat-sensitive materials, such as surgical
 instruments, in hospitals.
 a) False
@@ -396,7 +402,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 5]
+models: [1, 5, 6]
 Fungi are never considered as members of human normal flora
 a) True
 b) False
@@ -447,7 +453,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [4, 5]
+models: [4, 5, 6]
 Which of the following statements is not correct regarding human immunodeficiency
 virus (HIV)?
 a) A DNA copy of the HIV genome integrates into host cell DNA
@@ -460,7 +466,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [5, 6]
 The most correct choice represents the decreasing order of resistance to
 sterilization:
 a) Prions, bacteria, bacterial spores
@@ -473,7 +479,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [5]
+models: [5, 6]
 How is Chlamydia trachomatis typically diagnosed since it cannot be cultured?
 a) Serology
 b) Dark-field microscopy
@@ -485,7 +491,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3, 4, 5]
+models: [3, 4, 5, 6]
 One of the following is a pathogen with the ability to enter and survive inside cells?
 a) Staphylococcus aureus
 b) Streptococcus pyogenes
@@ -521,7 +527,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [5, 6]
 Which one of the following sets of properties of exotoxins and endotoxins is
 correctly matched?
 a) Exotoxins-weakly antigenic; endotoxins-highly antigenic
@@ -535,7 +541,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [4, 5]
+models: [4, 5, 6]
 Which of the following bacterial cells is an endospore forming AEROBIC bacteria?
 a) Bacillus anthracis
 b) Bacillus and Clostridium
@@ -547,7 +553,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 5]
+models: [1, 5, 6]
 Exotoxins are less toxic than the same amount of endotoxins
 a) False
 b) True
@@ -593,7 +599,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 5]
+models: [3, 5, 6]
 Common sexually transmitted disease that may lead to cervical carcinoma is caused by
 which one of the following viruses?
 a) Herpes simplex virus 2
@@ -634,7 +640,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 4, 5]
+models: [1, 4, 5, 6]
 The following pathogens are transmitted trans placentally?
 a) Escherichia coli, Neisseria gonorrhoeae
 b) Herpes simplex virus type 1 and 2
@@ -651,7 +657,7 @@ claims:
     answer: b (The virion contains a polymerase.)
   - source: model 4
     answer: c (The genome RNA is segmented.)
-models: [3, 4, 5]
+models: [3, 4, 5, 6]
 note: Near-duplicate stem of MICRO-F-007 (both about an 8-segment negative-polarity
   ssRNA virus's properties) but the option sets diverge beyond simple reshuffling,
   kept separate rather than merged, to avoid conflating two possibly-different
@@ -671,7 +677,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [4, 5]
+models: [4, 5, 6]
 Which one of the following sets of bacteria produces exotoxins that act by
 ADP-ribosylation?
 a) Clostridium tetani and Bacillus anthracis
@@ -684,7 +690,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [4, 5]
+models: [4, 5, 6]
 Each of the following statements concerning exotoxins is correct EXCEPT?
 a) Cholera toxin are enterotoxin that stimulats adenylate cyclase
 b) Diphtheria is caused by an exotoxin that inhibits protein synthesis.
@@ -709,7 +715,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 5]
+models: [1, 5, 6]
 note: Page also carries a hand-drawn mark beside the question (an a with a question
   mark). Moodle's own filled radio (c) is the record per job-a-extract.md; the mark
   reads as the annotator puzzling over option a rather than a competing selection, so
@@ -730,7 +736,7 @@ claims:
     answer: b (Intoxication)
   - source: model 3
     answer: d (E. coli gastroenteritis)
-models: [3, 4, 5]
+models: [3, 4, 5, 6]
 A patient with nausea, vomiting, and diarrhea within 3 hours after eating and being
 healthy most likely has?
 a) Shigellosis
@@ -743,7 +749,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 5]
+models: [3, 5, 6]
 Botulinum toxin causes paralysis by blocking release of acetylcholine
 a) False
 b) True
@@ -815,7 +821,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 4]
+models: [1, 4, 6]
 note: Near-duplicate theme of MICRO-F-030 (mode of action of endotoxin, same TNF
   answer content) but a different clinical vignette and different stem wording, kept
   separate rather than merged.
@@ -855,7 +861,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 3]
+models: [1, 3, 6]
 The VDRL non-treponemal serological test?
 a) The test is cross reactive with many Gram negative infections.
 b) Heart beef extract is used as an antigen
@@ -867,7 +873,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 6]
 Children aged 3-5 years old, visited a local zoo, and later they developed bloody
 diarrhea. The clinical laboratory reports the presence of 0157:H7 strains of E. coli
 in the bloody stools. These young children are at risk to develop.
@@ -881,7 +887,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3]
+models: [1, 3, 6]
 A viroid is?
 a) A complete infectious enveloped virus particle
 b) A capsid without nucleic acid
@@ -913,7 +919,7 @@ claims:
     answer: b (Virus-mediated inhibition of host DNA synthesis)
   - source: model 3
     answer: d (Generation of defective-interfering particles)
-models: [1, 3]
+models: [1, 3, 6]
 A possible mechanisms for viral persistence in infected individuals include all of
 the following EXCEPT?
 a) Formation of non-neutralizing antibodies against the viral antigens.
@@ -980,7 +986,7 @@ claims:
     answer: b (Enterococcus faecalis)
   - source: model 3
     answer: d (Clostridium perfringens)
-models: [1, 3, 4]
+models: [1, 3, 4, 6]
 Which of the following organisms is not causing diarrhea?
 a) Vibrio cholerae
 b) Enterococcus faecalis
@@ -1031,7 +1037,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [3]
+models: [3, 6]
 Disease caused by which one of the following bacteria is prevented by a toxoid
 vaccine?
 a) Salmonella typhi
@@ -1062,7 +1068,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 4]
+models: [3, 4, 6]
 Main site of action of amantadine is viral protein synthesis.
 a) True
 b) False
@@ -1072,7 +1078,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3]
+models: [3, 6]
 One of the following viruses causes localized infection in humans?
 a) Measles virus
 b) Poliovirus
@@ -1144,7 +1150,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3, 4]
+models: [3, 4, 6]
 A 40-year-old man who recently visited India admitted to the emergency department
 with profuse watery diarrhea with mucus, and severe dehydration. Which of the
 following correctly describes the causal agent?
@@ -1158,7 +1164,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3, 4]
+models: [3, 4, 6]
 Mannitol salt agar is considered as?
 a) Differential medium
 b) Enrichment medium
@@ -1182,7 +1188,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [4]
+models: [4, 6]
 Which of the following statements is not correct regarding bacterial killing?
 a) An autoclave uses steam under pressure to reach the killing temperature of 121°C.
 b) Spores and some pathogens survive milk pasteurization process.
@@ -1194,7 +1200,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [4]
+models: [4, 6]
 Bacterial spores are sensitive to?
 a) None of them
 b) Autoclaving
@@ -1224,7 +1230,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [4]
+models: [4, 6]
 Which of the following statements is correct concerning viral serotypes?
 a) Viral serotype is usually determined by the outer capsid proteins in case of naked
    nucleocapsid viruses.
@@ -1269,3 +1275,28 @@ a) Lecithinase.
 b) Hyaluronidase.
 c) Leukocidin of Staphylococcus aureus.
 d) M protein of Streptococcus pneumoniae.
+
+### MICRO-F-096
+tier: open
+form: mcq
+type: single
+models: [6]
+The following are possible outcomes of viral replication, which one is characteristic
+of Hepatitis B?
+a) Fusion of cells
+b) Malignant transformation
+c) No apparent or morphologic change
+d) Lysis of cells (viral lysis)
+
+### MICRO-F-097
+tier: open
+form: mcq
+type: single
+models: [6]
+note: Near-duplicate theme of MICRO-F-002 (both about lysogeny/lysogenic conversion)
+  but this is a plain True/False fact statement rather than an EXCEPT-style
+  four-option question, and it was never answered here to compare against — kept
+  separate rather than merged.
+In lysogenic transduction, viral genes replicate independently of bacterial genes.
+a) True
+b) False
