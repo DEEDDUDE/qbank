@@ -1,12 +1,12 @@
 ---
 course: pharmacology
 tab: finals
-questions: 203
-tiers: official 0 | claimed 157 | open 46
-forms: mcq 161 | qa 42
+questions: 234
+tiers: official 0 | claimed 157 | open 77
+forms: mcq 192 | qa 42
 needs-eye: 1
 disputed: 10
-next-id: PHARM-F-205
+next-id: PHARM-F-236
 retired: PHARM-F-151 (duplicate of PHARM-F-020, ID kept as a tombstone rather
   than reused per the no-renumbering rule -- excluded from all counts above)
 ---
@@ -1352,7 +1352,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [1, 2, 3, 4, 6]
+models: [1, 2, 3, 4, 6, dentistry]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Which Among of the Following Antibiotics Act as Folate Antagonist?
 a) Cefotaxime
@@ -1605,7 +1605,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [2, 3, 4]
+models: [2, 3, 4, dentistry]
 Clavulanic acid is important because it?
 a) Is a potent inhibitor of cell-wall
 b) Easily penetrates Gram-negative bacteria
@@ -1693,7 +1693,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [2, 3, 4]
+models: [2, 3, 4, dentistry]
 What is meant by antibiotic resistance?
 a) None of them
 b) Both our bodies and the bacteria
@@ -1889,7 +1889,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [1, 4, 6]
+models: [1, 4, 6, dentistry]
 note: Open in models 1/6; filled in by model 4.
 An 18-year-old woman presents with urinary frequency, dysuria, and low-grade
 fever. Urinalysis shows pyuria and bacilli. Select the most appropriate
@@ -2025,7 +2025,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 4, 6]
+models: [1, 4, 6, dentistry]
 note: Open in models 1/6; filled in by model 4.
 The correct statement concerning Chloramphenicol is?
 a) Can cause discoloration of developing teeth when given to children
@@ -2668,7 +2668,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [4]
+models: [4, dentistry]
 Which of the following adverse drug reactions precludes a patient from being
 re-challenged with that drug in the future?
 a) All of them
@@ -2792,7 +2792,7 @@ e) None of them
 tier: open
 form: mcq
 type: single
-models: [5]
+models: [5, dentistry]
 Which of the Following Penicillin has Best Gram-Negative Spectrum?
 a) Methicillin
 b) Nafcillin
@@ -2804,7 +2804,7 @@ e) Penicillin V
 tier: open
 form: mcq
 type: single
-models: [5]
+models: [5, dentistry]
 Therapeutic index (TI) is?
 a) A ratio used to evaluate the bioavailability of a drug
 b) A ratio used to evaluate the elimination of a drug
@@ -2828,7 +2828,7 @@ d) Penicillin G
 tier: open
 form: mcq
 type: single
-models: [5]
+models: [5, dentistry]
 Random use of broad-spectrum antibiotics is contraindicated. This is because
 they?
 a) Can interfere with endogenous microbiota
@@ -2867,3 +2867,388 @@ b) Transformation of substances due to oxidation, reduction, or hydrolysis
 c) Binding to plasma proteins
 d) Acetylation and methylation of substances
 e) All of them
+
+<!-- batch 06 -- raw/finals/2023-2024/Dentistry/ (RUN-PLAN row 20), 20 vision
+  pages, "Final Pharmacology Dentistry.pdf" screenshotted off a laptop
+  screen (camera roll, not a clean PDF export -- keyboard/desk visible in
+  frame on several pages). A genuinely different sitting from the six
+  Medicine models: different programme (Dentistry, not Medicine), different
+  Moodle attempt ID (attempt=1021563x, vs. the Medicine models'
+  attempt=1009548x/10096078 range), and a much shorter exam -- 40 questions
+  total (Q1-40, no gaps), not ~49-50. Entirely "Not yet answered" throughout,
+  clean radios, no filled-radio anomaly this time.
+
+  Per RUN-PLAN's own instruction to keep this distinguishable from the
+  Medicine models rather than folding it into their numbering: every
+  question here (new or matched) carries the string tag `dentistry` in its
+  `models:` list instead of a number, e.g. `models: [4, dentistry]` on a
+  question also seen in Medicine's model 4. This keeps the same field and
+  matching mechanism (stem-dedup against the whole file, same as every prior
+  batch) while making it immediately visible that "dentistry" isn't model 7
+  of the Medicine reshuffle.
+
+  Matched by stem against the entire file (2020-2021 sitting + all Medicine
+  models 1-6): only 9 of 40 questions matched an existing entry (PHARM-F-099,
+  122, 128, 141, 150, 192, 199, 200, 202) -- much lower overlap than any
+  Medicine-model pair, consistent with this being a separate
+  programme-specific exam drawing more heavily on its own material (NSAID/
+  analgesic and dental-relevant content -- Reye's syndrome, COX-2 selective
+  inhibitors, paracetamol/acetaminophen toxicity, aspirin -- barely
+  represented anywhere in the Medicine captures). 31 new entries
+  (PHARM-F-205-235), all open tier (nothing here was ever answered).
+
+  Zero questions in this batch depend on a photo/graph -- pure text MCQs
+  throughout -- so no img: crops were needed. -->
+
+### PHARM-F-205
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+The following are all contraindicated in pregnancy EXCEPT:
+a) Tobramycin
+b) Ceftriaxone
+c) Doxycicline
+d) Tetracycline
+e) Ciprofloxacin
+
+### PHARM-F-206
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+β-lactamases can degrade Amoxcillin?
+a) False
+b) True
+
+### PHARM-F-207
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+The following are Fluoroquinolones EXCEPT:
+a) None of them
+b) Moxifloxacin
+c) Ofloxacin
+d) All of them
+e) Ciprofloxacin
+
+### PHARM-F-208
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Cholera and chlamydial infections, here we have to focus on:
+a) None of them
+b) Aminoglycosides
+c) Carbabenems
+d) Chloramphenicol
+
+### PHARM-F-209
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+All fluoroquinolones could be used to treat UTI?
+a) True
+b) False
+
+### PHARM-F-210
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+You have a patient with rheumatoid arthritis who takes aspirin, 1.25g q 6h.
+She is hospitalized with E. Coli sepsis. Maxiumum doses of gentamicin have
+been ordered. Based on this information, what intervention would be a
+PRIORITY?
+a) Monitor for skin rashes (Stevens Johnson syndrome)
+b) Check liver function tests
+c) Monitor electrolyte levels
+d) Obtain a hearing evaluation
+
+### PHARM-F-211
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Patients treated with erythromycin may suffer from GI toxicity?
+a) False
+b) True
+
+### PHARM-F-212
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+All of the following are true with respect to antimicrobial therapy, EXCEPT:
+a) In patients requiring a course of I.V therapy initially, the switch to
+   oral agents must be as soon as possible
+b) Empiric therapy means immediate administration of the drug prior to
+   bacterial identification and susceptibility testing
+c) Many antibiotics are safe, others might be toxic
+d) Its selection does NOT depend on the cost of therapy
+
+### PHARM-F-213
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Which of the following terms refers to the ability of an antimicrobial drug
+to harm the target microbe without harming the host?
+a) Spectrum of activity
+b) None of them
+c) Mode of action
+d) Therapeutic level
+
+### PHARM-F-214
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Tetracyclines are avoided in pregnancy because they can?
+a) None of them
+b) All of them
+c) Cause excessive postpartum hemorrhage
+d) Cause excessive vomiting in the mother
+e) Cause abortions
+
+### PHARM-F-215
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Correct statement concerning Vancomycin is?
+a) None of them
+b) Is well absorbed from the GIT
+c) Inhibits protein synthesis in bacteria
+d) One adverse reaction to infusions of vancomycin is the "blue man"
+   syndrome
+e) Is bactericidal against gram negative bacilli
+
+### PHARM-F-216
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Usually, it is important to monitor plasma levels of aminoglycosides such as
+gentamicin! This is to avoid concentrations that cause dose-related
+toxicities, those probable toxicities are:
+a) Nephrotoxicity
+b) All except hepatotoxicity
+c) Ototoxicity
+d) Neuromuscular blockade
+e) Hepatotoxicity
+
+### PHARM-F-217
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Clavulanic acid is combined with amoxicillin because it stimulates beta
+lactamases that destroy amoxicillin?
+a) False
+b) True
+
+### PHARM-F-218
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+All of the following drugs inhibit protein synthesis by binding to, and
+interfering with ribosomes EXCEPT:
+a) Chloramphenicol
+b) Chlortetracycline
+c) Penicillin G
+d) Erythromycin
+e) Clindamycin
+
+### PHARM-F-219
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Empiric therapy: immediate administration of drug(s) prior to bacterial
+identification and susceptibility testing. The antibiotic here should be
+broad spectrum
+a) True
+b) False
+
+### PHARM-F-220
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Doxycycline is effective in treatment of Acne Vulgaris?
+a) False
+b) True
+
+### PHARM-F-221
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Select the fourth generation cephalosporin among the following?
+a) Cefuroxime
+b) None of them
+c) Ceftazidime
+d) Ceftizoxime
+
+### PHARM-F-222
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Aspirin should be avoided by those who are sensitive to salicylates?
+a) True
+b) False
+
+### PHARM-F-223
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Which of the following antimicrobial drugs is pure natural?
+a) Both penicillin V and amoxicillin
+b) Nafcillin
+c) Methicillin
+d) Penicillin V
+e) Amoxicillin
+
+### PHARM-F-224
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+44. Therapeutic Use(s) of Tetracyclines may NOT include:
+a) Mycoplasma infections - atypical pneumonia
+b) Rickettsial infections
+c) All of them might be treated with tetracyclines
+d) Chlamydia infections
+
+### PHARM-F-225
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+A 24-year-old man recently diagnosed with severe acne started a treatment
+that included tetracycline which of the following best explains the outcome
+of the interaction between tetracycline and dairy products?
+a) Increase drug toxicity
+b) Increased drug elimination
+c) Decreased drug binding to bacterial ribosome
+d) Decreased bacterial permeability to the drug
+e) Decreased drug oral Bioavailability
+
+### PHARM-F-226
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Meropenem: all of the following are true EXCEPT:
+a) None of them
+b) Even wider G+ activity, G- and anaerobes as compared to penicillins
+c) Effect on microbes is to a certain limit, similar to penicillins.
+d) For pseudomonal infections: given with aminoglycosides
+e) Drugs of choice for infections caused by Enterobacter.
+
+### PHARM-F-227
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Overdose of paracetamol is usually treated by administration of protamine
+sulfate as an antidote?
+a) False
+b) True
+
+### PHARM-F-228
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+All of the following are B-lactam antibiotics EXCEPT:
+a) Amikcin
+b) Meropenem
+c) Cefipime
+d) Oxacillin
+e) PenicillinV
+
+### PHARM-F-229
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Fatality of patients due to paracetamol toxicity is related to?
+a) Peptic Ulcers
+b) All of them
+c) None of them
+d) Pancreatitis
+e) Neurotoxicity
+
+### PHARM-F-230
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+It works better than other macrolides against Haemophilus influenzae, it is:
+a) Azithromycin
+b) Erythromycin
+c) Roxithromycin
+d) Clarithromycin
+e) None of them
+
+### PHARM-F-231
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+All of the following are potential effects of aspirin EXCEPT?
+a) Bleeding due to a decrease of platelet aggregation
+b) Increased clot formation
+c) None of them
+d) Gastritis
+
+### PHARM-F-232
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Which of the following considered as first choice to treat penicillin
+allergic patients?
+a) Both Tetracyclines and Aminoglycosides
+b) Tetracyclines
+c) None of them
+d) Aminoglycosides
+
+### PHARM-F-233
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Acetaminophen is a substitute for aspirin to treat mild-to-moderate pain in
+patients who are at risk of Reye's syndrome?
+a) False
+b) True
+
+### PHARM-F-234
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Generally, COX-2 selective inhibitors have increased cardiovascular effects
+as compared to non-selective agents?
+a) False
+b) True
+
+### PHARM-F-235
+tier: open
+form: mcq
+type: single
+models: [dentistry]
+Which of the following potential side effects have to be discussed with
+patient receiving clindamycin?
+a) All of them
+b) Diarrhea a cause of Clostridium difficile infection
+c) Ototoxicity
+d) Nephrotoxicity
