@@ -1,14 +1,12 @@
 ---
 course: pharmacology
 tab: practice
-scope: PHARM-P-001–174 — all of row 2's batch (Fawzi Shihadeh & Malik Suliman's
-  open-tier set, PHARM-P-001–099, plus Rama & Sana's claimed-tier "Midterm
-  collected" + "Final collected Questions" set, PHARM-P-100–174). PHARM-P-175–481
-  (rows 10–12's TEST BANK, dental students, Pharma020, and the third Mohanad
-  Al-ahmad set) are not covered by this pass — RUN-PLAN row 13 needs at least
-  1 more session.
-questions: 174
-verified: 148 | external: 16 | conflict: 0 | not-in-source: 10 | needs-eye: 0
+scope: PHARM-P-001–270 — row 2's whole batch (PHARM-P-001–174) plus row 10's
+  TEST BANK + dental-students sets (PHARM-P-175–270). PHARM-P-271–481 (row
+  11's Pharma020 set and row 12's set) are not covered by this pass —
+  RUN-PLAN row 13 needs at least 1 more session.
+questions: 270
+verified: 244 | external: 16 | conflict: 0 | not-in-source: 10 | needs-eye: 0
 ---
 
 ### PHARM-P-001
@@ -1403,3 +1401,580 @@ answer: Liberation of formaldehyde
 basis: Ch. 6 — Antimetabolites and DNA Synthesis Inhibitors {#ch06-3}
 evidence: "Methenamine — mechanism: decomposes at acidic urine pH ≤5.5,
   producing formaldehyde."
+
+### PHARM-P-175
+status: verified
+answer: e
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-176
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-177
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-178
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-179
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-180
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-181
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-182
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-183
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-184
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-185
+status: verified
+answer: e
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-186
+status: verified
+answer: Drug C
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-187
+status: verified
+answer: Drug A
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-188
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-189
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-190
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-191
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-192
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-193
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-194
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-195
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-196
+status: verified
+answer: e
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-197
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-198
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-199
+status: verified
+answer: e
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-200
+status: verified
+answer: e
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-201
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-202
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-203
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-204
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-205
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-206
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-207
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-208
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-209
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-210
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-211
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-212
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-213
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-214
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-215
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-216
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-217
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-218
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-219
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-220
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-221
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-222
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-223
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-224
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-225
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-226
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-227
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-228
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-229
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-230
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-231
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-232
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-233
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-234
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-235
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-236
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-237
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-238
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-239
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-240
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-241
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-242
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-243
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-244
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Phase I microsomal oxidation "introduces or unmasks a polar functional group ... converting lipophilic molecules into more polar ones" — increased polarity means increased ionization and water solubility. This rules out (a) (activity "may increase, decrease, or stay unchanged," not always inactivate — and the source elsewhere notes oxidation can even produce toxic metabolites, e.g. paracetamol, ruling out (b) too) and (d) (oxidation increases water solubility to aid excretion, not lipid solubility).
+note: Tier open (Job A: no answer anywhere in the source for this one) — independently answered from the source rather than left needs-eye, since Ch. 2.3's Phase I description directly supports option c) and directly contradicts the other three.
+
+### PHARM-P-245
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-246
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-247
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-248
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-249
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-250
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-251
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-252
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-253
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-254
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-255
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-256
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-257
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-258
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-259
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-260
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-261
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-262
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-263
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-264
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-265
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-266
+status: verified
+answer: d
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-267
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-268
+status: verified
+answer: b
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-269
+status: verified
+answer: c
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-270
+status: verified
+answer: a
+basis: official — printed answer key on source page
+note: Tier official; passed through untouched per Job C rules, not independently re-verified.

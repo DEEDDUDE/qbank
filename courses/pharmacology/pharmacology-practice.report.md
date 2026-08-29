@@ -1,15 +1,27 @@
 # pharmacology / practice — verify progress
 
-**Scope so far:** PHARM-P-001–174 — all of row 2's batch (Fawzi Shihadeh &
-Malik Suliman's open-tier general PK/PD set, PHARM-P-001–099, plus Rama &
-Sana's claimed-tier "Midterm collected" + "Final collected Questions" set,
-PHARM-P-100–174). RUN-PLAN row 13 covers all 481 practice-tab questions and
-needs at least 1 more session: PHARM-P-175–481 (rows 10–12's TEST BANK,
-dental students, Pharma020, and the third Mohanad Al-ahmad set) is not yet
-verified.
+**Scope so far:** PHARM-P-001–270 — row 2's whole batch (PHARM-P-001–174)
+plus row 10's TEST BANK + dental-students sets (PHARM-P-175–270). RUN-PLAN
+row 13 covers all 481 practice-tab questions and needs at least 1 more
+session: PHARM-P-271–481 (row 11's Pharma020 set and row 12's set) is not
+yet verified.
 
-> **pharmacology / practice, PHARM-P-001–174 — 174 questions**
-> verified 148 · external 16 · conflict 0 · not-in-source 10 · needs-eye 0
+> **pharmacology / practice, PHARM-P-001–270 — 270 questions**
+> verified 244 · external 16 · conflict 0 · not-in-source 10 · needs-eye 0
+
+**Session 3 (PHARM-P-175–270, 95 of 96 official tier):** verified 96 ·
+everything else 0. This was the cheapest session yet — 95 of 96 questions
+carried a printed answer key, so Job C's own "pass through untouched" rule
+applied almost across the board, no source lookup spent. The lone exception,
+PHARM-P-244 (open tier — genuinely blank in the source's own key), resolved
+cleanly: Ch. 2.3's description of Phase I oxidation ("converting lipophilic
+molecules into more polar ones") directly supports one option and directly
+contradicts the other three. Six more graph-dependent questions this session (PHARM-P-177
+Ultron/facial-flushing therapeutic index, PHARM-P-179 partial-agonist
+dose-response curve, PHARM-P-180/181 competitive-vs-noncompetitive
+antagonist curves, PHARM-P-186/187 four-drug efficacy/potency comparison)
+came with the answer already known from the key — not independently
+re-derived, same as every other official question this session.
 
 **Session 1 (PHARM-P-001–099, all open tier):** verified 93 · external 6 ·
 conflict 0 · not-in-source 0 · needs-eye 0. No claim to compare against, so
@@ -89,10 +101,9 @@ matching both the claim and the image's own pre-highlighted Moodle answer).
   ("not certain") on what turned out, on independent verification, to be the
   correct answer.
 
-**Next session should start at PHARM-P-175** (rows 10–12's material — TEST
-BANK, dental students, Pharma020, and the third Mohanad Al-ahmad set). This
-is the section RUN-PLAN row 13 already flagged as likely carrying a
-meaningful chunk of genuinely off-syllabus material.
+**Next session should start at PHARM-P-271** (row 11's Pharma020 set, then
+row 12's set). This is the section RUN-PLAN row 13 already flagged as likely
+carrying a meaningful chunk of genuinely off-syllabus material.
 
 ---
 
