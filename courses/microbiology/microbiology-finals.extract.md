@@ -3,14 +3,21 @@ course: microbiology
 tab: finals
 scope: raw/finals/2023-2024-Finals/Medicine/ only — 5 duplicate models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured)
 status: IN PROGRESS — نموذج 1 (complete, 50/50) and نموذج ٥ (complete, 50/50) done.
-  نموذج 3, 4, ٦ not started. Each remaining model gets its own fresh session per
-  CLAUDE.md's one-tab-per-session rule.
-questions: 76
-tiers: claimed 75 | open 1
-forms: mcq 76
-disputed: 1
+  نموذج 3 done, but only 44/50 questions of it: Q35, 36, 45, 46, 47, 48 have no
+  screenshot anywhere in the PDF export at all (not even a cut-off header for
+  36/45/47/48) -- a genuine gap in what the student captured, not a read
+  failure. Of the 44 captured, 26 matched an existing stem cleanly (models:
+  list extended), 6 matched an existing stem but with a DIFFERENT claimed
+  answer than the model(s) already on file (newly marked disputed: true --
+  MICRO-F-007, 046, 054, 067, 068, 073), and 12 were genuinely new
+  (MICRO-F-077-088). نموذج 4, ٦ not started. Each remaining model gets its own
+  fresh session per CLAUDE.md's one-tab-per-session rule.
+questions: 88
+tiers: claimed 87 | open 1
+forms: mcq 88
+disputed: 7
 needs-eye: 0
-next-id: MICRO-F-077
+next-id: MICRO-F-089
 ---
 
 ### MICRO-F-001
@@ -31,7 +38,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 5]
+models: [1, 3, 5]
 Each of the following statements concerning lysogeny is correct EXCEPT?
 a) Viral DNA is integrated into bacterial DNA
 b) Viral genes replicate independently of bacterial genes
@@ -43,7 +50,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 5]
+models: [1, 3, 5]
 After extraction of a wisdom tooth, an 18-year-old male student was diagnosed as having
 subacute bacterial endocarditis. He has a congenital heart disease that has been under
 control. Which of the following is the most likely organism causing his infection?
@@ -74,7 +81,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 3]
 Which one of the following bacteria has the lowest 50% infective dose (ID50)?
 a) Salmonella typhi
 b) Campylobacter jejuni
@@ -86,7 +93,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1]
+models: [1, 3]
 A patient developed abdominal abscess after surgery. The abscess was drained, and
 culture reveals a polymicrobial infection. The predominant organism identified to be a
 gram-negative anaerobic rod. Which of the following is the most likely causal agent?
@@ -99,8 +106,14 @@ d) Staphylococcus aureus
 tier: claimed
 form: mcq
 type: single
-claimed: c
-models: [1]
+disputed: true
+claims:
+  - source: model 1
+    answer: c (Purified RNA extracted from the virus particle is infectious)
+  - source: model 3
+    answer: b (The virus particle have to contain a virus-encoded enzyme that
+      can copy and replicate the genome)
+models: [1, 3]
 The nucleic acid of a certain virus was found to be composed of eight pieces of
 single-stranded negative polarity RNA. Which one of the following statements is not
 correct?
@@ -116,7 +129,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 3]
 Why is a fourfold increase in titer between acute and convalescent serum samples
 important in many serologic tests?
 a) It suggests a prior infection
@@ -185,7 +198,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 5]
+models: [1, 3, 5]
 Which of the following mechanisms of bacterial killing is not correct?
 a) Lysozyme hydrolyzes bacterial cell walls
 b) Silver nitrate can inactivate bacterial enzymes
@@ -220,7 +233,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 3]
 Capsules play a role in the vaccine production against --------?
 a) E. coli
 b) Mycoplasma pneumoniae
@@ -244,7 +257,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [3, 5]
 Each of the following statements concerning Treponema is correct EXCEPT:
 a) Treponema pallidum produces an exotoxin that stimulates adenylate cyclase.
 b) Treponema pallidum cannot be grown on conventional laboratory media.
@@ -282,7 +295,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [3, 5]
 One of the following molecules (structures) is not a component of any virus?
 a) Cell wall
 b) Enzyme
@@ -294,7 +307,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [3, 5]
 Most viruses acquire surface glycoproteins by budding through the nuclear membrane.
 a) False
 b) True
@@ -304,7 +317,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 5]
+models: [1, 3, 5]
 Which of the following is not correct regarding human normal flora?
 a) Bacteroides fragilis is found in greater numbers than Escherichia coli in the colon
 b) Candida albicans is part of the normal flora of both men and women
@@ -326,7 +339,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [5]
+models: [3, 5]
 Infection by which one of the following bacteria is most likely to be interrupted by
 handwashing?
 a) Treponema pallidum
@@ -415,7 +428,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 5]
+models: [1, 3, 5]
 How is the capsule surrounding a bacterium involved in the immune response?
 a) It induces granulomatous inflammation
 b) It retards phagocytosis
@@ -465,7 +478,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [3, 5]
 One of the following is a pathogen with the ability to enter and survive inside cells?
 a) Staphylococcus aureus
 b) Streptococcus pyogenes
@@ -477,7 +490,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [3, 5]
 Which of the following is considered as a sterilizing agent?
 a) Carbon tetrachloride
 b) Oxygen
@@ -489,7 +502,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 5]
+models: [1, 3, 5]
 Which of the following component is found in all viruses
 a) The envelope
 b) Spikes
@@ -537,7 +550,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [3, 5]
 What is the main purpose of throat cultures?
 a) To detect Mycobacterium tuberculosis
 b) To identify viruses causing respiratory infections
@@ -573,7 +586,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [5]
+models: [3, 5]
 Common sexually transmitted disease that may lead to cervical carcinoma is caused by
 which one of the following viruses?
 a) Herpes simplex virus 2
@@ -585,8 +598,13 @@ d) Hepatitis B
 tier: claimed
 form: mcq
 type: single
-claimed: a
-models: [1, 5]
+disputed: true
+claims:
+  - source: models 1 and 5 (agree)
+    answer: a (True)
+  - source: model 3
+    answer: b (False)
+models: [1, 3, 5]
 A presumptive diagnosis of gonorrhea can be made by finding gram-negative kidney
 bean-shaped diplococci within neutrophils in a urethral discharge.
 a) True
@@ -621,7 +639,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [5]
+models: [3, 5]
 note: Near-duplicate stem of MICRO-F-007 (both about an 8-segment negative-polarity
   ssRNA virus's properties) but the option sets diverge beyond simple reshuffling,
   kept separate rather than merged, to avoid conflating two possibly-different
@@ -666,7 +684,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [3, 5]
 Which of the following bacteria produce an exotoxin that inhibits the release of
 acetylcholine at the neuromuscular junction?
 a) Bordetella pertussis
@@ -694,8 +712,13 @@ d) Candida
 tier: claimed
 form: mcq
 type: single
-claimed: b
-models: [5]
+disputed: true
+claims:
+  - source: model 5
+    answer: b (Intoxication)
+  - source: model 3
+    answer: d (E. coli gastroenteritis)
+models: [3, 5]
 A patient with nausea, vomiting, and diarrhea within 3 hours after eating and being
 healthy most likely has?
 a) Shigellosis
@@ -708,7 +731,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [5]
+models: [3, 5]
 Botulinum toxin causes paralysis by blocking release of acetylcholine
 a) False
 b) True
@@ -767,7 +790,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1]
+models: [1, 3]
 What is the term for the ability of members of the normal flora to limit the growth
 of pathogens, and how is it affected by alterations in the normal flora?
 a) Microbial interference; unchanged
@@ -820,7 +843,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3]
 The VDRL non-treponemal serological test?
 a) The test is cross reactive with many Gram negative infections.
 b) Heart beef extract is used as an antigen
@@ -846,7 +869,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 3]
 A viroid is?
 a) A complete infectious enveloped virus particle
 b) A capsid without nucleic acid
@@ -857,8 +880,13 @@ d) A naked infectious single molecule of circular RNA.
 tier: claimed
 form: mcq
 type: single
-claimed: a
-models: [1]
+disputed: true
+claims:
+  - source: model 1
+    answer: a (True)
+  - source: model 3
+    answer: b (False)
+models: [1, 3]
 Lyme disease is transmitted to human being via an arthropod vector?
 a) True
 b) False
@@ -867,8 +895,13 @@ b) False
 tier: claimed
 form: mcq
 type: single
-claimed: b
-models: [1]
+disputed: true
+claims:
+  - source: model 1
+    answer: b (Virus-mediated inhibition of host DNA synthesis)
+  - source: model 3
+    answer: d (Generation of defective-interfering particles)
+models: [1, 3]
 A possible mechanisms for viral persistence in infected individuals include all of
 the following EXCEPT?
 a) Formation of non-neutralizing antibodies against the viral antigens.
@@ -881,7 +914,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3]
 Which of the following viruses usually enters the body via fecal oral route?
 a) VZV
 b) Hepatitis A virus
@@ -929,8 +962,13 @@ d) Staphylococcus
 tier: claimed
 form: mcq
 type: single
-claimed: b
-models: [1]
+disputed: true
+claims:
+  - source: model 1
+    answer: b (Enterococcus faecalis)
+  - source: model 3
+    answer: d (Clostridium perfringens)
+models: [1, 3]
 Which of the following organisms is not causing diarrhea?
 a) Vibrio cholerae
 b) Enterococcus faecalis
@@ -942,7 +980,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 3]
 All of the following viruses evade host defenses by having multiple serotypes except?
 a) Human immunodeficiency virus (HIV)
 b) Polio virus
@@ -975,3 +1013,149 @@ c) The interaction between virus and host cell receptors determines the specific
    target organs for infection
 d) If the target cell binding receptors are occupied, then interference with virus
    infection occurs
+
+### MICRO-F-077
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [3]
+Disease caused by which one of the following bacteria is prevented by a toxoid
+vaccine?
+a) Salmonella typhi
+b) Neisseria meningitidis
+c) Corynebacterium diphtheriae
+d) Bacteroides fragilis
+
+### MICRO-F-078
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+Which one of the following mechanisms is LEAST likely to produce a disease upon
+viral infection?
+a) Production of an exotoxin that activates adenylate cyclase
+b) Malignant transformation of infected cells
+c) Immune response to the virally infected cells.
+d) Cytopathic effect in infected cells
+
+### MICRO-F-079
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+Main site of action of amantadine is viral protein synthesis.
+a) True
+b) False
+
+### MICRO-F-080
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [3]
+One of the following viruses causes localized infection in humans?
+a) Measles virus
+b) Poliovirus
+c) Rubella virus
+d) Rhinovirus
+
+### MICRO-F-081
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+During infection, the retroviruses synthesize a DNA copy of their RNA, and this DNA
+becomes covalently integrated into host cell DNA.
+a) True
+b) False
+
+### MICRO-F-082
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+Which of the following pathogen can cause infective endocarditis, espically after
+several months of prosthetic valve replacement?
+a) Streptococcus viridans
+b) Staphylococcus epidermidis
+c) Bacillus anthracis
+d) Staphylococcus epidermidis and Streptococcus viridans
+
+### MICRO-F-083
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [3]
+The main site of symptoms of disease caused by Clostridium botulinum is?
+a) Soft tissue
+b) Gastrointestinal tract
+c) Nervous system
+d) Respiratory tract
+
+### MICRO-F-084
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [3]
+Which of the following will destroy prions?
+a) Boiling
+b) Exposure to formaldehyde vapor
+c) Autoclaving
+d) Irradiation
+
+### MICRO-F-085
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+Which of the following virus group have a latency stage in its host cell?
+a) Influenza viruses
+b) Herpesviruses
+c) All viruses have a latency stage.
+d) Polioviruses
+
+### MICRO-F-086
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+A 40-year-old man who recently visited India admitted to the emergency department
+with profuse watery diarrhea with mucus, and severe dehydration. Which of the
+following correctly describes the causal agent?
+a) Gram-negative curved rod; toxin that inhibits protein synthesis
+b) Gram-negative curved rods; toxin that increases cAMP.
+c) Gram-negative rod; toxin that inhibits protein synthesis
+d) All the mentioned could be the causative agent
+
+### MICRO-F-087
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [3]
+Mannitol salt agar is considered as?
+a) Differential medium
+b) Enrichment medium
+c) Selective medium
+d) Both selective and differential
+
+### MICRO-F-088
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+Selective action of Acyclovir in herpes simplex virus (HSV)-infected cells is
+attributed to the specific binding of Acyclovir to viral receptors only expressed
+on the surface of the HSV-infected cells.
+a) True
+b) False
