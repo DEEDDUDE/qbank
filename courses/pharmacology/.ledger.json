@@ -150,6 +150,124 @@
           "pages": 11
         }
       ]
+    },
+    {
+      "id": "midterm-01",
+      "built": "2026-08-29",
+      "questions": 153,
+      "note": "Job D build of the whole midterm tab. Covers batch01 (raw/midterm/2023/, already ledgered as midterm-2023-01 at extraction time) plus batch02 files ledgered here for the first time.",
+      "files": [
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/1.jpg",
+          "sha1": "c917c2e40edb3d954f65a34b54e2449cada8bab0",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/2.jpg",
+          "sha1": "d5c4df9a5c8e8028bbf0c52356459b10d93efb81",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/3.jpg",
+          "sha1": "97be44a0ee92ff12d9bc9c0f564978fdc2c6a20a",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/4.jpg",
+          "sha1": "16e8806fef8420db1b8aa2db503e64db8588166d",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/5.jpg",
+          "sha1": "0dc3863134e94d0d13e5b823a2046a8a429b2d92",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/6.jpg",
+          "sha1": "c9cd9b2d7c3c0cb1da061c65950e045f10f270ec",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/7.jpg",
+          "sha1": "88260d3afd0d814d2cc080d484d794b091278500",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/8.jpg",
+          "sha1": "e011a995b4b0776250cc73f9b6978277a0b4ddfc",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/9.jpg",
+          "sha1": "a6802bd56b6ff35a13970703eca63d34be48bd91",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022 (الاجابات صحيحة)/Answers.jpg",
+          "sha1": "10fed43fa5b793a59a21f145843d55858735d6de",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_1035993060350346.jpeg",
+          "sha1": "f345484e6f8f992368fefcad193774e00de705c9",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_1092892558133588.jpeg",
+          "sha1": "c755ba6b59450ba07cfbf632ec553d9c8e2ed345",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_1893989800990741.jpeg",
+          "sha1": "88a869c3158ba79ec52e588164b6791047c6076d",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_3060516220887635.jpeg",
+          "sha1": "1d5a3d665b2a02fe4e06b205d36a0b9e92955e31",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_334976307963172.jpeg",
+          "sha1": "64627d5f22e3a5e2a44c43f0b622c4d126f95c8d",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_375659707674729.jpeg",
+          "sha1": "2ecac60a65d407330d4c567727d1c55c26f30915",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_426258155783171.jpeg",
+          "sha1": "04dd300056939aad3f0566f803e39d7e1e1afc33",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_451856929670648.jpeg",
+          "sha1": "0fdfe135c78fc4b21de8fde475f0e3496dfb3df1",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_611594220268110.jpeg",
+          "sha1": "c8d69bcb6ffc21347357b4829cb75a89d222826d",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_636573290713328.jpeg",
+          "sha1": "739350278569211ebf37c5e0b9e15a208266bddd",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_648108436355482.jpeg",
+          "sha1": "ce8c02fcb07912c2a7dd43a1e7c63c4afa3c6b01",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2018/received_925334588414354.jpeg",
+          "sha1": "df18bf025c27cafe30f3f065c8285dfb77bcab48",
+          "pages": 1
+        }
+      ]
     }
   ]
 }
