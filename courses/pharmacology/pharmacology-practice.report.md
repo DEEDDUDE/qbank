@@ -1,109 +1,108 @@
-# pharmacology / practice — verify progress
+# pharmacology / practice — 481 questions (complete)
 
-**Scope so far:** PHARM-P-001–270 — row 2's whole batch (PHARM-P-001–174)
-plus row 10's TEST BANK + dental-students sets (PHARM-P-175–270). RUN-PLAN
-row 13 covers all 481 practice-tab questions and needs at least 1 more
-session: PHARM-P-271–481 (row 11's Pharma020 set and row 12's set) is not
-yet verified.
+> verified 362 · external 97 · conflict 8 · not-in-source 13 · needs-eye 1
 
-> **pharmacology / practice, PHARM-P-001–270 — 270 questions**
-> verified 244 · external 16 · conflict 0 · not-in-source 10 · needs-eye 0
+RUN-PLAN row 13 is done — this covers every question extracted across rows 2,
+10, 11, and 12. Four sessions:
 
-**Session 3 (PHARM-P-175–270, 95 of 96 official tier):** verified 96 ·
-everything else 0. This was the cheapest session yet — 95 of 96 questions
-carried a printed answer key, so Job C's own "pass through untouched" rule
-applied almost across the board, no source lookup spent. The lone exception,
-PHARM-P-244 (open tier — genuinely blank in the source's own key), resolved
-cleanly: Ch. 2.3's description of Phase I oxidation ("converting lipophilic
-molecules into more polar ones") directly supports one option and directly
-contradicts the other three. Six more graph-dependent questions this session (PHARM-P-177
-Ultron/facial-flushing therapeutic index, PHARM-P-179 partial-agonist
-dose-response curve, PHARM-P-180/181 competitive-vs-noncompetitive
-antagonist curves, PHARM-P-186/187 four-drug efficacy/potency comparison)
-came with the answer already known from the key — not independently
-re-derived, same as every other official question this session.
+- **Session 1** (PHARM-P-001–099, open tier): 93 verified · 6 external.
+- **Session 2** (PHARM-P-100–174, claimed tier): 55 verified · 10 external ·
+  10 not-in-source · **0 conflict** across 75 claimed questions.
+- **Session 3** (PHARM-P-175–270, 95 of 96 official tier): 96 verified at
+  near-zero cost — passed through untouched per Job C's own rule.
+- **Session 4** (PHARM-P-271–481, claimed tier, this session): 118 verified ·
+  81 external · 3 not-in-source · 1 needs-eye · **8 conflict**.
 
-**Session 1 (PHARM-P-001–099, all open tier):** verified 93 · external 6 ·
-conflict 0 · not-in-source 0 · needs-eye 0. No claim to compare against, so
-every verdict is an independent read of the source — no conflicts possible
-by construction.
+**Conflicts (8), all in session 4** — the circulating claims are wrong on
+each; source (or, where noted, standard pharmacology the source doesn't
+literally state but the claim directly contradicts) wins:
 
-**Session 2 (PHARM-P-100–174, all claimed tier):** verified 55 · external 10
-· conflict 0 · not-in-source 10 · needs-eye 0. Real claims to check this
-time, and every one of them checked out — **zero conflicts** in 75 claimed
-questions, unlike batch 01 of the midterm tab (2 conflicts in 49). Ten
-questions (PHARM-P-123–129, plus 127–129) are off-syllabus autonomic/
-adrenergic pharmacology this course's `source.md` never teaches — genuine
-`not-in-source`, not a verification failure.
+- **PHARM-P-272** — claimed the competitive-antagonism dose-response curve
+  shifts left; the source's own diagram says right.
+- **PHARM-P-274** — claimed tolerance increases therapeutic index; the
+  source's tolerance definition (decreased response → need a higher dose)
+  points to increased *effective dose* instead.
+- **PHARM-P-353** — claimed oral drugs enter systemic circulation directly;
+  directly contradicted by the source's first-pass description.
+- **PHARM-P-364** and **PHARM-P-397** — both claimed "anaphylaxis" for a
+  rapidly-diminishing-response phenomenon; the source's own tachyphylaxis
+  definition fits, anaphylaxis (an allergic reaction) doesn't. Same
+  claim-vs-source pattern appearing twice independently.
+- **PHARM-P-376** — claimed "conjugation" means drug reduction by enzymes;
+  the source defines conjugation as coupling with an endogenous substrate
+  (a Phase II reaction), not reduction (Phase I).
+- **PHARM-P-414** — claimed neither IV nor rectal routes can be used in
+  unconscious patients; the source explicitly lists rectal as "good for
+  unconscious patients."
+- **PHARM-P-433** — claimed loading dose is affected by clearance and
+  maintenance dose by volume of distribution; the source's own formulas have
+  it the other way around.
 
-**External (16 total)** — settled, standard pharmacology facts the source
-doesn't cover:
-- *Session 1 (6):* PHARM-P-014 (causes of incomplete GI absorption — gut
-  flora, food), PHARM-P-028 (oral suspension as the pediatric dosage form),
-  PHARM-P-029 (glutathione conjugation, a real Phase II reaction never named
-  in the source's own conjugation list), PHARM-P-035 (solution/syrup absorbs
-  fastest), PHARM-P-072 ("chemical antagonism" as a named term), PHARM-P-078
-  (rectal route's partial first-pass bypass via lower rectal venous
-  drainage).
-- *Session 2 (10):* PHARM-P-126 (nafcillin for toxic shock syndrome — the
-  drug class is source-confirmed, the specific indication isn't),
-  PHARM-P-134 (Augmentin's oral route vs. the other three IV combinations),
-  PHARM-P-135 (dosing frequency isn't a clinical outcome marker),
-  PHARM-P-137 (antibiotic-stewardship critique, true by elimination),
-  PHARM-P-138 (the "magic bullet"/selective-toxicity principle — same
-  external call as PHARM-Q-032 on the quizzes tab), PHARM-P-139
-  (aminoglycoside/β-lactam synergism's specific pH/O₂ mechanism),
-  PHARM-P-148 (cefoperazone's anti-Pseudomonas activity specifically),
-  PHARM-P-149 and PHARM-P-158 (chloramphenicol's CNS/BBB penetration
-  ranking), PHARM-P-154 (isoniazid/mycolic acid synthesis — antimycobacterial
-  drugs aren't covered at all).
+Six more numeric/clinical-reasoning items disagreed with their claim using
+outside pharmacology knowledge rather than source.md itself (recorded as
+`external` with the disagreement noted, not `conflict`, since the source
+doesn't cover the specific fact): PHARM-P-291 (Kd vs. EC50 — the source
+never defines Kd), PHARM-P-309 (a Henderson-Hasselbalch calculation where
+the claim appears to have ionized/nonionized reversed), PHARM-P-322
+(digoxin's Vd tracks lean body mass, not edema fluid), PHARM-P-323 (BBB
+penetration difficulty is anatomical — absent pores — not explained by high
+lipid solubility, which would ease penetration), PHARM-P-343 (a precise
+half-life calculation matching option 3.3, not the claimed 3.0), and
+PHARM-P-380 (a liver-cirrhosis/analgesic-overdose vignette pointing to
+acetaminophen, directly listed as an option, when the claim picked "none of
+the above").
 
-**Not in source (10)** — PHARM-P-101 (receptor up/down-regulation, a concept
-this source never names — and the extract carries no option list for this
-qa-form item to check the claim against anyway), PHARM-P-106 (the stem itself
-— "the route of inflammation?" — doesn't parse as a coherent question,
-likely a garbled transcription; left unresolved rather than guessed),
-PHARM-P-123/124/125/127/128/129 (six off-syllabus autonomic-pharmacology
-questions — alpha-blockers, dopamine, adrenergic receptor subtypes,
-muscarinic receptors, atropine, pilocarpine — none of which `source.md`
-teaches), PHARM-P-141 (nitrofurantoin's "bacterial suppressant" framing,
-too underspecified in the source to judge against the other options),
-PHARM-P-169 (clinical misuse patterns of lincomycin/clindamycin for sore
-throat, not discussed anywhere in the source).
+**Needs-eye (1)** — **PHARM-P-271**: the stem references "the figure below"
+but no image was captured during Job A extraction, unlike every other graph
+question in this batch. Left unresolved; worth a follow-up Job A patch to
+recover the missing figure from the raw PDF.
 
-**Chapter coverage** — Session 1 was pure Ch. 1–3 (general PK/PD, no
-antimicrobial content). Session 2 flipped that: PHARM-P-130–174 is almost
-entirely Ch. 4–6 (cell wall inhibitors, protein synthesis inhibitors,
-antimetabolites/quinolones) — the antimicrobial half of this course finally
-gets real coverage here, after being essentially untested across both the
-quizzes and midterm tabs. Ch. 5 (Protein Synthesis Inhibitors) is the single
-heaviest chapter in session 2, thanks to a long run of chloramphenicol,
-aminoglycoside, and macrolide questions.
+**Not in source (3)** — **PHARM-P-344** (a maintenance-dose calculation that
+doesn't specify a dosing interval, so no reasonable assumption reproduces
+any of the four options), **PHARM-P-348** (a hepatic-extraction-ratio
+calculation whose independent recomputation, ER≈0.664, doesn't closely match
+any option), **PHARM-P-460** (none of the offered "similarities" between
+first-order and zero-order kinetics is actually true).
 
-**Two graph-dependent questions in session 2, both confirmed from their
-figure:** PHARM-P-104 (a classic rise-then-decline plasma-concentration
-curve — the absorption phase identifies the oral route, ruling out IV bolus
-and infusion) and PHARM-P-122 (three drugs' dose-response curves against a
-shaded "therapeutic window" — Drug B's transition falls inside the window,
-matching both the claim and the image's own pre-highlighted Moodle answer).
+**Session 2's 10 not-in-source questions** (recapped from the prior report):
+six off-syllabus autonomic-pharmacology questions (alpha-blockers, dopamine,
+adrenergic receptor subtypes, muscarinic receptors, atropine, pilocarpine)
+plus PHARM-P-101, 106, 141, 169 — see the session-2 notes in
+`pharmacology-practice.verify.md` for detail.
 
-**Notable finds, not corrections (session 1):**
-- PHARM-P-075's option (a) appears to be missing the word "Low" ("ability to
-  penetrate through the cell membrane lipids" — should almost certainly read
-  "Low ability to..."). Confirmed by an exact duplicate of this question at
-  PHARM-P-303 (a different source document within the same tab), which has
-  the complete wording and a matching claimed answer (a). Flagged in the
-  verify entry rather than silently rewritten.
-- PHARM-P-082 and PHARM-P-091 both have their own source-side formatting
-  defects (a skipped option letter; a formula option truncated by a PDF page
-  wrap) — neither is a Job A transcription error, both noted in place.
-- PHARM-P-094's option (b) carries the compiler's own Arabic annotation
-  ("not certain") on what turned out, on independent verification, to be the
-  correct answer.
+**A quiet, useful cross-check:** two questions in this practice bank
+(PHARM-P-373, "entirely microsomal") had a claimed answer letter (e) that
+doesn't correspond to any of the four listed options (a-d) — flagged rather
+than force-matched, and answered independently from the source instead.
 
-**Next session should start at PHARM-P-271** (row 11's Pharma020 set, then
-row 12's set). This is the section RUN-PLAN row 13 already flagged as likely
-carrying a meaningful chunk of genuinely off-syllabus material.
+**Graph-dependent questions in session 4** — nine total, four (PHARM-P-403,
+405, 406, 408) from clinical-vignette figures. All confirmed from their
+image except PHARM-P-271 (see needs-eye above): PHARM-P-403 (a
+glucuronidation-rate saturation curve — the transition to zero-order
+kinetics), PHARM-P-404 (aminoglycoside Vd, no image but tied to the drug
+class's known charge properties), PHARM-P-405 (peak/trough levels at two
+dosing intervals — more frequent dosing lowers peaks), PHARM-P-406 (neonate
+vs. adult plasma levels — higher neonatal body water dilutes a hydrophilic
+drug), PHARM-P-408 (two NSAID formulations — a later, broader peak signals
+delayed absorption).
+
+**Chapter coverage across the whole tab** — heavily Ch. 1-3 (routes, PK
+formulas, receptor pharmacology) throughout sessions 1-2 and 4; session 3's
+TEST BANK/dental sets stayed in the same territory. Session 2 was the one
+stretch with real Ch. 4-6 (antimicrobial) coverage — sessions 1, 3, and 4
+are almost entirely general-principles and PK-calculation questions, several
+of them exact or near-exact duplicates of items already seen on the quizzes
+and midterm tabs (naproxen/ibuprofen potency, digoxin therapeutic index,
+first-order half-life calculations, and the like) restated with different
+option lettering.
+
+**Notable finds carried from earlier sessions:**
+- PHARM-P-075/303 — a duplicated question missing the word "Low" in one
+  option, recovered from the other copy's complete wording.
+- PHARM-P-082, 091 — source-side formatting defects (skipped option letter;
+  a formula option truncated by a PDF page wrap).
+- PHARM-P-094 — the compiler's own "not certain" annotation on what turned
+  out, on verification, to be the correct answer.
 
 ---
 

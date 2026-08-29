@@ -1,12 +1,10 @@
 ---
 course: pharmacology
 tab: practice
-scope: PHARM-P-001–270 — row 2's whole batch (PHARM-P-001–174) plus row 10's
-  TEST BANK + dental-students sets (PHARM-P-175–270). PHARM-P-271–481 (row
-  11's Pharma020 set and row 12's set) are not covered by this pass —
-  RUN-PLAN row 13 needs at least 1 more session.
-questions: 270
-verified: 244 | external: 16 | conflict: 0 | not-in-source: 10 | needs-eye: 0
+scope: PHARM-P-001–481 — the whole practice tab, all four Job A batches
+  (row 2's 174, row 10's 96, row 11's 138, row 12's 73). Complete.
+questions: 481
+verified: 362 | external: 97 | conflict: 8 | not-in-source: 13 | needs-eye: 1
 ---
 
 ### PHARM-P-001
@@ -1978,3 +1976,1297 @@ status: verified
 answer: a
 basis: official — printed answer key on source page
 note: Tier official; passed through untouched per Job C rules, not independently re-verified.
+
+### PHARM-P-271
+status: needs-eye
+note: Stem references "the figure below" but no image was captured/saved during Job A extraction for this entry (unlike the other graph questions in this batch, which all carry an img: field). Cannot verify without the figure; left unresolved rather than guessing.
+
+### PHARM-P-272
+status: conflict
+answer: c
+claimed: d
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: "Competitive — antagonist binds the same site as the agonist in a reversible manner" directly matches (c). The source's own diagram describes competitive inhibition as "a parallel rightward shift" of the dose-response curve, not leftward, contradicting (d).
+note: The circulating claim marks (d), "shifted to the left." The source states the shift is rightward, and separately confirms (c)'s "reversible binding" description directly.
+
+### PHARM-P-273
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Standard clinical terminology distinction: escalating illicit-drug use for its psychoactive effect is classic drug abuse/dependence, not "misuse" (which describes improper use of otherwise-legitimate medication, as in options a-c).
+
+### PHARM-P-274
+status: conflict
+answer: c
+claimed: b
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: "Tolerance (decreased response with continued administration)" — by definition, a higher (increased) effective dose is needed to reproduce the same response as tolerance develops.
+note: The circulating claim marks (b), therapeutic index. If anything, tolerance narrows, not widens, the practical safety margin; the source's own tolerance definition points directly and only to (c), effective dose.
+
+### PHARM-P-275
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: The other four options are each directly false (generic, not chemical, names are preferred per Ch. 1.2; lower protein binding capacity means MORE free drug, not less; metabolism rates vary rather than being uniformly higher in adults; risk-benefit ratios are not constant across life stages) — standard pharmacology: drug discontinuation can itself cause adverse (withdrawal) effects.
+
+### PHARM-P-276
+status: external
+answer: d
+claimed: c
+basis: external — not covered in course material
+evidence: "Effect equal to the sum of individual effects" is the standard definition of an additive drug effect, not synergism (which means greater than the sum). This same source's own PHARM-P-258 claims "additive" for the identical definition under different option lettering, confirming the claim here (synergism) is inconsistent with the source's own parallel item.
+note: The circulating claim marks (c), synergism, for a definition ("equal to the sum") that is textbook additive, not synergistic — and inconsistent with this same practice set's own PHARM-P-258.
+
+### PHARM-P-277
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: Terminology convention (misuse vs. abuse) not covered by the source; "abuse" is commonly defined as using a drug for a purpose other than intended.
+
+### PHARM-P-278
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Plasma-protein binding "sequesters drugs in a nondiffusible form and slows transfer out of the vascular compartment" — a bound drug reservoir generally prolongs drug action.
+
+### PHARM-P-279
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: By elimination against basic pharmacology: dose-response curves plateau at Emax (ruling out b), generic names are preferred over trade names (ruling out c), and receptor activation effects are tissue/signaling-pathway specific, not uniform (ruling out d) — receptors being in a dynamic (up/down-regulating) state is the remaining, standard answer.
+
+### PHARM-P-280
+status: verified
+answer: c
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: Therapeutic Index (TD50 or LD50 / ED50) is presented as the drug-safety measure.
+
+### PHARM-P-281
+status: verified
+answer: b
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: A narrow therapeutic index means small dose differences separate therapeutic from toxic effect, so individual variability in response becomes clinically significant — matching (b) and ruling out (c)'s inverted TD50/ED50 relationship.
+
+### PHARM-P-282
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: With receptor A irreversibly blocked, restoring the same physiological function requires an agonist acting through a different receptor that produces the same physiological effect (functional/physiological bypass) — standard pharmacology reasoning, not detailed in the source.
+
+### PHARM-P-283
+status: verified
+answer: a
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: Same full-agonist logic as PHARM-M-144 (identical scenario).
+
+### PHARM-P-284
+status: verified
+answer: b
+basis: Ch. 3 — Pharmacodynamics {#ch03-3}
+evidence: Same naproxen/ibuprofen potency logic as PHARM-M-149.
+
+### PHARM-P-285
+status: verified
+answer: e
+basis: Ch. 3 — Pharmacodynamics {#ch03-3}
+evidence: Morphine reaching an effect ibuprofen cannot match at any dose demonstrates greater efficacy — the same logic as the naproxen/ibuprofen efficacy comparisons in this set.
+
+### PHARM-P-286
+status: verified
+answer: a
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: Naloxone shifts the morphine dose requirement upward with no ceiling on morphine's own effect and no effect alone — the textbook description of a competitive antagonist.
+
+### PHARM-P-287
+status: verified
+answer: b
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: Pentazocine has a lower ceiling effect than morphine even at its highest dose — the definition of a partial agonist, with morphine as the full agonist.
+
+### PHARM-P-288
+status: verified
+answer: e
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: Picrotoxin lowers diazepam's maximal effect (not just shifts EC50) with no effect alone — the textbook signature of a noncompetitive antagonist.
+
+### PHARM-P-289
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: Chronic receptor blockade (here, daily propranolol, a β1 antagonist) reduces receptor stimulation, triggering compensatory up-regulation — the converse of the down-regulation caused by chronic agonist exposure. Not discussed in the source, which doesn't cover up/down-regulation.
+
+### PHARM-P-290
+status: verified
+answer: c
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: Therapeutic Index directly matches "ability to produce the desired therapeutic effect relative to a toxic effect."
+
+### PHARM-P-291
+status: external
+answer: c
+claimed: d
+basis: external — not covered in course material
+evidence: Kd is specifically the concentration producing 50% receptor occupancy; EC50 is the concentration producing 50% of the maximal response. These can differ (receptor reserve), so "half-maximal physiological response" (d) describes EC50, not Kd. The source doesn't define Kd at all, so this is recorded as a disagreement with standard pharmacology rather than a source conflict.
+note: The circulating claim marks (d). Standard pharmacology ties Kd specifically to receptor occupancy (c), not response magnitude — left as a flagged disagreement since source.md doesn't cover Kd to settle it directly.
+
+### PHARM-P-292
+status: verified
+answer: b
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: EC50/potency relationship, same as PHARM-M-065.
+
+### PHARM-P-293
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Classical (Clark) receptor occupancy theory holds that effect is proportional to the number of receptors occupied — the standard simplified model taught at this level, even though more advanced theory (spare receptors) refines it. Not discussed in the source.
+
+### PHARM-P-294
+status: verified
+answer: a
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: Competitive antagonism is "reversible" per the source (true, a); the dose-response curve shifts right, not left (false, b); maximal effect CAN still be reached with enough agonist under competitive antagonism (false, c) — so (a) alone is correct, not "all of the above."
+
+### PHARM-P-295
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Tubulin is a classic example of a structural protein that also functions as a drug-binding "receptor" (e.g., for colchicine, taxanes) — standard pharmacology teaching point, not covered by the source.
+
+### PHARM-P-296
+status: verified
+answer: c
+basis: Ch. 3 — Pharmacodynamics {#ch03-2}
+evidence: The steroid-hormone worked example: "the receptor–hormone complex enters the nucleus; it binds a hormone response element" — corticosteroids are the direct real-world example of this intracellular-receptor mechanism.
+
+### PHARM-P-297
+status: verified
+answer: e
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: All four listed phenomena (receptor changes, tachyphylaxis, idiosyncratic response, hypersensitivity) are named in the source's own "unusual responses" list as sources of variable drug responsiveness.
+
+### PHARM-P-298
+status: verified
+answer: e
+basis: Ch. 3 — Pharmacodynamics {#ch03-1}
+evidence: Receptors mediate drug selectivity and both block (antagonist) and mediate (agonist) drug action, per the source's agonist/antagonist framework — not elimination-rate determination or storage (that's plasma/tissue protein binding, Ch. 2.2).
+
+### PHARM-P-299
+status: verified
+answer: 1-Excretion, 2-Absorption, 3-Distribution, 4-Biotransformation
+basis: Ch. 2 — Pharmacokinetics {#ch02-1, #ch02-2, #ch02-3, #ch02-4}
+evidence: Each definition matches the source's own ADME definitions: absorption = "irreversible transport from site of administration to the bloodstream"; distribution = drug "leaving the blood" for tissue; biotransformation increases polarity to prevent renal reabsorption; excretion = irreversible transfer out of the body.
+
+### PHARM-P-300
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02}
+evidence: Pharmacokinetics = ADME, which includes biotransformation (metabolism).
+
+### PHARM-P-301
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Passive diffusion, having no carrier, isn't a saturable process — only carrier-mediated transport can saturate.
+
+### PHARM-P-302
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: The source's absorption mechanisms are passive diffusion, facilitated diffusion, active transport, and endocytosis — hydrolysis is a metabolic reaction, not a permeation mechanism.
+
+### PHARM-P-303
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: "Hydrophilic drugs do not readily penetrate cell membranes" — same fact already noted for the near-duplicate PHARM-P-075.
+
+### PHARM-P-304
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: "Biological barriers" conventionally refers to structures a drug must cross to reach tissue (cell membrane, capillary wall, placenta); the renal tubule is part of the excretory pathway, not classified alongside those absorption/distribution barriers.
+
+### PHARM-P-305
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Absorption factors listed: blood flow, surface area, contact time — matches "all of the above."
+
+### PHARM-P-306
+status: verified
+answer: c
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: First-pass effect = hepatic degradation of an orally-taken drug before it reaches systemic circulation.
+
+### PHARM-P-307
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: "Bioavailability: the fraction of administered drug that reaches systemic circulation."
+
+### PHARM-P-308
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: All four listed items (first-pass metabolism, solubility, chemical instability, formulation) are named as bioavailability factors in the source.
+
+### PHARM-P-309
+status: external
+answer: b
+claimed: a
+basis: external — not covered in course material
+evidence: Weak base, pKa 9.4, medium pH 7.4: pH = pKa + log([B]/[BH+]) → log([B]/[BH+]) = 7.4-9.4 = -2 → [B]/[BH+] = 0.01 → nonionized fraction ≈ 1/101 ≈ 1%, matching option (b), not the claimed 99% (a).
+note: The circulating claim marks (a), 99%. Independent Henderson-Hasselbalch calculation gives ≈1% nonionized (option b) — the claim appears to have the ionized/nonionized fraction reversed. Source doesn't cover this calculation directly, so recorded as a disagreement rather than a source conflict.
+
+### PHARM-P-310
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: For weak acids, a lower pKa relative to plasma pH means a larger ionized fraction; aspirin's pKa (3.5) is the lowest of the five listed, so it is the most ionized.
+
+### PHARM-P-311
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: "Alkalinizing the urine increases elimination of weak acids" via ion trapping — the ionized form cannot be passively reabsorbed.
+
+### PHARM-P-312
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Passive diffusion uses no carrier, so it cannot depend on the number of transporters.
+
+### PHARM-P-313
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Distribution factors (blood flow, capillary permeability, drug structure/lipophilicity) match "all of the above."
+
+### PHARM-P-314
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Vd relates the amount of drug in the body to its plasma concentration — the source's own Vd/C₀ relationship.
+
+### PHARM-P-315
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: The source's whole compartment framework (plasma/extracellular/total-body-water Vd tiers) implies heterogeneous, not homogeneous, distribution by drug properties.
+
+### PHARM-P-316
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: A drug confined to plasma corresponds to the smallest compartment, Vd ≈ 4L — "low."
+
+### PHARM-P-317
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Displacement from albumin by a competing drug frees Drug A, and free drug is what diffuses into tissue — consistent with the source's displacement-increases-distribution pattern (also seen in PHARM-M-087/028).
+
+### PHARM-P-318
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Blood-tissue barriers restrict, rather than increase, distribution — the opposite of high lipid solubility, which the source ties to a larger Vd.
+
+### PHARM-P-319
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Only free (unbound) drug is pharmacologically active — the bound fraction is inactive, matching the same fact used for PHARM-M-028/087.
+
+### PHARM-P-320
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Whether highly-bound-drug displacement is clinically significant is genuinely debated in pharmacology teaching (compensatory redistribution/clearance often blunts the effect) — a common "except" answer in this style of question, not addressed by the source.
+
+### PHARM-P-321
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Edema expands extracellular fluid; hydrophilic drugs distribute into extracellular fluid, so their apparent Vd rises with edema more than a lipophilic drug's would.
+
+### PHARM-P-322
+status: external
+answer: b
+claimed: c
+basis: external — not covered in course material
+evidence: Digoxin is lipophilic and distributes based on lean body mass, not edema fluid — so a dose calculated from total (edematous) body weight yields a measured Vd lower than expected. Standard clinical teaching, not in the source.
+note: The circulating claim marks (c), "none of above." Standard clinical pharmacology points to (b) specifically — recorded as a disagreement since the source doesn't cover this drug-specific fact to settle it directly.
+
+### PHARM-P-323
+status: external
+answer: c
+claimed: a
+basis: external — not covered in course material
+evidence: The BBB's defining anatomical feature is the absence of fenestrations/pores in brain capillary endothelium (tight junctions), which is why many drugs struggle to cross it. High lipid solubility (the claim) would make penetration easier, not "complicated," which is the opposite of what the question asks.
+note: The circulating claim marks (a). High lipid solubility eases BBB penetration rather than complicating it; the anatomical absence of pores (c) is the standard reason penetration is difficult. Source doesn't cover BBB architecture, so recorded as a disagreement rather than a source conflict.
+
+### PHARM-P-324
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: Hyperalbuminemia increases plasma protein binding, reducing free (active) drug — the opposite of increasing response, making it the most defensible "except" among two plausible candidates (hyperthyroidism's effect on drug response is more debatable).
+
+### PHARM-P-325
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Ch. 2.1 describes P-glycoprotein as an efflux pump excreting drugs into the GI lumen; P-gp performs the analogous efflux function in renal tubules, contributing to urinary excretion.
+
+### PHARM-P-326
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: BA = 60mg absorbed / 100mg dose = 60%.
+
+### PHARM-P-327
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Vd = dose / C₀ = 100mg / 20mg/L = 5L.
+
+### PHARM-P-328
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: "Proximal tubular secretion... e.g. penicillins and probenecid" confirms antibiotics can undergo active tubular secretion.
+
+### PHARM-P-329
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Elimination (biotransformation + excretion) is the clearance of a drug from the organism, per the source's own elimination framework.
+
+### PHARM-P-330
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: Fastest elimination combines high GFR with active secretion and no passive reabsorption pulling drug back — matches the source's renal elimination model.
+
+### PHARM-P-331
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Kelim = 0.693/t½ — directly tied to half-life, though the source doesn't name "Kelim" as a term explicitly.
+
+### PHARM-P-332
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: "Half-life (t½) — the time to reduce plasma drug concentration by half" during elimination.
+
+### PHARM-P-333
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Half-life depends only on Vd and clearance (t½ = 0.69×Vd/CL) — not on time of absorption, matching the same non-factor identified for PHARM-M-123/017.
+
+### PHARM-P-334
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: Protein-bound drug cannot pass into the glomerular filtrate, decreasing its filtration rate.
+
+### PHARM-P-335
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: First-order kinetics: clearance is a constant proportionality (constant fraction eliminated per time), not a constant amount (that's zero-order), and half-life doesn't change with dose.
+
+### PHARM-P-336
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: First-order kinetics is defined by rate proportional to the amount of drug present.
+
+### PHARM-P-337
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Zero-order kinetics eliminates a constant amount per time, giving a linear (not exponential) concentration-vs-time plot.
+
+### PHARM-P-338
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: Normal GFR (125 mL/min) alone, even at 50% unbound, caps passive-filtration clearance around 60 mL/min; the observed 400 mL/min far exceeds that, so active tubular secretion must also be contributing.
+
+### PHARM-P-339
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+evidence: "Loading dose = (Vd) × (desired Css) / F."
+
+### PHARM-P-340
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+evidence: "Css is directly proportional to the infusion rate" — doubling the infusion rate doubles Css.
+
+### PHARM-P-341
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: A constant amount eliminated per unit time (0.5mg/4h) is the definition of zero-order kinetics, and the source names aspirin specifically as the zero-order example.
+
+### PHARM-P-342
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Reaching 90% of steady state takes ≈3.3 half-lives (2^-3.3≈0.1); 3.3×8h≈26.4h, closest to the 25h option — a standard PK approximation not detailed in the source.
+
+### PHARM-P-343
+status: external
+answer: d
+claimed: c
+basis: external — not covered in course material
+evidence: 90% elimination requires ≈3.32 half-lives precisely (2^-3.3≈0.0975, i.e. ~90.25% eliminated); 3 half-lives (the claim) only yields 87.5% eliminated. Option (d), printed as "3.3," is the exact match.
+note: The circulating claim marks (c), 3.0. The precise calculation matches (d), 3.3, exactly — recorded as a disagreement since this is a standard PK approximation the source doesn't detail.
+
+### PHARM-P-344
+status: not-in-source
+note: The dose-rate formula (Css×CL/F) gives 56 µg/min, a rate, not a one-time "dose" in mg as the options require — the question doesn't specify a dosing interval needed to convert rate to dose, and no reasonable assumption cleanly reproduces any of the four options. Left unresolved rather than guessing an implicit interval.
+
+### PHARM-P-345
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Maximum accumulation for a fixed-dose/fixed-interval regimen = Dose/(1-2^(-τ/t½)) = 3mg/(1-2^(-6/3)) = 3/(1-0.25) = 4mg — a standard accumulation formula not detailed in the source.
+
+### PHARM-P-346
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Reduced renal function lowers clearance, and by t½=0.69×Vd/CL a lower CL means a higher half-life — the general Vd/CL relationship from Ch. 2.2, applied to this specific drug scenario.
+
+### PHARM-P-347
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Renal clearance = (urine concentration × urine flow rate) / plasma concentration = (30 × 10) / 5 = 60 L/h — a standard formula the source doesn't state explicitly.
+
+### PHARM-P-348
+status: not-in-source
+note: Independent recomputation of the hepatic extraction ratio, ERH = (Cin-Cout)/Cin = (8.9-2.99)/8.9 ≈ 0.664, and hepatic clearance ≈ 0.664 × 1050 ≈ 697 mL/min, does not closely match any of the four given option pairs. Left unresolved rather than accepting the claim without a matching independent calculation.
+
+### PHARM-P-349
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Absorption is necessarily the first PK step before a topically-applied drug can reach plasma at all — extension of the source's ADME framework (Ch. 2) to a topical scenario.
+
+### PHARM-P-350
+status: verified
+answer: e
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: Route selection depends on "properties of the drug — water/lipid solubility, ionization... ; therapeutic objectives — onset/duration" — matching "all of the above."
+
+### PHARM-P-351
+status: verified
+answer: c
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: Oral drugs pass through the liver via the portal vein (first-pass) before reaching systemic circulation.
+
+### PHARM-P-352
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Formulation-dependent bioavailability differences matter most when the drug is a limiting, incompletely-absorbed case — standard bioequivalence pharmacology, not in the source.
+
+### PHARM-P-353
+status: conflict
+answer: d
+claimed: b
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: "First-pass effect: the intestinal and hepatic degradation... of a drug taken by mouth" — oral drugs do NOT enter systemic circulation directly, contradicting option (d) outright.
+note: The circulating claim marks (b), "the most complicated of administration" — but that phrase is ambiguous (it could defensibly describe oral absorption's many PK variables). Option (d)'s claim that oral drugs enter circulation directly is unambiguously and directly contradicted by the source's first-pass description.
+
+### PHARM-P-354
+status: verified
+answer: a
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: Sublingual advantages include "rapid absorption."
+
+### PHARM-P-355
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Inhalation's large alveolar surface area gives rapid, not slow, access to circulation (Ch. 1.4's "rapid onset due to large surface area") — same fact as PHARM-M-089.
+
+### PHARM-P-356
+status: verified
+answer: c
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: Parenteral routes bypass absorption delay and give faster response than oral — same as PHARM-P-242.
+
+### PHARM-P-357
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: IM's capacity for slow-release depot formulations (Ch. 1.4) is consistent with oily-vehicle depot injections, a standard IM characteristic not detailed further in the source.
+
+### PHARM-P-358
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: IV requires aqueous solutions — oily vehicles risk embolism if given IV, the same fact already used for PHARM-Q-007.
+
+### PHARM-P-359
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: SC absorption typically approaches 100% bioavailability (no first-pass), generally higher than oral or rectal — standard pharmacokinetics, not detailed in the source.
+
+### PHARM-P-360
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Same rectal partial-first-pass-bypass fact already used for PHARM-P-078.
+
+### PHARM-P-361
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: IM injections are painful and can elevate certain lab markers (e.g., creatine kinase) from muscle trauma — standard clinical knowledge, not in the source.
+
+### PHARM-P-362
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Impaired swallowing/gag reflex makes enteral absorption the least reliable of the listed routes, likely yielding the lowest serum concentration — standard clinical reasoning.
+
+### PHARM-P-363
+status: verified
+answer: b
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: IV gives "almost immediate onset" — the fastest route for an emergency.
+
+### PHARM-P-364
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: "Tachyphylaxis (rapidly developing tolerance)" — repeated IV ephedrine causing rapidly diminishing response is the classic textbook tachyphylaxis example, not an allergic (anaphylactic) reaction.
+note: The circulating claim marks (a), anaphylaxis — an allergic reaction, unrelated to the rapidly-diminishing-response phenomenon described. The source's own tachyphylaxis definition matches (b) directly.
+
+### PHARM-P-365
+status: verified
+answer: c
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: "Transdermal — ... Stable blood levels; no first-pass metabolism."
+
+### PHARM-P-366
+status: verified
+answer: b
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: "Oral inhalation — gaseous/volatile agents."
+
+### PHARM-P-367
+status: verified
+answer: a
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: "Topical — drug applied to skin or mucous membrane for local effect."
+
+### PHARM-P-368
+status: verified
+answer: c
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: A low therapeutic index means the toxic dose is close to the effective dose — the drug should be treated as potentially toxic.
+
+### PHARM-P-369
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Metabolism "converts lipophilic molecules into more polar ones" — less lipid soluble.
+
+### PHARM-P-370
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Increased polarity from metabolism enables faster urinary excretion.
+
+### PHARM-P-371
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Biotransformation makes molecules more polar/less lipophilic, not more lipophilic — the opposite of option (d)'s claim, making it the false ("except") statement.
+
+### PHARM-P-372
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Drugs already bearing an -OH/-NH₂/-COOH group can enter Phase II conjugation directly and be excreted without needing prior liver metabolism — so "water-soluble drugs must first be metabolized in the liver" is false.
+
+### PHARM-P-373
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Oxidation/reduction/hydrolysis (Phase I) is the source's category explicitly tied to microsomal cytochrome P450 enzymes.
+note: The source's own extract records the claim as option (e), which doesn't correspond to any of the four listed options (a-d) — likely a Job A transcription artifact. No valid claim comparison was possible; answered independently from the source instead.
+
+### PHARM-P-374
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: First-order kinetics eliminates a constant fraction, not a constant amount (that's zero-order) — the false ("except") statement.
+
+### PHARM-P-375
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Same Phase I oxidation logic as PHARM-P-244.
+
+### PHARM-P-376
+status: conflict
+answer: c
+claimed: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Phase II conjugation is defined in the source as coupling a drug with an endogenous substrate — matching (c) directly. "Reduction by special enzymes" (the claim, a) describes a Phase I reaction, not conjugation.
+note: The circulating claim marks (a). The source's own Phase II definition matches (c) instead.
+
+### PHARM-P-377
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Metabolism/conjugation products are "most often therapeutically inactive," not more active.
+
+### PHARM-P-378
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Glucuronic-acid conjugation "usually" inactivates the drug, per the source's Phase II framing.
+
+### PHARM-P-379
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Decreased metabolism prolongs drug action (enlarges duration).
+
+### PHARM-P-380
+status: external
+answer: c
+claimed: e
+basis: external — not covered in course material
+evidence: The source names paracetamol specifically as producing toxic metabolites — the classic liver-cirrhosis-plus-analgesic-overdose scenario points directly at acetaminophen, which is listed as option (c).
+note: The circulating claim marks (e), "none of the above" — but acetaminophen is directly listed as option (c) and is the textbook answer to this exact vignette, so "none of the above" is hard to justify. Recorded as a disagreement since the vignette's clinical reasoning (not literal source text) is what settles it.
+
+### PHARM-P-381
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: "Codeine is activated by O-demethylation via CYP2D6" — codeine is the source's own named example of a prodrug metabolized to a more active form (morphine).
+
+### PHARM-P-382
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Enalapril (an ACE inhibitor) is standard antihypertensive therapy in chronic renal insufficiency — not covered by this source, which doesn't discuss antihypertensive drug classes.
+
+### PHARM-P-383
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: CYP450 enzymes catalyze Phase I oxidation reactions.
+
+### PHARM-P-384
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: "Neonates are deficient in this conjugating system [glucuronidation]" — UGT is not predominant "for lifetime" from birth, contradicting option (a).
+
+### PHARM-P-385
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: Acyl glucuronides (a reactive metabolite class) form from carboxylic-acid-bearing NSAIDs like ibuprofen; paracetamol's glucuronide is a phenolic ether conjugate, not an acyl glucuronide — so "ibuprofen + NSAIDs" (e) fits better chemically than pairing it with paracetamol (d).
+
+### PHARM-P-386
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Paracetamol's minor conjugation pathway is sulfation, not acetylation — the option's mechanism (GSH depletion → CYP450-dependent hepatotoxicity) is otherwise accurate, but the stated "Acetylation" pathway is the likely error making the overall statement false.
+
+### PHARM-P-387
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: "Important CYP inhibitor drugs: erythromycin, ketoconazole, ritonavir, cimetidine" — cimetidine is the named inhibitor, and it is structurally an imidazole.
+
+### PHARM-P-388
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Carbamazepine is named among the source's enzyme inducers, with induction building over days and effects persisting for 1-3 weeks — matching the described timeline.
+
+### PHARM-P-389
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Phase I microsomal enzymes act specifically on lipophilic (lipid-soluble) substrates — the opposite of option (c)'s claim.
+
+### PHARM-P-390
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Morphine-6-glucuronide, the source's named active metabolite, accumulates in renal impairment (rising creatinine here), explaining the toxicity naloxone reverses.
+
+### PHARM-P-391
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: 1 hour = 1 half-life elapsed, so C₀ = 2×5mg/dL = 100mg/L; amount absorbed = C₀×Vd = 100mg/L×0.15L = 15mg; ingested dose = 15mg/0.5(F) = 30mg — standard PK calculation.
+
+### PHARM-P-392
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+evidence: Loading dose = Vd(total)×Css = (0.5L/kg×75kg)×20mg/L = 750mg.
+
+### PHARM-P-393
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Maintenance dose rate = Css×CL/F = 20×0.25/0.5 = 10mg/h; over a 12-hour interval, 120mg twice daily — standard formula extension of the source's Css/CL relationship.
+
+### PHARM-P-394
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Testing efficacy in patients with the target disease, after safety is already established, is the standard definition of a Phase 2 clinical trial — not covered by this pharmacology source.
+
+### PHARM-P-395
+status: verified
+answer: e
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: "Subcutaneous (SC) — absorption via simple diffusion."
+
+### PHARM-P-396
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Phase II (conjugation, e.g. glucuronidation) reactions are generally less affected by aging than Phase I (oxidative) reactions — standard geriatric pharmacology.
+
+### PHARM-P-397
+status: conflict
+answer: c
+claimed: a
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: "Tachyphylaxis (rapidly developing tolerance)" — the rapid loss of effectiveness within 2-3 days described here is the defining feature of tachyphylaxis, not an allergic (anaphylactic) reaction.
+note: The circulating claim marks (a), anaphylaxis. Same pattern as PHARM-P-364 — the source's own tachyphylaxis definition matches (c) instead.
+
+### PHARM-P-398
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Reduced renal/hepatic clearance with age impairing drug elimination is standard geriatric pharmacology, consistent with the source's own factors lowering clearance in the elderly (Ch. 2.4), though not phrased for this specific vignette.
+
+### PHARM-P-399
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: With comorbidities (cirrhosis reducing clearance) in the elderly patient, maximal safe dosing must be deliberately calculated rather than assumed — standard clinical caution, not detailed in the source.
+
+### PHARM-P-400
+status: verified
+answer: a
+basis: general pharmacology (drug-interaction terminology, consistent with PHARM-P-258's own claim in this set)
+evidence: Two equal-magnitude drugs combining to the expected combined magnitude is the definition of an additive effect.
+
+### PHARM-P-401
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: Potency (EC50) and efficacy/agonist-type are independent parameters (Ch. 3.3 distinguishes them) — knowing Drug X is a partial agonist doesn't by itself establish its EC50 relative to epinephrine's.
+
+### PHARM-P-402
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: t½ = 0.69×Vd/CL — a larger Vd, holding clearance constant, produces a longer half-life.
+
+### PHARM-P-403
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+img: flagged/PHARM-P-403-glucuronidation-saturation-graph.jpg
+evidence: The curve is linear (dose-proportional, first-order) up to around point 2, then bends and plateaus toward point 3 — point 2 marks where the enzyme system begins saturating, i.e. the transition toward zero-order kinetics.
+
+### PHARM-P-404
+status: verified
+answer: d
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-3}
+evidence: Aminoglycosides are described as "polar cations" with poor tissue penetration — a small measured Vd (4.5L, near plasma volume) is consistent with a highly charged molecule confined largely to the vascular compartment.
+
+### PHARM-P-405
+status: external
+answer: d
+basis: external — not covered in course material
+img: flagged/PHARM-P-405-vancomycin-dosing-interval-peak-trough-graph.jpg
+evidence: The figure shows the more frequent (6-hour) regimen reaching lower peaks than the less frequent (12-hour) regimen while average levels converge — smaller, more frequent doses reduce peak-related toxicity risk, a standard dosing-regimen tradeoff extending the source's Ch. 2.5 fluctuation discussion.
+
+### PHARM-P-406
+status: external
+answer: d
+basis: external — not covered in course material
+img: flagged/PHARM-P-406-neonate-adult-plasma-concentration-graph.jpg
+evidence: Neonates have a proportionally larger total body water fraction than adults; for a hydrophilic drug this means a larger Vd per kg, so the same mg/kg dose yields lower plasma concentrations — extends the source's body-water-compartment framework (Ch. 2.2) to a neonate/adult comparison the source itself doesn't make.
+
+### PHARM-P-407
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Grapefruit juice inhibiting CYP3A4 (named explicitly in Ch. 2.3, "grapefruit/juice inhibits CYP3A4") raises cyclosporine levels — the location (gut wall vs. liver) isn't specified in the source, so recorded as an external extension.
+
+### PHARM-P-408
+status: external
+answer: a
+basis: external — not covered in course material
+img: flagged/PHARM-P-408-two-nsaid-formulations-plasma-graph.jpg
+evidence: The blue curve's later, lower, broader peak compared to the red curve's early sharp peak is the classic signature of delayed intestinal absorption from a slower-dissolving formulation.
+
+### PHARM-P-409
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Same inhalation-is-fast-not-slow fact as PHARM-M-089/PHARM-P-243/355.
+
+### PHARM-P-410
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Same "biological barriers" classification reasoning as PHARM-P-304.
+
+### PHARM-P-411
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Lipophilic drugs that widely distribute move into total body water — the source's largest-Vd category, not a small one.
+
+### PHARM-P-412
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Same half-life definition as PHARM-P-332.
+
+### PHARM-P-413
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: The same drug's clearance and metabolism pathways are drug-specific (same for any patient), but half-life varies between individuals depending on their own Vd and CL — standard PK variability reasoning.
+
+### PHARM-P-414
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: Rectal route advantages explicitly include "good for unconscious patients"; IV is likewise routinely used in unconscious patients — both CAN be given, directly contradicting the claim that neither can.
+note: The circulating claim marks (a), "both can NOT be given to unconscious patient." The source's own rectal-route advantages list states the opposite.
+
+### PHARM-P-415
+status: verified
+answer: a
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+img: flagged/PHARM-P-415-intradermal-injection-wheal-photo.jpg
+evidence: The photo shows a classic intradermal injection wheal on the forearm — "Intradermal (ID)... Used for diagnostic determination," matching the classic penicillin-allergy skin test.
+
+### PHARM-P-416
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: 12h = 3 half-lives (t½=4h); initial amount = 800×2³ = 6400.
+
+### PHARM-P-417
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02}
+evidence: Movement across biological membranes (absorption/distribution) is PK; signal transduction is pharmacodynamics.
+
+### PHARM-P-418
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: 93% eliminated leaves 7% remaining; 2^-n=0.07 → n≈3.84 half-lives; 24h/3.84≈6.25h, closest to the 6-hour option.
+
+### PHARM-P-419
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Standard emergency teaching for unconscious hypoglycemia without IV access: intramuscular (glucagon) administration — not covered by this pharmacology source.
+
+### PHARM-P-420
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: Weak base, pKa 9.0, pH 7.0: log([B]/[BH+]) = 7-9 = -2 → [B]/[BH+] = 0.01 → nonionized fraction ≈ 1%.
+
+### PHARM-P-421
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Increased intestinal blood flow enhances the concentration gradient driving absorption — the other options (enzyme induction, peptide degradation, reduced absorptive surface, inflamed mucosa) each plausibly reduce, not increase, bioavailability.
+
+### PHARM-P-422
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: Acidifying the urine (ammonium chloride) increases elimination of weak bases via ion trapping.
+
+### PHARM-P-423
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Passive diffusion is the source's primary absorption mechanism.
+
+### PHARM-P-424
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Same oral-route-is-not-rapid fact used for PHARM-P-262/474.
+
+### PHARM-P-425
+status: external
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+evidence: Loading dose = Vd×Cp = 150L×15mg/L = 2250mg = 2.25g; the option is printed as "2.25 mg," almost certainly a unit typo for 2.25 g in the original source — the numeric value matches, preserved as printed rather than silently corrected.
+
+### PHARM-P-426
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Same rectal partial-first-pass fact as PHARM-P-078/360.
+
+### PHARM-P-427
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: The source lists age, sex, and drug interactions/disease states among factors affecting drug response/clearance — matches "all of the above."
+
+### PHARM-P-428
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Aspirin (weak acid, pKa 3.5) in stomach pH 2.5: log([HA]/[A-]) = 3.5-2.5 = 1 → ratio 10:1 → unionized fraction = 10/11 ≈ 90%.
+
+### PHARM-P-429
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Rectal absorption is standardly described as erratic and incomplete — not detailed in the source.
+
+### PHARM-P-430
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Passive diffusion is confirmed as the principal absorption mechanism.
+
+### PHARM-P-431
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Same bound-drug-is-inactive fact as PHARM-P-319/PHARM-M-028.
+
+### PHARM-P-432
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: First-order kinetics applies to most drugs (a, true) and its rate is by definition proportional to concentration (b, true) — matching "all of the above."
+
+### PHARM-P-433
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+evidence: "Loading dose = (Vd) × (desired Css) / F" — loading dose depends on Vd, not clearance; maintenance dose (Css×CL/F) is the one tied to clearance. The statement has the two backwards.
+note: The circulating claim marks True. The source's own loading-dose formula contradicts it directly.
+
+### PHARM-P-434
+status: verified
+answer: e
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: First-pass metabolism = hepatic degradation "during transport from the gut to the blood."
+
+### PHARM-P-435
+status: verified
+answer: e
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-1}
+evidence: None of receptor interaction, dose-response, mechanism of action, or toxicological response are ADME topics — all are pharmacodynamics/toxicology, so "none of the above" correctly excludes them from pharmacokinetics.
+
+### PHARM-P-436
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Blood flow, drug structure/lipophilicity, capillary permeability, and protein binding are all named distribution factors — matching "all of the above."
+
+### PHARM-P-437
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: The source's bioavailability factors (first-pass metabolism, solubility, chemical instability, formulation) don't include time-to-steady-state, which is a separate dosing-regimen concept (Ch. 2.5).
+
+### PHARM-P-438
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: Duration of action tracks metabolism/excretion rate, dose, and bioavailability; molecular weight isn't a direct duration determinant per se.
+
+### PHARM-P-439
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Same passive-diffusion-is-primary fact as PHARM-P-423/430.
+
+### PHARM-P-440
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: 75mg - 15mg (stomach) - 15mg (first-pass) = 45mg absorbed unchanged; BA = 45/75 = 60%.
+
+### PHARM-P-441
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: 90% of steady state ≈ 3.3 half-lives; 3.3×2h = 6.6h.
+
+### PHARM-P-442
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: Acidifying the urine enhances excretion of weak bases via ion trapping.
+
+### PHARM-P-443
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: t½ = 0.69×Vd/CL — Vd and clearance are the two determinants.
+
+### PHARM-P-444
+status: verified
+answer: a
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: First-pass metabolism specifically involves drug delivered via the portal vein from the gut, not the hepatic artery.
+
+### PHARM-P-445
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: First-order elimination rate is proportional to (dependent on) drug concentration by definition.
+
+### PHARM-P-446
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Metabolic products are "most often therapeutically inactive."
+
+### PHARM-P-447
+status: verified
+answer: e
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: Oral absorption is "sometimes inefficient; only part absorbed" — incomplete absorption is a recognized consequence.
+
+### PHARM-P-448
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Patient reluctance toward rectal administration is standard clinical/pharmaceutics knowledge, not detailed in this source.
+
+### PHARM-P-449
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Same bound-drug-inactive fact as PHARM-P-319/431.
+
+### PHARM-P-450
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Passive diffusion is the dominant transport mechanism per the source's own emphasis.
+
+### PHARM-P-451
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Drug transport across membranes (absorption) is a pharmacokinetic process; receptor interaction, dose-response, mechanism of action, and toxicology are pharmacodynamics/toxicology.
+
+### PHARM-P-452
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: Each sub-statement (reflects duration, tied to Ke, useful for dosing-interval estimation, not meaningfully constant for zero-order kinetics) is individually defensible — standard PK teaching beyond the source's own detail level.
+
+### PHARM-P-453
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: 95% of steady state ≈ 4.3 half-lives; 4.3×250min ≈ 1080min ≈ 18h, closest to the 20-hour option.
+
+### PHARM-P-454
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: 88% eliminated leaves 12% remaining; 2^-n=0.12 → n≈3.06 half-lives; 120h/3.06≈39.2h, closest to 40 hours.
+
+### PHARM-P-455
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Rapid distribution would help, not delay or block, a pharmacological response — the odd one out among genuine causes of reduced/blocked response.
+
+### PHARM-P-456
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: Protein-bound drug is excluded from glomerular filtration, lowering renal clearance for highly-bound drugs.
+
+### PHARM-P-457
+status: verified
+answer: e
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: IV bypasses absorption (100% bioavailable), gives rapid onset, and carries infection/rapid-toxicity risk — matching all four listed features.
+
+### PHARM-P-458
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+evidence: Loading dose = 150L × 5mg/L (5µg/mL) = 750mg.
+
+### PHARM-P-459
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: The maintenance-dose formula (Css×CL×τ/F) depends on dosing interval, Css, bioavailability, and clearance — not the absorption rate constant, which governs timing rather than total dose sizing.
+
+### PHARM-P-460
+status: not-in-source
+note: None of the listed options describes a genuine, defensible similarity between first-order and zero-order kinetics (first-order half-life is constant while zero-order's is not; neither kinetic type is inherently tied to hepatic metabolism specifically). Left unresolved rather than accepting a poorly-supported claim.
+
+### PHARM-P-461
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: "The kidney is the main excretory organ."
+
+### PHARM-P-462
+status: external
+answer: e
+basis: external — not covered in course material
+evidence: By elimination — dehydration, hydrophilic drugs, and ionized drugs each tend to shrink, not expand, apparent Vd (Ch. 2.2's compartment framework) — decreased liver function (e.g., hypoalbuminemia reducing protein binding) is the more plausible Vd-increasing factor among the options.
+
+### PHARM-P-463
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Half-life depends on Vd and clearance (Ch. 2.2), which are intrinsic drug/patient properties independent of the administration route, unlike bioavailability, peak concentration, or onset, which are route-dependent.
+
+### PHARM-P-464
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: 12.5/400 = 1/32 = 2^-5, so exactly 5 half-lives elapsed in 70h → t½ = 14h. The option is printed as "b.14 hours," an evident OCR leak of the option letter into the number.
+
+### PHARM-P-465
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+evidence: A loading dose reaches the target plasma level rapidly, shortening onset of action.
+
+### PHARM-P-466
+status: verified
+answer: c
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: First-order half-life is constant regardless of dose or concentration, so the first and second half-lives (even after a higher dose) remain similar.
+
+### PHARM-P-467
+status: verified
+answer: e
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: High clearance shortens half-life (t½∝1/CL), requiring more frequent dosing to maintain levels.
+
+### PHARM-P-468
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Duration of action tracks PK factors (dose, bioavailability, metabolism/excretion rate) rather than potency, which is a dose-magnitude (PD) concept unrelated to timing.
+
+### PHARM-P-469
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Same increased-blood-flow-enhances-absorption reasoning as PHARM-P-421.
+
+### PHARM-P-470
+status: external
+answer: d
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: The source's own parenteral list is "IV, IM, SC, ID"; intra-arterial (IA) injection is conventionally also classified as parenteral (any non-enteral injection route), though not itself named in the source's list.
+
+### PHARM-P-471
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Absorbed amount = 500mg×0.4(F) = 200mg; concentration = 200mg/20L = 10mg/L.
+
+### PHARM-P-472
+status: verified
+answer: a
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: 87.5% eliminated in 15h = 3 half-lives (100→50→25→12.5%); t½ = 15/3 = 5h. Same calculation as PHARM-M-260.
+
+### PHARM-P-473
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: With t½=5h, steady state (~4-5 half-lives) is reached in roughly 20-25h, approximated here as "1 day."
+
+### PHARM-P-474
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Same oral-is-not-rapid fact as PHARM-P-262/424.
+
+### PHARM-P-475
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02}
+evidence: Pharmacokinetics is the study of ADME.
+
+### PHARM-P-476
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: Same PK-includes-biotransformation fact as PHARM-P-300.
+
+### PHARM-P-477
+status: verified
+answer: d
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Distribution of drugs in the organism is a core PK topic.
+
+### PHARM-P-478
+status: verified
+answer: d
+basis: Ch. 3 — Pharmacodynamics {#ch03-3}
+evidence: The dose-response curve concept ties the magnitude/direction of effect predictably to the administered dose.
+
+### PHARM-P-479
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Same IM/oily-solution reasoning as PHARM-P-357.
+
+### PHARM-P-480
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Same IV-requires-aqueous-solutions fact as PHARM-P-358/PHARM-Q-007.
+
+### PHARM-P-481
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Sublingual and oral routes differ in speed of response and first-pass susceptibility (sublingual avoids it, oral doesn't, per Ch. 1.4) — by elimination, low cost is the more defensible shared trait among the options.
