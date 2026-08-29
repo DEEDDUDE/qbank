@@ -10,14 +10,21 @@ status: IN PROGRESS — نموذج 1 (complete, 50/50) and نموذج ٥ (comple
   list extended), 6 matched an existing stem but with a DIFFERENT claimed
   answer than the model(s) already on file (newly marked disputed: true --
   MICRO-F-007, 046, 054, 067, 068, 073), and 12 were genuinely new
-  (MICRO-F-077-088). نموذج 4, ٦ not started. Each remaining model gets its own
-  fresh session per CLAUDE.md's one-tab-per-session rule.
-questions: 88
-tiers: claimed 87 | open 1
-forms: mcq 88
-disputed: 7
+  (MICRO-F-077-088). نموذج 4 done, but only 49/50: Q30 has no screenshot
+  anywhere in this PDF either, same kind of genuine capture gap as نموذج 3's.
+  Of the 49 captured, 42 matched an existing stem (models: list extended); 6 of
+  those disagreed with the existing claim on file -- 4 extended an
+  already-disputed entry with model 4's own vote (MICRO-F-009, 054, 067, 073,
+  each now a 2-vs-1 or 2-vs-2 split rather than resolved by count) and 2 turned
+  a previously-undisputed entry into a fresh dispute (MICRO-F-049, 078). 7 were
+  genuinely new (MICRO-F-089-095). ٦ not started. Each remaining model gets its
+  own fresh session per CLAUDE.md's one-tab-per-session rule.
+questions: 95
+tiers: claimed 94 | open 1
+forms: mcq 95
+disputed: 9
 needs-eye: 0
-next-id: MICRO-F-089
+next-id: MICRO-F-096
 ---
 
 ### MICRO-F-001
@@ -25,7 +32,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 4]
 Infection by which one of the following bacteria is most likely to elicit granulomatous
 inflammation?
 a) Escherichia coli
@@ -38,7 +45,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 3, 5]
+models: [1, 3, 4, 5]
 Each of the following statements concerning lysogeny is correct EXCEPT?
 a) Viral DNA is integrated into bacterial DNA
 b) Viral genes replicate independently of bacterial genes
@@ -50,7 +57,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3, 5]
+models: [1, 3, 4, 5]
 After extraction of a wisdom tooth, an 18-year-old male student was diagnosed as having
 subacute bacterial endocarditis. He has a congenital heart disease that has been under
 control. Which of the following is the most likely organism causing his infection?
@@ -129,7 +136,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3]
+models: [1, 3, 4]
 Why is a fourfold increase in titer between acute and convalescent serum samples
 important in many serologic tests?
 a) It suggests a prior infection
@@ -145,9 +152,9 @@ disputed: true
 claims:
   - source: model 1
     answer: All the options are correct.
-  - source: model 5
+  - source: models 4 and 5 (agree)
     answer: Protein A that binds to the Fc portion of IgG
-models: [1, 5]
+models: [1, 4, 5]
 Which one of the following is considered a virulence factor for Staphylococcus aureus?
 a) Protein A that binds to the Fc portion of IgG
 b) A heat stable exotoxin.
@@ -171,7 +178,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 4]
 All Gram-Negative bacilli are shared in having?
 a) Exotoxin
 b) Capsule
@@ -183,7 +190,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 5]
+models: [1, 4, 5]
 71 year old woman with chronic leukemia developed slow impairment of memory as well as
 deterioration of intellectual power and orientation. Brain autopsy specimens showed
 demyelination due to viral damage of oligodendroglial cells. Abundant JC virus particles
@@ -210,7 +217,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1]
+models: [1, 4]
 Human immunodeficiency virus (HIV) contains an RNA-dependent DNA polymerase.
 a) True
 b) False
@@ -220,7 +227,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 5]
+models: [1, 4, 5]
 A 30-year-old woman with nonbloody diarrhea for the past 14 hours. Which one of the
 following organisms is not likely to cause this illness?
 a) Salmonella
@@ -329,7 +336,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [4, 5]
 The main site of action of acyclovir is viral genome DNA synthesis.
 a) True
 b) False
@@ -352,7 +359,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [4, 5]
 Infection by which one of the following bacteria is most likely to be transmitted
 vertically?
 a) Clostridium tetani
@@ -365,7 +372,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 5]
+models: [1, 4, 5]
 Ethylene oxide is used to sterilize heat-sensitive materials, such as surgical
 instruments, in hospitals.
 a) False
@@ -376,7 +383,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [5]
+models: [4, 5]
 An immunological reaction that is produced between soluble antigen with antibody is
 called?
 a) Slide agglutination
@@ -399,7 +406,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [5]
+models: [4, 5]
 Which one of the following BEST describes the mode of action of endotoxin?
 a) They blocks release of acetylcholine
 b) Endotoxins degrades lecithin in cell membranes
@@ -440,7 +447,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [4, 5]
 Which of the following statements is not correct regarding human immunodeficiency
 virus (HIV)?
 a) A DNA copy of the HIV genome integrates into host cell DNA
@@ -478,7 +485,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3, 5]
+models: [3, 4, 5]
 One of the following is a pathogen with the ability to enter and survive inside cells?
 a) Staphylococcus aureus
 b) Streptococcus pyogenes
@@ -502,7 +509,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3, 5]
+models: [1, 3, 4, 5]
 Which of the following component is found in all viruses
 a) The envelope
 b) Spikes
@@ -528,7 +535,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [5]
+models: [4, 5]
 Which of the following bacterial cells is an endospore forming AEROBIC bacteria?
 a) Bacillus anthracis
 b) Bacillus and Clostridium
@@ -550,7 +557,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3, 5]
+models: [3, 4, 5]
 What is the main purpose of throat cultures?
 a) To detect Mycobacterium tuberculosis
 b) To identify viruses causing respiratory infections
@@ -615,7 +622,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 5]
+models: [1, 4, 5]
 Which of the following sentences is worng regarding normal flora?
 a) Staphylococcus epidermidisfound on human skin.
 b) Staphylococcus aureus can be found is the nose
@@ -627,7 +634,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 5]
+models: [1, 4, 5]
 The following pathogens are transmitted trans placentally?
 a) Escherichia coli, Neisseria gonorrhoeae
 b) Herpes simplex virus type 1 and 2
@@ -638,8 +645,13 @@ d) Staphylococcus aureus, Group B streptococci
 tier: claimed
 form: mcq
 type: single
-claimed: b
-models: [3, 5]
+disputed: true
+claims:
+  - source: models 3 and 5 (agree)
+    answer: b (The virion contains a polymerase.)
+  - source: model 4
+    answer: c (The genome RNA is segmented.)
+models: [3, 4, 5]
 note: Near-duplicate stem of MICRO-F-007 (both about an 8-segment negative-polarity
   ssRNA virus's properties) but the option sets diverge beyond simple reshuffling,
   kept separate rather than merged, to avoid conflating two possibly-different
@@ -659,7 +671,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [5]
+models: [4, 5]
 Which one of the following sets of bacteria produces exotoxins that act by
 ADP-ribosylation?
 a) Clostridium tetani and Bacillus anthracis
@@ -672,7 +684,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [5]
+models: [4, 5]
 Each of the following statements concerning exotoxins is correct EXCEPT?
 a) Cholera toxin are enterotoxin that stimulats adenylate cyclase
 b) Diphtheria is caused by an exotoxin that inhibits protein synthesis.
@@ -714,11 +726,11 @@ form: mcq
 type: single
 disputed: true
 claims:
-  - source: model 5
+  - source: models 4 and 5 (agree)
     answer: b (Intoxication)
   - source: model 3
     answer: d (E. coli gastroenteritis)
-models: [3, 5]
+models: [3, 4, 5]
 A patient with nausea, vomiting, and diarrhea within 3 hours after eating and being
 healthy most likely has?
 a) Shigellosis
@@ -803,7 +815,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 4]
 note: Near-duplicate theme of MICRO-F-030 (mode of action of endotoxin, same TNF
   answer content) but a different clinical vignette and different stem wording, kept
   separate rather than merged.
@@ -821,7 +833,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1]
+models: [1, 4]
 Viral surface proteins are important because they determine the species specificity
 of the virus-cell interaction and they protect the viral genetic material against
 nucleases
@@ -884,9 +896,9 @@ disputed: true
 claims:
   - source: model 1
     answer: a (True)
-  - source: model 3
+  - source: models 3 and 4 (agree)
     answer: b (False)
-models: [1, 3]
+models: [1, 3, 4]
 Lyme disease is transmitted to human being via an arthropod vector?
 a) True
 b) False
@@ -914,7 +926,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 3]
+models: [1, 3, 4]
 Which of the following viruses usually enters the body via fecal oral route?
 a) VZV
 b) Hepatitis A virus
@@ -964,11 +976,11 @@ form: mcq
 type: single
 disputed: true
 claims:
-  - source: model 1
+  - source: models 1 and 4 (agree)
     answer: b (Enterococcus faecalis)
   - source: model 3
     answer: d (Clostridium perfringens)
-models: [1, 3]
+models: [1, 3, 4]
 Which of the following organisms is not causing diarrhea?
 a) Vibrio cholerae
 b) Enterococcus faecalis
@@ -980,7 +992,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3]
+models: [1, 3, 4]
 All of the following viruses evade host defenses by having multiple serotypes except?
 a) Human immunodeficiency virus (HIV)
 b) Polio virus
@@ -1031,8 +1043,13 @@ d) Bacteroides fragilis
 tier: claimed
 form: mcq
 type: single
-claimed: a
-models: [3]
+disputed: true
+claims:
+  - source: model 3
+    answer: a (Production of an exotoxin that activates adenylate cyclase)
+  - source: model 4
+    answer: c (Immune response to the virally infected cells.)
+models: [3, 4]
 Which one of the following mechanisms is LEAST likely to produce a disease upon
 viral infection?
 a) Production of an exotoxin that activates adenylate cyclase
@@ -1045,7 +1062,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3]
+models: [3, 4]
 Main site of action of amantadine is viral protein synthesis.
 a) True
 b) False
@@ -1078,7 +1095,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3]
+models: [3, 4]
 Which of the following pathogen can cause infective endocarditis, espically after
 several months of prosthetic valve replacement?
 a) Streptococcus viridans
@@ -1091,7 +1108,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [3]
+models: [3, 4]
 The main site of symptoms of disease caused by Clostridium botulinum is?
 a) Soft tissue
 b) Gastrointestinal tract
@@ -1103,7 +1120,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [3]
+models: [3, 4]
 Which of the following will destroy prions?
 a) Boiling
 b) Exposure to formaldehyde vapor
@@ -1115,7 +1132,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3]
+models: [3, 4]
 Which of the following virus group have a latency stage in its host cell?
 a) Influenza viruses
 b) Herpesviruses
@@ -1127,7 +1144,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3]
+models: [3, 4]
 A 40-year-old man who recently visited India admitted to the emergency department
 with profuse watery diarrhea with mucus, and severe dehydration. Which of the
 following correctly describes the causal agent?
@@ -1141,7 +1158,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [3]
+models: [3, 4]
 Mannitol salt agar is considered as?
 a) Differential medium
 b) Enrichment medium
@@ -1153,9 +1170,102 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3]
+models: [3, 4]
 Selective action of Acyclovir in herpes simplex virus (HSV)-infected cells is
 attributed to the specific binding of Acyclovir to viral receptors only expressed
 on the surface of the HSV-infected cells.
 a) True
 b) False
+
+### MICRO-F-089
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [4]
+Which of the following statements is not correct regarding bacterial killing?
+a) An autoclave uses steam under pressure to reach the killing temperature of 121°C.
+b) Spores and some pathogens survive milk pasteurization process.
+c) Iodine kills by the formation of thymine dimers in bacterial DNA.
+d) A 70% ethanol kills more effectively than 100% ethanol.
+
+### MICRO-F-090
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [4]
+Bacterial spores are sensitive to?
+a) None of them
+b) Autoclaving
+c) alcohol 70%
+d) UV radiation
+e) Boiling
+
+### MICRO-F-091
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [4]
+note: Near-duplicate theme of MICRO-F-052 (both about the toxin/organism that inhibits
+  acetylcholine release at the neuromuscular junction) but this stem asks for the
+  toxin itself rather than the producing bacterium, and the option set is toxin
+  names rather than genus names — kept separate rather than merged.
+Which of the following toxins most likely inhibits the release of acetylcholine at
+the neuromuscular junction?
+a) Tetanus toxin
+b) Cholera toxin
+c) Diphtheria toxin
+d) Botulinum toxin
+
+### MICRO-F-092
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [4]
+Which of the following statements is correct concerning viral serotypes?
+a) Viral serotype is usually determined by the outer capsid proteins in case of naked
+   nucleocapsid viruses.
+b) Some viruses have multiple serotypes.
+c) Viral serotype is usually determined by the outer envelope proteins in case of
+   enveloped viruses.
+d) All the options are correct.
+
+### MICRO-F-093
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [4]
+note: Distinct from MICRO-F-066 ("A viroid is?", answer: naked infectious circular
+  RNA molecule) — different stem and a different option set, kept separate.
+Viroids are atypical viruses that best described by which of the following sentence?
+a) Consist of RNA without a protein or lipoprotein outer coat.
+b) Cause tumors mainly in experimental animals.
+c) Are defective viruses that are missing the DNA coding for the matrix protein.
+d) All options are correct.
+
+### MICRO-F-094
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [4]
+Antitoxin against tetanus protects against botulism as well, because the two toxins
+share antigenic sites.
+a) False
+b) True
+
+### MICRO-F-095
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [4]
+Which of the following enzymes (molecules) is not involve in causing host cell damage?
+a) Lecithinase.
+b) Hyaluronidase.
+c) Leukocidin of Staphylococcus aureus.
+d) M protein of Streptococcus pneumoniae.
