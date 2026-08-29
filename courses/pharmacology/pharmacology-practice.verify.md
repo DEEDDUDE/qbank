@@ -1,13 +1,14 @@
 ---
 course: pharmacology
 tab: practice
-scope: PHARM-P-001–099 only — Fawzi Shihadeh & Malik Suliman's open-tier compiled
-  set (row 2's first source section, general Pharmacokinetics/Pharmacodynamics).
-  PHARM-P-100–481 (the rest of row 2's batch, plus rows 10–12's TEST BANK, dental
-  students, Pharma020, and the third Mohanad Al-ahmad set) are not covered by
-  this pass — RUN-PLAN row 13 needs at least 2 more sessions.
-questions: 99
-verified: 93 | external: 6 | conflict: 0 | not-in-source: 0 | needs-eye: 0
+scope: PHARM-P-001–174 — all of row 2's batch (Fawzi Shihadeh & Malik Suliman's
+  open-tier set, PHARM-P-001–099, plus Rama & Sana's claimed-tier "Midterm
+  collected" + "Final collected Questions" set, PHARM-P-100–174). PHARM-P-175–481
+  (rows 10–12's TEST BANK, dental students, Pharma020, and the third Mohanad
+  Al-ahmad set) are not covered by this pass — RUN-PLAN row 13 needs at least
+  1 more session.
+questions: 174
+verified: 148 | external: 16 | conflict: 0 | not-in-source: 10 | needs-eye: 0
 ---
 
 ### PHARM-P-001
@@ -834,3 +835,571 @@ evidence: Drug concentration at the receptor site is governed by dose,
   throughout Ch. 2) — "allosteric interaction with the microsomal enzymes" is
   not a recognized determinant of drug concentration in the source's
   metabolism section.
+
+### PHARM-P-100
+status: verified
+answer: b
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-1}
+evidence: By elimination against the source's own definitions: pharmacodynamics
+  and pharmacokinetics are narrower (mechanism-only and ADME-only,
+  respectively), toxicology covers only adverse effects, and pharmacy is a
+  dispensing profession, not a science — "medical pharmacology" is the only
+  option matching a science oriented toward diagnosis, prevention, and
+  treatment.
+
+### PHARM-P-101
+status: not-in-source
+note: The source doesn't discuss receptor up-regulation or down-regulation as
+  a distinct concept (only tolerance/tachyphylaxis, Ch. 3.4) and the extract
+  carries no option list for this qa-form item to check the claim against.
+
+### PHARM-P-102
+status: verified
+answer: NaHCO2 (sodium bicarbonate)
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: "An overdose of phenobarbital or acetylsalicylic acid (weak acids)
+  can be treated with bicarbonate, which alkalinizes the urine."
+
+### PHARM-P-103
+status: verified
+answer: Affinity and no intrinsic activity
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: "Antagonist drug — binds receptors but cannot initiate a cellular
+  response" — binding is affinity; "cannot initiate a response" is zero
+  intrinsic activity (efficacy).
+
+### PHARM-P-104
+status: verified
+answer: a
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+img: flagged/PHARM-P-104-route-of-administration-figure.png
+evidence: The figure shows a gradual rise to a peak concentration followed by
+  decline — an absorption phase followed by elimination, the classic
+  extravascular-dosing shape. An IV bolus would start at its maximum
+  immediately (no rising phase) and an IV infusion would plateau rather than
+  peak-and-decline, so the curve's rising phase points to oral dosing.
+
+### PHARM-P-105
+status: verified
+answer: ED50
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: "ED50 — median effective dose; dose at which 50% of the
+  population/sample manifests a given effect."
+
+### PHARM-P-106
+status: not-in-source
+note: The stem itself ("the route of inflammation?") doesn't parse as a clear
+  question against anything in the source — likely a garbled OCR/transcription
+  of the original item. Left unresolved rather than guessing what it meant to
+  ask.
+
+### PHARM-P-107
+status: verified
+answer: 130 L
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: Vd = dose / C₀ = 650 / 5 = 130 (the source's C₀/Vd relationship).
+
+### PHARM-P-108
+status: verified
+answer: 7 hr
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: "t½ = 0.69 × Vd / CL" = 0.69 × 200 / 20 = 6.9 ≈ 7 hr.
+
+### PHARM-P-109
+status: verified
+answer: Lipid diffusion
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: Passive (lipid) diffusion is listed first among absorption
+  mechanisms, and "hydrophobic drugs readily cross most biologic membranes" —
+  the dominant route for most drugs.
+
+### PHARM-P-110
+status: verified
+answer: orally
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: Oral route advantages: "convenient..., cheap, safe (low infection
+  risk)."
+
+### PHARM-P-111
+status: verified
+answer: it is the volume of blood or plasma that is completely cleared of drug per unit time
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: "Clearance (CL) estimates the amount of drug cleared from the body
+  per unit time" — the claim is the more precise textbook phrasing of the same
+  concept.
+
+### PHARM-P-112
+status: verified
+answer: sodium bicarbonate
+basis: Ch. 2 — Pharmacokinetics {#ch02-4}
+evidence: Same bicarbonate/weak-acid mechanism as PHARM-P-102.
+
+### PHARM-P-113
+status: verified
+answer: CYP3A4
+basis: Ch. 2 — Pharmacokinetics {#ch02-3}
+evidence: "Four isozymes responsible for the vast majority of P450-catalyzed
+  reactions: CYP3A4/5, CYP2D6, CYP2C8/9, CYP1A2 ... Considerable CYP3A4 is
+  found in intestinal mucosa" — CYP3A4 is the source's most prominent isozyme.
+
+### PHARM-P-114
+status: verified
+answer: drugs absorbed from GIT must pass through the gut wall and portal vein to the liver before reaching the systemic circulation
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: "First-pass effect: the intestinal and hepatic degradation or
+  alteration of a drug taken by mouth."
+
+### PHARM-P-115
+status: verified
+answer: it is the fraction of the uncharged active drug reaching the systemic circulation, following drug administration, irrespective of the route.
+basis: Ch. 2 — Pharmacokinetics {#ch02-1}
+evidence: "Bioavailability: the fraction of administered drug that reaches
+  systemic circulation."
+
+### PHARM-P-116
+status: verified
+answer: is the science that deals with the use of drugs for diagnosis, prevention and treatment of human disease.
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-1}
+evidence: Close paraphrase of the source's Pharmacology/Pharmacotherapeutics
+  definitions ("proper selection and use of drugs for prevention and treatment
+  of disease").
+
+### PHARM-P-117
+status: verified
+answer: the drug concentration is high in tissue proteins.
+basis: Ch. 2 — Pharmacokinetics {#ch02-2}
+evidence: "If Vd is big, the drug is more diluted in blood plasma than it
+  'should' be, meaning more is distributed in tissue (not plasma)."
+
+### PHARM-P-118
+status: verified
+answer: it needs single dose
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+evidence: Steady state is approached through repeated/continuous dosing, not
+  a single dose — "the drug accumulates until steady state" under
+  fixed-dose/fixed-interval or infusion regimens.
+
+### PHARM-P-119
+status: verified
+answer: the drugs always safe.
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-1}
+evidence: "All drugs are capable of producing adverse effects."
+
+### PHARM-P-120
+status: verified
+answer: Tolerance
+basis: Ch. 3 — Pharmacodynamics {#ch03-4}
+evidence: "Tolerance (decreased response with continued administration)."
+
+### PHARM-P-121
+status: verified
+answer: produce high initial concentration of the drug that might be toxic
+basis: Ch. 1 — Introduction to Pharmacology {#ch01-4}
+evidence: IV disadvantages include "risk of adverse reactions from too-rapid
+  delivery of high concentrations to plasma/tissues."
+
+### PHARM-P-122
+status: verified
+answer: b
+basis: Ch. 2 — Pharmacokinetics {#ch02-5}
+img: flagged/PHARM-P-122-embedded-therapeutic-window-question.png
+evidence: The figure's shaded "therapeutic window" box aligns with Drug B's
+  dose-response transition — its effective range sits within the window,
+  matching the source's definition of the therapeutic window as the safe
+  concentration band between minimum therapeutic and toxic effect.
+
+### PHARM-P-123
+status: not-in-source
+note: Off-syllabus autonomic pharmacology (alpha-blockers/clonidine) — this
+  course's source never covers adrenergic/autonomic drugs.
+
+### PHARM-P-124
+status: not-in-source
+note: Off-syllabus autonomic pharmacology (dopamine/heart failure) — not
+  covered anywhere in source.md.
+
+### PHARM-P-125
+status: not-in-source
+note: Off-syllabus autonomic pharmacology (adenylyl cyclase/adrenergic
+  receptor subtypes) — not covered anywhere in source.md.
+
+### PHARM-P-126
+status: external
+answer: Nafcillin
+basis: external — not covered in course material
+evidence: Ch. 4.2.1 classifies nafcillin as a penicillinase-resistant
+  ("antistaphylococcal") penicillin, consistent with treating staphylococcal
+  toxin-mediated disease, but the source never names toxic shock syndrome
+  specifically as an indication.
+
+### PHARM-P-127
+status: not-in-source
+note: Off-syllabus autonomic pharmacology (muscarinic receptor distribution)
+  — not covered anywhere in source.md.
+
+### PHARM-P-128
+status: not-in-source
+note: Off-syllabus autonomic pharmacology (atropine overdose) — not covered
+  anywhere in source.md.
+
+### PHARM-P-129
+status: not-in-source
+note: Off-syllabus autonomic pharmacology (pilocarpine/muscarinic receptors)
+  — not covered anywhere in source.md.
+
+### PHARM-P-130
+status: verified
+answer: d
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2}
+evidence: "Gram (−) cell wall — ... a thin peptidoglycan layer" — a thick
+  (50–100 molecule) wall is the gram-positive picture, not gram-negative,
+  making (d) the false statement.
+
+### PHARM-P-131
+status: verified
+answer: e
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2-1}
+evidence: Nafcillin, oxacillin, cloxacillin, and dicloxacillin are all
+  penicillinase-resistant ("antistaphylococcal") penicillins; natural
+  Penicillin is not in that class ("90% of staphylococci are resistant" to
+  it), making it the least resistant to β-lactamases.
+
+### PHARM-P-132
+status: verified
+answer: d
+basis: Ch. 6 — Antimetabolites and DNA Synthesis Inhibitors {#ch06-1}
+evidence: "Sulfonamides: mechanism of action — bacteriostatic" — sulfonamides
+  have no bactericidal effect at all, so that can't be a reason for their
+  declining use.
+
+### PHARM-P-133
+status: verified
+answer: c
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-1}
+evidence: "Bacteriostatic drugs arrest bacterial growth and replication" — a
+  reversible arrest, not permanent/irreversible toxicity, making (c) false.
+
+### PHARM-P-134
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: The source confirms Unasyn (ampicillin-sulbactam) is an injection
+  and amoxicillin is characterized as an orally-absorbed extended-spectrum
+  penicillin, but doesn't state the route of the Augmentin (amoxicillin-
+  clavulanate) combination product itself — standard pharmacy knowledge:
+  Augmentin is oral, unlike the other three IV combinations.
+
+### PHARM-P-135
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: The source doesn't cover clinical pneumonia-resolution criteria;
+  standard clinical reasoning: dosing frequency is a regimen parameter, not a
+  patient-outcome marker, unlike the other four options.
+
+### PHARM-P-136
+status: verified
+answer: c
+basis: Ch. 6 — Antimetabolites and DNA Synthesis Inhibitors {#ch06-1}
+evidence: "High concentration of PABA inhibits sulfa drug activity
+  (competitive inhibition of PABA incorporation into folate synthesis)" —
+  sulfonamides are PABA analogs competing at that step.
+
+### PHARM-P-137
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: The other three options are directly false (patients should
+  complete, not stop, a course; delayed recovery should prompt reconsidering
+  the diagnosis; viral infections aren't treated by antibiotics) — by
+  elimination and standard antimicrobial-stewardship knowledge, (d) is the
+  true statement, though the source doesn't discuss stewardship directly.
+
+### PHARM-P-138
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Standard "selective toxicity" pharmacology principle (already
+  treated as external for a similar item, PHARM-Q-032, in this course's
+  quizzes tab) — the more biochemically similar a pathogen is to human cells,
+  the harder it is to find a selectively toxic drug.
+
+### PHARM-P-139
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Ch. 5.3 confirms aminoglycoside/β-lactam synergism exists ("work
+  against gram-positive cocci if combined with a β-lactam — synergistic
+  effect") but doesn't explain the pH/oxygen-tension mechanism given in the
+  option — standard pharmacology detail beyond what the source states.
+
+### PHARM-P-140
+status: verified
+answer: d
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2}
+evidence: β-lactams (penicillins, cephalosporins, carbapenems, monobactams)
+  are cell wall synthesis inhibitors, not protein synthesis inhibitors —
+  protein synthesis inhibition is Ch. 5's separate drug class.
+
+### PHARM-P-141
+status: not-in-source
+note: The source's nitrofurantoin coverage (Ch. 6.3) doesn't use the term
+  "bacterial suppressant" or discuss post-intercourse prophylaxis specifically
+  enough to confidently judge this option false against the others.
+
+### PHARM-P-142
+status: verified
+answer: d
+basis: Ch. 6 — Antimetabolites and DNA Synthesis Inhibitors {#ch06-2}
+evidence: "DNA gyrase (topoisomerase II) ... inhibition prevents negative
+  supercoiling in replicating DNA."
+
+### PHARM-P-143
+status: verified
+answer: a
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-1}
+evidence: Macrolides are "used as an alternative to penicillin in patients
+  with β-lactam antibiotic [allergy]" and "(C) staph and strep infections
+  (safe alternative for patients sensitive to β-lactams)."
+
+### PHARM-P-144
+status: verified
+answer: e
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-1}
+evidence: The source's general resistance-mechanism categories — target-site
+  alteration, enzyme inactivation (including plasmid-mediated), and decreased
+  permeability — cover all four listed mechanisms.
+
+### PHARM-P-145
+status: verified
+answer: d
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2-2}
+evidence: "Fourth generation: cefepime, cefpirome."
+
+### PHARM-P-146
+status: verified
+answer: d
+basis: Ch. 6 — Antimetabolites and DNA Synthesis Inhibitors {#ch06-2}
+evidence: Arsenic isn't an antibiotic at all; the source's quinolone list
+  (nalidixic acid, ciprofloxacin, norfloxacin, ofloxacin, levofloxacin,
+  moxifloxacin) contains none of the other four options' near-namesakes
+  either — trivially the odd one out.
+
+### PHARM-P-147
+status: verified
+answer: b
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2}
+evidence: "Gram (+) cell wall — ... thick peptidoglycan layer" — peptidoglycan
+  is the structural component providing rigidity to the bacterial cell wall.
+
+### PHARM-P-148
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Ch. 4.4 confirms cefoperazone is 3rd-generation, but the source
+  never states its anti-Pseudomonas activity (only ceftazidime's, which isn't
+  among this question's options) — standard clinical pharmacology fact.
+
+### PHARM-P-149
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Standard historical pharmacology: chloramphenicol's high lipid
+  solubility gives excellent CNS/CSF penetration and oral bioavailability,
+  which is why it was historically used for H. influenzae meningitis — not
+  stated explicitly in Ch. 5.4.
+
+### PHARM-P-150
+status: verified
+answer: d
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-1}
+evidence: Macrolides are "bacteriostatic (can be bactericidal at high
+  concentrations)" and act by "irreversibly binding to the 50S ribosomal
+  subunit" — not by a "detergent-like" membrane-disrupting mechanism, which
+  describes polymyxins (Ch. 4.2.3), not macrolides.
+
+### PHARM-P-151
+status: verified
+answer: b
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-3}
+evidence: "Bactericidal; killing is concentration dependent" — aminoglycosides
+  are bactericidal, while sulfonamides, tetracyclines, chloramphenicol, and
+  macrolides are all described as bacteriostatic elsewhere in the source.
+
+### PHARM-P-152
+status: verified
+answer: d
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-4}
+evidence: "Clinical uses: restricted to life-threatening infections; used
+  when other drugs fail or when it is superior to all alternatives" — the
+  opposite of being first-choice for any infection.
+
+### PHARM-P-153
+status: verified
+answer: b, d
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-4}
+evidence: "Binds reversibly to the 50S ribosomal subunit, inhibiting protein
+  synthesis at the peptidyl transferase reaction" — confirms 50S binding (b);
+  the option's "transpeptidase" is this same peptidyl transferase step (d).
+
+### PHARM-P-154
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Antimycobacterial drugs (isoniazid, ethambutol) aren't covered in
+  this source at all; standard TB pharmacology: isoniazid inhibits mycolic
+  acid synthesis.
+
+### PHARM-P-155
+status: verified
+answer: d
+basis: Ch. 6 — Antimetabolites and DNA Synthesis Inhibitors {#ch06-2}
+evidence: Ciprofloxacin (a quinolone) inhibits bacterial DNA gyrase — a
+  direct effect on bacterial DNA, unlike the other four options' cell-wall or
+  protein-synthesis mechanisms.
+
+### PHARM-P-156
+status: verified
+answer: e
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-3}
+evidence: "Named drugs: gentamicin, tobramycin, amikacin, streptomycin,
+  neomycin" — clarithromycin is a macrolide (Ch. 5.1), not an aminoglycoside.
+
+### PHARM-P-157
+status: verified
+answer: d
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-1}
+evidence: "What clarithromycin and azithromycin add to spectrum: more potent
+  against selected pathogens — H. influenzae, Helicobacter pylori..." —
+  tetracycline isn't named for this activity.
+
+### PHARM-P-158
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: The source states sulfonamides cross the BBB (Ch. 6.1) and
+  macrolides don't reach CSF (Ch. 5.1), but doesn't rank chloramphenicol's
+  penetration explicitly; standard pharmacology teaches chloramphenicol has
+  the best CNS penetration among common antibiotics due to high lipid
+  solubility.
+
+### PHARM-P-159
+status: verified
+answer: d
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-3}
+evidence: "Cleared by the kidneys unchanged; clearance proportional to GFR"
+  and "adjust maintenance dosing based on [creatinine]" — dose adjustment in
+  renal impairment is explicitly necessary, the opposite of the option's
+  claim.
+
+### PHARM-P-160
+status: verified
+answer: a
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2-3}
+evidence: "Vancomycin: ... Clinical uses: MRSA, MRSE infections, enterococcal
+  infections" — and vancomycin, not being a β-lactam, has no penicillin
+  cross-allergy risk.
+
+### PHARM-P-161
+status: verified
+answer: e
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-1}
+evidence: "Clindamycin side effects: ... pseudomembranous colitis due to
+  overgrowth of toxin-producing Clostridium difficile."
+
+### PHARM-P-162
+status: verified
+answer: e
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2-3}
+evidence: "Red-man syndrome (common) — erythematous or urticarial reaction to
+  rapid infusion" — listed specifically under vancomycin toxicity.
+
+### PHARM-P-163
+status: verified
+answer: c
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-4}
+evidence: "Adverse reactions: gray baby syndrome; reversible dose-dependent
+  bone marrow suppression; aplastic anemia."
+
+### PHARM-P-164
+status: verified
+answer: d
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-1}
+evidence: Treatment "give metronidazole or oral vancomycin" confirms (a);
+  it's "diagnosed by antigen detection of C. difficile toxin" confirms (c);
+  and clindamycin is the causative drug, not a treatment, trivially
+  confirming (b) — all three true, so "all of the above."
+
+### PHARM-P-165
+status: verified
+answer: d
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-4}
+evidence: "Gray baby syndrome: fatal chloramphenicol toxicity that may
+  develop in neonates."
+
+### PHARM-P-166
+status: verified
+answer: a
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-3}
+evidence: "Postantibiotic effect (PAE)" is listed as an aminoglycoside
+  property (gentamicin named), consistent with once-daily dosing practice.
+
+### PHARM-P-167
+status: verified
+answer: Chloramphenicol
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-4}
+evidence: Same gray baby syndrome citation as PHARM-P-165.
+
+### PHARM-P-168
+status: verified
+answer: They are not the drugs of first choice for any infection
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2-2}
+evidence: "Some uses for cephalosporins: hospital-acquired pneumonias —
+  cefotaxime; meningitis — cefotaxime, ceftriaxone; sepsis (initial Rx) —
+  third and fourth generation cephalosporins; gonorrhea — third generation" —
+  cephalosporins ARE first-line for several infections, making the claim (that
+  they never are) the wrong statement, as asked.
+
+### PHARM-P-169
+status: not-in-source
+note: The source doesn't discuss clinical misuse patterns of
+  lincomycin/clindamycin for sore throat or URTI.
+
+### PHARM-P-170
+status: verified
+answer: Bacteria can resist aminoglycosides by producing lactamase enzyme that breaks the lactam ring
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-3}
+evidence: "Resistance: enzyme inactivation via aminoglycoside-modifying
+  enzymes (acetyltransferases, adenyltransferases, phosphotransferases)" — not
+  lactamase. Aminoglycosides have no lactam ring; β-lactamase resistance
+  describes β-lactam antibiotics, confirming this option is the incorrect
+  statement asked for.
+
+### PHARM-P-171
+status: verified
+answer: Clavulanic acid inhibits beta lactamase
+basis: Ch. 4 — Principles of Antimicrobial Therapy {#ch04-2-1}
+evidence: "Clavulanic acid binds to and inhibits β-lactamase, keeping it
+  inactive."
+
+### PHARM-P-172
+status: verified
+answer: Highly metabolized
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-3}
+evidence: "Cleared by the kidneys unchanged" — the opposite of highly
+  metabolized, confirming this is the false statement asked for.
+
+### PHARM-P-173
+status: verified
+answer: They cannot be given with other drugs due to the postantibiotic effect of aminoglycosides
+basis: Ch. 5 — Protein Synthesis Inhibitors {#ch05-3}
+evidence: Aminoglycosides are "almost always used along with a cell-wall
+  synthesis inhibitor" — routinely combined with other drugs, confirming the
+  option's claim is the incorrect statement the question asks for.
+
+### PHARM-P-174
+status: verified
+answer: Liberation of formaldehyde
+basis: Ch. 6 — Antimetabolites and DNA Synthesis Inhibitors {#ch06-3}
+evidence: "Methenamine — mechanism: decomposes at acidic urine pH ≤5.5,
+  producing formaldehyde."
