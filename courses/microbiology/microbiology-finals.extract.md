@@ -32,10 +32,12 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
   (MICRO-F-096-097). All five Medicine models of this sitting are now
   extracted.
 
-  Sub-collection B (before2020-MICRO-FINAL, part 1 of 2 -- split by subfolder:
-  (root) + Micro + "Micro system !!" + Microbiology 1-4 + اهم ANB here; part 2
-  covers "dina 1st 2nd final" + "micro مهم جدا جدا جدا", still todo) turned out
-  to hold four unrelated old exams tangled together in one folder, not one:
+  Sub-collection B (before2020-MICRO-FINAL) is split across two rows by
+  subfolder: part 1 = (root) + Micro + "Micro system !!" + Microbiology 1-4 +
+  اهم ANB; part 2 = "دينا 1st 2nd final" + "micro مهم جدا جدا جدا". Together
+  they turned out to hold well over four exams, not four — part 2 both
+  extended several of part 1's exams with more capture sources (resolving
+  some disputes, creating others) AND surfaced entirely new exams:
   - **Exam A** -- Dr. Dina Bitar, "Second Hour Exam", 3rd-year medical
     students, Jan 12 2009. 60 printed MCQs + a 3-question essay section
     (answer only 2). Three separate photo captures of this same physical exam
@@ -50,11 +52,18 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
     transcribable from that copy -- recovered from "Microbiology 4"'s blank
     copy instead, unanswered there (tier open). "Microbiology 3"'s strip-photo
     seams cost one more casualty: one question's 4th option is cut off
-    entirely (needs-eye, structural). Three genuine answer disagreements
-    turned up between "Microbiology 3" and "Microbiology 1"'s marks on the
-    same questions (disputed). 2 essay answers transcribed as the student
-    wrote them (tier claimed, form qa); the 3rd essay question was never
-    attempted (open).
+    entirely (needs-eye, structural). **Part 2 update:** "دينا 1st 2nd final"
+    turned out to hold at least four MORE capture sources of this same exam
+    (some blank, some marked, one genuinely extending it to at least Q69 --
+    MICRO-F-292-297 -- since every part-1 copy stopped at Q60). The extra
+    sources resolved one of part 1's three original disputes outright
+    (MICRO-F-108, two cleaner copies both show a single unambiguous answer)
+    and surfaced two brand new ones on questions part 1 had recorded clean
+    (MICRO-F-138, 141) -- net now 4 disputed in Exam A, not 3. One essay
+    question got a second, differently-worded but non-conflicting student
+    answer (noted on MICRO-F-159/160, not treated as a dispute since essay
+    answers are expected to vary in wording). The 3rd essay question is still
+    unattempted in every copy found (open).
   - **Exam B** -- "Micro exam.pdf", a compiled answer-key document (52 short-
     answer/fill-in items, a few with lettered MCQ options), credited to Muath
     M. Abusamreh, citing "Dr. Dina", "First Hour Exam", 2008-2009 -- likely
@@ -79,26 +88,69 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
     with MICRO-F-003 from the unrelated 2023-2024 sitting -- coincidental
     reuse of a classic teaching vignette across years, not merged, since it
     is a different exam captured from a different raw source entirely.
+    **Part 2 update:** "دينا 1st 2nd final\مايكرو\حل.png" turned out to share
+    several verbatim questions with Exam C (same stems, same options, same
+    answers on most) plus a run of genuinely new ones (MICRO-F-298-304) --
+    and disagreed with Exam C's own recorded answer on one shared question
+    (MICRO-F-266, now disputed) while a near-duplicate of another differed
+    only in its option set, kept separate (note on MICRO-F-251).
   - **Exam D** -- another unknown old virology/immunology final, found only
-    as 3 photos in the "اهم ANB" folder, spanning a scattered, non-contiguous
-    slice of its own numbering (roughly Q54-72). This source's marking
-    convention is two systems on the same page: a large single letter
-    handwritten in the margin next to each question, and a smaller
+    as 3 photos in the "اهم ANB" folder (part 1), spanning a scattered,
+    non-contiguous slice of its own numbering (roughly Q54-72). This source's
+    marking convention is two systems on the same page: a large single
+    letter handwritten in the margin next to each question, and a smaller
     circle/tick/x directly on the printed option -- usually agreeing, but
-    disagreeing outright on 2 of the 18 questions captured, which are
-    recorded disputed with both readings rather than guessed between.
+    disagreeing outright on 2 of the 18 questions captured there, recorded
+    disputed with both readings. **Part 2 update:** two much cleaner
+    duplicate captures of this same exam turned up in "دينا 1st 2nd
+    final\مايكرو\ححح.png" and "...\حل.png". One resolved a part-1 dispute
+    outright (MICRO-F-277, the small in-text mark turned out to be a misread
+    of stray pen strokes) and completed a part-1 question that part 1 had
+    cut off mid-option (MICRO-F-279, option (d) is "Yellow fever virus", not
+    the "Swine influenza" guessed from the fragment). The other dispute
+    (MICRO-F-278) is still unresolved. These cleaner copies also share enough
+    verbatim content with Exam C (see above) that **Exam C and Exam D are now
+    suspected to be the same underlying exam**, captured via several
+    different fragmentary photo sets that each happened to miss different
+    pages -- not confirmed, but treated as likely; no retroactive ID merge
+    was done, since renumbering already-committed IDs would break every
+    external reference to them.
+  - **Exam G** (part 2 only) -- another unknown old immunology final, found
+    scattered across several "دينا 1st 2nd final" photos plus one clean PNG
+    screenshot, spanning at least Q22-56 of its own numbering (not
+    contiguous — only the questions actually captured are transcribed,
+    MICRO-F-308-328). Entirely hand-circled, no disputes found in this exam.
+
+  **Left for a future session, not fabricated from memory:** part 2 also
+  contains at least two more distinct exams — a general virology final
+  ("Exam E", roughly 30-40 questions, found in "micro مهم جدا جدا جدا" images
+  11-18, heavily hand-annotated with a spiral-scribble marking style) and a
+  short hepatitis-focused block ("Exam F", ~6 questions, same folder, images
+  19-20). Both were read once during this session, but transcribing their
+  exact stems and options from memory alone — without the images back in
+  front of the model to re-verify wording — would risk violating the
+  "nothing invented" hard rule, so they were deliberately left out of this
+  write-up rather than risk a wrong transcription. A follow-up session should
+  re-open `courses/microbiology/.prep/finals/before2020-MICRO-FINAL/micro_____
+  ____________{11..20}-*.jpg` and transcribe these two exams properly.
+  Also found in this raw folder: several pages of a **Biochemistry** course
+  final (Calvin cycle, Krebs cycle, glycolysis, fatty acid/lipid chemistry,
+  amino acid metabolism) mixed in by whoever originally compiled the photo
+  dump -- out of scope for this course/tab, not extracted, not deleted
+  (still sitting in `raw/finals/before2020-MICRO-FINAL/دينا 1st 2nd final/`
+  for anyone who later wants it for the right course).
 
   Sub-collections A and B are unrelated exam pools from different years; no
   `models:` cross-matching was attempted between them, and the one coincidental
   stem overlap found (Exam C vs MICRO-F-003) was deliberately left unmerged for
   the same reason. Every count below is computed from the entries that follow,
   per CLAUDE.md hard rule 6.
-questions: 291
-tiers: claimed 285 | open 6
-forms: mcq 241 | qa 50
-disputed: 18
-needs-eye: 6
-next-id: MICRO-F-292
+questions: 328
+tiers: claimed 322 | open 6
+forms: mcq 278 | qa 50
+disputed: 19
+needs-eye: 8
+next-id: MICRO-F-329
 ---
 
 ### MICRO-F-001
@@ -1505,16 +1557,15 @@ d) Bordetella pertussis
 tier: claimed
 form: mcq
 type: single
-disputed: true
-claims:
-  - source: circled option (c)
-    answer: c (Toxic shock syndrome)
-  - source: circled option (b)
-    answer: b (Typhoid fever)
-source: Exam A — "Microbiology 3"
-note: Two oval marks appear on this page, one on (b) and one on (c) — genuinely
-  two competing circles rather than a circle-plus-elimination-mark pattern, so
-  recorded as disputed per job-a-extract.md rather than picked between.
+claimed: b
+source: Exam A — "Microbiology 3"; resolved by two further "dina 1st 2nd
+  final" captures of this same exam (part 2 of this row), each showing a
+  single clean circle on (b) with (c) explicitly struck through
+note: The original "Microbiology 3" photo showed what looked like two
+  competing oval marks (one on b, one on c) and was recorded disputed on that
+  basis. Two more captures of the same physical exam found in part 2 show an
+  unambiguous single answer — (b) circled, (c) struck through as eliminated —
+  so this is resolved to (b) rather than left disputed.
 The pathogenesis of which one of the following diseases does not involve an
 exotoxin?
 a) Scarlet fever
@@ -1904,8 +1955,16 @@ d) Staphylococcal enterotoxin
 tier: claimed
 form: mcq
 type: single
-claimed: c
-source: Exam A — "Microbiology 3"
+disputed: true
+claims:
+  - source: "Microbiology 3"
+    answer: c (Botulinum toxin)
+  - source: "dina 1st 2nd final" capture 1 (part 2 of this row)
+    answer: a (Clostridium perfringens alpha toxin)
+  - source: "dina 1st 2nd final" capture 2 (part 2 of this row)
+    answer: d (Tetanus toxin)
+note: Three separate captures of this same exam give three different answers
+  to this one question — a genuine three-way split, not resolved.
 Exotoxins which are proteases include all the following except:
 a) Clostridium perfringens alpha toxin
 b) Scalded skin toxin
@@ -1940,8 +1999,12 @@ d) All of the above
 tier: claimed
 form: mcq
 type: single
-claimed: c
-source: Exam A — "Microbiology 3"
+disputed: true
+claims:
+  - source: "Microbiology 3"
+    answer: c (I, II and III)
+  - source: "dina 1st 2nd final" capture (part 2 of this row)
+    answer: a (I and II only)
 Bacterial infections associated with cancer include
 I. Helicobacter pylori and gastric carcinoma
 II. Campylobacter jejuni and mucosal associated lymphoid tissue (MALT)
@@ -2193,6 +2256,13 @@ source: Exam A — "Microbiology 3", essay section (Q1 of 3, student answered
 note: form is qa because this is an essay question; the answer text above is
   the student's own handwritten response, transcribed as written, not an
   official key. Job C should verify against source.md rather than trust it.
+  A second, differently-handwritten answer to this same essay question was
+  found on a duplicate copy of this exam in part 2 of this row ("dina 1st 2nd
+  final" folder): "(1) if imbalanced: disrupts mucosa (2) can't chose in
+  immunocompromised (3) if moved from anatomic site cause disease (4)
+  Gingivitis and dental caries (5) Halitosis, bad breath following poor oral
+  hygiene" — a different student's own answer to the same prompt, not a
+  conflicting claim about a factual answer, so not recorded as disputed.
 List four harmful effects of the normal human flora (10 points)
 
 ### MICRO-F-160
@@ -2209,7 +2279,13 @@ source: Exam A — "Microbiology 3", essay section (Q2 of 3, student answered
   this one)
 note: student's own handwritten response, transcribed as written including the
   apparent slip ("antibiotic-producing cells (IgA)", almost certainly meant
-  "antibody-producing"); not corrected per hard rule 2.
+  "antibody-producing"); not corrected per hard rule 2. A second, differently-
+  handwritten answer to this same essay question was found on a duplicate
+  copy of this exam in part 2 of this row: "Germ free animals have problems
+  due to infection or allergies since they have underdeveloped GALT. (2) They
+  have underdeveloped cytokine production (3) underdeveloped phagocytosis (4)
+  underdeveloped IgA producing cells." — a different student's own answer,
+  not a conflicting claim.
 Why do germ-free animals have problems with infections and allergies, give
 four reasons? (10 points)
 
@@ -3092,6 +3168,12 @@ form: mcq
 type: single
 claimed: b
 source: Exam C, p6
+note: A near-duplicate turned up in part 2 of this row ("دينا 1st 2nd
+  final\مايكرو\حل.png") with the same stem and first two options, but options
+  (c)/(d) read "Live non attenuated vaccine" / "A and B are correct" there
+  instead of "Genetically engineered vaccine" / "Live non attenuated vaccine"
+  here — and that copy circles (d) A and B are correct. Kept separate rather
+  than merged since the option sets genuinely differ.
 The influenza virus vaccine is
 a) Live attenuated vaccine
 b) Purified subunit vaccine
@@ -3302,8 +3384,13 @@ d) Nystatin
 tier: claimed
 form: mcq
 type: single
-claimed: a
-source: Exam C, p8
+disputed: true
+claims:
+  - source: Exam C, p8
+    answer: a (Polymyxin)
+  - source: "دينا 1st 2nd final\مايكرو\حل.png" (part 2 of this row, same
+      exam, identical option set)
+    answer: c (Nystatin)
 A woman with vaginal thrush is best treated using
 a) Polymyxin
 b) Bacitracin
@@ -3414,7 +3501,17 @@ claimed: b
 source: Exam D (unknown old virology/immunology final, "اهم ANB" folder)
 note: This source marks each question with a large single letter handwritten
   in the margin, alongside a smaller circle/tick/x directly on the option —
-  usually agreeing (as here), occasionally not (see MICRO-F-277, 278).
+  usually agreeing (as here), occasionally not (see MICRO-F-277, 278). A
+  cleaner duplicate capture of this same exam turned up in part 2 of this row
+  with the identical stem but a different option (b) — "Rubella virus"
+  instead of "Polio virus" — and a different circled answer, (c) Vaccinia
+  virus (see the near-duplicate entry further down this file, sourced to the
+  same "دينا 1st 2nd final\مايكرو\ححح.png" capture). Kept separate rather
+  than merged: the option sets genuinely differ, so this is either a mid-exam
+  option revision or a distinct-but-related question, not the same one
+  captured twice. This also firmed up a working theory: Exam C and Exam D may
+  be the same underlying exam captured via different fragmentary photo sets
+  rather than two different exams — see this file's own header note.
 One of the following viruses causes generalized infections in [humans —
 stem's edge cut off in the photo]
 a) Rhinovirus
@@ -3452,13 +3549,14 @@ d) Blastomycosis
 tier: claimed
 form: mcq
 type: single
-disputed: true
-claims:
-  - source: large margin letter
-    answer: b (Measles virus)
-  - source: small in-text mark
-    answer: c (Human immunodeficiency virus (HIV))
-source: Exam D
+claimed: b
+source: Exam D — "اهم ANB" folder (row 24); resolved by a cleaner duplicate
+  capture of the same exam found in part 2 of this row ("dina 1st 2nd
+  final\مايكرو\حح.png"), which shows a single unambiguous circle on (b)
+note: Originally disputed between the giant margin letter (b) and a smaller
+  in-text mark that looked like it landed on (c). The cleaner second capture
+  resolves this to (b) — the small mark was most likely a misread of stray
+  pen strokes near (c), not a genuine second claim.
 All of the following viruses evade host defenses by having multiple
 serotypes except:
 a) Rhinovirus
@@ -3489,15 +3587,18 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: Exam D
-note: Stem's own opening word is cut off by the photo's edge (almost
-  certainly "Viruses"); option (d) is also cut off, but content strongly
-  implies "Swine influenza virus" based on the visible fragment.
-[V]iruses with an animal reservoir include all of the following except:
+source: Exam D — "اهم ANB" folder (row 24); completed by a cleaner duplicate
+  capture of the same exam found in part 2 of this row ("دينا 1st 2nd
+  final\مايكرو\حح.png")
+note: The original capture cut off the stem's opening word and option (d)
+  entirely; the second capture shows the full question uncut, confirming the
+  stem is "Viruses..." and (d) is "Yellow fever virus", not the "Swine
+  influenza" guessed from the visible fragment before.
+Viruses with an animal reservoir include all of the following except:
 a) Rabies virus
 b) Avian influenza virus
 c) Measles virus
-d) [cut off — fragment suggests Swine influenza virus]
+d) Yellow fever virus
 
 ### MICRO-F-280
 tier: claimed
@@ -3653,3 +3754,490 @@ a) Rubella virus
 b) Hepatitis A virus
 c) Rotavirus
 d) Rhinovirus
+
+### MICRO-F-292
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam A — found only in "دينا 1st 2nd final" (part 2 of this row);
+  no capture in part 1 (Microbiology 1/2/3/4) went past Q60
+note: This and the next five entries are a genuine extension of Exam A beyond
+  the 60-question length established in row 24 — every part-1 capture of this
+  exam stopped at Q60, but this document continues to at least Q69 with the
+  same format, typesetting and course identity. Original numbering not
+  trusted (see this file's header) — matched here by content only.
+Candida albicans
+a) Is a dimorphic fungus
+b) Is part of the normal flora of man
+c) Is an opportunitic organism
+d) All of the above are correct
+
+### MICRO-F-293
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam A — "دينا 1st 2nd final"
+A broad-spectrum antibiotic will be active against:
+a) bacteria and viruses
+b) gram-positive or gram-negative bacteria
+c) gram-positive and gram-negative bacteria and fungi and protozoa
+d) all types of microbes including fungi and protozoa
+
+### MICRO-F-294
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam A — "دينا 1st 2nd final"
+Antibiotics that prevent bacterial multiplication instead of killing:
+a) Allow defense mechanisms to eliminate the microbes
+b) Are called bactericidal agents
+c) Are useless in the treatment of disease
+d) Could not exist in nature
+
+### MICRO-F-295
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam A — "دينا 1st 2nd final"
+Sulfanilamide is a chemosynthetic drug that:
+a) Has some toxicity for humans
+b) Blocks bacterial synthesis of folic acid
+c) Interferes with folic acid in human diets
+d) All of these
+
+### MICRO-F-296
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam A — "دينا 1st 2nd final"
+ADP-ribosylating exotoxins include all of the following EXCEPT:
+a) E. coli heat labile toxin
+b) Cholera toxin
+c) Diphtheria toxin
+d) Tetanus toxin
+
+### MICRO-F-297
+tier: claimed
+form: mcq
+type: single
+needs-eye: true
+source: Exam A — "دينا 1st 2nd final"
+note: Both (b) and (d) carry a mark on this page ((d) restates (b) as part of
+  a compound answer: "B and C are correct"), so it is genuinely unclear
+  whether the intended final answer is (b) alone or the compound (d).
+Empiric antimicrobial therapy:
+a) Is based on culture and antibiotic sensitivity
+b) Is an educated guess about the most probable pathogen
+c) Is very important in life threatening infectious disease
+d) B and C are correct
+
+### MICRO-F-298
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\حل.png"
+note: This capture shares several verbatim questions with both Exam C
+  (MICRO-F-228, 229, 265, 270 all appear here too, same answers) and Exam D
+  (MICRO-F-274's near-duplicate, MICRO-F-277/279 appear here too) — working
+  theory is Exam C and Exam D are the same underlying exam; see this file's
+  header note.
+The triple vaccine for the prevention of viral infections in children
+includes protection against all the following EXCEPT:
+a) Measles
+b) Mumps
+c) Respiratory syncytial virus
+d) Rubella
+
+### MICRO-F-299
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\حل.png"
+The primary virulence factor of chlamydiae is:
+a) Major outer membrane proteins that mediate attachment to host epithelial
+   cells
+b) Production of a toxin that inhibits mucociliary action
+c) Antiphagocytic capsule
+d) Ability to multiply intracellularly in membrane bound vesicles within the
+   phagosome
+
+### MICRO-F-300
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\حل.png"
+A component of a virus synthesized by a genetically engineered yeast
+(recombinant vaccine) comprises the vaccine used for:
+a) Hepatitis B
+b) Measles
+c) Poliomyelitis
+d) Rubella
+
+### MICRO-F-301
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\حل.png"
+An AIDS patient with a persistent cough has shown progressive behavioral
+changes in the past few weeks. A CSF sample is collected and an encapsulated,
+yeast like organism is observed. The most likely organism is:
+a) Toxoplasma
+b) Candida
+c) Cryptococcus
+d) Pneumocystis
+
+### MICRO-F-302
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\حل.png"
+The virokine of the following virus reduces the expression of class I MHC
+protein
+a) HIV (human immunodeficiency virus)
+b) Vaccinia virus
+c) HSV1 (herpes simplex virus)
+d) EBV (Epstein barr virus)
+
+### MICRO-F-303
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\حل.png"
+The following are possible outcomes of viral replication, which one is
+characteristic of respiratory syncytial virus (RSV)?
+a) Lysis of cells (viral lysis)
+b) Fusion of cells
+c) Malignant transformation
+d) No apparent or morphologic change
+
+### MICRO-F-304
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\حل.png"
+All the following diseases are communicable except:
+a) Tuberculosis
+b) Botulism
+c) Measles
+d) Mumps
+
+### MICRO-F-305
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\ححح.png"
+All the following statements are true except:
+a) Human immunodeficiency virus displays antigenic variation
+b) Human immunodeficiency virus infects T helper cells
+c) Human immunodeficiency virus is a latent virus
+d) Human immunodeficiency virus inhibits production of tumor necrosis factor
+   (TNF)
+
+### MICRO-F-306
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\ححح.png"
+A positive delayed type hypersensitive response to Candida indicates
+a) Exposure to Candida
+b) Cell mediated response to Candida
+c) Normal cell mediated immunity
+d) All of the above are correct
+
+### MICRO-F-307
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam C/D — "دينا 1st 2nd final\مايكرو\ححح.png"
+An insect that bites a sick individual and transfers the infection to
+another person would most correctly be described as a(n):
+a) Arthropod
+b) Fomite
+c) Reservoir
+d) Vector
+
+### MICRO-F-308
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam G (unknown old immunology final, "دينا 1st 2nd final" folder)
+The predominant cells in pyogenic inflammation are
+a) Neutrophils
+b) Basophils
+c) Plasma cells
+d) T helper cells
+
+### MICRO-F-309
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam G
+A substance found in gram-negative cell walls that is not found in gram
+positive cell walls is
+a) Peptidoglycan
+b) Lipopolysaccharide
+c) Carbohydrate
+d) Teichoic acid
+
+### MICRO-F-310
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+The conformation of an epitope is important for recognition by:
+a) T cells
+b) NK cells
+c) B cells
+d) Neutrophils
+
+### MICRO-F-311
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+Most cells that function in innate resistance contain granules, which play a
+major role in cytotoxicity and the ability of the cell to destroy foreign
+cells. Examples of such cells include all of the following except:
+a) Neutrophils
+b) Natural killer (NK) cells
+c) Macrophages
+d) Plasma cells
+
+### MICRO-F-312
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam G
+All of the following statements about natural killer (NK) cells are true
+except:
+a) They are large granular lymphocytes
+b) They become activated in the presence of interleukin-2
+c) They mediate antibody dependent cell mediated cytotoxicity
+d) They secrete interleukin-1
+
+### MICRO-F-313
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam G
+Which of the following is NOT a component of innate immunity:
+a) Lysozyme
+b) Antibody
+c) Complement
+d) C-reactive protein
+
+### MICRO-F-314
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+Which of the following antibody classes is the first to be produced in an
+immune response to a given antigen?
+a) IgA
+b) IgG
+c) IgM
+d) IgD
+
+### MICRO-F-315
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam G
+Which one of the following immunoglobulins is the principal immunoglobulin
+in exocrine secretions?
+a) IgA
+b) IgG
+c) IgM
+d) IgD
+
+### MICRO-F-316
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+The T-cell antigen receptor is associated with which of the following
+characteristics?
+a) It is a monomeric IgM
+b) It requires free antigen for triggering
+c) It is associated with CD4 or CD8
+d) It is nonspecific
+
+### MICRO-F-317
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+The role of macrophages in the immune response includes all of the following
+functions except:
+a) Antigen engulfment
+b) Production of IL-1
+c) Production of IL-2
+d) Presentation of antigen in context of class II histocompatibility antigens
+
+### MICRO-F-318
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+A substance which non-specifically potentiates an immune response to an
+antigen given with it:
+a) Mitogen
+b) Hapten
+c) Adjuvant
+d) Ligand
+
+### MICRO-F-319
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam G
+The clinical features of infection may be caused by:
+a) Exotoxin release
+b) Acute inflammation
+c) Altered physiology
+d) All of the above
+
+### MICRO-F-320
+tier: claimed
+form: mcq
+type: single
+needs-eye: true
+source: Exam G
+note: Two options carry a circle-like mark on this page ((c) and (d)) for
+  what should be a single-answer question — kept unresolved rather than
+  guessed between.
+Prokaryotes differ from eukaryotes in that prokaryotes
+a) Are unicellular
+b) Contain a cell wall
+c) Have neither a distinct nucleus nor a nuclear membrane
+d) Have cytoplasmic organelles such as mitochondria
+
+### MICRO-F-321
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam G
+Bacterial virulence factors
+a) Include endotoxin activity
+b) Include ability to invade tissues
+c) Include antiphagocytic activity
+d) All of the above
+
+### MICRO-F-322
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+The sites in or on antigens with which antibodies react are called:
+a) haplotypes
+b) isotopes
+c) epitopes
+d) idiotypes
+
+### MICRO-F-323
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam G
+The capacity of a molecule to induce an immune response is called:
+a) immunogenicity
+b) antigenicity
+c) specificity
+d) affinity
+
+### MICRO-F-324
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+Antibiotics that interfere with protein synthesis include all the following
+except:
+a) Erythromycin
+b) Chloramphenicol
+c) Cephalosporins
+d) Tetracyclin
+
+### MICRO-F-325
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam G
+A beta lactamase is:
+a) The part of the bacterial cell that is affected by antibiotics like the
+   penicillins and cephalosporins
+b) An enzyme that interferes with the action of antibiotics like the
+   penicillins and cephalosporins
+c) A sulbactam drug
+d) A structural analogue of penicillin
+
+### MICRO-F-326
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+Antifungal drugs include all the following except:
+a) Amphotericin B
+b) Nystatin
+c) Polymyxins
+d) Griseofulvin
+
+### MICRO-F-327
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam G
+Visualization of fungi in a clinical specimen is best accomplished by
+treatment with:
+a) 10% sodium chloride
+b) 1% silver nitrate
+c) 10% potassium hydroxide
+d) 1% crystal violet
+
+### MICRO-F-328
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam G
+note: Different question from MICRO-F-256, which asks how to classify Tinea
+  capitis (cutaneous vs systemic mycoses); this one asks what it is in plain
+  terms.
+Tinea capitis is:
+a) Ringworm of the body
+b) Ringworm of the scalp
+c) Ringworm of the foot
+d) A dermatophylic infection of the groin
