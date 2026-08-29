@@ -281,6 +281,374 @@
           "pages": 134
         }
       ]
+    },
+    {
+      "id": "finals-01",
+      "built": "2026-08-30",
+      "questions": 234,
+      "note": "Job D build of the whole finals tab, all six Job A batches (rows 15-20): 2020-2021 sitting (three overlapping captures merged by stem), 2023-2024 Medicine models 1/2 (1.pdf found to duplicate model 6's capture -- not re-ledgered separately), 3/6, 4, 5, and the Dentistry sitting. Never ledgered at extraction time -- recorded here at build time instead, same as row 6's own flag for the practice tab.",
+      "files": [
+        {
+          "name": "raw/finals/2020-2021/3/cd1cbba8-1323-4837-8b07-2ef24936bbca.JPG",
+          "sha1": "c495b7309f043317c65be9a3d211f44c4bcba404",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/1d346027-cb28-4dec-8348-23714c2f46af.JPG",
+          "sha1": "fbf18d6e27d49658a6f8ecd084600f22be87ece2",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/a2f9f1ac-825c-4119-8280-82609a7437dc.JPG",
+          "sha1": "08267b3f374c4380f4f866162012fe944f7d30af",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/04ac7c3d-d936-4c02-a6a8-b879274b6027.JPG",
+          "sha1": "e291a9f6d8d2e7e3a977bf1c47521857367a36b9",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/4c97157d-2986-4bbf-9ede-b47a28f29bdb.JPG",
+          "sha1": "0540d84ece6091df56b6a5a6c67faedb4392beff",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/cbfa6d52-6e0b-4ada-b7b0-3f8effa7db99.JPG",
+          "sha1": "1a59b2beec377033f81457c07fcfc092b3431d9a",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/6ee5032c-658b-4d9c-90e1-99dc398cbb25.JPG",
+          "sha1": "b289d4ccba522f85fcbaf62c317e9e26b9d6c026",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/6bc6616a-9edf-4f55-a3d1-12e1538315a9.JPG",
+          "sha1": "505b943f88d042add872454147268da6e59d3edf",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/09f96e66-f4b7-42fd-88b8-4dc3088151c5.JPG",
+          "sha1": "d0f6e7cf4262dbaeba17c8efb86c982df4847d6e",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/17fae0ee-f003-44bb-b28d-b151c2c0654e.JPG",
+          "sha1": "077c977156145166584706308d0e06b688a68922",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/c040ebad-576d-49de-beda-9cbb928193ed.JPG",
+          "sha1": "8cee08230c9dae6595984b6256a57adc66dbdce0",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/58a80d2c-96cb-47fa-8bc1-03cb027ce419.JPG",
+          "sha1": "293e1ba7226f82213f79b4720d0c7630110d1355",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/c079d4c3-7e9d-42a5-afe9-2914d1a895c4.JPG",
+          "sha1": "cd4b5d8594d1d0b2d93a3112c14ed84ceeaaaa25",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/80de0a94-6a2c-436c-92aa-14893e0e8494.JPG",
+          "sha1": "b00559b66d16150e520b49315798a27357a21450",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/373e742d-6a9f-496c-b3f7-e1ac942e36f2.JPG",
+          "sha1": "b20e1687b4874765765555c0a97770c531941144",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/631a81ef-9256-4c59-b2df-49422fc293e6.JPG",
+          "sha1": "3d2ff3fb916f9fd06e4a05819fb8e96029814dd3",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/1/Pharma Final 2020-2021.pdf",
+          "sha1": "9947d507f5d641b78e401318a05a3c4130105386",
+          "pages": 17
+        },
+        {
+          "name": "raw/finals/2020-2021/3/6186f7c9-7ec3-461c-bff4-c51242a32107.JPG",
+          "sha1": "fe11b8fb5d58ac57fa2a4bfd963eeb309584e7cc",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/b6504d90-e18d-4963-a459-14005d84034b.JPG",
+          "sha1": "5d35edc3ffa171a8ed995ce3f52e89a4ef878faf",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/a11026ad-e223-4f72-8c91-8408c43a01fd.JPG",
+          "sha1": "e432d323bbb89edf25849692b676f2945bb06874",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/66638bb0-2958-40e9-8d69-c47241af075e.JPG",
+          "sha1": "dbb389c937caa046988d5565de86af32eea44830",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/67876b05-6bb0-4860-959e-6e275fa96f2b.JPG",
+          "sha1": "3400e3eb0a6b0613520e5d60d7819559b823e2b7",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/aa541633-b202-4b05-9007-1453b75f4c81.JPG",
+          "sha1": "b3da2a46c5ad10b33ded2f3cd03fb531b1046104",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/e3390875-84d9-45b4-9fff-bb3a1361b867.JPG",
+          "sha1": "107dc80e32d86a79a9d064c440836c8d4da4ace9",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/3/61387726-1daa-48ef-b96b-5cea087f65c9.JPG",
+          "sha1": "ed0da6c0ee8c56e6d7bc042e58841dd225d2221b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_217599557073507.jpeg",
+          "sha1": "db129e2d7b3170fe5296b716d52dc3ede45f65cb",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_290283889097404.jpeg",
+          "sha1": "34e631856a770f35e3d67ba4162b6b36424a9bc4",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_328143879061440.jpeg",
+          "sha1": "509fbe67759b6b8fe01278ca37e7a19bf5196e15",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_387303906303445.jpeg",
+          "sha1": "051865c531b75131c6669ba07d2dddf9b8c355af",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_536819917382789.jpeg",
+          "sha1": "f84e53c8377b678bf1d247c1417e54acc188779b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_541109763876455.jpeg",
+          "sha1": "15c6c43f1fffd03177719a9e3ca07dd2c0ec309b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_585152639284584.jpeg",
+          "sha1": "5958edf9c0791f220fa9da2186e1454208875d86",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_629302201368466.jpeg",
+          "sha1": "96423c099f4de9b7500e25ebf3bd174ec2b6db12",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_845616239651072.jpeg",
+          "sha1": "f0669fc801509a59350a879414c37b973a89e4d9",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_913214996220177.jpeg",
+          "sha1": "c1a67ade024cfc98a386c02eaf8887b9fb894177",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_1034293577408664.jpeg",
+          "sha1": "836af38d6ed805b35fb3980f9755f5d99739c9af",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_1222487771490823.jpeg",
+          "sha1": "d400ec4a9324e435b34f6004e4fec10d57812de4",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_1366118287119517.jpeg",
+          "sha1": "3d22bfb7bfc3b2c1ed64bbf4dec5e0bd4939ce3e",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/2/received_3001787433400459.jpeg",
+          "sha1": "41b8167673d19e8c34ce593436af2ae3ec02df95",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-02-47.jpg",
+          "sha1": "f4a24b2ee17485ee8bc29543f21e625e3fe09912",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-02-58.jpg",
+          "sha1": "a2f8d42994ca36c835e32a783cc04c7079650129",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-03-06.jpg",
+          "sha1": "2538ae58348e433887170b089a53ee9ef33407bf",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-03-14.jpg",
+          "sha1": "4574657fcb144e866cc53e5402e5090268c5257a",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-03-21.jpg",
+          "sha1": "b76082d6cb41dae3f9242353e617ee0dd153c0fb",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-03-28.jpg",
+          "sha1": "a056508074c48d777c52372cb1ddee68d355e4dc",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-03-33.jpg",
+          "sha1": "27087166d1ef5ce24cad4812bd63137d73092a76",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-17-44.jpg",
+          "sha1": "211a67a2e84da63d145643472477fe9cf3203752",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-17-58.jpg",
+          "sha1": "2bc62b9747987db0e3d448d6f67e4c1bd57254ce",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-18-08.jpg",
+          "sha1": "37aa64382483293818ec3882e9dd45ce2d649530",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-18-15.jpg",
+          "sha1": "68bc4802c3f58af2461103ce3a02fb792230dab9",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-18-21.jpg",
+          "sha1": "0f0103c334c5676a64bc7b1c91417bf7b965e201",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-35-32.jpg",
+          "sha1": "b59dd1ea27f800ed68ceea173b0f11d6cce7d840",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-35-41.jpg",
+          "sha1": "f8057592963d8c18cace993d06d975ba182f68fd",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-35-47.jpg",
+          "sha1": "2d61383399017eb518bb8200695bf54d9765ecf1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-35-55.jpg",
+          "sha1": "83626e1ab62cb87406f35a46512b1a97da470e6f",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-36-02.jpg",
+          "sha1": "22bb6ec33f8bb2bd877a3d8819c07a26495b34d9",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-52-12.jpg",
+          "sha1": "1a2f68d891ae339624887f5dfc63d2843f2c018a",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-52-22.jpg",
+          "sha1": "c2d7293590066b767e9956716e3e76eca68d63e5",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-52-27.jpg",
+          "sha1": "9e62f48238459345adcc2c467067b793777ecb55",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-52-33.jpg",
+          "sha1": "982b3ec0033b86aa6e2fb49f05a7058403b17b89",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-09-52-38.jpg",
+          "sha1": "c31511b2e778bcd3b061ced4be6a05813bafa81c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-10-08-42.jpg",
+          "sha1": "c30ceac589fdbdeac02960386cd10101f4f0ed15",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-10-08-49.jpg",
+          "sha1": "b2a0b3ac3fa62872149876f207cf76b536c7f551",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-10-09-01.jpg",
+          "sha1": "d2094a971d6131b418c16c6ffd05886db1d8a15c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-10-09-09.jpg",
+          "sha1": "bd81ca6dbc3a5e92b26db0e8310afef6f058d1c1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/5/PHOTO-2024-01-14-10-09-17.jpg",
+          "sha1": "458992efee4c18ac7bb213ee2b44dbcb5b73362b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/1.pdf",
+          "sha1": "79099d1a75c72d19d16b12600dac68067966ef1f",
+          "pages": 25
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/2.pdf",
+          "sha1": "7be7773d68561b6ce3d3aaeeb487ca554ff4d9b0",
+          "pages": 26
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/3.pdf",
+          "sha1": "4bb7f4c462000a349f76928fd298226d1f3bd37e",
+          "pages": 26
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/4.pdf",
+          "sha1": "c4e079700e8631745667f432ab86adc218c92295",
+          "pages": 41
+        },
+        {
+          "name": "raw/finals/2023-2024/Medicine/6.pdf",
+          "sha1": "f3a7a5efdb8735d8064bb584bd5ff3f9676a5326",
+          "pages": 26
+        },
+        {
+          "name": "raw/finals/2023-2024/Dentistry/Final Pharmacology Dentistry.pdf",
+          "sha1": "16b70a3ff0c7642533df72d886f2e6165b4fcff8",
+          "pages": 20
+        }
+      ]
     }
   ]
 }
