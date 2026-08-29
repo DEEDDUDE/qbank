@@ -1,12 +1,12 @@
 ---
 course: pharmacology
 tab: finals
-questions: 193
-tiers: official 0 | claimed 155 | open 38
-forms: mcq 151 | qa 42
+questions: 203
+tiers: official 0 | claimed 157 | open 46
+forms: mcq 161 | qa 42
 needs-eye: 1
 disputed: 10
-next-id: PHARM-F-195
+next-id: PHARM-F-205
 retired: PHARM-F-151 (duplicate of PHARM-F-020, ID kept as a tombstone rather
   than reused per the no-renumbering rule -- excluded from all counts above)
 ---
@@ -276,7 +276,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2, 6]
+models: [1, 2, 5, 6]
 note: Open in the PDF capture; filled in by a Messenger capture. Also seen in
   the 2023-2024 sitting's model 6 (unanswered, same stem/options reshuffled)
   and model 2 (claimed, same content). PHARM-F-151 was a duplicate of this
@@ -328,7 +328,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [3]
+models: [3, 5]
 note: Open in this batch's own captures; the 2023-2024 sitting's model 3
   claims "Information about unwanted effects" (option e here) for the same
   stem/options reshuffled.
@@ -481,7 +481,7 @@ tier: claimed
 form: mcq
 type: single
 disputed: true
-models: [1, 2, 3, 4, 6]
+models: [1, 2, 3, 4, 5, 6]
 claims:
   - source: PDF capture
     answer: e (Sulfasalazine)
@@ -489,11 +489,13 @@ claims:
     answer: b (Trimethoprim)
   - source: model 3 (2023-2024 sitting)
     answer: b (Trimethoprim)
-  - source: models 2 and 4 (2023-2024 sitting, agree)
+  - source: models 2, 4, and 5 (2023-2024 sitting, agree)
     answer: c (Cotrimoxazole)
 note: Model 6 also carries this stem/options reshuffled, unanswered. Model 2
-  added a THIRD distinct claim value to an already-disputed question; model 4
-  independently reinforces it.
+  added a THIRD distinct claim value to an already-disputed question; models 4
+  and 5 independently reinforce it. Model 5's radio showed filled despite the
+  page's own "Not yet answered" badge -- see the batch 05 header comment for
+  this discrepancy, seen on several of model 5's later questions.
 Which of the following drugs is a sequential inhibitor of folate metabolism
 (foliate antagonists)?
 a) Sulfacetamide
@@ -1126,7 +1128,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [2, 3]
+models: [2, 3, 5]
 note: Header badge for this question wasn't captured (page-crop boundary);
   content is otherwise complete and unambiguous. Also seen in model 2 (same
   claim).
@@ -1156,7 +1158,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [2, 3, 4]
+models: [2, 3, 4, 5]
 Amoxycillin is similar to Ampicillin in different respects except in its?
 a) Penicillinase resistance
 b) Oral absorption
@@ -1168,7 +1170,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3]
+models: [3, 5]
 Patients with penicillin allergy can use azithromycin for otitis media even
 though azithromycin has great potential for drug-drug interactions?
 a) True
@@ -1252,7 +1254,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 3, 6]
+models: [1, 3, 5, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 The following adverse effects are matched with corresponding drug except?
 a) Fluroquinolones / QT prolonation
@@ -1291,7 +1293,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [3]
+models: [3, 5]
 Which of the following antibiotics is INAPPROPRIATRELY matched with a
 clinical indication?
 a) Clindamycin - osteomyelitis caused by staphylococcus
@@ -1320,7 +1322,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 3, 4, 6]
+models: [1, 3, 4, 5, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Which of the following antibiotic combinations is inappropriate based on
 antagonism at the same site of action?
@@ -1380,7 +1382,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [3]
+models: [3, 5]
 Which of the following antifungal agents is most likely to cause renal
 insufficiency?
 a) Itraconazole
@@ -1394,7 +1396,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [2, 3]
+models: [2, 3, 5]
 The time it takes to reach peak plasma concentrations (Tmax) is independent
 of the dose and the oral bioavailability?
 a) True
@@ -1458,7 +1460,7 @@ e) Increase drug toxicity
 tier: claimed
 form: qa
 disputed: true
-models: [1, 2, 3, 4, 6]
+models: [1, 2, 3, 4, 5, 6]
 claims:
   - source: model 3 (2023-2024 sitting)
     answer: extended-spectrum penicillin
@@ -1475,49 +1477,49 @@ oxacillin (matching, item 1 of 5)
 tier: claimed
 form: qa
 claimed: second-generation cephalosporin's
-models: [1, 2, 3, 4, 6]
+models: [1, 2, 3, 4, 5, 6]
 cefuroxime (matching, item 2 of 5)
 
 ### PHARM-F-109
 tier: claimed
 form: qa
 claimed: carbapenems
-models: [1, 2, 3, 4, 6]
+models: [1, 2, 3, 4, 5, 6]
 imipenem (matching, item 3 of 5)
 
 ### PHARM-F-110
 tier: claimed
 form: qa
 claimed: third-generation cephalosporin
-models: [1, 2, 3, 4, 6]
+models: [1, 2, 3, 4, 5, 6]
 ceftriaxone (matching, item 4 of 5)
 
 ### PHARM-F-111
 tier: claimed
 form: qa
 claimed: first-generation cephalosporin
-models: [1, 2, 3, 4, 6]
+models: [1, 2, 3, 4, 5, 6]
 cefazolin (matching, item 5 of 5)
 
 ### PHARM-F-112
 tier: claimed
 form: qa
 claimed: Sulfasalazine
-models: [3]
+models: [3, 5]
 A Sulfonamide used for treatment of ulcerative colitis (EMQ, part 1 of 8)
 
 ### PHARM-F-113
 tier: claimed
 form: qa
 claimed: Cloxacillin
-models: [3]
+models: [3, 5]
 A penicillinase-resistance penicillin (EMQ, part 2 of 8)
 
 ### PHARM-F-114
 tier: claimed
 form: qa
 claimed: Tetracyclines
-models: [3]
+models: [3, 5]
 A protein synthesis inhibitor that cannot be taken with antacids, minerals,
 or dairy products because they will bind with each other and not be absorbed
 (EMQ, part 3 of 8)
@@ -1526,7 +1528,7 @@ or dairy products because they will bind with each other and not be absorbed
 tier: claimed
 form: qa
 claimed: Amphoteracin-B
-models: [3]
+models: [3, 5]
 Polyene Anti-fungal agent forms micropore in cell membrane, it has renal
 toxicity and hypokalemia (EMQ, part 4 of 8)
 
@@ -1534,7 +1536,7 @@ toxicity and hypokalemia (EMQ, part 4 of 8)
 tier: claimed
 form: qa
 claimed: Cefepime
-models: [3]
+models: [3, 5]
 Fourth-generation cephalosporin active Pseudomonas aeruginosa (EMQ, part 5 of
 8)
 
@@ -1542,7 +1544,7 @@ Fourth-generation cephalosporin active Pseudomonas aeruginosa (EMQ, part 5 of
 tier: claimed
 form: qa
 claimed: Vancomycin
-models: [3]
+models: [3, 5]
 It used as orally route for clostridium difficile infection and its t1/2 may
 reach to 200 hour in renal failure (EMQ, part 6 of 8)
 
@@ -1550,7 +1552,7 @@ reach to 200 hour in renal failure (EMQ, part 6 of 8)
 tier: claimed
 form: qa
 claimed: Ciprofloxacin
-models: [3]
+models: [3, 5]
 A fluoroquinolone inhibits bacterial topoisomerase II and active against
 Gram-negative Pseudomonas aeruginosa (EMQ, part 7 of 8)
 
@@ -1558,7 +1560,7 @@ Gram-negative Pseudomonas aeruginosa (EMQ, part 7 of 8)
 tier: claimed
 form: qa
 claimed: Moxifloxacin
-models: [3]
+models: [3, 5]
 A fluoroquinolone has very poor activity against Pseudomonas aeruginosa, not
 concentrate in urine and not indicated for the treatment of UTIs (EMQ, part 8
 of 8)
@@ -1616,7 +1618,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [3]
+models: [3, 5]
 A 32-year-old woman presents to her gynecologist with a 4 days history of
 smelly vaginal discharge. The only medication the woman is taking is an oral
 contraceptive. A wet preparation of vaginal secretion shows budding yeast
@@ -1633,7 +1635,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 2, 3, 4, 6]
+models: [1, 2, 3, 4, 5, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 What is a common feature among the following group of antibiotics like
 Penicillin, Cephalosporins, Carbapenems, and Monobactams?
@@ -1649,7 +1651,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2, 3, 6]
+models: [1, 2, 3, 5, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 All of the following factors influence the penetration and concentration of
 an antibacterial agent in the CSF except?
@@ -1677,7 +1679,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [2, 3]
+models: [2, 3, 5]
 The primary mechanism of antibacterial action of the penicillin's involves
 inhibition of?
 a) Peptidoglycan cross-linking
@@ -1703,7 +1705,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 3, 6]
+models: [1, 3, 5, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Which of the following group of antibiotics show bacteriostatic action?
 a) Fluoroquinolones
@@ -1717,7 +1719,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 2, 3, 6]
+models: [1, 2, 3, 5, 6]
 note: Model 6 carries this stem/options reshuffled, unanswered.
 Cilastatin is given along with Imipenem for the following reason?
 a) Decreasing hydrolysis of Imipenem
@@ -1784,12 +1786,14 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 4, 6]
-note: Open in models 1/6; filled in by model 4. Thematically close to
-  PHARM-F-069 (2020-2021 sitting, "Ototoxicity, nephrotoxicity, and muscle
-  paralysis" / 4 options) but not the same question -- different third
-  symptom listed (vestibulo-toxic impairment vs. muscle paralysis) and a
-  different, larger option set. Kept separate rather than merged.
+models: [1, 4, 5, 6]
+note: Open in models 1/6; filled in by model 4 and reinforced by model 5
+  (whose radio showed filled despite the page's own "Not yet answered" badge
+  -- see the batch 05 header comment). Thematically close to PHARM-F-069
+  (2020-2021 sitting, "Ototoxicity, nephrotoxicity, and muscle paralysis" / 4
+  options) but not the same question -- different third symptom listed
+  (vestibulo-toxic impairment vs. muscle paralysis) and a different, larger
+  option set. Kept separate rather than merged.
 Ototoxicity, vestibulo-toxic impairment, and nephrotoxicity are seen as major
 adverse effects of?
 a) Macrolides
@@ -1841,7 +1845,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 4, 6]
+models: [1, 4, 5, 6]
 note: Open in models 1/6; filled in by model 4.
 Patient needs antibiotic treatment for native valve, culture positive
 infective enterococcal endocarditis. His medical history includes sever
@@ -1857,7 +1861,7 @@ e) Aztreonam
 tier: open
 form: mcq
 type: single
-models: [1, 6]
+models: [1, 5, 6]
 What is the characteristic of the intramuscular route of drug
 administration?
 a) All of them
@@ -1871,7 +1875,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 2, 6]
+models: [1, 2, 5, 6]
 note: Open in models 1/6; filled in by model 2.
 Regarding toxicity of antibiotics, The correct statement is?
 a) Enamel dysplasia is common with aminoglycosides
@@ -1916,8 +1920,10 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [1, 2, 6]
-note: Open in models 1/6; filled in by model 2.
+models: [1, 2, 5, 6]
+note: Open in models 1/6; filled in by model 2 and reinforced by model 5
+  (whose radio showed filled despite the page's own "Not yet answered" badge
+  -- see the batch 05 header comment).
 Which of the following drugs would be selected to treat a newborn infant
 with bacterial meningitis of unknown etiology?
 a) Tetracycline
@@ -1931,7 +1937,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2, 6]
+models: [1, 2, 5, 6]
 note: Open in models 1/6; filled in by model 2.
 Your patient has MRSA. You have an order to administer vancomyocin, 1G IV q
 12h. You remember that this medication can cause a rash on the face, neck,
@@ -2004,7 +2010,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 4, 6]
+models: [1, 4, 5, 6]
 note: Open in models 1/6; filled in by model 4.
 A patient is being discharged from the hospital on a 3-week course of
 clindamycin. Which of the following potential adverse effects should be
@@ -2040,17 +2046,21 @@ note: Duplicate of PHARM-F-020 -- same stem ("...fluoroquinolones is LEAST
 tier: open
 form: mcq
 type: single
-models: [1, 6]
+models: [1, 5, 6]
 For bioequivalence tests, AUC is a relevant measure to assess whether test
 and reference formulation have the same rate of absorption?
 a) False
 b) True
 
 ### PHARM-F-153
-tier: open
+tier: claimed
 form: mcq
 type: single
-models: [1, 6]
+claimed: a
+models: [1, 5, 6]
+note: Open in models 1/6; filled in by model 5, whose radio showed filled
+  despite the page's own "Not yet answered" badge -- see the batch 05 header
+  comment.
 A 22-year-old female patient, has a severe penicillin allergy, is diagnosed
 with community acquired pneumonia (caused by S. pneumonia), which of the
 following would be the appropriate treatment for this patient?
@@ -2064,7 +2074,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 2, 6]
+models: [1, 2, 5, 6]
 note: Open in models 1/6; filled in by model 2.
 Regarding the mechanism of action of aminoglycosides, the drugs?
 a) Are bacteriostatic
@@ -2091,7 +2101,7 @@ e) Formation of artificial pores in the fungal membrane
 tier: open
 form: mcq
 type: single
-models: [1, 6]
+models: [1, 5, 6]
 Which statement about vancomycin is accurate?
 a) All of them
 b) Binds to PBPs
@@ -2104,7 +2114,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [1, 2, 6]
+models: [1, 2, 5, 6]
 note: Open in models 1/6; filled in by model 2.
 Clarithromycin and erythromycin have very similar spectra of antimicrobial
 activity. The major advantage of clarithromycin is that it?
@@ -2539,7 +2549,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [4]
+models: [4, 5]
 Supplementary folinic acid may prevent anemia in folate-deficient persons
 who use this drug, it is a weak base achieving tissue levels similar to
 those in plasma?
@@ -2554,7 +2564,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [4]
+models: [4, 5]
 Clindamycin is used in very specific infections osteomyelitis due to its
 pattern of distribution?
 a) True
@@ -2565,7 +2575,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [4]
+models: [4, 5]
 note: Same stem as PHARM-F-073 (2020-2021 sitting, "Which of the following
   combinations is correct?") but a different, non-overlapping option set --
   F-073 pairs fluoroquinolones with DNA synthesis inhibition (claimed there);
@@ -2584,7 +2594,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [4]
+models: [4, 5]
 The appropriate treatment for pseudomembranous colitis that caused by
 Clostridium difficile is administration of?
 a) Tetracycline given IM
@@ -2598,7 +2608,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [4]
+models: [4, 5]
 If two formulations of the same drug are tested and product A has a greater
 absorption rate than product B, product A will take a longer time to reach
 peak concentrations (Tmax)?
@@ -2610,7 +2620,9 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [4]
+models: [4, 5]
+note: Reinforced by model 5, whose radio showed filled despite the page's
+  own "Not yet answered" badge -- see the batch 05 header comment.
 The drug of choice for methicillin-resistant Staphylococcus aureus is?
 a) gentamicin
 b) vancomycin
@@ -2623,7 +2635,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [4]
+models: [4, 5]
 note: Thematically close to PHARM-F-088 (2020-2021/model 3/6, "For
   bioequivalence tests, Cmax is a relevant measure...") but a different
   question -- this one asks about Cmax differing when the two formulations
@@ -2684,7 +2696,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [4]
+models: [4, 5]
 Cell-wall Biosynthesis is inhibited by Antibiotics by Inhibiting the
 Biosynthesis of Which of the following?
 a) None of them
@@ -2692,3 +2704,166 @@ b) All of them
 c) Proteins
 d) Cellulose
 e) Lipopolysaccharide
+
+<!-- batch 05 -- raw/finals/2023-2024/Medicine/5/ (RUN-PLAN row 19), 27 vision
+  pages, a camera-roll photo set (not a PDF export) of model 5 of the 6-model
+  set -- a distinct Moodle attempt (attempt=10096078, vs. the other models'
+  attempt=1009548x range). Entirely "Not yet answered" through Q40, so tier
+  stayed open and reinforced existing entries without adding claims for most
+  of the batch. All 49 questions present (Q1-49, no gaps).
+
+  Anomaly: starting at Q41 and continuing through Q46, the page's own badge
+  still read "Not yet answered" but the question's radio button was visibly
+  filled (a solid, unambiguous selection, not a rendering artifact -- checked
+  across multiple questions and re-examined before trusting it). Q47-49
+  reverted to genuinely empty radios. Read as: the student began clicking
+  answers late in the attempt (timer visible, running low -- 0:23 remaining
+  at Q41) faster than Moodle's "Answer saved" badge re-rendered in the
+  screenshot, not as noise. Per job-a-extract.md's own rule ("when the page
+  carries its own answer state -- a radio... that IS the record"), these six
+  selections were recorded as claims: PHARM-F-037 (reinforces the existing
+  Cotrimoxazole side), PHARM-F-203 (new), PHARM-F-143, PHARM-F-189,
+  PHARM-F-153, PHARM-F-134 (reinforces existing claims/claimed one
+  previously-open entry). Every affected entry's own note flags the
+  discrepancy explicitly rather than silently treating a filled radio as a
+  clean "Answer saved" claim.
+
+  Zero questions in this batch depend on a photo/graph -- pure text MCQs, one
+  EMQ, and one matching question (both already-known items, unanswered here)
+  -- so no img: crops were needed. -->
+
+### PHARM-F-195
+tier: open
+form: mcq
+type: single
+models: [5]
+Which of the following statements about aminoglycosides is FALSE?
+a) bind to the 30S ribosomal subunit and inhibit bacterial protein synthesis
+b) have broad spectrum bactericidal properties against gram-negative bacteria
+c) are effective against anaerobic organisms
+d) are effectively used in combination with penicillins to treat
+   enterococcal endocarditis
+e) are not administered orally for treating systemic infections
+
+### PHARM-F-196
+tier: open
+form: mcq
+type: single
+models: [5]
+note: Same theme as PHARM-F-068 (2020-2021 sitting, "All of the followings
+  are the adverse effects of tetracycline except") but a different,
+  non-overlapping option set -- F-068 lists Crystal urea/Fatal
+  hepatotoxicity/Phototoxicity/Bone malformation; this one lists None of
+  them/Phototoxicity/Yellow discoloration of teeth/Ototoxicity/Fatal
+  hepatotoxicity. Kept separate per the same different-distractor-set
+  precedent as PHARM-F-074/090/186.
+All of the followings are the adverse effects of tetracycline, except?
+a) None of them
+b) Phototoxicity
+c) Yellow discoloration of teeth
+d) Ototoxicity
+e) Fatal hepatotoxicity
+
+### PHARM-F-197
+tier: open
+form: mcq
+type: single
+models: [5]
+Which one of the following drugs would be the BEST choice to treat oral
+Candida in an otherwise healthy patient?
+a) Nystatin
+b) Amphotericin B
+c) Acyclovir
+d) Amantadine
+
+### PHARM-F-198
+tier: open
+form: mcq
+type: single
+models: [5]
+Clearance (CL) is related with?
+a) Only the concentration of drugs in the body
+b) Bioavailability and half life
+c) Volume of distribution, half life and elimination rate constant
+d) Only the elimination rate constant (Ke)
+e) None of them
+
+### PHARM-F-199
+tier: open
+form: mcq
+type: single
+models: [5]
+Which of the Following Penicillin has Best Gram-Negative Spectrum?
+a) Methicillin
+b) Nafcillin
+c) Ampicillin
+d) None of them
+e) Penicillin V
+
+### PHARM-F-200
+tier: open
+form: mcq
+type: single
+models: [5]
+Therapeutic index (TI) is?
+a) A ratio used to evaluate the bioavailability of a drug
+b) A ratio used to evaluate the elimination of a drug
+c) A ratio used to evaluate the effectiveness of a drug
+d) A ratio used to evaluate the safety and usefulness of a drug for
+   indication
+
+### PHARM-F-201
+tier: open
+form: mcq
+type: single
+models: [5]
+Which of the following antibiotics is considered unsafe to use in neonates
+except?
+a) Chloramphenicol
+b) Ciprofloxacin
+c) Tetracycline
+d) Penicillin G
+
+### PHARM-F-202
+tier: open
+form: mcq
+type: single
+models: [5]
+Random use of broad-spectrum antibiotics is contraindicated. This is because
+they?
+a) Can interfere with endogenous microbiota
+b) Are extremely nephrotoxic
+c) Can produce dependency and psychogenic symptoms
+d) Can induce anaphylactic reactions
+e) All of them
+
+### PHARM-F-203
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [5]
+note: Model 5's radio showed filled despite the page's own "Not yet
+  answered" badge -- see the batch 05 header comment. The claim itself is
+  pharmacologically self-consistent (caspofungin is the classic
+  echinocandin/beta-glucan-synthase-inhibitor answer), which is corroborating
+  but not the basis for recording it -- the radio state is.
+The mechanism of action of this drug involves the inhibition of the
+synthesis of B-glucan, an essential constituent of a fungal cell wall?
+a) Amphotericin B
+b) Flucytosine
+c) Griseofulvin
+d) Caspofungin
+e) Fluconazole
+
+### PHARM-F-204
+tier: open
+form: mcq
+type: single
+models: [5]
+Metabolic transformation phase I is?
+a) Glucoronidation
+b) Transformation of substances due to oxidation, reduction, or hydrolysis
+c) Binding to plasma proteins
+d) Acetylation and methylation of substances
+e) All of them
