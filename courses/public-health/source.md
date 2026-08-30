@@ -1,0 +1,1336 @@
+# Public Health — Source
+
+Built from `slides/Slides 2023-24/` decks 1–5 (`1. Lesson 1  Introduction to
+health and  Public Health Fall 2023.pdf` through `5.  Epidemiology and Public
+Health 2023-2024.pdf`). Chapter numbers follow the lecture numbers printed on
+each deck's title slide — nothing renumbered.
+
+254 pages across the 5 decks. 234 read from text layer, 20 needed vision by
+PyMuPDF's own char-count check; a further 27 pages cleared that same char-count
+check but turned out to carry only a running footer and page number (no real
+prose) once inspected — those were force-rendered and read by vision too, so
+47 pages total went through vision. All 47 were legible; none flagged
+unreadable.
+
+---
+
+## Ch. 1 — Introduction to Health and Public Health {#ch01}
+
+### 1.1 Definitions of health {#ch01-1}
+
+- **Oxford (1991)**: "Health is a state of being well and free from disease."
+- **Old / professional-medicine view**: health as a measure of the state of the
+  physical bodily organs and the ability of the body as a whole to function —
+  freedom from medically defined disease.
+- **WHO (1948), "optimum health"**: "A complete state of physical, mental and
+  social wellbeing and not merely the absence of disease."
+- **WHO (1986), expansion of the definition**: health is the extent to which an
+  individual or group is able, on the one hand, to realize aspirations and
+  safety needs, and, on the other, to change or cope with the environment. It
+  is to be seen as a resource for everyday life, not merely the objective of
+  living — a positive concept emphasizing social and personal resources as
+  well as physical capacities.
+
+### 1.2 Health as a human right and global health goals {#ch01-2}
+
+- The **World Health Assembly (WHA), 1977** endorsed the primary care approach
+  under the banner "Health for All by the Year 2000."
+- **Alma-Ata Declaration (Alma-Ata, Kazakhstan, September 1978)**: stated
+  health is a basic human right; governments are responsible for assuring
+  that right for their citizens and developing strategies to fulfill it.
+  Focused on primary health care as the appropriate method of assuring
+  adequate access to health care for all.
+- **Millennium Development Goals (MDGs), September 2000**: 189 countries
+  signed the Millennium Declaration at UN headquarters, committing to 8
+  measurable goals by 2015: (1) eradicate extreme poverty and hunger, (2)
+  achieve universal primary education, (3) promote gender equality and
+  empower women, (4) reduce child mortality, (5) improve maternal health, (6)
+  combat HIV/AIDS, malaria and other diseases, (7) ensure environmental
+  sustainability, (8) develop a global partnership for development.
+- **Sustainable Development Goals (SDGs), 2015**: WHO and the UN set 17 global
+  goals aimed at diminishing poverty, protecting the planet, and building a
+  healthier community; 191 UN member states agreed to achieve them by 2030.
+  SDG 3 ("Good Health and Well-Being") is the health-focused goal. The 17
+  SDGs in full: (1) No Poverty, (2) No Hunger, (3) Good Health, (4) Quality
+  Education, (5) Gender Equality, (6) Clean Water and Sanitation, (7)
+  Renewable Energy, (8) Good Jobs and Economic Growth, (9) Innovation and
+  Infrastructure, (10) Reduced Inequalities, (11) Sustainable Cities and
+  Communities, (12) Responsible Consumption, (13) Climate Action, (14) Life
+  Below Water, (15) Life on Land, (16) Peace and Justice, (17) Partnerships
+  for the Goals.
+  - **SDG 3 has 13 targets**: (1) reduce maternal mortality ratio, (2) end
+    preventable deaths of children under 5, (3) end epidemics, (4) reduce
+    premature mortality from NCDs, (5) prevent and treat substance abuse, (6)
+    halve road-traffic deaths and injuries, (7) ensure access to reproductive
+    and sexual healthcare, (8) achieve universal health coverage, (9) reduce
+    deaths/illness from hazardous chemicals and pollution, (10) strengthen
+    tobacco control, (11) support R&D of vaccines/medicines for
+    communicable/non-communicable diseases, (12) increase health financing
+    and workforce, (13) strengthen capacity for early warning and risk
+    management of health risks.
+
+### 1.3 The concept of health {#ch01-3}
+
+The concept of health depends on culture, values and lifestyle — it is
+personal and subjective, and affects everything a person does and how they
+feel about themselves and their environment.
+
+**The health continuum**: health is dynamic, viewed as a continuum running
+Death → Sickness → Health → Optimum Health, not a fixed state.
+
+**Six dimensions of health** (a wheel diagram — "6 Dimensions of Wellness"):
+
+1. **Physical health** — anatomical integrity and physiological functioning
+   of the body; the ability to perform routine tasks without physical
+   restriction (e.g. physical fitness needed to walk from place to place).
+2. **Mental and intellectual health** — the ability to learn and think
+   clearly and coherently (e.g. a person who is not mentally fit could not
+   learn something new at the pace an ordinary person learns).
+3. **Social health** — the ability to make and maintain acceptable
+   interactions with other people (e.g. celebrating festivals, mourning a
+   family death, creating and maintaining friendship and intimacy);
+   contrasted against introvert/isolated/aggressive/tough traits.
+4. **Emotional health** — the ability to express emotions appropriately (fear,
+   happiness, anger); the body's response should be congruent with the
+   stimuli. Related to mental health; includes maintaining one's own
+   integrity under stressful situations (tension, depression, anxiety).
+5. **Spiritual health** — for some, related to religion; for others, to
+   personal values, beliefs, principles and ways of achieving mental
+   satisfaction.
+6. **Vocational and occupational health** — identifying and preventing (or
+   mitigating) the risks of each type of job; preventing workplace injuries
+   and illnesses while following health and safety regulations.
+
+### 1.4 Natural history of disease and levels of prevention {#ch01-4}
+
+Natural history of disease diagram (Boyle and Holben, 2009): a spectrum
+running **Health → Risk → Onset → Diagnosis → Outcome → Death**.
+
+- **Primary prevention** acts at the *risk* stage.
+- **Secondary prevention** acts at the *onset* stage.
+- **Tertiary prevention** (treatment, rehabilitation) acts across
+  *diagnosis → outcome*.
+- The **illness** band runs from onset through outcome.
+- **Conventional medicine** addresses roughly the diagnosis→outcome portion;
+  **holistic medicine** spans the entire continuum from risk through outcome.
+
+### 1.5 Definitions of public health {#ch01-5}
+
+- **Winslow (1920)**: "The science and art of preventing disease, prolonging
+  life, and promoting health through the organized efforts and informed
+  choices of society, organizations, public and private communities, and
+  individuals." A simpler restatement: "the sum of all official or
+  governmental efforts to promote, protect, and preserve the people's
+  health."
+- **The Oxford Textbook of Public Health**: "The process of mobilizing and
+  engaging local, state, national, and international resources to assure the
+  conditions in which people can be healthy."
+- **World Health Organization** (mission framing): "Public health aims to
+  provide maximum benefit for the largest number of people."
+- **Institute of Medicine** (mission framing): "Fulfilling society's interest
+  in assuring conditions in which people can be healthy."
+- **The American Heritage Dictionary of Public Health**: "The science and
+  practice of protecting and improving the health of the community, as by
+  preventive medicine, health education, control of communicable diseases,
+  application of sanitary measures, and monitoring of environmental
+  hazards."
+
+### 1.6 The public health system, core sciences, and core functions {#ch01-6}
+
+**Public Health Model vs Medical Model** (contrasted side by side):
+
+| Public Health Model | Medical Model |
+|---|---|
+| Population | Individual |
+| Disease Prevention | Diagnosis |
+| Health Promotion | Treatment |
+| Interventions (environment, human behavior) | Intervention (medical care) |
+| Public (some private) | Private (some public) |
+
+**The "Tip of the Iceberg"**: what a physician sees is only patients in
+hospitals; what the physician does *not* see, below the surface, is patients
+in the community — those with mild or no symptoms, who self-prescribe or seek
+treatment elsewhere — each a "potential spreader."
+
+**The Public Health system** (six components arranged around a central
+"Governmental Public Health Infrastructure"): Community; Clinical care
+delivery system; Employers and business; The media; Education sector;
+Government agencies (other than public health).
+
+**Public Health Core Sciences** (arranged around the center label "Public
+Health"): Prevention Effectiveness, Epidemiology, Laboratory, Informatics,
+Surveillance.
+
+**Core Functions of Public Health** — the classic wheel of **Assessment**,
+**Policy Development**, and **Assurance**, surrounding a central "System
+Management" ring and a "Research" core:
+
+- *Assessment*: Monitor Health → Diagnose & Investigate.
+- *Policy Development*: Inform, Educate, Empower → Mobilize Community
+  Partnerships → Develop Policies.
+- *Assurance*: Enforce Laws → Link to/Provide Care → Assure Competent
+  Workforce → Evaluate.
+
+**Core Activities of Public Health** (11 numbered activities): (1) prevents
+epidemics and the spread of disease, (2) protects against environmental
+hazards, (3) responds to disasters and assists communities in recovery, (4)
+prevents injuries, (5) promotes healthy behaviors, (6) assures the quality,
+accessibility and accountability of health services, (7) monitors the health
+status of the population, (8) mobilizes community action, (9) reaches out to
+link high-risk and hard-to-reach people to needed services, (10) researches
+to develop new insights and innovative solutions, (11) leads the development
+of sound health policy and planning.
+
+---
+
+## Ch. 2 — History and Mission of Public Health {#ch02}
+
+**Current CDC Mission Statement**: "To promote health and quality of life by
+preventing and controlling disease, injury, and disability."
+
+### 2.1 Basic requirements for survival and early public health codes {#ch02-1}
+
+In the past, the question was how to survive the tribe. Basic requirements
+for survival: air, water, food, shelter, care.
+
+Early **public health codes**: Tribal Rules, Hieroglyphs, the Chinese Empire,
+the Bible, the Koran, the Roman Senate.
+
+Timeline of eras in public health history: (1) Ancient Greece, (2) Roman
+Empire, (3) Middle Ages, (4) Birth of Modern Medicine, (5) the "Great Sanitary
+Awakening," (6) Modern Public Health.
+
+Sanitation and environmental health milestones: Greeks and Romans practiced
+community sanitation (500 BCE) → the UK's Public Health Act of 1848 → the
+U.S. Environmental Protection Agency founded (1970).
+
+### 2.2 Ancient Greece and the Roman Empire {#ch02-2}
+
+**1. Ancient Greece (500–323 BC)**: personal hygiene, physical fitness, the
+Olympics; a naturalistic concept of disease — disease caused by an imbalance
+between man and his environment; rejected supernatural theory of disease;
+introduced the scientific method of thinking. Central figure: **Hippocrates**.
+
+- **Hippocrates (b. 460 BC)** — "Father of Western medicine"; the Hippocratic
+  oath; established causal relationships between disease and climate, water,
+  lifestyle and nutrition; coined the term **epidemic** (*epi* = "on/akin to"
+  + *demos* = "people").
+
+**2. Roman Empire (23 BC – 476 AD)**: adopted Greek health values; great
+engineers — sewage systems, aqueducts (e.g. Le Pont du Gard), public baths,
+water supply, markets; strong administration.
+
+- **Galen (130–205 AD)**: disease is due to predisposing, exciting and
+  environmental factors (the **epidemiological triad**). His teachings went
+  unquestioned for 1400 years.
+- **Indus Valley civilization (3500–1500 BC)**: first urban sanitation
+  systems — elaborate drainage systems, drains covered with slabs, wells and
+  baths in houses, knowledge of dentistry.
+
+### 2.3 The Middle Ages, Islamic era, and Chinese medicine {#ch02-3}
+
+**3. Middle Ages (476–1450 AD)**: deterioration of Roman infrastructure; shift
+away from Greek/Roman values — the physical body seen as less important than
+the spiritual self; decline of hygiene and sanitation; disease widely viewed
+as inescapable. Beginnings of public health tools: quarantine of ships,
+isolation of diseased individuals. **The Plague (Black Death)** — an epidemic
+in the 14th century that killed 25–50% of the population.
+
+**700–1200 AD**: **Islam** preserved ancient health knowledge, founded
+schools of medicine, and produced medical advances (Ibn Sina/Avicenna); rise
+of cities, trade and commerce; the Crusades brought contact with Arabic
+medicine.
+
+**Chinese medicine**: developed **variolation** to protect against smallpox;
+health as a result of balance between **Yin and Yang** (opposite,
+interconnected forces); hygiene recognized as a determinant of health;
+hydrotherapy, massage, acupuncture.
+
+### 2.4 Renaissance, Enlightenment, and birth of modern medicine {#ch02-4}
+
+**Renaissance (1400–1600 AD)** — Global Exploration: disease spread by
+traders and explorers killed 90% of indigenous people in the New World.
+
+**Age of Enlightenment (1700s)**: period of revolution, industrialization,
+and growth of cities. "**Miasma**" — the "bad air" theory. **Dr. James Lind**
+discovered scurvy could be controlled by lime juice. **Jenner** discovered a
+vaccine against smallpox.
+
+**4. Age of Reason and Enlightenment (1650–1800), Birth of Modern Medicine**:
+
+- **William Harvey** — 1628, theories of circulation.
+- **Edward Jenner** — 1796, the cowpox experiment; coined the term
+  **vaccine** (from *vacca*, Latin for "cow").
+- Industrialization and urbanization intensified through the 1800s.
+
+### 2.5 The Great Sanitary Awakening {#ch02-5}
+
+**5. Great Sanitary Awakening (1800s–1900s)**: growth in scientific
+knowledge, humanitarian ideals, the recognized connection between poverty and
+disease, water supply and sewage removal, monitoring of community health
+status.
+
+**The 1800s**: smallpox, cholera, typhoid, TB and other diseases reached
+exceedingly high endemic levels.
+
+- **Dr. John Snow (1813–1858)** — the first to say diseases were caused by
+  microorganisms; founded modern epidemiology (1854) via the **Broad Street
+  Pump** investigation.
+- **Louis Pasteur** furthered the study of disease etiology (germs/bacteria);
+  introduced the first scientific approach to immunization and
+  pasteurization. In 1862 he showed germs caused many diseases; in 1888 he
+  established the first public health laboratory.
+- **Lister** developed the antiseptic method of treating wounds using
+  carbolic acid, and introduced the principle of asepsis to surgery.
+- **Robert Koch** — in 1883, identified the vibrio (a water-borne bacterium)
+  causing cholera, 20 years after Snow's discovery; also discovered the
+  tuberculosis bacterium. (Pasteur: 1822–1895; Koch: 1843–1910.)
+
+**"Redefining the Unacceptable"** — Geoffrey Vickers, Secretary, Medical
+Research Council, Great Britain, 1958: "The landmarks of political, economic
+and social history are the moments when some condition passed from the
+category of acceptable into the category of the intolerable… The history of
+public health might well be written as a record of successive redefining of
+the unacceptable."
+
+### 2.6 Modern public health {#ch02-6}
+
+**6. Modern Public Health — Ten Great Achievements in Public Health,
+1900–1999** (CDC, *Morbidity and Mortality Weekly Report*, Dec 24, 1999):
+
+1. Vaccination.
+2. Motor-vehicle safety.
+3. Safer workplaces.
+4. Control of infectious diseases.
+5. Decline in deaths from coronary heart disease and stroke.
+6. Safer and healthier foods.
+7. Healthier mothers and babies.
+8. Family planning.
+9. Fluoridation of drinking water.
+10. Recognition of tobacco use as a health hazard.
+
+**Sanitation Revolution**: clean water and water treatment; food inspection;
+soaps, disinfectants and pharmaceuticals; personal hygiene (bathing); public
+works departments (garbage collection, landfills, street cleaning); public
+health departments and regulation. "Modern sanitation was one of the greatest
+public health accomplishments of the late 19th and early 20th centuries."
+
+**Pandemics** (examples given): **Influenza** — 500 million infected
+worldwide in 1918. **Polio** — vaccine introduced 1955; eradication
+initiative launched 1988. **HIV** — 34 million living with HIV worldwide;
+20% decline in new infections since 2001.
+
+**Preparedness for disaster response** (examples given): biologic warfare —
+plague used as a weapon of war during the Siege of Kaffa; public health
+surveillance conducted after the September 2001 (9/11) attacks; Hurricane
+Katrina — emergency services, public health surveillance, and disease
+treatment provided.
+
+Historical data on the sharp decline in U.S. infectious-disease mortality
+1900–1973, each attributed to a specific intervention: pneumonia (decline
+tied to sulphonamide/antimicrobial drugs), diphtheria (toxoid), poliomyelitis
+(vaccine), tuberculosis (isoniazid), measles (vaccine).
+
+The "upstream" parable (Irving Zola, 1970) — a physician describes pulling
+drowning people from a river one after another, too busy to go upstream and
+see who is pushing them in — used to introduce the idea that public health
+must address root ("upstream") causes, not only treat downstream
+consequences.
+
+### 2.7 Nineteenth-century models of disease causation {#ch02-7}
+
+Four 19th-century models:
+
+1. **Contagion theory** — a theory of collective behavior explaining that a
+   crowd can have a hypnotic impact on individuals, who act emotionally and
+   irrationally under the crowd's influence (Gustave Le Bon, *The Crowd: A
+   Study of the Popular Mind*, France, 1885). Applied to disease at the start
+   of the 19th century: illness is contagious, requiring (1) keeping the sick
+   away from the well, (2) quarantine of ships (the "forty days," origin of
+   *quarantine*), (3) military cordons around infected towns, (4) isolation
+   of households, (5) fumigating or washing bedding and clothing of the sick.
+   Rejected because too many people became ill regardless of isolation from
+   human contact.
+2. **Supernatural theory** — supernatural forces cause disease; disease is a
+   punishment for transgression of God's laws. The healthier rich could use
+   this to blame the poor's sinful behavior (idleness, intemperance,
+   uncleanness). Expressed a political philosophy: believing sin causes
+   disease implicitly denied government's need to redress poverty.
+3. **Personal behavior theory** — wrong personal behavior; responsibility
+   falls on individuals to control their own lives; disease was not tied to
+   God's mysterious ways but caused by unhealthy living (improper diet, lack
+   of exercise, poor hygiene, emotional tension). Focused on the
+   middle-class, not the poor.
+4. **Miasma theory** — "bad air"; disease caused by the odor of decaying
+   organic material. A return to the Hippocratic idea linking disease to
+   climate. Contrasted with the other three theories by conceptually
+   separating the source of disease from its victim. Socially and
+   environmentally based; the dominant theory of the 19th-century public
+   health movement.
+
+### 2.8 Twentieth-century models of disease causation {#ch02-8}
+
+Where 19th-century policy was shaped by economic/ideological considerations,
+20th-century theory rests on sound research. Four models:
+
+1. **The Germ Theory** — microorganisms cause disease; controllable by
+   antibiotics and vaccines. Criticized by **Thomas McKeown**, who observed
+   that the incidence of major infectious diseases began falling decades
+   before vaccines/antibiotics were introduced — so rising living standards,
+   not medical discovery, drove the reduction.
+2. **The Life Style Theory** — unhealthy lifestyles cause disease; blames
+   stress, lack of exercise, alcohol/tobacco use, and improper nutrition for
+   most chronic disease. Rejects the germ theory's premise that one disease
+   has one etiology; emphasizes the interrelatedness of many variables,
+   principally those under the individual's control.
+3. **The Environmental Theory** — a significant number of chronic diseases
+   are caused by toxins. Three aspects: (1) prevention through change in
+   industrial production rather than medical treatment/personal hygiene, (2)
+   toxic substances in air/water/soil (with emphasis on radioactivity), (3)
+   synthetic food additives ("organic foods"). Two scientific disputes:
+   extrapolating from animal to human data, and the concept of threshold
+   levels.
+4. **The Multi-Causal Theory** ("web of disease causation") — states that
+   multiple factors cause a single disease entity; suggests effective
+   disease-prevention policy is as complex as the theories it replaces.
+   Shortcomings: gives few clues on how to prevent disease, the prevention
+   policies it implies are inefficient in many ways, and there is a gap
+   between what it promises and what epidemiologists actually deliver.
+
+---
+
+## Ch. 3 — Expanding the Concept of Public Health {#ch03}
+
+### 3.1 Changing concepts in public health {#ch03-1}
+
+Four historical phases: **Disease Control** phase (1880–1920) → **Health
+Promotion** phase (1920–1960) → **Social Engineering** phase (1960–1980) →
+**Health for All** phase (1980–onward).
+
+### 3.2 The host–agent–environment paradigm {#ch03-2}
+
+**The host–agent–environment paradigm**: three components — Host,
+Environment, Agent — with **Vector** as a link between them. This paradigm
+joins together the Miasma and germ theories of disease causation.
+
+**The expanded host–agent–environment paradigm**:
+
+- **Host factors**: age, sex, genetic makeup, psychology, lifestyle,
+  education, social situation.
+- **Environment factors**: biological, genetic, physical, economic, etc.
+- **Agent factors**: biological, genetic, nutrient, chemical, physical,
+  mechanical.
+- **Vector**: mosquitoes, ticks, flies, fleas and lice.
+
+**"The New Public Health"** — an expanded version of the host-agent-
+environment triangle (Host / Agent / Environment) surrounded by supporting
+factor clusters: Host is linked to Health Policy/Financing/Targets and Health
+Promotion/Advocacy/Media/Education/Knowledge/Beliefs/Practices and
+Legislation/Regulation and Human Resources/Training; Environment is linked to
+Social Policy/Social Security/Pensions/Child Care and Health Systems
+Organization/Management/Interest Groups and Nutrition/Food
+Security/Fortification and Monitoring/Evaluation/Information Systems and
+Sanitation/Food and Drug Control; Agent is linked to Family and Social
+Support and Inequities (Social/Economic/Ethnic/Regional) and
+Evidence/Research/Development. At the triangle's center: Genetics,
+Lifestyle, Prevention, Medical Care, Good Public Health.
+
+Public health has evolved as a multidisciplinary field, using basic and
+applied science, education, the social sciences, economics, management, and
+communication skills to promote the welfare of the individual and the
+community.
+
+### 3.3 Global challenges for health {#ch03-3}
+
+The 21st century brings many complex, interacting global challenges directly
+and indirectly impacting health: (1) globalization, (2) urbanization, (3)
+poverty, (4) socioeconomic inequality, (5) food insecurity, (6) environmental
+degradation, (7) demographic transition. Guiding principle: think ahead, not
+backwards — prevent the next health "crisis," not just plan to combat the
+last one.
+
+**Globalization — trade, migration, industrialization**: the world is more
+economically interconnected — trade in goods/services as a share of global
+GDP rose from 12% (1960) to 37% (2017) (World Bank). More people are
+travelling and migrating. Many low/middle-income economies have
+industrialized and grown, with consequences for rural-to-urban migration and
+socioeconomic change; this impacts health by increasing risks of global
+epidemics (e.g. SARS) and spread of health hazards (contaminated
+foods/products), and by placing pressure on labour, infrastructure and
+environment from rapid economic growth.
+
+Effects of globalization can be positive, negative, or mixed (Feacham, *BMJ*
+Sept 2001; McMichael & Beaglehole, *Lancet*, Aug 2000):
+
+- *Positive*: cultural globalization can be positive (e.g. reduction of
+  practices like foot binding, female circumcision); positive effects of
+  internet communication on health; GNP rises associated with better health.
+- *Negative/mixed*: job insecurity/unemployment; global environmental changes
+  and their consequences; tobacco industry globalizing its market → rise in
+  smoking-related disease; patent rights limiting poor countries' access to
+  technologies; diseases of dietary excess driven by marketing → widespread
+  urban obesity; expansion of the international drug trade; worldwide travel
+  and spread of infectious disease; increasing prevalence of depression and
+  mental disorders in an aging, socially fragmented urban society.
+
+**Urbanization**: the process of population movement from rural to urban
+areas, changing economic, social and physical environments. Between 2010 and
+2050 the world's urban population share is predicted to rise from 50% to
+70%; nearly 1 billion people (33% of the urban population) currently live in
+slums. Rapid, unplanned urbanization strains infrastructure — poor living
+conditions, reduced access to education/medical care, congestion, pollution,
+and impacts on health-promoting behaviours and NCD risk factors.
+
+**Economic growth, poverty and governance**: economic growth is the most
+powerful instrument for reducing poverty and improving quality of life. In
+2015, 736 million people lived on less than $1.90/day, down from 1.85
+billion in 1990 (World Bank) — progress uneven; most of the world's poor now
+live in middle-income countries. Health is traditionally an end-product of
+growth, but a healthy population is also a driver of growth; recent decades
+have also seen a shift in public policy/governance discourse toward
+neoliberalism.
+
+**Socioeconomic inequality**: interrelated with poverty; disparities in
+economic and social resources, both across and within countries. Growth has
+disproportionately benefited higher-income groups; income/wealth inequality
+is a fundamental cause of health inequality, influencing housing, alcohol
+use, and smoking. (Supporting figures: "Top 10% income shares across the
+world, 1980–2016," World Inequality Lab/World Inequality Report 2018 — global
+top-10% share risen or stayed extremely high nearly everywhere; OECD
+household-income-change-by-decile chart showing the gap between the top 10%
+and bottom 40%/10% widening, 1980–2010.)
+
+**Food insecurity**: food security exists when all people, at all times,
+have physical, social and economic access to sufficient, safe and nutritious
+food for an active, healthy life. New shocks (climate change, conflict,
+pests such as locusts, infectious disease) hurt food production and disrupt
+supply chains. Microbiological, chemical and other food-safety hazards
+remain a serious issue; economic slowdowns further impact global food
+security and nutrition.
+
+**Environmental degradation**: conserving Earth's ecosystem is a
+precondition for economic/social development including good health. Despite
+dramatic health gains since 1950, unprecedented environmental degradation
+now threatens both human health and life-support systems. Environmental
+factors — polluted air, built-environment hazards, agricultural practices,
+occupational hazards, radiation, climate change, chemical exposures,
+inadequate water/sanitation — were associated with 12.6 million deaths (23%
+of deaths worldwide) in 2012 (Prüss-Ustün et al., 2016, WHO). A supporting
+figure ("Global impacts on health of the planet and human health, 2018–50")
+maps socioecological systems (air, land, freshwater, oceans, biodiversity)
+to specific human-health impacts, e.g.: household/urban pollution and
+greenhouse gases → "greatest cause of death and sickness; causes
+displacement globally"; oceans (fish population decline, plastic pollution,
+coral bleaching, polar ice melt) → "loss of cheap protein and jobs"; land
+(desertification, deforestation, chemical pollution) → "impact on access to
+land, number of jobs."
+
+### 3.4 Demographic and epidemiological transition {#ch03-4}
+
+Two transition models: the **Demographic Transition Model** (Warren
+Thompson, 1929) and the **Epidemiological Transition Model** (Abdel Omran,
+1971).
+
+**Demographic transition**: the shift from high birth/death rates to lower
+birth/death rates as a country develops from agricultural to industrial.
+Global population is predicted to grow from 6.8 billion (2010) to 9.1
+billion (2050) (UN). Other demographic shifts — changing fertility, aging
+populations in the developed world — strain health systems as more people
+need chronic-illness (NCD) care.
+
+**Classic 4-Stage Demographic Transition Model** (some texts show 3 stages;
+others propose a 5th):
+
+- **Stage 1, "Pre-Industrial"**: high birth and death rates (both ~40);
+  population growth very slow; agrarian society; high rates of communicable
+  disease; population rises in good growing years, falls in bad years
+  (famine, disease). No country/region remains in Stage 1 today.
+- **Stage 2, "Early Industrial"**: high birth rates (>30) but declining death
+  rates (to ~20); rate of natural increase rises sharply (population
+  explosion), growing throughout the stage; growth driven by falling deaths,
+  not rising births. MDCs (more-developed countries) start early 1800s; LDCs
+  (less-developed) start after the 1950s. The transition into Stage 2 is
+  known as the **Epidemiologic Transition**, driven by: agricultural
+  technology, improved food supply, better medical understanding of disease
+  causes/spread, public sanitation technology, improved (safe) water supply,
+  better sewage treatment/food handling/personal hygiene, and reduced
+  childhood mortality. When infant mortality rate (IMR) declines, fertility
+  rates drop soon after.
+- **Stage 3, "Later Industrial"**: birth rates decline sharply (to ~15);
+  death rates decline a bit more (to ~10 or less); growth still occurs but at
+  a reduced, declining rate. MDCs start late 1800s; LDCs start after the
+  1980s (or haven't started yet).
+- **Stage 4, "Post-Industrial"**: birth and death rates both low (~10);
+  population growth very low or zero. MDCs start after the 1970s; LDCs
+  haven't started yet. A hypothesized **Stage 5** (not in the classic model):
+  much of Europe now, or soon, in population decline as birth rates drop far
+  below replacement level.
+
+**The Epidemiologic Transition** (Abdel Omran, 1971) — focuses on distinctive
+causes of death at each demographic-transition stage. Four (or five) stages:
+
+1. **Pestilence and famine** — infectious/parasitic disease, animal attacks,
+   human attacks ("natural checks," Malthus). The Black Plague is history's
+   most violent Stage 1 epidemic — wiped out entire villages, reached
+   Western Europe in 1348 (≥25 million dead, at least half the population),
+   13 million dead in China in 1380.
+2. **Receding pandemics** — a disease occurring over a wide area, affecting a
+   high population proportion, in retreat; improved sanitation, nutrition
+   and medicine from the Industrial Revolution reduced spread. Cholera,
+   unknown in rural areas, became an urban epidemic.
+3. **Degenerative and human-created diseases** — sharp declines in measles,
+   polio, tetanus, diphtheria, pertussis deaths; rise of cardiovascular
+   disease, heart attacks, various cancers.
+4. **Delayed degenerative diseases** — extended life expectancy for older
+   people via cancer medicine, bypass surgery, better diet, reduced
+   tobacco/alcohol use; but non-nutritious food and sedentary behavior have
+   increased obesity in this stage.
+5. **Return of infectious disease** — some analysts argue this stage is
+   needed because diseases once thought controlled have reemerged (malaria,
+   SARS, TB, AIDS, coronavirus), caused by travel, poverty, and microbial
+   evolution.
+
+**Changes in the rank order of global disease burden, 1990 → 2020 (baseline
+scenario)**: the 2020 top 10 — (1) ischaemic heart disease, (2) unipolar
+major depression, (3) road traffic accidents, (4) cerebrovascular disease,
+(5) chronic obstructive pulmonary disease, (6) lower respiratory infections,
+(7) tuberculosis, (8) war, (9) diarrhoeal diseases, (10) HIV — drawn from a
+1990 ranking that included several 1990 top-ranked causes (ranks 12, 16, 28
+in 1990) rising sharply into the 2020 top 10.
+
+### 3.5 Other challenges: the disease mix and population aging {#ch03-5}
+
+How to handle the changing communicable disease / chronic disease mix: move
+from treatment to promotion and prevention, and from hospital to community.
+"Epidemics of the new century" named: HIV/AIDS (& TB), coronavirus,
+lifestyle aberrations (alcohol, drugs), violence, accidents.
+
+**World Aging 2002–2050**: population pyramids for the World, More
+Developed Regions, Less Developed Regions, and Least Developed Countries
+each show the classic pyramid shape (2002) flattening/inverting toward a
+column shape (2050) as populations age. Supporting maps: "Percentage of
+total population aged 60 years or older" show most of Europe/North
+America/East Asia already in the 20–24% band in 2002, shifting to 25–29% or
+30%+ across nearly the whole world by the 2050 projection, while much of
+Africa remains in the lowest bands even in 2050.
+
+The relative role of public health in addressing these challenges rests on:
+intersectoral responsibility and collaboration; equal access to quality
+primary health care and health care in general; resources — their quantity,
+allocation and utilization.
+
+---
+
+## Ch. 4 — Determinants of Health and Disease {#ch04}
+
+### 4.1 What are social determinants of health? {#ch04-1}
+
+**WHO (2022)**: social determinants of health are "the circumstances in
+which people are born, grow up, live, work, and age, and the systems put in
+place to deal with illness." These circumstances have a tremendous effect on
+health, regardless of age, race or ethnicity.
+
+Determinants of health are classically categorized into: (1) behavioral
+factors, (2) impacts of the natural environment, (3) genetic determinants,
+(4) socioeconomic determinants, (5) access to healthcare. These have acted
+and interacted within populations, in complex ways, throughout history —
+alongside population dynamics and political/cultural factors (specific
+cultural practices, economic conditions, globalization, climate change,
+urbanization) that can be health-promoting or health-damaging.
+
+A commonly listed set of **Social Determinants of Health**: access to health
+care, access to resources, education, employment, environment, food supply,
+income/poverty, insurance coverage, housing, racism/discrimination,
+segregation, transportation.
+
+**"Social Determinants of Health" wheel** (5 domains around a central
+person icon): Economic Stability; Education Access and Quality; Health Care
+Access and Quality; Neighborhood and Built Environment; Social and Community
+Context.
+
+### 4.2 The force field paradigm / Blum's health field model {#ch04-2}
+
+**The Force Field paradigm of health** ("Health field" concept): four major
+determinants of health or ill health: (A) Human biology, (B) Environment,
+(C) Lifestyle behaviour, (D) Health care organization.
+
+**Health determinants model (Blum, 1974)**: a diagram with four arrows
+converging on a central circle labelled "Psycho-socio-somatic HEALTH
+(well-being)": **Heredity** (from Population — size, distribution, growth
+rate, gene pool), **Environment** (fetal, physical — natural and man-made,
+socio-cultural, education, employment/means), **Health Care Services**
+(prevention, cure, rehabilitation), and **Behavior** (linked to Mental
+Health — emotional satisfaction, intellectual efficiency, adaptability). The
+whole is enclosed by an outer ring connecting Natural Resources, Cultural
+Systems, Ecological Balance.
+
+### 4.3 A. Human biology {#ch04-3}
+
+Every human is made of genes; some factors are genetically transmitted from
+parent to offspring, creating a chance of a defective trait being passed on
+— modern medicine has little role in these cases directly, but:
+
+- **a. Genetic counseling**: e.g. during marriage, parents can be made aware
+  of their genetic makeup to help overcome risks.
+- **b. Genetic engineering**: may have a role in cases like breast cancer.
+
+A grand challenge for 21st-century medicine: understanding how knowledge of
+human genomic variation, and its interaction with environment, can be used
+across the lifespan to improve health and prevent disease. The first such
+public health application was newborn screening for **phenylketonuria
+(PKU)** — biochemical screening and diagnostic tests became available in the
+1960s. Though rare, screening was recognized as a public health
+responsibility because early diagnosis/treatment could prevent serious
+mental and physical disability.
+
+**Case example — identifying β-thalassemia carriers in Palestine**:
+thalassemia is one of the most common genetic blood disorders, affecting
+~4.4% of every 10,000 live births worldwide. Palestine, in the Mediterranean
+basin, has notable prevalence — in the Gaza Strip the average incidence of
+the thalassemia trait is 3.0–4.5%. A premarital screening program for
+β-thalassemia carriers aimed to reduce disease incidence by discouraging
+marriage between known carriers; there was a drastic reduction in
+thalassemia incidence during 2000–2007 following the program's
+establishment.
+
+### 4.4 B. Environment {#ch04-4}
+
+Environment is all that is external to the individual human host — factors
+outside the human body. Categories: (a) life support (food, water, air,
+etc.); (b) physical factors (climate, rainfall); (c) biological factors
+(microorganisms, toxins, biological waste); (d) psycho-social and economic
+factors (crowding, income level, access to health care); (e) chemical
+factors (industrial wastes, agricultural wastes, air pollution, etc.).
+
+**Environment and climate change**: (1) Earth temperature — greenhouse
+effect, radiation; (2) atmospheric CO2 levels vary over long timescales due
+to transfers among atmosphere, biosphere and oceans. As a public health
+issue: for human health, the *variability and frequency* of extreme events
+often matters more than average conditions — on exposure to heat or cold, it
+is the deviation from usual/commonly experienced temperatures that carries
+the greatest risk.
+
+### 4.5 C. Lifestyle (behavior) {#ch04-5}
+
+Lifestyle: an action with a specific frequency, duration and purpose,
+conscious or unconscious — associated with practice; what we do and how we
+act. It has recently received increased attention as a major health
+determinant, affecting health directly or indirectly (e.g. cigarette
+smoking, unsafe sexual practice, eating contaminated food).
+
+**Behavioral factors**: lifestyle is widely associated with disease
+incidence/prevalence, e.g. the tendency to blame sinful, negligent,
+ignorant, reckless, or selfish behavior. This perspective holds both the
+individual accountable/in control of their behaviors *and* society
+responsible for providing health-promoting environments. Examples given:
+HIV, obesity, heart disease.
+
+**Behavioural determinants pathways** (Fig. 2.9.1): three numbered pathways
+from "Behavioural factors" to "Health, disease, injury or death" — (1) a
+direct pathway; (2) via "Physical and social environmental factors"; (3) via
+"Healthcare environmental factors."
+
+**Table 2.9.1 — Nine leading causes of death (United States, 2003),
+their generally accepted risk factors, and their behavioural determinants**
+(age-adjusted death rates per 100,000 population in parentheses):
+
+| Cause of death (rate) | Selected risk factor | Behavioural determinant |
+|---|---|---|
+| Diseases of the heart (232.3) | Tobacco smoke | Smoking |
+| | Sedentary living | Physical inactivity |
+| | High serum cholesterol | High-fat diet |
+| | Obesity, diabetes mellitus | High-calorie diet, physical inactivity |
+| | Hypertension | High-salt diet |
+| Malignant neoplasms (190.1) | Smoking | Smoking |
+| | Low-fibre diet | Low-fibre diet |
+| | Physical inactivity | Physical inactivity |
+| | Sexually transmitted diseases | Sexual behaviours |
+| Cerebrovascular diseases (53.5) | Hypertension | High-salt diet |
+| | Atherosclerosis | High-fat diet |
+| | Smoking | Smoking |
+| Chronic obstructive pulmonary disease (43.3) | Smoking | Smoking |
+| Unintentional injuries, traffic-related (37.3) | Alcohol abuse | Alcohol use before/while driving |
+| | No seat belt engaged | Seat belt non-use |
+| | Unsafe driving | Behavioural distractions (smoking, texting) while driving; speeding |
+| | Drug abuse | Drug use before/while driving |
+| Diabetes mellitus (25.3) | Obesity | High-calorie diet, physical inactivity |
+| Pneumonia and influenza (22.0) | Immunization status | Failure to obtain immunization |
+| | Malnutrition | Diet |
+| Suicide (10.8) | High blood-alcohol abuse | Alcohol use |
+| | Handgun use | Handgun possession |
+| | Drug abuse | Drug use |
+| Chronic liver disease and cirrhosis (9.3) | Alcohol abuse | Alcohol use |
+
+*(Source: National Center for Health Statistics,* Health, United States,
+2006 *with Chartbook on Trends in the Health of Americans, CDC, 2006; death
+data from Mokdad et al., "Actual Causes of Death in the United States,
+2000,"* JAMA*, Vol. 291, No. 1238, 2000.)*
+
+**Public health strategies to influence behavioral determinants** — three
+types, used to accomplish health-promotion and disease-prevention goals
+through behaviour change:
+
+1. **Educational strategies** — inform and educate the public about issues of
+   concern, e.g. the dangers of drug misuse, the benefits of automobile
+   restraints, the relationship of maternal alcohol consumption to fetal
+   alcohol syndrome.
+2. **Automatic-protective strategies** — control environmental variables to
+   minimize the need for individual decisions in structuring behaviour, e.g.
+   milk pasteurization, water fluoridation, infant immunizations, burning or
+   chemically killing marijuana crops.
+3. **Coercive strategies** — employ legal and other formal sanctions to
+   control individual behaviour, e.g. required immunizations for school
+   entry, mandatory TB testing of hospital employees, compulsory automobile
+   restraint use, arrests for drug possession/use or drunk driving.
+
+### 4.6 D. Health care organization and access {#ch04-6}
+
+Health care organizations — their resources in human power, equipment,
+money, etc. — determine population health. Concerned with: (a) availability
+of health service; (b) scarcity of health services; (c) acceptability of the
+service by the community; (d) accessibility (physical distance, finance,
+etc.); (e) quality of care — comprehensiveness, continuity, integration.
+
+'Access to healthcare' exists when individuals/families can mobilize the
+resources needed to preserve or improve their health. At the simplest level,
+judged by service availability — geographical proximity/physical
+accessibility, and the supply of services (doctors, nurses, hospital beds
+per 1000 population).
+
+**Obstacles to utilization of healthcare services**:
+
+1. **Affordability** — financial barriers (costs of utilizing care) and
+   physical barriers (distance, travel difficulty).
+2. **Acceptability** — services not viewed as culturally
+   appropriate/socially acceptable/consistent with personal beliefs; or
+   organizational barriers (difficulty obtaining consultation, waiting
+   lists, limited service capacity).
+3. **Effectiveness** — access should deliver effective care that meets
+   health needs and achieves the intended health outcome.
+
+### 4.7 Societal factors and SDOH frameworks {#ch04-7}
+
+**Four factors affecting the health of a community** (Fig. 1): Physical
+determinant; Socio-cultural; Community Organization; Behavioral Determinant.
+
+- **Physical determinants**: geography (highland vs. lowland), environment
+  (man-made or natural catastrophes), industrial development (pollution,
+  occupational hazards).
+- **Socio-cultural determinants**: beliefs, traditions, social customs;
+  economy, politics, religion in the community.
+- **Community organization**: community size, arrangement and distribution
+  of resources ("relations of production").
+- **Behavioral determinants**: individual behavior and lifestyle affecting
+  individual/community health, e.g. smoking, alcoholism, promiscuity.
+
+Summary: addressing 21st-century public health challenges requires new
+approaches to understanding, quantifying, and responding to complex, dynamic
+health determinants; global leadership is needed from the health sector and
+from other private/public institutions.
+
+**Societal Factors That Influence Health** (nested-circle diagram): outer
+ring **Systemic** (systemic causes — the fundamental causes of the social
+inequities that lead to poor health, e.g. institutions/government) →
+**Community** ring (**social determinants of health** — underlying social
+and economic conditions that influence people's ability to be healthy) →
+inner **Person** circle (**social needs** — individuals' non-medical, social
+or economic circumstances that hinder their ability to stay healthy and/or
+recover from illness).
+
+**"Social Determinants of Health" (8-icon version, American Hospital
+Association, 2018)**: Housing, Food, Education, Transportation, Violence,
+Social Support, Employment, Health Behaviors.
+
+**"Impact of Social Determinants of Health"** (6-domain breakdown, adapted
+from Kaiser Family Foundation, "Beyond Health Care," Nov 2015):
+
+- **Economic Stability**: employment, income, expenses, debt, medical bills,
+  support.
+- **Neighborhood & Physical Environment**: housing, transportation, safety,
+  parks, playgrounds, walkability.
+- **Education**: literacy, language, higher education, vocational training,
+  early childhood education.
+- **Food**: hunger, access to healthy options.
+- **Community & Social Context**: social integration, community engagement,
+  support systems, discrimination.
+- **Health Care Systems**: health coverage, provider availability, provider
+  linguistic & cultural competency, quality of care.
+- All feeding into **Health Outcomes**: mortality, life expectancy, health
+  care expenditures, health status, functional limitations.
+
+**Quantified SDOH-impact figure** (Institute for Clinical Systems
+Improvement, "Going Beyond Clinical Walls," 2014): of an individual's health
+and well-being, roughly **40% is attributed to socioeconomic factors**
+(education, job status, family/social support, income, community safety),
+**30% to health behaviors** (tobacco use, diet & exercise, alcohol use,
+sexual activity), **20% to health care** (access to care, quality of care),
+and **10% to physical environment**. Framed two ways: 20% of health/
+well-being relates to access to care and quality of services; the physical
+environment, social determinants, and behavioral factors together drive 80%
+of health outcomes.
+
+**"Our environments cultivate our communities and our communities nurture
+our health"** — a tree metaphor: roots = root causes (poverty, segregation,
+adverse living conditions, occupational hazards, institutional racism,
+discrimination, unemployment, environmental toxins — dead tree; vs. quality
+schools, access to healthy food/healthcare, adequate income, health
+insurance, quality housing, jobs, clean environment — healthy tree); trunk =
+community factors (sense of community, social networks, social support,
+participation, leadership, political influence, organizational networks);
+canopy = health outcomes. Where inequities are high and community assets are
+low, health outcomes are worst (substance abuse, violence, smoking, HIV/
+AIDS, infant mortality, malnutrition, obesity, depression, stress, heart
+disease). Where inequities are low and community assets are high, health
+outcomes are best (lower rates of the same conditions).
+
+### 4.8 Equity in health {#ch04-8}
+
+**Definition (WHO, 2008)**: "Health equity is defined as the absence of
+unfair and avoidable or remediable differences in health among population
+groups defined socially, economically, demographically or geographically."
+
+The social determinants of health (SDH) are the non-medical factors that
+influence health outcomes, with an important influence on health inequities
+— the unfair and avoidable differences in health status seen within and
+between countries. In countries at all income levels, health and illness
+follow a **social gradient**: the lower the socioeconomic position, the
+worse the health.
+
+Example social determinants that can influence health equity, positively or
+negatively: income and social protection; education; unemployment and job
+insecurity; working life conditions; food insecurity; housing, basic
+amenities and the environment; early childhood development; social
+inclusion and non-discrimination; structural conflict; access to affordable,
+decent-quality health services.
+
+**SDOH defined again**: "Life-enhancing resources whose distribution across
+populations effectively determines length and quality of life."
+
+Inequities in health are socially determined, preventing poorer populations
+from advancing and realizing their potential. Examples: an 18-year gap in
+life expectancy between high- and low-income countries; in 2016, most of
+the 15 million premature deaths from NCDs occurred in low- and
+middle-income countries; relative gaps between poorer and richer subgroups
+for diseases like cancer have widened across all world regions; under-5
+mortality is more than 8× higher in Africa than in the European region.
+
+**WHO Europe, 1984, Target 1 — Equity in Health**: "By the year 2000, the
+actual differences in health status between countries and between groups
+within countries should be reduced by at least 25%, by improving the level
+of health of disadvantaged nations and groups."
+
+Why equity matters: disadvantaged groups consistently show poorer survival
+chances, a heavier illness burden, and earlier onset of chronic illness and
+disability.
+
+**Health Disparities vs. Health Equity vs. Health Inequities vs. SDOH** —
+comparison of definitions:
+
+| Term | Definition | Examples |
+|---|---|---|
+| **Health Disparities** (التفاوتات الصحية) | Avoidable differences in the incidence and prevalence of health conditions and health status between groups | Race/ethnicity, socioeconomic status, sexual orientation, gender, disability status, geographic location, or a combination |
+| **Health Inequities** (انعدام المساواة الصحية) | Systematic and unjust distribution of social, economic, and environmental conditions needed for health | Unequal access to quality education, healthcare, housing, transportation, other resources (e.g. grocery stores, car seats); unequal employment opportunities and pay/income; discrimination based on social status/other factors |
+| **Health Equity** (المساواة في مجال الصحة) | The opportunity for everyone to attain their full health potential; no one disadvantaged by social position or other socially determined circumstance | Equal access to quality education, healthcare, housing, transportation, other resources; equitable pay/income; equal employment opportunity; absence of discrimination |
+| **SDOH** (المحددات الاجتماعية للصحة) | Life-enhancing resources whose distribution across populations effectively determines length and quality of life | Food supply, housing, economic relationships, social relationships, transportation, education, health care |
+
+**Health inequality (WHO)**: "the differences in health status or in the
+distribution of health determinants between different population groups."
+Inequality in life expectancy — a key population health measure — is
+therefore one of the foremost measures of health inequality.
+
+**"Equality vs. Equity"** illustration: three people of different heights
+watching a game over a fence, each given one identical box (**equality** —
+the tallest can see fine, the shortest still cannot see over the fence) vs.
+each given a *different* number of boxes so all three can see equally well
+over the fence (**equity** — resources distributed according to need, not
+identically).
+
+**Inevitable or unacceptable? Seven main determinants of health
+differentials** (from "The concept and principles of equity and health"):
+
+1. Natural biological variation — humans vary in health as in every other
+   attribute (e.g. by age group, by sex).
+2. Health-damaging behavior, if freely chosen (e.g. participation in certain
+   sports/pastimes).
+3. The transient health advantage of one group adopting a health-promoting
+   behaviour first (acceptable as long as other groups can catch up fairly
+   soon).
+4. Health-damaging behaviour where the degree of lifestyle choice is
+   severely restricted.
+5. Exposure to unhealthy, stressful living and working conditions.
+6. Inadequate access to essential health and other public services.
+7. Natural selection or health-related social mobility — the tendency of
+   sick people to move down the social scale.
+
+The crucial test of whether a resulting health difference is "unfair" turns
+largely on whether people chose the situation causing the ill health, or
+whether it was mainly out of their direct control. Equity in health implies
+everyone should ideally have a fair opportunity to attain their full health
+potential, and no one should be disadvantaged from achieving it, if
+avoidable.
+
+**Equity in health care** — three components:
+
+1. **Equal access to available care for equal needs**: (a) equal entitlement
+   to available services for everyone; (b) fair distribution throughout the
+   country based on health-care needs and ease of access per geographic
+   area; (c) removal of other barriers to access.
+2. **Equal utilization of health care for equal needs**: further study is
+   needed on why utilization rates differ; where use is restricted by
+   social/economic disadvantage, there is a case for aiming at equal
+   utilization rates for equal need.
+3. **Equal quality of care for all**: every person should have an equal
+   opportunity of being selected for attention through a fair procedure
+   based on need, not social influence (e.g. rehabilitation services biased
+   in favor of people with jobs); everyone can expect the same high standard
+   of professional care.
+
+**Conclusions**: equity does not mean everyone has the same health status or
+consumes the same amount of health-service resources. Developing practical
+policies to reduce inequity is essential. Solving inequity problems cannot
+be achieved by one organizational level or sector — it requires action at
+all levels, with everyone as partners in health, to meet future challenges.
+
+**Landmark document**: *Closing the Gap in a Generation: Health Equity
+through Action on the Social Determinants of Health* — the Final Report of
+the WHO Commission on Social Determinants of Health (CSDH), 28 August 2008.
+
+---
+
+## Ch. 5 — Epidemiology and Public Health {#ch05}
+
+### 5.1 What is epidemiology? {#ch05-1}
+
+Epidemiology is the **basic science of public health** — it describes the
+relationship of health and/or disease with other health-related factors in
+human populations (e.g. human pathogens). It has generated much of the
+information public health professionals use to develop, implement and
+evaluate intervention programmes for disease prevention and health
+promotion — e.g. the eradication of smallpox, the anticipated eradication of
+polio and guinea worm disease, and the prevention of heart disease and
+cancer.
+
+**Etymology**: from the Greek *epi* ("on" or "upon") + *demos* ("the
+[common] people") + *logos* ("study") — literally, "the study of what is
+upon the people." = the science of studying the determinants of disease.
+
+**Working definitions**:
+- "The study of the frequency, distribution and determinants of states of
+  health in human populations and the application of this study to control
+  health problems and improve health outcomes."
+- Underscored by three points: (1) epidemiologists study not only disease
+  but ‘health-related events,' and epidemiology is ultimately committed to
+  disease control; (2) epidemiology concerns populations, not individuals —
+  separating it from the rest of medicine and making it the basic science of
+  public health; (3) health and disease must therefore be described in
+  terms of frequencies and distributions in the population.
+
+**Three underlying premises**: (1) human disease does not occur at random;
+(2) human disease has causal and preventive factors identifiable through
+systematic investigation of different populations, or subgroups, across
+different places and times; (3) health is a state of equilibrium between
+agent, host (human), and environment.
+
+**Box 1.2 — Definition of epidemiology, elaborated by term**:
+
+| Term | Explanation |
+|---|---|
+| Study | includes surveillance, observation, hypothesis testing, analytic research and experiments |
+| Distribution | refers to analysis of times, persons, places and classes of people affected |
+| Determinants | include factors that influence health: biological, chemical, physical, social, cultural, economic, genetic and behavioural |
+| Health-related states and events | refer to diseases, causes of death, behaviours such as tobacco use, positive health states, reactions to preventive regimes, and provision and use of health services |
+| Specified populations | include those with identifiable characteristics, such as occupational groups |
+| Application to prevention and control | the aims of public health — to promote, protect, and restore health |
+
+### 5.2 Uses of epidemiology in support of public health {#ch05-2}
+
+1. **Describe the spectrum of disease**: disease represents the end point of
+   a process of alteration of the host's biological systems.
+2. **Describe the natural history of disease**: used to improve diagnostic
+   accuracy.
+3. **Community diagnosis**: epidemiological surveys establish the
+   morbidity/mortality from specific diseases, to control them.
+4. **Describe the clinical picture of a disease**: identify who is likely to
+   get a disease.
+5. **Identify factors that increase or decrease disease risk**: specific
+   characteristics increase (or decrease) an individual's probability of
+   developing disease.
+
+### 5.3 Key terms: frequency, distribution, determinants {#ch05-3}
+
+**Epidemiology key terms**: **Frequency** (prevalence, incidence);
+**Distribution** — WHO (person)? WHERE (place)? WHEN (time)?; **Determinants**
+— WHY? (causes of disease).
+
+**Frequency**: measurement of disease frequency — risk, incidence rate,
+prevalence — gives an idea of the disease burden in a population.
+**Incidence** = the number of new cases developing within a given time
+period. **Prevalence** = the proportion of individuals in a population who
+have a disease at a particular time (also called point prevalence).
+
+**Distribution — by time**: three basic types of time trend: (1)
+**Epidemic** — a temporary increase in disease incidence in a population;
+(2) **Periodic** — a pattern of more-or-less regular changes in incidence
+(e.g. whooping cough tends to peak roughly every 3 years); (3) **Secular
+(long-term) trends** — non-periodic changes in disease statistics over a
+number of years (e.g. coronary heart disease).
+
+**Distribution — by person**: characteristics affecting the likelihood of
+particular diseases include age, sex, ethnicity, occupation, socioeconomic
+status, marital status. Disease rates calculated for population subsets help
+identify priorities for preventive action.
+
+**Distribution — by place**: international, regional, and small-area
+comparisons of disease distribution may be made; standardization is required
+to allow for differences in population structure. Example questions: does
+disease frequency vary by country? by city/neighborhood? within different
+parts of a large workplace?
+
+**Distribution — refers to** the relationship between the health
+problem/disease and the population in which it exists:
+- *Time characteristics*: annual, seasonal, and daily/hourly occurrence
+  during an epidemic.
+- *Place characteristics*: geographic variation, urban–rural differences,
+  location of worksites or schools.
+- *Personal characteristics*: demographic factors — age, race, sex, marital
+  status, SES — plus behaviors and environmental exposures.
+
+**Determinants**: refers to the causes and factors affecting disease risk,
+answering "how" and "why" — this is what **analytical epidemiology** tries
+to do:
+1. **Host factors**: age, gender, race, nutrition status, physiological
+   state — determine an individual's susceptibility to disease.
+2. **Environmental factors**: living conditions, occupation, geographical
+   location, lifestyle — determine the host's exposure to a specific agent.
+
+### 5.4 Disease-occurrence terms {#ch05-4}
+
+- **Endemic**: a disease present or usually prevalent in a population at all
+  times, in a particular geographical area.
+- **Outbreak**: a small, localized epidemic, often confined to a village or
+  small town.
+- **Epidemic**: an unusually high occurrence of a disease or illness in a
+  population or area.
+- **Pandemic**: an epidemic that spreads worldwide, or at least across a
+  large region.
+- **Control**: reduced incidence or prevalence of a disease/condition;
+  control measures are still required.
+- **Eradication**: permanent reduction to zero of the worldwide incidence of
+  infection caused by a specific agent, as a result of deliberate efforts;
+  intervention measures are no longer needed.
+- **Elimination of infection**: reduction to zero of the incidence of
+  infection caused by a specific agent in a defined geographic area, as a
+  result of deliberate efforts; continued measures are required to prevent
+  transmission from re-establishing.
+- **Cluster**: a group of cases in a specific time and place that might be
+  more than expected.
+- **Rate**: the number of cases occurring during a specific period, always
+  dependent on the size of the population during that period (expressed
+  e.g. per 1000).
+
+**Spectrum of disease risk** (flow diagram): **Disease Risk Pool** →
+**Emerging Infectious Disease** → **Outbreak** → **Epidemic** → **Pandemic**,
+with two-way links from Outbreak/Epidemic to **Endemic**, and from
+Outbreak/Emerging Infectious Disease to **Eradication**. The spectrum is
+framed along two gradients: moving left→right, likelihood of annual
+occurrence goes from high to low, while likelihood of severe health/economic
+impact goes from low to high.
+
+### 5.5 Objectives of epidemiology {#ch05-5}
+
+1. To determine the extent/frequency of disease (states of health) and/or
+   behaviors in a community.
+2. To identify the etiology (cause/s) of a disease and the factors
+   impacting a person's disease risk.
+3. To study the natural history and prognosis of disease.
+4. To evaluate new preventive and therapeutic measures, and new modes of
+   health-care delivery.
+5. To provide the foundation for developing public policy and regulatory
+   decisions relating to public health problems.
+
+### 5.6 Basic, clinical, and public health science compared {#ch05-6}
+
+**In the lab…** (basic/clinical science): mostly experimental; variables
+controlled by the investigator; highly equipment-intensive; all (or most)
+variables known; valid results (usually); replication relatively easy;
+results sometimes uncertain for humans; little need for statistical
+manipulation of data.
+
+**In the community…** (public health / epidemiology): mostly observational;
+variables controlled by "nature"; highly labor-intensive; some variables
+unknown; validity of data often questionable; replication difficult or
+impossible; meaning of results for humans clear; statistical control often
+very important.
+
+Epidemiology is often interested in biological phenomena with normal
+distributions (e.g. blood pressure, birth weight, adult weight, IQ), but
+disease states are often linked to the *tails* of a normally distributed
+phenomenon — epidemiology is generally more interested in the tails than in
+the entire distribution. Examples: a physiologist studies blood pressure,
+the epidemiologist studies **hypertension**; the nutritionist studies adult
+weight, the epidemiologist studies **obesity**.
+
+"A major challenge for epidemiology today is to become an effective
+instrument in the shaping and evaluation of health policies and
+practices… Epidemiologists must obtain and analyse the information needed
+and present it to health planners in such a way that this information can
+be used in policy, planning and evaluation." — Michel Thuriaux, Epidemiology
+and Statistics Unit, WHO Regional Office for Europe, 1992.
+
+However, epidemiologists/public health practitioners most often need to
+act/intervene under conditions of uncertainty, based on the available
+evidence.
+
+### 5.7 Descriptive vs. analytical epidemiology {#ch05-7}
+
+Two types: **Descriptive Epidemiology** and **Analytical Epidemiology**.
+
+Why conduct studies? To describe the burden of disease or prevalence of risk
+factors/health behaviors/other population characteristics influencing
+disease risk; to determine causes or risk factors for illness; to determine
+the relative effectiveness of interventions.
+
+**1. Descriptive Epidemiology**: examines the distribution of a
+disease/behavior/state of health in a defined population, observing the
+features of its distribution by person, place and time. Descriptive studies
+generate hypotheses and answer *What? Who? Where? When?* — describes disease
+occurrence by person, place and time; not intended to confirm causes.
+
+**2. Analytical Epidemiology**: hypothesis-testing; tests a specific
+hypothesis about the relationship between a disease/behavior/state of
+health and a putative cause, by conducting epidemiologic investigations
+relating an exposure of interest to an outcome of interest (or not).
+Answers *How?* and *Why?* The researcher attempts to control external
+influences through careful subject selection and/or statistical
+adjustments; analytic studies measure the association between exposure and
+outcome, include a comparison group, and may use observational or
+experimental study designs.
+
+### 5.8 Determinants of morbidity and mortality: proximate vs. distal {#ch05-8}
+
+- **Proximate determinants**: factors that directly influence the risk of
+  disease and the outcomes of disease processes in individuals.
+- **Distal (underlying) determinants**: social, economic and cultural
+  factors that influence a population's (and its members') health status
+  through one or more proximate causes.
+
+**Proximate determinants of morbidity and mortality**: personal behaviors
+(diet, hygiene, physical activity, alcohol/tobacco use, sexual behavior,
+etc.); environmental exposures (infectious, chemical or physical agents,
+occupational hazards, etc.); nutrition (under-nutrition, micronutrient
+deficiency, obesity); injuries (intentional or accidental); personal
+illness control (specific preventive and sickness-care actions).
+
+**Distal determinants of morbidity and mortality**: socio-economic factors
+(personal/household wealth, community development, women's education and
+employment); institutional factors (health systems, health
+regulations/laws, technological development, environmental interventions);
+cultural factors (traditional beliefs about illness/health, religious
+values, role/status of women, etc.); broader context (political economy,
+transportation and communication systems, etc.).
+
+### 5.9 The epidemiological triad and the 5 rubrics {#ch05-9}
+
+**The Analytical Epidemiological Triad** — Host, Agent, Environment:
+
+1. **Agents**: nutrients, poisons, allergens, radiation, physical trauma,
+   microbes, psychological experiences.
+2. **Host factors**: age, genetic endowment, immunologic state, personal
+   behavior.
+3. **Environment**: crowding, atmosphere, modes of communication (phenomena
+   in the environment that bring host and agent together, such as vector,
+   vehicle, reservoir).
+
+**5 Rubrics of Epidemiology** (Anthony JC et al., 2005) — five questions:
+
+1. **Quantity — "How many?"**: how many people in the population are
+   affected as cases (prevalence), or becoming cases (incidence)?
+2. **Location — "Where?"**: where in the population are affected cases more
+   likely to be found, with respect to person/place/time characteristics,
+   conditions and processes?
+3. **Causes — "Why?"**: what accounts for some people becoming affected and
+   not others?
+4. **Mechanisms — "How?"**: what sequences of states and processes influence
+   who becomes and remains a case, and who does not?
+5. **Prevention & Intervention — "What now?"**: what can be done to prevent
+   or delay onset of suffering, shorten its duration, and reduce the burden
+   of disease on affected cases, their families, and society in general?
+
+### 5.10 Health states of public health importance {#ch05-10}
+
+- **Death** — the public health question is not *whether* but *why and
+  when* (age).
+- **Disease** — a cluster of signs, symptoms and laboratory findings linked
+  by a common patho-physiologic sequence, causing human distress.
+- **Illness** — the subjective state of an individual who feels aware of
+  not being well; the ill person may or may not actually have disease.
+- **Sickness** — the social role assumed by an individual suffering from an
+  illness.
+- **Disability & Handicap** — difficulty performing expected functions,
+  especially those important to ordinary human life (interfering with work,
+  activities of daily living, etc.).
+- **Destitution** — the economic burden imposed by a health state.
+- **Dysfunction, Discomfort, Dissatisfaction** — further named health
+  states.
+
+### 5.11 Natural history of disease in the community {#ch05-11}
+
+A flow model with two components: (a) the **distribution** of health and
+disease, (b) the **factors determining** that distribution. Within "the
+Community": **persons exposed or at risk** → (shaped by factors determining
+disease initiation/risk, +/−) → **persons with disease manifestation** →
+(shaped by factors determining disease manifestation, +/−) → **outcome**
+(shaped by factors determining outcome) → **death / disability / recovery**.
+
+**Natural history of disease, timeline view**: along a **Time** axis, a
+**susceptible host** is either exposed and remains uninfected ("no
+infection," looping back to susceptible host) or becomes infected
+("infection") → progresses to **clinical disease** → resolves to **death**
+or **recovery**. Two overlapping intervals are marked beneath the timeline:
+the **incubation period** runs from *exposure* to *onset* (of clinical
+disease); the **latent period** also runs from *exposure* to *onset*, but
+specifically demarcates when the host becomes **infectious** — the
+infectious period begins at onset and continues afterward. (The incubation
+and latent periods are shown as distinct concepts measured over the same
+exposure→onset span — incubation ends when symptoms begin, latency ends
+when the host becomes able to transmit infection to others, and the two do
+not necessarily coincide.)
+
+**Summary**: epidemiology is the core science of public health because it
+defines health and disease in human populations, describes disease
+etiology, and evaluates public health control efforts — achieved through a
+variety of strategies and methods. Epidemiology is a dynamic science,
+continually evolving new strategies and methods in support of public health
+goals.
+
+"Epidemiology functions as a lens through which a clinician can see along
+the dimension that stretches beyond the individual patient and beyond the
+threshold of the clinic/hospital, toward the population from which the
+patient came." — Anthony et al., 1997.
+
+---
+
+## Source gaps and flagged passages
+
+No passages were flagged as illegible or ambiguous. All 47 vision-read pages
+were clearly legible; the 27 pages that cleared PyMuPDF's char-count
+threshold but carried no real prose (only a running footer/page number) were
+individually force-rendered and read — see the file header for the count.
+Pages that were pure section-divider slides or stock decorative images (e.g.
+"Any Questions?" closing slides, "Public health" street-illustration divider,
+the MDG icon-grid slide once its content was already captured in prose on an
+adjacent text-layer page) contributed no propositional content and are not
+separately cited, since they add nothing beyond the section headings already
+reflected in the chapter structure above.
+
+Two overlapping/duplicate diagrams were both kept rather than merged, since
+neither slide claims to supersede the other:
+- **Ch. 1** (`#ch01-4`) and **Ch. 3** (`#ch03-2`) each contain a natural-
+  history-of-disease / prevention-levels diagram; both are transcribed, since
+  the Ch. 3 version ("The process of diseases and interventions") adds the
+  Wellness→Illness→Disability process row not present in the Ch. 1 version.
+- **Ch. 4** (`#ch04-1`, `#ch04-7`) contains three different visual framings
+  of "Social Determinants of Health" (a 5-domain wheel, an 8-icon AHA list,
+  and a 6-domain KFF breakdown) — all three are given in full rather than
+  collapsed into one canonical list, since they come from different slides
+  and none states it replaces another.
