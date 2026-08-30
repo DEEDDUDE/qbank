@@ -1,7 +1,7 @@
 ---
 course: microbiology
 tab: finals
-scope: three sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
+scope: four sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
   duplicate models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured),
   MICRO-F-001 through 097. (B) raw/finals/before2020-MICRO-FINAL/ — seven-plus
   DISTINCT, unrelated old final exams found tangled together across two raw
@@ -9,10 +9,11 @@ scope: three sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
   other or to sub-collection A), MICRO-F-098 through 390. (C)
   raw/finals/Unknown-Final-Micro/ — one small old microbiology final
   (MICRO-F-391 onward) sparsely captured among a much larger, unrelated
-  Biochemistry exam that shares the same raw folder. Each entry in
-  sub-collections B and C carries a `source:` line naming which exam it came
-  from, since the `models:` mechanism does not apply across unrelated
-  sittings.
+  Biochemistry exam that shares the same raw folder. (D)
+  raw/finals/2020-2021-Final/ — "Exam I", the 2020-2021 sitting, MICRO-F-416
+  through 464. Each entry in sub-collections B, C and D carries a `source:`
+  line naming which exam it came from, since the `models:` mechanism does
+  not apply across unrelated sittings.
 status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and نموذج ٥ (complete, 50/50) done.
   نموذج 3 done, but only 44/50 questions of it: Q35, 36, 45, 46, 47, 48 have no
   screenshot anywhere in the PDF export at all (not even a cut-off header for
@@ -175,14 +176,46 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
   Sub-collections A, B, and C are unrelated exam pools from different years;
   no `models:` cross-matching was attempted between any of them, and the one
   coincidental stem overlap found (Exam C vs MICRO-F-003) was deliberately
-  left unmerged for the same reason. Every count below is computed from the
-  entries that follow, per CLAUDE.md hard rule 6.
-questions: 415
-tiers: claimed 403 | open 12
-forms: mcq 361 | qa 54
-disputed: 20
-needs-eye: 15
-next-id: MICRO-F-416
+  left unmerged for the same reason.
+
+  Sub-collection D (raw/finals/2020-2021-Final/, 30 vision pages, all
+  Messenger "received_*" phone photos) turned out to be several different
+  students' Moodle attempts of the same 2020-2021 final exam bank, mixed
+  together in one folder — never labelled with نموذج numbers, but provable
+  from the evidence itself: the same question content resurfaces at
+  different question numbers across photos (e.g. one stem appears as both
+  Q26 and Q44), with independently reshuffled option order each time, and
+  two different attempt IDs are directly visible in captured browser URLs
+  (attempt=465897 and attempt=466083). Merged by stem text like every other
+  multi-capture exam in this file, tagged `source: Exam I` throughout rather
+  than a `models:` list since no clean attempt/model numbering exists to
+  hang one on. One genuine disagreement between two attempts survived
+  merging (MICRO-F-422, Bacillus anthracis exotoxins). A recurring artefact
+  in several photos: the badge reads "Not yet answered" while the radio is
+  visibly filled (the same late-click-before-autosave pattern documented for
+  pharmacology's 2020-2021 finals row) — read as a real claim per that
+  precedent, noted on each affected entry (MICRO-F-444, 445, 455, 456, 457).
+  4 questions are needs-eye: two stems were cut off entirely by the photo's
+  frame with no fuller capture anywhere else in the batch (MICRO-F-418,
+  459), one lost everything but its first option the same way (MICRO-F-421),
+  and one lost its stem and first option but kept the last three
+  (MICRO-F-448). Cross-checking sub-collection D against A/B/C surfaced one
+  exact cross-sitting match (MICRO-F-224, corroborated, not merged into a
+  new ID) and completed one previously-incomplete entry from sub-collection
+  C (MICRO-F-408, was needs-eye, now resolved). Two more looked like matches
+  at first but turned out to test the same fact with a materially different
+  option set — kept separate as near-misses per the project's established
+  precedent for this shape of overlap (MICRO-F-401 vs MICRO-F-424; MICRO-F-
+  024 vs MICRO-F-433).
+
+  Every count below is computed from the entries that follow, per CLAUDE.md
+  hard rule 6.
+questions: 464
+tiers: claimed 449 | open 15
+forms: mcq 410 | qa 54
+disputed: 21
+needs-eye: 18
+next-id: MICRO-F-465
 ---
 
 ### MICRO-F-001
@@ -2858,6 +2891,8 @@ form: mcq
 type: single
 claimed: a
 source: Exam C, p2
+note: Same stem and answer also seen in the 2020-2021-Final sitting (Exam
+  I), options reshuffled — corroborates rather than disputes.
 a Interferon is effective in the treatment of
 a) Chronic hepatitis B
 b) Acute hepatitis B
@@ -5373,15 +5408,20 @@ a) True
 b) False
 
 ### MICRO-F-408
-tier: open
+tier: claimed
 form: mcq
-needs-eye: true
+type: single
+claimed: a
 source: Exam H, Q37
-note: Both the stem and the option list are cut off by the photo's edge —
-  only the question header and its opening words are legible. Genuinely
-  incomplete capture, not a read failure.
-Pseudomembranes are inflammatory bacterial effect(s) [remainder of stem and
-all options not captured]
+note: Originally captured here with the stem and option list cut off by the
+  photo's edge — completed from a full capture of the same question found
+  in the 2020-2021-Final sitting (Exam I), same stem, same wording.
+Pseudomembranes are inflammatory bacterial effect/mechanism that?
+a) Are characteristic of both diphtheria and pseudomembranous colitis
+   infections
+b) Are predominant as adherent yellowish exudates only on throat infection.
+c) Are produced due the inability of phagocyte cells to kill bacteria
+d) Are only formed on colon infections
 
 ### MICRO-F-409
 tier: claimed
@@ -5473,3 +5513,683 @@ a) Vancomycin
 b) Polymyxin E
 c) Gentamicin
 d) Azithromycin
+
+### MICRO-F-416
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+The most characteristic of changes seen in cytomegalovirus-infected cells?
+a) Eosinophilic cytoplasmic inclusions of neurons
+b) Multinucleated giants cells composed of neurons
+c) Eosinophilic cytoplasmic inclusions of macrophages
+d) Owl's eye inclusion
+
+### MICRO-F-417
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam I
+One of the following pathogens is likely to establish chronic infection?
+a) Hepatitis A virus
+b) Hepatitis B virus
+c) Herpes simplex virus
+d) Influenza virus
+
+### MICRO-F-418
+tier: open
+form: mcq
+needs-eye: true
+source: Exam I
+note: Photo captured only the tail end of this question's stem, cut off at
+  the top of the frame before any options appear — no fuller capture of it
+  turned up elsewhere in this batch.
+Which of the following molecules/structures do not play role in bacterial
+cell adhesion to host cell surfaces?
+[options not captured — page cut off before any appeared]
+
+### MICRO-F-419
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Some strains of S. aureus are tolerant to the action of penicillin because?
+a) Autolytic enzymes are activated
+b) Production of beta lactamase
+c) Changes of penicillin-binding proteins
+d) Autolytic enzymes are not activated
+
+### MICRO-F-420
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam I
+note: Seen twice across two different captures, options reshuffled between
+  them but the same answer (the "kills the bacteria isolated from the
+  patient" definition) marked both times — no dispute.
+MBC defined as?
+a) MBC is the lowest concentration of antibiotic in the patient's serum that
+   inhibits the activity of a standard dose of antibiotic.
+b) MBC is the lowest concentration of antibiotic that kills the bacteria
+   isolated from the patient.
+c) MBC is the lowest concentration of antibiotic that inhibits the growth of
+   the bacteria isolated from the patient.
+d) MBC is the lowest concentration of the bacteria isolated from the patient
+   that inhibits the activity of a standard dose of antibiotic
+
+### MICRO-F-421
+tier: open
+form: mcq
+needs-eye: true
+source: Exam I
+note: Page cut off after the stem and its first option — only "a)
+  Chlorhexidine" is legible, no radio mark visible, and no other option or a
+  fuller capture of this question turned up elsewhere in the batch.
+The most commonly used disinfectant to disinfect surgeon's hands prior to
+surgery is?
+a) Chlorhexidine
+[remaining options not captured — page cut off]
+
+### MICRO-F-422
+tier: claimed
+form: mcq
+type: single
+disputed: true
+claims:
+  - source: one Moodle attempt (numbered Q29 in its own capture)
+    answer: c (Edema factor is an adenylate cyclase (increases cAMP))
+  - source: a second Moodle attempt (numbered Q4 in its own capture)
+    answer: b (All the options are correct)
+source: Exam I
+note: Distinct from MICRO-F-406 (Exam H) — that question asks about the same
+  organism/exotoxins but frames it as an EXCEPT question with a "None of
+  them" option; this one has no "except" and asks which statement
+  characterizes the exotoxins directly.
+Bacillus anthracis bacteria is characterized by having the following
+exotoxins?
+a) Protective antigen forms pores in the human cell membrane
+b) All the options are correct
+c) Edema factor is an adenylate cyclase (increases cAMP).
+d) Lethal factor is a protease that cleaves phosphokinase.
+
+### MICRO-F-423
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+Which one of the following viruses that causes malignant transformation?
+a) Hepatitis A virus
+b) Poliovirus
+c) Influenza virus
+d) Hepatitis B virus
+
+### MICRO-F-424
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+note: Shares its stem with MICRO-F-401 (Exam H) but the option set differs
+  (this one offers "Contaminated food and water" and "Insect vectors" where
+  MICRO-F-401 offers "Gastrointestinal via contaminated food and water" and
+  "Animal to human") and the two claim different answers — kept separate as
+  a near-miss rather than merged or marked disputed, since they are not the
+  same question.
+The most common rout of fungal infection is?
+a) Skin penetration.
+b) Insect vectors
+c) Contaminated food and water
+d) Inhalation through lungs.
+
+### MICRO-F-425
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+Viruses that both translate their messenger RNA into precursor
+polypeptides?
+a) HIV & Hepatitis C virus
+b) Hepatitis B virus & Hepatitis C virus
+c) Measles virus & Influenza virus
+d) Rabies virus & Influenza virus
+
+### MICRO-F-426
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+All of the following viruses are transmitted from person to person in
+respiratory aerosol droplets EXCEPT?
+a) Measles virus
+b) Respiratory Syncytial virus
+c) Influenza virus
+d) Rhinovirus
+
+### MICRO-F-427
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+All of the following regarding Fusion of virus-infected cells are CORRECT
+except?
+a) Produces malignant transformation
+b) Is characteristically form after infection of respiratory syncytial
+   virus
+c) Is characteristically form after infection with herpes viruses
+d) Produces multinucleated giant cells
+
+### MICRO-F-428
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+Live viral vaccines are preferable to killed vaccines
+a) All statements are true
+b) They activate cytotoxic T cells
+c) Induce a broader range of antibodies IgA and IgG
+d) Induce a higher antibody
+
+### MICRO-F-429
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+Formation of Pseudomembrane is an exotoxin mechanism of action that adapted
+by the following organisms?
+a) Bacillus anthracis exotoxins
+b) Clostridium perfringens (alpha toxins).
+c) Clostridium botulinum exotoxins
+d) Clostridium difficile exotoxin B
+
+### MICRO-F-430
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+[S]higella and Listeria are able to move inside host eukaryotic cells, this
+is mediated by the action of?
+a) Propelling themselves with their flagella
+b) Moving along host microtubule tracks
+c) Extending pseudopods within the host cell
+d) Causing host-derived actin to polymerize behind them.
+
+### MICRO-F-431
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+Toxoplasma gondii is a parasite that can cause infection in human being
+through which of the following rout(s)?
+a) Transplacental invasion / from mother to embryo.
+b) Sexual transmission.
+c) both Transplacental invasion and sexual transmission
+d) An insect vector that can transmit the infective stage
+
+### MICRO-F-432
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Certain viruses continue to produce significant amounts of the virus for
+long period, this state can follow a symptomatic infection or actual
+infection. This state is?
+a) Prodrome state
+b) Latent state
+c) Carrier state
+d) Decoys state
+
+### MICRO-F-433
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+note: Tests the same fact as MICRO-F-024 (2023-2024 sitting) but in a
+  different shape — that one is a True/False statement, this one is a
+  4-option MCQ — kept separate rather than merged.
+Main site of action of acyclovir?
+a) Viral genome DNA synthesis
+b) Viral mRNA synthesis
+c) Viral protein synthesis
+d) Attachment of virus
+
+### MICRO-F-434
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+Palestinian vaccination system includes all of the following vaccines as
+obligatory ones EXCEPT
+a) Hepatitis B vaccine
+b) Polio vaccine
+c) BCG
+d) Hepatitis A vaccine
+
+### MICRO-F-435
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Each of the following statements about both influenza virus and measles
+virus is FALSE Except?
+a) They are DNA viruses
+b) They are enteric viruses
+c) Influenza virus has several antigenic types while measles has a single
+   antigenic type
+d) They have reverse transcriptase
+
+### MICRO-F-436
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Which of the following molecule(s) are the main components of fungi cell
+wall?
+a) Cellulose and pectin
+b) Pepitoglycan
+c) β-Glucan and chitin
+d) Silicic acid
+
+### MICRO-F-437
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Infection by Cryptococcus neoformans will mainly cause?
+a) Hepatitis
+b) Septic shock
+c) Meningitis
+d) Pneumonia
+
+### MICRO-F-438
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Choose the CORRECT answer regarding DNA polymerase of Hepatitis B virus?
+a) Amantadine affect DNA polymerase
+b) Has DNA-dependent activity only
+c) Has RNA-dependent activity only
+d) Has both DNA-dependent and RNA-dependent activity
+
+### MICRO-F-439
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+All of the following are TRUE regarding fluroquinolones EXCEPT?
+a) Are active against narrow range of organisms
+b) Block bacterial DNA synthesis
+c) Ciprofloxacin is an effective antibiotic in treatment of urinary tract
+   infections
+d) Are bactericidal drugs
+
+### MICRO-F-440
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+Bacterial Virulence?
+a) Is measured by the number of organisms required to cause disease
+b) All bacterial cells have similar virulence rate of infection
+c) Virulence rate is affected by bacterial exotoxins.
+d) Organisms with a higher LD50 are more virulent than those with a lower
+   LD50
+
+### MICRO-F-441
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Which of the following characteristics is not describing a fungi?
+a) Some fungi are an obligatory intracellular pathogens
+b) Some fungi are single cells
+c) Some fungi are multicellular pathogenic organisms
+d) Some parts of fungi are multinucleated
+
+### MICRO-F-442
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+All of the following viruses contain a single copy of their genome EXCEPT?
+a) Hepatitis B
+b) Hepatitis A
+c) HIV
+d) Herpes Simplex Virus - 1
+
+### MICRO-F-443
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: Exam I
+The counterstain of the Gram staining is?
+a) Crystal violet
+b) Carbol fuchsin
+c) Methylene blue
+d) Eosin
+e) Safranin
+
+### MICRO-F-444
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+note: One capture showed the radio for (a) filled while the badge still
+  read "Not yet answered"; a separate, cleaner capture of the same question
+  showed the same answer confirmed under "Answer saved" — used as the basis
+  for the claim.
+Comparing blood protozoan parasites with intestinal protozoan parasite,
+which of the following sentence(s) is correct?
+a) Blood protozoan parasties include more pathogenic fatal parasitic
+   species.
+b) Have similar stages (trophozoite and cysts) in their life cycle
+c) Both groups need a vector to be transmitted.
+d) Anopheles mosquito (female) is able to transmit most of blood protozoan
+   parasites
+
+### MICRO-F-445
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+note: Radio for (c) was filled but the badge still read "Not yet answered"
+  at capture time — recorded as the claim per the same discrepancy pattern
+  as MICRO-F-444.
+Viral envelope?
+a) Is derived mostly from cell nuclear membrane
+b) Provides stability to virus
+c) Is lipoprotein membrane
+d) Is lipoprotein membrane and provides stability to virus
+
+### MICRO-F-446
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+Which of the following parasites could cause infection or recovered from
+human liver?
+a) Entamoeba histolytica
+b) Cryptosporidium
+c) Leishmania major
+d) Both Entamoeba histolytica and Leishmania major
+
+### MICRO-F-447
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+The portal of entry to all of the following is the gastrointestinal tract
+EXCEPT?
+a) Polio virus
+b) Hepatitis A
+c) Hepatitis B
+d) Rotavirus
+
+### MICRO-F-448
+tier: open
+form: mcq
+needs-eye: true
+source: Exam I
+note: Photo begins mid-question — the stem and first option are missing
+  entirely, only the last three options survive. No other capture in this
+  batch supplied the missing stem, and none of the other virus-EXCEPT-style
+  questions in this file share this exact option set, so it could not be
+  matched to an existing entry either.
+[stem not captured — page begins mid-question]
+b) Poliovirus
+c) Influenza virus
+d) Coronavirus
+
+### MICRO-F-449
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+note: Also seen unanswered ("Not yet answered") in a second capture with the
+  same four choices in a different order — contributes no claim, not shown
+  separately.
+Regarding bacteriostatic antibiotics which of the following is true?
+a) MIC >>>> MBC
+b) MIC > MBC
+c) MBC >>>> MIC
+d) MBC > MIC
+
+### MICRO-F-450
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam I
+note: Also seen unanswered ("Not yet answered") in a second capture with
+  slightly different wording ("...following pathogens EXCEPT" vs "...
+  following EXCEPT") and reordered options — contributes no claim, not
+  shown separately.
+The screening of donated blood of human has greatly reduced the risk of
+infection by specific pathogens, donated blood is screened for all of the
+following pathogens EXCEPT?
+a) Hepatitis C
+b) Herpes simplex virus type 1
+c) HIV
+d) Hepatitis B
+
+### MICRO-F-451
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Techoic acid is?
+a) Influence the permeability of the membrane
+b) Make up outer wall of Gram negative bacteria
+c) Found in the walls of Gram positive bacteria.
+d) Provide receptors for phages.
+
+### MICRO-F-452
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+The biologic effects of endotoxin include the following except?
+a) Prevents phagocytic activity of macrophages
+b) Fever due to the release of endogenous pyrogen
+c) Vasodilation, and increased capillary permeability
+d) Inflammation and tissue damage due to activation of the alternative
+   complement pathway
+
+### MICRO-F-453
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+note: Seen twice, options reshuffled between captures but the same combined
+  answer ("Treponema and Mycoplasma") marked both times — no dispute.
+The following bacteria cannot be seen by Gram stain?
+a) Treponema
+b) Mycoplasma.
+c) Salmonella
+d) Treponema and Mycoplasma.
+
+### MICRO-F-454
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Which one of the following outcomes is associated with herpes simplex
+infection?
+a) Nasopharyngeal carcinoma
+b) Chronic persistent infection
+c) Establishment of latent infection
+d) Persistent asymptomatic viremia
+
+### MICRO-F-455
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+note: Seen twice, both times with the radio for (a) filled while the badge
+  still read "Not yet answered" — recorded as the claim per the same
+  discrepancy pattern as MICRO-F-444/445, reinforced by a second consistent
+  sighting.
+Which of the following mechanisms can be adopted by Exotoxin A subunit?
+a) ADP-ribosylation that inactivate proteins (such as elongation factor 2).
+b) ADP-ribosylation that inactivate proteins as in cholera toxins and Gs
+   protien.
+c) All the mentioned mechanisms can be used
+d) ADP-ribosylation that hyperactivate Gi protein as in Pertussis toxin
+
+### MICRO-F-456
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+note: Radio for (c) was filled but the badge still read "Not yet answered"
+  at capture time — recorded as the claim per the same discrepancy pattern
+  as MICRO-F-444.
+Regarding gram stain, the correct order of staining reagents is?
+1- alcohol
+2- crystal violet
+3- safranin
+4- iodine
+a) 3,1,4,2
+b) 2,1,4,3
+c) 2,4,1,3
+d) 3,4,1,2
+
+### MICRO-F-457
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam I
+note: Radio for (b) was filled but the badge still read "Not yet answered"
+  at capture time — recorded as the claim per the same discrepancy pattern
+  as MICRO-F-444.
+Which of the following parasites has an intracellular stage during its life
+cycle?
+a) Echinococcus
+b) Leishmania
+c) Entamoeba histolytica
+d) Giardia.
+
+### MICRO-F-458
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam I
+Regarding Herd Immunity, choose the most accurate answer can be achieved by
+a) The live attenuated polio vaccine can produce herd immunity because it
+   induces intestinal IgA
+b) killed polio vaccine can provide herd immunity
+c) can be achieved by administration of prepared antibodies
+d) The live attenuated polio vaccine can provide herd immunity
+
+### MICRO-F-459
+tier: open
+form: mcq
+needs-eye: true
+source: Exam I
+note: Page cut off right after the stem's opening word — only "Enterotoxins
+  of..." survives, no options captured at all, and no fuller capture of
+  this question turned up elsewhere in the batch.
+Enterotoxins of...
+[remainder of stem and all options not captured]
+
+### MICRO-F-460
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam I
+Regarding both vancomycin and penicillin which of the following is the
+CORRECT?
+a) They should not be given together because they are antagonistic
+b) Both are narrow spectrum antibiotics
+c) Both act at the level of cell wall
+d) Mode of action for both antibiotics is based on blocking of mRNA
+   synthesis
+
+### MICRO-F-461
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam I
+Gram positive bacteria shows purple discoloration after gram staining due
+to?
+a) A thicker peptidoglycan layer
+b) capsule
+c) A periplasmic space
+d) A lipopolysaccharides layer
+
+### MICRO-F-462
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+img: flagged/MICRO-F-462.jpg
+This figure represents the Epsilometer test ( E-test ), " D " point
+represents?
+a) E- point
+b) Mc-ferland
+c) MLC
+d) MIC
+
+### MICRO-F-463
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+Sulfamethoxazole acts synergistically with?
+a) Cephalosprins
+b) Rifampin
+c) Amoxicillin
+d) Tripethoprim
+
+### MICRO-F-464
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam I
+Regarding Double-stranded RNA viruses, choose the CORRECT answer?
+a) The virus uses host polymerase
+b) The virus has reverse transcriptase
+c) Plus strand can be used as mRNA
+d) The virus carries its own polymerase
