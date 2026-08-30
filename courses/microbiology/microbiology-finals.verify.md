@@ -1,20 +1,21 @@
 ---
 course: microbiology
 tab: finals
-scope: IN PROGRESS — MICRO-F-001 through 390 verified so far (batches 01-02
-  covered 001-076, both نموذج 1 and نموذج ٥ of the 2023-2024 sitting; this
-  session covers 077-390, the rest of that sitting's models plus the entire
-  before2020-MICRO-FINAL sub-collection — Exams A, B, C, D, G, E, F). Split
-  from the 555-question row-31 target because it exceeded the ~421-question
-  single-session ceiling; MICRO-F-391 through 631 (Unknown-Final-Micro's
-  Exam H, the 2020-2021 sitting's Exam I, the 2017 resit's Exam J, and Exam
-  K/L) remain for a follow-up session before Job D can run.
-questions: 390
-verified: 283
-conflict: 12
-external: 87
-not-in-source: 6
-needs-eye: 2
+scope: COMPLETE — all 631 finals questions verified. Batches 01-02 covered
+  001-076 (نموذج 1 and نموذج ٥ of the 2023-2024 sitting). A two-part session
+  covered the rest: part 1 (077-390) completed that sitting's remaining
+  models plus the entire before2020-MICRO-FINAL sub-collection (Exams A, B,
+  C, D, G, E, F); part 2 (391-631) covered Unknown-Final-Micro's Exam H,
+  the 2020-2021 sitting's Exam I, the 2017 resit's Exam J, and Exam K/L
+  (before2020-2018-course). Split across sessions because the full 555-
+  question row-31 target exceeded the ~421-question single-session
+  ceiling. Job D can now build the finals output file.
+questions: 631
+verified: 452
+conflict: 54
+external: 109
+not-in-source: 8
+needs-eye: 8
 ---
 
 ### MICRO-F-001
@@ -3443,3 +3444,2059 @@ note: Job A flagged this needs-eye over a conflict between the circled
   infection except cholera", implying c). The source's explicit
   local-vs-systemic framing supports the handwritten conclusion (c) over
   the circled mark.
+
+### MICRO-F-391
+status: needs-eye
+note: The answer options were never captured (the photo cuts off before
+  the option list) — genuinely unresolvable without them, even though the
+  culture-plate image itself was flagged and saved to flagged/MICRO-F-391.jpg.
+
+### MICRO-F-392
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 16 — Parasitology {#ch16-5}
+evidence: "anemia is prominent" is explicitly listed among malaria's
+  (Plasmodium) clinical findings. Entamoeba histolytica and fetal
+  Toxoplasma infection are not described anywhere as causing anemia.
+note: The circulating file marks (a). The source directly supports
+  Plasmodium as the anemia-causing organism among these options.
+
+### MICRO-F-393
+status: conflict
+answer: a
+claimed: d
+basis: Ch. 16 — Parasitology {#ch16-6}; general parasitology (Echinococcus's
+  definitive host is the dog, not humans)
+evidence: The source explicitly states "the definitive host [of Toxoplasma
+  gondii] is the domestic cat," not humans — ruling out (c) and (d).
+  Echinococcus granulosus's definitive host is similarly the dog (standard
+  parasitology; the source calls it the "dog tapeworm"), with humans as an
+  accidental intermediate host (hydatid cysts) — ruling out (c) as well. By
+  elimination, and because Giardia's life cycle occurs entirely within a
+  single host with no distinct intermediate stage, it best fits the
+  question's intent among these four.
+note: The circulating file marks (d). The source directly contradicts the
+  Toxoplasma component of that answer.
+
+### MICRO-F-394
+status: verified
+answer: a
+basis: Ch. 12 — Viral Replication {#ch12-2}
+evidence: "Specific surface receptors of the virion attach to specific
+  receptors on the cell surface; this attachment determines the host range
+  (and organ specificity) of the virus."
+
+### MICRO-F-395
+status: verified
+answer: b
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-2}
+evidence: "Heat-sensitive instruments are usually sterilized by exposure to
+  ethylene oxide gas" — the prose singles out ethylene oxide as the "usual"
+  choice, though the table separately lists glutaraldehyde as an
+  alternative for the same category.
+
+### MICRO-F-396
+status: conflict
+answer: c
+claimed: b
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-9}; Ch. 15 —
+  Introduction to Mycology {#ch15-3}
+evidence: Bacterial endospores (as in Clostridium tetani) are explicitly a
+  survival/dormancy structure with "no metabolic activity," not a
+  reproductive mechanism — one cell forms one spore with no increase in
+  cell number. Fungal spores, by contrast, are described specifically as
+  how fungi "reproduce" (sexual and asexual spore types). Grouping C.
+  tetani with fungi as organisms that "reproduce by spore production"
+  conflates a survival structure with true reproduction.
+note: The circulating file marks (b). The source's framing of bacterial
+  spores as purely survival structures argues against including C. tetani.
+
+### MICRO-F-397
+status: conflict
+answer: b
+claimed: d
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: The "within birth canal/at birth" table explicitly lists
+  "Hepatitis B virus | Hepatitis B." Coronavirus does not appear anywhere
+  in the source's vertical-transmission tables.
+note: The circulating file marks (d). The source directly names hepatitis
+  B as a birth-canal-transmitted virus.
+
+### MICRO-F-398
+status: verified
+answer: c
+basis: Ch. 9 — Antibiotics {#ch09-3}, {#ch09-5}
+evidence: Bacitracin and cycloserine are both explicitly named cell-wall-
+  active antibiotics; methicillin is a penicillin (cell wall). Rifampin is
+  instead an "RNA synthesis inhibitor... inhibits mRNA synthesis."
+
+### MICRO-F-399
+status: not-in-source
+note: This vignette describes an aerobic filamentous "fungus-like"
+  bacterium with prokaryotic ribosomes — classically Nocardia. Standard
+  first-line treatment for Nocardia is trimethoprim-sulfamethoxazole, which
+  is not among the four options offered, and the source does not cover
+  Nocardia or its treatment at all, so no confident answer can be given
+  among the choices presented.
+
+### MICRO-F-400
+status: verified
+answer: b
+basis: Ch. 12 — Viral Replication {#ch12-3}
+evidence: Retroviruses reverse-transcribe their positive-sense RNA genome
+  into double-stranded DNA; once integrated, host RNA polymerase
+  transcribes new positive-sense viral mRNA using the negative (antisense)
+  strand of the proviral DNA as template — standard transcription
+  convention, matching (b).
+
+### MICRO-F-401
+status: verified
+answer: d
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: Coccidioides immitis and Histoplasma capsulatum are both listed
+  under "Respiratory tract" portal of entry — inhalation is the classic
+  route for the major systemic fungal pathogens.
+
+### MICRO-F-402
+status: verified
+answer: b
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: Endotoxins, not exotoxins, are specifically defined as
+  lipopolysaccharides — "bacterial species producing LPS-type exotoxins" is
+  a contradiction in terms, since LPS is endotoxin's defining chemistry.
+
+### MICRO-F-403
+status: verified
+answer: c
+basis: Ch. 14 — Antiviral Agents {#ch14-4}
+evidence: "Protease inhibitors: HIV protease inhibitors — ritonavir,
+  nelfinavir."
+
+### MICRO-F-404
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-9}
+evidence: Spore-forming organisms like C. botulinum require autoclaving
+  (121°C under pressure) — boiling and pasteurization are both insufficient
+  against spores.
+
+### MICRO-F-405
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Tetanus toxin and botulinum toxin — neurotoxins that prevent
+  neurotransmitter release" — both named together as neurotoxins.
+
+### MICRO-F-406
+status: conflict
+answer: a
+claimed: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: All three specific toxin descriptions match the source exactly:
+  "lethal factor (a protease that cleaves phosphokinase)," "edema factor
+  (an adenylate cyclase, increases cAMP)," and "protective antigen (forms
+  pores in the human cell membrane)" — B. anthracis's three real exotoxins.
+  "None of them" (a) is the statement that doesn't describe an actual
+  exotoxin property and is the one that doesn't fit, since anthrax clearly
+  does produce these three toxins.
+note: The circulating file marks (d), "protective antigen forms pores" —
+  but that statement is factually accurate per the source, making it a
+  poor fit for the "except." (a) is the statement that doesn't hold up.
+
+### MICRO-F-407
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-4}
+evidence: "Single determinant of virulence: toxin (Clostridium tetani,
+  Corynebacterium diphtheriae)" — confirms tetani has a single virulence
+  determinant regardless of the cut-off word in the stem.
+
+### MICRO-F-408
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "Diphtheria and pseudomembranous colitis are both characterized
+  by inflammatory lesions called pseudomembranes" — an exact match.
+
+### MICRO-F-409
+status: verified
+answer: b
+basis: Ch. 9 — Antibiotics {#ch09-1}
+evidence: "Use of antibiotic combinations: for serious infections, for
+  synergistic inhibitory effect, and to prevent the emergence of resistant
+  mutants" — confirms all three listed reasons (a, c, d) are genuine uses,
+  supporting the compound "all of the above" answer over "synergistic
+  effect" alone.
+note: Disputed source (Exam H: b, "all of the statements are true"; Exam
+  J printed key: c, "achieve synergistic effect" alone; Exam J hand-drawn
+  circle: "all of the above," agreeing with Exam H). The source confirms
+  all three listed reasons, supporting the compound answer.
+
+### MICRO-F-410
+status: conflict
+answer: c
+claimed: d
+basis: Ch. 15 — Introduction to Mycology {#ch15-5}
+evidence: "aflatoxins... produced by Aspergillus flavus" — directly names
+  Aspergillus, not Amanita (a different mycotoxicosis, mushroom poisoning)
+  or Claviceps purpurea (ergotism).
+note: The circulating file marks (d), Amanita. The source explicitly
+  attributes aflatoxin production to Aspergillus flavus.
+
+### MICRO-F-411
+status: verified
+answer: d
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: Zoonotic/pet transmission, breast milk, and foodborne routes are
+  all well-documented as significant bacterial transmission routes in the
+  source's tables. Active skin penetration by bacteria is comparatively
+  rare (though not entirely absent — the source lists Pseudomonas
+  aeruginosa causing hot-tub folliculitis via skin penetration), making it
+  the least significant of the four overall.
+
+### MICRO-F-412
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 9 — Antibiotics {#ch09-5}
+evidence: "Sulfonamides... Combined with trimethoprim to treat UTIs,
+  Pneumocystis carinii pneumonia, ear infections, bronchitis, and
+  gonorrhea" — the classic TMP-SMX combination, not rifampin.
+note: The circulating file marks (a), Rifampin. The source directly names
+  sulfamethoxazole as trimethoprim's synergistic partner.
+
+### MICRO-F-413
+status: needs-eye
+note: The 4th option was never captured (cut off at the photo's edge).
+  Independently, diphtheria toxin, botulinum toxin, and tetanus toxin (a,
+  b, c) are all confirmed A-B subunit exotoxins per the source (Ch.7-8),
+  making it likely the missing (d) is the intended exception — but its
+  content is unknown, so no answer can be recorded.
+
+### MICRO-F-414
+status: verified
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-2}; external for Toxoplasma's
+  opportunistic classification
+evidence: "Potential (opportunistic) pathogens — normal bacterial flora
+  such as Staphylococcus aureus, Streptococcus pneumoniae..." explicitly
+  names S. pneumoniae; Toxoplasma is similarly well-established as an
+  opportunistic pathogen via reactivation in immunocompromised (AIDS)
+  patients — standard teaching.
+
+### MICRO-F-415
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Polymyxin E (colistin) is classically associated with poor
+  selective toxicity — its membrane-disrupting mechanism also affects
+  human cells, causing significant nephro/neurotoxicity, unlike vancomycin,
+  gentamicin, and azithromycin, which act through more bacteria-specific
+  targets — standard pharmacology teaching.
+
+### MICRO-F-416
+status: verified
+answer: d
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}
+evidence: "owl's eye inclusion — seen in the nucleus of cytomegalovirus-
+  infected cells."
+
+### MICRO-F-417
+status: verified
+answer: b
+basis: Ch. 13 — Viral Pathogenesis {#ch13-7}
+evidence: "chronic hepatitis B and hepatitis C virus carriers" is listed
+  under chronic-carrier persistent infections; the source's own three-type
+  taxonomy separates this from herpesviruses' "latent" category, making
+  hepatitis B the better fit for a question specifically about "chronic"
+  infection.
+
+### MICRO-F-418
+status: needs-eye
+note: Options were never captured (page cut off before any appeared) —
+  genuinely unresolvable.
+
+### MICRO-F-419
+status: conflict
+answer: d
+claimed: c
+basis: external — not covered in course material
+evidence: Standard pharmacology teaching: penicillin "tolerance" (as
+  distinct from resistance) in S. aureus is specifically attributed to
+  failure of autolytic enzymes to activate after PBP inhibition — cell wall
+  synthesis is blocked but the autolysin-mediated lysis step doesn't
+  follow, so the organism survives without being genuinely resistant.
+  Altered PBP is instead the mechanism of true resistance (e.g., MRSA), a
+  different phenomenon from tolerance.
+note: The circulating file marks (c). The question specifically asks about
+  "tolerance," which standard pharmacology attributes to defective
+  autolysin activation, not PBP alteration.
+
+### MICRO-F-420
+status: verified
+answer: b
+basis: Ch. 9 — Antibiotics {#ch09-1}
+evidence: MBC (minimum bactericidal concentration) is named alongside MIC
+  (minimum inhibitory concentration) — definitionally, "bactericidal" means
+  killing the organism, matching (b) exactly.
+
+### MICRO-F-421
+status: verified
+answer: a
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-2}
+evidence: "Disinfect surgeon's hands prior to surgery | Chlorhexidine" — a
+  direct, exact match.
+note: Job A flagged this needs-eye due to the missing remaining options;
+  the source directly confirms Chlorhexidine regardless, resolving the
+  tier from open to verified.
+
+### MICRO-F-422
+status: verified
+answer: b
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: Protective antigen forming pores, edema factor as adenylate
+  cyclase, and lethal factor as a protease are all independently confirmed
+  true — since all three specific statements are individually correct, the
+  compound answer "all options are correct" is the intended single answer.
+note: Disputed source (one Moodle attempt: c, edema factor; a second
+  attempt: b, all options correct). The source supports the compound
+  answer over any single specific statement.
+
+### MICRO-F-423
+status: verified
+answer: d
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}
+evidence: "hepatitis B virus (HBV) — liver cancer" via malignant
+  transformation.
+
+### MICRO-F-424
+status: conflict
+answer: d
+claimed: c
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: Same reasoning as MICRO-F-401 — Coccidioides immitis and
+  Histoplasma capsulatum are both listed under "Respiratory tract" portal
+  of entry, making inhalation the standard route for major systemic
+  fungal pathogens, not contaminated food/water.
+note: The circulating file marks (c). The source supports inhalation (d)
+  as the common fungal entry route, consistent with MICRO-F-401's
+  independent resolution for the same underlying fact.
+
+### MICRO-F-425
+status: conflict
+answer: a
+claimed: d
+basis: Ch. 12 — Viral Replication {#ch12-3}; Ch. 14 — Antiviral Agents
+  {#ch14-4}
+evidence: The source explicitly names HIV and hepatitis C virus as using
+  precursor-polypeptide translation followed by protease cleavage:
+  "protease inhibitor drugs inhibit these cleaving enzymes (as in hepatitis
+  C virus and yellow fever virus)" and "Inhibit the HIV protease required
+  to process HIV gag precursors into mature gag... proteins." Neither
+  rabies nor influenza is described this way anywhere in the source.
+note: The circulating file marks (d). The source directly supports (a),
+  HIV and Hepatitis C virus.
+
+### MICRO-F-426
+status: verified
+answer: d
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "Rhinoviruses (transmitted by respiratory droplets) are more
+  resistant because they are naked nucleocapsid viruses (also transmissible
+  by hands)" — while droplet spread is not entirely excluded for rhinovirus
+  per this phrasing, its structural stability makes hand/fomite
+  transmission comparatively more significant for it than for the fragile
+  enveloped viruses (measles, RSV, influenza), which depend on droplets
+  much more exclusively.
+
+### MICRO-F-427
+status: verified
+answer: a
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}
+evidence: Fusion/multinucleated giant cell formation and malignant
+  transformation are described as two distinct, separate cell-level
+  effects of viral infection — fusion does not itself cause malignant
+  transformation; they are independent outcomes.
+
+### MICRO-F-428
+status: verified
+answer: a
+basis: external — not covered specifically in course material
+evidence: Live-attenuated vaccines replicate within the host, activating
+  cytotoxic T-cell responses and broader mucosal (IgA) and systemic (IgG)
+  antibody responses more effectively than killed vaccines — standard
+  immunology, supporting all three individual claims and the compound
+  answer.
+
+### MICRO-F-429
+status: verified
+answer: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Exotoxin B (tcdB) is a cytotoxin that damages colonic mucosa and
+  causes pseudomembranes to form."
+
+### MICRO-F-430
+status: conflict
+answer: d
+claimed: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "Listeria monocytogenes aggregates actin filaments on its surface
+  and is propelled in a 'sling-shot' fashion (actin rockets) from one host
+  cell to another" — host-derived actin polymerizing behind the bacterium,
+  matching (d) exactly, not flagellar movement.
+note: The circulating file marks (a), flagella. The source explicitly
+  describes actin-based "rocket" propulsion (Shigella uses the same
+  well-established mechanism).
+
+### MICRO-F-431
+status: verified
+answer: a
+basis: Ch. 16 — Parasitology {#ch16-6}
+evidence: "congenital (transplacental) transmission" is listed as one of
+  Toxoplasma's three routes of human infection.
+
+### MICRO-F-432
+status: verified
+answer: c
+basis: Ch. 13 — Viral Pathogenesis {#ch13-7}
+evidence: "Chronic-carrier infections — some patients continue producing
+  significant amounts of virus for long periods."
+
+### MICRO-F-433
+status: verified
+answer: a
+basis: Ch. 14 — Antiviral Agents {#ch14-4}
+evidence: Acyclovir "causes termination of herpes DNA elongation" — viral
+  genome DNA synthesis is its site of action.
+
+### MICRO-F-434
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Hepatitis A is typically not part of standard national
+  immunization programs (often an optional/travel vaccine), unlike
+  hepatitis B, polio, and BCG, which are standard EPI vaccines.
+
+### MICRO-F-435
+status: verified
+answer: c
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "measles virus has one serotype" while "Influenza virus... [has]
+  multiple serotypes."
+
+### MICRO-F-436
+status: verified
+answer: c
+basis: Ch. 15 — Introduction to Mycology {#ch15-1}
+evidence: "Fungal cell wall consists of chitin... may also contain other
+  polysaccharides such as beta-glucan."
+
+### MICRO-F-437
+status: verified
+answer: c
+basis: Ch. 4 — Classification of Bacteria and Diagnostic Methods {#ch04-3}
+evidence: "Cryptococcus neoformans (fungi)" listed among CSF/subacute
+  meningitis pathogens.
+
+### MICRO-F-438
+status: conflict
+answer: d
+claimed: c
+basis: external — not covered in course material
+evidence: Hepatitis B virus polymerase is a multifunctional reverse
+  transcriptase possessing BOTH RNA-dependent DNA polymerase activity
+  (synthesizing the first DNA strand from the RNA pregenome) AND
+  DNA-dependent DNA polymerase activity (synthesizing the second DNA
+  strand) — standard virology, not RNA-dependent activity alone.
+note: The circulating file marks (c). Standard virology describes HBV
+  polymerase as having both activities.
+
+### MICRO-F-439
+status: verified
+answer: a
+basis: Ch. 9 — Antibiotics {#ch09-5}
+evidence: "Quinolones... effective against Gram-negative organisms and some
+  Gram-positive organisms" — a fairly broad spectrum, contradicting "narrow
+  range of organisms."
+
+### MICRO-F-440
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-2}
+evidence: "Virulence: the degree of pathogenicity... measured by the
+  number of organisms required to cause disease."
+
+### MICRO-F-441
+status: conflict
+answer: a
+claimed: c
+basis: Ch. 15 — Introduction to Mycology {#ch15-2}
+evidence: Molds are explicitly multicellular (filamentous hyphae forming
+  mycelium) and can be pathogenic, confirming (c) as true rather than the
+  exception. Nonseptate/coenocytic hyphae are explicitly "multinucleated,"
+  confirming (d); yeasts are single-celled, confirming (b). Fungi are never
+  described as obligate intracellular pathogens anywhere in the source
+  (unlike Chlamydia/Rickettsia) — fungi grow extracellularly — making (a)
+  the actual exception.
+note: The circulating file marks (c). The source instead supports (c) as
+  true and points to (a) as the exception.
+
+### MICRO-F-442
+status: conflict
+answer: c
+claimed: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-2}
+evidence: "Viruses are haploid, except the retrovirus family, which has two
+  copies of its RNA molecule" — HIV, a retrovirus, is explicitly the
+  exception to the single-genome-copy rule, not hepatitis B.
+note: The circulating file marks (a), Hepatitis B. The source explicitly
+  names the retrovirus family as the sole exception.
+
+### MICRO-F-443
+status: verified
+answer: e
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-3}
+evidence: "Red dye safranin stains the decolorized Gram-negative cells
+  red/pink" — safranin is the fourth/counterstain step.
+
+### MICRO-F-444
+status: verified
+answer: a
+basis: Ch. 16 — Parasitology {#ch16-5}
+evidence: Malaria (a blood protozoan disease) causes over a million deaths
+  per year, a far higher mortality burden than the self-limited diarrheal
+  illnesses typical of intestinal protozoa (Entamoeba, Giardia,
+  Cryptosporidium).
+
+### MICRO-F-445
+status: verified
+answer: c
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "the envelope is a lipoprotein membrane."
+
+### MICRO-F-446
+status: verified
+answer: a
+basis: Ch. 16 — Parasitology {#ch16-3}, {#ch16-8}
+evidence: "trophozoites can spread to the liver, lung, and brain" is stated
+  specifically for Entamoeba histolytica. Leishmania major causes
+  cutaneous (not visceral/liver) disease per the source, so the compound
+  option including it does not hold.
+
+### MICRO-F-447
+status: verified
+answer: c
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: The GI-tract portal-of-entry table lists hepatitis A virus and
+  poliovirus, not hepatitis B (which is bloodborne/sexual/perinatal).
+
+### MICRO-F-448
+status: needs-eye
+note: Stem and first option never captured (page begins mid-question) —
+  genuinely unresolvable.
+
+### MICRO-F-449
+status: verified
+answer: d
+basis: Ch. 9 — Antibiotics {#ch09-1}
+evidence: Bacteriostatic drugs require a higher concentration to kill (MBC)
+  than to inhibit growth (MIC), consistent with MBC > MIC.
+
+### MICRO-F-450
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Standard blood donor screening covers HIV, hepatitis B, hepatitis
+  C, HTLV, and syphilis (Treponema) — herpes simplex virus type 1 is not
+  part of standard donor screening panels.
+
+### MICRO-F-451
+status: verified
+answer: c
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-2}
+evidence: Teichoic acids are explicitly found "in the walls of Gram-
+  positive cells."
+
+### MICRO-F-452
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: Endotoxin's biologic effects list includes "Activation of
+  macrophages" — the opposite of "prevents phagocytic activity of
+  macrophages."
+
+### MICRO-F-453
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-3}
+evidence: The table of bacteria not visible by Gram stain lists both
+  Treponema pallidum and Mycoplasma pneumoniae.
+
+### MICRO-F-454
+status: verified
+answer: c
+basis: Ch. 13 — Viral Pathogenesis {#ch13-7}
+evidence: "Latent infections — as in the herpesvirus group."
+
+### MICRO-F-455
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Diphtheria toxin and Pseudomonas exotoxin A ADP-ribosylate
+  elongation factor-2 (EF-2), inactivating it."
+
+### MICRO-F-456
+status: verified
+answer: c
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-3}
+evidence: The Gram stain steps (crystal violet, iodine, decolorization,
+  safranin) map onto the question's own numbered list (1-alcohol,
+  2-crystal violet, 3-safranin, 4-iodine) as order 2,4,1,3.
+
+### MICRO-F-457
+status: verified
+answer: b
+basis: Ch. 16 — Parasitology {#ch16-8}
+evidence: "In mammals, the parasite lives in macrophages as the amastigote
+  stage" — Leishmania is uniquely intracellular among these four options
+  (Echinococcus, Entamoeba, and Giardia are all extracellular).
+
+### MICRO-F-458
+status: conflict
+answer: a
+claimed: b
+basis: external — not covered in course material
+evidence: The oral live-attenuated polio vaccine (OPV) induces mucosal/
+  intestinal IgA and confers herd immunity through fecal shedding of the
+  vaccine strain to unvaccinated contacts; the inactivated (killed) polio
+  vaccine (IPV) does not replicate in the gut and does not produce this
+  same community/herd effect — standard vaccinology.
+note: The circulating file marks (b), killed vaccine. Standard teaching
+  attributes polio herd immunity specifically to the live-attenuated oral
+  vaccine.
+
+### MICRO-F-459
+status: needs-eye
+note: Stem cut off after its opening word, no options captured —
+  genuinely unresolvable.
+
+### MICRO-F-460
+status: verified
+answer: c
+basis: Ch. 9 — Antibiotics {#ch09-3}
+evidence: Penicillins and vancomycin are both listed as cell-wall-active
+  antibiotics.
+
+### MICRO-F-461
+status: verified
+answer: a
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-2}
+evidence: "Peptidoglycan is much thicker in Gram-positive than Gram-
+  negative bacteria" — the thicker layer traps the crystal violet-iodine
+  complex, resisting decolorization and remaining purple.
+
+### MICRO-F-462
+status: verified
+answer: d
+basis: external — not covered in course material
+evidence: The E-test determines MIC directly at the point where the
+  elliptical zone of inhibition intersects the graduated antibiotic
+  concentration gradient on the strip — standard microbiology laboratory
+  technique.
+
+### MICRO-F-463
+status: verified
+answer: d
+basis: Ch. 9 — Antibiotics {#ch09-5}
+evidence: "Sulfonamides... Combined with trimethoprim."
+
+### MICRO-F-464
+status: verified
+answer: d
+basis: Ch. 12 — Viral Replication {#ch12-3}
+evidence: The RNA-genome features table lists double-stranded segmented
+  RNA viruses (e.g., Rotavirus) as requiring their own virion polymerase.
+
+### MICRO-F-465
+status: verified
+answer: a
+basis: external — consistent with MICRO-F-289's resolution
+evidence: HSV-1 spreads primarily via saliva — standard teaching.
+
+### MICRO-F-466
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Rabies, brucellosis, and leishmaniasis are all documented
+  zoonoses endemic to the Levant region; plague is not currently endemic to
+  Palestine — standard regional epidemiology.
+
+### MICRO-F-467
+status: verified
+answer: a
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-2}
+evidence: "Disinfect skin prior to venipuncture or immunization | 70%
+  ethanol."
+
+### MICRO-F-468
+status: verified
+answer: a
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-9}; Ch. 10 —
+  Sterilization and Disinfection {#ch10-2}
+evidence: Spore-forming organisms require autoclaving (steam under
+  pressure, ~15 lb/in², ~15 min) for sterilization.
+
+### MICRO-F-469
+status: verified
+answer: d
+basis: Ch. 12 — Viral Replication {#ch12-4}
+evidence: Herpesviruses "derive their envelope from the cell's nuclear
+  membrane."
+
+### MICRO-F-470
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: M. tuberculosis has an unusually low infectious dose (1-10
+  organisms) — standard teaching, consistent with MICRO-F-103/208's
+  resolutions.
+
+### MICRO-F-471
+status: verified
+answer: b
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-2}
+evidence: "Disinfect air in operating room (when not in use) | Ultraviolet
+  light."
+
+### MICRO-F-472
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-8}; the
+  question's own captured compiler annotation
+evidence: While capsular vaccines generally aim to elicit anticapsular
+  antibodies, this question's own source page carries the annotation "poor
+  immunogen in children" — plain (unconjugated) polysaccharide antigens are
+  T-independent and elicit a poor antibody response in infants/young
+  children (the reason Hib vaccines are conjugated to a carrier protein in
+  practice), consistent with "none of the above" reflecting that
+  limitation in the pediatric population this vaccine targets.
+
+### MICRO-F-473
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-4}; Ch. 9 —
+  Antibiotics {#ch09-3}
+evidence: Lysozyme cleaves peptidoglycan directly; penicillins and
+  cephalosporins inhibit new peptidoglycan synthesis — all three disrupt
+  peptidoglycan integrity in the broad sense the question asks.
+
+### MICRO-F-474
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-5}
+evidence: "Filtration: used to sterilize heat-sensitive solutions" — tissue
+  culture medium contains heat-labile biological components (serum, growth
+  factors) that autoclaving would destroy, making filtration the
+  appropriate method.
+note: The circulating file marks (a), autoclaving. The source specifically
+  names filtration for heat-sensitive solutions like tissue culture medium.
+
+### MICRO-F-475
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-4}, {#ch07-8}
+evidence: Same reasoning as MICRO-F-102 — diphtheria disease is entirely
+  toxin-mediated, so protective immunity works by neutralizing the toxin.
+
+### MICRO-F-476
+status: verified
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "Diphtheria and pseudomembranous colitis are both characterized
+  by inflammatory lesions called pseudomembranes."
+
+### MICRO-F-477
+status: verified
+answer: b
+basis: Ch. 4 — Classification of Bacteria and Diagnostic Methods {#ch04-3};
+  Ch. 2 — Bacterial Cell — Structure and Function {#ch02-8}
+evidence: The three named meningitis organisms are all encapsulated;
+  "capsular polysaccharides are used as antigens in certain vaccines."
+
+### MICRO-F-478
+status: verified
+answer: d
+basis: Ch. 9 — Antibiotics {#ch09-1}
+evidence: Antimicrobial stewardship exists specifically to "reduce
+  inappropriate antibiotic use" — overuse, misuse, and agricultural use are
+  all well-established drivers of resistant-mutant selection.
+
+### MICRO-F-479
+status: verified
+answer: a
+basis: Ch. 9 — Antibiotics {#ch09-4}; external for the penicillin-allergy
+  framing specifically
+evidence: Macrolides (clarithromycin) are the classic alternative for
+  penicillin-allergic patients — standard pharmacology, consistent with the
+  source's general macrolide indications.
+
+### MICRO-F-480
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-2}
+evidence: "β-lactamases, which degrade penicillins and other β-lactam
+  drugs" — cephalosporins are also β-lactams, so beta-lactamase degrades
+  both.
+
+### MICRO-F-481
+status: verified
+answer: a
+basis: Ch. 4 — Classification of Bacteria and Diagnostic Methods {#ch04-1}
+evidence: Clostridium is classified as Gram-positive, not Gram-negative.
+
+### MICRO-F-482
+status: verified
+answer: c
+basis: Ch. 3 — Bacterial Physiology and Growth Requirements {#ch03-4}
+evidence: "Obligate anaerobes — (Clostridium tetani) cannot grow in the
+  presence of oxygen."
+
+### MICRO-F-483
+status: verified
+answer: d
+basis: Ch. 6 — Normal Flora of the Body {#ch06-3}
+evidence: "clindamycin can suppress the predominant normal flora, allowing
+  a rare toxin-producing Clostridium difficile to overgrow."
+
+### MICRO-F-484
+status: verified
+answer: b
+basis: external — general virology (rotavirus is a classic fecal-oral GI
+  pathogen)
+evidence: Rotavirus causes diarrhea via fecal-oral transmission — standard
+  teaching.
+
+### MICRO-F-485
+status: verified
+answer: a (Legionnaire's Disease)
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: "Respiratory tract — inhalation of water aerosol | Legionella
+  pneumophila | Pneumonia (Legionnaires' disease)."
+note: Part of a shared 5-item matching block (Water/Transplacental/Fomite/
+  Soil/Zoonoses).
+
+### MICRO-F-486
+status: verified
+answer: e (Rubella)
+basis: external — congenital rubella syndrome is a well-established TORCH
+  infection; not listed by name in Ch.8's own transplacental table, but
+  clearly the only defensible option among these five
+note: Part of the same shared matching block as MICRO-F-485.
+
+### MICRO-F-487
+status: verified
+answer: d (Staphylococcal skin infection)
+basis: external — not covered in course material
+evidence: S. aureus skin infections are well known to spread via fomites
+  (towels, contaminated surfaces) — standard teaching.
+note: Part of the same shared matching block as MICRO-F-485.
+
+### MICRO-F-488
+status: verified
+answer: b (Tetanus)
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-9}
+evidence: "wounds contaminated with soil can be infected — e.g., tetanus
+  (C. tetani)."
+note: Part of the same shared matching block as MICRO-F-485.
+
+### MICRO-F-489
+status: verified
+answer: c (Rabies Virus)
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: Rabies virus is a classic zoonotic (animal-transmitted) pathogen
+  per the source's portal-of-entry table.
+note: Part of the same shared matching block as MICRO-F-485.
+
+### MICRO-F-490
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Metronidazole covers trichomoniasis, giardiasis, and anaerobic
+  infections all at once — standard pharmacology teaching.
+
+### MICRO-F-491
+status: verified
+answer: d
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: The "within birth canal/at birth" table lists group B strep, N.
+  gonorrhoeae, and HIV all together.
+
+### MICRO-F-492
+status: verified
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-3}; external for measles'
+  typically symptomatic presentation
+evidence: Measles typically presents symptomatically (classic rash/fever),
+  unlike influenza, rhinovirus, and rubella, which are frequently
+  asymptomatic/subclinical — standard teaching.
+
+### MICRO-F-493
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: No vaccine exists for HIV/AIDS, unlike measles, mumps, and
+  diphtheria — standard, well-established fact.
+
+### MICRO-F-494
+status: verified
+answer: b
+basis: external — not covered in course material
+evidence: Tinea pedis, caused by dermatophyte fungi, spreads via direct
+  contact with infected skin or contaminated surfaces — standard teaching.
+
+### MICRO-F-495
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Dermatophytes are keratin-degrading fungi ("dermato-phyte" =
+  skin-loving), producing keratinase — standard mycology.
+
+### MICRO-F-496
+status: verified
+answer: d
+basis: Ch. 6 — Normal Flora of the Body {#ch06-4}; Ch. 7 — Pathogenic
+  Mechanisms {#ch07-2}; Ch. 15 — Introduction to Mycology {#ch15-2}
+evidence: Candida is normal flora, opportunistic, and thermally dimorphic —
+  all three confirmed.
+
+### MICRO-F-497
+status: verified
+answer: c
+basis: Ch. 4 — Classification of Bacteria and Diagnostic Methods {#ch04-3}
+evidence: S. pneumoniae, N. meningitidis, and H. influenzae are the three
+  classic encapsulated bacteria named in the source; Cryptococcus
+  neoformans, while also encapsulated, is a fungus, not a bacterium.
+
+### MICRO-F-498
+status: verified
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Botulinum toxin... blocks acetylcholine release at the synapse."
+
+### MICRO-F-499
+status: external
+answer: b
+basis: external — not covered in course material (same reasoning as
+  MICRO-F-300/364)
+evidence: The hepatitis B recombinant vaccine (HBsAg) is produced via
+  genetic engineering.
+
+### MICRO-F-500
+status: verified
+answer: d
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}; external for mononucleosis
+  and nasopharyngeal carcinoma
+evidence: "Epstein-Barr virus (EBV) — Burkitt's lymphoma" is explicit; EBV
+  is also the classic cause of infectious mononucleosis and is associated
+  with nasopharyngeal carcinoma — standard virology.
+
+### MICRO-F-501
+status: verified
+answer: c
+basis: Ch. 14 — Antiviral Agents {#ch14-2}
+evidence: Amantadine is "active against influenza A but not B" — the
+  Amantadine/Influenza-B pairing is false.
+
+### MICRO-F-502
+status: verified
+answer: a
+basis: Ch. 14 — Antiviral Agents {#ch14-3}
+evidence: "enfuvirtide (blocks entry)."
+
+### MICRO-F-503
+status: verified
+answer: c
+basis: Ch. 14 — Antiviral Agents {#ch14-4}
+evidence: Same reasoning as MICRO-F-222 — ganciclovir's expected pairing is
+  CMV, not VZV.
+
+### MICRO-F-504
+status: verified
+answer: b
+basis: Ch. 14 — Antiviral Agents {#ch14-5}
+evidence: "Oseltamivir (Tamiflu)... selectively inhibit the neuraminidase."
+
+### MICRO-F-505
+status: conflict
+answer: a
+claimed: b
+basis: general immunology (not explicitly detailed in loaded source
+  chapters)
+evidence: A killed vaccine, even inactivated, still stimulates the
+  recipient's own immune response (active immunity), unlike the other
+  three options, which all involve direct transfer of preformed antibody
+  (passive immunity). IgG placental transfer is itself a classic passive
+  immunity example, not the exception.
+note: The circulating file marks (b), IgG placental transfer. (a), the
+  killed vaccine, is the actual exception — consistent with MICRO-F-229/
+  351's independent resolution of the same underlying question.
+
+### MICRO-F-506
+status: verified
+answer: b
+basis: Ch. 14 — Antiviral Agents {#ch14-5}
+evidence: Same reasoning as MICRO-F-382 — neuraminidase inhibition blocks
+  viral release.
+
+### MICRO-F-507
+status: verified
+answer: d
+basis: Ch. 15 — Introduction to Mycology {#ch15-2}; consistency with
+  MICRO-F-258/292/496's established treatment of Candida as dimorphic
+evidence: Histoplasma is explicitly named among the source's thermally
+  dimorphic examples; Aspergillus flavus is a mold, not dimorphic.
+
+### MICRO-F-508
+status: verified
+answer: c
+basis: Ch. 15 — Introduction to Mycology {#ch15-7}
+evidence: "The most effective antifungal drugs are amphotericin B and the
+  various azoles" — amphotericin B for systemic infection.
+
+### MICRO-F-509
+status: verified
+answer: d
+basis: Ch. 6 — Normal Flora of the Body {#ch06-4}
+evidence: Same reasoning as MICRO-F-186/272 — "Streptococcus viridans...
+  causing infective endocarditis" following dental procedures.
+
+### MICRO-F-510
+status: verified
+answer: b
+basis: external — same reasoning as MICRO-F-15/552
+evidence: Papillomavirus (HPV) is the STD associated with cervical
+  carcinoma and preventable by vaccination.
+
+### MICRO-F-511
+status: verified
+answer: a
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}, {#ch13-5}
+evidence: Poliovirus causes a lytic infection, killing motor neurons via
+  cell lysis.
+
+### MICRO-F-512
+status: verified
+answer: b
+basis: Ch. 13 — Viral Pathogenesis {#ch13-4}
+evidence: Same reasoning as MICRO-F-274 — poliomyelitis is explicitly named
+  as a systemic/generalized infection.
+
+### MICRO-F-513
+status: not-in-source
+note: Same reasoning as MICRO-F-275 — both neonatal and needle-stick AZT
+  use are real-world prophylactic indications, and the source gives no
+  basis to pick one as the "except."
+
+### MICRO-F-514
+status: verified
+answer: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}; Ch. 15 — Introduction to
+  Mycology {#ch15-4}
+evidence: Same reasoning as MICRO-F-276 — pneumococcal pneumonia is
+  pyogenic, not granulomatous.
+
+### MICRO-F-515
+status: verified
+answer: b
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}
+evidence: "measles virus has one serotype" — explicitly singular.
+
+### MICRO-F-516
+status: verified
+answer: c
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}, {#ch13-5}
+evidence: Same reasoning as MICRO-F-278 — poliovirus kills motor neurons
+  directly/lytically, not via immune-mediated attack.
+
+### MICRO-F-517
+status: verified
+answer: c
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5};
+  general virology (measles has no animal reservoir)
+evidence: Same reasoning as MICRO-F-279.
+
+### MICRO-F-518
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: Same reasoning as MICRO-F-287 — JC virus/PML in an
+  immunocompromised patient.
+
+### MICRO-F-519
+status: external
+answer: d
+basis: external — not covered by name in course material
+evidence: Varicella zoster virus causes chickenpox.
+
+### MICRO-F-520
+status: external
+answer: c
+basis: external — not covered in course material
+evidence: HSV-1 spreads primarily via saliva.
+
+### MICRO-F-521
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Hepatitis B virus is the classic bloodborne virus among these
+  options.
+
+### MICRO-F-522
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Same reasoning as MICRO-F-291 — rubella is transmitted both
+  transplacentally and horizontally.
+
+### MICRO-F-523
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: Early childhood measles is a well-established risk factor for
+  subacute sclerosing panencephalitis (SSPE), a rare late complication.
+
+### MICRO-F-524
+status: external
+answer: b
+basis: external — not covered in course material (same reasoning as
+  MICRO-F-084/173/280)
+evidence: Standard teaching: prolonged high-temperature autoclaving is the
+  closest fit among these options for inactivating prions.
+
+### MICRO-F-525
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Live-attenuated vaccines are safe for healthy children, unlike
+  pregnancy, radiotherapy, and immunodeficiency.
+
+### MICRO-F-526
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: MMR is live-attenuated and contraindicated in pregnancy.
+
+### MICRO-F-527
+status: external
+answer: c
+basis: external — not covered in course material (Ch.11 discusses
+  enveloped vs. naked viruses generally but doesn't classify poliovirus's
+  envelope status directly)
+evidence: Poliovirus is a naked, non-enveloped virus.
+
+### MICRO-F-528
+status: verified
+answer: a
+basis: Ch. 12 — Viral Replication {#ch12-1}
+evidence: "One infectious virus particle (virion)."
+
+### MICRO-F-529
+status: verified
+answer: d
+basis: Ch. 15 — Introduction to Mycology {#ch15-5}
+evidence: Aflatoxin B1's hepatic carcinoma association, p53 mutation, and
+  Aspergillus flavus origin are all confirmed.
+
+### MICRO-F-530
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-2}
+evidence: Teichoic acid is the Gram-positive-only structure among these
+  four options.
+
+### MICRO-F-531
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-3}
+evidence: Mycobacteria (including M. leprae) "cannot be Gram-stained,"
+  needing acid-fast staining instead due to their high lipid content.
+
+### MICRO-F-532
+status: verified
+answer: c
+basis: Ch. 3 — Bacterial Physiology and Growth Requirements {#ch03-2}
+evidence: The log/exponential phase is explicitly called "the potential
+  drug-acting phase," matching penicillin's requirement for actively
+  dividing, peptidoglycan-synthesizing cells.
+
+### MICRO-F-533
+status: verified
+answer: d
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-2}, {#ch10-4}
+evidence: "Silver sulfadiazine is used to prevent burn wound infection."
+
+### MICRO-F-534
+status: conflict
+answer: d
+claimed: b
+basis: Ch. 12 — Viral Replication {#ch12-6}
+evidence: The source describes specialized transduction as incorporating a
+  specific, predictable nearby gene due to the phage's fixed integration
+  site: "part of the phage DNA and part of the bacterial DNA, including the
+  adjacent gal gene, are excised together" — a consistent, specific gene
+  each time, matching "highly specific portion... regularly incorporated."
+  Generalized transduction instead packages random host DNA fragments, the
+  opposite of "highly specific."
+note: The circulating file marks (b), generalized transduction — the
+  mechanism that randomly incorporates DNA. Specialized transduction (d)
+  is the one that consistently transfers a specific nearby gene.
+
+### MICRO-F-535
+status: verified
+answer: a
+basis: external — not covered in course material
+evidence: Standard blood donor screening covers HIV, Hepatitis B, Hepatitis
+  C, HTLV, and syphilis (Treponema pallidum), matching (a) exactly;
+  hepatitis A is not bloodborne and hepatitis D alone without B doesn't
+  reflect the standard panel.
+
+### MICRO-F-536
+status: verified
+answer: c
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-8}
+evidence: "pili... mediate attachment of bacteria to specific receptors on
+  human cell surfaces, a necessary step in initiating infection... mutants
+  of Neisseria gonorrhoeae lacking pili are nonpathogenic" — losing pili
+  means losing the ability to colonize.
+
+### MICRO-F-537
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-3}
+evidence: Iodine forms the crystal violet-iodine complex needed to retain
+  the dye during decolorization; without it, all cells (even Gram-
+  positive) would decolorize like Gram-negatives and take up the safranin
+  counterstain, appearing red.
+
+### MICRO-F-538
+status: verified
+answer: b
+basis: external — not covered in course material
+evidence: Taq polymerase's defining advantage over E. coli DNA polymerase
+  is its heat stability, surviving PCR's repeated 95°C denaturation steps
+  without needing replenishment — standard molecular biology.
+
+### MICRO-F-539
+status: verified
+answer: d
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-8}
+evidence: "Capsular polysaccharides are used as antigens in certain
+  vaccines."
+
+### MICRO-F-540
+status: verified
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}; external for the specific
+  antitoxin-treatment framing
+evidence: Tetanus and botulism are the classic single-toxin-determinant
+  diseases treatable with passive antitoxin, unlike the vaccine-preventable
+  diseases in the other three options.
+
+### MICRO-F-541
+status: verified
+answer: d
+basis: external — not covered specifically in course material
+evidence: Same reasoning as MICRO-F-428.
+
+### MICRO-F-542
+status: external
+answer: b
+basis: external — not covered in course material
+evidence: BCG vaccine prevents tuberculosis — standard, well-established
+  fact.
+
+### MICRO-F-543
+status: verified
+answer: c
+basis: external — not covered in course material
+evidence: Hepatitis B immune globulin (HBIG) and rabies immune globulin are
+  both real passive-active post-exposure immunoprophylaxis examples —
+  standard teaching.
+
+### MICRO-F-544
+status: verified
+answer: d
+basis: Ch. 9 — Antibiotics {#ch09-1}
+evidence: "Use of antibiotic combinations: for serious infections, for
+  synergistic inhibitory effect, and to prevent the emergence of resistant
+  mutants" — all three confirmed.
+
+### MICRO-F-545
+status: verified
+answer: a
+basis: Ch. 9 — Antibiotics {#ch09-4}; external for the penicillin-allergy
+  framing
+evidence: Macrolides (clarithromycin) are the classic penicillin-allergy
+  alternative.
+
+### MICRO-F-546
+status: conflict
+answer: d
+claimed: a
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-5}
+evidence: "Pasteurization... kills milk-borne pathogens... but does not
+  sterilize the milk" — directly contradicts option (d)'s claim of
+  "germ-free sterilization." Option (a)'s flash-pasteurization spec (72°C
+  for 15 seconds) is the standard, correct HTST parameter, not a false
+  statement.
+note: The circulating file marks (a). The source explicitly states
+  pasteurization does NOT sterilize milk, making (d) the actual
+  false/exception statement.
+
+### MICRO-F-547
+status: external
+answer: a
+basis: external — not covered in course material
+evidence: Live-attenuated vaccines are safe for healthy children.
+
+### MICRO-F-548
+status: verified
+answer: c
+basis: Ch. 14 — Antiviral Agents {#ch14-4}
+evidence: Acyclovir "causes termination of herpes DNA elongation."
+
+### MICRO-F-549
+status: verified
+answer: b
+basis: external — not covered specifically in course material
+evidence: Hepatitis A virus is a naked (non-enveloped) picornavirus, unlike
+  hepatitis B, HIV, and HSV-1, which are all enveloped.
+
+### MICRO-F-550
+status: verified
+answer: c
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: Poliovirus's portal of entry is the gastrointestinal tract, per
+  the source's own table.
+
+### MICRO-F-551
+status: verified
+answer: b
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: Rabies virus is confirmed zoonotic/animal-transmitted.
+
+### MICRO-F-552
+status: verified
+answer: b
+basis: external — same reasoning as MICRO-F-15/510
+evidence: Papillomavirus (HPV) causes cervical carcinoma and is vaccine-
+  preventable.
+
+### MICRO-F-553
+status: conflict
+answer: d
+claimed: c
+basis: external — not covered in course material
+evidence: Hepatitis B and hepatitis C are both equally well-established
+  bloodborne viruses alongside HTLV — since all three named options are
+  individually true, "all are correct" is the better-supported answer than
+  singling out HTLV alone.
+note: The circulating file marks (c), HTLV alone.
+
+### MICRO-F-554
+status: verified
+answer: c
+basis: Ch. 12 — Viral Replication {#ch12-3}
+evidence: Retroviruses carry reverse transcriptase.
+
+### MICRO-F-555
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}; Ch. 12 — Viral Replication
+  {#ch12-2}
+evidence: The "Type Three Secretion System" is explicitly a bacterial
+  injectosome mechanism (Pseudomonas, Shigella, Salmonella, etc.) used to
+  deliver toxins — unrelated to viral entry. Naked (non-enveloped) viruses
+  instead enter cells via receptor-mediated endocytosis, since they cannot
+  fuse membranes the way enveloped viruses do.
+note: The circulating file marks (a), a bacterial mechanism entirely
+  unrelated to viral entry. The source supports receptor-mediated
+  endocytosis (b).
+
+### MICRO-F-556
+status: verified
+answer: c
+basis: Ch. 11 — Viral Structure and Classification {#ch11-1}
+evidence: "some have a lipoprotein membrane (envelope)" implies not all
+  viruses have one — naked viruses exist — making "all have... envelope"
+  false.
+
+### MICRO-F-557
+status: verified
+answer: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-4}; Ch. 12 —
+  Viral Replication {#ch12-2}
+evidence: Viral surface glycoproteins mediate attachment/binding and
+  membrane fusion; reverse transcription is instead performed by an
+  internal viral enzyme unrelated to surface glycoproteins.
+note: Job A flagged this needs-eye over marks on both (a) and (b). Resolved
+  to (a).
+
+### MICRO-F-558
+status: conflict
+answer: c
+claimed: b
+basis: Ch. 12 — Viral Replication {#ch12-1}
+evidence: "viral genome is uncoated (capsid removed)" is a universal
+  replication-cycle step, making genome release into the cytoplasm a
+  genuine requirement. Requiring the host cell to be "undergoing mitosis"
+  is not a general requirement — most viruses (including those infecting
+  non-dividing cells like neurons) replicate without host mitosis.
+note: The circulating file marks (b). The source's replication-cycle
+  description supports (c) instead.
+
+### MICRO-F-559
+status: verified
+answer: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-1}
+evidence: Viruses are obligate intracellular and cannot be grown in
+  cell-free (pure) culture — they require living host cells.
+
+### MICRO-F-560
+status: conflict
+answer: b
+claimed: d
+basis: external — not covered in course material
+evidence: Rabies virus notably spreads via retrograde axonal transport
+  along peripheral nerves (neurotropic spread) specifically because it does
+  NOT cause significant viremia — unlike most systemic viral infections,
+  rabies does not rely on hematogenous spread to reach the CNS. This is a
+  well-known distinguishing feature of rabies pathogenesis.
+note: The circulating file marks (d), combining hematogenous and
+  neurotropic spread. Standard virology holds rabies relies on neurotropic
+  spread alone.
+
+### MICRO-F-561
+status: verified
+answer: a
+basis: Ch. 14 — Antiviral Agents {#ch14-2}
+evidence: Amantadine acts "by preventing uncoating."
+
+### MICRO-F-562
+status: conflict
+answer: c
+claimed: b
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "Intracellular pathogens commonly cause granulomatous lesions —
+  examples: Mycobacterium, Legionella, Brucella, Listeria, and
+  Histoplasma." A superantigen-producing organism instead causes toxic
+  shock syndrome, an acute cytokine-storm illness unrelated to
+  granulomatous skin lesions.
+note: The circulating file marks (b), superantigen. The source directly
+  links granulomatous inflammation to intracellular pathogens instead.
+
+### MICRO-F-563
+status: verified
+answer: a
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: "Mycobacterium bovis | Cows | Ingestion of unpasteurized milk."
+
+### MICRO-F-564
+status: conflict
+answer: b
+claimed: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "lethal factor (a protease that cleaves phosphokinase)"
+  explicitly confirms anthrax lethal factor IS a protease, ruling out (d)
+  as the exception. Diphtheria toxin's mechanism is instead ADP-ribosylation
+  of EF-2 — an entirely different enzymatic mechanism, not proteolytic
+  cleavage — making diphtheria toxin the actual non-protease exception.
+  Tetanus and botulinum toxins are both well-established proteases.
+note: The circulating file marks (d), anthrax lethal factor — but the
+  source confirms it IS a protease. Diphtheria toxin (b) acts by
+  ADP-ribosylation, not proteolysis.
+
+### MICRO-F-565
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: Pertussis toxin causes the "marked lymphocytosis" described in
+  this vignette.
+
+### MICRO-F-566
+status: verified
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: Shiga toxin from E. coli O157:H7 "can cause hemolytic-uremic
+  syndrome (HUS)."
+
+### MICRO-F-567
+status: conflict
+answer: c
+claimed: a
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-9}
+evidence: The stem describes tetanus toxin (blocking glycine release);
+  tetanus is a wound-contamination disease ("wounds contaminated with soil
+  can be infected — e.g., tetanus"), not food-transmitted. The marked
+  answer describes botulism's classic transmission route instead — a
+  different toxin/organism entirely.
+note: Already flagged internally at the extraction stage as inconsistent
+  with the stem's own tetanus reference. The source supports (c), wound
+  transmission.
+
+### MICRO-F-568
+status: conflict
+answer: c
+claimed: d
+basis: Ch. 12 — Viral Replication {#ch12-6}
+evidence: "diphtheria... toxins are encoded by the genes of the integrated
+  bacteriophage (prophage)... transduction of the diphtheria toxin gene by
+  beta bacteriophage results in lysogenic conversion of nonlysogenized,
+  nonpathogenic Corynebacterium diphtheriae" — an integrated temperate
+  phage trait, not a pathogenicity island.
+note: The circulating file marks (d), pathogenicity island. The source
+  explicitly attributes diphtheria toxin to an integrated beta bacteriophage.
+
+### MICRO-F-569
+status: verified
+answer: c
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: TSST is the superantigen among these four options.
+
+### MICRO-F-570
+status: verified
+answer: e
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-2}, {#ch07-4}
+evidence: Both (a) and (d) are individually confirmed true.
+
+### MICRO-F-571
+status: verified
+answer: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-5}, {#ch07-8}
+evidence: Toxin production and invasion/LPS are both confirmed disease
+  mechanisms.
+
+### MICRO-F-572
+status: conflict
+answer: not confidently a single letter, but NOT (a)
+claimed: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "Collagenase and hyaluronidase — degrade subcutaneous tissue;
+  important in cellulitis" explicitly confirms collagenase IS involved in
+  the bacterial invasive process, directly contradicting the claim that
+  it's the exception.
+note: The circulating file marks (a), collagenase — but the source
+  explicitly confirms collagenase's invasive role. Coagulase, curli, and
+  Protein A are all described as immune-evasion or adherence factors
+  rather than classic tissue-invasive enzymes, making any of them a more
+  defensible "except" than collagenase, though the source does not clearly
+  single out just one.
+
+### MICRO-F-573
+status: conflict
+answer: d
+claimed: b
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "protein A binds IgG and prevents complement activation"
+  confirms (a); M protein "binds serum factor H, destroying C3-convertase
+  and preventing opsonization by C3b" confirms (c)'s more careful "some
+  bacterial cells" framing. Option (b)'s claim that ALL bacterial cells
+  have M protein is a sweeping overgeneralization — M protein is specific
+  to certain organisms like S. pyogenes, not universal.
+note: The circulating file marks (b). The source supports the compound
+  answer (d) over (b)'s overreaching "all bacterial cells" claim.
+
+### MICRO-F-574
+status: verified
+answer: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Exotoxins: polypeptides" vs. "Endotoxins: lipopolysaccharides
+  (LPS)" — LPS is exclusively endotoxin's chemistry, making "both are
+  composed from Lipopolysaccharide" clearly false.
+
+### MICRO-F-575
+status: verified
+answer: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "B (binding) subunit binds the exotoxin to specific receptors on
+  the human cell membrane."
+
+### MICRO-F-576
+status: verified
+answer: d
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Tetanus toxin and botulinum toxin — neurotoxins that prevent
+  neurotransmitter release."
+
+### MICRO-F-577
+status: verified
+answer: b
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: TSST "binds directly to class II MHC proteins on antigen-
+  presenting cells... without intracellular processing" — superantigens
+  cross-link MHC II directly to the T-cell receptor, bypassing normal
+  antigen-specific recognition, not a B-cell receptor mechanism.
+
+### MICRO-F-578
+status: verified
+answer: b
+basis: Ch. 15 — Introduction to Mycology {#ch15-7}
+evidence: Amphotericin B and azole drugs both target ergosterol.
+
+### MICRO-F-579
+status: verified
+answer: d
+basis: Ch. 15 — Introduction to Mycology {#ch15-2}
+evidence: Statements (a), (b), and (c) are all confirmed true regarding
+  thermal dimorphism — since all three ARE related to the phenomenon,
+  "none of the above" is unrelated.
+
+### MICRO-F-580
+status: verified
+answer: c
+basis: Ch. 15 — Introduction to Mycology {#ch15-3}
+evidence: Chlamydospores are listed under asexual spores (conidia), not
+  sexual spores.
+
+### MICRO-F-581
+status: conflict
+answer: a
+claimed: b
+basis: Ch. 16 — Parasitology {#ch16-1}, {#ch16-3}, {#ch16-5}
+evidence: Same reasoning as MICRO-F-444 — blood protozoa (malaria) cause
+  dramatically higher mortality than intestinal protozoa's generally
+  self-limited illness. Blood protozoa (Plasmodium) do not have a "cyst"
+  stage the way intestinal protozoa do — Plasmodium's life cycle instead
+  involves sporozoite/merozoite/gametocyte stages — making (b)'s claim of
+  shared trophozoite-and-cyst stages inaccurate.
+note: The circulating file marks (b). The source's own description of
+  protozoan life-cycle stages does not support a shared cyst stage.
+
+### MICRO-F-582
+status: verified
+answer: b
+basis: Ch. 16 — Parasitology {#ch16-3}
+evidence: Cryptosporidium is explicitly "important in immunocompromised
+  patients."
+
+### MICRO-F-583
+status: verified
+answer: d
+basis: Ch. 16 — Parasitology {#ch16-5}, {#ch16-8}
+evidence: Leishmania (intracellular in macrophages) and Plasmodium
+  (intracellular in liver cells and red blood cells) both have
+  intracellular stages; Entamoeba histolytica does not.
+
+### MICRO-F-584
+status: verified
+answer: a
+basis: Ch. 16 — Parasitology {#ch16-6}
+evidence: Transplacental transmission and ingestion of undercooked meat are
+  both real Toxoplasma routes; "blood sucking/feeding insects" is not among
+  them (Toxoplasma is not insect-vector-borne), ruling out the compound
+  "all of the above."
+
+### MICRO-F-585
+status: external
+answer: d
+basis: external — not covered in course material
+evidence: Consistent with earlier resolutions of the same question pattern.
+
+### MICRO-F-586
+status: verified
+answer: d
+basis: Ch. 6 — Normal Flora of the Body {#ch06-4}
+evidence: Same wisdom-tooth endocarditis vignette as MICRO-F-272/509.
+
+### MICRO-F-587
+status: verified
+answer: b
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-2}
+evidence: The outer membrane is specifically a Gram-negative structure.
+
+### MICRO-F-588
+status: conflict
+answer: a
+claimed: b
+basis: external — not covered in course material, though consistent with
+  this exam's own repeated finding that live vaccines are contraindicated
+  in immunodeficiency (MICRO-F-228/281/525/547)
+evidence: Killed/inactivated vaccines cannot cause actual infection and are
+  indeed considered safer than live-attenuated vaccines for immuno-
+  compromised patients — standard vaccinology.
+note: The circulating file marks (b), False. Standard teaching holds this
+  statement is actually True.
+
+### MICRO-F-589
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-3}
+evidence: "The nucleic acid is surrounded by a protein coat called a
+  capsid, made of capsomer subunits" — the capsid is protein-based, not
+  lipid-based. The statement conflates the capsid (protein) with the
+  envelope (lipid).
+note: The circulating file marks (a), True. The source confirms the capsid
+  is protein, not lipid.
+
+### MICRO-F-590
+status: verified
+answer: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-5}
+evidence: "Prions are much more resistant than viruses to inactivation by
+  UV, heat, formaldehyde, and nucleases."
+
+### MICRO-F-591
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-2}, {#ch10-5}
+evidence: X-rays do have higher energy/penetration than UV (true), but the
+  source specifically assigns operating-room air disinfection to
+  ultraviolet light, not X-rays — X-rays are instead used to sterilize
+  heat-sensitive items like sutures, gloves, and syringes. The compound
+  statement's second half is false.
+note: The circulating file marks (a), True. The source assigns
+  operating-room disinfection specifically to UV light.
+
+### MICRO-F-592
+status: verified
+answer: b
+basis: Ch. 10 — Sterilization and Disinfection {#ch10-5}
+evidence: "Filtration: used to sterilize heat-sensitive solutions" —
+  filtration, not ethylene oxide gas, is the source's method for
+  heat-sensitive solutions specifically (ethylene oxide is for solid
+  instruments/materials).
+
+### MICRO-F-593
+status: verified
+answer: a
+basis: Ch. 12 — Viral Replication {#ch12-3}
+evidence: "Most RNA viruses undergo their entire replicative cycle in the
+  cytoplasm."
+
+### MICRO-F-594
+status: verified
+answer: b
+basis: Ch. 13 — Viral Pathogenesis {#ch13-7}
+evidence: Hepatitis B and C are categorized as "chronic-carrier"
+  infections, a distinct category from "latent" infections (herpesviruses)
+  in the source's own three-type taxonomy.
+
+### MICRO-F-595
+status: verified
+answer: a
+basis: Ch. 11 — Viral Structure and Classification {#ch11-5}; Ch. 13 —
+  Viral Pathogenesis {#ch13-7}
+evidence: The classic slow-virus/prion diseases (CJD, kuru, scrapie) all
+  affect the brain.
+
+### MICRO-F-596
+status: verified
+answer: b
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-7}
+evidence: "protein A binds IgG and prevents complement activation" —
+  Protein A binds IgG's Fc portion, not IgE's.
+
+### MICRO-F-597
+status: verified
+answer: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: Tetanus toxin causes "muscle spasms/paralysis" — spastic
+  paralysis, contrasted with botulinum's flaccid paralysis.
+
+### MICRO-F-598
+status: verified
+answer: a
+basis: Ch. 14 — Antiviral Agents {#ch14-3}
+evidence: "neutralization with antibody (palivizumab)" is listed under
+  inhibitors of viral attachment.
+
+### MICRO-F-599
+status: verified
+answer: b
+basis: Ch. 13 — Viral Pathogenesis {#ch13-2}
+evidence: Multiple cell-level effects are listed (death, fusion, malignant
+  transformation, no apparent change) — cell death is not the only one.
+
+### MICRO-F-600
+status: verified
+answer: b
+basis: external — not covered specifically in course material
+evidence: Classic teaching distinguishes HSV-1 (oral/labial) from HSV-2
+  (genital herpes).
+
+### MICRO-F-601
+status: verified
+answer: a
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}
+evidence: "Transplacental | Cytomegalovirus | Congenital abnormalities."
+
+### MICRO-F-602
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 8 — Transmission and Spread of Microorganisms {#ch08-5}; Ch. 6
+  — Normal Flora of the Body {#ch06-4}
+evidence: The source's respiratory portal-of-entry table lists
+  "Coccidioides immitis | Coccidioidomycosis" alongside Histoplasma —
+  Coccidioides IS acquired via inhalation, not an exception to it, and it
+  is a soil organism, not normal skin flora (Candida albicans is the
+  fungus described as normal skin flora).
+note: The circulating file marks (a), True. The source contradicts both
+  parts of this claim.
+
+### MICRO-F-603
+status: conflict
+answer: b
+claimed: a
+basis: Ch. 13 — Viral Pathogenesis {#ch13-6}
+evidence: The source's documented immune-evasion mechanisms are cytokine
+  decoys (viral proteins binding host cytokines like IL-1/TNF), reduced
+  MHC class I expression, and multiple antigenic serotypes — none of which
+  involve a virus synthesizing "human antibody neutralizing agents."
+  Viruses do not produce antibodies; this statement misdescribes the
+  evasion mechanism.
+note: The circulating file marks (a), True. The source's actual
+  immune-evasion mechanisms don't match this description.
+
+### MICRO-F-604
+status: verified
+answer: a
+basis: Ch. 16 — Parasitology {#ch16-3}
+evidence: "trophozoites can spread to the liver, lung, and brain."
+
+### MICRO-F-605
+status: verified
+answer: a
+basis: Ch. 16 — Parasitology {#ch16-5}
+evidence: "P. falciparum is more severe than the others" and "the most
+  pathogenic/fatal (50% of cases)."
+
+### MICRO-F-606
+status: verified
+answer: a
+basis: Ch. 16 — Parasitology {#ch16-8}
+evidence: The source's own list includes cutaneous, mucocutaneous, and
+  visceral forms; treating mucocutaneous as a variant within the broader
+  cutaneous spectrum makes "two" forms (cutaneous and visceral) a
+  defensible simplification, though a looser reading than the source's own
+  three-item list.
+
+### MICRO-F-607
+status: verified
+answer: a
+basis: Ch. 15 — Introduction to Mycology {#ch15-4}
+evidence: "Candida antigens can be used to determine whether cell-mediated
+  immunity is normal."
+
+### MICRO-F-608
+status: conflict
+answer: a (Active immunity)
+claimed: c
+basis: general immunology (vaccine administration = active immunity by
+  definition)
+evidence: Administering a vaccine (even live-attenuated, like measles)
+  stimulates the recipient's own adaptive immune response — the definition
+  of active immunity. "Passive-active" combined immunization refers
+  specifically to giving both antibody AND vaccine together (e.g., rabies
+  or hepatitis B post-exposure prophylaxis), not simple vaccine
+  administration alone.
+note: The circulating file marks (c). Administering the measles vaccine
+  alone is a textbook example of active immunity, not a combined regimen.
+
+### MICRO-F-609
+status: verified
+answer: b (Passive immunity)
+basis: general immunology — administration of preformed antibodies is the
+  definition of passive immunity
+
+### MICRO-F-610
+status: verified
+answer: a (Active immunity)
+basis: general immunology — vaccine administration stimulates the
+  recipient's own immune response
+
+### MICRO-F-611
+status: verified
+answer: a, b
+basis: general immunology — describes combined passive-active
+  immunization (toxoid=active, antitoxin=passive, given simultaneously at
+  different sites), consistent with standard tetanus/rabies post-exposure
+  prophylaxis protocols
+
+### MICRO-F-612
+status: verified
+answer: b (Passive immunity)
+basis: general immunology — antitoxin is preformed antibody, passive
+  immunity by definition
+
+### MICRO-F-613
+status: verified
+answer: c (Both A & B)
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: TSST (exotoxin) causes "release of large amounts of interleukin-
+  1, interleukin-2, and TNF"; endotoxin similarly "activat[es] macrophages
+  to produce IL-1, TNF" — both mechanisms cause interleukin release/toxic-
+  shock-like symptoms.
+
+### MICRO-F-614
+status: verified
+answer: a (Exotoxins)
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: Cholera/E. coli enterotoxin (exotoxins) increase cyclic AMP,
+  causing watery diarrhea.
+
+### MICRO-F-615
+status: conflict
+answer: b (Endotoxins)
+claimed: a
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Endotoxins: lipopolysaccharides (LPS) that form an integral
+  part of the Gram-negative cell wall" — endotoxin is specifically the
+  Gram-negative surface component, not exotoxin.
+note: The circulating file marks (a), Exotoxins. The source attributes
+  this surface/LPS property to endotoxin instead.
+
+### MICRO-F-616
+status: verified
+answer: a (Exotoxins)
+basis: Ch. 7 — Pathogenic Mechanisms {#ch07-8}
+evidence: "Exotoxins are very toxic substances — the fatal dose of tetanus
+  toxin for a human is estimated at less than 1 ug," versus endotoxin's
+  much lower toxicity per the comparison table.
+
+### MICRO-F-617
+status: verified
+answer: f (Anemia)
+basis: Ch. 16 — Parasitology {#ch16-5}
+evidence: "anemia is prominent" is explicitly listed among malaria's
+  (Plasmodium) clinical findings.
+note: Job A flagged this needs-eye over a double mark. Resolved to (f).
+
+### MICRO-F-618
+status: conflict
+answer: b (Uro-genital)
+claimed: f
+basis: Ch. 16 — Parasitology {#ch16-4}
+evidence: "Trichomonas vaginalis causes trichomoniasis... primary
+  locations are the vagina and the prostate" — the urogenital protozoan,
+  matching (b) directly.
+note: The circulating file marks (f), Anemia — but Trichomonas has no
+  described association with anemia in the source.
+
+### MICRO-F-619
+status: conflict
+answer: d (Dogs as a definitive host)
+claimed: e
+basis: Ch. 16 — Parasitology {#ch16-9}
+evidence: "Echinococcus granulosus (dog tapeworm)" is explicitly named —
+  dogs are its definitive host. Ergotism is instead caused by the fungus
+  Claviceps purpurea, unrelated to Echinococcus.
+note: The circulating file marks (e), Ergotism — a fungal toxin syndrome
+  unrelated to this tapeworm.
+
+### MICRO-F-620
+status: verified
+answer: a (Coenocytic)
+basis: Ch. 15 — Introduction to Mycology {#ch15-2}
+evidence: "Nonseptate hyphae are multinucleated (coenocytic)."
+
+### MICRO-F-621
+status: conflict
+answer: e (Ergotism)
+claimed: b
+basis: Ch. 15 — Introduction to Mycology {#ch15-5}
+evidence: "ergotism, caused by the mold Claviceps purpurea, which infects
+  grains" — a direct match.
+note: The circulating file marks (b), Uro-genital — unrelated to a grain
+  mold.
+
+### MICRO-F-622
+status: verified
+answer: c (Blastospores)
+basis: Ch. 15 — Introduction to Mycology {#ch15-3}
+evidence: "Blastospores — formed by the budding process by which yeasts
+  reproduce asexually (some yeasts, e.g., C. albicans, can form multiple
+  buds)."
+
+### MICRO-F-623
+status: verified
+answer: b (First generation cephalosporins)
+basis: external — not covered specifically in course material
+evidence: First-generation cephalosporins are more susceptible to
+  beta-lactamase degradation than later generations, which were developed
+  partly for improved beta-lactamase stability — standard pharmacology.
+
+### MICRO-F-624
+status: conflict
+answer: e (Rifampin)
+claimed: c
+basis: Ch. 9 — Antibiotics {#ch09-5}
+evidence: "Rifampin... used for... prophylaxis in close contacts of
+  patients with meningitis" — an exact, explicit match.
+note: The circulating file marks (c), fourth generation cephalosporins.
+  The source explicitly names rifampin for this specific use.
+
+### MICRO-F-625
+status: verified
+answer: h (D + F = Amikacin + Clindamycin)
+basis: Ch. 9 — Antibiotics {#ch09-2}, {#ch09-4}
+evidence: Aminoglycosides (30S) and clindamycin (50S) are both protein
+  synthesis inhibitors.
+
+### MICRO-F-626
+status: verified
+answer: g (Sulfonamides)
+basis: Ch. 9 — Antibiotics {#ch09-5}
+evidence: "Sulfonamides — folic acid synthesis inhibitors."
+
+### MICRO-F-627
+status: conflict
+answer: d (Amikacin)
+claimed: a
+basis: Ch. 9 — Antibiotics {#ch09-3}, {#ch09-4}
+evidence: Vancomycin is explicitly a Gram-positive-only glycopeptide,
+  never active against Gram-negative bacteria. Amikacin (an aminoglycoside)
+  is explicitly used "to kill Gram-negative bacteria such as
+  Pseudomonas... E. coli... Proteus... Klebsiella... Serratia," and as a
+  non-beta-lactam, it is inherently unaffected by penicillinases.
+note: The circulating file marks (a), Vancomycin — a Gram-positive-only
+  drug, the opposite of "active against gram-negative bacteria."
+
+### MICRO-F-628
+status: verified
+answer: c
+basis: external — not covered in course material
+evidence: In the Kirby-Bauer disk diffusion method, a smaller zone of
+  inhibition indicates the organism is more resistant to the antibiotic —
+  standard microbiology laboratory technique.
+
+### MICRO-F-629
+status: verified
+answer: a
+basis: external — not covered in course material
+evidence: In the Ziehl-Neelsen acid-fast stain, acid-fast organisms retain
+  the red carbolfuchsin dye after acid-alcohol decolorization, appearing
+  red — standard microbiology.
+
+### MICRO-F-630
+status: verified
+answer: c
+basis: Ch. 2 — Bacterial Cell — Structure and Function {#ch02-3}
+evidence: The source's table of bacteria not visible by Gram stain gives
+  "No cell wall; very small" as the reason for Mycoplasma pneumoniae
+  specifically — not "a waxy coat" (that reason is given for Mycobacteria,
+  a different organism). E. coli's thin peptidoglycan (pink) and S.
+  pyogenes's thick peptidoglycan (blue) both match the source's
+  comparison table, and "Gram positive bacteria phagocytosed by
+  polymorphs will appear as gram negative" appears verbatim in the source.
+
+### MICRO-F-631
+status: needs-eye
+note: Only the tail of the stem survives ("...causative agent for urinary
+  tract?") — the rest of the stem and every option are cut off by the
+  photo's frame; genuinely unresolvable.

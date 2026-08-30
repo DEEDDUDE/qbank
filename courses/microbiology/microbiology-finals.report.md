@@ -1,113 +1,128 @@
-# microbiology / finals — MICRO-F-001 through 390 verified (IN PROGRESS)
+# microbiology / finals — all 631 questions verified
 
-verified 283 · conflict 12 · external 87 · not-in-source 6 · needs-eye 2
+verified 452 · conflict 54 · external 109 · not-in-source 8 · needs-eye 8
 
-**This session (MICRO-F-077–390, 314 questions)** completed the rest of the
-2023-2024-Finals/Medicine sitting (نموذج 3, 4, ٦) plus the entire
-before2020-MICRO-FINAL sub-collection — Exams A (Dr. Dina Bitar, 2009), B
-(compiled short-answer key), C (mixed mycology/virology/bacteriology final),
-D (old virology/immunology final), G (old immunology final), E (old general
-virology final, 60 Q own numbering), and F (short hepatitis block). Batches
-01-02 (MICRO-F-001–076, نموذج 1 + نموذج ٥) were verified in an earlier
-session and are unchanged here. **MICRO-F-391 through 631 remain for a
-follow-up C session** — the full row-31 target (555 Q) exceeded the
-~421-question single-session ceiling.
+Job C is now complete for the finals tab. This ran across two sessions
+(part 1: MICRO-F-077–390, part 2: MICRO-F-391–631) after the full
+555-question row-31 target exceeded the ~421-question single-session
+ceiling; batches 01-02 (MICRO-F-001–076) were verified earlier. Together
+this covers the 2023-2024-Finals/Medicine sitting (all 5 models), the
+entire before2020-MICRO-FINAL sub-collection (Exams A/B/C/D/G/E/F),
+Unknown-Final-Micro (Exam H), the 2020-2021 sitting (Exam I), the 2017
+resit (Exam J), and before2020-2018-course (Exam K/L).
 
-## Conflicts (12) — read these first
+## Conflicts (54) — read these first
 
-The circulating file is wrong on these:
+The circulating file is wrong on these. Grouped by theme for readability;
+full evidence for each is in microbiology-finals.verify.md.
 
-- **MICRO-F-050** *(earlier batch)* — claimed C. perfringens/S. aureus as
-  ADP-ribosylating exotoxin producers; source supports C. diphtheriae/E.
-  coli (C. perfringens's toxin is a lecithinase, not ADP-ribosylating).
-- **MICRO-F-098** — claimed exotoxins are "part of the bacterial cell wall,
-  whereas endotoxins are not" (d); this is backwards — endotoxin/LPS is the
-  cell-wall-integral one. Source supports (c): exotoxins bind specific
-  cell receptors, endotoxins act through a less specific pathway.
-- **MICRO-F-099** — claimed activated macrophages/proteases are the main
-  host defense against exotoxins (a); source documents antibody-mediated
-  neutralization (antitoxins) as the defense instead (b).
-- **MICRO-F-128** — claimed Protein A of S. aureus is NOT antiphagocytic
-  (b, the "except"); source describes Protein A's IgG-binding/complement-
-  blocking action as antiphagocytic, while Glycocalyx (c) is described only
-  as an adherence factor with no antiphagocytic function.
-- **MICRO-F-133** — claimed curli mediates only endothelium binding (a);
-  source lists three curli functions (endothelium, fibronectin, factor
-  XII), supporting "all of the above" (d).
-- **MICRO-F-139** — claimed TSST is produced by S. aureus only (a); source
-  explicitly names both S. aureus and S. pyogenes as producers (d).
-- **MICRO-F-143** — claimed all three endotoxin-effect statements are true
-  (c), including "activates Hageman factor VIII"; source's own endotoxin
-  mechanism cites tissue factor, not Hageman factor, and "Hageman factor
-  VIII" itself conflates two different clotting factors — only I and II
-  hold (b).
-- **MICRO-F-182** — claimed insertion sequences can't code for their own
-  integration enzyme; source describes transposons as carrying the
-  transposase gene themselves as one of their four defining domains.
-- **MICRO-F-220** — claimed fungal incubation for visible growth is 18-24
-  hours at 25-28°C (c); source's own "slow-growing fungi" framing (the
-  reason Sabouraud's agar is used) argues for the longer 2-3 day incubation
-  in (b).
-- **MICRO-F-245** — claimed continuous penicillin prophylaxis prevents
-  endocarditis in rheumatic fever patients (a); standard teaching reserves
-  that regimen for preventing rheumatic fever *recurrence* — endocarditis
-  prophylaxis specifically is procedure-triggered (b).
-- **MICRO-F-248** — claimed S. pneumoniae is the exception to "causes
-  typical pneumonia" (c); S. pneumoniae is the textbook definition of
-  typical pneumonia (confirmed by this same exam's own MICRO-F-238).
-  Legionella is the one classically atypical (a).
-- **MICRO-F-311** — claimed macrophages are the exception among granule-
-  mediated cytotoxic cells (c); standard immunology instead identifies
-  plasma cells (antibody-secreting, no cytotoxic granule function) as the
-  clear exception (d).
+**Exotoxin/endotoxin mechanics** (the single most error-prone topic in this
+tab — 8 conflicts): MICRO-F-098 (exotoxins bind specific receptors, not
+"part of the cell wall"), 099 (antitoxin/antibody is the defense against
+exotoxins, not macrophage proteases), 143 (endotoxin's coagulation
+mechanism is tissue factor, not "Hageman factor VIII"), 406 (anthrax
+"characterized by exotoxins except" — the exception is "none of them,"
+since all three named toxins are real), 564 (diphtheria toxin, not anthrax
+lethal factor, is the non-protease exotoxin), 572 (collagenase IS an
+invasive enzyme — the source doesn't clearly support any single
+alternative), 573 (Protein A + M protein together, not "all bacterial
+cells have M protein"), 615 (endotoxin, not exotoxin, is released from the
+Gram-negative surface).
 
-## Not in source (6)
+**Toxin/organism identity mix-ups**: MICRO-F-133 (curli has three
+functions, not just endothelium binding), 139 (TSST is produced by both S.
+aureus AND S. pyogenes), 410 (Aspergillus, not Amanita, produces
+aflatoxin), 430 (Listeria moves via actin polymerization, not flagella),
+567 (the glycine-blocking toxin described is tetanus, transmitted by
+wound — not botulism's food route), 619 (Echinococcus's definitive host is
+the dog, not "ergotism"), 621 (Claviceps purpurea causes ergotism, not
+"uro-genital"), 618 (Trichomonas is urogenital, not associated with
+anemia — that's Plasmodium).
 
-Genuine gaps — the slides don't cover these: MICRO-F-158 (which factor
-doesn't alter normal flora — source covers only antibiotics/immune status
-explicitly), 160 (germ-free/gnotobiotic animal immunology), 161 (caries
-control methods), 207 (stem too vague — "the least common" of what),
-213 (stem too vague — "most effective physical agent" for what purpose),
-275 (AZT prophylaxis: neonatal vs. needle-stick, both real indications,
-source doesn't distinguish which is the "except").
+**Pharmacology**: MICRO-F-412 (trimethoprim's classic partner is
+sulfamethoxazole, not rifampin), 419 (penicillin *tolerance* specifically
+is attributed to failed autolysin activation, not altered PBP — that's
+resistance), 546 (pasteurization's false claim is "achieves sterilization,"
+not the flash-method spec), 555 ("Type Three Secretion System" is a
+bacterial mechanism, nonsensical for viral entry — naked viruses use
+receptor-mediated endocytosis), 624 (rifampin, not 4th-gen cephalosporins,
+is used for meningitis-contact prophylaxis), 627 (vancomycin is
+Gram-positive-only — amikacin fits "active against Gram-negative and
+resistant to penicillinases").
 
-## Needs-eye (2)
+**Virology**: MICRO-F-425 (HIV and hepatitis C, not rabies/influenza, use
+precursor-polypeptide cleavage), 438 (HBV polymerase has both RNA- and
+DNA-dependent activity, not RNA-only), 442 (HIV/retroviruses, not
+hepatitis B, are the exception to single-genome-copy), 553 (hepatitis B
+and C are equally valid bloodborne examples alongside HTLV — "all are
+correct" beats singling out HTLV alone), 558 (genome release into
+cytoplasm, not host mitosis, is virus replication's real requirement), 560
+(rabies reaches the CNS via neurotropic spread alone — it specifically
+avoids the bloodstream), 568 (diphtheria toxin comes from an integrated
+phage, not a "pathogenicity island"), 589 (the capsid is protein, not
+lipid), 591 (UV, not X-rays, is used for operating-room air), 602
+(Coccidioides is inhaled like other systemic fungi, not skin flora), 603
+(viruses don't synthesize "antibody neutralizing agents" — that's not a
+real immune-evasion mechanism).
 
-- **MICRO-F-144** — 4th option cut off by the photo's edge, no answer mark
-  visible on the other three either; genuinely unresolvable without the
-  missing option.
-- **MICRO-F-202** — the question's own stem is unrecoverable; even the
-  compiler admitted uncertainty about its exact wording.
+**Immunology**: MICRO-F-311 (plasma cells, not macrophages, lack
+cytotoxic-granule function), 458 (live OPV, not killed IPV, gives polio
+herd immunity), 505 (the killed vaccine, not IgG placental transfer, is
+the passive-immunity exception), 588 (killed vaccines ARE safer for
+immunocompromised patients — True, not False), 608 (administering a
+vaccine alone is active immunity, not "passive-active").
 
-Several other needs-eye/disputed flags from Job A **were** resolved this
-session by independent source verification (not left needs-eye) — e.g.
-MICRO-F-155, 254, 255, 297, 320, 332, 335, 341, 360, 390 all had genuine
-ambiguous marks that the source's own content was able to settle.
+**Parasitology/mycology**: MICRO-F-220 (fungal incubation is 2-3 days, not
+18-24 hours — the source calls them "slow-growing"), 392 (Plasmodium, not
+Toxoplasma/Entamoeba, causes anemia), 393 (cats/dogs, not humans, are the
+definitive hosts for Toxoplasma/Echinococcus), 396 (bacterial endospores
+are survival structures, not reproduction — grouping C. tetani with fungi
+here is wrong), 424 (inhalation, not food/water, is the common fungal
+route — same fact as MICRO-F-401), 441 (fungi are never obligate
+intracellular pathogens — that statement, not "multicellular pathogenic,"
+is the exception), 562 (granulomas indicate an intracellular pathogen, not
+a superantigen), 581 (blood protozoa are more pathogenic/fatal; they don't
+share a "cyst stage" with intestinal protozoa).
 
-## External (87)
+**Miscellaneous**: MICRO-F-050 *(earlier batch)*, 128, 182, 245, 248, 397
+(hepatitis B, not coronavirus, is birth-canal-transmitted), 474 (tissue
+culture medium needs filtration, not autoclaving — it's heat-labile), 534
+(specialized, not generalized, transduction transfers a specific,
+predictable gene) — see the individual verify.md entries for each.
 
-A large share of this batch — Exam G's general immunology block (Ig
-classes, TCR/BCR, complement, adjuvants, epitopes) and the clinical-
-syndrome vignettes threaded through Exam C (otitis media, endocarditis
-management, atypical vs. typical pneumonia, croup) fall well outside this
-lecture-microbiology source's 16 chapters, which don't include a dedicated
-immunology or clinical-infectious-disease chapter. All answered from
-settled, standard teaching — see microbiology-finals.verify.md for the
-full per-question basis and evidence.
+## Not in source (8)
 
-## Chapter coverage (rough, this session's 314 questions)
+MICRO-F-158, 160, 161, 207, 213, 275, 399 (Nocardia vignette — standard
+answer, TMP-SMX, isn't among the options given), 513 (same AZT
+neonatal-vs-needlestick ambiguity as 275).
 
-Heaviest: **Ch.7 Pathogenic Mechanisms** (~70+ citations — exotoxins,
-endotoxins, virulence factors, this batch's dominant topic by far, Exam A
-especially). Also heavy: Ch.13 Viral Pathogenesis (~25), Ch.14 Antiviral
-Agents (~25), Ch.2 Bacterial Cell Structure (~25), Ch.4 Diagnostic Methods
-(~20), Ch.6 Normal Flora (~20), Ch.12 Viral Replication (~20), Ch.8
-Transmission (~18), Ch.15 Mycology (~18), Ch.11 Viral Structure (~15),
-Ch.10 Sterilization (~15), Ch.9 Antibiotics (~13), Ch.3 Bacterial
-Physiology (~7), Ch.5 Bacterial Genetics (~6). Lightest: Ch.1 Introduction
-(2), Ch.16 Parasitology (2) — parasitology in particular is barely touched
-in this batch despite being a full chapter, since none of exams A/B/C/D/G/
-E/F leaned on it much.
+## Needs-eye (8)
+
+MICRO-F-144, 202, 391 (image flagged but no options ever captured), 413
+(4th option never captured, though a,b,c are all confirmed A-B toxins),
+418, 448, 459, 631 — all genuinely unresolvable without the missing
+content (cut-off photos, unrecoverable stems). Several *other* needs-eye/
+disputed flags from Job A **were** resolved by independent source
+verification rather than left open — e.g. MICRO-F-155, 254, 255, 297, 320,
+332, 335, 341, 360, 390, 421, 557, 617 all had ambiguous marks the source
+was able to settle.
+
+## External (109)
+
+A large share — Exam G's general immunology block, Exam K's Part
+Two/Three sections, and the clinical-syndrome vignettes threaded through
+Exam C (otitis media, endocarditis management, atypical vs. typical
+pneumonia, croup) — fall outside this lecture-microbiology source's 16
+chapters, which don't include a dedicated immunology or clinical-
+infectious-disease chapter. All answered from settled, standard teaching.
+
+## What this run found, in one sentence
+
+The circulating claimed-answer files for this tab are wrong roughly 1 time
+in 12 (54 of 631 with any claim) — concentrated heavily in Ch.7
+(exotoxin/endotoxin specifics) and in Exam K's matching sections, where
+several items appear to have been mismatched against their own option
+list.
 
 ---
 
