@@ -2,10 +2,10 @@
 course: public-health
 tab: practice
 questions: 132
-tiers: claimed 82 | open 50
+tiers: claimed 131 | open 1
 forms: mcq 132
 needs-eye: 0
-disputed: 2
+disputed: 0
 next-id: PH-P-133
 ---
 
@@ -14,6 +14,25 @@ next-id: PH-P-133
   text layer throughout, confirmed by prep.py -- 0 vision pages). Pages 33-64 (the
   epidemiological study-design/2x2-table sections) are a separate row (6), not
   covered here.
+
+  IMPORTANT correction made after this batch's first pass: the document's real
+  answer-mark is BOLD TEXT (Calibri-Bold vs. plain Calibri on the option lines),
+  not a capitalized option letter. Capitalization looked plausible at a glance --
+  it agrees with bold on most of the first 25 questions -- but it is unreliable
+  and frequently disagrees with, or is entirely silent about, the actual bold
+  mark: some questions have a capitalized letter that is NOT bold (decorative or
+  a typo) while the true bold answer sits on a different, lowercase option; a
+  large stretch of questions (the fifth section below) has no capitalized letter
+  at all yet every one of them carries a real bold answer. A first draft of this
+  file, built from capitalization alone, mis-answered roughly 50 questions and
+  flagged two false disputes. It was corrected in place by re-deriving every
+  answer from each PDF page's actual font/bold span data (PyMuPDF's `get_text
+  ("dict")`, checking `Bold` in the span's font name) before this file was
+  committed. Anyone extending this extract (row 6 onward) must check bold, not
+  capitalization -- and must further check that bold actually discriminates
+  within a question, since a later stretch of this same source (rows 6+) turns
+  out to bold every option uniformly on some pages, which carries no information
+  at all and must be read as unmarked.
 
   Page 1 is a title page, credited "Ali Shaban, Fawzi Shihadeh, Malik Suliman." Its
   three embedded images (a stock photo captioned "Public Health", two decorative
@@ -30,8 +49,7 @@ next-id: PH-P-133
   (not just at the three points named in the course's own RUN-PLAN header note --
   a sixth restart turned up mid-file):
     p2-8    unlabeled first section (25 Q, "WHO 1986 definition of health..." to
-            "process of globalization"). PH-P-001 through PH-P-025. Every question
-            here carries a capitalized answer letter -> tier claimed throughout.
+            "process of globalization"). PH-P-001 through PH-P-025.
     p8-10   "Research Methodology -Midterm exam2023" (7 Q, restarts at 1), preceded
             by the compiler's own un-transcribed study note ("Time + big number of
             participants = cohort", etc. -- kept out of the question stream, it
@@ -45,29 +63,33 @@ next-id: PH-P-133
             reproduction of the 2015 midterm (same Q1) -- its answers here are the
             only key that midterm will ever have; cross-reference this batch when
             row 12 extracts raw/midterm/2015/Mid Exam P.H. 2015.pdf. PH-P-034
-            through PH-P-082.
+            through PH-P-082. Only one question in this whole section (PH-P-041,
+            "Mrs. Samia... divorced... four children") carries no bold option at
+            all -- genuinely open, not a read miss.
     p21-32  unlabeled fifth section (50 Q, restarts at 1, "Public health does
             which of the following" to "leading infectious cause of death").
-            PH-P-083 through PH-P-132. Only its first two questions carry a
-            capitalized letter -- everything else here is unmarked -> tier open.
+            PH-P-083 through PH-P-132. This is the section whose questions carry
+            almost no capitalized letters yet turn out fully bold-marked once
+            checked properly -- every one of its 50 questions is tier claimed.
             Two genuine numbering gaps are in the source itself, not a read
             failure: Q3 never appears (page boundary p21/p22), and Q9 never
             appears (page boundary p22/p23, where the source also prints two
             consecutive "8."s -- both transcribed, PH-P-089/090).
+
+  Net result: 131 of 132 questions in this batch are claimed tier; PH-P-041 is
+  the sole open one. Zero disputes survive the bold re-check -- both of the
+  original draft's "disputed" calls (a merged duplicate and a True/False item)
+  turned out to be one side reading a bold mark correctly and the other reading
+  a decorative capital letter that was never actually the answer.
 
   Duplicates merged within this batch (same stem, one entry, per the batch-merge
   rule): the "cancer patients randomly assigned...chemotherapy" question (first
   section Q17 = Research Methodology Q1, verbatim aside from "effect"/"effects"
   and "each"/"cach" typos) merged into PH-P-017, both sides agreeing on answer a.
   The "study that measures the incidence of a disease" question (first section
-  Q20 vs Research Methodology Q6) merged into PH-P-020 as `disputed: true` --
-  first section capitalizes b (Cross sectional), but Research Methodology's own
-  copy capitalizes BOTH c and d (Case control, Cohort), an internal ambiguity in
-  that source page, not introduced here. The same double-capitalization anomaly
-  recurs once more, isolated to a single question rather than a merge: PH-P-035
-  (fourth section Q2, a True/False item) has both "A." and "B." capitalized on
-  the one page -- recorded as `disputed: true` with both readings rather than
-  guessing which capital is the real mark.
+  Q20 vs Research Methodology Q6) merged into PH-P-020 -- both copies' bold marks
+  agree on d (Cohort), even though their capitalized letters disagreed (b vs. c
+  and d both capitalized).
 
   Several near-miss pairs share a topic or near-identical stem but differ enough
   in wording or option set that they were kept as separate entries rather than
@@ -75,21 +97,22 @@ next-id: PH-P-133
   situation -- each is cross-noted on both entries: PH-P-003/PH-P-042 (major
   determinants of health -- same four option-contents, reshuffled letters, both
   independently pick the same underlying option), PH-P-008/PH-P-118
-  (epidemiological transition, differently worded and answered), PH-P-040/PH-P-094
-  (poverty is associated with, different option sets), PH-P-060/PH-P-083 ("Public
-  health does which of the following", reshuffled options with different combo-
-  answers).
+  (epidemiological transition, differently worded but the same real-world answer),
+  PH-P-040/PH-P-094 (poverty is associated with, different option sets, both land
+  on their own "all of the above"-style option), PH-P-060/PH-P-083 ("Public
+  health does which of the following", reshuffled options, both land on their own
+  "all of them"-style option).
 
-  PH-P-023 (first section Q23) has an Arabic annotation living inside option c's
-  own text in the source ("هكذا تم احتسابها في السنة السابقة" -- "this is how it
-  was counted in the previous year"), suggesting a prior year's key marked c
-  rather than this document's capitalized d. Recorded as a note on the entry
-  rather than folded into the option text, since it isn't part of the option
-  itself. PH-P-027 (Research Methodology Q3) is missing its "a." label in the
-  source for the first option -- transcribed positionally as (a), nothing
-  invented. PH-P-031 has only 3 options (a-c) in the source, no d -- its correct
-  shape, not a structural failure. PH-P-120 preserves the source's own typo
-  "ymptoms" for "Symptoms" verbatim. -->
+  PH-P-023 (first section Q23) has an Arabic annotation living inside the bold
+  (correct) option c's own text in the source ("هكذا تم احتسابها في السنة
+  السابقة" -- "this is how it was counted in the previous year") -- a compiler's
+  aside confirming the same answer held in an earlier year too. Recorded as a
+  note on the entry rather than folded into the option text, since it isn't part
+  of the option itself. PH-P-027 (Research Methodology Q3) is missing its "a."
+  label in the source for the first option -- transcribed positionally as (a),
+  nothing invented. PH-P-031 has only 3 options (a-c) in the source, no d -- its
+  correct shape, not a structural failure. PH-P-120 preserves the source's own
+  typo "ymptoms" for "Symptoms" verbatim. -->
 
 ### PH-P-001
 tier: claimed
@@ -207,7 +230,7 @@ d) Health equality.
 tier: claimed
 form: mcq
 type: single
-claimed: c
+claimed: b
 The primary purpose of social determinants of health is to ensure?
 a) The importance of providing medical treatment for chronic diseases.
 b) The importance of reducing inequity within population.
@@ -307,15 +330,8 @@ d) None of the above.
 tier: claimed
 form: mcq
 type: single
-disputed: true
-claims:
-  - source: first section, Q20
-    answer: b
-  - source: Research Methodology section, Q6, option C
-    answer: c
-  - source: Research Methodology section, Q6, option D
-    answer: d
-note: merged from two occurrences of the same stem. The Research Methodology section's own copy capitalizes both C and D on the same page -- an internal ambiguity in that source, not introduced here.
+claimed: d
+note: merged from two occurrences of the same stem (first section Q20, Research Methodology section Q6) -- both copies agree on d (Cohort) once the source's real answer-mark (bold text) is checked rather than its capitalized letters, which are unreliable in this document and disagree with each other and with the bold mark on both copies.
 A study that measures the incidence of a disease?
 a) Case report
 b) Cross sectional.
@@ -348,8 +364,8 @@ d) Ecological study.
 tier: claimed
 form: mcq
 type: single
-claimed: d
-note: option c carries an Arabic annotation in the source, "هكذا تم احتسابها في السنة السابقة" ("this is how it was counted in the previous year"), suggesting a prior year's key marked c rather than this document's capitalized d.
+claimed: c
+note: the source's real answer-mark (bold text, not the unreliable capitalized "D") lands on option c, which also carries an Arabic annotation, "هكذا تم احتسابها في السنة السابقة" ("this is how it was counted in the previous year") -- a compiler's aside confirming this same answer held in an earlier year too.
 In the Netherlands there is an increase in the prevalence of cardiovascular diseases. This is a consequence of?
 a) deterioration of the food pattern.
 b) increase in hypertension.
@@ -483,13 +499,7 @@ d) Government health insurance
 tier: claimed
 form: mcq
 type: single
-disputed: true
-claims:
-  - source: option A capitalized
-    answer: a
-  - source: option B capitalized
-    answer: b
-note: both options are capitalized in the source on this one page -- an internal ambiguity, not resolved here.
+claimed: a
 Prevention refers to the goals of medicine that are to promote, to preserve, and to restore health when it is impaired, and to minimize suffering and distress?
 a) True.
 b) False
@@ -529,9 +539,10 @@ c) Acute respiratory infection
 d) Air resource institute
 
 ### PH-P-039
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 The Millennium Development Goals (MDGs) is?
 a) Eradication of extreme poverty and hunger.
 b) All of them.
@@ -540,9 +551,10 @@ d) Improvement in maternal health.
 e) Reduction of child mortality.
 
 ### PH-P-040
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 note: near-miss of PH-P-094 -- same topic, different option set.
 Poverty is associated with?
 a) Malnutrition
@@ -552,10 +564,9 @@ d) All of the THEM.
 e) Higher infant mortality
 
 ### PH-P-041
-tier: claimed
+tier: open
 form: mcq
 type: single
-claimed: d
 Mrs. Samia is 32 years old who is now divorced and has four children. This is an example of?
 a) Blended family.
 b) nuclear family.
@@ -709,7 +720,7 @@ d) maintain marital relationship as parents focus more on children and give less
 tier: claimed
 form: mcq
 type: single
-claimed: f
+claimed: d
 Health plays a major role in?
 a) Reducing poverty.
 b) Disease development.
@@ -755,7 +766,7 @@ d) Negative.
 tier: claimed
 form: mcq
 type: single
-claimed: e
+claimed: b
 note: near-miss of PH-P-083 -- same stem, reshuffled options with a different combo-answer.
 Public health does which of the following?
 a) Provides conditions conducive to health.
@@ -1021,9 +1032,10 @@ d) Globalization, social dislocation, and war.
 e) All of these are modern challenges of public health.
 
 ### PH-P-085
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: c
 note: numbered "4." in the source -- "3." never appears anywhere in this batch, a genuine gap at the p21/p22 page boundary, not a read failure.
 The major cause of poor health globally is?
 a) Tobacco
@@ -1032,9 +1044,10 @@ c) Poverty
 d) Environmental problems
 
 ### PH-P-086
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: c
 note: source appends a study note distinguishing "person, place, time" (the descriptive triad) from "agent, host, environment" (analytical epidemiology) -- kept as document context, not part of the question.
 Which of the following is a "holy trinity" of epidemiology?
 a) Time, place, agent
@@ -1044,17 +1057,19 @@ d) Agent, environment, time
 e) Person, host, environment
 
 ### PH-P-087
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 Epidemiology is a body of knowledge gained from previous studies?
 a) True.
 b) False
 
 ### PH-P-088
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 Epidemiologists describe disease factors in terms of?
 a) Characteristics of affected individuals
 b) Geographic area in which disease occurs
@@ -1062,9 +1077,10 @@ c) Temporal characteristics of the disease
 d) All of the above
 
 ### PH-P-089
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: c
 note: the source numbers this "8." -- see PH-P-090.
 Cohort study designs are?
 a) Not suitable for study of infectious diseases.
@@ -1074,9 +1090,10 @@ d) Based on non-enumerated source populations.
 e) Not suitable for study of occupational hazards.
 
 ### PH-P-090
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: e
 note: the source numbers this "8." as well -- printed twice in a row, and "9." never appears at all. Both anomalies are in the original document, not introduced here.
 A study that compares the prevalence of suspected causal factors between those with and without disease is a/an?
 a) Ecologic study
@@ -1086,9 +1103,10 @@ d) Meta-analysis
 e) Case-control study.
 
 ### PH-P-091
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 Incidence includes?
 a) New cases.
 b) New cases occurring in a defined time period.
@@ -1097,9 +1115,10 @@ d) New cases, plus existing cases plus deaths.
 e) New cases plus existing cases occurring in a defined time period
 
 ### PH-P-092
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: c
 Prevalence includes?
 a) New cases.
 b) New cases occurring in a defined time period.
@@ -1108,17 +1127,19 @@ d) New cases, plus existing cases plus deaths.
 e) New cases plus existing cases occurring in a defined time period.
 
 ### PH-P-093
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 Epidemiology is the "core" science of public health?
 a) True.
 b) False
 
 ### PH-P-094
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 note: near-miss of PH-P-040 -- same topic, different option set.
 Poverty is associated with?
 a) Malnutrition
@@ -1128,17 +1149,19 @@ d) All of the above
 e) b. and c. above
 
 ### PH-P-095
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 The goal of public health is to guarantee that all members of society achieve optimal health?
 a) True.
 b) False
 
 ### PH-P-096
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 Health is a state of equilibrium between which of the following?
 a) Agent-host-environment
 b) Time-place-person
@@ -1147,9 +1170,10 @@ d) Agent-time-place
 e) Host-environment-time
 
 ### PH-P-097
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 For measuring prevalence, the numerator is?
 a) Number of cases existing in a given population at a single point in time.
 b) Number of new cases occurring in a given population in a specified time period.
@@ -1157,9 +1181,10 @@ c) Number of deaths due to a particular cause in a given population in a specifi
 d) None of the above.
 
 ### PH-P-098
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: e
 note: option (e) is printed on the following page (p24/p25 boundary), stitched here.
 Epidemiology is useful for?
 a) Diagnosing disease in a patient.
@@ -1169,9 +1194,10 @@ d) Assessing the cost-effectiveness of interventions.
 e) b. and c. above.
 
 ### PH-P-099
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 The "public health system" includes?
 a) Employers
 b) The community
@@ -1180,9 +1206,10 @@ d) All of the above
 e) a. and b. above
 
 ### PH-P-100
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: e
 The magnitude of disease burden can be measured by?
 a) Morbidity/disability of the disease
 b) Mortality of the disease
@@ -1191,17 +1218,19 @@ d) Prevalence
 e) All of the above
 
 ### PH-P-101
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 Epidemiology is a methodology of studying a health problem; it is not a body of Knowledge?
 a) True
 b) False
 
 ### PH-P-102
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 The role of the public health professional is to?
 a) Educate the public about ways to attain maximum health.
 b) Alert the public to current health problems.
@@ -1210,9 +1239,10 @@ d) All of the above
 e) a. and b. above
 
 ### PH-P-103
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 To avoid getting the flu you should:
 a) Wash hands with soap and water or alcohol frequently.
 b) Avoid contact with sick people.
@@ -1221,9 +1251,10 @@ d) All of the above.
 e) a. and b. above.
 
 ### PH-P-104
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 The underlying cause of the most ill health world-wide is:
 a) Smoking
 b) Poverty
@@ -1232,9 +1263,10 @@ d) Inadequate health care
 e) Poor nutrition
 
 ### PH-P-105
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 The basic measure of functional loss due to disease is:
 a) Disability-adjusted life years
 b) Years of life lost
@@ -1243,9 +1275,10 @@ d) Prevalence
 e) Case fatality
 
 ### PH-P-106
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: c
 What are the three major functions of public health?
 a) Assessment, assurance and cost containment
 b) Assessment, health insurance, and medical services for the indigent and uninsured
@@ -1254,9 +1287,10 @@ d) Cost containment, health insurance, and medical services for the indigent
 e) Health education, disease surveillance, and infectious disease control
 
 ### PH-P-107
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 Which of the following services to advance health requires the least individual initiative?
 a) Environmental improvements
 b) Personal health services
@@ -1265,9 +1299,10 @@ d) Adoption of good health habits
 e) Selection of the optimal health care provider
 
 ### PH-P-108
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 In epidemiologic studies, time, place and person(s) are used to characterize the relationship between:
 a) Agent, host and environment.
 b) Agent, host and person
@@ -1276,9 +1311,10 @@ d) Agent, virus and person
 e) Person, host and locale
 
 ### PH-P-109
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: c
 The numerator of prevalence of a disease in a population at a particular point of time is:
 a) The number of new cases of the disease in the population occurring at the particular point in time
 b) The total population at that particular point of time
@@ -1286,9 +1322,10 @@ c) The number of existing cases (new and old) of the disease in the population a
 d) The number of cases cured of the disease in the population at a particular point in time
 
 ### PH-P-110
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 note: option (e) is printed on the following page (p27/p28 boundary), stitched here.
 Which of the following parameters is most useful to measure the impact of diseases that rarely cause death?
 a) Prevalence
@@ -1298,9 +1335,10 @@ d) Mortality
 e) Case fatality rate
 
 ### PH-P-111
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 The first step in developing a comprehensive health plan for a city is:
 a) Assessing the current health situation in the population.
 b) Researching correlates of disease occurrence.
@@ -1309,9 +1347,10 @@ d) Developing sound policy.
 e) Reducing health disparities.
 
 ### PH-P-112
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 Which of the following programs contributes to health care costs specifically for the poor and disabled?
 a) Medicare
 b) Medicaid
@@ -1320,9 +1359,10 @@ d) Social Security
 e) All of the above
 
 ### PH-P-113
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 Which of the following public health strategies is used to assess the current health situation in a country?
 a) Surveys
 b) Surveillance
@@ -1331,9 +1371,10 @@ d) All of the above.
 e) a. and b. above
 
 ### PH-P-114
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 The major function(s) of public health is/are?
 a) Surveillance, disease control, and treatment
 b) Assessment, policy development, and assurance.
@@ -1342,9 +1383,10 @@ d) Health education
 e) Disease reporting, outbreak investigation, and treatment
 
 ### PH-P-115
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: e
 Epidemiology is useful for?
 a) Describing the natural history of disease in the individual.
 b) Establishing the clinical characteristics/spectrum of a disease.
@@ -1353,17 +1395,19 @@ d) Identifying risk factors for disease.
 e) All of the above.
 
 ### PH-P-116
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 Medicine focuses on the individual with disease, whereas public health focuses on the health of a population?
 a) True.
 b) False
 
 ### PH-P-117
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: c
 Disease is a result of the balance between?
 a) Agent, host, and climate
 b) Host, environment, and occupation
@@ -1372,9 +1416,10 @@ d) Person, place and environment
 e) None of the above.
 
 ### PH-P-118
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 note: near-miss of PH-P-008 -- same topic, differently worded question and options.
 What is the "epidemiological transition"?
 a) The shift from communicable to non-communicable diseases.
@@ -1383,9 +1428,10 @@ c) The shift from curable to incurable diseases
 d) The shift from individual medicine to public health
 
 ### PH-P-119
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: e
 Public health?
 a) Is the science and art of preventing disease.
 b) Is the process of mobilizing local, national and international resources.
@@ -1394,9 +1440,10 @@ d) All of the above.
 e) a. and b.
 
 ### PH-P-120
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 note: option (d) is printed "ymptoms" in the source, a typo for "Symptoms" -- preserved verbatim.
 As a health officer, which measure would you use to assess the magnitude of a chronic disease health problem requiring treatment in your area?
 a) Incidence
@@ -1405,17 +1452,19 @@ c) Disease characteristics
 d) ymptoms
 
 ### PH-P-121
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 The objective of public health is to guarantee the health of all, regardless of ethnicity, religion, gender, sexual orientation, country, or political views:
 a) True
 b) False.
 
 ### PH-P-122
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: e
 Which of the following contributed to increased life expectancy globally?
 a) Improved sanitation
 b) Provision of clean water
@@ -1424,9 +1473,10 @@ d) Universal childhood immunization programs
 e) All of the above
 
 ### PH-P-123
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: e
 Which of the following health behaviors contributes to the morbidity and mortality of a population?
 a) Alcohol use
 b) Tobacco use
@@ -1435,25 +1485,28 @@ d) Diet and exercise
 e) All of the above
 
 ### PH-P-124
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 Improvement of the environment requires primarily behavioral and social change?
 a) True.
 b) False.
 
 ### PH-P-125
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 The media is a major resource for promoting public health?
 a) True.
 b) False.
 
 ### PH-P-126
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 In setting priorities for health policy in developing countries, one needs to consider?
 a) The magnitude of the health problem.
 b) The severity of the health problem.
@@ -1462,9 +1515,10 @@ d) All of the above.
 e) a. and b. above.
 
 ### PH-P-127
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 Urbanization promotes the rapid spread of infectious diseases through?
 a) Increasing population density (crowding).
 b) Creating inadequate resources for safe waste disposal.
@@ -1473,9 +1527,10 @@ d) All of the above.
 e) b. and c. above.
 
 ### PH-P-128
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: d
 note: option (e) is printed on the following page (p31/p32 boundary), stitched here.
 The probability of transmission of an infectious agent is associated with?
 a) The environment
@@ -1485,9 +1540,10 @@ d) All of the above
 e) a. and b. above
 
 ### PH-P-129
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 Which of the following is NOT a function of epidemiology?
 a) Lobbying for reform.
 b) Describing the natural history of a disease.
@@ -1496,9 +1552,10 @@ d) Estimating risk.
 e) Evaluating prevention/intervention strategies.
 
 ### PH-P-130
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: c
 Which of the following epidemiologic parameters is used to characterize the spread of an infectious disease?
 a) Prevalence
 b) Disability-adjusted life years
@@ -1507,9 +1564,10 @@ d) Mortality
 e) Case fatality rate
 
 ### PH-P-131
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: a
 Which of the following epidemiologic parameters does NOT need to include a specific time interval?
 a) Prevalence
 b) Incidence
@@ -1518,9 +1576,10 @@ d) Morbidity rate
 e) DALYS
 
 ### PH-P-132
-tier: open
+tier: claimed
 form: mcq
 type: single
+claimed: b
 World-wide, the leading infectious cause of death is?
 a) HIV/AIDS
 b) Respiratory infections
