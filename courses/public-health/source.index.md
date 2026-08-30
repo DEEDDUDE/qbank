@@ -269,3 +269,89 @@ terms: health promotion, Ottawa Charter, health education, health
 protection, disease prevention, enable, mediate, advocate, empowerment,
 health literacy, health gain, 7 principles of health promotion, Jakarta
 Declaration, Shanghai 2016, 3 pillars of health promotion
+
+## {#ch14} Ch. 14 — Measuring the Health of a Population
+covers: levels of measurement (molecular/individual/family/society),
+health indicators (definition, rates vs ratios vs proportions, uses,
+7 characteristics, WHO definition, 12 categories), demography (age
+structure, age-sex pyramids, 5-type pyramid typology, population growth
+rate, total fertility rate, life expectancy, compression of mortality/
+morbidity), measures of mortality (incidence rate worked example, annual/
+crude death rate formulas and worked example, CDR pitfalls, age-specific
+mortality rate, infant mortality definition/causes, childhood mortality
+sub-types -- perinatal/neonatal/postneonatal/child, causes of child
+mortality, maternal mortality rate vs maternal mortality ratio formulas,
+WHO maternal death definition, causes of maternal mortality), measures of
+morbidity (prevalence formula and factors increasing/decreasing it,
+incidence formula, notification/attendance/admission/length-of-stay/
+absence rates), disability rates (Sullivan's Index, HALE), nutritional
+status indicators (newborn/preschool/growth-monitoring anthropometrics,
+BMI categories, low birth weight, weight-for-age/height-for-age),
+environmental/socio-economic/health-policy indicators, Human Development
+Index (3 components, 4 tiers)
+terms: health indicator, rate, ratio, proportion, age-sex pyramid, total
+fertility rate, life expectancy, crude death rate, CDR, infant mortality
+rate, IMR, perinatal mortality, neonatal mortality, maternal mortality
+rate, maternal mortality ratio, MMR, prevalence, incidence, Sullivan's
+Index, health adjusted life expectancy, HALE, BMI, low birth weight,
+weight-for-age, height-for-age, Human Development Index, HDI
+
+## {#ch15} Ch. 15 — Communicable Diseases
+covers: epidemiologic transition and global disease burden (NCD vs
+communicable death share, leading causes of death upper-middle-income
+countries), definition and historical perspective (1950s antibiotic/
+vaccine era, 1967 "war won" quote), epidemics (point-source vs
+contagious), chain of infection (epidemiological triad, 3-step cycle, full
+6-link chain -- infectious agent/reservoir/portal of exit/mode of
+transmission/portal of entry/susceptible host -- with break-the-chain
+interventions at each link), infectious agent properties (pathogenicity,
+virulence, infectivity, infective dose, reservoir), transmission (direct
+vs indirect, Table 7.2 full mode-of-transmission breakdown), host and
+environment links, success stories (Snow, smallpox eradication), new
+infectious diseases, vaccine-preventable disease death data 2017 (TB 1.18
+million), killer diseases infographic, mortality by region 2001, DALYs
+burden of disease 1998 (with DALY definition), infectious disease death
+proportion by region, HIV/AIDS case study (25-years timeline, political
+will/Uganda/Museveni, South Africa vs Thailand contrast, Uganda/Cuba/
+Thailand success stories), control methods (vaccination, environmental
+control, hand-washing stats, break-the-chain interventions), vaccine-
+preventable disease list, control strategy (transmission-route/agent-type
+diagram, identify-the-cause checklist, notification -- international law/
+WHO/national tiers, WHO IHR 2005 notification pathway and decision
+instrument with disease lists and 4-criteria algorithm, treatment of
+cases, prevent recurrence, analysis and reporting), health surveillance
+(definition, mechanisms, 4-component cycle), cost-effectiveness table for
+developing-country disease control
+terms: epidemiologic transition, chain of infection, epidemiological
+triad, pathogenicity, virulence, infectivity, reservoir, vehicle-borne,
+vector-borne, DALY, IHR, International Health Regulations, notification,
+surveillance, HIV/AIDS timeline, zero grazing, HAART
+
+## {#ch16} Ch. 16 — Health Care System in Palestine
+covers: health system definition (WHO 2000), WHO Health System Conceptual
+Framework (6 building blocks, functions/objectives diagram), health care
+characteristics (asymmetric information, high risk), health systems
+financing (5 mechanisms, WHO financing-mechanisms diagram: sources vs
+mechanisms), Duckett 2004 two-dimensional evaluation (performance/equity),
+Universal Health Coverage (definition, SDG target, getting-the-mix-right --
+revenue collection/pooling/purchasing, revenue collection equity/
+efficiency drill-down, stages of coverage progression), models of health
+systems (private, public insurance -- social security vs social health
+insurance, publicly funded variants), Palestinian health system
+introduction (fragmented and unaffordable framing, why observe it, main
+statistical aspects), Palestine demographics (West Bank/Gaza geography,
+14.1 million total population with diaspora breakdown, Table 2 2021
+age/sex distribution, UNRWA refugee figures), demographic/health-status
+indicator trends 1995-2020, 2021 statistics summary, maternal mortality
+trend graph 2010-2021, providers of health care (org chart -- governmental
+MoH/PMMS vs non-governmental UNRWA/NGOs/private, all 5 providers detailed
+including UNRWA's history and services), primary health care tiers by
+population covered, hospital bed distribution 2021 (89 hospitals, 7,769
+beds), health human resources table (physicians/dentists/pharmacists/
+nurses/midwives by region), health expenditure trends 1995-2017, MoH
+budget breakdown 2021 (Table 36), insurance system, what makes a
+successful health system, conclusions
+terms: health system, WHO 6 building blocks, universal health coverage,
+UHC, revenue collection, pooling, purchasing, MoH, UNRWA, PMMS, primary
+health care tiers, health post, health clinic, health center,
+comprehensive health centre, HDI

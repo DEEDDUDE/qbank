@@ -3166,6 +3166,999 @@ Three paired shifts in health-sector orientation:
 
 ---
 
+## Ch. 14 — Measuring the Health of a Population {#ch14}
+
+### 14.1 Levels of measurement {#ch14-1}
+
+"When we measure, we know better." — Centers for Disease Control (CDC),
+Atlanta, Georgia, USA.
+
+Health can be measured at different levels, illustrated as a nested
+hierarchy: **Molecular** (e.g. DNA) → **Individual** → **Family** →
+**Society**.
+
+**Health** (WHO): "a state of complete physical, mental & social
+wellbeing, and not merely an absence of disease or infirmity" — amplified
+to include the ability to lead "a socially and economically productive
+life." Measurement has been framed in terms of illness (or lack of
+health), the consequences of ill-health (morbidity, mortality), and
+economic, occupational and domestic factors that promote ill health.
+
+### 14.2 Health indicators {#ch14-2}
+
+**Health indicators** are used to measure the health status of the
+community — parameters that can measure changes in the level of health;
+indirect parameters or variables that assess the state of health of a
+community.
+
+**Health Indicator** (WHO): "variables which measure change." A health
+indicator is a variable that provides a single numeric measurement of an
+aspect of health within a population for a specified period of time,
+normally a year.
+
+**Rates vs. Ratios vs. Proportions**: rates describe the *frequency* of
+events (e.g. the incidence rate of lung cancer in the US is 63.9 cases per
+100,000 people per year); ratios compare the *relative risk* of an event
+in one group vs. another (e.g. the risk ratio of lung cancer in smokers to
+non-smokers is 22.17 — smokers are 22.17 times more likely to develop
+lung cancer); proportions describe the share of individuals with a
+particular characteristic (e.g. the proportion of obese US adults is
+39.6%). A "number" is simply a count in a specific place and time.
+
+**Uses of Health Indicators**: measurement of community health; comparing
+health status between communities (regional or global); assessing
+health-care needs; proper allocation of human and non-human resources
+according to need; monitoring and evaluating health services, activities
+and programs; comparing health status of different areas/groups over
+time.
+
+**Characteristics of Indicators** (7): (1) **Valid** — actually measure
+what they're supposed to measure, e.g. case fatality rate for disease
+severity; (2) **Reliable** — give similar results for the same person
+under similar circumstances at different times; (3) **Objective** — not
+dependent on subjective feelings, but on defined standards; (4)
+**Sensitive** — respond to changes in the measured condition; (5)
+**Specific** — only reflect changes in the measured condition; (6)
+**Feasible** — the ability to obtain the needed data; (7) **Relevant** —
+contribute to understanding the phenomenon of interest.
+
+**Factors influencing health indicators**: health is multidimensional,
+and each dimension is influenced by numerous factors — economic,
+occupational, cultural, educational, social.
+
+**Categories of Health Indicators** (12): mortality indicators, morbidity
+indicators, disability rates, nutritional status indicators, health care
+delivery indicators, utilization rates, indicators of social and mental
+health, environmental indicators, socio-economic indicators, health
+policy indicators, indicators of quality of life, other indicators.
+
+### 14.3 A. Demography {#ch14-3}
+
+**The importance of age structure**: age structure has a special role in
+demography, mainly because of the strong relationship between age
+structure and demographic processes — the age structure of a population
+is itself determined by these same demographic processes. Broader
+societal processes that are determinants of demographic change may
+themselves be affected by the population's age structure.
+
+**1. Age-sex Pyramids**: a simple graphic tool describing the age-sex
+structure of a given population at a specific point in time. In practice,
+a kind of double histogram (one for each sex) representing population
+size for each age (and sex) group, shifted 90° so the lowest age groups
+are at the base and each sex faces opposite directions (usually females
+right, males left). The X axis represents the size of the age group; the
+Y axis represents its age (or year of birth).
+
+**A typology of population pyramids** (Figure 8-1, source: Hartley,
+1972): five pyramid *types*, distinguished by the relative share of the
+population in broad age bands (children/working-age/elderly, split by
+sex) — ranging from a wide-based, sharply tapering **Type I** (very high
+proportion of children, e.g. ~60% at the youngest band) through **Type
+V**, a narrow-based, near-uniform column shape (very low proportion of
+children, e.g. ~5%) — visually spanning the same expanding-to-
+contracting-population spectrum described by the demographic transition
+model (Ch. 3).
+
+**The pyramid shape**: age structure results from the fertility,
+mortality, and (sometimes) migration patterns a population has
+experienced over recent decades — since these patterns often leave a
+unique stamp on the pyramid's shape, it can serve as a "story teller" of a
+population's demographic history. **Age structure indicators**:
+proportions at different ages, specifically children (0–14), old people
+(65+), and those of working age (15–64).
+
+**2. Population Growth Rate**: growth of the population size in one year,
+expressed as a percentage.
+
+**3. Total Fertility Rate (TFR)**: the number of children that would be
+born per woman if she were to live to the end of her childbearing years
+and bear children at each age in accordance with the prevailing
+age-specific fertility rates.
+
+**4. Life Expectancy**: LE at age X = the average number of years a
+person aged x will live, if subject to the mortality rates in the life
+table (i.e. if the age-specific death rates for a given year prevailed
+for the rest of that person's life). Estimated separately for both sexes.
+A good indicator of socioeconomic development, and a positive health
+indicator of long-time survival.
+
+*Is there an upper limit to life expectancy?* Two competing hypotheses:
+**Compression of mortality** — an increasing concentration of deaths at
+older ages; **Compression of morbidity** — increasing illness/disability
+in the later years of life, but with fewer years of disabled life before
+death among the elderly.
+
+### 14.4 B. Measures of mortality {#ch14-4}
+
+**Measures of Mortality**: Crude Death Rates; Age-Specific Death Rates;
+Life Table Estimates (life expectancy, survivorship by age);
+Cause-Specific Death Rates; Special Indicators (infant and maternal
+mortality rates).
+
+**1. Incidence rate** — worked example: midyear population is an
+approximation of the average population exposed to risk; total
+person-years lived is a better denominator if available. Studying the
+incidence of stroke in a population of 100 people followed for 5 years:
+total person-years = 100 people × 5 years = 500 person-years. If 5
+strokes occurred, incidence rate of stroke = 5 strokes / 500 person-years
+= **0.01 strokes per person-year** — the probability of a person having a
+stroke in one year is 0.01.
+
+**2. Annual Death Rate**: the "general" (crude) mortality rate — a
+population group exposed to risk of death, over a time period.
+
+$$\text{Annual death rate from all causes} = \frac{\text{Total number of deaths}}{\text{Number of years in the period}}$$
+
+(equivalently, $\text{ADR} = \frac{\text{Total deaths during a specific 12-month period}}{\text{Number of persons in the total population at the middle of the period}} \times 1{,}000$)
+
+**3. Crude Death Rate (CDR)**: does *not* account for differences of age,
+sex, etc. in death. Needs: total deaths, total population, a given time
+period.
+
+$$\text{CDR} = \frac{\text{Number of deaths}}{\text{Total population}} \times 100{,}000$$
+
+*Worked example*: 2,134,000 deaths / 248,709,873 average population ×
+100,000 = **858.0**.
+
+**Crude Death Rate points to note**: risks of death change by age, so CDR
+is affected by population age structure. Aging populations can have
+*rising* CDRs even as health conditions improve; LDCs with very young
+populations often have *lower* CDRs than MDCs even though their overall
+health conditions are poorer. Mortality comparisons across countries
+should therefore always use mortality indicators adjusted for differences
+in age composition.
+
+**4. Specific Mortality Rates — age-specific mortality rate**:
+
+$$\text{Age specific mortality rate} = \frac{\text{Number of deaths of rural elderly age 55+ in a given year}}{\text{Average population of rural elderly in the same period}} \times 100{,}000$$
+
+**5. Infant Mortality**: number of deaths before one year of age (from a
+specific cause or all causes), divided by the total number of live births
+(per 1,000, or per 100,000, live births).
+
+*Why IMR?* A good indicator of a population's overall health status (and
+healthcare); a major determinant of life expectancy at birth; sensitive to
+changes in socio-economic conditions and to the availability, utilization
+and effectiveness of health care, particularly perinatal care.
+
+**Most common causes of infant mortality worldwide**: pneumonia, diarrhea
+(dehydration). **Major causes of infant mortality in developed countries**:
+congenital malformation, infection, Sudden Infant Death Syndrome (SIDS).
+
+**6. Childhood Mortality — sub-definitions**: **Infant Mortality** — deaths
+of infants one year of age or younger, per 1,000 live births. **Perinatal
+Mortality** — total deaths of the fetus from a gestational age of 20 weeks
+through the seventh day of newborn life. **Neonatal Mortality** — deaths
+only in the first 28 days of life. **Post-Neonatal death** — deaths after
+28 days of life but before one year. **Child Mortality** — deaths within
+the first five years after birth, per 1,000.
+
+**Causes of Child Mortality** (UNICEF): most child mortality results from
+one or a combination of: Acute Respiratory Infection (ARI), diarrhea,
+malaria, measles, malnutrition, perinatal disorders.
+
+**7. Maternal Mortality Rate**: number of maternal deaths per year per
+100,000 women aged 15–49 years (the reproductive age range). Accounts for
+the greatest number of deaths among women of reproductive age in
+developing countries.
+
+$$\text{Maternal Mortality Rate} = \frac{\text{Number of Maternal Deaths}}{\text{Number of women ages 14-49}} \times 100{,}000$$
+
+**Maternal death** (WHO): "the death of a woman while pregnant or within
+42 days of termination of pregnancy, irrespective of the duration and
+site of the pregnancy, from any cause related to or aggravated by the
+pregnancy or its management but not from accidental or incidental
+causes."
+
+**Major Causes of Maternal Mortality** (WHO Report, 2005): severe
+bleeding/hemorrhage (25%), infections (13%), unsafe abortions (13%),
+eclampsia (12%), obstructed labor (8%), other direct causes (8%), indirect
+causes (20%, such as malaria, anemia, HIV/AIDS, or cardiovascular disease
+complicating or aggravated by pregnancy).
+
+**8. Maternal Mortality Ratio (MMR)**: number of deaths of women from
+pregnancy-related causes per 100,000 *live births* (note: denominator is
+live births, distinguishing it from the Maternal Mortality *Rate*'s
+denominator of women aged 15–49). Used as a measure of the quality of a
+health care system; measures the risk of death among pregnant and
+recently delivered women.
+
+$$\text{MMR} = \frac{\text{Number of Maternal Deaths}}{\text{Number of live births}} \times 100{,}000$$
+
+### 14.5 C. Measures of morbidity {#ch14-5}
+
+**1. Prevalence**: the number of persons who have a particular
+disease/condition (existing cases) at a given point in time, per 10ⁿ
+population — a "snapshot" of an existing health situation. Includes all
+known cases of a disease that have not (yet) resulted in death, cure, or
+remission. The proportion of a population-at-risk affected by a "disease"
+at a specific point in time:
+
+$$\text{Prevalence rate} = \frac{\text{Number of people with the disease at a specific time}}{\text{Number of people in the population at-risk at that time}} \times 10^n$$
+
+**Factors that increase observed prevalence**: longer disease duration;
+prolongation of life without cure; an increase in new cases
+(incidence/risk); out-migration of non-diseased people; in-migration of
+susceptible/diseased people; improved diagnostics and/or reporting.
+
+**Factors that decrease observed prevalence**: increased case-fatality
+rate; a decrease in new cases (incidence/risk); in-migration of "healthy"
+people; out-migration of diseased people; improved cure rate; shorter
+disease duration.
+
+**2. Incidence**: an incidence measure takes into account the number of
+individuals in a population who become ill, *and* the time period
+experienced by members of the population during which these disease
+events occur. Members of the population not susceptible to the disease
+(not at risk) are excluded from the denominator when calculating disease
+frequencies:
+
+$$\text{Incidence} = \frac{\text{Number of NEW cases of disease occurring in a population during a specified time period}}{\text{Number of persons AT RISK of developing the disease during that period}}$$
+
+**3. Other morbidity indicators**: (1) **Notification rates** — calculated
+from reporting to public authorities of certain diseases (e.g. yellow
+fever, poliomyelitis, cholera, plague); provide information on geographic
+clustering of infections and the quality of the reporting system; (2)
+**Attendance rates** at health centers; (3) **Admission, readmission and
+discharge rates**; (4) **Length of stay in hospital** — reflects the
+virulence and resistance developed by the etiological factor; (5)
+**Absence from work or school** — reflects economic loss to the
+community. Hospital data constitute a basic and primary source of
+information about diseases prevalent in the community.
+
+### 14.6 D. Disability rates {#ch14-6}
+
+**1. Sullivan's Index**: "expectation of life free of disability" —
+calculated as a country's life expectancy minus the probable duration of
+bed disability and inability to perform major activities. Considered one
+of the most advanced indicators currently available.
+
+**2. Health Adjusted Life Expectancy (HALE)**: based on the WHO framework
+and on life expectancy at birth, with an adjustment for time spent in
+poor health — the equivalent number of years in full health that a
+newborn can expect to live, based on current rates of ill-health and
+mortality.
+
+### 14.7 E. Nutritional status indicators {#ch14-7}
+
+Nutritional status is a *positive* health indicator.
+
+- **Newborns** are measured for: birth-weight, length, head circumference
+  — these reflect maternal nutritional status.
+- **Pre-school children — anthropometric measurements**: weight (measures
+  acute malnutrition), height (measures chronic malnutrition), mid-arm
+  circumference (measures chronic malnutrition).
+- **Growth Monitoring of children**: weight-for-age, height-for-age,
+  weight-for-height, head & chest circumference, mid-arm circumference.
+  Head circumference specifically assesses brain growth.
+
+**Low Birth Weight**: the proportion of newborns weighing less than 2,500
+grams.
+
+**Adult Body Mass Index (BMI)**: an indicator of underweight and obesity.
+Underweight, obesity and anemia are generally considered reliable
+nutritional indicators. BMI = weight (kg) / height² (m²). Categories:
+Underweight <18.5; Normal weight 18.5–24.9; Overweight 25–29.9; Obesity
+≥30.
+
+**Most commonly used anthropometric indicators for children**:
+**Weight-for-age (WFA)** — underweight in children; the % of children in
+a specific age group with WFA below −2 SD of a reference group; combines
+effects of past and present episodes of disease/malnutrition, integrating
+effects over the whole of life to the age of measurement, but is
+insensitive to acute episodes. **Height-for-age (HFA)** — stunting in
+children; the % of children in a specific age group with HFA below −2 SD
+of a reference group.
+
+**Growth monitoring** is the regular tracking of a child's weight, height,
+and head circumference to assess growth and development — an important
+part of pediatric care that can help identify potential health problems
+early. Children are weighed and measured regularly, usually at well-child
+visits, and the measurements are plotted on a growth chart comparing the
+child to others of the same age and sex. If growth does not follow the
+expected pattern, it could signal an underlying health condition
+(malnutrition, growth hormone deficiency, chronic illness) — early
+identification and intervention improve long-term outcomes.
+
+### 14.8 F–J. Environmental, socio-economic, health-policy, and quality-of-life indicators {#ch14-8}
+
+**F. Environmental Indicators**: reflect the quality of the physical and
+biological environment in which diseases occur and people live —
+explaining the prevalence of communicable diseases in a community. The
+most important measure the proportion of the population with access to
+safe drinking water and sanitation facilities; also included: pollution of
+air and water, radiation, noise pollution, exposure to toxic substances in
+food and water.
+
+**G. Socio-economic Indicators**: do not directly measure health, but are
+important in interpreting health indicators — level of unemployment,
+illiteracy rate, poverty, population, Total Fertility Rate (TFR), family
+size, population increase rate, contraceptive use.
+
+**H. Health Policy Indicators**: the single most important indicator of
+political commitment is the allocation of adequate resources. Relevant
+indicators: proportion of GDP spent on health services; proportion of GDP
+spent on health-related activities (water supply, sanitation, housing,
+nutrition); proportion of total health resources devoted to primary
+health care.
+
+**J. Indicators of Quality of Life — the Human Development Index (HDI)**:
+combines (1) **life expectancy at birth** — the average number of years a
+newborn can expect to live; (2) **education** — mean years of schooling
+for adults 25+, and expected years of schooling for children of
+school-entering age; (3) **Gross National Income (GNI) per capita** — the
+average income per person, adjusted for purchasing power parity (PPP).
+The result is placed on a 0–1 scale. Countries are ranked into four tiers:
+**Very high** human development (HDI ≥ 0.800); **High** (0.700–0.799);
+**Medium** (0.550–0.699); **Low** (below 0.550).
+
+---
+
+## Ch. 15 — Communicable Diseases {#ch15}
+
+### 15.1 The epidemiologic transition and the global disease burden {#ch15-1}
+
+**Epidemiologic transition**: *Past* — deficiency diseases, infectious
+diseases, short latent period, single cause. *Present* — chronic diseases
+(cancer, CVD, diabetes), long latent period, multiple causes.
+
+**Global mortality (World Health Report, 1999)**: non-communicable
+diseases (NCDs) 58.8%, communicable diseases 41%; within NCDs — CVD
+30.9%, cancer 13.4%, chronic obstructive pulmonary disease 4.2%, diabetes
+1.1%.
+
+**Non-communicable diseases (NCDs)** — mainly cardiovascular diseases,
+diabetes, cancers and chronic respiratory diseases — are the leading cause
+of death worldwide, representing 7 of the top 10 causes of death, equal
+to 74% of all deaths globally. More than 15 million people die
+prematurely (ages 30–69) every year from a major NCD; 85% of these
+premature deaths occur in low- and middle-income countries. Only 6% of
+countries are on track to achieve related SDG target 3.4. NCDs hinder
+social/economic development and can pose significant threats to
+international health security.
+
+**Communicable diseases** — including HIV/AIDS, tuberculosis, malaria,
+viral hepatitis, sexually transmitted infections, and neglected tropical
+diseases (NTDs) — are among the leading causes of death and disability in
+low-income countries and marginalized populations. HIV has claimed 36.3
+million lives so far. TB kills 1.5 million people/year, making it the
+world's second top infectious killer after COVID-19. Children under 5
+accounted for 77% of all malaria deaths worldwide in 2020. Communicable
+diseases hinder social/economic development and threaten international
+health security, illustrated by the COVID-19 pandemic. The SDGs include a
+specific target to end the epidemics of AIDS, TB, malaria and NTDs, and
+combat hepatitis and other communicable diseases.
+
+**Leading causes of death in upper-middle-income countries, 2000 vs.
+2019** (WHO Global Health Estimates): of the top 10, only #5 (lower
+respiratory infections) is communicable — the rest are noncommunicable
+(ischaemic heart disease #1, stroke #2, COPD #3, tracheal/bronchial/lung
+cancers #4, diabetes mellitus #6, hypertensive heart disease #7,
+Alzheimer's/dementias #8, stomach cancer #9) or injuries (road injury
+#10).
+
+### 15.2 Definition and historical perspective {#ch15-2}
+
+**Communicable (infectious) disease**: an illness caused by transmission
+of a specific infectious agent or its toxic products from an infected
+person or animal to a susceptible host, either directly or indirectly.
+
+**Historical perspective**: in the 1950s, the widespread use of
+penicillin, the development of polio vaccines, and the discovery of drugs
+for tuberculosis transformed the field. In 1967, the US Surgeon General
+stated that "the war against infectious diseases has been won."
+
+### 15.3 Key definitions and epidemics {#ch15-3}
+
+Definitions of **endemic**, **outbreak**, **epidemic**, **pandemic**,
+**eradication**, **elimination of infection** and **control** repeat
+verbatim the definitions already given in Ch. 5 (§5.4) and Ch. 10 (source
+epidemiology module) — not re-transcribed here.
+
+**Epidemics**: the occurrence in a community or region of a number of
+disease cases that is unusually large or unexpected for the given place
+and time. Epidemics are either **point-source** or **contagious** in
+origin. In a **point-source epidemic**, susceptible individuals are
+exposed more or less simultaneously to one source of infection. In a
+**contagious epidemic**, the disease passes from person to person, and
+the initial rise in case numbers is slower.
+
+### 15.4 The chain of infection {#ch15-4}
+
+Communicable diseases occur as a result of the interaction of the agent,
+the transmission process, and the host — control may involve changing one
+or more of these components, all of which are influenced by the
+environment.
+
+**The Epidemiological Triad**: three linked, bidirectionally-arrowed
+components — **Agent**, **Host**, **Environment** — each influencing the
+others.
+
+**The Chain of Infection** (cyclic, 3-step version): **Susceptible host**
+→ **Source of infectious agent** → **Mode of transmission** → (back to)
+susceptible host.
+
+**Break the Chain of Infection** (6-link version, the most detailed
+framing): **Infectious Agent** (the microorganism/germ/bug that can cause
+harmful infection — e.g. common infections in care homes include
+respiratory illnesses like colds/flu and stomach bugs like norovirus and
+*Clostridioides difficile*) → **Reservoir** (where the germ lives and
+grows — can be on a person, e.g. in their respiratory tract, or on
+equipment, in the environment, or in food/water) → **Portal of exit /
+"way out"** (the germ needs a way out of the infected person to spread —
+via sickness and diarrhoea, or through the nose/mouth via sneezing and
+coughing) → **Mode of transmission** (once out, the germ spreads
+person-to-person by hands or on equipment such as a commode, through the
+air by coughing, or by contact with body fluids and blood) → **Portal of
+entry / "way in"** (the germ needs a way into another person — through
+the eyes and mouth, hands, open wounds, or any tubes put into the body
+such as a catheter or feeding tube) → **Susceptible host** (the person at
+risk of infection because they are unable to fight it off — could be
+residents, staff or visitors; elderly people have decreased immune
+systems and catch infections more easily; infections also spread quickly
+in care homes because many residents live closely together).
+
+**Break the chain — interventions at the Reservoir link**: antibiotics;
+cleaning, disinfection, sterilization; other infection-prevention
+policies; pest control.
+
+**Break the Chain of Infection — interventions overall**: immunizations;
+treatment of underlying disease; health insurance; patient education;
+diagnosis and treatment; antimicrobial stewardship; cleaning,
+disinfection, sterilization; infection prevention policies; pest control.
+
+### 15.5 The infectious agent {#ch15-5}
+
+- **Pathogenicity**: the ability of the agent to produce disease.
+
+$$\text{Pathogenicity} = \frac{\text{Number of persons developing clinical illness}}{\text{Number of people exposed to infection}}$$
+
+- **Virulence**: a measure of the severity of disease.
+- **Infectivity**: the ability of the agent to invade and produce
+  infection in the host.
+- **Infective dose**: the amount required to cause infection in
+  susceptible subjects.
+- **Reservoir**: the natural habitat of an infectious agent — may include
+  humans, animals, and environmental sources (e.g. water, soil, surfaces,
+  insects — mosquitoes, rats).
+
+### 15.6 Transmission {#ch15-6}
+
+**Transmission** — the second link in the chain of infection: the spread
+of an infectious agent through the environment or to another person.
+Transmission can be **direct** (through touch) or **indirect** (via an
+object contaminated by the infectious agent — vehicle-borne, vector-borne,
+or airborne). **Vehicle-borne**: contaminated materials such as food,
+clothes, cooking utensils. **Vector-borne**: the agent is carried by an
+insect or animal. The distinction between transmission types matters when
+selecting methods for controlling communicable diseases.
+
+**Table 7.2 — Modes of transmission of an infectious agent**:
+
+| Direct transmission | Indirect transmission |
+|---|---|
+| Touching; kissing | Vehicle-borne (contaminated food, water, towels, farm tools, etc.) |
+| Sexual intercourse | Vector-borne (insects, animals) |
+| Other contact (e.g. childbirth, medical procedures, injection of drugs, breastfeeding) | Airborne, long-distance (dust, droplets); parenteral (injections with contaminated syringes) |
+| Airborne, short-distance (via droplets, coughing, sneezing) | |
+| Transfusion (blood) | |
+| Transplacental | |
+
+### 15.7 Host and environment {#ch15-7}
+
+**Host** — the third link in the chain of infection: the person or animal
+that provides a suitable place for an infectious agent to grow and
+multiply under natural conditions.
+
+**Environment**: plays a critical role in the development of communicable
+diseases; general sanitation, temperature, air pollution, and water
+quality are among the factors that influence all stages in the chain of
+infection.
+
+### 15.8 Success stories and new infectious diseases {#ch15-8}
+
+**Success stories in epidemiology**: Snow's work on cholera; eradication
+of smallpox.
+
+**New infectious diseases** (examples given): Lassa fever (a viral disease
+transmitted from rodents), AIDS, Ebola, SARS, H1N1, avian flu, COVID-19.
+
+**Deaths caused by vaccine-preventable diseases, World, 2017** (IHME,
+Global Burden of Disease Study): Tuberculosis 1.18 million; Measles
+95,290; Whooping cough 91,804; Hepatitis B 89,590; Hib meningitis 75,703;
+Tetanus 38,134; Meningococcal meningitis 29,967; Yellow fever 4,786;
+Diphtheria 3,624.
+
+### 15.9 The global burden of infectious disease {#ch15-9}
+
+**"Killer diseases in the developing world"** (WHO/Reuters infographic —
+annual death toll): lower respiratory infections >4 million; tuberculosis
+2 million; HIV/AIDS >3 million; measles 530,000; malaria 1–5 million;
+whooping cough 200,000–300,000; diarrhoea 2.2 million; tetanus 214,000;
+meningitis 174,000; syphilis 157,000.
+
+**Mortality Associated With Infectious Diseases, 2001** (by region):
+Africa has by far the highest share of infectious-disease-attributable
+deaths within nearly every category shown (lower respiratory infections,
+HIV/AIDS, diarrhoeal diseases, tuberculosis, malaria, measles), followed
+at varying levels by Southeast Asia and Eastern Mediterranean, with
+Western Pacific, Americas and Europe generally lowest.
+
+**Burden of disease — DALYs (Disability Adjusted Life Years) lost in
+1998, due to infectious diseases, all ages** (millions): acute
+respiratory infections 83; diarrhoeal diseases 73; HIV/AIDS 71; malaria
+39; measles 30; TB 28; sexually transmitted infections 17; pertussis 13;
+tropical diseases (trypanosomiasis, Chagas disease, schistosomiasis,
+leishmaniasis, lymphatic filariasis, onchocerciasis) 11. (**DALY**: one
+DALY represents the loss of one year of full health; the burden-of-disease
+metric combining years of life lost to premature death with years lived
+with disability.)
+
+**Infectious Disease Deaths as a Proportion of All Deaths, 2001** (by
+region): Africa 62%, Eastern Mediterranean 34%, Southeast Asia 31%,
+Western Pacific 11%, Americas 10%, Europe 5%.
+
+### 15.10 Case study: HIV/AIDS and the politics of control {#ch15-10}
+
+**25 years of AIDS — a timeline** (Source: WHO/UNAIDS): key milestones
+plotted against a rising-then-plateauing curve of the global number of
+people living with HIV (millions) and children orphaned by AIDS in
+sub-Saharan Africa, 1980–2005+, including: first cases of unusual immune
+deficiency identified among gay men in the USA (early 1980s); AIDS
+defined for the first time; HIV identified as the cause of AIDS; a
+heterosexual AIDS epidemic revealed in Africa; the first HIV antibody
+test becomes available; the Global Network of People living with HIV/AIDS
+(GNP+) founded; WHO launches the Global Programme on AIDS; the first AIDS
+therapy (zidovudine/AZT) approved in the USA; HIV prevalence in young
+pregnant women in Uganda and young men in Thailand begins to decrease
+(1991–1993) — the first major downturns in the epidemic in the developing
+world; Highly Active Antiretroviral Treatment (HAART) launched; the first
+treatment regimen to reduce mother-to-child HIV transmission developed;
+UNAIDS created; Brazil becomes the first developing country to provide
+antiretroviral therapy through its public health system; the UN General
+Assembly Special Session on HIV/AIDS and the Global Fund to fight AIDS,
+TB and Malaria launched; WHO and UNAIDS launch the "3 x 5" initiative
+(goal: 3 million people on ART in the developing world by 2005); the
+Global Coalition on Women and AIDS launched.
+
+**Political will**: HIV prevalence rate among 13–19 year olds in Masaka,
+Uganda declined from roughly 4.5% (1990) to under 1% (1997) — presented
+alongside a photo of Ugandan President Yoweri Museveni, credited with
+strong political leadership on HIV.
+
+**Popular support vs. political denial** (Figure 8, UNAIDS): South Africa
+vs. Thailand, percent of infected adults, 1990–2000 — Thailand's HIV
+prevalence stayed low and roughly flat (aggressive HIV control program:
+condom use for commercial sex); South Africa's prevalence climbed steeply
+to ~25% (no HIV control program implemented).
+
+**Success stories**: **Uganda** — the "zero grazing" (avoid casual sex)
+campaign; overall national HIV prevalence fell from 24% (1987) to 8.3%
+(2002). **Cuba** — HIV testing and partner tracking; in 2005, HIV
+prevalence was 10 times lower than in other Caribbean countries. **Thailand**
+— condom use for commercial sex (per the South Africa/Thailand contrast
+above).
+
+### 15.11 Control methods {#ch15-11}
+
+**Control methods**: **Vaccination**. **Environmental control** —
+personal hygiene, protection of food, water supplies, sanitation, vector
+control.
+
+**Hand-washing statistics**: 40% of foodborne illnesses are transmitted
+via germs on our hands; 80% of communicable diseases are transferred by
+touch alone.
+
+**Vaccine-preventable diseases** (list given): diphtheria, *Haemophilus
+influenzae* type b, hepatitis A, measles, mumps, pneumococcal disease,
+rotavirus (severe diarrhea), tetanus (lockjaw), varicella (chickenpox),
+Japanese encephalitis, cholera, typhoid, hepatitis B, meningococcus,
+pertussis (whooping cough), polio, rubella (German measles), tuberculosis,
+yellow fever.
+
+### 15.12 Control strategy {#ch15-12}
+
+**Direct and indirect transmission routes** (control-strategy diagram):
+transmission occurs via Air, Food/Water, Person-person contact, Insect
+(vector), or Fomites — connecting a Host to an Agent, where the agent may
+be viral, bacterial, fungal, protozoal, or a helminth; summarized as
+**Host — Agent — Vehicle/Vector**.
+
+**Control strategy — steps**: identify the cause (diagnosis); notify;
+treat cases; interrupt transmission; prevent recurrence; analyse and
+report; surveillance.
+
+**1. Identify the cause**: confirm diagnosis (a. clinical, b. laboratory);
+determine the extent of infected cases (endemic, or an outbreak?); is
+this the first case, or have there been others over an extended period?;
+where did the infected person come from — local or imported?;
+epidemiology — common events (e.g. all attended a wedding); are there
+exceptions (e.g. no cases in the center of a village)?; population at
+risk (e.g. only forest workers); changes in the environment (e.g. climate
+change); route of transmission.
+
+**2. Notification**: whose job is it? — What diseases must be notified?
+Under **International Law**: plague, cholera, yellow fever. Under **WHO
+surveillance**: louse-borne typhus, relapsing fever, polio, malaria,
+AIDS, smallpox. Under **National Health** authorities (example: CDC): TB,
+leprosy, sleeping sickness, West Nile fever.
+
+**The WHO IHR (International Health Regulations) notification pathway**:
+a Health-related event is Detected at the local community/primary public
+health response level (→ preliminary control measures) → Reported to the
+intermediate public health response level (→ investigation and
+additional control measures) → Reported to the national level/National
+IHR focal point (→ formal assessment, containment, and control measures)
+→ Notified/reported to the WHO IHR contact point (→ recommendations and
+other control measures). The first three steps occur at country level;
+the final step is international.
+
+**The IHR 2005 decision instrument** — events detected by a national
+surveillance system are checked against three categories: (a) **a case
+of** smallpox, poliomyelitis due to wild-type poliovirus, human influenza
+caused by a new subtype, or severe acute respiratory syndrome (SARS); (b)
+**any event** of potential international public health concern, including
+those of unknown cause or source; (c) **a case of** cholera, pneumonic
+plague, yellow fever, viral hemorrhagic fevers (Ebola, Lassa, Marburg),
+West Nile fever, or other diseases of special national/regional concern
+(e.g. dengue fever, Rift Valley fever, meningococcal disease). Any
+matching event is checked against 4 criteria: (1) is the public health
+impact of the event serious? (2) is the event unusual or unexpected? (3)
+is there significant risk for international spread? (4) is there
+significant risk for international travel or trade restrictions? If
+**yes to any 2** of the 4 criteria, the event **shall be notified to WHO
+under IHR 2005**.
+
+**3. Treatment of cases**: emergency treatment center; mobilization of
+staff, medicines and equipment; formulation of a standard treatment
+schedule; rules for quarantine, management of contacts, prevention of
+carriers, and disposal of the dead.
+
+**4. Prevent recurrence**: vaccinate where possible; interrupt the
+transmission route (e.g. supply clean, purified water); health education.
+
+**5. Analysis and reporting**: inform the authorities; notify other
+workers in similar situations (mini-conference); make a full record for
+the future; elicit funds for further preventive measures.
+
+**6. Surveillance**: health surveillance is the ongoing, systematic
+collection, analysis and interpretation of health data essential for
+planning, implementing and evaluating public health activities.
+Surveillance needs to be linked to timely dissemination of data so
+effective action can be taken to prevent disease. Surveillance mechanisms
+include compulsory notification of specific diseases, specific disease
+registries (population- or hospital-based), continuous or repeated
+population surveys, and aggregate data showing trends in consumption
+patterns and economic activity.
+
+**Components of Surveillance Systems** (a 4-step cycle): (1) **Data
+Collection** → (2) **Collation of data** → (3) **Analysis and
+interpretation** → (4) **Timely dissemination of information**.
+
+**Surveillance — sources and examples**: antibiotic resistance patterns;
+incidence of diarrhea; vaccine utilization; active surveillance via
+public-health labs; official mortality records; veterinarians and
+entomologists; village leaders and school teachers; rainfall and
+temperature data.
+
+### 15.13 Cost-effectiveness of communicable-disease control {#ch15-13}
+
+**"Can we afford it?" — Affordable health services for developing
+countries** (source: World Development Report, 1993; per-capita spending
+and cost-effectiveness data, WHO):
+
+| Disease | Intervention | Prevention/treatment cost | Annual cost per capita (1990) |
+|---|---|---|---|
+| AIDS | Treatment of STIs; prevention programmes | $14 for a year's supply of condoms | $0.20–$1.70 |
+| TB | DOTS strategy | $20 for 6 months of medicines | $0.60 |
+| Malaria | Prevention | $10 for an insecticide-treated bednet | being determined |
+| Measles | Immunization | $0.26 to administer one dose of measles vaccine | $0.50 |
+| Diarrhoeal diseases | Integrated Management of Childhood Illness | $0.33 for oral rehydration salts | $1.60 |
+| ARI | Treatment of pneumonia | $0.27 for 5 days of antibiotics | being determined |
+
+---
+
+## Ch. 16 — Health Care System in Palestine {#ch16}
+
+### 16.1 What is a health system? {#ch16-1}
+
+**Health system** (WHO, 2000): "the combined entity of all resources,
+actors and institutions related to the financing, regulation and
+provision of all activities whose primary intent is to improve or
+maintain health." Also: "all activities whose primary purpose is to
+promote, restore and maintain health" (World Health Report 2000). A
+**health care system** is an arrangement in which health care is
+delivered — there are many variations of health care systems around the
+world.
+
+**The WHO Health System Conceptual Framework: the six building blocks**
+(WHO, 2007) — **System Building Blocks**: (1) Service delivery, (2)
+Health workforce, (3) Information, (4) Medical products & technologies,
+(5) Financing, (6) Leadership/governance — which, through **Access,
+Coverage, Quality, Safety**, produce the **Overall Goals/Outcomes**: (1)
+Improved health (level and equity), (2) Responsiveness, (3) Social and
+financial risk protection, (4) Improved efficiency.
+
+**Functions and goals of the health system** (a companion WHO diagram):
+**Functions the system performs** — Stewardship (oversight) →
+[Creating resources (investment and training); Financing (collecting,
+pooling and purchasing)] → Delivering services (provision); **Objectives
+of the system** — Delivering services leads to *Health*; Stewardship also
+contributes to *Responsiveness (to people's non-medical expectations)*;
+Financing also contributes to *Fair (financial) contribution*, which
+feeds into *Health*.
+
+**Characteristics of health care**: the provision of critical health care
+treatment is often regarded as a basic human right regardless of ability
+to pay — some treatments cost more than a typical family's life savings.
+Health care professionals are bound by law and their oaths of service to
+provide lifesaving treatment. There is **asymmetric information** —
+unbalanced knowledge between the provider and the recipient (patient).
+There is a **high risk level**, since it touches people's lives directly.
+
+### 16.2 Health systems financing {#ch16-2}
+
+**Financing Mechanisms**: general taxation; social health insurance;
+voluntary or private health insurance; direct or out-of-pocket payments;
+donations or community health insurance.
+
+**WHO's "Health Financing Mechanisms" diagram**: **Financing sources** —
+(1) general tax or other revenue, (2) payroll tax, (3) contribution or
+premium, (4) direct payment — plus external resources and natural
+resource revenue, flowing from **Household** — feed into **Financing
+mechanisms**: tax-based financing, social health insurance, other
+prepayment schemes, and (bypassing mechanisms entirely) out-of-pocket
+payments — all of which fund **Health care services**.
+
+**Duckett (2004)** proposed a two-dimensional approach to evaluating
+health care systems: **Performance** (quality, efficiency, acceptability)
+and **Equity**.
+
+### 16.3 Universal Health Coverage (UHC) {#ch16-3}
+
+**Universal Health Coverage (UHC)**: means all people have access to the
+full range of quality health services they need, when and where they
+need them, without financial hardship. Healthy, wealthy people
+cross-subsidize the sick and poor. UHC covers the full continuum of
+essential health services — from health promotion to prevention,
+treatment, rehabilitation, and palliative care across the life course.
+Achieving UHC is one of the targets nations set when adopting the 2030
+SDGs in 2015. Protecting people from the financial consequences of
+out-of-pocket health payments reduces the risk of being pushed into
+poverty.
+
+**"Universal Coverage: Getting the Mix Right"** (WHO): three linked
+components — **Revenue collection** (collect funds — taxes or
+contributions — efficiently and equitably) → **Pooling** (costs are
+shared by all and not borne only by people when they are ill; the
+wealthy & healthy subsidize the poor & sick) → **Purchasing** (buy or
+provide effective health interventions; incentives for efficiency).
+
+**Revenue Collection**, drilled down further: driven by **Sustainability**
+— splitting into **Equity** ("is the money collected in an equitable
+way?" → "how much do I pay, and how much do others pay?") and
+**Efficiency** ("does the amount collected suffice?" → "how to collect a
+sufficient amount of money with minimum administrative cost?").
+
+**Stages of Coverage and Organisational Mechanisms** — a progression:
+**Absence of financial protection** (out-of-pocket spending) →
+[increase prepayment] → **Intermediate stages of coverage** (mixes of
+community-cooperative and enterprise-based health insurance, other
+private health insurance, SHI-type coverage for specific groups, and
+limited tax-based financing) → [reduce out-of-pocket payments] →
+**Universal Coverage** (tax-based financing; social health insurance; a
+mix of tax-based and various types of health insurance).
+
+### 16.4 Models of health systems {#ch16-4}
+
+Purely private-enterprise health care systems are comparatively rare. The
+other major models are **public insurance systems** (non-profit,
+military, government, and NGO-run).
+
+**Public insurance systems**: (1) **Social security health care model** —
+workers and their families are insured by the state; (2) **Social health
+insurance** — the whole population, or most of it, is a member of a
+sickness insurance company (the "communist model").
+
+**Publicly funded health care models**: one variant where residents are
+insured by the state *and* health care workers are employed by the state;
+another variant where residents are insured by the state, but those who
+provide health care work in private enterprises.
+
+### 16.5 Health Care System in Palestine: introduction {#ch16-5}
+
+The Palestinian health care system is characterized in the deck's own
+title as "**A Health Care System Still Fragmented and Increasingly
+Unaffordable**."
+
+**Why observe the Palestinian health care system?** (1) To provide
+up-to-date quality information on the health system, its performance and
+reforms, for use by policy makers. (2) To provide a sound foundation for
+comparative analytical work on specific health system issues.
+
+**Main aspects of health-related statistics** covered: socio-economic/
+geopolitical mapping; health status and demographics; health system
+organization & governance; health system finance & expenditure; human
+resources; health service delivery; health system reforms.
+
+### 16.6 Demographics of Palestine {#ch16-6}
+
+Occupied Palestine consists of two geographical areas: the **West Bank**
+(including East Jerusalem, ~5,800 km²) and the **Gaza Strip** (a densely
+populated area of ~360 km²). The number of Palestinians, by 2022, was
+about **14.1 million**.
+
+**Distribution of the global Palestinian population (end of 2022, ~14.0015
+million total)**: West Bank 3,154.4 thousand (22.5%); Gaza Strip 2,136.5
+thousand (15.3%); Occupied Palestine 1948 (present-day Israel) 1,673.6
+thousand (12%); Arab countries 6,287.6 thousand (44.9%); other countries
+749.4 thousand (5.3%).
+
+**Table (2) — distribution of projected mid-year population by age group
+& sex, Palestine 2021** (i.e. West Bank + Gaza only, ~5.23 million):
+Age 0–14: 1,981,461 total (37.9% of the WB+Gaza population); age 15–49:
+2,636,007 (50.4%); age 50–64: 434,489 (8.3%); age 65+: 175,236 (3.4%).
+Total: 5,227,193 (2,657,069 males, 50.8%; 2,570,124 females, 49.2%).
+
+**Palestinian Refugees**: **UNRWA** (United Nations Relief and Works
+Agency) provides assistance and protection for some 5.6 million
+registered Palestine refugees, to help them achieve their full potential
+in human development.
+
+### 16.7 Demographic and health-status indicators over time {#ch16-7}
+
+**Demographic Indicators, 1995 → 2020**: Crude Birth Rate 46.5 → 33.2 →
+28.6 → 28.2; Crude Death Rate 4.1 → 3.2 → 2.8 → 3.5; Population Growth
+Rate (data from 2004) 2.5 → 2.5%; Dependency Ratio 102.5 → 100.6 → 97.5 →
+71.2; % Population under 15 years 49.7 → 46.9 → 46.3 → 38.4 (years
+sampled: 1995, 2000, 2004, 2020).
+
+**Indicators of Health status, 1995/2000/2004 → 2019**: Life Expectancy
+at Birth (M/F) — 71.8/73.5 (2000) → 71.1/74.1 (2004) → 72.4/75.8 (2019);
+Infant mortality rate (per 1,000 live births) 25 (1995) → 22 (2000) →
+20.5 (2004) → 18 (2019); Under-5 mortality rate (per 1,000 live births) —
+27.3 (2000) → 25.4 (2004) → 22 (2019); Maternal mortality ratio (per
+100,000 live births) — 37.3 (2000) → 10.0* (2004, *underestimated) → 25
+(2019); % normal-birth-weight babies 95.9 (2000) → 98.8 (2004) → 99.0
+(2019); prevalence of stunting/wasting 9%–2.5% (2002) → 9.4%–1.9% (2004)
+→ 10.3%–2.4% (2019).
+
+**2021 statistics (summary)**: life expectancy 74.2 years; crude death
+rate 3.5 per 1,000 population; crude birth rate 28.1 per 1,000
+population; fertility rate 3.8 per woman of reproductive age; infant
+mortality rate 9.6 per 1,000 live births; maternal mortality rate 47.7
+per 100,000 live births.
+
+**Graph (43) — reported maternal mortality rate per 100,000 live births,
+Palestine, 2010–2021**: 32.0 (2010) → 28.0 (2011) → 23.7 (2012) → 24.1
+(2013) → 24.7 (2014) → 15.7 (2015) → 13.8 (2016) → **5.9 (2017, the
+lowest point of the series)** → 16.7 (2018) → 19.5 (2019) → 28.5 (2020) →
+**47.7 (2021, the highest point of the series)**.
+
+### 16.8 Providers of health care in Palestine {#ch16-8}
+
+**Components of the Palestinian Health System** (an org chart): the
+system splits into a **Governmental** branch — the **Ministry of Health
+(MoH)** and **Palestinian Military Medical Services (PMMS)** — and a
+**Non-governmental** branch, comprising **UNRWA**, **foreign and local
+agencies and societies**, and **Private** (hospitals and clinics).
+
+**The five providers, in detail**:
+
+1. **MOH** (Main provider) — provides primary, secondary and tertiary
+   health services, and purchases unavailable tertiary health services
+   from domestic and overseas providers.
+2. **UNRWA** — provides primary care services only for refugees, and
+   purchases secondary care services for hardship cases. UNRWA stands for
+   the United Nations Relief and Works Agency; it was established by UN
+   General Assembly resolution 302 (IV) of 8 December 1949 as a subsidiary
+   organ of the United Nations. As a result of the 1948 catastrophe
+   (Nakba), 750,000 Palestinians were forced to leave their lands without
+   shelter — UNRWA tries to provide them with homes, schools and health
+   centers. UNRWA offers preventive and curative health services to
+   maintain and promote the health of Palestine refugees, from conception
+   through pregnancy, childhood, adolescence, adulthood, and active
+   ageing — including family planning, pre-conception care, antenatal
+   care and postnatal follow-up, infant care (growth monitoring, medical
+   check-ups, immunizations), school health, oral health, outpatient
+   consultations, diagnostic/laboratory services, and management of
+   chronic non-communicable diseases.
+3. **NGOs** (Non-governmental organizations) — provide primary, secondary
+   and some tertiary services.
+4. **Private Sector** (for-profit provider) — provides all three levels
+   of care through a variety of specialized hospitals and investigation
+   centers.
+5. **Military Medical Services** — provide primary, secondary and some
+   tertiary services.
+
+### 16.9 Primary health care structure and hospital capacity {#ch16-9}
+
+**Package of Services for Health Care — Primary Health Care tiers by
+population covered**: **Health Post** — covers less than 1,000 population;
+**Health Clinic** — covers 1,000–3,000; **Health Center** — covers
+3,000–10,000; **Comprehensive Health Centre** — covers 10,000–25,000.
+
+**Public/private distribution of hospital beds, 2021** (National Health
+Indicators table, 3 columns — Palestine / West Bank / Gaza Strip):
+Number of hospitals — 89 total (54 West Bank, 35 Gaza); population/
+hospital ratio ~58,733 (Palestine), 57,786 (West Bank), 60,192 (Gaza);
+total beds — 7,769 (Palestine), 4,182 (West Bank), 3,587 (Gaza);
+population/bed ratio — 673 (Palestine), 746 (West Bank), 587 (Gaza);
+hospital beds per 10,000 population — 14.9 (Palestine), 13.4 (West Bank),
+16.8 (Gaza). Of these, **MoH hospitals** number 29 total (16 West Bank, 13
+Gaza).
+
+**Table (27) — Distribution of Medical Human Resources by Specialty &
+Region, Palestine 2021** (source: syndicates; dentist figure for Gaza
+sourced from the Health Annual Report 2021, Gaza):
+
+| Specialty & Region | Physician | Dentist | Pharmacist | Nurse | Midwife |
+|---|---|---|---|---|---|
+| West Bank | 8,106 | 4,126 | 5,510 | 10,557 | 937 |
+| Gaza Strip | 3,207 | 228 | 3,487 | 4,036 | 591 |
+| **Palestine (total)** | **11,313** | **4,354** | **8,997** | **14,593** | **1,528** |
+
+### 16.10 Health expenditure and insurance {#ch16-10}
+
+**Health Expenditure Data and Trends, 1995 → 2017**: total health
+expenditure per capita — $122 (1995) → $138.4 (2004) → $343.9 (2017);
+total health expenditure as % of GDP — 8.6% (1995) → 13% (2004) → 9.8%
+(2017); public sector's share of total health expenditure — 33.3% (2004)
+→ 39.5% (2017).
+
+**Table (36) — Ministry of Health Budget in NIS by Item, Palestine 2021**:
+Salaries 966,470,279 NIS (39.7%); Operational budget 1,208,859,919 NIS
+(49.6%); Capital budget 29,319,599 NIS (1.2%); Development budget
+231,645,712 NIS (9.5%). **Total: 2,436,295,509 NIS (100%)**.
+
+**Insurance System in Palestine**: public health insurance covers
+employees and their families (who pay medical insurance fees), and
+children below 3 years of age; private medical insurance companies also
+operate.
+
+### 16.11 What makes a health system successful? {#ch16-11}
+
+**What is a successful health system?** A "successful" Palestinian health
+system should, at a minimum: maintain an effective and well-regulated
+public health system; provide reasonable access to high-quality
+preventive and curative services for all Palestinians; maintain
+high-quality programs for training health professionals; achieve
+population-level health outcomes that meet or exceed international
+guidelines (e.g. WHO recommendations); be effective, efficient and
+financially viable; encompass the possibility of cooperation with
+neighboring countries on issues of common interest.
+
+**Conclusions**: health care is provided and funded by a mix of public
+and private sectors. Health care financing constitutes an important
+share of national resources (about 12.3%) — a concern for
+sustainability. There are some inefficiencies in health spending, e.g.
+referrals abroad. There are issues of concern regarding accessibility to
+services and fairness in financing. Some categories of health-related
+human resources (HRH) still lag comparable regional and international
+figures.
+
+---
+
 ## Source gaps and flagged passages
 
 No passages were flagged as illegible or ambiguous. All 47 vision-read pages
@@ -3178,18 +4171,6 @@ the MDG icon-grid slide once its content was already captured in prose on an
 adjacent text-layer page) contributed no propositional content and are not
 separately cited, since they add nothing beyond the section headings already
 reflected in the chapter structure above.
-
-Two overlapping/duplicate diagrams were both kept rather than merged, since
-neither slide claims to supersede the other:
-- **Ch. 1** (`#ch01-4`) and **Ch. 3** (`#ch03-2`) each contain a natural-
-  history-of-disease / prevention-levels diagram; both are transcribed, since
-  the Ch. 3 version ("The process of diseases and interventions") adds the
-  Wellness→Illness→Disability process row not present in the Ch. 1 version.
-- **Ch. 4** (`#ch04-1`, `#ch04-7`) contains three different visual framings
-  of "Social Determinants of Health" (a 5-domain wheel, an 8-icon AHA list,
-  and a 6-domain KFF breakdown) — all three are given in full rather than
-  collapsed into one canonical list, since they come from different slides
-  and none states it replaces another.
 
 **Chapters 6–10 (decks 6–10, 2 of them PPTX — see the course header's PPTX
 note) — new gaps found this pass:**
@@ -3255,16 +4236,51 @@ note) — new gaps found this pass:**
   later B rows: a long, real title can hide an otherwise all-diagram page
   from both of this course's page-triage heuristics.
 
-No passages were flagged as illegible or ambiguous. All 47 vision-read pages
-were clearly legible; the 27 pages that cleared PyMuPDF's char-count
-threshold but carried no real prose (only a running footer/page number) were
-individually force-rendered and read — see the file header for the count.
-Pages that were pure section-divider slides or stock decorative images (e.g.
-"Any Questions?" closing slides, "Public health" street-illustration divider,
-the MDG icon-grid slide once its content was already captured in prose on an
-adjacent text-layer page) contributed no propositional content and are not
-separately cited, since they add nothing beyond the section headings already
-reflected in the chapter structure above.
+**Chapters 14–16 (deck 14 PDF, decks 15–16 pptx) — new gaps found this
+pass:**
+
+- **Ch. 15, deck 15 slide 37 and slide 43** (`#ch15-10`, `#ch15-12`): two
+  embedded images on this deck are `.wmf` (Windows Metafile) vector
+  graphics, a format this environment has no renderer for (no
+  LibreOffice, no ImageMagick). Slide 37's is a small repeated axis-label
+  icon alongside two mini trend-line charts whose *text* (axis labels
+  "HIV"/"Time") was already captured; slide 43's sits inside the
+  "Notification" section between two diagrams that were readable. Neither
+  was guessed at — both are simply absent from the prose above. The raw
+  files are kept at
+  `courses/public-health/.prep/slides-patch/deck15-pics/slide037_2.wmf`
+  and `slide043_1.wmf` for a future session with a WMF-capable tool.
+- **Ch. 16, deck 16 slide 43** (`#ch16-9`): the slide's title implies a
+  "Health professionals in Palestine per 10,000 population" table, but
+  the only extractable image on the slide is a 484×83px crop containing
+  just the repeated "National Health Indicators 2021 / Palestine / West
+  Bank / Gaza Strip" header row — no data rows. Whether the actual table
+  is missing from the source pptx entirely, or present but not extracted
+  as a distinct picture shape, wasn't resolved. Flagged as a genuine gap
+  rather than reconstructed from the row-42 table's numbers (which cover
+  absolute headcounts, not per-10,000-population rates).
+- **Ch. 15, deck 15 slide 53** (`#ch15-12`): a dense hospital morbidity/
+  mortality trends table (Sri Lanka, 1999–2002, 15+ disease categories ×
+  6 years × cases/deaths) was described by topic and source rather than
+  transcribed cell-by-cell — the image resolution and table density made
+  reliable full transcription impractical, and the table is a supporting
+  regional example rather than course-defined content tested elsewhere.
+- **Ch. 15, deck 15 slide 42, 15 of 17 "pictures"** (`#ch15-12`): most of
+  this slide's embedded picture count is not real images — 15 of the 17
+  file entries are 166-byte placeholder/spacer shapes (a common PPTX
+  artifact), leaving only 2 genuine images (both variants of the same
+  Mexico ORT chart, both transcribed).
+
+No passages were flagged as illegible or ambiguous beyond the two `.wmf`
+files noted just above. All other vision-read pages across all 16 chapters
+were clearly legible; pages that cleared PyMuPDF's char-count threshold but
+carried no real prose (only a running footer/page number) were individually
+force-rendered and read — see the file header for the count. Pages that
+were pure section-divider slides or stock decorative images (e.g. "Any
+Questions?" closing slides, various clip art and stock photography)
+contributed no propositional content and are not separately cited, since
+they add nothing beyond the section headings already reflected in the
+chapter structure above.
 
 Two overlapping/duplicate diagrams were both kept rather than merged, since
 neither slide claims to supersede the other:
