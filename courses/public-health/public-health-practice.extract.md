@@ -1,12 +1,12 @@
 ---
 course: public-health
 tab: practice
-questions: 271
-tiers: claimed 258 | open 13
-forms: mcq 256 | qa 15
+questions: 307
+tiers: claimed 291 | open 16
+forms: mcq 256 | qa 51
 needs-eye: 0
 disputed: 0
-next-id: PH-P-272
+next-id: PH-P-308
 ---
 
 <!-- batch 01 -- raw/practice/Public Health PYQ& bank question 2023@Fawzi,Ali,Malik.pdf,
@@ -3071,3 +3071,291 @@ b) To fund new public health programs.
 c) To explain the etiology of disease.
 d) To predict the occurrence of disease.
 e) To control the distribution of disease.
+<!-- batch 03 -- raw/practice/exercises/, 7 vision pages (JPEGs, no text layer).
+  RUN-PLAN row 7.
+
+  Not a Moodle capture -- these are photos of a printed instructor worksheet
+  packet, three separate exercises stapled/shot together in one folder, all
+  qa/fact form (no mcq options anywhere). No embedded images beyond the pages
+  themselves; nothing decorative to discard.
+
+    Exercise (unlabeled, 2 pages, numbered "1."/"2." questions about
+    exposure/disease 2x2 tables): PH-P-272-275 (caffeine/MI case-control) and
+    PH-P-276-278 (asthma/smoking incidence/RR). Both tables are load-bearing
+    for every sub-question -- each entry's `img:` points to the full page
+    photo saved to `flagged/`, since the printed 2x2 table IS the question,
+    per this row's own RUN-PLAN note. Job A transcribed the work already
+    shown on the page (unsimplified fractions, cross-multiplications) rather
+    than computing anything itself -- PH-P-275's "Interpret the measure of
+    association" was left genuinely blank by the student, so it's tier open.
+    PH-P-277 has a real internal inconsistency worth flagging rather than
+    fixing: its own "incidence in unexposed" line divides by 990 (the
+    "no disease" column), but the relative-risk line two lines below divides
+    the same unexposed count by 1310 (the correct row total) -- both
+    transcribed exactly as printed, not reconciled.
+
+    "Exercise I" (2 pages, 12 items, matching prevention level -- Primordial/
+    Primary/Secondary/Tertiary -- to a scenario): PH-P-279-290, all claimed,
+    the level printed in bold under each scenario. Page 2 cites
+    https://phprimer.afmc.ca/en/part-i/chapter-4/ as its source.
+
+    "Screening test" (1 page, a worked Hepatitis B sensitivity/specificity
+    exercise with the 2x2 truth table already filled in -- 95/490/585 top
+    row, 5/4410/4415 bottom row, 100/4900/5000 totals -- consistent with the
+    stated 95% sensitivity and 90% specificity): PH-P-291-296. The four raw
+    cell counts (true/false positive/negative) are direct table lookups, not
+    computation, so recorded as claimed; the two derived measures (PPV, NPV)
+    are never actually calculated anywhere on the page, so they're tier open
+    rather than Job A doing the division itself. `img:` on all six entries
+    points to the full page photo in `flagged/`.
+
+    "Exercise II" (2 pages, 11 short-abstract-to-study-design items, its own
+    lettered key A-G at the top of page 1): PH-P-297-307, all claimed. This
+    is the same scenario set as row 6's PH-P-201 through PH-P-211 (the PYQ
+    bank's own unlettered "scenario -> Study design: X" block) -- 11 of
+    row 6's 12 entries reappear here verbatim, missing only row 6's 12th
+    ("Survey a sample of people with a written questionnaire..."). Each entry
+    below is cross-noted to its row-6 counterpart rather than merged, per
+    the cross-batch-matching-is-the-app's-job rule; every answer agrees with
+    its row-6 twin. -->
+
+### PH-P-272
+tier: claimed
+form: qa
+claimed: 64/242
+img: flagged/PH-P-272-caffeine-MI-2x2-table.jpg
+A study was conducted to determine whether there is an association between caffeine consumption and Myocardial Infarction. The study included 230 incident cases of MI and 455 controls from the general population. After interviewing all subjects, it was found that 64 of the cases had high daily consumption of caffeine (exposed) prior to diagnosis and 277 of the controls had low daily consumption of caffeine (unexposed) prior to the date of the matched case's diagnosis. (2x2 table: Exposed -- 64 cases, 178 controls; Unexposed -- 166 cases, 277 controls.) Calculate the odds of being a case among the exposed.
+
+### PH-P-273
+tier: claimed
+form: qa
+claimed: 166/443
+img: flagged/PH-P-272-caffeine-MI-2x2-table.jpg
+Same caffeine/MI study as PH-P-272. Calculate the odds of being a case among the unexposed.
+
+### PH-P-274
+tier: claimed
+form: qa
+claimed: (64/166) / (178/277) = 64x277 / 166x178
+img: flagged/PH-P-272-caffeine-MI-2x2-table.jpg
+Same caffeine/MI study as PH-P-272. Calculate the odds ratio for disease given exposure to high daily intake of caffeine (versus low daily intake of caffeine).
+
+### PH-P-275
+tier: open
+form: qa
+img: flagged/PH-P-272-caffeine-MI-2x2-table.jpg
+Same caffeine/MI study as PH-P-272. Interpret the measure of association.
+
+### PH-P-276
+tier: claimed
+form: qa
+claimed: 110/324
+img: flagged/PH-P-276-asthma-smoking-2x2-table.jpg
+A study was conducted to examine risk factors for Asthma and smoking. 430 emergency room cases were identified from Al-Maqased hospital in 2017, and 1204 controls were sampled from the patients admitted to the emergency room for shortness of breath. It was found that 110 of the cases and 214 of the controls were smoker. The remaining cases and controls did not smoke. (2x2 table: Exposed (smoked) -- 110 cases, 214 controls; Unexposed (not smoked) -- 320 cases, 990 controls.) What is the incidence in exposed?
+
+### PH-P-277
+tier: claimed
+form: qa
+claimed: 320/990
+img: flagged/PH-P-276-asthma-smoking-2x2-table.jpg
+note: the source's own relative-risk line for this same study (PH-P-278) divides this same unexposed-cases count by 1310 instead of 990 -- an internal inconsistency in the source, both readings transcribed exactly as printed rather than reconciled.
+Same asthma/smoking study as PH-P-276. What the incidence is in unexposed?
+
+### PH-P-278
+tier: claimed
+form: qa
+claimed: (110/324) / (320/1310)
+img: flagged/PH-P-276-asthma-smoking-2x2-table.jpg
+Same asthma/smoking study as PH-P-276. What is the relative risk or risk ratio?
+
+### PH-P-279
+tier: claimed
+form: qa
+claimed: Tertiary
+note: first of a 12-item "Exercise I" matching sheet -- each scenario matched to one of Primordial/Primary/Secondary/Tertiary prevention. Source cites https://phprimer.afmc.ca/en/part-i/chapter-4/.
+Follow-up exams to identify recurrence of metabolic disease: physical examination, liver enzyme test, chest x-ray, etc....
+
+### PH-P-280
+tier: claimed
+form: qa
+claimed: Primary
+Education about healthy eating exercising regularly.
+
+### PH-P-281
+tier: claimed
+form: qa
+claimed: Secondary
+Diet and exercise programs to prevent further heart attacks or strokes.
+
+### PH-P-282
+tier: claimed
+form: qa
+claimed: Secondary
+Getting a young person to quit smoking is an example of.
+
+### PH-P-283
+tier: claimed
+form: qa
+claimed: Tertiary
+Vocational rehabilitation programs to retrain workers for new jobs when they have recovered as much as possible.
+
+### PH-P-284
+tier: claimed
+form: qa
+claimed: Secondary
+In the public health community, _________ prevention aims to identify practices and situations that put certain individuals at risk for illness or injury.
+
+### PH-P-285
+tier: claimed
+form: qa
+claimed: Primordial Prevention
+It was observed that children with smoking parents, would wrongly consider smoking as a good lifestyle choice in their lives, thus it was concluded that parents should be advised to quit smoking.
+
+### PH-P-286
+tier: claimed
+form: qa
+claimed: Primary
+The municipality decided to legislate and enforce a rule to ban or control the use of hazardous products (e.g. asbestos).
+
+### PH-P-287
+tier: claimed
+form: qa
+claimed: Primordial Prevention
+The ministry of health conducted a rule to improve sanitation, so that exposure to infectious agents does not occur.
+
+### PH-P-288
+tier: claimed
+form: qa
+claimed: Primordial Prevention
+The preventive measures comprise the maintenance of normal body weight through the adoption of healthy nutritional habits and physical exercise.
+
+### PH-P-289
+tier: claimed
+form: qa
+claimed: Tertiary
+Screening of patients with diabetes for diabetic retinopathy to prevent progression to blindness through prompt treatment.
+
+### PH-P-290
+tier: claimed
+form: qa
+claimed: Primary
+Initiation of an exercise program with the goal of disease prevention.
+
+### PH-P-291
+tier: claimed
+form: qa
+claimed: 95
+img: flagged/PH-P-291-hepatitis-screening-2x2-table.jpg
+note: first of 6 sub-questions on a worked Hepatitis B screening exercise. The source's own 2x2 truth table (test result x true status) is already filled in: test+/truth+ 95, test+/truth- 490 (row total 585); test-/truth+ 5, test-/truth- 4410 (row total 4415); column totals 100, 4900, grand total 5000 -- consistent with the stated 95% sensitivity and 90% specificity. A test is used to screen people for hepatitis B. The sensitivity of the test is 95% and the specificity of the test is 90%. Assume that the total number of persons being tested for hepatitis B is 5000. Assume that the true prevalence of hepatitis B in the population is 100 per 5000. # of true positive?
+
+### PH-P-292
+tier: claimed
+form: qa
+claimed: 4410
+img: flagged/PH-P-291-hepatitis-screening-2x2-table.jpg
+Same Hepatitis B screening exercise as PH-P-291. # of true negative?
+
+### PH-P-293
+tier: claimed
+form: qa
+claimed: 490
+img: flagged/PH-P-291-hepatitis-screening-2x2-table.jpg
+Same Hepatitis B screening exercise as PH-P-291. # of false positive?
+
+### PH-P-294
+tier: claimed
+form: qa
+claimed: 5
+img: flagged/PH-P-291-hepatitis-screening-2x2-table.jpg
+Same Hepatitis B screening exercise as PH-P-291. # of false negative?
+
+### PH-P-295
+tier: open
+form: qa
+img: flagged/PH-P-291-hepatitis-screening-2x2-table.jpg
+note: unlike PH-P-291-294 (direct table lookups), this measure is never actually calculated anywhere on the page -- left open rather than Job A performing the division itself.
+Same Hepatitis B screening exercise as PH-P-291. Positive predictive value?
+
+### PH-P-296
+tier: open
+form: qa
+img: flagged/PH-P-291-hepatitis-screening-2x2-table.jpg
+note: same as PH-P-295 -- never calculated on the page, left open.
+Same Hepatitis B screening exercise as PH-P-291. Negative predictive value?
+
+### PH-P-297
+tier: claimed
+form: qa
+claimed: Cross-sectional
+note: "Exercise II", an 11-item short-abstract-to-study-design matching sheet with its own lettered key (A. Prospective cohort, B. Retrospective (case-control), C. Cross-sectional, D. Program Trial, E. Program Review, F. Clinical Trial, G. Ecological). Cross-references row 6's PH-P-201 -- same scenario, same answer, not merged (different batch).
+The growth patterns of infants aged 6-24 months were assessed on the basis of a single measurement of height, weight and head circumference of the population receiving care at the Family Health Centers in the northern and southern regions of Jordan.
+
+### PH-P-298
+tier: claimed
+form: qa
+claimed: Ecological
+note: cross-references PH-P-202 (row 6) -- same scenario, same answer.
+The association between levels of air pollution and mortality rate in different European countries was studied.
+
+### PH-P-299
+tier: claimed
+form: qa
+claimed: Case-control
+note: cross-references PH-P-203 (row 6) -- same scenario, same answer.
+The reduction in the likelihood of experiencing myocardial infraction (MI) amongst women who stopped smoking was shown by comparing the smoking habits of women who had experienced a MI with the smoking habits of women free of MI.
+
+### PH-P-300
+tier: claimed
+form: qa
+claimed: Retrospective (case-control)
+note: cross-references PH-P-204 (row 6) -- same scenario, same answer.
+A proposal was recently accepted to study the association between exposure to radiation as a treatment for trichophytiasis (a dermatological condition of the scalp) and brain tumors, the proposed study will compare the rate of brain tumors among persons who had received the radiation treatment in the 1950s with the rate of brain tumors among persons who received other modes of treatment during those same years.
+
+### PH-P-301
+tier: claimed
+form: qa
+claimed: Prospective cohort
+note: cross-references PH-P-205 (row 6) -- same scenario, same answer.
+The study of type A personality as a predictor of the risk for stroke.
+
+### PH-P-302
+tier: claimed
+form: qa
+claimed: Cohort study
+note: cross-references PH-P-206 (row 6) -- same scenario, same answer.
+An investigator takes a sample of healthy individuals, record their ongoing solar exposure, and relate that to the subsequent occurrence of skin cancer in the same group.
+
+### PH-P-303
+tier: claimed
+form: qa
+claimed: Cohort study
+note: cross-references PH-P-207 (row 6) and PH-P-022 (row 5) -- same HIV/TB-in-Kenya scenario, same answer.
+A study was conducted to investigate the effect of HIV infection on mortality among people in Kenya with TB. Individuals with TB were recruited from hospitals and their HIV status determined. They were then followed-up over ten years to compare mortality rates in the HIV positive group and HIV negative group.
+
+### PH-P-304
+tier: claimed
+form: qa
+claimed: Clinical Trial
+note: cross-references PH-P-208 (row 6) -- same scenario, same answer.
+A study was conducted to determine whether recurrences of urinary tract infection (UTI) can be prevented with cranberry-lingonberry juice.
+
+### PH-P-305
+tier: claimed
+form: qa
+claimed: Program Trial
+note: cross-references PH-P-209 (row 6) -- same scenario, same answer.
+A study was conducted to examine the effectiveness of a community-based multimodal intervention program for suicide prevention in regions where the suicide rate was relatively high compared to control regions.
+
+### PH-P-306
+tier: claimed
+form: qa
+claimed: Clinical Trial
+note: cross-references PH-P-210 (row 6) -- same scenario, same answer.
+A study was conducted to assess the effect of vitamin supplementation on the intelligence development of 6-8 year old children.
+
+### PH-P-307
+tier: claimed
+form: qa
+claimed: Program review
+note: cross-references PH-P-211 (row 6) -- same scenario, same answer.
+An evaluation was conducted for participant after 3 months of intervention to increase awareness for hypertension.
