@@ -1310,7 +1310,1183 @@ patient came." — Anthony et al., 1997.
 
 ---
 
+## Ch. 6 — Designs of Epidemiologic Studies {#ch06}
+
+### 6.1 Six dimensions that distinguish study designs {#ch06-1}
+
+The major study designs differ in several respects: (1) unit of observation,
+(2) manipulation of exposure, (3) randomization, (4) direction of
+investigation, (5) timing of data collection, (6) data collection methods.
+
+**Hierarchy of research designs and levels of scientific evidence**
+(pyramid diagram, based on ability to control for bias and demonstrate
+cause and effect in humans; Forrest & Miller, 2012) — from the base up:
+Animal and Laboratory Studies (not involved with humans, no design) → Case
+Report of Case Series / Narrative Reviews / Expert Opinions / Editorials →
+**Case Control Studies** (retrospective; observational) → **Cohort Studies**
+(prospective; observational) → **Randomized Controlled Trial** (primary
+studies) → Meta-Analysis / Systematic Reviews → Clinical Practice Guidelines
+(secondary, pre-appraised or filtered studies).
+
+### 6.2 Unit of observation {#ch06-2}
+
+Two categories: **group-based (ecological)** and **individual-based**.
+
+**A. Ecological study**: uses group-level (not individual-level) data.
+
+**Ecological Fallacy**: "Mistaken assumption that a statistical association
+observed between two group-level variables is equal to the association
+between the corresponding variables at the individual level" (Gail &
+Benichou, 2001).
+
+*Worked example — hypothetical associations of income with BMI, within vs.
+between countries*: a scatter/line diagram shows that within each of four
+countries (A, B, C, D), income is *negatively* associated with BMI
+(individual-level slopes trend downward), while the *ecological* (between-
+country) association trends positively (a dashed line rising left to right
+across the four countries' data). In a variant of the same diagram, the
+within-country slopes differ in steepness from country to country, while
+the overall ecological association still rises — illustrating that the
+within-country individual-level association can differ from country to
+country, and from the ecological association itself. This is the textbook
+illustration of the ecological fallacy: an ecological (group-level)
+association need not hold, or can even reverse, at the individual level.
+
+*Real-data ecological example*: a scatter plot of "AGE-ADJUSTED DEATH
+RATE/100,000 population" (female, presumably breast-cancer mortality) vs.
+"TOTAL DIETARY FAT INTAKE (G/day)" across ~30 countries shows a strong
+positive ecological association — from Thailand and El Salvador (lowest fat
+intake, ~20-40 g/day, death rate under 1) up to the Netherlands, UK,
+Denmark, New Zealand (highest fat intake, ~140-160 g/day, death rates
+20-25/100,000).
+
+**Individual-based studies** — introduced as the second unit-of-observation
+category, developed in the rest of the chapter.
+
+### 6.3 Manipulation of exposure: observational vs. experimental {#ch06-3}
+
+- **Experimental**: the investigator exercises control over allocation of
+  exposure.
+- **Observational**: the investigator observes the occurrence of
+  condition(s) in "self"-assigned groups of people.
+
+**A. Observational studies**: the investigator observes occurrence of
+condition(s) in "self-assigned" groups; exposure is not assigned. Carried
+out in more natural settings ("natural experiments"); often most practical
+and feasible; but with less control over the study situation, results are
+more susceptible to distorting influence.
+
+Decision logic: *Did the investigator assign exposures?* → **No** →
+Observational Study; → **Yes** → Experimental Study. Within Observational
+Study: *comparison group?* → **No** → Descriptive Study; → **Yes** →
+Analytical Study.
+
+- **Descriptive Study**: sets out to describe a situation (e.g. distribution
+  of depression in a population by sex, age, and other characteristics);
+  often no a-priori hypothesis.
+- **Analytical Study**: must have a clear, measurable hypothesis; at least 1
+  dependent (outcome) variable and 1 independent ("exposure") variable; sets
+  out to test hypotheses or detect associations (e.g. identify factors that
+  explain higher depression rates among women).
+
+**B. Experimental Studies**: the investigator exercises control over
+allocation of exposure; more powerful than observational studies for
+testing etiological hypotheses, but for ethical reasons the possibilities
+of conducting experiments in humans is limited.
+
+### 6.4 Randomization {#ch06-4}
+
+Key questions: *Is the exposure of interest controlled by the investigator?*
+and *In controlling the exposure, are study participants randomly assigned
+to different exposure conditions?*
+
+| Study type | Randomization? | Exposure control? |
+|---|---|---|
+| Observational | N | N |
+| Experimental | Y | Y |
+| Quasi-experimental | N | Y |
+
+Decision logic: *Did the investigator assign exposures?* → **Yes** →
+Experimental Study → *randomize allocation?* → **Yes** → Randomized
+Controlled Trial; → **No** → Non-Randomized Controlled Trial.
+
+**Design of a Clinical Trial**: SAMPLE → randomization to groups (2…n) →
+non-participants excluded → **Intervention Group** and **Control Group**
+(each with possible "lost-to-follow-up") → measure outcome in each group.
+
+### 6.5 Directionality of investigation {#ch06-5}
+
+Two directions: **retrospective (case-control)** — starts from Outcome,
+looks back to Exposure; **prospective (cohort)** — starts from Exposure,
+looks forward to Outcome.
+
+Full decision tree (combining §6.3–6.5): *Did investigator assign
+exposures?* → No → Observational → *comparison group?* → No → Descriptive
+Study; Yes → Analytical Study → *direction?* → **Cross-sectional Study** /
+**Case-Control Study** / **Cohort Study**.
+
+**Design of a PROSPECTIVE study**: starting from POPULATION, split into
+Exposed and Unexposed groups, followed forward in Time to observe D+/D-
+outcomes in each.
+
+### 6.6 Case-control studies (retrospective) {#ch06-6}
+
+Question answered: "What happened?" Matching needed for controls (age,
+gender, locality). Might be difficult to differentiate from a Case Series
+(both are "after the fact").
+
+**Design of a RETROSPECTIVE study**: starting from a population, identify
+CASES (with disease) and CONTROLS (without disease); look backward in time
+to classify each as E+ or E-.
+
+**Strengths**: well suited to study the etiology of rare outcomes (e.g.
+cancer, congenital malformations); can easily study multiple exposures;
+efficient if there's a long delay between exposure and outcome; requires
+fewer individuals (relatively inexpensive).
+
+**Disadvantages**: case and control selection is troublesome; subject to
+bias; direct estimation of incidence is not possible; if the incidence of
+exposure is high, it's difficult to show the difference between cases and
+controls.
+
+**Limitations**: not well suited to studying multiple outcomes; the time
+sequence of exposure and outcome can be unclear; does not provide data on
+absolute risk; relies on information about past exposures, which may be
+prone to bias.
+
+### 6.7 Cohort (prospective) studies {#ch06-7}
+
+**B. Prospective study** — two steps: (1) identify relevant group(s) of
+people and collect information about their exposure history; (2) follow
+these people over time and measure incidence of outcome(s) of interest.
+
+**Design of a COHORT study**: starting from POPULATION (disease-free
+people), split into Exposed and Unexposed groups, followed forward in Time
+to observe D+/D- outcomes.
+
+**2×2 typical table** (cohort design): rows = Exposure Status (exposed / not
+exposed), columns = Outcome Status (present / absent).
+
+**c. Retrospective design 2×2 table**: same structure with row/column
+totals added (Total row and Total column).
+
+**Strengths**: well suited to studying rare exposures; can easily study
+multiple outcomes; provides a direct measure of risk of outcome among
+exposed and unexposed persons; not dependent on recall of past exposures;
+begins with "healthy" persons, preventing 'selective survival' bias.
+
+**Limitations**: inefficient for rare outcomes; not well suited to studying
+multiple exposures; assessment of exposure status may influence a
+participant's behavior; definitions of exposures/outcomes may change over
+time; difficult if there's a long delay between exposure and outcome;
+lost-to-follow-up bias.
+
+The main limitation of the prospective design is **time and cost**,
+especially for chronic diseases that may only become apparent years after
+the exposure(s) of interest, or that require years of exposure to "cause"
+the outcome.
+
+**D. Historical Prospective Design** — an alternative strategy to the
+"concurrent" prospective design, to reduce time/cost: requires identifying a
+defined cohort from some time in the past; the follow-up period is the time
+since determination of exposure status until the present (or future);
+incidence/risk measures can be estimated the same way as in a concurrent
+prospective study. Diagram: **Historical cohort** — groups assembled in the
+PAST, followed up through to PRESENT; **Concurrent cohort** — groups
+assembled in the PRESENT, followed up into the FUTURE.
+
+Particularly useful when the exposure under investigation is "unique" in
+some way — occurred only in the past, or occurred in specific groups of
+people; often applied to studying acute environmental exposures. **Example**:
+thyroid cancer risk among people exposed to the 1986 Chernobyl
+nuclear-reactor accident.
+
+Possible sources of information about exposure status: industrial worker
+records; military records; insurance companies or health-care-provider
+companies; registries of persons receiving specific medical treatment.
+
+Difficulties: sometimes hard to obtain a comprehensive list of persons who
+experienced the outcome (less of a problem in a mortality study); often
+difficult to obtain information about other exposures in the cohort.
+
+### 6.8 Cross-sectional (prevalence) studies {#ch06-8}
+
+**E. Cross-sectional (prevalence) study**: usually involves a
+representative (random) sample of a dynamic population; examines exposures
+and outcomes simultaneously; based on prevalence data.
+
+**Design of a CROSS-SECTIONAL study**: starting from a DEFINED POPULATION,
+gather data on exposure and disease simultaneously, classifying each person
+into one of four groups: Exposed+/Diseased+, Exposed+/Diseased-,
+Exposed-/Diseased+, Exposed-/Diseased-.
+
+**Strengths**: relatively inexpensive and quick; usually carried out at a
+single time point; efficient for describing target-population
+characteristics; efficient for studying common chronic diseases; useful for
+generating new etiological hypotheses; useful for evaluating health
+services.
+
+**Limitations**: not efficient for studying rare outcomes or those of
+short duration; cannot provide direct estimates of risk; difficult to
+interpret temporality between exposure and outcome; not useful for
+determining causal effects; includes both prevalent and incident cases,
+identifying a mix of risk factors (incidence) and prognostic factors
+(duration).
+
+**Relationship between prevalence and incidence** — the "bathtub" model:
+**Incidence** flows in at the top, filling the **PREVALENCE** pool; the pool
+drains via two outflows at the bottom — **Recovery** and **Death**.
+
+### 6.9 Evaluation studies {#ch06-9}
+
+Evaluation studies appraise the value of health care. Two types: **Program
+reviews** and **Program trials**.
+
+**1. Program Review**: evaluates a specific program provided to a specific
+population/community/group of patients; concerned with the "welfare" of
+that population, directed at guiding decisions about the program under
+evaluation. Similar to a physician's review of an individual patient's
+treatment — concern for the patient, not testing the treatment's effect.
+Usually descriptive; no control group; assumes program activities are
+beneficial and evaluates whether they're conducted as planned; outcome
+information can be included, under the assumption that changes result from
+the program. *Example*: a diabetes-prevention program run by community
+nurses, evaluated on expenditure, waiting time, satisfaction; mother-and-
+child-care programs.
+
+**2. Program Trial**: evaluates a type of service provided to a
+population/community/group of patients; concerned with the program's
+"value" and the generalizability of its effectiveness to other populations.
+Similar to a clinical trial of a new drug — findings must be relevant
+beyond just the trial's own participants. Focuses on "Outcomes"; an
+analytical investigation requiring a control population to account for
+outside influences; program planning/implementation must allow for this
+from the outset. *Example*: an intervention program to promote healthy
+eating and physical activity among female schoolchildren.
+
+---
+
+## Ch. 7 — Measures of Association {#ch07}
+
+### 7.1 Overview: what is association, and what do we compare? {#ch07-1}
+
+The central objective of epidemiology is to study the cause of disease —
+what do you compare? The risk in the exposed with the risk in the
+non-exposed, in a single summary parameter: **OR** (odds ratio), **RR**
+(relative risk), **RD** (risk difference), **AR** (attributable risk). The
+basic relationship studied: exposure → disease.
+
+**Association**: statistical dependence between two or more events,
+characteristics, or variables. An association is present when the
+probability of occurrence of an event/characteristic, or the quantity of a
+variable, depends upon the occurrence of one or more other
+characteristics, or the quantity of one or more other variables.
+
+**Table 3.1 — Types of epidemiological study** (with alternative names and
+unit of study):
+
+| Type of study | Alternative name | Unit of study |
+|---|---|---|
+| *Observational studies* | | |
+| Descriptive studies | | |
+| Analytical studies | | |
+| — Ecological | Correlational | Populations |
+| — Cross-sectional | Prevalence | Individuals |
+| — Case-control | Case-reference | Individuals |
+| — Cohort | Follow-up | Individuals |
+| *Experimental studies* | *Intervention studies* | |
+| Randomized controlled trials | Clinical trials | Individuals |
+| Cluster randomized controlled trials | | Groups |
+| Field trials | | Healthy people |
+| Community trials | Community intervention studies | Communities |
+
+### 7.2 Risk and risk difference {#ch07-2}
+
+**What is RISK?** The probability of developing a condition over a defined
+period of time = (number of people developing disease in the time period) /
+(number of disease-free people at the start of the period). Example: number
+of people developing TB in 5 years / number of people free of TB at the
+start of the 5-year period.
+
+**Worked example — 1-year follow-up for the development of CHD**:
+
+| | CHD + | CHD − | Total |
+|---|---|---|---|
+| Smoking + | 84 | 2916 | 3000 |
+| Smoking − | 87 | 4913 | 5000 |
+
+- Incidence in exposed+ = 84/3000 = 28.0/1000
+- Incidence in exposed− = 87/5000 = 17.4/1000
+
+**1. Risk Difference (RD) / Attributable Risk**: RD = 28.0 − 17.4 =
+**10.6/1000**. Interpretation: among every 1000 smokers, 10.6 more cases of
+CHD develop than among 1000 non-smokers.
+
+- RD > 0 = positive association
+- RD = 0 = no association
+- RD < 0 = negative association
+
+### 7.3 Relative risk {#ch07-3}
+
+**Relative Risk (RR)** = probability of developing disease if the risk
+factor is present ÷ probability of developing disease if the risk factor is
+absent (e.g. incidence of stroke in hypertensives ÷ incidence of stroke in
+normotensives).
+
+**Relative Risk 2×2 table**: with cells a (exposed+, disease+), b
+(exposed+, disease−), c (exposed−, disease+), d (exposed−, disease−): RR =
+[a/(a+b)] ÷ [c/(c+d)] = risk in exposed ÷ risk in non-exposed.
+
+**Worked example (same CHD data)**: RR = 28.0 ÷ 17.4 = **1.6**. Conclusion:
+risk of CHD among smokers is 1.6 times higher than among non-smokers — i.e.
+smokers have 1.6 times more chance of developing CHD than non-smokers.
+
+- RR > 1 = positive association
+- RR = 1 = no association
+- RR < 1 = negative association
+
+RR tells us about the *strength* of the association between exposure and
+outcome, but not about the *magnitude of absolute risk* (incidence).
+
+The risk ratio is a better indicator of the strength of an association than
+the risk difference, because it is expressed relative to a baseline level
+of occurrence — unlike the risk difference, it is related to the magnitude
+of the baseline incidence rate; populations with similar risk differences
+can have greatly differing risk ratios depending on the magnitude of the
+baseline rates. The risk ratio is used in assessing the likelihood that an
+association represents a causal relationship — e.g. the risk ratio of lung
+cancer in long-term heavy smokers compared with non-smokers is approximately
+**20**, very high, indicating the relationship is not likely a chance
+finding.
+
+**Worked example — RR for obesity and stroke**: RR and OR are measures of
+group comparison used with a categorical exposure and a categorical outcome.
+
+| | Stroke | No stroke | Total |
+|---|---|---|---|
+| Obese (BMI > 30) | 20 | 80 | 100 |
+| Healthy (BMI < 30) | 50 | 450 | 500 |
+
+Risk(obese) = 20/100 = 0.2; Risk(healthy) = 50/500 = 0.1; RR = 0.2/0.1 = **2**
+— obese people have 2× the risk of stroke compared to healthy people.
+
+**Exercise (unsolved in the source as posed)**: 100 smokers (exposed) and
+100 non-smokers (unexposed) were followed for 10 years; 80/100 smokers
+developed lung cancer, 10/100 non-smokers developed lung cancer — what is
+the relative risk? (See §7.6 for the handwritten worked solution to this
+same numeric setup, applied there to attributable risk / PAR.)
+
+### 7.4 Odds ratio {#ch07-4}
+
+**Case-control study — OR**: in a case-control study, participants are
+selected on the basis of disease status, so it is not possible to calculate
+the risk of disease directly — but RR can be *estimated* by calculating the
+ratio of the odds of exposure among cases to that among controls: OR =
+(odds of exposure among cases) / (odds of exposure among controls); OR ≈ RR.
+
+**Odds**: "the ratio of the probability of occurrence of an event to that
+of non-occurrence" (Last, *Dictionary of Epidemiology*); "the ratio of the
+probability that something will occur, to the probability that it will not
+occur" (Abramson, *Making Sense of Data*). Also called **Relative Odds**.
+
+**What is an odds ratio?** A measure of association between an exposure and
+an outcome; represents the odds that an outcome will occur given a
+particular exposure, compared to the odds of the outcome occurring in the
+absence of that exposure. Most commonly used in case-control studies, but
+can also be used in cross-sectional and cohort designs (with modifications/
+assumptions). Used to compare the relative odds of an outcome given
+exposure to a variable of interest, and to determine whether a particular
+exposure is a risk factor for an outcome, and to compare the magnitude of
+various risk factors for that outcome.
+
+- OR > 1 = positive association
+- OR = 1 = no association
+- OR < 1 = negative association
+
+**Example of OR interpretation**: "the odds of persistent suicidal behavior
+in this group given presence of borderline personality disorder at baseline
+was twice that of depression (OR 3.8, 95% CI: 1.6–8.7)."
+
+*("Odds is understood intuitively only by statisticians and professional
+gamblers.")*
+
+**OR contingency (2×2) table** — cases/controls layout:
+
+| | Cases | Controls | Total |
+|---|---|---|---|
+| Exposed | a | b | a+b |
+| Unexposed | c | d | c+d |
+| Total | a+c | b+d | a+b+c+d |
+
+OR = (a/c) / (b/d) = (a×d) / (b×c).
+
+**Prospective study (Disease OR)**: ratio of odds of outcome in the exposed
+(a/b) to the odds of outcome in the unexposed (c/d): (a/b)/(c/d) = ad/bc.
+
+**Retrospective study (Exposure OR)**: ratio of odds of exposure in cases
+(a/c) to the odds of exposure in controls (b/d): (a/c)/(b/d) = ad/bc.
+
+**Worked example (same CHD data as §7.2)**: odds in exposed+ = 84/2916 =
+28.8/1000; odds in exposed− = 87/4913 = 17.7/1000; OR = 28.8 ÷ 17.7 =
+**1.63** — odds for CHD among smokers is 1.63 times higher than among
+non-smokers.
+
+**Worked example — Table 3.2, meat consumption and enteritis necroticans in
+Papua New Guinea**:
+
+| | Meat ingestion: Yes | Meat ingestion: No | Total |
+|---|---|---|---|
+| Enteritis necroticans: Yes | 50 | 11 | 61 |
+| Enteritis necroticans: No | 16 | 41 | 57 |
+| Total | 66 | 52 | 118 |
+
+OR = (50/11) ÷ (16/41) = (50×41)/(11×16) = **11.6** — cases were 11.6 times
+more likely than controls to have recently eaten meat.
+
+**Worked example — city vs. regional dwelling and lung cancer**: "Does
+inner-city living increase the risk of lung cancer?"
+
+| | Lung cancer | No lung cancer | Total |
+|---|---|---|---|
+| City dwelling [C] | 145 | 122 | 200 |
+| Regional dwelling [R] | 55 | 78 | 200 |
+
+OR = (145/55) ÷ (122/78) = **1.686**. Conclusion: city dwelling carries 1.68
+times the odds of developing lung cancer compared with regional dwelling.
+
+**OR ≈ RR when**: the outcome is rare, because then b ≈ (a+b) and d ≈ (c+d);
+cases are representative of all cases in the population re. exposure
+history; controls are representative of all non-cases in the population re.
+exposure history. A diagram illustrates cases and controls as a sample
+drawn from the wider community (an "iceberg" — cases/controls visible above
+the waterline, the full community below it).
+
+**RR & OR**: OR is a useful measure of association in and of itself, in
+both case-control and prospective studies. In a cohort study, RR can be
+calculated directly. In a case-control study, RR cannot be calculated
+directly, so OR is used as an estimate of RR when the risk of disease is
+low.
+
+**Advantages of Odds Ratio**: suitable for case-control studies; identical
+in both directions; the basis for logistic regression analyses.
+
+**Worked example — sexual abuse history and suicide attempt** (Deykin &
+Buka, 1994, *AJPH* 84:634–9):
+
+| | Suicide attempted: Yes | Suicide attempted: No | Total |
+|---|---|---|---|
+| History of sexual abuse: Yes | 14 | 9 | 23 |
+| History of sexual abuse: No | 49 | 149 | 198 |
+
+- Rexp+ = 14/23 = 60.9%; Rexp− = 49/198 = 24.7%; **RR = 60.9/24.7 = 2.46**
+- **OR** = (14/9) / (49/149) = **4.73**
+
+*Question: why do the OR and RR differ?* *Answer*: high incidence (61% in
+exposed, 25% in unexposed), so the "rare disease" approximation (b≈a+b,
+d≈c+d) breaks down.
+
+### 7.5 Attributable risk {#ch07-5}
+
+**4. Attributable Risk (AR)**: a calculation used to determine how much of
+a disease can be attributed to a certain exposure or risk factor;
+calculated as the difference between the incidence of disease due to a risk
+factor and the incidence of disease in the absence of that risk factor.
+Attributable risk (or "excess risk") is a term synonymous with risk
+difference, also used to denote the attributable fraction among the exposed
+and the attributable fraction for the population.
+
+**Attributable risk in the exposed (AR_exp)** — illustrated as the vertical
+gap between the (taller) incidence bar for the Exposed group and the
+(shorter) incidence bar for the Unexposed group, on a bar chart of
+Incidence (per 1,000).
+
+**4. Population Attributable Risk (PAR)**: different from AR — PAR
+estimates the proportion of disease in the *study population* (not just the
+exposed) that is attributable to the exposure; to calculate PAR, the
+incidence of exposure in the study population must be known or estimated.
+Usually expressed as a percentage.
+
+### 7.6 Worked exercise (PAR) {#ch07-6}
+
+**Exercise on PAR** (same numeric setup as the §7.3 RR exercise): 100
+smokers (exposed) and 100 non-smokers (unexposed) followed for 10 years;
+80/100 smokers developed lung cancer; 10/100 non-smokers developed lung
+cancer.
+
+A handwritten worked solution on the slide diagrams the setup: 100 smokers
++ 100 non-smokers = 200 total "exposed to risk factor" (smokers) plus
+non-exposed; 80 lung-cancer cases among smokers + 10 among non-smokers = 90
+total lung-cancer cases across the 200 followed. The final numeric answer to
+the exercise itself is a short, partly illegible handwritten fragment
+(possibly "≈ 77%") — not confidently transcribed; see the source-gaps note
+below.
+
+---
+
+## Ch. 8 — Causal Thinking in Epidemiology {#ch08}
+
+### 8.1 Introduction: the "why" chain {#ch08-1}
+
+An illustrative chain of causation (from *Toward a Healthy Future: Second
+Report on the Health of Canadians*): *Why is Jason in the hospital?* —
+Because he has a bad infection in his leg. *But why does he have an
+infection?* — Because he has a cut on his leg that got infected. *But why
+does he have a cut?* — Because he was playing in a junkyard next to his
+apartment building, where there was sharp, jagged steel, and no one
+supervises the kids who play there. *But why does he live in that
+neighbourhood?* — Because his parents can't afford a nicer place. *But why
+can't they afford it?* — Because his dad is unemployed and his mom is sick.
+*But why is his dad unemployed?* — Because he doesn't have much education
+and can't find a job. *But why…?*
+
+**"Circle of Health" © Health Promotion Framework** (Prince Edward Island,
+1996, Health and Community Services Agency — All Rights Reserved): a
+concentric wheel with, at the center, **Spiritual / Mental / Physical /
+Emotional Health**; around it, actions to "Strengthen Community Action,"
+"Build Healthy Public Policy," "Create Supportive Environments," "Develop
+Personal Skills," "Re-Orient Health Services"; around the outer rim, eight
+value labels — Choice, Respect, Balance, Caring, Sharing, Sharing[sic],
+Individuals, Families, Communities, Systems, Society, Culture — arranged
+around the wheel together with terms such as Personal Health Practices and
+Coping Skills, Healthy Child Development, Social Justice, Genetics, Income
+and Social Status, Gender, Education.
+
+### 8.2 Defining "cause" {#ch08-2}
+
+- **Webster's**: "that which produces an effect or result."
+- **Rothman & Greenland**: "an event, condition, or characteristic that
+  preceded the disease event and without which the disease event either
+  would not have occurred at all or would not have occurred until some time
+  later."
+
+Presence of an association does not, by itself, establish a causal
+relationship. Reasons an observed association might *not* be causal: bias?
+confounding? — is it a risk marker or a genuine risk factor? — random error
+(chance), assessed via statistical significance (p-value, confidence
+interval)?
+
+A cause of a disease is an event, condition, characteristic, or a
+combination of these, which plays an important role in producing the
+disease. Logically, a cause must precede a disease.
+
+- **Sufficient cause**: a cause that inevitably produces or initiates a
+  disease.
+- **Necessary cause**: a disease cannot develop in the absence of this
+  cause.
+
+A sufficient cause is not usually a single factor but often comprises
+several components; it is not necessary to identify all the components of a
+sufficient cause before effective prevention can take place, since removing
+one component may interfere with the action of the others and thus prevent
+the disease.
+
+*Example*: cigarette smoking is one component of the sufficient cause of
+lung cancer; smoking is not sufficient in itself to produce the disease,
+yet cessation of smoking reduces the number of lung-cancer cases in a
+population.
+
+Each sufficient cause has a necessary cause as a component. *Example*: in a
+foodborne-infection outbreak study, chicken salad and creamy dessert may
+both be found to be sufficient causes of salmonella diarrhea; the
+occurrence of salmonellae is the necessary cause of the disease.
+
+A causal factor on its own is often neither necessary nor sufficient — e.g.
+smoking as a factor in causing stroke.
+
+### 8.3 Factors in causation {#ch08-3}
+
+Four types of factor play a part in disease causation. All may be
+necessary, but they are rarely sufficient on their own to cause a
+particular disease or state:
+
+- **Predisposing factors** — e.g. age, sex, previous illness — may create a
+  state of susceptibility to a disease agent.
+- **Enabling factors** — e.g. low income, poor nutrition, bad housing,
+  inadequate medical care — may favour the development of disease.
+  Conversely, circumstances that assist recovery from illness or
+  maintenance of good health can also be called enabling factors.
+- **Precipitating factors** — e.g. exposure to a specific disease agent or
+  noxious agent — may be associated with the onset of a disease or state.
+- **Reinforcing factors** — e.g. repeated exposure, unduly hard work — may
+  aggravate an established disease or state.
+
+The term "**risk factor**" commonly describes factors positively associated
+with the risk of developing a disease, but that are not sufficient to cause
+it.
+
+### 8.4 Interaction and establishing causality {#ch08-4}
+
+**Interaction**: the effect of two or more causes acting together is often
+greater than would be expected from simply summing their individual
+effects. Illustrated by the particularly high risk of lung cancer in people
+who both smoke *and* are exposed to asbestos dust — much higher than a
+simple addition of the smoking risk and the asbestos risk would predict.
+
+**Establishing the cause of a disease**: causal inference is the process of
+determining whether observed associations are likely to be causal, using
+guidelines and judgment. Before an association is assessed for causality,
+other explanations — chance, bias, confounding — must first be excluded.
+
+### 8.5 The Bradford Hill criteria (considerations for causation) {#ch08-5}
+
+**Table 5.1 — Considerations for causation**:
+
+| Consideration | Question |
+|---|---|
+| Temporal relation | Does the cause precede the effect? (essential) |
+| Plausibility | Is the association consistent with other knowledge? (mechanism of action; evidence from experimental animals) |
+| Consistency | Have similar results been shown in other studies? |
+| Strength | What is the strength of the association between the cause and the effect? (relative risk) |
+| Dose–response relationship | Is increased exposure to the possible cause associated with increased effect? |
+| Reversibility | Does the removal of a possible cause lead to a reduction of disease risk? |
+| Study design | Is the evidence based on a strong study design? |
+| Judging the evidence | How many lines of evidence lead to the conclusion? |
+
+**Temporal Relationship (time order)**: exposure must always precede the
+outcome — the only *necessary* condition (time flows FACTOR → OUTCOME).
+Difficulties may arise in case-control and cross-sectional studies;
+repeated measurement of exposure at more than one point in time and place
+may strengthen the evidence (e.g. seat-belt use).
+
+**Plausibility**: an association is plausible, and thus more likely
+causal, if consistent with other knowledge — e.g. laboratory experiments
+showing how exposure to the factor could lead to the observed effect.
+
+**Consistency**: demonstrated when several studies give the same results;
+associations are more likely causal if observed repeatedly "by different
+persons, in different places, circumstances and times… There will be
+occasions when repetition is absent or impossible and yet we should not
+hesitate to draw conclusions" (Hill).
+
+**Strength**: measured by the size of the risk ratio (RR). When RR is
+greater than 2, the causation can be considered **STRONG**. Weak
+associations suggest non-causal explanations; strong associations suggest
+causality — but "we must not be too ready to dismiss a cause-effect
+hypothesis merely on the grounds that the observed association appears to
+be slight. There are many occasions in medicine when this in truth so"
+(Hill). In epidemiology, most causes actually have weak-to-moderate
+associations with health outcomes. The higher the odds ratio/risk
+ratio/correlation, the easier it is to argue the cause is necessary and
+sufficient; a **PAR of 100%** means the cause is necessary — all cases
+would be prevented if the cause were removed. Weak associations may still
+be causal, but it's harder to rule out bias and confounding.
+
+**Dose-response relationship**: occurs when changes in the level of a
+possible cause are associated with changes in the prevalence/incidence of
+the effect — illustrated by the dose-response relationship between noise
+and hearing loss (hearing-loss prevalence rises with noise level and
+exposure time).
+
+**Reversibility**: when removal of a possible cause reduces disease risk,
+the likelihood of a causal association is strengthened — though not
+always.
+
+**Study design**: the ability of the study design to prove causation is a
+key consideration; the best evidence comes from well-designed, competently
+conducted RCTs. Other experimental designs (field trials, community trials)
+are seldom used to study causation. Evidence most often comes from
+observational studies — almost all evidence on the health consequences of
+smoking comes from observational studies.
+
+**Judging the evidence**: the more lines of evidence leading to the
+conclusion, the stronger the case for causality.
+
+**The Bradford Hill Criteria (1965)** — presented elsewhere in the same
+deck as a differently-worded 9-item list (see the source-gaps note below for
+how this relates to Table 5.1 above): (1) Strength of the association, (2)
+Consistency, (3) Specificity of the association, (4) Temporality, (5)
+Biological gradient, (6) Plausibility, (7) Coherence, (8) Experimental
+Evidence, (9) Analogy.
+
+### 8.6 The general model of causation (causal pies) {#ch08-6}
+
+**General Model of Causation (Causal Pies)**, by K. J. Rothman:
+
+- **Sufficient cause**: a set of conditions without any one of which the
+  disease would not have occurred (one whole "pie"); completion of a
+  sufficient cause is synonymous with occurrence of the disease.
+- **Component cause**: any one of the set of conditions necessary for the
+  completion of a sufficient cause (one piece of the pie); blocking the
+  action of any component cause prevents completion of that sufficient
+  cause, and therefore prevents the disease by that pathway.
+- **Necessary cause**: a component cause that is a member of *every*
+  sufficient cause.
+
+*Example — one possible causal component of breast cancer*: early-age
+menarche, late-age (first) birth, HRT, an unknown ("???") factor, and the
+BRCA1 gene are shown as components; some component causes are distal and
+some proximate, with the action of these components spanning a woman's
+entire lifetime.
+
+**Causal Pies diagram** (from Rothman, *AJE*, 1976): three sufficient
+causes (I, II, III) are drawn as three pies, each divided into labelled
+component-cause wedges (using letters A–J across the three pies, e.g.
+Sufficient cause I = components A,B,C,D,E; Sufficient cause II = A,B,F,G,H;
+Sufficient cause III = A,C,F,I,J). Component **A** appears in every pie —
+it is the **necessary cause**, because without it, disease does not occur
+by any of the three pathways.
+
+---
+
+## Ch. 9 — Levels of Prevention {#ch09}
+
+### 9.1 What is prevention? {#ch09-1}
+
+**Preventive medicine specialist**: works with large population groups as
+well as individual patients, to promote health and understand the risks of
+disease, injury, disability and death.
+
+**Definition of Prevention** (*A Dictionary of Epidemiology*, 4th ed.):
+"Actions aimed at eradicating, eliminating, or minimizing the impact of
+disease and disability." The concept of prevention is best defined in the
+context of levels, traditionally called primary, secondary, and tertiary
+prevention.
+
+**Levels of Prevention** (four, per this course): (1) Primordial
+Prevention, (2) Primary Prevention, (3) Secondary Prevention, (4) Tertiary
+Prevention.
+
+### 9.2 Primordial prevention {#ch09-2}
+
+A relatively new concept, receiving special attention in chronic-disease
+prevention. Consists of risk-factor reduction targeted at an *entire
+population*, through a focus on social and environmental conditions; such
+measures are typically promoted through laws and national policy.
+Primordial prevention begins in childhood, when health-behaviour risk
+begins — parents, teachers and peer groups are important in shaping
+children's health education. It is the prevention of the *emergence or
+development* of risk factors in countries/population groups where they
+have not yet appeared.
+
+*Example*: many adult health problems (obesity, hypertension) have early
+origins in childhood, since this is when lifestyles (smoking, eating
+patterns, physical exercise) are formed. Main intervention: **health
+education** — efforts dedicated to discouraging harmful lifestyles/habits
+through individual and mass education.
+
+**Examples of primordial prevention**: national nutrition policies/programs
+involving agriculture, the food industry, and food import/export; policies
+discouraging smoking, alcohol and drugs; programs promoting regular
+physical activity; making major lifestyle changes.
+
+### 9.3 Primary prevention {#ch09-3}
+
+**Primary prevention**: action taken *prior to the onset of disease*, which
+removes the possibility that the disease will ever occur — action taken
+before disease onset, in normal healthy persons who are at risk; cost
+effective; no loss. Signifies intervention in the *pre-pathogenesis phase*
+of a disease/health problem; includes the concept of "positive health" —
+encouraging achievement and maintenance of "an acceptable level of health
+that will enable every individual to lead a socially and economically
+productive life."
+
+**WHO-recommended approaches** for primary prevention of chronic diseases
+with established risk factors:
+
+- **A. Population (mass) strategy**: directed at the whole population,
+  irrespective of individual risk levels. Even a small reduction in a
+  population's average blood pressure or serum cholesterol would produce a
+  large reduction in cardiovascular-disease incidence. Directed toward
+  socio-economic, behavioral and lifestyle changes.
+- **B. High-risk strategy**: aims to bring preventive care to individuals
+  at special risk; requires detecting high-risk individuals through optimum
+  use of clinical methods.
+
+Primary prevention may be accomplished via **"Health promotion"** and
+**"specific protection"**.
+
+**A. General Health Promotion** — achieved by: Health education;
+Environmental modifications; Nutritional interventions (use of specific
+nutrients or supplementation); Lifestyle and behavioural changes; also
+listed: Immunization and seroprophylaxis, chemoprophylaxis, safety of drugs
+and foods, control of environmental hazards (e.g. air pollution). Includes:
+health education to improve healthy habits/health consciousness in the
+community; improving community nutritional standards; a healthful physical
+environment (housing, water supply, excreta disposal, etc.); good working
+conditions; marriage counseling; periodic selective examination of risk
+populations.
+
+**B. Specific Protection**: use of specific immunization — DPT vaccine
+(diphtheria, pertussis, tetanus), MMR vaccine (measles, mumps, rubella);
+use of specific nutrients (vitamin A for children, iron-folic acid tablets
+for pregnant mothers); protection against accidents (helmets, seat belts,
+etc.); protection against occupational hazards; avoidance of allergens;
+protection from air pollution.
+
+### 9.4 Secondary prevention {#ch09-4}
+
+**Secondary prevention**: "action which halts the progress of a disease at
+its incipient stage and prevents complications." Specific interventions:
+early diagnosis (screening tests, case-finding programs) and adequate
+treatment; referral.
+
+Secondary prevention attempts to arrest the disease process, restore health
+by seeking out unrecognized disease and treating it before irreversible
+pathological changes occur, and reverse the communicability of infectious
+diseases — thus protecting others in the community from acquiring the
+infection, providing secondary prevention for the infected and primary
+prevention for their potential contacts.
+
+**Early diagnosis and treatment**: the WHO Expert Committee (1973) defined
+early detection of health disorders as "the detection of disturbances of
+homoeostatic and compensatory mechanisms while biochemical, morphological
+and functional changes are still reversible." The earlier a disease is
+diagnosed and treated, the better for the case's prognosis and for
+preventing further secondary cases.
+
+**Objectives of secondary prevention**: complete cure and prevent disease
+progression; prevent disease spread by curing all known cases; prevent
+complications and sequelae; shorten the period of disability.
+
+**Interventions**: individual and mass case-finding measures; screening
+surveys (e.g. urine examination for diabetes, fecal occult blood for
+colorectal cancer); selective examination.
+
+### 9.5 Tertiary prevention {#ch09-5}
+
+**Tertiary prevention**: used once the disease process has advanced beyond
+its early stages; "all the measures available to reduce or limit
+impairments and disabilities, and to promote the patient's adjustment to
+irremediable conditions." Intervention in the *late pathogenesis phase* —
+the sick person may have complications, very high cost, possible job loss,
+permanent damage. Accomplished through **disability limitation** and
+**rehabilitation**.
+
+**Modes of intervention**: (i) Disability limitation, (ii) Rehabilitation.
+
+- **Disability** (Activity): "any restriction or lack of ability to perform
+  an activity in the manner or within the range considered normal for the
+  human being."
+- **Impairment** (Body structure): "any loss or abnormality of
+  psychological, physiological or anatomical structure or function."
+- **Handicap** (Participation): "a disadvantage for a given individual,
+  resulting from an impairment or disability, that limits or prevents the
+  fulfillment of a role in the community that is normal (depending on age,
+  sex, and social and cultural factors) for that individual."
+
+*Worked example — dental caries*: Disease = dental caries; Impairment =
+loss of tooth; Disability = can't talk; Handicap = can't socialize.
+
+**Rehabilitation**: "the combined and coordinated use of medical, social,
+educational, and vocational measures for training and retraining the
+individual to the highest possible level of functional ability"; requires
+cooperation from different sections of society. Four types: **Medical
+rehabilitation** (restoration of bodily function); **Vocational
+rehabilitation** (restoration of the capacity to earn a livelihood);
+**Social rehabilitation** (restoration of family and social relationships);
+**Psychological rehabilitation** (restoration of personal dignity and
+confidence).
+
+### 9.6 The concept of control {#ch09-6}
+
+"Disease control" describes ongoing operations aimed at reducing: the
+incidence of disease; the duration of disease (and consequently the risk of
+transmission); the effects of disease, including both physical and
+psychosocial complications; the financial burden to the community.
+
+### 9.7 Visual summaries: the cliff diagram and the P-S-T mnemonic {#ch09-7}
+
+**The "cliff" diagram** (Jones CP et al., *Journal of Health Care for the
+Poor and Underserved*, 2009): a group of people stand at the top of a
+cliff, labelled "Addressing the social determinants of health" —
+**primary prevention** — at the cliff edge (before the fall); below, a
+"safety net" catches falling people, labelled "Safety net programs and
+secondary prevention"; at the bottom, a building (hospital) is labelled
+"Medical care and tertiary prevention."
+
+**Mnemonic ("Key to Remember")**:
+- **P**rimary = **P**revention
+- **S**econdary = **S**creening
+- **T**ertiary = **T**reatment
+
+**Figure 4.1 — Clinical course of a disease: four prevention stages**, a
+matrix mapping the natural history of disease (Social & environmental
+determinants → Risk & protective factors → Preclinical phase → Clinical
+phase → Post-clinical phase) against four rows:
+
+| | Social & environmental determinants | Risk & protective factors | Preclinical phase | Clinical phase | Post-clinical phase |
+|---|---|---|---|---|---|
+| **Prevention stage** | — | **Primordial prevention**: alter societal structures & thereby underlying determinants | **Primary prevention**: alter exposures that lead to disease | **Secondary prevention**: detect & treat pathological process early, when intervention can be more effective | **Tertiary prevention**: modify risk factors & pathological processes to avoid relapses & further deterioration |
+| **Target population** | — | Healthy people | Groups at risk | Patients with disease | Recovering individuals |
+| **Agencies & approach** | — | Government & population health agencies, via health promotion, social programs, government legislative & fiscal measures | Public health, via community action & screening programmes | Family physicians, via patient counseling, treatment & risk factor change | All clinicians, via counseling, follow-up care & rehabilitation |
+
+---
+
+## Ch. 10 — Screening {#ch10}
+
+### 10.1 Definition of screening {#ch10-1}
+
+**Screening**: "the process to detect among healthy people disorders or
+risk factors of which they are unaware."
+
+**Formal definition**: "The **PROBABLE** identification of **UNRECOGNIZED**
+disease or defect by the application of tests, exams or other procedures
+which can be applied **RAPIDLY** to sort out apparently well persons who
+have **PROBABLY** disease from those who **PROBABLY** do not."
+
+Also: the early detection of disease / percentage of disease / susceptibility
+of disease, in individuals who do not show signs of disease.
+
+**The Iceberg of Disease** (neuros.org): above the waterline, "what the
+physician sees" = **Symptomatic Disease**; below the waterline, "what the
+physician doesn't see" = **Pre-Symptomatic Disease**. (This restates Ch.1's
+tip-of-the-iceberg concept with slightly different labels — symptomatic vs.
+pre-symptomatic rather than hospital patients vs. community patients.)
+
+**Screening's place in the disease timeline**: Exposure to pathogen →
+Biological onset of disease → [**Screening** intervenes here, in the
+Preclinical Phase] → Symptoms appear → [Clinical Phase begins] → Diagnosis →
+Therapy begun → Outcomes (cured; living with the disease; deteriorated;
+died) — with a possible relapse/change-in-therapy loop back to diagnosis.
+
+### 10.2 Screening test vs. diagnostic test {#ch10-2}
+
+| Screening Test | Diagnostic Test |
+|---|---|
+| Done on appropriate healthy individuals — asymptomatic | Done on sick or ill individuals / suggestive clinical picture |
+| Applied to large groups | Applied to a single patient |
+| Result is arbitrary and final | Diagnosis is not final |
+| Based on one criterion and cutoff | Based on evaluation of a number of signs/symptoms & lab findings |
+| Less accurate | More accurate |
+| Less expensive | More expensive |
+| Not a basis for treatment | Basic for treatment |
+| Initiative comes from investigation | Initiative comes from a patient |
+
+**Factors appropriate for screening**: important health problem; high
+prevalence; natural history understood; long latent period; early detection
+improves prognosis.
+
+### 10.3 Uses, purpose, and process of screening {#ch10-3}
+
+**Uses of Screening**: Case Detection (Prospective Screening) — Case/
+Disease Control; Research — Natural History of Disease; Health Education —
+Public Awareness.
+
+**Purpose of Screening**: reducing disease burden; classifying people by
+likelihood of having a particular disease; a means of identifying a high-
+risk group warranting further evaluation.
+
+**Flow diagram for a screening program**: Population → Screening test →
+Test −ve (Unaffected; may be Re-screened later) / Test +ve → Diagnostic
+procedures → Affected → Intervention; Test −ve individuals may also be
+re-screened.
+
+### 10.4 Types of screening tests {#ch10-4}
+
+Five types: Mass, High Risk, Opportunistic, Multipurpose, Multiphase.
+
+1. **Mass screening**: applied to a large, undetected population; everyone
+   in the group is screened regardless of individual probability of having
+   the disease/condition. *Example*: mammography in women aged 40 or older
+   (note — the source text reads "aged 40 years or less," which conflicts
+   with standard mammography-screening guidance; transcribed as written,
+   flagged below).
+2. **High-risk / Selective / Targeted screening**: screens a selected
+   high-risk group. *Example*: cervical-cancer screening in lower social
+   groups.
+3. **Opportunistic / Case Finding**: used when there's no accurate/precise
+   diagnostic test for the disease and its occurrence frequency in the
+   population is small; main objective is to detect disease and bring
+   patients to treatment. *Example*: examining the eyes of people with
+   diabetes when the opportunity arises (e.g. attending a diabetes clinic
+   or an optometrist for a general check-up).
+4. **Multipurpose screening**: screening a population with more than one
+   test simultaneously, to detect more than one disease. *Example*:
+   screening pregnant women for VDRL, HIV, HBV by serology tests.
+5. **Multiphase screening**: various diagnostic procedures are employed
+   during the same screening program. *Example*: questionnaire, clinical
+   examination, and a range of measurements/investigations (chemical and
+   hematological tests on blood and urine specimens).
+
+### 10.5 Criteria for successful screening {#ch10-5}
+
+Two categories: **Criteria for the disease** and **Criteria for the test**.
+
+**Criteria for the disease**: present in the population screened; a high
+burden and of high public-health concern; screening & intervention must
+improve outcome; known natural history of the disease; a detectable and
+long preclinical stage; an appropriate test available for early detection;
+facilities available for diagnosing the disease; effective treatment
+available; a policy for the screening program.
+
+**Criteria for the screening test**: Reliability; Feasibility; Validity;
+simple and inexpensive; very safe; acceptable to subjects and providers;
+Performance; Cost-effectiveness.
+
+- **Reliability**: the consistency of results when the screening program is
+  repeated on the same persons under the same conditions.
+- **Feasibility**: Acceptability (quick, easy, safe) and Cost-effectiveness
+  (of screening, diagnosis, follow-up, intervention).
+- **Validity**: see §10.6.
+
+**Principles for Screening Programs**: the condition should be an important
+health problem; there should be a recognizable early or latent stage;
+there should be an accepted treatment for persons with the condition; the
+screening test should be valid, reliable, with acceptable yield; the test
+should be acceptable to the population screened; the cost of screening and
+case-finding should be economically balanced in relation to medical care
+as a whole.
+
+### 10.6 Validity: sensitivity, specificity, PPV, NPV {#ch10-6}
+
+- **Sensitivity**: probability of testing positive among the truly
+  affected.
+- **Specificity**: probability of testing negative among the truly
+  unaffected.
+
+**The 2×2 "truth" table**:
+
+| | Disease + | Disease − |
+|---|---|---|
+| Test + | True Positive (TP) — have disease and test positive | False Positive (FP) — disease-free but test positive |
+| Test − | False Negative (FN) — have disease but test negative | True Negative (TN) — disease-free and test negative |
+
+**Measures of criteria validity**:
+- **Sensitivity** = TP / (TP+FN) — proportion of true positives among all
+  diseased individuals. **False Negative Rate** = FN / (TP+FN).
+- **Specificity** = TN / (TN+FP) — proportion of true negatives among all
+  non-diseased individuals. **False Positive Rate** = FP / (TN+FP).
+- **Positive Predictive Value (PPV)** = TP / (TP+FP) — proportion of true
+  positives among all those with a positive screening test.
+- **Negative Predictive Value (NPV)** = TN / (TN+FN) — proportion of true
+  negatives among all those with a negative screening test.
+
+These measures (particularly the predictive values) are **not** properties
+of the measurement method alone, but of the method *as applied to a
+specific population* — i.e. they depend on disease prevalence in that
+population.
+
+**Worked example — ECG screening for heart disease, prevalence 0.53**:
+
+| | Heart disease + | Heart disease − | Total |
+|---|---|---|---|
+| ECG + | 55 | 7 | 62 |
+| ECG − | 49 | 84 | 133 |
+| Total | 104 | 91 | 195 |
+
+Disease prevalence = 104/195 = 0.53. Sensitivity = 55/104 = 0.53;
+Specificity = 84/91 = 0.92; Positive PV = 55/62 = 0.89; Negative PV =
+84/133 = 0.63.
+
+**Same test, lower-prevalence population (prevalence 0.15)** — sensitivity
+and specificity are unchanged (a property of the test), but predictive
+values change substantially:
+
+| | Heart disease + | Heart disease − | Total |
+|---|---|---|---|
+| ECG + | 55 | 42 | 97 |
+| ECG − | 49 | 546 | 595 |
+| Total | 104 | 588 | 692 |
+
+Disease prevalence = 104/692 = 0.15. Sensitivity = 55/104 = 0.53 (unchanged);
+Specificity = 546/588 = 0.92 (unchanged); Positive PV = 55/97 = **0.57**
+(down from 0.89); Negative PV = 546/595 = **0.92** (up from 0.63). This is
+the textbook demonstration that sensitivity and specificity are intrinsic
+properties of a test, while PPV and NPV shift with the underlying
+prevalence of disease in the population tested.
+
+A test with high sensitivity will identify a high percentage of the cases
+with the outcome. A test with high specificity will generally be negative
+for healthy individuals. There is usually a trade-off between sensitivity
+and specificity.
+
+- **PV+**: probability of being affected among test positives.
+- **PV−**: probability of being unaffected among test negatives.
+- **PCC**: probability of being correctly classified.
+
+### 10.7 The sensitivity/specificity trade-off {#ch10-7}
+
+**High Sensitivity or High Specificity: which do I want?** Issues to
+consider: severity of the outcome; infectivity of the outcome; consequences
+of FP and FN results; risks of diagnostic tests and early treatment; number
+of FPs the system can handle; number of FNs the system can handle; cost of
+the diagnostic test.
+
+**Relation between sensitivity and specificity** (two paired diagrams):
+Sensitivity ↑ → Specificity ↓ → **False Positives** ↑; conversely,
+Specificity ↑ → Sensitivity ↓ → **False Negatives** ↑.
+
+**Overlapping-distributions diagram**: two bell curves along a "Test
+result" axis — "Without disease" (left curve) and "With disease" (right
+curve) — overlap around a chosen **Criterion value** (cutoff). Left of the
+overlap belongs mostly to True Negative (TN); right of the overlap, mostly
+True Positive (TP); within the overlap region, the tail of the
+"without-disease" curve past the cutoff is False Positive (FP), and the
+tail of the "with-disease" curve before the cutoff is False Negative (FN).
+Moving the cutoff trades sensitivity against specificity.
+
+### 10.8 Risks of screening {#ch10-8}
+
+**Risk of Screening**, organized by test result:
+
+- **True Positive** → *Labelling Effect*.
+- **False Positive** → Anxiety; Fear from future test; Monetary expenses.
+- **False Negative** → Delayed Diagnosis; Delayed Intervention;
+  Complications.
+
+---
+
 ## Source gaps and flagged passages
+
+No passages were flagged as illegible or ambiguous. All 47 vision-read pages
+were clearly legible; the 27 pages that cleared PyMuPDF's char-count
+threshold but carried no real prose (only a running footer/page number) were
+individually force-rendered and read — see the file header for the count.
+Pages that were pure section-divider slides or stock decorative images (e.g.
+"Any Questions?" closing slides, "Public health" street-illustration divider,
+the MDG icon-grid slide once its content was already captured in prose on an
+adjacent text-layer page) contributed no propositional content and are not
+separately cited, since they add nothing beyond the section headings already
+reflected in the chapter structure above.
+
+Two overlapping/duplicate diagrams were both kept rather than merged, since
+neither slide claims to supersede the other:
+- **Ch. 1** (`#ch01-4`) and **Ch. 3** (`#ch03-2`) each contain a natural-
+  history-of-disease / prevention-levels diagram; both are transcribed, since
+  the Ch. 3 version ("The process of diseases and interventions") adds the
+  Wellness→Illness→Disability process row not present in the Ch. 1 version.
+- **Ch. 4** (`#ch04-1`, `#ch04-7`) contains three different visual framings
+  of "Social Determinants of Health" (a 5-domain wheel, an 8-icon AHA list,
+  and a 6-domain KFF breakdown) — all three are given in full rather than
+  collapsed into one canonical list, since they come from different slides
+  and none states it replaces another.
+
+**Chapters 6–10 (decks 6–10, 2 of them PPTX — see the course header's PPTX
+note) — new gaps found this pass:**
+
+- **Ch. 8, Bradford Hill criteria** (`#ch08-5`): the deck presents two
+  differently-structured lists under the same "causation criteria" topic —
+  an 8-row "Table 5.1 — Considerations for causation" (temporal relation,
+  plausibility, consistency, strength, dose-response, reversibility, study
+  design, judging the evidence) with each item explained in following
+  slides, and a separately-titled "The Bradford Hill Criteria" 9-item list
+  (strength, consistency, specificity, temporality, biological gradient,
+  plausibility, coherence, experimental evidence, analogy) that shares only
+  some item names with the first. Both are transcribed in full rather than
+  reconciled into one canonical list — the deck itself never states that one
+  supersedes the other, and the second list's "Specificity," "Coherence,"
+  "Experimental Evidence" and "Analogy" have no counterpart explained
+  anywhere else in this deck.
+- **Ch. 7, PAR exercise answer** (`#ch07-6`): the final numeric answer to
+  the worked PAR exercise is a very short, blurry handwritten fragment on
+  its own slide (reads approximately "≈ 77%" but not confidently) — marked
+  as illegible rather than guessed. A resuming session could re-open
+  `courses/public-health/.prep/slides-patch/deck7-pics/slide063_1.png` for
+  another look, or re-derive the answer independently from the diagrammed
+  setup on the preceding slide (100 smokers/80 cases, 100 non-smokers/10
+  cases) if a verify pass needs it.
+- **Ch. 10, mass-screening example** (`#ch10-4`): the deck's own example
+  reads "Mammography in women aged 40 years or **less**" for mass
+  screening — this conflicts with standard guidance (mammography screening
+  targets women aged 40 and **older**). Transcribed exactly as written per
+  the source-outranks-correction rule, not silently fixed; flagged here for
+  visibility.
+- **Ch. 6, deck 6 slide 1 / Ch. 7, deck 7 slide 1** and several other
+  slides in both decks carry purely decorative stock photography or clip
+  art (a crowd photo, a person on a dune, "FAKE/FACT" blocks, a Risk
+  board-game photo, guinea-pig and investigator cartoons, sprinters at a
+  starting line, a Chernobyl aerial photo) — reviewed and confirmed
+  decorative, not separately cited.
 
 No passages were flagged as illegible or ambiguous. All 47 vision-read pages
 were clearly legible; the 27 pages that cleared PyMuPDF's char-count

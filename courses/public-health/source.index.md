@@ -108,3 +108,96 @@ trend, endemic, outbreak, pandemic, eradication, elimination of infection,
 cluster, rate, descriptive epidemiology, analytic epidemiology, proximate
 determinants, distal determinants, epidemiological triad, 5 rubrics,
 hypertension, obesity, incubation period, latent period, infectious period
+
+## {#ch06} Ch. 6 — Designs of Epidemiologic Studies
+covers: six dimensions distinguishing study designs, hierarchy of research
+designs/levels of evidence pyramid, unit of observation (ecological vs
+individual-based), ecological fallacy and its worked income/BMI diagrams,
+real ecological example (dietary fat vs death rate by country),
+manipulation of exposure (observational vs experimental), descriptive vs
+analytical studies decision tree, randomization (observational/experimental/
+quasi-experimental table), design of a clinical trial, directionality
+(retrospective/case-control vs prospective/cohort), full study-type decision
+tree, case-control studies (design, strengths, disadvantages, limitations),
+cohort/prospective studies (design, 2x2 tables, strengths, limitations,
+historical prospective design, Chernobyl thyroid-cancer example), cross-
+sectional/prevalence studies (design, strengths, limitations), prevalence-
+incidence "bathtub" relationship model, evaluation studies (program review
+vs program trial)
+terms: ecological study, ecological fallacy, individual-based study,
+observational study, experimental study, descriptive study, analytical
+study, randomized controlled trial, quasi-experimental, case-control study,
+cohort study, historical prospective design, cross-sectional study,
+prevalence study, program review, program trial
+
+## {#ch07} Ch. 7 — Measures of Association
+covers: central objective of measures of association (OR/RR/RD/AR), types
+of epidemiological study table (Table 3.1, alternative names and units),
+risk definition and risk difference (worked CHD/smoking example), relative
+risk/risk ratio (2x2 table formula, worked CHD example, RR=20 smoking/lung
+cancer example, worked obesity/stroke example RR=2), odds ratio (definition,
+case-control estimation of RR, worked CHD example, Table 3.2 meat/enteritis
+necroticans example OR=11.6, city/regional dwelling lung cancer example
+OR=1.686, prospective vs retrospective OR formulas, when OR approximates RR,
+sexual-abuse/suicide-attempt example with differing RR/OR), attributable
+risk and population attributable risk (PAR) definitions, worked PAR/RR
+exercise (100 smokers/80 cases vs 100 non-smokers/10 cases)
+terms: risk difference, relative risk, risk ratio, odds ratio, attributable
+risk, population attributable risk, PAR, 2x2 table, exposed, unexposed,
+cases, controls
+
+## {#ch08} Ch. 8 — Causal Thinking in Epidemiology
+covers: the "why" causal chain example, Circle of Health promotion
+framework, definitions of "cause" (Webster's, Rothman & Greenland), ruling
+out bias/confounding/chance before inferring causation, sufficient vs
+necessary cause, factors in causation (predisposing, enabling,
+precipitating, reinforcing factors), risk factor definition, interaction
+(smoking + asbestos lung-cancer example), establishing causality process,
+Table 5.1 considerations for causation (temporal relation, plausibility,
+consistency, strength, dose-response, reversibility, study design, judging
+evidence), the separately-presented 9-item Bradford Hill Criteria list (not
+reconciled with Table 5.1), Rothman's general model of causation/causal pies
+(sufficient cause, component cause, necessary cause, breast-cancer example,
+three-pie diagram)
+terms: cause, sufficient cause, necessary cause, predisposing factor,
+enabling factor, precipitating factor, reinforcing factor, risk factor,
+interaction, Bradford Hill criteria, temporal relation, dose-response
+relationship, causal pies, component cause, Rothman
+
+## {#ch09} Ch. 9 — Levels of Prevention
+covers: definition of prevention, four levels (primordial, primary,
+secondary, tertiary), primordial prevention (population-wide risk-factor
+reduction, childhood origins, health education, national policy examples),
+primary prevention (pre-pathogenesis intervention, WHO population/high-risk
+strategies, health promotion vs specific protection, DPT/MMR vaccines),
+secondary prevention (early diagnosis/treatment, WHO 1973 definition,
+objectives, case-finding interventions), tertiary prevention (late
+pathogenesis, disability limitation, rehabilitation), disability vs
+impairment vs handicap definitions with dental-caries worked example, four
+types of rehabilitation, concept of disease control, the "cliff" diagram
+(Jones 2009), Prevention/Screening/Treatment (P-S-T) mnemonic, Figure 4.1
+four-prevention-stages matrix (natural history x prevention stage x target
+population x agencies/approach)
+terms: primordial prevention, primary prevention, secondary prevention,
+tertiary prevention, health promotion, specific protection, population
+strategy, high-risk strategy, disability, impairment, handicap,
+rehabilitation, disease control
+
+## {#ch10} Ch. 10 — Screening
+covers: definition of screening, iceberg of disease (symptomatic vs
+pre-symptomatic), screening's place in the disease timeline, screening test
+vs diagnostic test comparison table, factors appropriate for screening,
+uses and purpose of screening, screening program flow diagram, five types
+of screening test (mass, high-risk/selective, opportunistic/case finding,
+multipurpose, multiphase) with examples, criteria for successful screening
+(disease criteria and test criteria), reliability, feasibility, validity —
+sensitivity/specificity/PPV/NPV definitions and 2x2 truth table, worked ECG/
+heart-disease example showing PPV/NPV change with prevalence while
+sensitivity/specificity stay fixed, sensitivity-specificity trade-off,
+overlapping-distributions diagram (criterion value cutoff), risks of
+screening by result type (labelling effect, anxiety, delayed diagnosis),
+principles for screening programs
+terms: screening, iceberg of disease, sensitivity, specificity, positive
+predictive value, PPV, negative predictive value, NPV, true positive, false
+positive, true negative, false negative, mass screening, opportunistic
+screening, multiphase screening
