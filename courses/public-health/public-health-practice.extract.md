@@ -1,12 +1,12 @@
 ---
 course: public-health
 tab: practice
-questions: 132
-tiers: claimed 131 | open 1
-forms: mcq 132
+questions: 271
+tiers: claimed 258 | open 13
+forms: mcq 256 | qa 15
 needs-eye: 0
 disputed: 0
-next-id: PH-P-133
+next-id: PH-P-272
 ---
 
 <!-- batch 01 -- raw/practice/Public Health PYQ& bank question 2023@Fawzi,Ali,Malik.pdf,
@@ -1586,3 +1586,1488 @@ b) Respiratory infections
 c) Measles
 d) Diarrheal diseases
 e) Malaria
+<!-- batch 02 -- same file, pages 33-64 of 64. RUN-PLAN row 6.
+
+  Confirms the batch-01 correction: this document's real answer-mark is bold
+  text, and it must be checked per-question rather than assumed. Two further
+  wrinkles turned up in this half of the file that batch 01 never hit:
+
+  1. A run of pages (bottom of p50 through p53 -- the Incidence/Prevalence/
+     Incidence definitions, the DALY question, the "influenza in a calendar
+     year" question, and the whole 10-question Alma-Ata Declaration block)
+     is entirely Calibri-Bold, stems AND every option alike -- a different
+     source pasted in with its own default-bold style. Uniform bold across
+     every option in a question carries no distinguishing information at all
+     and was read as unmarked: PH-P-216, PH-P-217 and PH-P-218-227 are tier
+     open despite every character on their pages being bold.
+  2. From p54 to p62 the format itself changes again: options drop their
+     letter prefixes entirely and are printed as bare bulleted lines. Bold
+     still discriminates cleanly question-to-question here, so these were
+     transcribed as ordinary mcq entries with option letters assigned by
+     the order they're printed in (positional, nothing invented) -- same
+     precedent as PH-P-027 in batch 01.
+
+  Section-by-section (numbering restarts noted same as batch 01's convention):
+    p33-37  continuation of batch 01's unlabeled fifth section -- Q52 picks up
+            exactly where PH-P-132 (Q51) left off, no restart. PH-P-133 through
+            PH-P-151 (19 Q), all claimed.
+    p37-48  new unlabeled section, restarts at 1 (49 Q after merging one
+            in-source duplicate, see below). PH-P-152 through PH-P-200, all
+            claimed. PH-P-199 is a third reshuffled copy of the "Public health
+            does which of the following" stem already seen at PH-P-060 and
+            PH-P-083 -- kept separate again, same near-miss precedent.
+    p48-50  12 unnumbered "scenario? Study design: X" statements -- the
+            compiler stating a fact directly rather than posing a choice, so
+            transcribed as form: qa with the stated design as the answer, tier
+            claimed (compiler-asserted, same as any other claimed-tier answer
+            in this zero-official-tier course). PH-P-201 through PH-P-212.
+            PH-P-207 (HIV/TB mortality in Kenya) restates row 5's PH-P-022
+            almost verbatim as a qa fact rather than an mcq -- cross-referenced,
+            not merged, since the form differs.
+    p50-51  a 3-item matching exercise (three numbered definitions, each
+            answered by a single lettered term: A. Incidence rate / B.
+            Prevalence / C. Incidence) -- split into three individual qa
+            entries per the microbiology/pharmacology matching-block precedent
+            rather than treated as one 3-option mcq. PH-P-213 through PH-P-215.
+    p51     DALY question and the "influenza in a calendar year" question --
+            both uniform-bold (see above), tier open. PH-P-216, PH-P-217.
+    p51-53  Alma-Ata Declaration quiz, 10 Q, its own "A) / B- / C)" option
+            style (only 3 options each) -- also uniform-bold throughout, tier
+            open for all ten. PH-P-218 through PH-P-227.
+    p54-62  unlettered bulleted-option block, 39 Q, all claimed (see format
+            note above). PH-P-228 through PH-P-266. PH-P-263 restates
+            PH-P-251's "temporal relationship means exposure precedes
+            outcome/disease" with a different distractor set -- cross-noted,
+            kept separate.
+    p63     final unlabeled section, restarts at 1, back to lettered a-e
+            options, 5 Q. PH-P-267 through PH-P-271.
+
+  One in-source duplicate merged (same stem, one entry, per the batch-merge
+  rule): the p37-48 section's own numbering reuses "34." for two unrelated
+  questions -- the second of the two ("The following criteria are necessary
+  to establish a causal relationship between two variables Except?") is a
+  near-verbatim restatement of that same section's Q28, its four statements
+  merely reordered, and both copies' bold marks agree on the same answer.
+  Merged into PH-P-179; the genuine "34. Which of the following can be an
+  observational study?" keeps its own entry (PH-P-185).
+
+  PH-P-176 preserves a source typo where options c and d are printed with
+  identical text ("Observational case-control") -- not corrected. PH-P-147's
+  option c carries an Arabic annotation ("على سلايد. بيان" -- "stated on a
+  slide") landing on the bold/correct option, same pattern as batch 01's
+  PH-P-023. No embedded images anywhere in pages 33-64 turned out load-bearing
+  -- the only one found (a decorative closing motivational photo on p64) was
+  checked and discarded. -->
+
+### PH-P-133
+tier: claimed
+form: mcq
+type: single
+claimed: e
+Which of the following does NOT contribute to the emergence of new diseases?
+a) Ecologic factors.
+b) Social, political and economic factors.
+c) Genetic and biological factors.
+d) Physical environmental factors.
+e) All of the above contribute to the emergence of new diseases.
+
+### PH-P-134
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Which of the following is NOT a primary responsibility of public health professionals?
+a) Implementing immunization programs.
+b) Maintaining a disease reporting system.
+c) Identifying and containing outbreaks of disease.
+d) Treating non-communicable diseases.
+e) Educating the public about disease threats to the community.
+
+### PH-P-135
+tier: claimed
+form: mcq
+type: single
+claimed: d
+How do epidemiologists describe occurrence of disease in populations?
+a) Characteristics of infected persons
+b) Geographic distribution of cases
+c) Time characteristics of disease occurrence
+d) All of the above
+e) b. and c. above
+
+### PH-P-136
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Prevalence describes the rate of disease progression in a community?
+a) True
+b) False
+
+### PH-P-137
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Prevalence measures rate in change of number of cases per unit time?
+a) True
+b) False
+
+### PH-P-138
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Successful efforts to reduce smoking include:
+a) Taxation of cigarettes
+b) Physician counseling
+c) Social pressure
+d) All of the above
+
+### PH-P-139
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Epidemiology uses time, place, and person to describe the relationship of agent, host and environment?
+a) True.
+b) False
+
+### PH-P-140
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Improving worker health and safety results in which of the following?
+a) Improved health status
+b) Increased productivity
+c) Decreased health care/related costs
+d) All of the above.
+e) a. and c. above
+
+### PH-P-141
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Regular physical exercise results in:
+a) An increase in average life span.
+b) Reduced incidence of cardiovascular diseases.
+c) Reduced risk of breast and colon cancer.
+d) All of the above.
+e) a. and b. above.
+
+### PH-P-142
+tier: claimed
+form: mcq
+type: single
+claimed: e
+Which of the following do NOT determine morbidity and mortality?
+a) The social and spatial organisation of a population.
+b) The individual's genetic endowment and exposure to a range of risk factors.
+c) The physical environment, including patterns of relationships and mobility.
+d) All of the above.
+e) None of the above.
+
+### PH-P-143
+tier: claimed
+form: mcq
+type: single
+claimed: e
+For what reasons do we monitor health and disease?
+a) To determine priorities for public health programs (e.g., burden of disease).
+b) To understand change over time in causes of death and disease (e.g., pandemic influenza, motor vehicle accidents, suicide).
+c) To measure the positive or negative effects of community health programs and services (e.g., community health promotion, expansion of paramedic services).
+d) To improve the quality of the science underlying clinical medicine, nutrition, emergency healthcare, nursing, and allied healthcare.
+e) All of the above.
+
+### PH-P-144
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Which of the following terms can be defined as follows: 'the number of new cases of disease, injury or death in a population during a specified time period'?
+a) Incidence
+b) Cumulative incidence
+c) Point prevalence
+d) Prevalence
+e) Mortality rate
+
+### PH-P-145
+tier: claimed
+form: mcq
+type: single
+claimed: b
+In Public Health, we define "health" as the absence of disease.
+a) True
+b) False
+
+### PH-P-146
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Which of the following is not one of the five steps in the public health approach?
+a) Define the health problem.
+b) Identify risk and/or protective factors associated with the problem.
+c) Assess public perceptions of the intervention.
+d) Develop and test community-level interventions to control or prevent the causes of the problem.
+
+### PH-P-147
+tier: claimed
+form: mcq
+type: single
+claimed: c
+note: option c carries an Arabic annotation in the source, "على سلايد. بيان" ("stated on a slide") -- the compiler confirming this answer against the lecture slides.
+The standard medical definition of health refers to health as?
+a) interesting, though not particularly important.
+b) maximising the wellbeing of populations.
+c) the absence of disease.
+d) and elusive concept that defies definition.
+e) both b. and c.
+
+### PH-P-148
+tier: claimed
+form: mcq
+type: single
+claimed: d
+The term used to describe measurable differences in attaining health is?
+a) Health equity
+b) Health inequity
+c) Health gradient
+d) Health inequality
+
+### PH-P-149
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Health is best described as a resource that allows a person to have?
+a) A social and spiritual life
+b) A productive social and economic life
+c) Economic well-being
+d) Physical capacity
+
+### PH-P-150
+tier: claimed
+form: mcq
+type: single
+claimed: c
+What distinguishes primary health care from primary care?
+a) A focus on primary, secondary and tertiary intervention.
+b) Provision of interventions specific to the health need.
+c) Works within a multidisciplinary framework.
+d) Planning and operation of services is centralized.
+
+### PH-P-151
+tier: claimed
+form: mcq
+type: single
+claimed: c
+The main aim of public health is to improve health by:
+a) Providing medical intervention appropriate for the individual.
+b) Performing research to compare the effectiveness of treatments.
+c) Promoting health and preventing disease in populations.
+d) Providing advice on risk markers and genetics to families.
+
+### PH-P-152
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Identify what this situation reflects: Over 20 million people worldwide died from influenza in 1918-1919?
+a) Epidemic disease
+b) Pandemic disease.
+
+### PH-P-153
+tier: claimed
+form: mcq
+type: single
+claimed: b
+A person working as a health educator use an approach that views health as related to?
+a) Pathological processes.
+b) Behavioral change.
+c) Health screening.
+d) Minimize complication.
+
+### PH-P-154
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Which of the following studies apply to this: Persons diagnosed with new-onset Lyme disease were asked how often they walk through woods, use insect repellant, wear short sleeves and pants, etc. Twice as many patients without Lyme disease from the same physician's practice were asked the same questions, and the responses in the two groups were compared?
+a) Observational cross-sectional.
+b) Observational cohort.
+c) Observational case-control.
+d) Experimental.
+
+### PH-P-155
+tier: claimed
+form: mcq
+type: single
+claimed: d
+In which one of the following circumstances will the prevalence of a disease in the population increase, all else being constant?
+a) If the incidence rate of the disease falls.
+b) If the population in which the disease is measured increases.
+c) If recovery of the disease is faster.
+d) If survival time with the disease increases.
+
+### PH-P-156
+tier: claimed
+form: mcq
+type: single
+claimed: d
+The ....... rate is the average number of children per women in reproductive age?
+a) growth.
+b) family.
+c) birth.
+d) fertility.
+
+### PH-P-157
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Health Equality is the opportunity for everyone to attain his or her full health potential?
+a) True
+b) False.
+
+### PH-P-158
+tier: claimed
+form: mcq
+type: single
+claimed: b
+The individual's culture does not impact his/her views towards health issues?
+a) True
+b) False.
+
+### PH-P-159
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Health promotion became a core policy for the World Health Organization with the Alma-Ata Declaration in 1978 and the 'Health-for-All by the Year 2000' Program?
+a) False
+b) True.
+
+### PH-P-160
+tier: claimed
+form: mcq
+type: single
+claimed: b
+A person's health and wellbeing is dependent on a good start, good future, good care and support. These influences, social, economic, physical and environmental factors are known as
+a) Health care.
+b) Determinants of Health.
+c) Health promotion.
+d) Public Health.
+
+### PH-P-161
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Which of the following studies apply to this: Representative sample of residents were telephoned and asked how much they exercise each week and whether they currently have (have ever been diagnosed with) heart disease.
+a) Observational cohort.
+b) Observational cross-sectional.
+c) Observational case-control.
+d) Experimental.
+
+### PH-P-162
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Which is not a type of Epidemiology study?
+a) Scientific.
+b) Descriptive.
+c) Experimental.
+d) Observational.
+
+### PH-P-163
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Identify what this situation reflects: Cases of infectious disease occurred within 3 weeks among residents of a particular neighborhood (usually 0 or 1 per year)?
+a) Epidemic disease.
+b) Pandemic disease.
+
+### PH-P-164
+tier: claimed
+form: mcq
+type: single
+claimed: a
+The decentralization of administrative and decision making functions is considered a way to involve the community in public health development?
+a) True
+b) False
+
+### PH-P-165
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Pathogenicity refers to the ability of an organism to cause disease?
+a) False
+b) True
+
+### PH-P-166
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Primary Health care philosophy includes the following EXCEPT?
+a) Treating health as commodity.
+b) Equity and Justice.
+c) Inter relationship of Health and Development.
+d) individual and community self-reliance.
+
+### PH-P-167
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Health literacy is best defined as the capacity of a person to?
+a) Recognize and know how to find information about a health problem.
+b) Follow medical instruction for specific health care problem.
+c) Read health-related literature.
+d) Access the internet.
+
+### PH-P-168
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Which of the following statements about exposures is true?
+a) Dietary intake is not an 'exposure' because individuals make a choice about what they eat.
+b) Exposure refers to contact with some factor that may be harmful or beneficial to health.
+c) An exposed individual has a greater risk of disease.
+d) High body mass index is a risk factor for a range of health conditions; therefore, it cannot be treated as a single exposure.
+
+### PH-P-169
+tier: claimed
+form: mcq
+type: single
+claimed: b
+In a case-control study, the Odds Ratio (OR) is the Ratio of the odds of exposure among the cases to the odds in favor of exposure among the controls?
+a) False
+b) True
+
+### PH-P-170
+tier: claimed
+form: mcq
+type: single
+claimed: d
+The ............ is an international health organization that compiles statistics of diseases and investigates health problems?
+a) Food and Drug Administration
+b) Occupational Safety and Health Administration
+c) Center for Disease Control
+d) World Health Organization.
+
+### PH-P-171
+tier: claimed
+form: mcq
+type: single
+claimed: d
+A process by which people gain control and mastery over their own lives is called?
+a) Sustainability.
+b) Intersectoral.
+c) Equity.
+d) Empowerment.
+
+### PH-P-172
+tier: claimed
+form: mcq
+type: single
+claimed: a
+........... is used to describe a small, localized epidemic, often contained to a village or a small town?
+a) An outbreak.
+b) A pandemic.
+c) A sporadic disease.
+d) An epidemic.
+
+### PH-P-173
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Primary health care is usually practiced in?
+a) Community health services and NGOs.
+b) Health education units only.
+c) Specialized health services and NGOs.
+d) Community and acute care clinics.
+
+### PH-P-174
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Public health services are given adequate attention in the financing of health care in Palestine.?
+a) True
+b) False.
+
+### PH-P-175
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Social Justice refers?
+a) social inclusion.
+b) An ethical concept based on human rights and fairness.
+c) An ethical concept based on autonomy.
+d) Ensuring the punishment fits the crime.
+
+### PH-P-176
+tier: claimed
+form: mcq
+type: single
+claimed: a
+note: options c and d are printed with identical text ("Observational case-control") in the source -- a compiler typo, preserved as-is.
+Which of the following studies apply to this: Occurrence of cancer was identified between April 1991 and July 2002 for 50,000 troops who served in the first Gulf War (ended April 1991) and 50,000 troops who served elsewhere during the same period?
+a) Observational cohort.
+b) Experimental.
+c) Observational case-control.
+d) Observational case-control.
+
+### PH-P-177
+tier: claimed
+form: mcq
+type: single
+claimed: b
+By basing programs and services in communities, organizations, and schools where most people spend most of their time, you can Increase the likelihood of long-term success to the road of health and wellness?
+a) False
+b) True.
+
+### PH-P-178
+tier: claimed
+form: mcq
+type: single
+claimed: a
+A study is done to examine whether is an association between the daily use of vitamins and risk of coronary artery disease (heart attack) over a 10-year period. When subjects who took, both vitamins were compared to those who took no vitamins at all, the risk ratio was found to be 0.07. Which of the following is a correct interpretation of this Finding?
+a) Those who take vitamins C & E daily have 0.7 times the risk of heart attack compared to those who do not take vitamins.
+b) The risk difference in this study is 0.70 per 100 vitamin users over ten years.
+c) The risk difference in this study is 70 per 100 vitamin users over ten years.
+d) The incidence of coronary artery disease in those who take vitamins C & E daily is 0.70 (or 70%).
+
+### PH-P-179
+tier: claimed
+form: mcq
+type: single
+claimed: d
+note: merged with a near-verbatim repeat of this question printed later in the source under a duplicate "34." (same four statements, reordered) -- both copies' bold marks agree on this answer.
+The following criteria are necessary to establish causal relationship between two variables except?
+a) The exposure to this factor should precede the development of the disease.
+b) The factor is present in all subjects with the disease.
+c) Elimination of the factor reduces risk of the disease.
+d) One exposure to this factor is always enough to develop the disease.
+
+### PH-P-180
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Which of the following is the best definition of public health?
+a) The science and art of preventing disease, prolonging life, and promoting health through the organized efforts of medical science.
+b) None of these.
+c) All of these.
+d) The process of mobilizing local, state provincial, national and international resources to assure the conditions in which all people can be healthy.
+e) Ensuring the health of the individual by maintaining and improving the health of the community.
+
+### PH-P-181
+tier: claimed
+form: mcq
+type: single
+claimed: b
+What is the best way to prevent the spread of infection?
+a) Avoid contact with ill patients.
+b) Wash your hands.
+c) Use alcohol wipes to clean surfaces.
+d) Use personal protective equipment.
+
+### PH-P-182
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Which of the following studies apply to this: Subjects were children enrolled in a health maintenance organization. At 2 months, each child was randomly given one of two types of a new vaccine against rotavirus infection. Parents were called by a nurse two weeks later and asked whether the children had experienced any of a list of side-effects?
+a) Observational cohort
+b) Experimental.
+c) Observational case-control
+d) Observational cross-sectional.
+
+### PH-P-183
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Health Promotion Action means EXCEPT?
+a) Reorient health services to focus on people empowerment.
+b) Strengthen community-wide health action.
+c) Building public healthy policy.
+d) Develop highly specialized medical services.
+e) Create supportive social environment.
+
+### PH-P-184
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Which of the following is an example of a non-communicable condition with multiple social determinants and causes?
+a) Violence Including suicide and homicide.
+b) Alcohol related deaths and disease.
+c) Obesity.
+d) All are correct.
+e) Teen/unplanned parenthood.
+
+### PH-P-185
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Which of the following can be an observational study?
+a) Community trial.
+b) Cross-sectional.
+c) Randomized controlled trial.
+d) Field trial.
+
+### PH-P-186
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Which of the following is true of the determinants of health?
+a) If a pathogenic organism can be shown to cause a disease then no other determinants are present.
+b) One determinant is operating to bring about each disease.
+c) They reflect multiple, interconnected underlying forces that influence health and the subsequent development of disease.
+d) Each determinants can usually be traced to specific disease.
+
+### PH-P-187
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Primary health care is?
+a) The first point of contact for people with the health care services.
+b) Care provided in the acute setting.
+c) Care provided in hospices.
+d) Care provided by GPs only.
+
+### PH-P-188
+tier: claimed
+form: mcq
+type: single
+claimed: b
+If a disease is endemic that means it is at the normal, expected level within the population?
+a) False.
+b) True.
+
+### PH-P-189
+tier: claimed
+form: mcq
+type: single
+claimed: a
+In a case control study, the Odds Ratio (OR) is the Ratio of the odds of exposure among the cases to the odds in favor of exposure among the controls?
+a) True
+b) False
+
+### PH-P-190
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Availability means that the cost should be within the means and resources of the individual and the country?
+a) True.
+b) False.
+
+### PH-P-191
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Epidemiological measures of effect assess the _______ between an exposure and an outcome.?
+a) Strength of the association
+b) Strength of the causal mechanisms.
+c) Strength of the reversibility.
+d) Strength of a confounding factor.
+
+### PH-P-192
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Which of the following models of health is the primary health care approach based on?
+a) Behavioural.
+b) Economic.
+c) Social.
+d) Education.
+
+### PH-P-193
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Sustainability refers to the ability of a program to?
+a) Be uncompromising when disturbances occur in social and environmental systems.
+b) Identify and reduce risk factors and lifestyle behaviours affecting health.
+c) Meet current needs without affecting the ability of people in the future to meet their needs.
+d) Focus on the social, political, economic and ecological dimensions of health.
+
+### PH-P-194
+tier: claimed
+form: mcq
+type: single
+claimed: b
+The key elements the World Health Organization sees as necessary to achieve better health for all include?
+a) Decreasing inclusion in health care coverage.
+b) Increasing stakeholder participation.
+c) Centralising and standardising health service delivery.
+d) Reducing use of collaborative models.
+
+### PH-P-195
+tier: claimed
+form: mcq
+type: single
+claimed: a
+What role were health professionals seen as fulfilling in health promotion?
+a) Enabling and nurturing health promotion.
+b) Controlling the health promotion agenda.
+c) Monitoring the health care team.
+d) Working with teachers.
+
+### PH-P-196
+tier: claimed
+form: mcq
+type: single
+claimed: a
+What factors besides land degradation affect the ability to create supportive environments?
+a) Rapid population growth and climate events.
+b) Productive food harvests.
+c) Political and social accord.
+d) Economic stability.
+
+### PH-P-197
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Health promotion advocates did NOT view health as?
+a) A resource for life.
+b) The reason for living.
+c) A positive concept.
+d) Including personal resources.
+
+### PH-P-198
+tier: claimed
+form: mcq
+type: single
+claimed: c
+How does health promotion affect general policy formulation?
+a) Policy makers outside health will be directed by health departments.
+b) Health policy makers need to ensure that they have considered all possible policy areas.
+c) All policy makers need to consider how they can contribute to health promotion.
+d) Policies need to be legislated so everyone will follow them.
+
+### PH-P-199
+tier: claimed
+form: mcq
+type: single
+claimed: e
+note: near-miss of PH-P-060/PH-P-083 -- a third reshuffled copy of this stem, its own "all of them"-style answer.
+Public health does which of the following?
+a) Mobilizes communities.
+b) Provides conditions conducive to good health.
+c) Promotes healthy lifestyles.
+d) All of the above.
+e) a. and c.
+
+### PH-P-200
+tier: claimed
+form: mcq
+type: single
+claimed: b
+What is the science of protecting populations and improving the health of human communities called?
+a) Epidemiology.
+b) Public Health.
+c) Preventive Medicine.
+d) Sociology.
+
+### PH-P-201
+tier: claimed
+form: qa
+claimed: Cross-sectional
+The growth patterns of infants aged 6-24 months were assessed on the basis of a single measurement of height, weight and head circumference of the population receiving care at the Family Health Centers in the northern and southern regions of Jordan?
+
+### PH-P-202
+tier: claimed
+form: qa
+claimed: Ecological
+The association between levels of air pollution and mortality rate in different European countries was studied?
+
+### PH-P-203
+tier: claimed
+form: qa
+claimed: Case-control
+The reduction in the likelihood of experiencing myocardial infraction (MI) amongst women who stopped smoking was shown by comparing the smoking habits of women who had experienced a MI with the smoking habits of women free of MI?
+
+### PH-P-204
+tier: claimed
+form: qa
+claimed: Retrospective (case-control)
+A proposal was recently accepted to study the association between exposure to radiation as a treatment for trichophytiasis (a dermatological condition of the scalp) and brain tumors, the proposed study will compare the rate of brain tumors among persons who had received the radiation treatment in the 1950s with the rate of brain tumors among persons who received other modes of treatment during those same years?
+
+### PH-P-205
+tier: claimed
+form: qa
+claimed: Prospective cohort
+The study of type A personality as a predictor of the risk for stroke?
+
+### PH-P-206
+tier: claimed
+form: qa
+claimed: Cohort study
+An investigator takes a sample of healthy individuals, record their ongoing solar exposure, and relate that to the subsequent occurrence of skin cancer in the same group?
+
+### PH-P-207
+tier: claimed
+form: qa
+claimed: Cohort study
+note: cross-references PH-P-022 (row 5, same tab) -- the same HIV/TB-in-Kenya scenario, here presented as a direct study-design statement rather than an mcq; not merged, since the form differs.
+A study was conducted to investigate the effect of HIV infection on mortality among people in Kenya with TB. Individuals with TB were recruited from hospitals and their HIV status determined. They were then followed-up over ten years to compare mortality rates in the HIV positive group and HIV negative group?
+
+### PH-P-208
+tier: claimed
+form: qa
+claimed: Clinical Trial
+A study was conducted to determine whether recurrences of urinary tract infection (UTI) can be prevented with cranberry-lingonberry juice?
+
+### PH-P-209
+tier: claimed
+form: qa
+claimed: Program Trial
+A study was conducted to examine the effectiveness of a community-based multimodal intervention program for suicide prevention in regions where the suicide rate was relatively high compared to control regions?
+
+### PH-P-210
+tier: claimed
+form: qa
+claimed: Clinical Trial
+A study was conducted to assess the effect of vitamin supplementation on the intelligence development of 6-8-year-old children?
+
+### PH-P-211
+tier: claimed
+form: qa
+claimed: Program review
+An evaluation was conducted for participant after 3 months of intervention to Increase awareness for hypertension.?
+
+### PH-P-212
+tier: claimed
+form: qa
+claimed: Cross-Sectional Studies
+Survey a sample of people with a written questionnaire or physical exam for habits, activities, characteristics, current state of health; provides a health snapshot of a target population (unknown what came before or after)?
+
+### PH-P-213
+tier: claimed
+form: qa
+claimed: Incidence rate
+note: first of a 3-item matching exercise in the source (each numbered definition answered by one lettered term) -- split into individual qa entries per the microbiology/pharmacology matching-block precedent rather than treated as one mcq.
+Number of new health-related events in a defined population within a specified period of time; includes numerator (# new cases), denominator (population at risk) and time?
+
+### PH-P-214
+tier: claimed
+form: qa
+claimed: Prevalence
+Measure the number of people in a population who have the disease at a given point in time?
+
+### PH-P-215
+tier: claimed
+form: qa
+claimed: Incidence
+Measures the rate at which people without the disease develop the disease during a specified period of time; used to study disease etiology (risk)?
+
+### PH-P-216
+tier: open
+form: mcq
+type: single
+note: every option is bold in the source -- uniform formatting carries no distinguishing signal, so this is genuinely unmarked despite appearing fully bold.
+The term DALY means?
+a) Disabled ability for life years.
+b) Do a lot of yoga.
+c) Disabled-adjusted life years.
+d) Disabled-adjusted for last year.
+e) Disability-added lost years.
+
+### PH-P-217
+tier: open
+form: mcq
+type: single
+note: every option is bold in the source, same uniform-bold pattern as PH-P-216 -- no distinguishing signal.
+A study that measures the number of persons with influenza in a calendar year?
+a) Cross sectional
+b) Case control
+c) Cohort study
+d) Case report
+
+### PH-P-218
+tier: open
+form: mcq
+type: single
+note: this and the remaining 9 Alma-Ata Declaration questions (through PH-P-227) are printed entirely in bold -- stems and every option alike, the source's own default style for this block, not an answer mark. All ten are genuinely unmarked.
+When was the Alma-Ata Declaration signed?
+a) 1977.
+b) 1978.
+c) 1987.
+
+### PH-P-219
+tier: open
+form: mcq
+type: single
+Where was the Alma-Ata Declaration signed?
+a) Kazakhstan.
+b) Pakistan.
+c) Uzbekistan.
+
+### PH-P-220
+tier: open
+form: mcq
+type: single
+What did the Alma-Ata Declaration state about the right to health?
+a) That access to healthcare is a luxury that not everyone can afford.
+b) That governments have a responsibility to ensure that everyone has access to adequate healthcare.
+c) That healthcare is not a right but a privilege.
+
+### PH-P-221
+tier: open
+form: mcq
+type: single
+What did the Alma-Ata Declaration focus on as the appropriate method of assuming adequate access to healthcare for all?
+a) Minor health care.
+b) Lesser health care.
+c) Primary health care.
+
+### PH-P-222
+tier: open
+form: mcq
+type: single
+What is the definition of primary health care according to the Alma-Ata Declaration?
+a) A healthcare system that focuses only on individual patients.
+b) A healthcare system that includes not only curative care, but also preventive and promotive approaches, and aims to integrate healthcare in all sectors.
+c) A healthcare system that only focuses on outpatient care.
+
+### PH-P-223
+tier: open
+form: mcq
+type: single
+What was the Alma-Ata Declaration's goal for the year 2000?
+a) To ensure that everyone has access to health insurance.
+b) To ensure that everyone has access to adequate healthcare.
+c) To cure all diseases.
+
+### PH-P-224
+tier: open
+form: mcq
+type: single
+What did the Alma-Ata Declaration state about health personnel?
+a) There should be a high number of health personnel.
+b) Health personnel should be trained in medical curative care.
+c) Health personnel should receive comprehensive training and education in all aspects of primary health care.
+
+### PH-P-225
+tier: open
+form: mcq
+type: single
+What is the underlying principle of the Alma-Ata Declaration?
+a) Health is a fundamental human right.
+b) The focus of healthcare should be on curative care usually.
+c) Health is a luxury that not everyone can afford.
+
+### PH-P-226
+tier: open
+form: mcq
+type: single
+What impact did the Alma-Ata Declaration have on healthcare systems around the world?
+a) It was ignored by most countries and had little impact.
+b) It became a catalyst for transformative change, inspiring nations to reevaluate their healthcare systems and strive for comprehensive, people-centered care.
+c) It caused governments to restrict access to healthcare.
+
+### PH-P-227
+tier: open
+form: mcq
+type: single
+What is the ultimate goal of the Alma-Ata Declaration?
+a) To achieve universal health coverage.
+b) To create a shortage of healthcare services and resources.
+c) To reduce access to healthcare.
+
+### PH-P-228
+tier: claimed
+form: mcq
+type: single
+claimed: a
+note: options in this and the following entries through PH-P-266 are unlettered bulleted lines in the source -- letters assigned positionally in print order, nothing invented, same precedent as PH-P-027.
+Which of the following sentence/s could best describe/s Endemic health problem?
+a) Consistency reporting of cases at same rate over time in certain area.
+b) Reporting of cases more than the normally reported at certain area.
+c) Reporting of cases more than the normally reported all over the world.
+d) All of the answers are correct.
+
+### PH-P-229
+tier: claimed
+form: mcq
+type: single
+claimed: c
+People with asthma were 3.6 times as likely as people without asthma to own a cat. What measure of association does this statement describe?
+a) Population attributable risk
+b) Relative risk
+c) Odds ratio
+d) Risk difference
+
+### PH-P-230
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Which of the following statements is Incorrect?
+a) Prevalence is mainly estimated in cross-sectional studies.
+b) Case control studies are susceptible to Recall bias.
+c) Causality can be assessed using cross sectional study.
+d) The Relative Risk is mainly calculated in cohort studies.
+
+### PH-P-231
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Which of the following is a measure of association in a case control study?
+a) P-value
+b) Risk difference
+c) Odds ratio
+d) Relative risk
+
+### PH-P-232
+tier: claimed
+form: mcq
+type: single
+claimed: b
+A double blind randomized controlled trail was performed to assess the effect of vitamins on preventing cardiovascular diseases. 250 were given vitamins while 285 were not. Among those who have been given vitamins, 85 developed the disease while only 40 did not develop the disease from those who were not given the vitamins. Please calculate the relative risk (RR) for vitamin intake compared to non-vitamin intake:
+a) 3.9
+b) 0.39
+c) 0.49
+d) 4.9
+
+### PH-P-233
+tier: claimed
+form: mcq
+type: single
+claimed: b
+John established a study to investigate the association between smoking and lung cancer. He assigned two groups; one is exposed to smoking and the other is not exposed to smoking. The two groups were followed over time to investigate the incidence of lung cancer. This study is:
+a) Case-Control study
+b) Cohort study
+c) Cross-sectional study
+d) Randomized control trial
+
+### PH-P-234
+tier: claimed
+form: mcq
+type: single
+claimed: b
+All of the following can be considered as non-communicable disease EXCEPT?
+a) High blood pressure.
+b) Malaria.
+c) Cancer.
+d) Diabetes.
+
+### PH-P-235
+tier: claimed
+form: mcq
+type: single
+claimed: d
+These studies allow to measure the effect of aggregate measures of exposure when measurement are not available at individual level or difficult to obtain?
+a) Case control studies
+b) Cohort studies
+c) Case study
+d) Ecological studies
+
+### PH-P-236
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Public health surveillance is?
+a) Used to guide the public health decision.
+b) Ongoing systematic collection of data.
+c) All of the answers are correct.
+d) Used to evaluate public health programs.
+
+### PH-P-237
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Which of the following statement/s would best describe/s the outbreak?
+a) Occurrence of more cases of disease than expected in a given area among a specific group of people over a particular period of time.
+b) Constant presence of disease in a population within a specific geographical area.
+c) None of the above is correct.
+d) Spread of disease cases between continents.
+
+### PH-P-238
+tier: claimed
+form: mcq
+type: single
+claimed: c
+If the relative risk value is less than one then this indicates that?
+a) All of the above are correct.
+b) The risk of developing the health event in the exposed group is similar to that in the non-exposed group.
+c) The risk of developing the health event in the exposed group is less than that in the non-exposed group (Protective effect).
+d) The risk of developing the health event in the exposed group is higher than that in the non-exposed group.
+
+### PH-P-239
+tier: claimed
+form: mcq
+type: single
+claimed: a
+A double blind randomised controlled trail was performed to assess the effect of vitamins on preventing cardiovascular diseases. 250 were given vitamins while 285 were not. Among those who have been given vitamins, 85 developed the disease while only 40 did not develop the disease from those who were not given the vitamins. Please calculate the risk difference (RD) or attributed risk (AR) for vit-intake compared to non-vit-intake?
+a) -0.52
+b) -0.39
+c) 5.2
+d) 0.49
+
+### PH-P-240
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Which of the following statement/s is/are best describing descriptive epidemiology studies?
+a) Studies that set up to answer the question who is getting the disease.
+b) Studies that set up to answer the causes of a diseases.
+c) Studies that set up to answer the questions where the disease is mostly distributed.
+d) A and C are correct.
+
+### PH-P-241
+tier: claimed
+form: mcq
+type: single
+claimed: d
+The proportion of exposed persons who become infected after exposure to a certain agent can be defined as?
+a) All answers are correct.
+b) Virulence
+c) Pathogenicity.
+d) Infectivity.
+
+### PH-P-242
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Which of the following statement/s is/are best describing the objectives of public health surveillance?
+a) All of the answers are correct.
+b) To set priorities for health planning.
+c) To assess public health status.
+d) To provide and interpret data to facilitate the prevention and control of disease.
+
+### PH-P-243
+tier: claimed
+form: mcq
+type: single
+claimed: d
+A study in which children are randomly assigned to receive either a newly formulated vaccine or the currently available vaccine, and are followed to monitor for side effects and effectiveness of each vaccine, is an example of which type of study?
+a) Case-control.
+b) Observational.
+c) Cohort.
+d) Randomized controlled trial.
+
+### PH-P-244
+tier: claimed
+form: mcq
+type: single
+claimed: c
+From healthcare provider to health department?
+a) Screening
+b) Randomization
+c) Passive surveillance.
+d) Indirect standardization
+
+### PH-P-245
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Epidemiology is defined as?
+a) The study of factors that determine the occurrence and distribution of disease in a population.
+b) Individual patient level of clinical medicine care.
+c) A real science since the time of Hippocrates that investigate bacterial infections.
+d) Scientific study of disease in the sub molecular and molecular level.
+
+### PH-P-246
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Which of the following is a measure of association in a cohort study?
+a) Prevalence rate
+b) Odds ratio
+c) Relative risk
+d) Population attributable risk
+
+### PH-P-247
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Which of the following statements is TRUE with regard to randomized controlled trial?
+a) It is the gold standard of study designs.
+b) Are always double blinded.
+c) The participants are communities.
+d) All of the answers are correct.
+
+### PH-P-248
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Which of the following is an advantage of a cohort study?
+a) People are less likely to be lost to follow up.
+b) Relatively cheap and easy to conduct.
+c) Can establish temporal sequencing.
+d) Good for rare outcomes.
+
+### PH-P-249
+tier: claimed
+form: mcq
+type: single
+claimed: c
+The control group in RCT may receive?
+a) No treatment.
+b) A placebo.
+c) All of the answers are correct.
+d) A standard treatment.
+
+### PH-P-250
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Which of the following diseases does not currently present a significant health challenge in Palestine?
+a) Cardiovascular diseases.
+b) HIV/AIDS.
+c) Diabetes.
+d) Cancer.
+
+### PH-P-251
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Temporal relationship means that?
+a) Exposure must be strongly associated with the outcome.
+b) Alternative explanations are considered.
+c) The higher the exposure the huger the outcome.
+d) Exposure must precede outcome.
+
+### PH-P-252
+tier: claimed
+form: mcq
+type: single
+claimed: d
+If you want to know the proportion of the disease that could be prevented by eliminating the exposure in the entire study population, you should calculate the?
+a) Prevalence rate.
+b) Relative risk.
+c) Incidence rate.
+d) Population attributable risk.
+
+### PH-P-253
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Epidemiology cannot study any health event in a specified population?
+a) True
+b) False
+
+### PH-P-254
+tier: claimed
+form: mcq
+type: single
+claimed: b
+In ecological study, associations on population levels might reflect associations on individual levels?
+a) True
+b) False
+
+### PH-P-255
+tier: claimed
+form: mcq
+type: single
+claimed: a
+When the disease is maintained in the population without the needs for external outputs, it is referred to as?
+a) Endemic.
+b) All answers are correct.
+c) Pandemic.
+d) Epidemic.
+
+### PH-P-256
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Used to generate hypothesis?
+a) Cohort study
+b) Randomized control trial
+c) Ecological study
+d) Case-control study
+
+### PH-P-257
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Investigate if rate of Asthma is higher in cities with higher level of air pollution, is an example on?
+a) Case series.
+b) Case report.
+c) None of the answers is correct.
+d) Ecological study.
+
+### PH-P-258
+tier: claimed
+form: mcq
+type: single
+claimed: c
+Modern epidemiology started with?
+a) Hippocrates oath.
+b) John Snow investigations.
+c) Doll and Hill investigations.
+d) Covid-19 transmission in Wuhan province.
+
+### PH-P-259
+tier: claimed
+form: mcq
+type: single
+claimed: d
+The most elementary study in the literature?
+a) Case series
+b) Ecological study
+c) None of the above
+d) Case report
+
+### PH-P-260
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Criteria of causation?
+a) Replication of the findings.
+b) Study design.
+c) Consistency with other knowledge.
+d) All of the answers are correct.
+
+### PH-P-261
+tier: claimed
+form: mcq
+type: single
+claimed: a
+Epidemiology science concerns by?
+a) All answers are correct.
+b) Distribution of a health event
+c) Studying the determinants of a health event.
+d) Control of a health event.
+
+### PH-P-262
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Which of the following is considered as an achievement of epidemiology?
+a) None of the answers is correct.
+b) Discovery of Gold in Sudan.
+c) COVID-19 eradication.
+d) Methyl mercury poisoning outbreak
+
+### PH-P-263
+tier: claimed
+form: mcq
+type: single
+claimed: a
+note: near-duplicate of PH-P-251 -- same underlying "exposure must precede outcome/disease" concept, reworded distractor set, kept separate.
+Temporal relationship means that?
+a) Exposure must precede disease.
+b) None of the answers is correct.
+c) Disease must precede exposure.
+d) Magnitude of association between exposure and disease.
+
+### PH-P-264
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Ecological study?
+a) Suitable for testing hypothesis
+b) Unit of analysis individual
+c) An example on analytical study
+d) Unit of analysis clusters
+
+### PH-P-265
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Experimental study designs are an example of analytical epidemiology study design?
+a) False
+b) True
+
+### PH-P-266
+tier: claimed
+form: mcq
+type: single
+claimed: d
+Descriptive epidemiology describes?
+a) Why was the population affected.
+b) How was the population affected.
+c) None of the answers is correct.
+d) When was the population affected.
+
+### PH-P-267
+tier: claimed
+form: mcq
+type: single
+claimed: e
+The definition of epidemiology includes all of the following, EXCEPT?
+a) study of determinants.
+b) study of disease frequency.
+c) study of disease patterns.
+d) health-related states or events.
+e) All of these are included in the definition of epidemiology.
+
+### PH-P-268
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Descriptive epidemiology involves identifying and quantifying associations, testing hypotheses, and identifying causes of health-related states or events?
+a) True
+b) False.
+
+### PH-P-269
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Application of the study of the distribution and determinants of health-related states or events in order to prevent and control health problems is not included in the role of epidemiology?
+a) True
+b) False.
+
+### PH-P-270
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Epidemiology involves studying only infectious communicable disease, not events like injury, obesity, mental health disorders, seat belt use, etc.?
+a) True.
+b) False.
+
+### PH-P-271
+tier: claimed
+form: mcq
+type: single
+claimed: b
+Which of the following is not usually an aim of epidemiology?
+a) To describe the health status of the population.
+b) To fund new public health programs.
+c) To explain the etiology of disease.
+d) To predict the occurrence of disease.
+e) To control the distribution of disease.
