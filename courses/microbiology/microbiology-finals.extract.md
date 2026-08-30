@@ -121,18 +121,26 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
     contiguous — only the questions actually captured are transcribed,
     MICRO-F-308-328). Entirely hand-circled, no disputes found in this exam.
 
-  **Left for a future session, not fabricated from memory:** part 2 also
-  contains at least two more distinct exams — a general virology final
-  ("Exam E", roughly 30-40 questions, found in "micro مهم جدا جدا جدا" images
-  11-18, heavily hand-annotated with a spiral-scribble marking style) and a
-  short hepatitis-focused block ("Exam F", ~6 questions, same folder, images
-  19-20). Both were read once during this session, but transcribing their
-  exact stems and options from memory alone — without the images back in
-  front of the model to re-verify wording — would risk violating the
-  "nothing invented" hard rule, so they were deliberately left out of this
-  write-up rather than risk a wrong transcription. A follow-up session should
-  re-open `courses/microbiology/.prep/finals/before2020-MICRO-FINAL/micro_____
-  ____________{11..20}-*.jpg` and transcribe these two exams properly.
+  - **Exam E** -- another unknown old general virology final, found in
+    "micro مهم جدا جدا جدا" images 11-18, with its own continuous internal
+    numbering running at least Q1-60 (MICRO-F-329-384; not every number in
+    that range survived legibly — Q44/47/48 turned out to be verbatim
+    repeats of three Exam C questions, corroborating them rather than adding
+    new entries; a numbering gap around Q56-60 was inferred from unbroken
+    page continuity after the photo cropped off the tens digit, noted on
+    MICRO-F-380). 4 questions (MICRO-F-332, 335, 341, 360) carry two
+    competing circles on one page and are recorded disputed or needs-eye
+    rather than picked between. Questions 37-40 are one extended-matching
+    block sharing a single option list, split into four qa-form entries
+    (MICRO-F-365-368) rather than invented as four separate option sets.
+  - **Exam F** -- a short, separate hepatitis-focused block, also in "micro
+    مهم جدا جدا جدا" but images 19-20, with its OWN independent numbering
+    that happens to also start at 19 -- a coincidence, not a continuation of
+    Exam E (whose own Q19 is an unrelated question about persistent
+    infection). Only 6 questions found (MICRO-F-385-390), the last of which
+    carries a visible conflict between its circled answer and the source's
+    own handwritten conclusion, left as needs-eye rather than resolved.
+
   Also found in this raw folder: several pages of a **Biochemistry** course
   final (Calvin cycle, Krebs cycle, glycolysis, fatty acid/lipid chemistry,
   amino acid metabolism) mixed in by whoever originally compiled the photo
@@ -145,12 +153,12 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
   stem overlap found (Exam C vs MICRO-F-003) was deliberately left unmerged for
   the same reason. Every count below is computed from the entries that follow,
   per CLAUDE.md hard rule 6.
-questions: 328
-tiers: claimed 322 | open 6
-forms: mcq 278 | qa 50
-disputed: 19
-needs-eye: 8
-next-id: MICRO-F-329
+questions: 390
+tiers: claimed 384 | open 6
+forms: mcq 336 | qa 54
+disputed: 20
+needs-eye: 12
+next-id: MICRO-F-391
 ---
 
 ### MICRO-F-001
@@ -3246,7 +3254,8 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-source: Exam C, p6
+source: Exam C, p6; corroborated verbatim (same stem, same options, same
+  answer) by Exam E's own Q44
 Tinea capitis (ringworm of the scalp) is a
 a) Superficial mycoses
 b) Cutaneous mycoses
@@ -3272,7 +3281,8 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: Exam C, p7
+source: Exam C, p7; corroborated verbatim (same stem, same options, same
+  answer) by Exam E's own Q47
 Candida albicans
 a) Is a dimorphic fungus
 b) Is part of the normal flora of man
@@ -3284,7 +3294,8 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-source: Exam C, p7
+source: Exam C, p7; corroborated verbatim (same stem, same options, same
+  answer) by Exam E's own Q48
 Dermatophytes cause
 a) Superficial mycoses
 b) Cutaneous mycoses
@@ -4241,3 +4252,874 @@ a) Ringworm of the body
 b) Ringworm of the scalp
 c) Ringworm of the foot
 d) A dermatophylic infection of the groin
+
+### MICRO-F-329
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E (unknown old general virology final, "micro مهم جدا جدا جدا"
+  folder, Q1 of its own numbering)
+note: This source's own numbering runs its own independent 1-60 sequence
+  unrelated to every other exam in this file; cited here as "Q1" etc. purely
+  as a locator within this one document, not as a cross-reference.
+All of the following statements about the basic structure of viruses is
+false EXCEPT:
+a) The complete unit of capsid and nucleic acid is termed the capsomere
+b) Viral envelope is a lipoprotein derived only from the plasma membrane of
+   infected cells
+c) A typical virion must have a nucleocapsid
+d) The basic structure of all viruses is also known as the nucleocapsid
+
+### MICRO-F-330
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam E, Q2
+All of the following statements about functions of viral components are
+false EXCEPT
+a) Capsid proteins of all viruses determine host specificity and induce
+   neutralizing antibodies
+b) Peplomers of all viruses including non-enveloped viruses determine host
+   specificity and induce neutralizing antibodies
+c) The capsid is essential in the formation of virions
+d) Mixing a suspension of enveloped viruses with specific antibodies against
+   the viral capsid renders the virus noninfectious
+
+### MICRO-F-331
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q3
+Which of the following medically important viruses has a double stranded
+RNA genome?
+a) Reovirus
+b) Polio virus
+c) HIV (Human immunodeficiency virus)
+d) Influenza virus
+
+### MICRO-F-332
+tier: claimed
+form: mcq
+type: single
+needs-eye: true
+source: Exam E, Q4
+note: Two options carry a circle-style mark ((b) and (d)) for what should be
+  a single-answer question — left unresolved rather than guessed between.
+Many viruses mature by budding through the outer cytoplasmic membrane of the
+host cell. Each of the following statements regarding these viruses is
+correct EXCEPT
+a) These viruses cause multinucleated giant cells
+b) Some new viral antigens appear on the cell surface of the host cell
+c) Some of these viruses contain host cell lipids
+d) Some of these viruses do not have an envelope
+
+### MICRO-F-333
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q5
+Latency is an outcome particularly characteristic of which one of the
+following virus groups
+a) Polio virus
+b) Herpes viruses
+c) Rhino viruses
+d) Influenza viruses
+
+### MICRO-F-334
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q6
+About hepatitis viruses
+a) They are classified according to predominant pathology
+b) Infect hepatocytes specifically
+c) Include viruses from different families
+d) All of the above statements are correct
+
+### MICRO-F-335
+tier: claimed
+form: mcq
+type: single
+needs-eye: true
+source: Exam E, Q7
+note: Two options carry a circle-style mark ((a) and (d)) for what should be
+  a single-answer question — left unresolved rather than guessed between.
+All of the following statements about the morphologic types of human viruses
+are incorrect EXCEPT
+a) Genome of a single virus family may have icosahedral and/or helical
+   nucleocapsid
+b) Viruses that have neither helical symmetry nor icosahedral symmetry are
+   described as simple
+c) Icosahedral viruses comprise an outer helical protein shell which houses
+   the nucleic acid
+d) Human immunodeficiency virus has icosahedral capsid symmetry and an
+   envelope
+
+### MICRO-F-336
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q8
+According to the clinical classification of viruses, measles virus is
+a) Enteric
+b) Exanthematous
+c) Respiratory
+d) Neurotropic
+
+### MICRO-F-337
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q9
+All of the following statements about virus replication are incorrect
+EXCEPT
+a) Unidentified host enzymes are required in the uncoating of nucleocapsids
+b) Without exception a virion becomes internalized (penetration step)
+   through pinocytosis of the cell
+c) The binding site (attachment site) of an enveloped virus locates on the
+   surface of its nucleocapsid
+d) The virus replication cycle consists of the following sequential steps:
+   attachment, uncoating, penetration, synthesis, maturation, and release
+
+### MICRO-F-338
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q10
+Viruses enter cells by attaching to specific sites on the outer membrane of
+cells. Each of the following statements regarding this event is correct
+EXCEPT
+a) The interaction determines the specific target organs for infection
+b) The interaction determines whether the purified genome of a virus is
+   infectious
+c) The interaction can be prevented by neutralizing antibody
+d) The interaction is best at 37°C
+
+### MICRO-F-339
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q11
+All of the following statements about viral replication are incorrect
+EXCEPT
+a) Virus proteins are synthesized on cell ribosomes
+b) Penetration can happen at 4°C
+c) Identified host enzymes expose the viral nucleic acid during uncoating
+d) Without exception a virion becomes internalized (penetration step)
+   through pinocytosis of the cell
+
+### MICRO-F-340
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q12
+note: The page carries a handwritten correction ("on Ribosome") next to
+  option (d), consistent with the circled answer — protein synthesis
+  actually happens on ribosomes, not in the nucleus.
+All the following statements about retroviruses are true EXCEPT
+a) Have a virion associated RNA dependent DNA polymerase
+b) Can integrate ds DNA into the cellular chromosome as a provirus
+c) Retrovirus genome is single standard dimeric RNA
+d) Viral protein synthesis takes place in the host cell nucleus
+
+### MICRO-F-341
+tier: claimed
+form: mcq
+type: single
+disputed: true
+claims:
+  - source: circled option (c)
+    answer: c (A few species of viruses immortalize the host cell in vitro)
+  - source: circled option (d), annotated "??"
+    answer: d (A few species induce host cell to release exotoxins capable
+      of damaging a distinct organ)
+source: Exam E, Q13
+note: The page itself carries a "??" next to (d), suggesting the source was
+  unsure between the two circled options — recorded as disputed rather than
+  picked between.
+All but one of the following statements about cell responses to virus
+multiplication are correct:
+a) Some viruses kill the cell within hours after infection and produce many
+   progeny virions
+b) Some viruses modify the host cell by inserting virus surface proteins on
+   the cell membrane
+c) A few species of viruses immortalize the host cell in vitro
+d) A few species induce host cell to release exotoxins capable of damaging a
+   distinct organ
+
+### MICRO-F-342
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q14
+note: Page carries the handwritten word "Size" repeated four times next to
+  option (d), reinforcing the circled answer.
+Pathology (clinical manifestations) of a virus infection depends on all but
+one of the following factors
+a) Tissue tropism of the virus
+b) Virulence of the virus
+c) Dosage of the virus
+d) Size of the viral genome
+
+### MICRO-F-343
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q15
+note: Page carries a handwritten "B" next to option (d) — consistent with
+  the real association being Hepatitis B (not A) and hepatocellular
+  carcinoma, confirming (d) as the false/exception statement.
+The following viruses have been associated with the following human cancers
+EXCEPT
+a) Human T lymphotropic virus and adult T-cell leukemia
+b) Epstein-Barr virus and nasopharyngeal carcinoma
+c) Human papillomavirus and cervical carcinoma
+d) Hepatitis A virus and hepatocellular carcinoma
+
+### MICRO-F-344
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q16
+Rhinoviruses are transmitted by
+a) Sexual transmission
+b) Vertical transmission
+c) Insect bites
+d) Droplet transmission
+
+### MICRO-F-345
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam E, Q17
+Papilloma viruses cause
+a) Generalized infection
+b) Latent infection
+c) Localized infection
+d) None of the above
+
+### MICRO-F-346
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q18
+Spread of the virus after replication at the portal of entry could occur
+a) Via lymph
+b) Via nerve
+c) Cell to cell
+d) All of the above
+
+### MICRO-F-347
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q19
+note: Distinct exam from the hepatitis block below despite the same "Q19"
+  label — this source's own numbering runs 1-60 continuously and this really
+  is its 19th question; the hepatitis block's "Q19" is a separate document
+  with its own independent numbering.
+In a persistent infection
+a) There is continuous virus replication
+b) Infected persons may act as symptomless carriers
+c) Infected persons may develop a chronic infection
+d) All of the above statements are correct
+
+### MICRO-F-348
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q20
+Host responses important in getting rid of a virus infection include all
+but one of the following
+a) Production of interferon
+b) Formation of neutralizing antibodies
+c) Generation of virus-specific cytotoxic T-lymphocytes
+d) Formation of antibodies against virus polymerase
+
+### MICRO-F-349
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q21
+Some viruses may persist in host tissue for many months or years after the
+acute infection. This persistence of virus may be due to all but one of the
+following
+a) Virus latency
+b) Failure of the host to mount effective immune responses against virus
+   surface proteins
+c) Infection by unconventional viruses (prions)
+d) Mutation to interferon resistance
+
+### MICRO-F-350
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam E, Q22
+note: Page carries the handwritten phrase "cytocidal viral transformation"
+  next to the circled option.
+All the following statements about transformation of a cell are correct
+EXCEPT
+a) Transformed cells do not exhibit contact inhibition
+b) Transformed cells divide indefinitely
+c) Can result from a cytocidal viral infection
+d) Can result in the formation of benign tumors
+
+### MICRO-F-351
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q23
+Human serum immunoglobulin from pools of human plasma
+a) Can be used to reduce the severity of hepatitis A
+b) Is a form of passive immunization
+c) Interferes with virus attachment
+d) All of the above statements are correct
+
+### MICRO-F-352
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q24
+Antivirals that are nucleoside analogues include all the following EXCEPT
+a) Amantidine
+b) Dideoxycytidine
+c) Ribavirin
+d) Acyclovir
+
+### MICRO-F-353
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q25
+Which one of the following viral inhibitors intercepts virus replication by
+preventing attachment?
+a) Interferons
+b) Amantidine
+c) Nucleoside analogues
+d) Antibodies against virus attachment site
+
+### MICRO-F-354
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q26
+note: Page carries the handwritten note "Ramantideen -> prevent uncoating".
+Which one of the following antiviral drugs intercepts virus replication by
+preventing uncoating?
+a) Zidovudine
+b) Acyclovir
+c) Foscarnet
+d) Rimantidine
+
+### MICRO-F-355
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q27
+note: Page carries the handwritten note "Interferon -> mRNA translation".
+All but one of the following antivirals interfere with virus replication by
+targeting virus polymerase
+a) Zidovudine
+b) Acyclovir
+c) Ganciclovir
+d) Interferon alpha
+
+### MICRO-F-356
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q28
+Acyclovir in therapeutic doses is essentially nontoxic because
+a) It targets exclusively virus-specific polymerase
+b) It causes premature chain termination during RNA synthesis
+c) It is rapidly degraded by a host enzyme
+d) It is phosphorylated into acyclovir monophosphate by virus specific
+   kinase
+
+### MICRO-F-357
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q29
+One of the following statements about interferons is incorrect
+a) Human and rabbit interferons are equally effective in inhibiting
+   replication of poliovirus in human cell culture
+b) Interferon alpha is effective in the treatment of chronic hepatitis B
+c) Interferons are glycoproteins synthesized by the host cell
+d) Interferons are not virus specific
+
+### MICRO-F-358
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q30
+One of the following statements about interferons is incorrect
+a) Interferons are inducers of virus inhibitory proteins
+b) Interferons interfere with translation of viral mRNA
+c) Interferons have a wide antiviral spectrum
+d) Interferon gamma is produced by fibroblasts
+
+### MICRO-F-359
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q31
+note: Page carries the handwritten note "acute -> asymptomatic".
+One of the following statements about patterns of viral infection is
+incorrect
+a) Herpes viruses are an important cause of latent infections
+b) Most acute viral infections are symptomatic
+c) Acute viral infections include infections with influenza virus
+d) Hepatitis B virus can cause chronic infections
+
+### MICRO-F-360
+tier: claimed
+form: mcq
+type: single
+needs-eye: true
+source: Exam E, Q32
+note: Two options carry a circle-style mark ((c) and (d)) for what should be
+  a single-answer question — left unresolved rather than guessed between.
+All of the following about virokines are true EXCEPT
+a) Are viral virulence factors
+b) Reduce host defenses
+c) HIV can reduce the expression of class I MHC proteins
+d) Are lymphokines induced by viruses
+
+### MICRO-F-361
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q33
+There are fewer antiviral drugs compared to antibacterial drugs because of
+a) Difficulty in obtaining selective toxicity against viruses
+b) Latency of some viral infections
+c) Emergence of drug resistance viral mutants
+d) All of the above statements are correct
+
+### MICRO-F-362
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q34
+note: Different question from MICRO-F-351 (Q23 of this same exam), which
+  asks about immunoglobulin FROM pools of human plasma specifically; this
+  one asks about human serum immunoglobulin in general.
+Human serum immunoglobulin
+a) Is a form of active immunization
+b) Is a form of passive immunization
+c) Is a form of active-passive immunization
+d) None of the above statements is correct
+
+### MICRO-F-363
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: Exam E, Q35
+Live vaccines are contraindicated for
+a) Immunodeficient individuals
+b) Pregnant woman
+c) AIDS patients
+d) Immunosuppressed patients
+e) All of the above
+
+### MICRO-F-364
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q36
+note: Page carries the handwritten note "Hep(B)".
+A component of a virus synthesized by a genetically engineered yeast
+(recombinant vaccine) comprises the vaccine used for
+a) Hepatitis B
+b) Influenza
+c) Measles
+d) Mumps
+
+### MICRO-F-365
+tier: claimed
+form: qa
+claimed: a (HIV)
+source: Exam E, Q37 of 40 (extended matching question, options shared with
+  MICRO-F-366-368)
+Questions 37-40: select the one lettered option that is most closely
+associated with the numbered item.
+a) HIV
+b) Influenza virus
+c) Rabies virus
+d) Polio virus
+
+Sexually transmitted disease
+
+### MICRO-F-366
+tier: claimed
+form: qa
+claimed: b (Influenza virus)
+source: Exam E, Q38 of 40 (extended matching question, same shared option
+  list as MICRO-F-365)
+Questions 37-40: select the one lettered option that is most closely
+associated with the numbered item.
+a) HIV
+b) Influenza virus
+c) Rabies virus
+d) Polio virus
+
+Respiratory disease
+
+### MICRO-F-367
+tier: claimed
+form: qa
+claimed: d (Polio virus)
+source: Exam E, Q39 of 40 (extended matching question, same shared option
+  list as MICRO-F-365)
+Questions 37-40: select the one lettered option that is most closely
+associated with the numbered item.
+a) HIV
+b) Influenza virus
+c) Rabies virus
+d) Polio virus
+
+Faecal oral spread
+
+### MICRO-F-368
+tier: claimed
+form: qa
+claimed: c (Rabies virus)
+source: Exam E, Q40 of 40 (extended matching question, same shared option
+  list as MICRO-F-365)
+Questions 37-40: select the one lettered option that is most closely
+associated with the numbered item.
+a) HIV
+b) Influenza virus
+c) Rabies virus
+d) Polio virus
+
+Zoonoses
+
+### MICRO-F-369
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q41
+Fungi differ from bacteria in that they:
+a) Contain no peptidologycan
+b) Have nuclear membranes
+c) Are susceptible to Griseofulvin
+d) Are prokaryotic
+
+### MICRO-F-370
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q42
+A very useful staining procedure for revealing fungi in tissue is
+a) The Gram stain
+b) The Periodic acid-schiff's stain
+c) The hematoxylin and eosin stain
+d) None of the above
+
+### MICRO-F-371
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q43
+Dimorphic fungi
+a) Can grow as hyphae or yeast depending on the growth temperature
+b) Are filamentous fungi that have branching hyphae
+c) Are unicellular fungi that reproduce by budding
+d) Include Candida which forms hyphae at room temperature
+
+### MICRO-F-372
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam E, Q46
+note: Page carries the handwritten note "25°C" repeated multiple times.
+Growth temperature of dimorphic fungi is
+a) 37
+b) 4
+c) 25
+d) 50
+
+### MICRO-F-373
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q49
+Live viral vaccines are prepared from
+a) attenuated virus
+b) inactivated virus
+c) viral protein components
+d) none of the above
+
+### MICRO-F-374
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q50
+note: Page carries the handwritten note "Cytocidal".
+When influenza virus replicates in the mucosal epithelial cells the outcome
+of infection is
+a) Latent infection
+b) Cytocidal infection
+c) Formation of inclusion bodies
+d) Persistent viral infection
+
+### MICRO-F-375
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q51
+Slow virus infections such as Creutzfeldt Jakob's disease are referred to as
+"slow" because
+a) The infective agent replicates slowly
+b) There are many years between the initial infection and the onset of
+   illness
+c) The immunity to the infective agent is slow
+d) None of the above
+
+### MICRO-F-376
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam E, Q52
+note: Page carries the handwritten note "Both".
+The rash on the skin in measles infection is due to
+a) Viral lysis
+b) Immune lysis
+c) Both viral and immune lysis
+d) None of the above
+
+### MICRO-F-377
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q53
+note: Page carries the handwritten note "CD4".
+The receptor on the human host cell for HIV is
+a) CR2 receptor (complement receptor)
+b) CD4 receptor on T cells
+c) Epidermal growth factor
+d) Intercellular adhesion molecule 1 (ICAM-1)
+
+### MICRO-F-378
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q54
+All viruses are infectious, but not all purified viral DNAs or RNAs are
+infectious
+a) True
+b) False
+c) Partly true
+d) Partly false
+
+### MICRO-F-379
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q55
+Concerns about the use of live attenuated vaccines include all the
+following EXCEPT
+a) Reversion to virulence
+b) Transmission of excreted virulent revertant to nonimmune contacts
+c) Contamination of the vaccine
+d) Several doses are required to induce good immunity
+
+### MICRO-F-380
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam E, Q56
+note: Numbering inferred — the tens digit is cut off by the photo's edge on
+  this page (visible only as "...6."), but the content follows directly on
+  from Q55 with no topic break, and the sequence continues cleanly through
+  the low-50s numbering already established (Q57-60 next).
+DNA vaccines
+a) May contain purified DNA encoding viral proteins recombined into a viral
+   vector
+b) Induce active immunity
+c) May contain purified DNA encoding viral proteins recombined into a
+   plasmid
+d) All of the above are correct
+
+### MICRO-F-381
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q57 (numbering inferred, see MICRO-F-380's note)
+The first vaccine ever designed was against
+a) Chickenpox virus
+b) Small pox virus
+c) Cowpox virus
+d) None of the above
+
+### MICRO-F-382
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam E, Q58 (numbering inferred, see MICRO-F-380's note)
+Tamiflu is effective against influenza A and B it
+a) Inhibits release of influenza A and B
+b) Inhibits uncoating of influenza A and B
+c) Inhibits cleavage of precursor polypeptides
+d) Inhibits attachment of influenza A and B
+
+### MICRO-F-383
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam E, Q59 (numbering inferred, see MICRO-F-380's note)
+note: Page carries the handwritten note "Azidothymidine".
+The Drug of choice in patients with AIDS is
+a) Ganciclover
+b) Azidothymidine
+c) Acyclovir
+d) Ribavirin
+
+### MICRO-F-384
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam E, Q60 (numbering inferred, see MICRO-F-380's note; last
+  question found in this exam)
+note: Page carries the handwritten note "Saquinavir", boxed.
+The following antiviral drug inhibits cleavage of precursor polypeptides
+a) Foscarnet
+b) Amantidine
+c) Saquinavir (invirase)
+d) Idoxuridine
+
+### MICRO-F-385
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam F (unknown old hepatitis-focused block, same "micro مهم جدا
+  جدا جدا" folder as Exam E but a physically separate document with its own
+  independent numbering starting at 19 — not a continuation of Exam E, whose
+  own Q19 is a completely different question, see MICRO-F-347's note)
+Clinical features of viral hepatitis include all the following EXCEPT:
+a) Increased bilirubin
+b) Raised alanine aminotransferase
+c) Jaundice
+d) Increased polymorphonuclear leukocytes
+
+### MICRO-F-386
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam F, Q20
+A person infected with hepatitis A is infectious
+a) prior to clinical jaundice only
+b) while having clinical jaundice only
+c) a week before and a week after onset of clinical jaundice
+d) none of the above
+
+### MICRO-F-387
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam F, Q21
+note: Page carries several lines of general hepatitis study notes unrelated
+  to this specific question (vaccine availability, AIDS-associated diarrhea,
+  UTI bacterial counts) — not transcribed, since they aren't part of the
+  question or its answer.
+The following hepatitis viruses poses a major hazard to cross infection in
+hemodialysis units except:
+a) Hepatitis A
+b) Hepatitis C
+c) Hepatitis B
+d) Hepatitis G
+
+### MICRO-F-388
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam F, Q22
+The following are RNA viruses EXCEPT:
+a) Hepatitis B
+b) Hepatitis C
+c) Hepatitis A
+d) Hepatitis D
+
+### MICRO-F-389
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam F, Q23
+Routine laboratory diagnosis of hepatitis A involves
+a) Virus culture
+b) Specific IgM by ELISA
+c) Immunofluorescence of hepatitis A virus in liver biopsy
+d) Detection of hepatitis A virus in blood
+
+### MICRO-F-390
+tier: claimed
+form: mcq
+type: single
+needs-eye: true
+source: Exam F, Q24 (last question found in this exam)
+note: The circled answer is (b) Hepatitis A, but the page also carries a
+  handwritten note reading "systemic infection except cholera" — implying
+  the annotator's own working answer was actually (c) Cholera. Recorded as
+  needs-eye given the visible conflict between the circled mark and the
+  student's own written conclusion.
+The following are systemic infections transmitted through food or drink
+EXCEPT:
+a) Typhoid
+b) Hepatitis A
+c) Cholera
+d) Poliomyelitis

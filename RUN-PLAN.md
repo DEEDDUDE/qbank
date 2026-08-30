@@ -40,7 +40,7 @@ is `/subjectstart`'s own read-only-survey-then-move step, not a pipeline job.
 | 22 | A | `raw/finals/2023-2024-Finals/Medicine/نموذج 4.pdf` | 1 file | done | 25 vision pages, 49/50 questions captured (Q30 has no screenshot anywhere in the file — a genuine capture gap, same kind as نموذج 3's). Matched against the existing 88: 42 matched an existing stem cleanly (models: list extended), 6 disagreed with an existing claim (4 extended an already-disputed entry with model 4's vote — MICRO-F-009, 054, 067, 073 — and 2 turned a previously clean entry into a fresh dispute — MICRO-F-049, 078), 7 were genuinely new (MICRO-F-089–095). `microbiology-finals.extract.md` now 95 Q, 94 claimed · 1 open, 9 disputed. **Not yet run through Job C or D.** |
 | 23 | A | `raw/finals/2023-2024-Finals/Medicine/نموذج ٦.pdf` | 1 file | done | 25 vision pages, 50/50 questions captured — no gap this time. Unlike every other model, entirely "Not yet answered" throughout, so every question is pure open tier: it can extend a `models:` list but contributes no claim (also fixed a gap from the نموذج 4 session — MICRO-F-022 should have gained model 4 then but never did; caught it here). 48 of 50 matched an existing stem cleanly, 2 were genuinely new (MICRO-F-096–097). `microbiology-finals.extract.md` now 97 Q, 94 claimed · 3 open, 9 disputed (unchanged — an unanswered capture can't create or resolve a dispute). All five Medicine models of this sitting (نموذج 1, 3, 4, ٥, ٦) are now extracted. **Not yet run through Job C or D.** |
 | 24 | A | `raw/finals/before2020-MICRO-FINAL/` — part 1 | ~65 of 132 files (125 jpg + 1 pdf + 4 png + 2 txt total) | done | Stage 0 on the whole folder found 132 raw files → 107 new/107 not-yet-ledgered after hash dedupe (25 exact duplicates), 114 vision pages + 1 text document. Split by subfolder rather than raw page count: part 1 = (root) + Micro + "Micro system !!" + Microbiology 1-4 + اهم ANB (47 files, 55 pages); part 2 = "dina 1st 2nd final" + "micro مهم جدا جدا جدا" (60 files, 60 pages), still todo. Part 1 turned out to hold **four unrelated old exams tangled together in one raw folder**, not one — see `microbiology-finals.extract.md`'s own header for the full breakdown (Exam A: Dr. Dina Bitar's Second Hour Exam Jan 2009, 60 MCQ + 3 essay, captured across 3 photo sets with one gap recovered from a 4th blank copy and 3 real answer disagreements between two of the marked copies; Exam B: a 52-item compiled short-answer key citing the same instructor's First Hour Exam, page 7 of 7 never photographed; Exam C: a 60-MCQ mixed mycology/virology/bacteriology final captured whole via one PDF, corroborated by a partial photo subset with zero new disagreements; Exam D: an 18-question virology final with a confusing dual hand-mark system, 2 genuine disagreements between the two mark systems). 194 new questions (MICRO-F-098–291), extract file now 291 total: 285 claimed · 6 open, 18 disputed, 6 needs-eye. **Not yet run through Job C or D.** |
-| 25 | A | `raw/finals/before2020-MICRO-FINAL/` — part 2 | remainder | doing | **Stopped early — Exam E and Exam F still unwritten, see below.** All 60 images read (40 "دينا 1st 2nd final" + 20 "micro مهم جدا جدا جدا"). This part turned out to contain more capture sources of part 1's own exams (extending Exam A to at least Q69 — MICRO-F-292–297 — resolving one dispute, MICRO-F-108, and creating two new ones, MICRO-F-138/141; strengthening the case that Exam C and Exam D are the same underlying exam, resolving one of Exam D's disputes, MICRO-F-277, and completing a cut-off question, MICRO-F-279) plus two entirely new exams fully transcribed: **Exam G** (old immunology final, MICRO-F-308–328, no disputes) and the Exam C/D additions (MICRO-F-298–307, one new dispute — MICRO-F-266). 37 new/updated entries this session, extract file now 328 total: 322 claimed · 6 open, 19 disputed, 8 needs-eye. Also found: several pages of an unrelated **Biochemistry** course final mixed into "دينا 1st 2nd final" — out of scope, not extracted, not deleted. **Left to do**: "micro مهم جدا جدا جدا" images 11–18 hold a general virology final ("Exam E", ~30-40 Q, heavy hand-annotation) and images 19–20 hold a hepatitis-focused block ("Exam F", ~6 Q) — both were read once this session but deliberately not transcribed from memory alone, since reconstructing exact stems/options without the images back in front of the model risks violating the "nothing invented" rule. A resuming session should re-open `courses/microbiology/.prep/finals/before2020-MICRO-FINAL/micro_________________{11..20}-*.jpg`, transcribe Exam E and F properly, then close out this row. **Not yet run through Job C or D.** |
+| 25 | A | `raw/finals/before2020-MICRO-FINAL/` — part 2 | remainder | done | All 60 images read (40 "دينا 1st 2nd final" + 20 "micro مهم جدا جدا جدا"). Turned out to contain more capture sources of part 1's own exams AND two entirely new exams. Part 1 cross-checks: Exam A extended to at least Q69 (MICRO-F-292–297; part 1 only ever saw up to Q60), one Exam A dispute resolved (MICRO-F-108) and two new ones surfaced (MICRO-F-138/141); Exam C and Exam D now look like the same underlying exam captured via different fragmentary photo sets, one Exam D dispute resolved (MICRO-F-277), one cut-off question completed (MICRO-F-279), one new Exam C dispute found (MICRO-F-266), plus 10 new questions shared between them (MICRO-F-298–307). New exams fully transcribed: **Exam G** (old immunology final, MICRO-F-308–328, no disputes), **Exam E** (old general virology final, its own numbering Q1-60, MICRO-F-329–384, 4 disputed/needs-eye from double-marked pages, one 4-item extended-matching block split into qa entries), **Exam F** (short hepatitis block, own numbering coincidentally also starting at 19, MICRO-F-385–390, 1 needs-eye). Also found: several pages of an unrelated **Biochemistry** course final mixed into "دينا 1st 2nd final" — out of scope, not extracted, not deleted. Extract file now 390 total: 384 claimed · 6 open, 20 disputed, 12 needs-eye. **Not yet run through Job C or D.** |
 | 26 | A | `raw/finals/Unknown-Final-Micro/` | 39 jpg | todo | |
 | 27 | A | `raw/finals/2020-2021-Final/` | 30 jpeg | todo | |
 | 28 | A | `raw/finals/before2020-resit-2017/` | 16 jpg | todo | |
@@ -109,9 +109,59 @@ finals · 357 canonical slide pages for Job B.
 
 ## public-health
 
+IDs use the `PH` prefix — `PH-Q-001`, `PH-M-001`, `PH-F-001`, `PH-P-001`. No
+`microlab` tab: this course has no lab material.
+
+**Zero official tier anywhere in this course.** Every Moodle capture sampled at
+sort time reads plain "Answer saved" — no printed key, no professor's answer
+sheet, in any sitting. The closest thing to a key is the PYQ bank's own
+convention of **capitalising the correct option's letter** (167 of ~211
+questions marked), which is student-compiled → `claimed`, not `official`. Plan
+every Job C row for full verification against `source.md`; do not budget for
+microbiology-style official-tier pass-through.
+
+**The PYQ bank re-serves other sittings, with answers.** Its section starting
+p11 is a verbatim reproduction of the **2015 midterm** (same Q1, "main insurance
+program scheme in Palestine"), answers marked; another section (p8) is labelled
+"Research Methodology — Midterm exam 2023". So a 2015 or 2023 midterm question
+that reaches Job C as `open` may still have a claimed answer sitting in the
+practice tab. Rows 5 and 12 depend on each other in that direction — whichever
+runs second should check the other's extract before ruling a question `open`.
+
+**PPTX has no renderer on this machine.** 5 of the 16 canonical decks are
+`.pptx`, LibreOffice is not installed, and `prep.py` classifies neither `.pptx`
+nor `.ppt` (they fall outside `IMAGE_EXTS`, `DOC_EXTS` and the pdf path). Slide
+*text* is free straight out of `ppt/slides/slideN.xml`; the 64 image-only slides
+must be read by pulling `ppt/media/*` directly rather than by rendering pages.
+Rows 3 and 4 carry this.
+
 | # | Job | Target | Size | Status | Note |
 |---|-----|--------|------|--------|------|
-| 1 | sort | `downloads/2nd Year/1st Semester/Public Health/` (97 files, unsurveyed) | — | todo | run `/subjectstart public-health` |
+| 1 | sort | `raw/` (4 tabs) + `slides/` | 97 files | done | surveyed and moved from `downloads/…/Public Health/`. 5 sittings + a bank + 1 worksheet set. `examPub.doc` filed under `raw/finals/2015-moodle-final/` — it is **not a capture** but a definitions/notes Word doc that embeds that same sitting's 9 screenshots; read it as document passthrough, don't count it as a page. Textbook (Tulchinsky, 886p) → `slides/_reference/`, project briefs → `slides/_admin/`; neither is Job B input. `slides/notes-raghad-hiba/` (8 PDFs, 103p, 7 of them 0% text) is a **secondary** scan set, not planned for ingestion — available for a gap-fill row later if `source.md` has holes (pharmacology row 4 precedent) |
+| 2 | B | `slides/Slides 2023-24/` decks 1–5 → `source.md` | 254p (222 text / 32 vision), all PDF | doing | Ch. 1–5: intro to health & public health, history, expanding the concept, determinants, epidemiology. Establishes `source.md` + `source.index.md` and the `{#chNN}` numbering the later B rows extend |
+| 3 | B | `slides/Slides 2023-24/` decks 6–10 | 206p (129 pptx slides + 77 PDF pages; ~32 vision) | todo | decks 6 and 7 are **pptx** — see the PPTX note above. Deck 6 (`study designs`, 65 slides) overlaps `slides/notes-raghad-hiba/study designs part  for student.pdf` (33p, has a text layer); use the deck as canonical, the notes PDF only to settle an unreadable slide |
+| 4 | B | `slides/Slides 2023-24/` decks 11–16 | 302p (132 PDF pages + 170 pptx slides; ~68 vision) | todo | largest B row and the most pptx-heavy (decks 14, 15, 16 are all pptx, 40 image-only slides between them). Split if it runs long — decks 11–13 and 14–16 are a clean seam |
+| 5 | A | `raw/practice/Public Health PYQ& bank question 2023@Fawzi,Ali,Malik.pdf` p1–32 | ~100 Q, **full text layer, no vision** | todo | Ali Shaban / Fawzi Shihadeh / Malik Suliman. ~211 stem-like numbered questions across 6+ sections in the whole file, numbering **restarts at 1** per section (p2, 8, 11, 37, 50, 63) — never key an ID off the printed number. Answer = the **capitalised option letter**; unmarked questions are genuinely `open`. Watch for decimal false-positives (`3.9`, `0.39`) in any digit-prefix scan — those are calculation answers, not question numbers. 3 pages carry embedded images; check every page for them (pharmacology row 2 precedent — one question existed *only* as an embedded image) |
+| 6 | A | same bank, p33–64 | ~110 Q, text layer | todo | later sections turn epidemiological: study-design match-the-following blocks (`Study design: Program Trial`) and 2×2-table calculations. Render match/calculation items as `qa`, don't invent mcq options |
+| 7 | A | `raw/practice/exercises/` | 7 vision pages | todo | epidemiology **calculation worksheets**, not MCQs — 2×2 tables, incidence/RR worked by hand. `qa`/`fact` form. The data table *is* the question, so expect a `flagged/` crop for nearly every one |
+| 8 | A | `raw/quizzes/2020-2021/` | 9 vision pages | todo | Moodle attempt, "Introduction to Public Health", `attempt=340347`. Answer saved → claimed. Photographed off a screen, some pages Arabic-UI |
+| 9 | C+D | quizzes verify **and** build `out/public-health-quizzes-01.md` | TBD, small | todo | combined per the pharmacology reasoning above — tab is small enough that a separate D session only pays to re-read what C just wrote |
+| 10 | A | `raw/midterm/2023/` — نموذج ١ + نموذج ٣ | 45 vision pages (27 + 18) | todo | reshuffled models of one 2023 sitting — merge by **stem text** across models, as microbiology finals نموذج 1/5 did. نموذج ١'s photos are shot off a laptop screen at an angle; expect right-edge truncation recoverable from the other models |
+| 11 | A | `raw/midterm/2023/` — نموذج ٢ | 34 vision pages | todo | largest of the three models (74 MB) |
+| 12 | A | `raw/midterm/2022/` + `raw/midterm/2015/Mid Exam P.H. 2015.pdf` | 8 vision pages + 15 free text pages | todo | two different things in one row because both are cheap. **2022 is a scanned paper exam**, not Moodle — printed "(1 point)"/"(2 point)" marks, pages numbered (4, 5, 7 seen at sort); 8 photos, so the paper is probably not fully captured — record the gap, don't infer missing questions. No key visible; **bold option letters appear inconsistently and are most likely typesetting, not an answer mark** — do not read them as claims without corroboration. 2015 is `Question N` / `Select one:` text, 50 Q, no marks → `open`, but its answers exist in the PYQ bank (see the header note) |
+| 13 | C+D | midterm verify **and** build `out/public-health-midterm-01.md` | ~150–180 Q | todo | combined — pharmacology row 9 did 153 Q this way |
+| 14 | C | practice verify — rows 5–7 | ~220 Q | todo | split from D: this is the tab where the bank's cross-sitting duplicates surface. Expect `external` on off-syllabus items and real `conflict`s where a student's capital letter contradicts the slides |
+| 15 | D | `out/public-health-practice-01.md` | ~220 Q | todo | |
+| 16 | A | `raw/finals/2023/` — نموذج 5 | 50 vision pages | todo | longest single model of the 2023 final. نموذج 2 was never captured |
+| 17 | A | `raw/finals/2023/` — نموذج 1 + نموذج 4 | 48 vision pages (25 + 23) | todo | نموذج 1 is a clean full-width capture — good anchor for stem-matching the angled ones |
+| 18 | A | `raw/finals/2023/` — نموذج 3 + `raw/finals/2020-2021/1/` | 46 vision pages (26 + 20) | todo | two sittings in one row purely to hit the page budget — keep them tagged as separate exams, don't merge their stems |
+| 19 | A | `raw/finals/2020-2021/2/` + `raw/finals/2015-moodle-final/` | 33 vision pages (22 + 11) | todo | folder `2/` is a Messenger photo set of the same 2020-2021 sitting as row 18's PDF — merge by stem across the two rows. **2015-moodle-final is a *final*, despite living next to the 2015 midterm at source** — Moodle header reads "Fall 2015/2016 … Final exam", nav grid shows ≥66 Q, so 11 pages is partial coverage. 13 PNGs → **11 unique** (2 exact-hash dup pairs, Stage 0 will drop them) and all are 960×720, **below `prep.py`'s 1000px floor** — they will not be upscaled; legible at sort. `examPub.doc` rides along here as document passthrough |
+| 20 | C | finals verify — rows 16–19 | TBD, large (~250 Q) | todo | split if it runs past ~250; four sittings' worth of cross-model overlap |
+| 21 | D | `out/public-health-finals-01.md` | TBD | todo | last row for this course |
+
+**Tab summary:** nothing extracted yet. ~280 Job A vision pages + 79 free
+text-layer pages across 4 tabs · 762 canonical slide pages for Job B (630 free /
+132 vision). Estimated ~650–700 questions total.
 
 ## molecular-genetics
 
@@ -135,6 +185,6 @@ finals · 357 canonical slide pages for Job B.
 
 *File counts for the still-unsurveyed courses above are raw counts under
 `downloads/`, not page counts — vision-page splitting only gets decided once
-`/subjectstart` surveys the real material. Microbiology and pharmacology are past
-that point and their `Size` columns are real page counts.
+`/subjectstart` surveys the real material. Microbiology, pharmacology and
+public-health are past that point and their `Size` columns are real page counts.
 `downloads/1st Year/` currently has no files in either semester folder.*
