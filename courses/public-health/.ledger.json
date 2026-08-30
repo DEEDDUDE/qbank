@@ -1,0 +1,20 @@
+{
+  "batches": [
+    {
+      "id": "quizzes-01",
+      "built": "2026-08-31",
+      "questions": 12,
+      "files": [
+        { "name": "raw/quizzes/2020-2021/received_172116801718401.jpeg", "sha1": "f23916e6d6463229dee8b55de523935c1e918e8e", "pages": 1 },
+        { "name": "raw/quizzes/2020-2021/received_249585190401680.jpeg", "sha1": "08e2b7fc001900411255c52f84486ff744282671", "pages": 1 },
+        { "name": "raw/quizzes/2020-2021/received_364171735361055.jpeg", "sha1": "b24974e3cfd8c3f4ff8214f14746c168d4adf8d4", "pages": 1 },
+        { "name": "raw/quizzes/2020-2021/received_434097934696017.jpeg", "sha1": "ffb7fedd0deed154ac5bac4d715becafc33955fc", "pages": 1 },
+        { "name": "raw/quizzes/2020-2021/received_541842906872563.jpeg", "sha1": "252c202572b1e19014ac7dae6f237a0cb827e089", "pages": 1 },
+        { "name": "raw/quizzes/2020-2021/received_630060967961347.jpeg", "sha1": "87754acaf7140634038617bc930e188918c200ba", "pages": 1 },
+        { "name": "raw/quizzes/2020-2021/received_902061567185806.jpeg", "sha1": "e98bd650aad19adf06cb90d6c0fd036eda0f1ff4", "pages": 1 },
+        { "name": "raw/quizzes/2020-2021/received_986560318555265.jpeg", "sha1": "b3673a0d2464586c2cb5ea23ca5978c42ef982eb", "pages": 1 },
+        { "name": "raw/quizzes/2020-2021/received_1461694087541660.jpeg", "sha1": "e42ce25eedc260dd397779d26d4cd67a81d0ced9", "pages": 1 }
+      ]
+    }
+  ]
+}
