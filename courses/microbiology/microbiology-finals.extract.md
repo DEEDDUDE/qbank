@@ -1,7 +1,7 @@
 ---
 course: microbiology
 tab: finals
-scope: six sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
+scope: seven sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
   duplicate models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured),
   MICRO-F-001 through 097. (B) raw/finals/before2020-MICRO-FINAL/ — seven-plus
   DISTINCT, unrelated old final exams found tangled together across two raw
@@ -15,9 +15,14 @@ scope: six sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
   answer-key document for a 2017 resit ("2017 اكمال"), MICRO-F-465 through
   538. (F) raw/finals/before2020-resit-ekmal/ — a second, blank/unmarked
   capture of the exact same document as (E), contributing no new IDs (see
-  its own note in the status section below). Each entry in sub-collections
-  B, C, D and E carries a `source:` line naming which exam it came from,
-  since the `models:` mechanism does not apply across unrelated sittings.
+  its own note in the status section below). (G) raw/finals/before2020-
+  2018-course/ — "Exam K", a hand-circled printed final in three parts
+  (MCQ, True/False, Match), MICRO-F-539 through 627, plus "Exam L", four
+  fragmentary questions from an unidentified second document glimpsed only
+  in the background of two of Exam K's own photos, MICRO-F-628 through
+  631. Each entry in sub-collections B, C, D, E and G carries a `source:`
+  line naming which exam it came from, since the `models:` mechanism does
+  not apply across unrelated sittings.
 status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and نموذج ٥ (complete, 50/50) done.
   نموذج 3 done, but only 44/50 questions of it: Q35, 36, 45, 46, 47, 48 have no
   screenshot anywhere in the PDF export at all (not even a cut-off header for
@@ -258,14 +263,44 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
   in the entries below since nothing here originates from it; the only
   trace is MICRO-F-538's corrected note.
 
+  Sub-collection G (raw/finals/before2020-2018-course/, 12 phone photos)
+  turned out to hold a full three-part printed final exam ("Exam K": Part
+  One 50 MCQs, Part Two 20 True/False, Part Three 20 matching items across
+  four sub-blocks) hand-marked by a student with circles for their chosen
+  answer and separate checkmark/x annotations reasoning through individual
+  sub-statements — the circle is read as the claim throughout, the
+  checkmarks/x's are noted only where they inform an "EXCEPT"/"all of the
+  above" style question. All 90 of Exam K's own items are present, no
+  numbering gaps, though Part One's Q13 turned out to be an exact
+  cross-sitting match to MICRO-F-469 (Exam J, Q5) and was corroborated in
+  place rather than re-minted. MICRO-F-553 near-misses MICRO-F-290/521
+  (same stem, materially different option set — kept separate). Two items
+  carry a genuine unresolved double-mark (two options both circled) and are
+  needs-eye rather than picked between: MICRO-F-557 (Part One Q20) and
+  MICRO-F-617 (Part Three, Match Q10). This exam bank overlaps with the
+  established pool far less than sittings E/F/I did — only the one exact
+  match and one near-miss surfaced despite a full cross-check against all
+  538 prior entries.
+
+  Two of Exam K's own photos also show, blurred and rotated in the
+  background, a few legible questions from a completely different,
+  unidentified document — Kirby-Bauer zone-of-inhibition interpretation,
+  acid-fast stain color, a Gram-stain-except question, and the cut-off tail
+  of a fourth question about a UTI causative agent. This "Exam L" fragment
+  is real exam content, not noise, so it is transcribed (MICRO-F-628-631)
+  rather than discarded, but it never appears as any photo's actual sharp
+  subject and no more of it surfaces anywhere else in the batch — all four
+  entries are tier open (no answer marks ever visible), the last one also
+  needs-eye (stem cut off before any options appear).
+
   Every count below is computed from the entries that follow, per CLAUDE.md
   hard rule 6.
-questions: 538
-tiers: claimed 521 | open 17
-forms: mcq 484 | qa 54
+questions: 631
+tiers: claimed 608 | open 23
+forms: mcq 577 | qa 54
 disputed: 22
-needs-eye: 18
-next-id: MICRO-F-539
+needs-eye: 21
+next-id: MICRO-F-632
 ---
 
 ### MICRO-F-001
@@ -7226,3 +7261,1246 @@ a) It is cheaper than E.coli polymerase
 b) Taq polymerase is stable at high temperatures (95 C)
 c) Use of Taq polymerase enables lower temperature to be used
 d) Use of Taq polymerase results in fewer PCR cycles
+
+### MICRO-F-539
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q1
+Which one of the following is the immunogen in vaccine against
+haemophilus influenzae type b?
+a) Endotoxin
+b) Exotoxin
+c) Toxoid
+d) Capsular polysaccharide
+
+### MICRO-F-540
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q2
+Passive immunity is used to prevent or to treat disease caused by which
+one of the following sets of bacteria
+a) Mycobacterium tuberculosis & Corynebacterium diphtheriae
+b) Streptococcus pneumoniae & Hemophilus influenzae
+c) Clostridium tetani & clostridium botulinum
+d) Bordetella pertussis & streptococcus pneumoniae
+
+### MICRO-F-541
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q3
+note: Options a-c are individually checkmarked by the student before (d)
+  is circled, consistent with (d) being the composite answer.
+Live viral vaccines are preferable to killed vaccines
+a) Induce a higher antibody
+b) Induce a broader range of antibodies IgA and IgG
+c) They activate cytotoxic T cells
+d) All statements are true
+
+### MICRO-F-542
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q4
+BCG vaccine is used to prevent
+a) Hepatitis B
+b) Tuberculosis
+c) Tetanus
+d) Hepatitis A
+
+### MICRO-F-543
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q5
+Induction of passive-active immunity is useful in the prevention of which
+one of the following sets of viral diseases?
+a) Mumps and Measles
+b) Rubella and Measles
+c) Hepatitis B and Rabies
+d) Influenza and Varicella
+
+### MICRO-F-544
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q6
+note: Options a-b are individually checkmarked before (d) is circled.
+Use of antibiotic combinations is useful
+a) To prevent emergence of resistant strains
+b) To achieve synergistic effect
+c) To treat serious infections before the identity of the organism is
+   known
+d) All of the statements are true
+
+### MICRO-F-545
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q7
+One of the following antibiotics is an effective alternative in
+penicillin allergic patients
+a) Clarithromycin
+b) Tetracycline
+c) Gentamicin
+d) Cephalosporin
+
+### MICRO-F-546
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q8
+All of the following regarding pasteurization are true EXCEPT
+a) Flash method is heating milk to 72°C for 15 seconds
+b) It is sufficient to kill listeria and brucella
+c) It consists of heating the milk to 62°C for 30 minutes
+d) Consists of germ-free sterilization of the milk
+
+### MICRO-F-547
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q9
+To which one of the following groups would it be acceptable to give a
+live attenuated viral vaccine
+a) Children under 8 years of age
+b) Pregnant woman
+c) Patients treated with radiotherapy
+d) Patients with immunodeficiency
+
+### MICRO-F-548
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q10
+The main action of Acyclovir antiviral drug is on:
+a) Inhibiting un-coating
+b) Inhibiting viral protein synthesis
+c) Inhibiting DNA polymerase of herpesviruses
+d) Inhibiting viral reverse transcriptase enzyme
+
+### MICRO-F-549
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q11
+All of the following are enveloped viruses EXCEPT
+a) Hepatitis B
+b) Hepatitis A
+c) HIV
+d) Herpes simplex 1
+
+### MICRO-F-550
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q12
+The portal of entry to all of the following is the respiratory tract
+EXCEPT
+a) Influenza virus
+b) Measles
+c) Polio virus
+d) Rhinovirus
+
+### MICRO-F-551
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q14
+Which of the following viruses that causes human disease has an animal
+reservoir?
+a) Varicella Zoster virus
+b) Rabies virus
+c) Hepatitis C
+d) Small pox virus
+
+### MICRO-F-552
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q15
+One of the most common sexually transmitted diseases that may lead to
+carcinoma of cervix:
+a) Hepatitis B
+b) Papillomavirus
+c) Cytomegalovirus
+d) Herpes simplex virus
+
+### MICRO-F-553
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q16
+note: Shares its stem with MICRO-F-290 (Exam D) and MICRO-F-521 (Exam J)
+  but a materially different option set (HTLV / "all are correct" here vs
+  a plain Hepatitis B/Influenza/VZV/Hepatitis A list there) — kept
+  separate as a near-miss.
+Which of the following viruses usually enters the body via blood?
+a) Hepatitis B virus
+b) Hepatitis C
+c) Human T cell Leukemia virus (HTLV)
+d) All are correct
+
+### MICRO-F-554
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q17
+Reverse transcriptase carried by:
+a) Togaviruses
+b) Flaviviruses
+c) Retroviruses
+d) Reoviruses
+
+### MICRO-F-555
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q18
+A naked virus can enter the host cell via:
+a) A Type Three Secretion System
+b) Receptor mediated endocytosis
+c) Membrane fusion
+d) B and C
+
+### MICRO-F-556
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q19
+Viruses are characterized by the following except:
+a) May have DNA, RNA, Single, or Double-stranded as a genetic material.
+b) All are obligate intracellular.
+c) All have a protein capsid and envelope
+d) new virions are released during cell lysis or budding
+e) All are true.
+
+### MICRO-F-557
+tier: open
+form: mcq
+needs-eye: true
+source: Exam K, Part One Q20
+note: Both (a) "Viral binding and fusion" and (b) "Reverse transcription"
+  appear circled in the source — a genuine double-mark, not picked
+  between.
+HIV surface glycoproteins are involved in which of the following steps in
+virus life cycle?
+a) Viral binding and fusion.
+b) Reverse transcription
+c) Integration into genomic DNA
+d) Synthesis of new viral particles & poly-protein cleavage through
+   viral proteases.
+
+### MICRO-F-558
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q21
+In order for a virus to replicate
+a) The capsid must enter the host cell cytoplasm
+b) The host cell must be undergoing mitosis
+c) The genome must be released in the cytoplasm
+d) The host cell must lack a cell membrane
+
+### MICRO-F-559
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q22
+Which of the following statements is not true of viruses?
+a) Viruses have been successfully grown in pure cultures in test tubes
+b) All viruses are obligatory intracellular parasites
+c) All viruses have either DNA or RNA as their genetic material
+d) Viruses probably arose from small fragments of cellular chromosomes
+
+### MICRO-F-560
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q23
+Rabies reaches the central nervous system by
+a) Hematogenous distribution
+b) Neurotropic spread
+c) Entry into brain within macrophages
+d) A and B
+
+### MICRO-F-561
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q24
+Amantadine is an antiviral drug that acts by
+a) Inhibiting uncoating
+b) Inhibiting the release of the virus
+c) Inhibiting attachment
+d) Inhibiting nucleic acid synthesis
+
+### MICRO-F-562
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q25
+A patient with a non-healing skin lesion has that lesion biopsied to
+determine its cause. The pathology lab reports back that the lesion has
+the characteristics of a granuloma. Which of the following is most
+likely to be true of the causative agent?
+a) It has pili
+b) Is a superantigen
+c) Is intracellular
+d) It has lipopolysaccharide
+
+### MICRO-F-563
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q26
+Mycobacterium bovis is transmitted by
+a) Ingestion of unpasteurized milk products
+b) Fecal-oral route
+c) Insect bites
+d) Vertical transmission
+
+### MICRO-F-564
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q27
+All of the following are protease exotoxins EXCEPT
+a) Tetanus toxin
+b) Diphtheria toxin
+c) Botulinum toxin
+d) Lethal factor of anthrax toxin
+
+### MICRO-F-565
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q28
+A 5-year old boy is brought to your pediatric clinic. The child is
+afebrile, but weak and exhausted from a week of paroxysmal coughing with
+inspiratory whoops. The parents admitted to objections to childhood
+vaccinations. A blood sample from the child reveals a lymphocytosis of
+44,000/mm3. Production of lymphocytosis, paroxysmal cough are due to
+which attribute of the causative organism?
+a) Pertussis toxin
+b) Beta hemolysin
+c) Anaerobic growth
+d) Motility
+
+### MICRO-F-566
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q29
+The clinical laboratory reports the presence of O157:H7 strains of E.
+coli in the bloody stools of 6 children ages 3-5 who attended a local
+zoo. These young children would be at an increased risk for developing
+a) Infant botulism
+b) Rice water stools
+c) Hemolytic uremic syndrome
+d) Renal stones
+
+### MICRO-F-567
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q30
+note: Circled (a) is the classic transmission route for botulinum toxin
+  (acetylcholine release), not the glycine-blocking toxin the stem
+  describes (tetanus, transmitted by wound, option c) — transcribed as
+  marked, not corrected.
+What is the typical means of transmission of a toxin that blocks the
+release of inhibitory neurotransmitter glycine?
+a) Eating home-canned food
+b) Fecal-oral, travel to foreign country
+c) Wound
+d) Infant given honey during first year of life
+
+### MICRO-F-568
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q31
+Which genetic material is found in pathogenic Corynebacterium diphtheriae
+but not in nonpathogenic normal flora diphtheroids?
+a) An F factor
+b) An episome
+c) An integrated temperate phage
+d) A pathogenicity island
+
+### MICRO-F-569
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q32
+note: A stray circle-like mark also touches option (b), but the
+  checkmark and the fuller circle both sit on (c) — read as the claim.
+Which of the following is a superantigen?
+a) Clostridium perfringes alpha toxin
+b) Bacillus anthracis edema factor
+c) Toxic shock syndrome toxin
+d) Pertussis toxin
+
+### MICRO-F-570
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: Exam K, Part One Q33
+Bacterial Virulence:
+a) is measured by the number of organisms required to cause disease.
+b) Organisms with a higher LD50 are more virulent than those with a
+   lower LD50.
+c) All bacterial cells have similar virulence rate of infection.
+d) virulence rate is affected by several factors that help in bacterial
+   adherence and host resistance.
+e) A and D.
+
+### MICRO-F-571
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q34
+Different Bacterial cells cause disease by
+a) Production of endotoxins are polypeptides released by the cell
+b) Expression of exotoxins are polypeptides released by the cell
+c) invasion of host cells and Lipopolysaccharides (LPS), which form an
+   integral part of the cell walls
+d) All of the above.
+
+### MICRO-F-572
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q35
+Which of the following enzymes/factors is not involved in bacterial
+invasive process?
+a) Collagenase.
+b) Coagulase.
+c) Curli surface protein
+d) Protein A
+
+### MICRO-F-573
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q36
+note: The source photo has this page's option text partly overlapping a
+  page rotated behind it — (b) and (c)'s wording is a best-effort
+  reconstruction, though the stem and the circled letter (b) are clear.
+Which of the following mechanism(s)/factors is/are considered
+antiphagocytic invasive factors?
+a) Surface protein A of S. aureus blocks IgG antibody activity
+b) All bacterial cells have capsular M protein structure that prevents
+   them from avoiding phagocytosis
+c) Some bacterial cells have M protein structure that prevents
+   opsonization by complement
+d) A and C.
+
+### MICRO-F-574
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q37
+Which of the following sentence(s) is/are not correct related to the
+comparison between exotoxins and endotoxins?
+a) Both are produced by gram-positive and gram-negative bacteria
+b) Endotoxins are encoded by genes on plasmid
+c) Exotoxins are more fatal than endotoxins.
+d) Both are composed from Lipopolysaccharide
+
+### MICRO-F-575
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q38
+Which of the following statements best describes A-B exotoxin structure?
+a) A subunit is an active enzyme
+b) B subunit is a toxic active enzyme.
+c) A subunit can inactivate or hyperactivate host proteins.
+d) B subunit is a protein that binds host cells receptors.
+
+### MICRO-F-576
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q39
+The following Gram-positive bacteria exotoxins are neurotoxins:
+a) Tetanus toxin
+b) Diphtheria toxin
+c) Botulinum toxin
+d) A and C.
+
+### MICRO-F-577
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q40
+Bacterial superantigens are characterized by:
+a) Facilitate binding of the B-cell receptor to the MHC II receptor
+   without the need for specific antigen recognition
+b) Facilitate binding of the T-cell receptor to the MHC II receptor
+   without the need for specific antigen recognition
+c) Cross-link the B-cell receptor to the antigen, stabilizing the
+   interaction and resulting in a longer and stronger immune response
+d) Cross-link the T-cell receptor to the antigen, stabilizing the
+   interaction and resulting in a longer and stronger immune response
+
+### MICRO-F-578
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q41
+note: Option (d) reads "A and D" in the source, referring to itself —
+  most likely a misread of a similarly-shaped letter (probably "A and
+  B") rather than a genuine self-referencing option, but transcribed as
+  captured rather than corrected.
+Amphotericin B and Azole are fungi drugs that specifically affecting:
+a) β-glucan synthesis.
+b) Ergosterol.
+c) Fungi toxin production.
+d) A and D
+
+### MICRO-F-579
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q42
+Which of the following is not related to fungi thermal dimorphic
+phenomena?
+a) Fungi are able to form different structures at different
+   temperatures.
+b) Pathogenic filamentous fungi form yeast type of growth once infect
+   human body.
+c) Coccidioides and Histoplasma fungi have this type of phenomena.
+d) None of the above.
+
+### MICRO-F-580
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part One Q43
+Fungi mode of reproduction is initiated by production of spores, which
+of the following sentences is not correct?
+a) Some fungi have sexual and others could have asexual spores.
+b) Ascospores are a type of sexual spores.
+c) Chlamydospores are a type of sexual spores.
+d) Sporangium is a fungi structure that contains asexual spores.
+
+### MICRO-F-581
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q44
+Comparing blood protozoan parasites with intestinal protozoan parasite,
+which of the following sentence(s) is correct?
+a) Blood parasites include more pathogenic fatal parasitic species.
+b) Both groups have similar stages (trophozoite and cysts) in their
+   life cycle.
+c) Both groups need a vector to be transmitted.
+d) Anopheles mosquito (female) is able to transmit many blood protozoan
+   parasites.
+
+### MICRO-F-582
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q45
+Which of the following intestinal parasites is of most importance in
+case of immunodeficient individuals?
+a) Entamoeba histolytica.
+b) Cryptosporidium hominis.
+c) Giardia lamblia.
+d) Trichomonas.
+
+### MICRO-F-583
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q46
+Which of the following parasites have an intracellular stage during its
+life cycle?
+a) Leishmania
+b) Entamoeba histolytica
+c) Plasmodium
+d) A and C.
+
+### MICRO-F-584
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part One Q47
+Toxoplasma gondii is a parasite that can cause infection in human being
+through which of the following rout(s)?
+a) Transplacental invasion / from mother to embryo.
+b) Blood sucking / feeding insects can transmit the infective stage.
+c) Eating meat.
+d) All of the above.
+
+### MICRO-F-585
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q48
+Which of the following parasites are endemic in Palestine?
+a) Plasmodium.
+b) Trypansosoma.
+c) Echinococcus.
+d) There is no parasites in Palestine!
+
+### MICRO-F-586
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam K, Part One Q49
+note: Same underlying vignette as MICRO-F-509 (Exam J, Q51), different
+  option order, same answer — corroborates rather than disputes, kept as
+  a separate entry since it belongs to a different exam sitting.
+After extraction of a wisdom tooth, an 18-year-old male student was
+diagnosed as having subacute bacterial endocarditis. He has a congential
+heart disease that has been under control. Which of the following is
+the most likely organism causing his infection?
+a) Staphylococcus aureus
+b) Staphylococcus epidermidis
+c) Streptococcus pneumoniae
+d) Streptococcus viridans
+
+### MICRO-F-587
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part One Q50
+What is the structure that is found in Gram negative but not in
+Gram-positive bacteria?
+a) Endospore
+b) Outer membrane
+c) Capsule
+d) Cell wall
+
+### MICRO-F-588
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Two (True/False) Q1
+Killed vaccines are safer to give to immunocompromised patients than are
+live attenuated vaccines.
+a) True
+b) False
+
+### MICRO-F-589
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q2
+The shape of virus particles is determined by the arrangement of the
+repeating subunits of lipids that form viral coat (capsid).
+a) True
+b) False
+
+### MICRO-F-590
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q3
+Prions are much more resistant to inactivation by ultraviolet light and
+heat than are viruses.
+a) True
+b) False
+
+### MICRO-F-591
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q4
+X-rays radiations have higher energy and penetrating power against
+bacterial cells, and for this it is used in sterilizing operation rooms
+once they are not in use.
+a) True
+b) False
+
+### MICRO-F-592
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Two (True/False) Q5
+Heat sensitive solutions are usually sterilized by exposure to ethylene
+oxide gas.
+a) True
+b) False
+
+### MICRO-F-593
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q6
+Most RNA virus undergo their entire replicative cycle in the cytoplasm.
+a) True
+b) False
+
+### MICRO-F-594
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Two (True/False) Q7
+The latent infections that are frequently associated with hepatitis B &
+C are medically important examples.
+a) True
+b) False
+
+### MICRO-F-595
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q8
+The brain is often the main site of slow virus infections.
+a) True
+b) False
+
+### MICRO-F-596
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Two (True/False) Q9
+note: "Fc" is circled in the source, apparently flagging that term
+  specifically.
+Protien A of Staphylococcus aureus considered to be a virulence factor
+because it binds to Fc portion of IgE molecules and neutralize its
+effect.
+a) True
+b) False
+
+### MICRO-F-597
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q10
+Tetanus toxin causes spastic paralysis.
+a) True
+b) False
+
+### MICRO-F-598
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q11
+Palivizumab is a monoclonal antibody based antiviral drug that blocks
+binding of viral fusion protein to receptor on respiratory mucosal
+cell.
+a) True
+b) False
+
+### MICRO-F-599
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Two (True/False) Q12
+Causing host cell death is the only pathogenic effect due to viral
+infection.
+a) True
+b) False
+
+### MICRO-F-600
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Two (True/False) Q13
+Herpes simplex virus type 1 causing an infcetion in the genital tract.
+a) True
+b) False
+
+### MICRO-F-601
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q14
+note: A stray pen mark partly obscures this line in the source.
+Cytomegalovirus has a transplacental mode of transmission.
+a) True
+b) False
+
+### MICRO-F-602
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q15
+Inhalation into lungs is the most fungi entry rout to human being except
+Coccidioides that considered a normal flora on the skin.
+a) True
+b) False
+
+### MICRO-F-603
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q16
+Viruses can evade the immune response by synthesis of human antibody
+neutralizing agents.
+a) True
+b) False
+
+### MICRO-F-604
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q17
+Sever infection cause by Entamoeba histolytica can cause
+extra-intestinal complications that reaches to liver and lungs.
+a) True
+b) False
+
+### MICRO-F-605
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q18
+Most malarial death cases are due to Plasmodium falciparum species.
+a) True
+b) False
+
+### MICRO-F-606
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q19
+Leishmaniasis has two clinical forms that cause cutaneous and visceral
+diseases.
+a) True
+b) False
+
+### MICRO-F-607
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Two (True/False) Q20
+Candida antigens is suitable for detection of a normal cell-mediated
+immune response in human being.
+a) True
+b) False
+
+### MICRO-F-608
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part Three (Match) Q1
+note: Part of a shared 3-item option list matched against Q1-5.
+Administration of vaccine against measles
+a) Active immunity
+b) Passive immunity
+c) Passive-Active immunity
+
+### MICRO-F-609
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Three (Match) Q2
+note: Part of the same shared option list as MICRO-F-608.
+Administration of performed antibodies
+a) Active immunity
+b) Passive immunity
+c) Passive-Active immunity
+
+### MICRO-F-610
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Three (Match) Q3
+note: Part of the same shared option list as MICRO-F-608.
+Administration of vaccine against streptococcus pneumoniae
+a) Active immunity
+b) Passive immunity
+c) Passive-Active immunity
+
+### MICRO-F-611
+tier: claimed
+form: mcq
+type: multi
+claimed: a, b
+source: Exam K, Part Three (Match) Q4
+note: Part of the same shared option list as MICRO-F-608. Both (a) and
+  (b) are marked for this item.
+The toxoid and the antitoxin should be given in different sites in the
+body
+a) Active immunity
+b) Passive immunity
+c) Passive-Active immunity
+
+### MICRO-F-612
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Three (Match) Q5
+note: Part of the same shared option list as MICRO-F-608.
+Diphtheria antitoxin
+a) Active immunity
+b) Passive immunity
+c) Passive-Active immunity
+
+### MICRO-F-613
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part Three (Match) Q6
+note: Part of a shared 4-item option list matched against Q6-9.
+Release of large amounts of interleukins which leads to produce of
+signs and symptoms of toxic shock.
+a) Exotoxins
+b) Endotoxins
+c) Both A & B
+d) Neither A nor B
+
+### MICRO-F-614
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Three (Match) Q7
+note: Part of the same shared option list as MICRO-F-613.
+Induction increase in the amount of cyclic AMP within the enterocyte,
+resulting in water diarrhea.
+a) Exotoxins
+b) Endotoxins
+c) Both A & B
+d) Neither A nor B
+
+### MICRO-F-615
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Three (Match) Q8
+note: Part of the same shared option list as MICRO-F-613.
+Are releases from the surface of gram-negative bacteria
+a) Exotoxins
+b) Endotoxins
+c) Both A & B
+d) Neither A nor B
+
+### MICRO-F-616
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Three (Match) Q9
+note: Part of the same shared option list as MICRO-F-613.
+Are among the most toxic substances known
+a) Exotoxins
+b) Endotoxins
+c) Both A & B
+d) Neither A nor B
+
+### MICRO-F-617
+tier: open
+form: mcq
+needs-eye: true
+source: Exam K, Part Three (Match) Q10
+note: Part of a shared 6-item option list matched against Q10-15. Two
+  different options both carry a circle-like mark for this item — a
+  genuine double-mark, not picked between.
+Plasmodium.
+a) Coenocytic
+b) Uro-genital
+c) Blastospores
+d) Dogs as a definitive host.
+e) Ergotism
+f) Anemia
+
+### MICRO-F-618
+tier: claimed
+form: mcq
+type: single
+claimed: f
+source: Exam K, Part Three (Match) Q11
+note: Part of the same shared option list as MICRO-F-617.
+Trichomonas.
+a) Coenocytic
+b) Uro-genital
+c) Blastospores
+d) Dogs as a definitive host.
+e) Ergotism
+f) Anemia
+
+### MICRO-F-619
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: Exam K, Part Three (Match) Q12
+note: Part of the same shared option list as MICRO-F-617.
+Echinococcus
+a) Coenocytic
+b) Uro-genital
+c) Blastospores
+d) Dogs as a definitive host.
+e) Ergotism
+f) Anemia
+
+### MICRO-F-620
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Three (Match) Q13
+note: Part of the same shared option list as MICRO-F-617.
+Nonseptate hyphae
+a) Coenocytic
+b) Uro-genital
+c) Blastospores
+d) Dogs as a definitive host.
+e) Ergotism
+f) Anemia
+
+### MICRO-F-621
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Three (Match) Q14
+note: Part of the same shared option list as MICRO-F-617.
+Claviceps purpurea (grain mold).
+a) Coenocytic
+b) Uro-genital
+c) Blastospores
+d) Dogs as a definitive host.
+e) Ergotism
+f) Anemia
+
+### MICRO-F-622
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part Three (Match) Q15
+note: Part of the same shared option list as MICRO-F-617.
+Candida albicans.
+a) Coenocytic
+b) Uro-genital
+c) Blastospores
+d) Dogs as a definitive host.
+e) Ergotism
+f) Anemia
+
+### MICRO-F-623
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam K, Part Three (Match) Q16
+note: Part of a shared 10-item option list matched against Q16-20.
+Very sensitive to beta lactamases
+a) Vancomycin
+b) First generation cephalosporins
+c) Fourth generation cephalosporins
+d) Amikacin
+e) Rifampin
+f) Clindamycin
+g) Sulfonamides
+h) D + F
+i) D + G
+j) B + C
+
+### MICRO-F-624
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam K, Part Three (Match) Q17
+note: Part of the same shared option list as MICRO-F-623.
+Used for prophylaxis in close contacts of patients with meningitis
+a) Vancomycin
+b) First generation cephalosporins
+c) Fourth generation cephalosporins
+d) Amikacin
+e) Rifampin
+f) Clindamycin
+g) Sulfonamides
+h) D + F
+i) D + G
+j) B + C
+
+### MICRO-F-625
+tier: claimed
+form: mcq
+type: single
+claimed: h
+source: Exam K, Part Three (Match) Q18
+note: Part of the same shared option list as MICRO-F-623.
+Inhibition of bacterial protein synthesis
+a) Vancomycin
+b) First generation cephalosporins
+c) Fourth generation cephalosporins
+d) Amikacin
+e) Rifampin
+f) Clindamycin
+g) Sulfonamides
+h) D + F
+i) D + G
+j) B + C
+
+### MICRO-F-626
+tier: claimed
+form: mcq
+type: single
+claimed: g
+source: Exam K, Part Three (Match) Q19
+note: Part of the same shared option list as MICRO-F-623.
+Mode of action is to block the synthesis of tetrahydrofolic acid
+a) Vancomycin
+b) First generation cephalosporins
+c) Fourth generation cephalosporins
+d) Amikacin
+e) Rifampin
+f) Clindamycin
+g) Sulfonamides
+h) D + F
+i) D + G
+j) B + C
+
+### MICRO-F-627
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam K, Part Three (Match) Q20
+note: Part of the same shared option list as MICRO-F-623.
+Very active against gram negative bacteria & resistant to
+penicillinases
+a) Vancomycin
+b) First generation cephalosporins
+c) Fourth generation cephalosporins
+d) Amikacin
+e) Rifampin
+f) Clindamycin
+g) Sulfonamides
+h) D + F
+i) D + G
+j) B + C
+
+### MICRO-F-628
+tier: open
+form: mcq
+source: Exam L, Q7
+note: A second, unidentified exam glimpsed only as a rotated page
+  visible behind/beneath Exam K's own pages in two of this raw folder's
+  photos — never itself the sharp foreground subject of a shot, and
+  never seen with any answer mark. No stem/option before or after this
+  fragment is legible anywhere in the batch.
+In the Kirby-Bauer method, a smaller zone of inhibition means that the
+pathogen
+a) More susceptible to the antibiotic
+b) Less susceptible to the antibiotic
+c) More resistant to the antibiotic
+d) Less resistant to the antibiotic
+
+### MICRO-F-629
+tier: open
+form: mcq
+source: Exam L, Q8
+note: Same unidentified background exam as MICRO-F-628.
+What is the color of an acid-fast organism will be by Acid-fast
+staining?
+a) Red
+b) Colorless.
+c) Blue
+d) None of the above.
+
+### MICRO-F-630
+tier: open
+form: mcq
+source: Exam L, Q9
+note: Same unidentified background exam as MICRO-F-628.
+Each of the following statements concerning the Gram stain is correct
+except:
+a) Escherichia coli stains pink because it has a thin peptidoglycan
+   layer
+b) Streptococcus pyogenes stains blue because it has a thick
+   peptidoglycan layer
+c) Mycoplasma pneumoniae is not visible in the Gram's stain because it
+   does have a waxy coat
+d) Gram positive bacteria phagocytosed by polymorphs will appear as
+   gram negative.
+
+### MICRO-F-631
+tier: open
+form: mcq
+needs-eye: true
+source: Exam L, Q10
+note: Same unidentified background exam as MICRO-F-628. Only the tail of
+  the stem survives ("...causative agent for urinary tract?") — the rest
+  of the stem and every option are cut off by the photo's frame.
+[stem mostly not captured — page cut off]
+...causative agent for urinary tract?
+[options not captured]
