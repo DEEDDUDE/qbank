@@ -1,14 +1,18 @@
 ---
 course: microbiology
 tab: finals
-scope: two sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5 duplicate
-  models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured), MICRO-F-001
-  through 097. (B) raw/finals/before2020-MICRO-FINAL/ part 1 — four DISTINCT,
-  unrelated old final exams found mixed together in one raw folder (different
-  years/instructors, no reshuffle relationship to each other or to sub-collection
-  A), MICRO-F-098 onward. Each entry in sub-collection B carries a `source:` line
-  naming which of the four exams it came from, since the `models:` mechanism does
-  not apply across unrelated sittings.
+scope: three sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
+  duplicate models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured),
+  MICRO-F-001 through 097. (B) raw/finals/before2020-MICRO-FINAL/ — seven-plus
+  DISTINCT, unrelated old final exams found tangled together across two raw
+  subfolders (different years/instructors, no reshuffle relationship to each
+  other or to sub-collection A), MICRO-F-098 through 390. (C)
+  raw/finals/Unknown-Final-Micro/ — one small old microbiology final
+  (MICRO-F-391 onward) sparsely captured among a much larger, unrelated
+  Biochemistry exam that shares the same raw folder. Each entry in
+  sub-collections B and C carries a `source:` line naming which exam it came
+  from, since the `models:` mechanism does not apply across unrelated
+  sittings.
 status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and نموذج ٥ (complete, 50/50) done.
   نموذج 3 done, but only 44/50 questions of it: Q35, 36, 45, 46, 47, 48 have no
   screenshot anywhere in the PDF export at all (not even a cut-off header for
@@ -148,17 +152,37 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
   (still sitting in `raw/finals/before2020-MICRO-FINAL/دينا 1st 2nd final/`
   for anyone who later wants it for the right course).
 
-  Sub-collections A and B are unrelated exam pools from different years; no
-  `models:` cross-matching was attempted between them, and the one coincidental
-  stem overlap found (Exam C vs MICRO-F-003) was deliberately left unmerged for
-  the same reason. Every count below is computed from the entries that follow,
-  per CLAUDE.md hard rule 6.
-questions: 390
-tiers: claimed 384 | open 6
-forms: mcq 336 | qa 54
+  Sub-collection C (raw/finals/Unknown-Final-Micro/, 34 vision pages after
+  hash dedupe) turned out to be the SAME kind of mixed bag as sub-collection
+  B's own raw folder: 34 phone photos of a computer monitor running a Moodle
+  quiz, but the large majority (23 of 34) are a Biochemistry final (enzyme
+  kinetics, lipids, amino acids, carbohydrates) -- not extracted, out of
+  scope. Only 11 photos are the actual microbiology exam ("Exam H"), and even
+  those are sparse: questions found span Q1, 9-19, 21-23, 35-37, 39-40, and
+  51-55 of the source's own numbering, with large unexplained gaps in
+  between (Q2-8, 20, 24-34, 38, 41-50 never appear in any photo) -- a genuine
+  capture gap, not a read failure; the student simply never screenshotted
+  those questions. 25 questions transcribed (MICRO-F-391-415): one is
+  answered by an embedded photo of a bacterial culture plate rather than
+  text, and that photo's own answer options were never captured either
+  (flagged, needs-eye, the crop is saved regardless since the question
+  content itself depends on it); one question is genuinely cut off mid-stem
+  with zero options ever appearing in any capture (needs-eye); one more has
+  its 4th option cut off with no visible mark on the other three (needs-eye);
+  4 more questions have no radio filled at all, genuinely unanswered in this
+  capture (open). No disputes -- this exam only has one capture source.
+
+  Sub-collections A, B, and C are unrelated exam pools from different years;
+  no `models:` cross-matching was attempted between any of them, and the one
+  coincidental stem overlap found (Exam C vs MICRO-F-003) was deliberately
+  left unmerged for the same reason. Every count below is computed from the
+  entries that follow, per CLAUDE.md hard rule 6.
+questions: 415
+tiers: claimed 403 | open 12
+forms: mcq 361 | qa 54
 disputed: 20
-needs-eye: 12
-next-id: MICRO-F-391
+needs-eye: 15
+next-id: MICRO-F-416
 ---
 
 ### MICRO-F-001
@@ -5123,3 +5147,329 @@ a) Typhoid
 b) Hepatitis A
 c) Cholera
 d) Poliomyelitis
+
+### MICRO-F-391
+tier: open
+form: mcq
+needs-eye: true
+img: flagged/MICRO-F-391.jpg
+source: Exam H (unknown old microbiology final, raw/finals/Unknown-Final-Micro/
+  — a folder of phone photos of a computer monitor running a Moodle quiz,
+  overwhelmingly a Biochemistry exam with this microbiology one mixed in
+  among the same photos; see this file's header for the full split)
+note: The answer options were never captured — the photo frames the stem and
+  the embedded culture-plate image but cuts off before the option list, so
+  no answer (claimed or otherwise) can be recorded. The image itself IS the
+  content the question depends on, so it is flagged and saved regardless of
+  the missing options, per job-a-extract.md's img: rule.
+Mohannad was asked to culture unknown bacteria on Tryptone soy agar (TSA),
+the culture results in sticky colonies as the following image shown, what is
+the most likely bacteria?
+[photo: two petri dishes, one open, showing sticky/mucoid bacterial colonies
+— see flagged/MICRO-F-391.jpg]
+
+### MICRO-F-392
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam H, Q9
+Which of the following parasites could cause anemia in human beings?
+a) Both Toxoplasma in fetus and Entamoeba histolytica
+b) Plasmodium
+c) Toxoplasma infection in fetus
+d) Echinococcus
+
+### MICRO-F-393
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam H, Q10
+Human being is considered as a definitive host for which of the following
+parasites?
+a) Giardia lamblia
+b) Toxoplasma gondii
+c) Echinococcus granulosus
+d) Both Echinococcus granulosus and Toxoplasma gondii
+
+### MICRO-F-394
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam H, Q11
+Viral surface proteins mediate attachment to host cell receptors. This
+interaction determines the host specificity and organ specificity of the
+virus.
+a) True
+b) False
+
+### MICRO-F-395
+tier: open
+form: mcq
+source: Exam H, Q12
+note: No radio button is filled on this page — genuinely unanswered in this
+  capture, unlike most of this exam.
+Which one of the following chemicals is used to sterilize heat-sensitive
+materials in hospitals?
+a) Glutaraldehyde
+b) Ethylene Oxide
+c) Phenol
+d) Chlorhexidine
+
+### MICRO-F-396
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam H, Q13
+Which of the following organisms reproduce by spore production?
+a) Yeast
+b) Most fungi species and Clostridium tetani
+c) Most fungi species
+d) Clostridium tetani
+
+### MICRO-F-397
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam H, Q14
+Which one of the following viruses is most likely to cause perinatal
+infections (at time of birth)?
+a) Hepatitis A
+b) Hepatitis B
+c) Rotavirus
+d) Coronavirus
+
+### MICRO-F-398
+tier: open
+form: mcq
+source: Exam H, Q15
+note: No radio button is filled on this page.
+All of the following antibiotics inhibit bacterial cell wall synthesis
+EXCEPT?
+a) Bacitracin
+b) Methicillin
+c) Rifampin
+d) Cycloserine
+
+### MICRO-F-399
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam H, Q16
+Your laboratory isolates an entirely new and unknown pathogen from one of
+your patients, which has all the characteristics of an aerobic filamentous
+fungus except that the ribosomes are prokaryotic. Unfortunately, your
+patient with this pathogen is very ill. Which agent would most likely be
+successful in treating your patient?
+a) Third generation cephalosporins
+b) Isoniazid
+c) Metronidazole
+d) Tetracycline
+
+### MICRO-F-400
+tier: open
+form: mcq
+source: Exam H, Q17
+note: No radio button is filled on this page.
+Regarding replication of HIV, select the correct answer?
+a) The virus makes negative strand immediately
+b) A virus uses the negative strand of the DNA intermediate to make positive
+   strand progeny RNA
+c) A virus makes a positive strand that acts as both mRNA and as the
+   template for negative strand
+d) A virus uses its mRNA as a template to make progeny double stranded DNA
+
+### MICRO-F-401
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam H, Q18
+The most common rout of fungal infection is?
+a) Gastrointestinal via contaminated food and water
+b) Skin penetration
+c) Animal to human
+d) Inhalation through lungs
+
+### MICRO-F-402
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam H, Q19
+Which of the following statements is wrong considering bacterial exotoxins?
+a) Are polypeptides
+b) Some bacterial species producing lipopolysaccharides type of exotoxins
+c) Have different effects even if they produce from the same bacterial
+   species
+d) Exotoxins from different bacterial species have different effects
+
+### MICRO-F-403
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam H, Q21
+Protease Inhibitors (Antiviral agents) could be used in treatment of one of
+the following viral infections?
+a) Influenza
+b) Herpes infections
+c) AIDS
+d) Botulism infection
+
+### MICRO-F-404
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam H, Q22
+Which one of the following methods is used to sterilize Clostridium
+botulinum canning material?
+a) Flash pasteurization
+b) Standard pasteurization
+c) Boiling
+d) Autoclaving
+
+### MICRO-F-405
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam H, Q23
+The following Gram positive bacteria exotoxins are neurotoxins?
+a) Both Tetanus and Botulinum toxin
+b) Diphtheria toxin
+c) Tetanus toxin
+d) Botulinum toxin
+
+### MICRO-F-406
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam H, Q35
+Bacillus anthracis is characterized by having the following exotoxins
+except?
+a) None of them
+b) Lethal factor is a protease that cleaves phosphokinase
+c) Edema factor is an adenylate cyclase (increases cAMP)
+d) Protective antigen forms pores in the human cell membrane
+
+### MICRO-F-407
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam H, Q36
+An examples of single determinant of virulence is: Clostridium tetani
+produces one type of virulence mechanism that is [invasive? — end of stem
+cut off by the photo's edge] host cells?
+a) True
+b) False
+
+### MICRO-F-408
+tier: open
+form: mcq
+needs-eye: true
+source: Exam H, Q37
+note: Both the stem and the option list are cut off by the photo's edge —
+  only the question header and its opening words are legible. Genuinely
+  incomplete capture, not a read failure.
+Pseudomembranes are inflammatory bacterial effect(s) [remainder of stem and
+all options not captured]
+
+### MICRO-F-409
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam H, Q39
+Use of antibiotic combinations is useful?
+a) To treat serious infections before the identity of the organism is known
+b) All of the statements are true
+c) To achieve synergistic effect
+d) To prevent emergence of resistant strain
+
+### MICRO-F-410
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam H, Q40
+Which of the following fungal species producing aflatoxin which causes
+mycotoxicoses in human being?
+a) Yeast
+b) Claviceps purpurea
+c) Aspergillus
+d) Amanita fungi
+
+### MICRO-F-411
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam H, Q51
+Which of the following routes is/are not significant in bacterial mode of
+transmission to human being?
+a) Pet and domestic animals
+b) Breast milk feeding
+c) Eating bacterial contaminated food
+d) Active skin penetration
+
+### MICRO-F-412
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam H, Q52
+Trimethoprim is used most frequently together with ________ because they
+can act synergistically?
+a) Rifampin
+b) Sulfamethoxazole
+c) Clarithromycin
+d) Ampicillin
+
+### MICRO-F-413
+tier: open
+form: mcq
+needs-eye: true
+source: Exam H, Q53
+note: 4th option cut off by the photo's edge, no radio button visible as
+  filled on the three captured options.
+A-B subunit exotoxin structure is predominant in the following toxins
+EXCEPT?
+a) Diphtheria toxin
+b) Botulinum toxin
+c) Tetanus toxin
+d) [not captured — cut off at the photo's edge]
+
+### MICRO-F-414
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam H, Q54
+Which of the following is considered a good example for an opportunistic
+pathogen?
+a) Toxoplasma gondii
+b) Streptococcus pneumoniae
+c) Both Streptococcus pneumoniae and Toxoplasma gondii
+d) Treponema pallidum
+
+### MICRO-F-415
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam H, Q55 (last question found in this exam)
+All of the following antibiotics can achieve sufficient selective toxicity
+EXCEPT?
+a) Vancomycin
+b) Polymyxin E
+c) Gentamicin
+d) Azithromycin
