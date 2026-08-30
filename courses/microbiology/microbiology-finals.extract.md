@@ -1,7 +1,7 @@
 ---
 course: microbiology
 tab: finals
-scope: four sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
+scope: five sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
   duplicate models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured),
   MICRO-F-001 through 097. (B) raw/finals/before2020-MICRO-FINAL/ — seven-plus
   DISTINCT, unrelated old final exams found tangled together across two raw
@@ -11,9 +11,11 @@ scope: four sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
   (MICRO-F-391 onward) sparsely captured among a much larger, unrelated
   Biochemistry exam that shares the same raw folder. (D)
   raw/finals/2020-2021-Final/ — "Exam I", the 2020-2021 sitting, MICRO-F-416
-  through 464. Each entry in sub-collections B, C and D carries a `source:`
-  line naming which exam it came from, since the `models:` mechanism does
-  not apply across unrelated sittings.
+  through 464. (E) raw/finals/before2020-resit-2017/ — "Exam J", a compiled
+  answer-key document for a 2017 resit ("2017 اكمال"), MICRO-F-465 through
+  538. Each entry in sub-collections B, C, D and E carries a `source:` line
+  naming which exam it came from, since the `models:` mechanism does not
+  apply across unrelated sittings.
 status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and نموذج ٥ (complete, 50/50) done.
   نموذج 3 done, but only 44/50 questions of it: Q35, 36, 45, 46, 47, 48 have no
   screenshot anywhere in the PDF export at all (not even a cut-off header for
@@ -208,14 +210,47 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
   precedent for this shape of overlap (MICRO-F-401 vs MICRO-F-424; MICRO-F-
   024 vs MICRO-F-433).
 
+  Sub-collection E (raw/finals/before2020-resit-2017/, 16 phone photos, all
+  below the 1000px floor but legible) turned out to be neither a raw Moodle
+  capture nor a printed exam — it's a compiled study document, "2017 اكمال"
+  (2017 resit/makeup), credited to "LILA ABUHILAL 2018", photographed page
+  by page from a phone screen (each photo shows two consecutive source pages
+  stacked, giving 1-page overlap between consecutive photos). Answers are
+  marked with a pink highlighter over the correct option throughout — a
+  compiled key, not a printed official one, so tier claimed per hard rule 7
+  (drop to the lower tier when ambiguous). 80 questions in the source's own
+  numbering (Q1-80), all present, no gaps — 74 new (MICRO-F-465-538), one
+  genuinely unanswered (MICRO-F-475, no highlight present), one incomplete
+  at the very last page with no highlighted answer and an odd option-letter
+  gap ((c) to (e), no (d) — MICRO-F-538, needs-eye). Questions 23-27 are one
+  shared 5-item matching block, split into five mcq entries against the same
+  option list rather than invented as separate option sets (precedent:
+  MICRO-F-365-368). This exam bank turned out to overlap heavily with
+  sub-collection B's "Exam A" (Dr. Dina Bitar, 2009) and, once, with
+  sub-collection C's "Exam H" — the same antimicrobial-pharmacology
+  questions resurface nearly verbatim across a 2009 exam, a 2017 resit, and
+  (per sub-collection D's own cross-check) the 2020-2021 sitting, confirming
+  this is one long-lived shared question bank rather than three unrelated
+  ones. Five exact cross-sitting matches were corroborated in place rather
+  than re-minted (MICRO-F-117, 120, 121, 122, 224 — the last now confirmed
+  in THREE separate sittings). One cross-sitting match surfaced a genuine
+  three-way disagreement: MICRO-F-409 (Exam H) already claimed "All of the
+  above" for a shared antibiotic-combinations question; Exam J's own capture
+  of the same question shows a printed/highlighted answer ("achieve
+  synergistic effect") contradicted by a separate hand-drawn circle on the
+  same page pointing to "All of the above" — MICRO-F-409 was converted to
+  `disputed: true` with all three claims recorded rather than picked
+  between. One more near-miss was kept separate rather than merged (Exam
+  J's Q39 vs MICRO-F-055, same fact, True/False vs 4-option MCQ shape).
+
   Every count below is computed from the entries that follow, per CLAUDE.md
   hard rule 6.
-questions: 464
-tiers: claimed 449 | open 15
-forms: mcq 410 | qa 54
-disputed: 21
-needs-eye: 18
-next-id: MICRO-F-465
+questions: 538
+tiers: claimed 521 | open 17
+forms: mcq 484 | qa 54
+disputed: 22
+needs-eye: 19
+next-id: MICRO-F-539
 ---
 
 ### MICRO-F-001
@@ -1759,6 +1794,8 @@ form: mcq
 type: single
 claimed: d
 source: Exam A — "Microbiology 3"
+note: Same stem and answer also seen in the 2017 resit compiled key (Exam J)
+  — corroborates rather than disputes.
 Linezolid is useful in the treatment of
 a) MRSA
 b) VRE
@@ -1795,6 +1832,8 @@ form: mcq
 type: single
 claimed: a
 source: Exam A — "Microbiology 3"
+note: Same stem and answer also seen in the 2017 resit compiled key (Exam J)
+  — corroborates rather than disputes.
 It is best to take tetracycline
 a) On an empty stomach
 b) With milk
@@ -1807,6 +1846,9 @@ form: mcq
 type: single
 claimed: d
 source: Exam A — "Microbiology 3"
+note: Same content and answer also seen in the 2017 resit compiled key (Exam
+  J), worded "true except" there instead of "correct except" — corroborates
+  rather than disputes.
 Each of the following statements about tetracycline is correct except:
 a) Contraindicated for pregnant women
 b) Broadspectrum
@@ -1819,6 +1861,8 @@ form: mcq
 type: single
 claimed: c
 source: Exam A — "Microbiology 3"
+note: Same stem and answer also seen in the 2017 resit compiled key (Exam J)
+  — corroborates rather than disputes.
 Each of the following statements about antibiotic toxicity is correct except
 a) Streptomycin has ototoxicity
 b) Tetracycline deposits in bones and teeth
@@ -2892,7 +2936,8 @@ type: single
 claimed: a
 source: Exam C, p2
 note: Same stem and answer also seen in the 2020-2021-Final sitting (Exam
-  I), options reshuffled — corroborates rather than disputes.
+  I) and again in the 2017 resit compiled key (Exam J), options reshuffled
+  each time — corroborates rather than disputes.
 a Interferon is effective in the treatment of
 a) Chronic hepatitis B
 b) Acute hepatitis B
@@ -5427,8 +5472,22 @@ d) Are only formed on colon infections
 tier: claimed
 form: mcq
 type: single
-claimed: b
+disputed: true
+claims:
+  - source: Exam H (Q39, "Answer saved")
+    answer: b (All of the statements are true / "All of the above")
+  - source: Exam J, 2017 resit compiled key — printed/highlighted answer
+    answer: To achieve synergistic effect
+  - source: Exam J, 2017 resit compiled key — competing hand-drawn circle
+    answer: "All of the above" (agrees with Exam H's claim)
 source: Exam H, Q39
+note: The 2017 resit compiled key (Exam J) carries the same question with a
+  printed/highlighted answer ("achieve synergistic effect") contradicted by
+  a separate hand-drawn circle pointing to "All of the above" on the same
+  page — two independent mark systems disagreeing, per the hard rule on
+  hand-drawn marks. Exam H's own independent claim corroborates the
+  hand-drawn side, making it 2-vs-1, but not resolved outright since Job A
+  doesn't adjudicate between claims.
 Use of antibiotic combinations is useful?
 a) To treat serious infections before the identity of the organism is known
 b) All of the statements are true
@@ -6193,3 +6252,960 @@ a) The virus uses host polymerase
 b) The virus has reverse transcriptase
 c) Plus strand can be used as mRNA
 d) The virus carries its own polymerase
+
+### MICRO-F-465
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q1
+note: Compiler's own Arabic annotation on this question translates roughly
+  to "the question isn't clear from the transcription, not sure if there's
+  a different version" — a note about the question's own clarity, kept here
+  rather than in the stem.
+Human infections transmitted through saliva:
+a) Herpes simplex
+b) Measles
+c) HIV
+d) Typhoid
+
+### MICRO-F-466
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q2
+All of the following are zoonotic endemic diseases in Palestine except
+a) Rabies
+b) Brucellosis
+c) Leishmaniasis
+d) Plague
+
+### MICRO-F-467
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q3
+The antiseptic used to clean the skin before immunization
+a) 70% Alcohol
+b) 90% Ethanol
+c) Hexachlorophene
+d) Tincture of Iodine
+
+### MICRO-F-468
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q4
+The Clostridium botulinium spores are killed:
+a) Using steam under a pressure of 15lb/in^2, for 15-20 min
+b) By Boiling 100 C for 15-20 min
+c) Heating to 62 C for 30 minutes
+d) Heating to 121 C for 15-20 minutes
+
+### MICRO-F-469
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q5
+The following virus acquires its envelope from the nuclear membrane:
+a) Influenza
+b) HIV
+c) Rubella
+d) HSV-1
+
+### MICRO-F-470
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q6
+The infectious dose for Mycobacterium Tuberculosis is:
+a) 100,000 organisms
+b) 1000 organisms
+c) 100 organisms
+d) 1-10 organisms
+
+### MICRO-F-471
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q7
+Disinfects air in the operating room (when not in use)
+a) Filtration
+b) Ultra Violet Light
+c) Hypochlorite
+d) Chlorohexidine
+
+### MICRO-F-472
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q8
+note: Compiler's own Arabic/English annotation on this question: "its
+  function — to prevent meningitis. Poor immunogen in children."
+The Capsule of Hemophilia influenza Type B is used to prepare the vaccine in
+order to induce ???????????
+a) Life Long immunity
+b) Anticapsular Antibodies
+c) Neutralizing Antibodies
+d) None of the Above
+
+### MICRO-F-473
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q9
+Peptidoglycan structure is disrupted by treatment with:
+a) Penicillins
+b) Cephalosporins
+c) Lysozyme
+d) All of the above
+
+### MICRO-F-474
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q10
+Sterilization of tissue culture medium
+a) Autoclaving
+b) Filtration using Millipore Filter 0.22 Mm
+c) UV light
+d) None of the above
+
+### MICRO-F-475
+tier: open
+form: mcq
+source: Exam J, Q11
+note: No option highlighted in the source — genuinely unanswered in this
+  capture, not a read failure.
+The most important protective function of the antibody stimulated by
+diphtheria immunization in D1PT is????
+a) To neutralize the toxin of the pathogen
+b) To prevent growth of the pathogen
+c) To prevent adherence of the pathogen
+d) To opsonize the pathogen (Corynebacterium diphtheriae)
+
+### MICRO-F-476
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q13
+Pseudomembranes are characteristic of the following diseases
+a) Clostridium perfringens and Staphylococcus aureus
+b) Bacillus anthracis and diphtheria
+c) Diphtheria and Pseudomembranous colitis
+d) Scarlet Fever and Diphtheria
+
+### MICRO-F-477
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q14
+Three organisms Streptococcus pneumonia, Neisseria meningitides, and
+Haemophilus Influenza type b cause the vast majority of cases of bacterial
+meningitides. Vaccination against these organisms employs????????
+a) Killed organisms
+b) The most virulent Capsule(s)
+c) Endotoxin
+d) Exotoxin
+
+### MICRO-F-478
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q15
+Selection of resistant bacterial mutants enhanced by:
+a) Overuse of antibiotics????????
+b) Misuse of antibiotics
+c) Use of antibiotics in animal feed
+d) All of the above are correct
+
+### MICRO-F-479
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q16
+One of the following antibiotics is an effective alternative in penicillin
+allergic patients:
+a) Clarithromycin
+b) Tetracyclin
+c) Gentamycin
+d) Cephalosporin
+
+### MICRO-F-480
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q17
+Beta Lactamase is
+a) A penicillinase
+b) A cephalosporinase
+c) A carbapenemase
+d) A & B
+
+### MICRO-F-481
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q18
+Each of the following statements concerning Clostridium pefringens is
+correct except:
+a) It is a gram negative rod that does not ferment lactose
+b) It causes Gas Gangrene
+c) It causes food poisoning
+d) It produces an exotoxin that degrades lecithin and causes necrosis and
+   hemolysis
+
+### MICRO-F-482
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q19
+Each of the following statements concerning Clostridium tetani is correct
+except:
+a) It is a Gram positive, spore forming rod
+b) Pathogenesis is due to the production of an exotoxin that blocks
+   inhibitory neurotransmitters
+c) It is a facultative organism it will grow on a blood agar plate in the
+   presence of room air
+d) Its natural habitat is primarily the soil
+
+### MICRO-F-483
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q21
+The most common antibiotic associated with pseudomembranous colitis that is
+caused by clostridium difficile
+a) Chloramphenicol
+b) Gentamyvin
+c) Vancomycin
+d) Clindamycin
+
+### MICRO-F-484
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q22
+Rota Virus is transmitted by
+a) Droplet Aerosolization
+b) Fecal-Oral Route
+c) Insect Bite
+d) Vertical Transmission
+
+### MICRO-F-485
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q23
+note: Part of a shared 5-item matching block (Exam J's own Q23-27), all five
+  matched against the same option list.
+Water Source
+a) Legionnaire's Disease
+b) Tetanus
+c) Rabies Virus
+d) Staphylococcal skin infection
+e) Rubella
+
+### MICRO-F-486
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: Exam J, Q24
+note: Part of the same shared 5-item matching block as MICRO-F-485.
+Transplacental transmission
+a) Legionnaire's Disease
+b) Tetanus
+c) Rabies Virus
+d) Staphylococcal skin infection
+e) Rubella
+
+### MICRO-F-487
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q25
+note: Part of the same shared 5-item matching block as MICRO-F-485.
+Fomite Source
+a) Legionnaire's Disease
+b) Tetanus
+c) Rabies Virus
+d) Staphylococcal skin infection
+e) Rubella
+
+### MICRO-F-488
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q26
+note: Part of the same shared 5-item matching block as MICRO-F-485.
+Soil Source
+a) Legionnaire's Disease
+b) Tetanus
+c) Rabies Virus
+d) Staphylococcal skin infection
+e) Rubella
+
+### MICRO-F-489
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q27
+note: Part of the same shared 5-item matching block as MICRO-F-485.
+Zoonoses
+a) Legionnaire's Disease
+b) Tetanus
+c) Rabies Virus
+d) Staphylococcal skin infection
+e) Rubella
+
+### MICRO-F-490
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q31
+Metronidiazole is a drug of choice for the treatment of:
+a) Trichomoniasis
+b) Gardiasis
+c) Anaerobic infections
+d) All of the Above
+
+### MICRO-F-491
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q32
+The following can be transmitted to the newborns by vaginal delivery
+a) Neisseria Gonorrhia
+b) HIV
+c) Group B streptococci
+d) All of the above
+
+### MICRO-F-492
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q33
+Asymptommatic infection is common for all of the following except:
+a) Influenza Virus
+b) RhinoVirus
+c) Measles Virus
+d) Rubella Virus
+
+### MICRO-F-493
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q34
+All of the following diseases can be prevented by vaccination except:
+a) Measles
+b) Mumps
+c) AIDS
+d) Diphtheria
+
+### MICRO-F-494
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q35
+Tinea Pedis is
+a) Caused by Dermatophytes
+b) Transmitted by direct contact
+c) A chronic infection
+d) All of the above
+
+### MICRO-F-495
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q36
+Kiratinase is produced by:
+a) Sporotrichosis
+b) Dermatophytes
+c) Histoplasmosis
+d) Coccidiodes
+
+### MICRO-F-496
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q37
+Candida Albicans
+a) Part of the normal flora of the skin
+b) Can cause opportunistic infections
+c) Is a dimorphic fungi
+d) All of the above
+
+### MICRO-F-497
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q38
+All of the following are encapsulated bacteria except:
+a) Streptococcus pneumonia
+b) Neisseria Meningitidus
+c) Cryptococcus neoformis
+d) Haemophilus influenza
+
+### MICRO-F-498
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q39
+note: Tests the same fact as MICRO-F-055 (2023-2024 sitting) but in a
+  different shape — that one is a True/False statement, this one is a
+  4-option MCQ — kept separate rather than merged.
+Clostridium Botulunum toxin mode of action
+a) Stimulates adynelate cyclase by ADP-ribosylation
+b) Is a Super Antigen
+c) Blocks the release of acetylcholine
+d) Is a lecithinase
+
+### MICRO-F-499
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q40
+A recombinant vaccine is available against the following virus
+a) Mumps Virus
+b) Hepatitus B Virus
+c) Rubella Virus
+d) Measles Virus
+
+### MICRO-F-500
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q41
+EBV(Epstein-Barr-Virus) is associated with:
+a) Infectious Mononucleosis
+b) Burkitt's Lymphoma
+c) Nasopharyngeal Carcinoma
+d) All of the Above
+
+### MICRO-F-501
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q42
+All of the following statements are true except (Antiviral Agent is active
+against the following Virus)
+a) Lamivudine and HIV
+b) Lamivudine and HBV
+c) Amantidine and Influenza B virus
+d) Acyclovir and HSV
+
+### MICRO-F-502
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q43
+Enfuvirtude (fuzeon) stops HIV replication by
+a) Prevents entry of HIV into the host cell
+b) Inhibits DNA synthesis
+c) Inhibits reverse transcriptase
+d) Interferes with the viral mRNA synthesis
+
+### MICRO-F-503
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q44
+The following combinations of antiviral agents and their spectrum of
+activity are true except:
+a) Ribavirin and RSV
+b) Acyclovir and HSV1 and HSV2
+c) Ganciclovir and VZV
+d) Azidothymidine and HIV
+
+### MICRO-F-504
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q46
+The neuraminidase inhibitor is
+a) Amantidine
+b) Oseltamivir
+c) Rimantidine
+d) Foscarnet
+
+### MICRO-F-505
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q47
+All the following are a form of passive immunity except:
+a) Killed rabies virus vaccine
+b) Transfer of IgG across the placenta
+c) Transfer of secretary IgA in breast milk
+d) Rabies immune globulin given to people exposed to rabies
+
+### MICRO-F-506
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q48
+Oseltamivir (Tamiflu) is an antiviral drug that acts by
+a) Inhibiting uncoating
+b) Inhibiting the release of the virus
+c) Inhibiting attachment
+d) Inhibiting nucleic acid synthesis
+
+### MICRO-F-507
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q49
+Dimorphic Fungi
+a) Candida Albicans
+b) Histoplasma sp
+c) Aspergillus Flavus
+d) A & B
+
+### MICRO-F-508
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q50
+A patient has a fungal systemic infection the most common antifungal drug
+for such a condition is
+a) Clotrimazole
+b) Terbunafine
+c) Amphotericin B
+d) Nystatin
+
+### MICRO-F-509
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q51
+After extraction of a wisdom tooth, an 18 year old male student was
+diagnosed as having subacute bacterial endocarditis. He has a congenital
+heart disease that has been under control. Which of the following is most
+likely organism causing his infection?
+a) Staphylococcus Aureus
+b) Staphylococcus Epidermidis
+c) Streptococcus pneumonia
+d) Streprococcus Viridans
+
+### MICRO-F-510
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q52
+One of the most common sexually transmitted diseases that may lead to
+cervical carcinoma and can be prevented by vaccination
+a) Adenovirus
+b) Papillomavirus
+c) Cytomegalovirus
+d) Herpes Simplex Virus
+
+### MICRO-F-511
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q53
+The following are possible outcomes of viral replication, which one is
+characteristic of polio virus?
+a) Lysis of cells (Viral lysis)
+b) Fusion of cells
+c) Malignant transformation
+d) No apparent or morphologic change
+
+### MICRO-F-512
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q54
+One of the following viruses causes generalized infections in humans
+a) Rhinovirus
+b) Poliovirus
+c) Vaccinia virus
+d) Papilloma Virus
+
+### MICRO-F-513
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q55
+Chemoprophylactic use of antivirals is important in the following
+situations except:
+a) Amantidine for prevention of influenza during outbreaks caused by
+   influenza A.
+b) Zidovudine (Azidothymidine) for prevention of HIV infection of neonates
+c) Zidovudine (Azidothymidine) for prevention of HIV infection in needle
+   stick injuries
+d) Raltegravir (Isentress) for prevention of HIV
+
+### MICRO-F-514
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q56
+Granulomas are characteristics of all of the following infections except:
+a) Tuberculosis
+b) Brucellosis
+c) Blastomycosis
+d) Pneumococcal pneumonia
+
+### MICRO-F-515
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q57
+All of the following viruses evade host defense by having multiple
+serotypes except
+a) Rhinovirus
+b) Measles Virus
+c) HIV
+d) Poliovirus
+
+### MICRO-F-516
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q58
+Immune mediated pathogenesis (Immune lysis) is seen in all of the following
+viral infections except:
+a) Measles
+b) Hepatitis B
+c) Poliomyelitis
+d) Hepatitis A
+
+### MICRO-F-517
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q59
+Viruses with an animal reservoir include all of the following except:
+a) Rabies Virus
+b) Avian Influenza Virus
+c) Measles Virus
+d) Swine Influenza Virus
+
+### MICRO-F-518
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q60
+71 year old woman with chronic leukemia developed slow impairment of memory
+as well as deterioration of intellectual power and orientation. Brain
+autopsy specimens showed demyelination due to viral damage oligodendroglial
+cells. Abundand JC virus particles were also found in the brain. The most
+likely diagnosis is:
+a) Rabies
+b) Papillomatosis
+c) Progressive multifocal leukoencophalopathy
+d) Measles
+
+### MICRO-F-519
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q61
+The etiologic agent of chicken pox
+a) Vaccinia Virus
+b) Rubeola Virus
+c) Rubella Virus
+d) Varicella Zoster Virus (VZV)
+
+### MICRO-F-520
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q62
+Spread of Herpesvirus type 1 occurs primarily by
+a) Breastmilk
+b) Blood
+c) Saliva
+d) Contaminated syringes
+
+### MICRO-F-521
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q63
+Which of the following viruses usually enters the body via blood?
+a) Hepatitis B virus
+b) Influenza Virus
+c) VZV
+d) Hepatitis A virus
+
+### MICRO-F-522
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q64
+An example of a human virus which is transmitted vertically as well as
+horizontally is:
+a) Rubella Virus
+b) Hepatitis A Virus
+c) Rota Virus
+d) RhinoVirus
+
+### MICRO-F-523
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q65
+Early Childhood measles is a risk factor for the
+a) Progressive multifocal leukoencephalopathy
+b) Subacute Sclerosing panencephalitis (SSPE)
+c) Kuru
+d) Scrapie
+
+### MICRO-F-524
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q66
+Which of the following will destroy prions
+a) Irradiation
+b) Autoclaving
+c) Exposure to formaldehyde
+d) Boiling
+
+### MICRO-F-525
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q67
+To which one of the following groups would it be acceptable to give a live
+attenuated virus:
+a) Children under 8 years of age
+b) Pregnant mother
+c) Patients treated with radiotherapy
+d) Patients with immunodeficiency
+
+### MICRO-F-526
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q68
+Which vaccine is contraindicated in pregnancy
+a) MMR
+b) Rabies
+c) Hep B
+d) None of the above
+
+### MICRO-F-527
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q69
+All of the following are true about lytic viruses except:
+a) Polio virus is one of them
+b) Influenza Virus is one of them
+c) All are enveloped viruses
+d) Cause destruction of the host infected cell
+
+### MICRO-F-528
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q70
+A virion is
+a) A complete infectious viral particle
+b) A naked infectious piece of RNA
+c) A capsid without nucleic acid
+d) A provirus
+
+### MICRO-F-529
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q71
+Aflatoxin B1
+a) Induces hepatic carcinoma in humans
+b) Induces a mutation in the p53 tumor suppressor gene
+c) Is produced by Aspergillus Flavus
+d) All of the Above
+
+### MICRO-F-530
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q72
+Which of the following structure's is found only in Gram Positive
+microorganisms?
+a) Exotoxin
+b) Peptidoglycan
+c) Periplasmic Space
+d) Teichoic Acids
+
+### MICRO-F-531
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q73
+All of the following stain well using the Gram's stain except:
+a) Bacillus Anthracis
+b) Streptococcus pneumoniae
+c) Staphylococcus Aureus
+d) Mycobacterium leprae
+
+### MICRO-F-532
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q74
+During this phase of bacterial population growth, penicillin is most
+effective:
+a) Death Phase
+b) Lag Phase
+c) Exponential Phase
+d) Stationary Phase
+
+### MICRO-F-533
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q75
+Silver Sulfadiazine is used
+a) To prepare skin prior to blood culture
+b) As skin antiseptic
+c) To sterilize respiratory therapy equipment
+d) To prevent infections of burn wounds
+
+### MICRO-F-534
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: Exam J, Q76
+What is the process of genetic recombination in which a highly specific
+portion of the host gene is regularly incorporated into a virus?
+a) Conjugation
+b) Generalized Transduction
+c) Transformation
+d) Specialized Transduction
+
+### MICRO-F-535
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: Exam J, Q77
+note: Different shape from MICRO-F-450 (2020-2021-Final sitting) — that one
+  asks which single pathogen is NOT screened for; this one asks which
+  combined multi-pathogen list IS the correct screening panel. Kept
+  separate.
+Donated blood is screened for the following
+a) HIV, Hepatitis B, Hepatitis C, T cell lymphotropic virus, Treponema
+   Pallidum
+b) HIV, Hepatitis B, Hepatitis C, Hepatitis D and Treponema pallidum
+c) HIV, Hepatitis A, Hepatitis C, T cell lymphotropic virus, Treponema
+   Pallidum
+d) HIV, Hepatitis D, Hepatitis C, T cell lymphotropic virus, Treponema
+   Pallidum
+
+### MICRO-F-536
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: Exam J, Q78
+Reversion of N.gonorrhae from a fimbriated (fim 1) to a nonfimbriated (fim
+2) state would result in which one of the following phenomena?
+a) A negative capsule strain
+b) Death of the organism
+c) Inability of N.gonorrhoea to colonize the mucosal epithelium
+d) Loss of Serologic Specificity
+
+### MICRO-F-537
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: Exam J, Q79
+While performing the gram stain you mistakenly forgot the iodine treatment
+step. Which of the following is correct?
+a) All the cells will be blue
+b) All the cells will be decolorized
+c) All the cells will be purple
+d) All the cells will be red
+
+### MICRO-F-538
+tier: open
+form: mcq
+needs-eye: true
+source: Exam J, Q80
+note: No option highlighted anywhere in the capture, and option lettering
+  jumps from (c) straight to (e) with no (d) ever appearing — either a
+  genuine gap in the source document itself or a page-break capture loss;
+  this is also the last page of the document (17 of 17), so no continuation
+  exists to check against.
+Early attempts at the polymerase chain reaction (PCR) used E.coli DNA
+polymerase. This was replaced with DNA polymerase from Thermus Aquaticus
+("Taq" polymerase). Which of the following is the primary advantage in
+using this enzyme
+a) It is cheaper than E.coli polymerase
+b) Taq polymerase is stable at high temperatures (95 C)
+c) Use of Taq polymerase enables lower temperature to be used
+e) Use of Taq polymerase results in fewer PCR cycles
