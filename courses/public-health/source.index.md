@@ -201,3 +201,71 @@ terms: screening, iceberg of disease, sensitivity, specificity, positive
 predictive value, PPV, negative predictive value, NPV, true positive, false
 positive, true negative, false negative, mass screening, opportunistic
 screening, multiphase screening
+
+## {#ch11} Ch. 11 — Objective-Oriented Project Planning (OOPP)
+covers: OOPP/ZOPP definition, project vs programme, Project Cycle
+Management (plan/implement/evaluate), history of project-planning
+instruments (LFA/USAID 1960s, OOPP/GTZ 1980s, EU adaptation 1990s), OOPP's
+two phases (Analysis and Project Planning), stakeholder analysis (purpose,
+importance -- awareness/capability/inclusion, summary table, worked bus
+example), SWOT analysis (worked fishing-community example), problem
+analysis and the core problem approach (worked bus, river-pollution, and
+Iquitos infant-malnutrition problem trees), objective analysis (means-ends
+relationships, worked bus and river objective trees), the Project Planning
+Matrix (4x4 grid, worked Logframe example), important assumptions (4
+levels), stages of the OOPP process (Pre/Appraisal/Partner/Take-off/
+Re-planning OOPP), Logical Framework Analysis (definition, Analysis/
+Planning phase steps, LogFrame matrix contents)
+terms: OOPP, ZOPP, project cycle management, stakeholder analysis, SWOT
+analysis, problem tree, core problem, objective tree, means-ends
+relationship, Project Planning Matrix, PPM, logical framework approach,
+LFA, logframe matrix
+
+## {#ch12} Ch. 12 — Primary Health Care
+covers: four levels of the healthcare system (primary/secondary/tertiary/
+quaternary care pyramid) with definitions and examples of each, a second
+same-titled diagram mapping primary/secondary/tertiary *prevention* to
+interventions (not to be confused with the care-tier pyramid), history of
+PHC (Alma-Ata Declaration 1978, WHO/UNICEF, Health-for-All 2000, 1998
+renewal), WHO's 90%-of-essential-care statistic, definition of PHC, Alma-
+Ata summary of PHC, PHC essential services (9 items), principles of PHC
+(8 items), PHC's five components (promotion/prevention/care/advocacy/
+community development), additional elements added after Alma-Ata, the 8
+A's and 3 C's basic requirements for sound PHC with each defined
+(appropriateness, adequacy, affordability, accessibility, acceptability,
+availability, assessability, accountability, completeness,
+comprehensiveness, continuity), PHC strategy, summary of the primary-care
+approach, "Aim of Primary Care" petal diagram, WHO "Primary Health Care
+Is..." triangle infographic
+terms: primary healthcare, secondary healthcare, tertiary care, quaternary
+care, Alma-Ata Declaration, health for all, essential health care, 8 A's
+and 3 C's, appropriateness, adequacy, affordability, accessibility,
+acceptability, availability, assessability, accountability, completeness,
+comprehensiveness, continuity
+
+## {#ch13} Ch. 13 — Health Promotion
+covers: WHO 1990 definition of health promotion, five domains of
+determinants of health, history from 1977 Health-for-All through Alma-Ata
+1978 to the 1986 Ottawa Charter, Ottawa Charter definition and
+prerequisites for health, two clusters of health-promotion definitions
+(environment-focused vs individual-focused), Ottawa Charter's 5 action
+means, the Ottawa Charter pinwheel diagram (5 action areas + enable/
+mediate/advocate core), definitions of health promotion vs health
+education vs health protection vs disease prevention, 3-circle model of
+health promotion, health education vs health promotion comparison, basic
+assumptions of health education/promotion, why health promotion is needed,
+the "health gain" concept, WHO International Health Promotion Conferences
+1986-2016 (Ottawa through Shanghai's 3 Pillars -- good governance/healthy
+cities/health literacy), Jakarta 1997 21st-century priorities, the 7
+principles of health promotion (empowering, equitable, sustainable,
+multi-strategy, participatory, holistic, intersectoral) each defined,
+empowerment (true empowerment, WHO definition, psychological empowerment,
+the fish-teaching parable, health literacy), process/framework diagrams
+for health promotion, the "umbrella term" cartoon, the relationship-between-
+major-health-concepts flow diagram, three paired "change in direction"
+shifts (disease-centred to people-centred, reactive to proactive,
+health-sector-alone to multi-sectoral)
+terms: health promotion, Ottawa Charter, health education, health
+protection, disease prevention, enable, mediate, advocate, empowerment,
+health literacy, health gain, 7 principles of health promotion, Jakarta
+Declaration, Shanghai 2016, 3 pillars of health promotion

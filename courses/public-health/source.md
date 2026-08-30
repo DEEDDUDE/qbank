@@ -2426,6 +2426,746 @@ Moving the cutoff trades sensitivity against specificity.
 
 ---
 
+## Ch. 11 — Objective-Oriented Project Planning (OOPP) {#ch11}
+
+### 11.1 What is OOPP? {#ch11-1}
+
+**Objective-Oriented Project Planning (OOPP)**: a participatory planning
+technique in which all parties involved identify and analyse the problems
+to be addressed in a project, and prepare a concrete, realistic project
+plan together. Also called Goal-Oriented Project Planning, and known by
+its German name **ZOPP** ("Ziel Orientierte Projekt Planung").
+
+**Project vs. Programme**: a **project** is the process of using inputs to
+carry out activities in order to achieve previously defined objectives; a
+**programme** is a series of projects in a sector, sub-sector or region
+that are linked together by a clearly defined concept.
+
+**Project Cycle Management (PCM)**: Plan (Idea) → Implementation (Do) →
+Evaluation (See).
+
+**Why project planning?** Objective-oriented (not activity-driven);
+consistent; logical (logically sets objectives and actions); participatory;
+transparent and accountable; supports monitoring and evaluation; a
+framework for assessing relevance, feasibility and sustainability;
+describes external factors that influence the project's success
+(assumptions and risks).
+
+**Project planning instruments — history**: methods to facilitate project/
+programme planning and implementation. Late 1960s: **Logical Framework
+Approach (LFA)**, developed by USAID. Early 1980s: **Objective-Oriented
+Project Planning (OOPP)**, developed by GTZ (the German development
+agency). Mid-1990s: the European Union adapted OOPP.
+
+OOPP is a systematic structure for identification, planning, and management
+of projects; applied through iterative workshops with project authorities,
+beneficiaries and stakeholders; utilizes problem analysis and stakeholder
+analysis to create a project planning matrix similar to the logical
+framework.
+
+### 11.2 OOPP phases: overview {#ch11-2}
+
+OOPP has 2 phases:
+
+**A. Analysis** — 5 sub-types: (1) Stakeholder analysis, (2) Problem
+analysis, (3) Objective analysis, (4) Alternative analysis, (5)
+Assumptions.
+
+- *Participant analysis*: interests, motives, attitudes and implications
+  for the project.
+- *Problem analysis*: major problems grouped into a problem tree with
+  cause and effect, identifying the core problem.
+- *Objectives analysis*: a restatement of problems into realistically
+  achievable goals.
+- *Alternatives analysis*: assessment of alternative objectives according
+  to resources, feasibility, cost-benefit ratio, social risks,
+  sustainability and other group-decided factors; prepared on charts.
+- *Assumptions*: conditions necessary for the successful transformation of
+  problems into secured objectives.
+
+**B. Project planning** — develops the Project Planning Matrix (PPM); see
+§11.5.
+
+### 11.3 Stakeholder analysis {#ch11-3}
+
+**Stakeholders**: any group within or outside a project that has a stake
+in the project's activities and/or outcomes. Examples: government, local
+authorities, vulnerable groups, employers, workers, NGOs.
+
+**Purpose of stakeholder analysis**: to identify groups who, directly or
+indirectly, will affect or be affected by a project; to determine, through
+consultation, stakeholders' issues, concerns and information needs; to
+estimate the probable impact various stakeholders will have on the
+project; to identify measures that enhance stakeholder support for the
+project's sustainable-development objectives.
+
+**Importance of stakeholder analysis** — promotes 3 necessary conditions
+for effective project implementation: (1) **Awareness/Commitment** —
+stakeholders understand and believe in the project's objectives and
+implementation strategy; (2) **Capability** — stakeholders believe they
+can cope with and benefit from the changes the project brings; (3)
+**Inclusion** — stakeholders feel valued, consulted, and part of the
+change process.
+
+A **stakeholder summary table** identifies main stakeholders needing
+special attention, with columns: Stakeholder, Interest(s) in the Project,
+Assessment of Impact, Potential Strategies for Obtaining Support or
+Reducing Obstacles.
+
+*Worked example — public bus system in a rural district* (from *COMIT:
+ZOPP – An Introduction to the Method*): a table across four participant
+groups (Bus Company; Passengers — 150,000 envisaged beneficiaries per day;
+Bus-drivers; Bus repair workshop), each broken down by
+Problems/needs, Expectations/Interests, Weaknesses/Constraints,
+Potentials, and Consequences for a project.
+
+**SWOT ANALYSIS**: identifies the Strengths, Weaknesses, Opportunities and
+Threats of the stakeholders to the project — what are the stakeholders'
+strengths/weaknesses, and consequently, what are the opportunities/threats
+of the external environment?
+
+*Worked example — Figure 18, SWOT matrix (a fishing community)*:
+Strengths (grassroots-based, broad membership; focused on a relatively
+homogeneous group's concerns; men and women both represented; provides a
+basic small-scale credit facility); Weaknesses (limited lobbying capacity/
+environmental management skills; lack of formal constitutions/unclear
+legal status; weak linkages with other organizations; internal
+disagreements on limiting fishing effort as fish stocks decline);
+Opportunities (growing public/political concern over health impacts of
+uncontrolled waste disposal; new government legislation in preparation on
+Environmental Protection, focused on making polluters pay; the river is
+potentially rich in resources for local consumption/sale; new markets for
+fish and fish products developing as transport infrastructure improves);
+Threats (political influence of industrial lobby groups opposed to
+tighter environmental protection laws, namely waste disposal; new
+environmental protection legislation may impact access to traditional
+fishing grounds and permitted fishing methods).
+
+### 11.4 Problem analysis {#ch11-4}
+
+**Purpose**: to identify major problems and their main causal
+relationships. **Output**: a "**Problem tree**" — a graphical arrangement
+of problems differentiated by "causes" and "effects."
+
+**Core Problem Approach**: (1) identify a "core"/central problem; (2) list
+all problems related to or stemming from the core problem; (3) determine
+which related problems are causes and which are effects of the core
+problem; (4) arrange the problems in a cause-effect hierarchy around the
+core problem.
+
+*Worked example 1 — Problem Analysis, Bus Example*: core problem
+"Frequent bus accidents," with **effects** above it ("Loss of Confidence
+in bus company" → "Passenger hurt or killed" and "People are late") and
+**causes** below it ("Drivers not careful enough," "Bad conditions of
+vehicles" [itself caused by "Vehicles too old" and "No ongoing
+maintenance"], "Bad road conditions").
+
+*Worked example 2 — Problem Tree of Infant Malnutrition, Iquitos, Peru,
+2005*: core problem "Infant Malnutrition," with **effects** above it
+("Delayed Psychomotor Development," "Permanent Morbidity" [→ "Mortality"
+→ "High Social Cost"], "Poor School Performance") and **causes** below it
+("Lack of Vaccination" ← "Unemployment"; "Infant Abandonment"; "Lack of
+Exclusive Breastfeeding"; "Impaired Growth and Development"; "Low Birth
+Weight" ← "Maternal Malnutrition").
+
+*Worked example 3 — River pollution problem tree*: core problem "River
+water quality is deteriorating," with **effects** above it ("Riverine
+ecosystem under serious threat, including declining fish stocks" →
+"Catch and income of fishing families in decline"; and "High incidence of
+water borne diseases and illnesses, particularly among poor families and
+under 5s") and **causes** below it across three branches — "High levels of
+solid waste dumped into river" (from "Polluters are not controlled" ←
+"Environment Protection Agency ineffective and closely aligned with
+industry interests"; and "Population not aware of the danger of waste
+dumping" ← "No public information/education programs available"); "Most
+households and factories discharge wastewater directly into the river"
+(from "Existing legal regulations are inadequate to prevent direct
+discharge of wastewater" ← "Pollution has been a low political priority";
+and "40% of households and 20% of businesses not connected to sewerage
+network" ← "Inadequate levels of capital investment and poor business
+planning within Local Government"); "Wastewater treated in plants does
+not meet environmental standards" (same root cause as above).
+
+**Problem Tree Analysis relies on**: group-based interaction (e.g.
+workshop format); participation of key stakeholders; process facilitation;
+achieving consensus on problems, causes and effects.
+
+### 11.5 Objective analysis and the Project Planning Matrix {#ch11-5}
+
+**3. Objective analysis**: the Problem Tree provides the basis for
+objective analysis: (a) identification of specific project objectives, by
+converting problems/constraints into specific objectives; (b) definition
+of project activities and outputs, by substituting cause-effect
+relationships with means-end relationships.
+
+*Worked example 1 — Objectives Analysis, Bus Example*: mirrors the
+problem tree of §11.4 with each problem restated as its positive
+objective — top goal "Customers have a better image of the bus company"
+(from "Less passengers hurt" and "Passengers arrive at scheduled time"),
+via "Frequency of bus accidents considerably reduced" (from "Drivers
+drive carefully and responsibly," "Vehicles kept in good conditions" [from
+"Old vehicles are regularly replaced" and "Vehicles regularly maintained/
+checked"], "Road conditions improved"). Labelled "MEANS-ENDS
+RELATIONSHIPS."
+
+*Worked example 2 — Objective tree, river pollution*: mirrors the river-
+pollution problem tree of §11.4, restated positively — e.g. "River water
+quality is improved," "The quantity of solid waste dumped into the river
+is reduced," "Increased % of households and businesses are connected to
+sewerage network," up to top-level objectives "Catch and income of fishing
+families is stabilised or increased" and "Incidence of water borne
+diseases and illnesses is reduced, particularly among poor families and
+under 5s."
+
+**B. Project Planning**: the output of the Analysis Phase feeds into the
+Planning Phase. The output of project planning is the **Project Planning
+Matrix (PPM)** — a **4×4 matrix**, a one-page summary of: why the project
+is carried out; what the project is expected to achieve; how the project
+will achieve these results; factors crucial for the project's success; how
+the project's success can be measured; what data are needed to assess
+project success; what the project will cost.
+
+**The Project Planning Matrix** — rows × columns:
+
+| | Objectively Verifiable Indicators | Means/Sources of Verification | Important Assumptions |
+|---|---|---|---|
+| **Overall Goal (OG)** | Indicators that the OG has been achieved | Document/database available to prove the OG has been achieved | For sustaining objectives in the long term |
+| **Project Purpose (PP)** | Indicators proving the PP has been achieved | Document/database available to prove the PP has been achieved | For achieving the overall goal |
+| **Results/Outputs** | Indicators proving the results/outputs have been achieved | Document/database available to prove the results/outputs have been achieved | For achieving the project purpose |
+| **Activities** | Specification of inputs/costs of each activity | Records of cost involved, e.g. voucher, personnel emolument | For achieving the results/outputs |
+
+**Summary of objectives/activities**: **Overall Goal** — what the project
+contributes to; **Project Purpose** — which purpose needs to be achieved
+for a significant contribution to be made to the project goal; **Results/
+Outputs** — which results/outputs must be obtained to achieve the
+anticipated impact; **Activities** — which activities the project must
+carry out for the results/outputs to be obtained.
+
+**4. Important Assumptions** — four levels of question: (1) *For
+sustainability in the long term*: which external factors must occur to
+assure sustained continuity of the achieved contribution to the OG,
+longer-term? (2) *For achieving the overall goal*: which external factors
+must occur for the anticipated contribution to the overall goal to
+actually take place? (3) *For achieving the project purpose*: which
+important assumptions relating to the results/outputs — factors the
+project cannot influence, or consciously defined as external — must occur
+for the project purpose to be achieved? (4) *For achieving the results/
+outputs*: which important assumptions relating to the activities must
+occur for the results/outputs to be obtained?
+
+*Worked example — Figure 34, key elements of a draft Logframe Matrix
+(river-pollution project)*: rows for Overall objective (improve family
+health, particularly under-5s, and general river ecosystem health),
+Purpose (improved river-water quality), Result 1 (reduced wastewater
+discharge), Result 2 (waste-water treatment standards established/
+enforced), each with its own Indicators, Means of Verification and
+Assumptions columns filled in with concrete, dated, quantified targets
+(e.g. "reduced by 50% by 2008," "meets established national health/
+pollution control standards by end of 2007").
+
+### 11.6 Stages of the OOPP process {#ch11-6}
+
+**Stages in the OOPP Process**: **Pre-OOPP** — in-house exercise by
+agencies in preparation for a project; **Appraisal OOPP** — in-house
+appraisal for preparing Project TORs; **Partner OOPP** — in-country;
+presentation/discussion of previous-phase conclusions and recommendations
+with staff of the project country; **Take-off OOPP** — in-country;
+preparation of the plan of operations with personnel responsible for
+project execution and counterpart authorities; **Re-planning OOPP** —
+prepared in-country; adjustments during project implementation.
+
+**ZOPP's Iterative Workshops**: OOPP is not a one-shot exercise; each
+planning phase has a specific goal, and each goal is the subject of a
+workshop; each workshop comprises different stakeholders; participants
+analyse key issues throughout the project cycle; there is no set formula
+for a successful workshop — all participants need to create a common
+language and understand one another's divergent views.
+
+**Conclusion**: collaboration is not "automatically" part of the OOPP
+process — the project team, borrower/donor, and stakeholders must commit
+to adopting a participatory stance for the overall project, otherwise the
+OOPP process is merely an organizing tool.
+
+### 11.7 Logical Framework Analysis {#ch11-7}
+
+**Logical Framework Analysis (LFA)**: an analytical tool assisting project
+specialists and stakeholders in conceptualising: the objectives of a
+project; the means by which these objectives will be achieved; how
+progress towards achieving objectives will be measured; and the underlying
+assumptions and risks that will be faced.
+
+**Contents of the LogFrame Matrix** — a 4×4 grid crossing Objectives
+(Narrative Summary: Goal/Development Objective, Purpose/Immediate
+Objectives, Outputs, Activities) against Verifiable Indicators, Means of
+Verification, and Important Assumptions, e.g.: for the *Goal* row —
+Indicators ask what quantitative/qualitative measures show the broad
+objectives are being achieved (with estimated time); Means of Verification
+ask what information sources exist or can be cost-effectively provided;
+Assumptions ask what external factors are necessary for sustaining
+objectives long-run. Each subsequent row (Purpose, Outputs, Activities)
+follows the same logic one level down, with Assumptions specifically
+framed as what must hold true for that row's results to translate into the
+row above (Purpose→Goal, Output→Purpose, Activity→Output).
+
+**The Logical Framework Approach** — two phases:
+
+- **Analysis Phase**: Stakeholder analysis (identifying/characterising
+  potential major stakeholders, assessing their capacity); Problem
+  analysis (identifying key problems, constraints and opportunities,
+  determining cause-and-effect relationships); Objective analysis
+  (developing solutions from identified problems, identifying means-to-end
+  relationships); Strategy analysis (identifying different strategies to
+  achieve solutions, selecting the most appropriate strategy).
+- **Planning Phase**: Developing Logical Framework matrix (defining
+  project structure, testing its internal logic and risks, formulating
+  measurable indicators of success); Activity scheduling (determining the
+  sequence and dependency of activities, estimating duration, assigning
+  responsibility); Resource scheduling (developing input schedules and a
+  budget, from the activity schedule).
+
+---
+
+## Ch. 12 — Primary Health Care {#ch12}
+
+### 12.1 Levels of the healthcare system {#ch12-1}
+
+Most healthcare systems have three or four tiers/levels, depending on
+sophistication: (1) Primary Healthcare, (2) Secondary Healthcare, (3)
+Tertiary Care, (4) Quaternary Care — depicted as a 4-tier pyramid with
+Primary Healthcare as the (largest) base and Quaternary Healthcare at the
+apex.
+
+**Primary Healthcare**: the first level of the healthcare system, also
+called the essential healthcare system. Provides health awareness, health
+promotion, disease prevention, treatment, and palliative care. In this
+people-oriented care, the patient can see a primary care doctor (general
+practitioner or family physician); nurses, pharmacists, physiotherapists
+and medical laboratory scientists are also available. Easily accessible
+at the individual, family, and community level; witnesses the largest
+number of patients. Care is continuous, with patients meeting the doctor
+for regular checkups.
+
+**Secondary Healthcare**: mostly based in hospitals and clinics (a few
+times in the community); specialist treatment provided by healthcare
+givers — cardiology or renal specialist clinics, planned operations,
+rehabilitation (physiotherapy). Assigned to patients with severe
+conditions such as cancer, severe infections, pneumonia, broken bones.
+Primary healthcare refers patients to secondary healthcare centres.
+Specialists include obstetricians, cardiologists, dermatologists,
+pediatricians, and gynecologists; other allied givers include dietitians,
+respiratory therapists, physical therapists, occupational therapists,
+speech therapists.
+
+**Tertiary Healthcare**: the third level; a highly specialized system
+providing complex and advanced treatment/procedures over a long period.
+Has specialists, modern complex/specialized equipment, intensive units,
+advanced diagnostic centres handled by consultants. Primary and secondary
+centres refer mostly inpatient-based services here (sometimes outpatient).
+Examples: transplant services, specialist cancer management, advanced
+neonatology services, cardiac surgery, neurosurgery, complex medical/
+surgical procedures, severe burns management.
+
+**Quaternary Healthcare**: the fourth level; an advanced level of
+medicine, the summit of the healthcare-system pyramid — highly
+specialized, not easily accessible, offered at only a few national/
+international centres. Uncommon conditions here may cause longer hospital
+stays and morbidity. Examples: uncommon diagnostic or surgical procedures,
+experimental drugs — caters to a few patients with rare conditions from
+around the world.
+
+A separate diagram, also titled "Levels of Healthcare," maps a 3-tier
+pyramid of Primary/Secondary/Tertiary *Prevention* (not the 4-tier
+care-system pyramid above) to interventions: **Primary Prevention** —
+health promotion, advisory and counselling services, and educational
+programmes to drive lifestyle changes for chronic-disease prevention;
+**Secondary Prevention** — health assessment and screening to facilitate
+early identification of chronic diseases; **Tertiary Prevention** —
+management of chronic diseases and rehabilitation support services to
+slow disease progression. (This slide's title reuses "Levels of
+Healthcare" for a prevention-levels framework, not the care-tier framework
+of the pyramid above it — see the source-gaps note below.)
+
+### 12.2 History: Alma-Ata and the Declaration on PHC {#ch12-2}
+
+An international conference, organized by WHO and UNICEF, was held in
+Alma-Ata, Kazakhstan, in 1978, on the theme "health for all." The
+**Alma-Ata Declaration** stated that health is "a basic human right, and
+that governments are responsible to assure that right for their citizens
+and to develop appropriate strategies to fulfill this promise." The
+Declaration focused on primary health care as the appropriate method of
+assuring adequate access to health care for all.
+
+PHC became a core WHO policy with the Alma-Ata Declaration (1978) and the
+"Health-for-All by the Year 2000" Program. The commitment to global health
+improvements, especially for the most disadvantaged populations, was
+renewed in 1998 by the World Health Assembly, leading to the "Health-for-
+All for the twenty-first Century" policy/program, restating the commitment
+to PHC development.
+
+**WHO statistic**: "**90%** of essential health care that people need
+throughout their lives can be delivered using a Primary Health Care
+approach" (WHO, "Universal Health Coverage" infographic).
+
+### 12.3 Definition and essential elements of PHC {#ch12-3}
+
+**Definition**: "Primary Health Care is an essential health care based on
+practical, scientifically sound, and socially acceptable methods and
+technology made universally accessible to individuals and families in the
+community through their full participation and at a cost that the
+community and the country can afford to maintain at every stage of their
+development in the spirit of self-reliance and self determination."
+
+**Declaration of Alma-Ata, 1978 — a summary of PHC**: it is the first
+level of contact of individuals, the family, and the national health
+system, bringing health care as close as possible to where people live and
+work, as the first element of a continuing health-care process. PHC
+evolves from the conditions and characteristics of the country and its
+communities, based on social, biomedical, and health-services research and
+public-health experience. PHC addresses the main health problems in the
+community, providing promotive, preventive, curative, and rehabilitative
+services accordingly.
+
+**PHC essential services** (Alma-Ata): (a) education concerning prevailing
+health problems and methods of preventing/controlling them; (b) promotion
+of food supply and proper nutrition; (c) adequate supply of safe water and
+basic sanitation; (d) maternal and child health care, including family
+planning; (e) immunization against major infectious diseases; (f)
+prevention of locally endemic diseases; (g) appropriate treatment of
+common diseases and injuries; (h) provision of essential drugs; (i)
+reliance on all health workers to work as a health team.
+
+**Principles for PHC**: (1) social equity — equitable distribution; (2)
+nation-wide coverage; (3) self-reliance; (4) inter-sectoral coordination;
+(5) people's involvement in planning/implementation of health programs —
+community participation; (6) appropriate technology; (7) focused on
+prevention and health promotion; (8) decentralization.
+
+**Definition, continued — PHC includes**: (1) health promotion, (2)
+illness prevention, (3) care of the sick, (4) advocacy, (5) community
+development.
+
+**Additional elements incorporated after Alma-Ata**: oral health, mental
+health, use of traditional medicine, occupational health, HIV/AIDS, acute
+respiratory infection (ARI).
+
+### 12.4 Basic requirements for sound PHC: the 8 A's and the 3 C's {#ch12-4}
+
+**The Basic Requirements for Sound PHC** ("the 8 A's and the 3 C's"): (1)
+Appropriateness, (2) Availability, (3) Adequacy, (4) Accessibility, (5)
+Acceptability, (6) Affordability, (7) Assessability, (8) Accountability,
+(9) Completeness, (10) Comprehensiveness, (11) Continuity.
+
+1. **Appropriateness**: whether the service is needed at all, in relation
+   to essential human needs, priorities and policies; the service must be
+   properly selected and carried out by trained personnel in the proper
+   way.
+2. **Adequacy**: the service proportionate to requirement; a sufficient
+   volume of care to meet a community's needs and demands.
+3. **Affordability**: cost should be within the means and resources of the
+   individual and the country.
+4. **Accessibility**: geographic, economic, cultural accessibility;
+   reachable, convenient services; (source example given: "Bedwin
+   community"); timeliness; coverage; workforce.
+5. **Acceptability**: depends on satisfactory communication between
+   providers and patients, patient trust, and belief in confidentiality/
+   privacy of shared information; ethical codes.
+6. **Availability**: care can be obtained whenever people need it.
+7. **Assessability**: medical care can be readily evaluated.
+8. **Accountability**: implies the feasibility of regular review of
+   financial records by certified public accountants.
+9. **Completeness**: adequate attention to all aspects of a medical
+   problem, including prevention, early detection, diagnosis, treatment,
+   follow-up, and rehabilitation.
+10. **Comprehensiveness**: care is provided for all types of health
+    problems.
+11. **Continuity**: management of a patient's care over time is
+    coordinated among providers.
+
+### 12.5 PHC strategy and summary {#ch12-5}
+
+**PHC Strategy** — changes needed in the healthcare system: total
+coverage with essential health care; an integrated system; involvement of
+communities; use and control of resources; redistribution of existing
+resources; reorientation of health manpower to PHC; legislative changes
+(health policy addressing the PHC strategy's needs); design, planning and
+management of the health system.
+
+**To summarize** — primary care is an approach that: focuses on the
+person, not the disease, considering all determinants of health;
+integrates care when there's more than one problem; uses resources to
+narrow differences; forms the basis for other levels of health systems;
+addresses the community's most important problems via preventive,
+curative, and rehabilitative services; organizes deployment of resources
+aiming at promoting and maintaining health.
+
+**"Aim of Primary Care"** (6-petal diagram around a health-facility icon):
+organizing health services to meet health needs; providing wider coverage
+of health care; helping to train leaders in effective health care
+(see the source-gaps note below for how this item is worded on the slide
+itself); increasing the level of participants who have a stake in health;
+helping to make health care a part of public policy in every sphere;
+preventing social disparities in health care.
+
+**WHO's "Primary Health Care Is…"** infographic: a wheel of icons around a
+central triangle whose three sides are **Multisectoral policy & action**,
+**Empowered people & communities**, and **Primary care & essential public
+health functions as the core of integrated health services**, converging
+on **Health & Well-Being**. "Primary health care is the best way to
+improve people's health and make health and well-being for all a reality.
+It allows communities to thrive in healthy environments, with quality
+health care. It empowers individuals to take care of their own health and
+the health of their families." — "What are you doing to make primary
+health care a reality?"
+
+---
+
+## Ch. 13 — Health Promotion {#ch13}
+
+### 13.1 Definition of health promotion {#ch13-1}
+
+**Health Promotion** (WHO, 1990): "the process of enabling people to
+increase control over, and to improve their health. It moves beyond a
+focus on individual behaviour towards a wide range of social and
+environmental interventions. It is a positive concept emphasizing
+personal, social, political and institutional resources, as well as
+physical capacities." Subtitled in the deck: "The new public health."
+
+Recap: **Health** (WHO, 1948): "A state of complete physical, mental, and
+social well-being and not merely the absence of disease or infirmity."
+
+### 13.2 Determinants of health: five domains {#ch13-2}
+
+Five domains of determinants: (1) social & economic environment, (2)
+physical environment, (3) personal health practices, (4) individual
+capacity & coping skills, (5) health services.
+
+### 13.3 History: from Alma-Ata to the Ottawa Charter {#ch13-3}
+
+1977 — WHO's "Health for All by 2000." 1978 — the Alma-Ata Conference on
+Primary Health Care, with strong emphasis on the role of health education
+and primary health care. "Primary health care is essential health care
+made accessible at a cost a country and community can afford, with
+methods that are practical, scientifically sound and socially acceptable"
+(Alma-Ata Declaration, WHO, Geneva, 1978).
+
+1986: the **1st International Conference on Health Promotion**, producing
+the "**Ottawa Charter for Health Promotion**."
+
+**Ottawa Charter — Health promotion**: "Health promotion is the process
+of enabling people to increase control over, and to improve their health.
+To reach a state of complete physical, mental and social well-being, an
+individual or group must be able to identify and to realize aspirations,
+to satisfy needs, and to change or cope with the environment."
+
+**Ottawa Charter — Prerequisites for health**: the fundamental conditions
+and resources for health are peace, shelter, education, food, income, a
+stable eco-system, social justice and equity, etc. — improvement in
+health requires a secure foundation in these basic prerequisites.
+
+### 13.4 The concept of health promotion {#ch13-4}
+
+Definitions of health promotion fall into two (not mutually exclusive)
+clusters: the first focuses on the environment (e.g. "to improve social
+and environmental living conditions…"); the second focuses on the
+individual (e.g. to "choose new lifestyles…"). Most definitions recognize
+the need to focus on both the individual and the environment.
+
+**Ottawa Charter — Health promotion action means**: (1) Build healthy
+public policy, (2) Create supportive environments, (3) Strengthen
+community action, (4) Reorient health services, (5) Develop personal
+skills.
+
+**The Ottawa Charter "pinwheel" diagram** (WHO 92513): the five action
+means (Build Healthy Public Policy; Create Supportive Environments;
+Strengthen Community Action; Develop Personal Skills; Reorient Health
+Services) are arranged as five swirling blades around a central circle
+containing the three basic strategies: **Enable, Mediate, Advocate** —
+i.e. **Health Promoters' actions** (per the WHO Ottawa Charter, 1986).
+
+### 13.5 Health promotion vs. health education vs. health protection vs. disease prevention {#ch13-5}
+
+"Health Promotion is any combination of health, education, economic,
+political, spiritual or organizational initiative to bring about positive
+attitudinal, behavioral, social, or environmental change conducive to
+improving the health of a population. Health Promotion is directed
+towards action on the determinants or causes of health. Health Promotion,
+therefore, requires close co-operation of sectors beyond health services,
+reflecting the diversity of conditions which influence health. Governments
+at both local and national levels have a unique responsibility to act
+appropriately and in a timely way to ensure that the 'total' environment
+— which is beyond the control of individuals and groups — is conducive to
+health."
+
+- **Health Education**: "a process which informs, motivates and helps
+  people to adopt and maintain healthy practices and lifestyles; advocates
+  environmental changes as needed to facilitate this goal; and conducts
+  professional training and research to the same end" (The National
+  Conference on Preventive Medicine, USA).
+- **Health Protection**: "the branch of public health concerned with
+  policies and practice to improve the prevention and control of diseases
+  and other environmental threats to the health of the population."
+- **Disease Prevention**: covers measures not only to prevent the
+  occurrence of disease (e.g. risk-factor reduction) but also to arrest its
+  progress and reduce its consequences once established.
+
+**A model of health promotion** — a 3-circle Venn diagram of Health
+Education, Prevention, and Health Protection, overlapping in the center.
+
+**Health Education vs. Health Promotion**: health education involves
+giving information and teaching individuals/communities how to achieve
+better health — it seeks to motivate individuals to accept behavioral
+change by directly influencing their values, beliefs, and attitudes. Health
+promotion, by contrast, involves social, economic, and political change to
+ensure the environment is conducive to health. The two concepts are
+"symbiotic strategies" — closely associated/related, benefiting from each
+other.
+
+### 13.6 Basic assumptions of health education and health promotion {#ch13-6}
+
+- Health status can be changed.
+- It is possible to understand the cause of a disease and the various
+  risk factors associated with it.
+- Once health problems are identified, preventive strategies can be
+  developed.
+- "Lifestyle" is only one of four major determinants of health status.
+- Both individuals and groups can be taught to assume responsibility for
+  their health.
+- Individual responsibility should not be confused with victim blaming.
+- An individual must be an active, willing participant in health-behavior
+  change if that change is to be maintained.
+
+*("Is Health Education enough?" — followed by a diagram: Knowledge →
+Healthy behavior → Health → Quality of life.)*
+
+### 13.7 Why we need health promotion, and "health gain" {#ch13-7}
+
+**Why we need Health Promotion**: promotes quality of life; reduces
+inequalities in health; reduces pressure on services; "health promotion is
+concerned with making healthier choices, easier choices"; it is cost
+effective and efficient.
+
+**The over-riding aim of health promotion is "health gain,"** which
+incorporates: adding years to life (reducing avoidable death); adding
+health to life (reducing disease and disability); adding life to years
+(enhancing quality of life).
+
+### 13.8 WHO International Health Promotion Conferences {#ch13-8}
+
+- 1986 Ottawa: Health Promotion
+- 1988 Adelaide: Healthy Public Policy
+- 1991 Sundsvall: Supportive environments
+- 1997 Jakarta: New partners for a new era
+- 2000 Mexico: Bridging the Equity Gap
+- 2005 Bangkok: Global Health Challenges
+- 2008 Turin: future political, cultural, and scientific challenges for HP
+- **2016 Shanghai** (9th Global Conference on Health Promotion): "3 Pillars
+  of Health Promotion" — **Good Governance** (strengthening governance and
+  policies to make healthy choices accessible and affordable to all, and
+  to create sustainable systems that make whole-of-society collaboration
+  real), **Healthy Cities** (creating greener cities that enable people to
+  live, work and play in harmony and good health), **Health Literacy**
+  (increasing knowledge & social skills to help people make the healthiest
+  choices and decisions for their families and themselves) — under the
+  banner **#CHOOSEHEALTH**.
+
+**Priorities for Health Promotion in the 21st Century** (Jakarta, 1997):
+increase investments for health development; consolidate and expand
+partnerships for health; increase community capacity and empower the
+individual; secure an infrastructure for health promotion.
+
+### 13.9 The 7 principles of health promotion {#ch13-9}
+
+1. **Empowering**: health promotion initiatives should enable individuals
+   and communities to assume more power over the personal, socio-economic
+   and environmental factors that affect their health.
+2. **Equitable**: health promotion initiatives should be guided by a
+   concern for equity and social justice.
+3. **Sustainability**: health promotion initiatives should bring about
+   changes that individuals and communities can maintain once initial
+   funding has ended.
+4. **Multi-strategy**: health promotion initiatives should use a variety
+   of approaches — policy development, organisational change, community
+   development, legislation, advocacy, education and communication — in
+   combination with each other.
+5. **Participatory**: health promotion initiatives should involve those
+   concerned in all stages of planning, implementing and evaluation.
+6. **Holistic**: health promotion initiatives should foster physical,
+   mental, social and spiritual health.
+7. **Intersectoral**: health promotion initiatives should involve
+   collaboration of agencies from relevant sectors.
+
+### 13.10 Empowerment {#ch13-10}
+
+**True Empowerment means**: "Creating a situation in which either a
+community or an individual is encouraged to acknowledge their own
+self-esteem and the legitimacy of their own autonomy and, on that basis, to
+identify their own health agenda and to organize themselves to bring it to
+fruition."
+
+**Empowerment** (WHO Glossary): "A process through which people gain
+greater control over decisions and actions affecting their health."
+
+**Psychological empowerment**: increases self-efficacy, improves self-
+image, improves self-esteem, increases confidence — a construct
+incorporating the person's perceptions and actions within their social
+context.
+
+**The Empowerment Model**: "Give a man a fish and you feed him for a day;
+teach him to fish, and he will feed himself for the rest of his life."
+
+**Health Literacy**: means more than being able to read pamphlets and make
+appointments — by improving people's access to health information and
+their capacity to use it effectively, health literacy is critical to
+empowerment.
+
+### 13.11 Diagrams: process, framework, and the relationship between concepts {#ch13-11}
+
+**Health promotion is an "umbrella term"** for a range of activities
+(cartoon: a person under an umbrella labelled "HEALTH PROMOTION," with a
+signpost pointing to: economic/regulatory activities, preventive health
+services, health education, community-based work, environmental health,
+organisational development, public policies).
+
+**The process of health promotion** (Focus → Strategies → Impact →
+Outcomes): Focus on Individuals/Groups/Population → Strategies (education/
+counseling, economic change, legislative change, policy/organization
+change) → Impact (behavioural/educational change; social, economic and
+environmental change) → Better Health → Quality of Life.
+
+**A framework for health promotion** (a more detailed version of the same
+flow): Illness or health Risk → Focus (Individuals/Groups/Populations) →
+Strategies (Lifestyle/Behavioural, Preventative medical, Public Health) →
+Impact, split into two parallel arms — Behavioural adaptations (changes to
+behaviour that will improve health) and Environmental adaptations (changes
+to the environment that promote health) — both feeding into Outcomes
+(Better health and well-being → Quality of life).
+
+**Relationship between major health concepts**: Determinants of health →
+**Health Promotion** → splits into **Health Education** (→ Individual
+capacities, built via consciousness-raising/education/motivation/
+skill-building) and **Healthy Public Policies** (→ Environmental supports,
+built via rules/regulations/guidelines, facilities and services, social
+supports, incentives) → both converge on **Health Literacy** (health
+knowledge, beliefs and practices; capacity and self-efficacy; community
+empowerment) → **Changed health behaviour and practices** → **Improved
+health outcomes, reduced inequities**. (Risk factors feed into Health
+Education; risk conditions feed into Healthy Public Policies.)
+
+### 13.12 Change in direction {#ch13-12}
+
+Three paired shifts in health-sector orientation:
+
+- From a **disease-centred** focus to a **people-centred**, wellness
+  focus — positive health as part of human development.
+- From **illness** → to **illness risk factors** → to **factors that
+  constitute good health**; i.e. from reactive/curative to proactive/
+  preventive.
+- From the **health sector alone** to a **multi-sectoral, shared**
+  approach — combining health-sector resources and efforts with other
+  sectors to influence external factors on health.
+
+---
+
 ## Source gaps and flagged passages
 
 No passages were flagged as illegible or ambiguous. All 47 vision-read pages
@@ -2487,6 +3227,33 @@ note) — new gaps found this pass:**
   board-game photo, guinea-pig and investigator cartoons, sprinters at a
   starting line, a Chernobyl aerial photo) — reviewed and confirmed
   decorative, not separately cited.
+
+**Chapters 11–13 (decks 11–13, all PDF) — new gaps found this pass:**
+
+- **Ch. 12, "Aim of Primary Care" petal diagram** (`#ch12-5`): one petal
+  reads "Helping to train leaders **ineffective** health care" — almost
+  certainly a dropped space in the original slide ("in effective health
+  care"), producing the opposite of the evident intended meaning.
+  Transcribed as written per the source-outranks-correction rule (given as
+  "in effective health care" in the source.md prose above, flagging the
+  slide's own apparent typo here rather than silently normalizing it away).
+- **Ch. 12, duplicate "Levels of Healthcare" title** (`#ch12-1`): the deck
+  uses the exact title "Levels of Healthcare[ system]" for two different
+  diagrams — a 4-tier Primary/Secondary/Tertiary/Quaternary *care* pyramid,
+  and (14 slides later) a 3-tier Primary/Secondary/Tertiary *prevention*
+  pyramid. Both are transcribed under that section, distinguished by
+  content rather than by title, since the deck itself does not distinguish
+  them and both are legitimate, separately testable frameworks.
+- **Ch. 11, deck 11 page 22** (`#ch11-4`, the Iquitos infant-malnutrition
+  problem tree): this page's title text alone ("Example: Problem Tree of
+  Infant Malnutrition, Iquitos, Peru, 2005") is long enough to clear the
+  naive char-count *and* the thin-content check used to decide which pages
+  need vision — even though the page's actual content (the tree diagram
+  itself) is entirely image-only. Caught only by noticing the resulting
+  gap while writing this chapter, not by either automated check; the page
+  was then force-rendered and read on a second pass. Worth remembering for
+  later B rows: a long, real title can hide an otherwise all-diagram page
+  from both of this course's page-triage heuristics.
 
 No passages were flagged as illegible or ambiguous. All 47 vision-read pages
 were clearly legible; the 27 pages that cleared PyMuPDF's char-count
