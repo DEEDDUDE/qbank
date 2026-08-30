@@ -1,7 +1,7 @@
 ---
 course: microbiology
 tab: finals
-scope: five sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
+scope: six sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
   duplicate models of one exam (نموذج 1, 3, 4, ٥, ٦; نموذج 2 was never captured),
   MICRO-F-001 through 097. (B) raw/finals/before2020-MICRO-FINAL/ — seven-plus
   DISTINCT, unrelated old final exams found tangled together across two raw
@@ -13,9 +13,11 @@ scope: five sub-collections. (A) raw/finals/2023-2024-Finals/Medicine/ — 5
   raw/finals/2020-2021-Final/ — "Exam I", the 2020-2021 sitting, MICRO-F-416
   through 464. (E) raw/finals/before2020-resit-2017/ — "Exam J", a compiled
   answer-key document for a 2017 resit ("2017 اكمال"), MICRO-F-465 through
-  538. Each entry in sub-collections B, C, D and E carries a `source:` line
-  naming which exam it came from, since the `models:` mechanism does not
-  apply across unrelated sittings.
+  538. (F) raw/finals/before2020-resit-ekmal/ — a second, blank/unmarked
+  capture of the exact same document as (E), contributing no new IDs (see
+  its own note in the status section below). Each entry in sub-collections
+  B, C, D and E carries a `source:` line naming which exam it came from,
+  since the `models:` mechanism does not apply across unrelated sittings.
 status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and نموذج ٥ (complete, 50/50) done.
   نموذج 3 done, but only 44/50 questions of it: Q35, 36, 45, 46, 47, 48 have no
   screenshot anywhere in the PDF export at all (not even a cut-off header for
@@ -221,8 +223,8 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
   (drop to the lower tier when ambiguous). 80 questions in the source's own
   numbering (Q1-80), all present, no gaps — 74 new (MICRO-F-465-538), one
   genuinely unanswered (MICRO-F-475, no highlight present), one incomplete
-  at the very last page with no highlighted answer and an odd option-letter
-  gap ((c) to (e), no (d) — MICRO-F-538, needs-eye). Questions 23-27 are one
+  at the very last page with no highlighted answer (MICRO-F-538, later
+  confirmed complete — see sub-collection F below). Questions 23-27 are one
   shared 5-item matching block, split into five mcq entries against the same
   option list rather than invented as separate option sets (precedent:
   MICRO-F-365-368). This exam bank turned out to overlap heavily with
@@ -243,13 +245,26 @@ status: IN PROGRESS — sub-collection A: نموذج 1 (complete, 50/50) and ن�
   between. One more near-miss was kept separate rather than merged (Exam
   J's Q39 vs MICRO-F-055, same fact, True/False vs 4-option MCQ shape).
 
+  Sub-collection F (raw/finals/before2020-resit-ekmal/, 14 phone photos)
+  turned out to be a second capture of the exact same "2017 اكمال" document
+  as sub-collection E (Exam J) — word-for-word identical stems and options
+  across all 80 questions, this time a plain printed/photocopied paper exam
+  with zero marks, highlights, or circles anywhere (a blank copy, same
+  precedent as before2020-MICRO-FINAL's "Microbiology 4" for Exam A). It
+  contributed zero new questions and zero new claims, but its clean scan of
+  the last page confirmed MICRO-F-538's option list is a complete a-b-c-d
+  with no gap — the stray (e) in Exam J's own capture was a misread of that
+  photo's blur, corrected in place. No `source:` citations of its own exist
+  in the entries below since nothing here originates from it; the only
+  trace is MICRO-F-538's corrected note.
+
   Every count below is computed from the entries that follow, per CLAUDE.md
   hard rule 6.
 questions: 538
 tiers: claimed 521 | open 17
 forms: mcq 484 | qa 54
 disputed: 22
-needs-eye: 19
+needs-eye: 18
 next-id: MICRO-F-539
 ---
 
@@ -7194,13 +7209,15 @@ d) All the cells will be red
 ### MICRO-F-538
 tier: open
 form: mcq
-needs-eye: true
 source: Exam J, Q80
-note: No option highlighted anywhere in the capture, and option lettering
-  jumps from (c) straight to (e) with no (d) ever appearing — either a
-  genuine gap in the source document itself or a page-break capture loss;
-  this is also the last page of the document (17 of 17), so no continuation
-  exists to check against.
+note: Originally transcribed with the last option lettered (e) and no (d),
+  from the blurrier of Exam J's two phone-screenshot photos of this page —
+  a plain, unmarked printed copy of the same exam (raw/finals/before2020-
+  resit-ekmal/) turned up a clean scan of this same last page confirming the
+  option list is a full a-b-c-d with no gap; the (e) was a misread of this
+  capture's own blur, not a source anomaly. Corrected here. Still tier open
+  — the blank copy carries no marks either, so the answer remains
+  genuinely unknown.
 Early attempts at the polymerase chain reaction (PCR) used E.coli DNA
 polymerase. This was replaced with DNA polymerase from Thermus Aquaticus
 ("Taq" polymerase). Which of the following is the primary advantage in
@@ -7208,4 +7225,4 @@ using this enzyme
 a) It is cheaper than E.coli polymerase
 b) Taq polymerase is stable at high temperatures (95 C)
 c) Use of Taq polymerase enables lower temperature to be used
-e) Use of Taq polymerase results in fewer PCR cycles
+d) Use of Taq polymerase results in fewer PCR cycles
