@@ -2255,6 +2255,288 @@ here.
 
 ---
 
+## Ch. 14 — Gene Disorders {#ch14}
+
+*Source: "5.Gene Disorders.pdf" (46p). Titled in full "Types of gene mutations and
+Genetic Disorders."*
+
+### 14.1 Mutation basics {#ch14-1}
+A **mutation** is a permanent change in DNA, either inherited from a parent or
+acquired. **Gene mutation** may result in a single base error; **chromosome
+mutation** is a visible chromosome-level change.
+
+**Ways gene mutations are classified:**
+- Single bp substitution, deletion, and insertion.
+- Changes in the number of copies of trinucleotides, e.g. (AGC)₃ → (AGC)₅.
+- Insertion of transposable elements.
+- Spontaneous or induced.
+- Occurring in somatic or germ cells.
+- Occurring in coding genes or non-coding regions.
+
+**Spontaneous mutations** have no known cause — accidental, arising in normal
+biological/chemical processes (e.g. DNA replication errors, free radicals from
+respiration, tautomers). **Induced mutations** result from external factors,
+natural (UV from the sun, cosmic/mineral radiation) or artificial (X-rays).
+
+**Classification by location.** **Somatic mutations** occur in somatic cells and
+only affect the individual in which they arise; may be autosomal or X-linked,
+dominant or recessive; have a more pronounced effect if they happen early in
+development, and can later be masked within a tissue of thousands of normal
+cells. **Germ-line mutations** alter gametes and are passed to the next
+generation.
+
+### 14.2 Point mutations {#ch14-2}
+**Point mutations** affect a single base pair of DNA — the minimum change
+possible. They can reduce or eliminate gene function (**loss-of-function**) or,
+rarely, increase gene activity (**gain-of-function**).
+
+**Two types of point mutations:** (1) base-pair substitutions; (2) base-pair
+insertion/deletion (**indel mutations**).
+
+**Base substitutions — transitions vs. transversions.** `[figure]` "18.3 A
+transition is the substitution of a purine for a purine or of a pyrimidine for a
+pyrimidine; a transversion is the substitution of a pyrimidine for a purine or of
+a purine for a pyrimidine." Transitions: purine→purine (A↔G) or pyrimidine→
+pyrimidine (T↔C). Transversions: purine→pyrimidine or pyrimidine→purine (A↔C,
+A↔T, G↔C, G↔T, and the reverse direction).
+
+**Consequences of base substitution:**
+- **Silent mutation** — results in the same amino acid via a different codon;
+  never alters the amino acid sequence.
+- **Missense mutation** — results in a different amino acid. **Conservative
+  substitution** replaces an amino acid with a chemically similar one (less
+  likely to affect function severely = a neutral mutation). **Non-conservative
+  substitution** replaces it with a chemically different amino acid, which can
+  cause severe change.
+- **Nonsense mutation** — the most dangerous; results in a stop codon and a
+  shorter polypeptide. The closer to the 3′UTR, the more likely the truncated
+  protein still retains some activity.
+
+**Indel mutations.** **Frameshift mutations** — deletions/insertions not
+divisible by 3 — result in translation of incorrect amino acids, premature stop
+codons (UAA, UAG, UGA → shorter polypeptides), or read-through of stop codons
+(longer polypeptides); this causes complete loss of structure and function.
+**In-frame deletion/insertion** — deletion or insertion of a multiple of three
+nucleotides, which does not alter the reading frame.
+
+**Forward vs. reverse mutation.** **Forward mutation** converts a wild-type
+allele to a mutant allele. **Reverse mutation** converts a mutant allele back to
+the original wild-type allele.
+
+### 14.3 Suppressor mutations {#ch14-3}
+A **suppressor mutation** is a mutation at a second site that hides or
+suppresses the original mutation, producing a double mutant that exhibits the
+phenotype of an unmutated wild type.
+- **Intragenic** — the wild-type DNA sequence/phenotype is restored by a second
+  mutation within the same codon, or elsewhere in the same gene.
+- **Intergenic** — occurs by mutation in a different gene; together, the two
+  mutations restore the organism to wild-type.
+
+`[figure]` "(a) Intragenic reversion": wild-type coding strand 5′-TTA-3′ (Leu) →
+mutation TTC (Phe, a missense mutation) → revertant CTC (Leu again) — a
+base-pair substitution first creates the missense mutation, then a second
+base-pair substitution reverts the mutated codon to again encode the wild-type
+(Leu) amino acid.
+
+`[figure]` A three-panel intergenic-suppression diagram: (a) wild-type sequence
+(TTG/AAC) transcribes/translates normally to a full-length functional protein
+with Leu incorporated; (b) a base substitution at site 1 creates a stop codon
+(UAG in the mRNA), halting protein synthesis and producing a shortened,
+nonfunctional protein; (c) a second-site base-substitution mutation at site 2 (in
+a gene encoding a tyrosine-tRNA) alters that tRNA's anticodon from AUA to AUC,
+which now happens to pair with the site-1 stop codon (UAG) instead of triggering
+termination — translation continues past the stop codon and Tyr is incorporated,
+yielding a full-length, functional (though not wild-type-sequence) protein. This
+illustrates how two separate mutations, in two different genes, together restore
+a functional protein.
+
+### 14.4 Mutations in non-coding sequences {#ch14-4}
+Mutations outside coding sequence may produce no phenotype, or may occur in
+promoters/enhancers — affecting the quantity, not the quality, of a gene product.
+Examples: a mutated transcription-factor binding site (no response to an
+environmental cue); a mutated suppressor-binding site (constitutively active
+gene); a mutated RNA-polymerase binding site (blocks gene expression).
+
+Other regulatory mutations can occur at RNA docking sites: ribosome binding
+sites; splice sites (exon-intron junctions); sites that regulate translation;
+sites that regulate mRNA localization.
+
+`[figure]` "Table 18.2 — Characteristics of different types of mutations": a
+consolidated glossary table defining base substitution, transition, transversion,
+insertion, deletion, frameshift mutation, in-frame deletion/insertion, expanding
+nucleotide repeats, forward mutation, reverse mutation, missense mutation,
+nonsense mutation, silent mutation, neutral mutation, loss-of-function mutation,
+gain-of-function mutation, lethal mutation, suppressor mutation, intragenic
+suppressor mutation, and intergenic suppressor mutation — each matching the
+definitions given in prose above.
+
+### 14.5 Worked disease examples — point/coding mutations {#ch14-5}
+**Familial Mediterranean fever (FMF).** Inherited autosomal recessively, though a
+significant proportion of heterozygotes also express the phenotype. Affects
+people of the Mediterranean basin (mainly Armenians, Sephardic Jews, Arabs, and
+Turks, though not restricted to these groups); about 100,000-150,000 patients
+affected worldwide.
+
+*Clinical features:* childhood onset in ~50% of cases, most patients develop
+disease before age 30. Symptoms: recurrent painful inflammation episodes
+(abdomen, chest, or pericardium), acute mono- or oligo-arthritis, fever, rash.
+Crisis duration 1-3 days; attack frequency from several times weekly to once
+every few months or years.
+
+*Genetics.* Caused by mutations in the **MEFV** (MEditerranean FeVer) gene, on
+the short arm of chromosome 16, encoding a protein called **pyrin**. Pyrin is
+expressed mostly in neutrophils and monocytes and has a key role in apoptosis and
+inflammatory pathways. Mutated pyrin causes an exaggerated inflammatory response
+via uncontrolled interleukin-1β secretion. Almost all pathogenic variants are
+single-nucleotide substitutions, the most frequent being p.Met680Ile,
+p.Met694Val, p.Met694Ile, and p.Val726Ala, clustered within exon 10 of MEFV.
+
+*Treatment.* **Colchicine** is first-line — its anti-inflammatory action comes
+from inhibiting microtubule polymerization, altering leukocyte adhesion and
+mobility; it prevents acute symptoms and episode recurrence. *Complications:*
+serum amyloid A (SAA) amyloidosis, which can cause renal failure and can be
+prophylactically treated with colchicine (a glomerular SAA-deposition kidney
+biopsy image from an FMF patient illustrates this).
+
+**Cystic fibrosis (CF).** Monogenic; caused by deletion of 3 bases of the
+**CFTR** gene on the long arm of chromosome 7. Fluid in the lungs and mucus
+clogs the airways, trapping bacteria and leading to infections and potential
+respiratory failure; the mucus also prevents release of digestive enzymes needed
+to break down food and absorb nutrients. Common among Caucasians (1 in 20 are
+carriers) — the deck poses "therefore is it dominant or recessive?" (answered by
+the earlier statement that carriers, at 1-in-20 prevalence, are unaffected — i.e.
+recessive, consistent with an autosomal recessive pattern per Ch.13). One of the
+first disorders actively studied for gene therapy.
+
+### 14.6 Worked disease examples — expanding nucleotide repeats {#ch14-6}
+**Expanding nucleotide repeat mutations** — the number of copies of a set of
+nucleotides increases. Most such diseases involve expansion of a trinucleotide
+repeat, most often CNG (N = any nucleotide). First observed in 1991 in the
+**FMR-1** gene, which causes fragile-X syndrome — the most common hereditary
+cause of mental retardation. FMR1 is involved in brain development and synapse
+formation (cell-to-cell communication between neurons).
+
+`[figure]` "Table 18.1 — Examples of genetic diseases caused by expanding
+nucleotide repeats": spinal and bulbar muscular atrophy (CAG, normal 11-33 →
+disease 40-62); fragile-X syndrome (CGG, 6-54 → 50-1500); Jacobsen syndrome (CGG,
+11 → 100-1000); spinocerebellar ataxia, several types (CAG, 4-44 → 21-130);
+autosomal dominant cerebellar ataxia (CAG, 7-19 → 37-220); myotonic dystrophy
+(CTG, 5-37 → 44-3000); Huntington disease (CAG, 9-37 → 37-121); Friedreich ataxia
+(GAA, 6-29 → 200-900); dentatorubral-pallidoluysian atrophy (CAG, 7-25 → 49-75);
+myoclonus epilepsy of the Unverricht-Lundborg type (CCCCGCCCCGCG, 2-3 → 12-13).
+
+**Fragile-X syndrome.** Repeated sequence CGG. The number of repeat copies
+correlates with disease severity and with the probability of further expansion
+(**anticipation**). Methylation turns the gene off. Inheritance: X-linked
+dominant, arising by spontaneous mutation.
+
+**Huntington's disease (HD)**, also called Huntington's chorea ("chorea" =
+dance-like movements, referring to the disease's characteristic uncontrolled
+motions). An inherited, degenerative brain disorder causing eventual loss of both
+mental and physical control; caused by an autosomal dominant allele.
+
+*Symptoms —* cognitive: difficulty organizing/focusing on tasks, difficulty
+learning new information, lack of awareness of one's own behaviors. Movement:
+involuntary jerking, impaired balance, difficulty with speech or swallowing.
+
+`[figure]` A diagram contrasting the HTT gene (locus 4p16.3) with under-35 vs.
+increased CAG-repeat counts: under 35 repeats → non-mutated huntingtin protein
+(with a glutamine-repeat stretch shown) → healthy neuron; increased CAG repeats →
+mutated huntingtin protein (longer glutamine-repeat stretch) → neuron
+degeneration.
+
+**Marfan syndrome.** A genetic disorder of the body's connective tissue,
+autosomal dominant; caused by a mutation in the **FBN1** gene (encodes
+fibrillin-1, a glycoprotein), localized to chromosome 15 long arm at 15q21.1.
+Also called a "variable expression" genetic disorder. 25% of cases arise from a
+spontaneous mutation at conception. Over 1,300 FBN1 gene mutations have been
+identified.
+
+*What fibrillin does.* FBN1 protein is transported out of cells into the
+extracellular matrix, where fibrillin-1 molecules attach to each other and to
+other proteins to form threadlike filaments called **microfibrils**. Microfibrils
+form elastic fibers, enabling skin, ligaments, and blood vessels to stretch; they
+also provide support to more rigid tissues (bones, and tissues supporting nerves,
+muscles, and eye lenses).
+
+`[figure]` A two-panel schematic of fibrillin assembly: (A) fibrillin-1
+molecules and FN (fibronectin) fibrils assembling into fibrillin microfibers at
+the cell surface, anchored via α5β1 integrin and cytoskeletal signaling; (B) a
+mature microfibril shown as a bead-like filament core wrapped by elastin.
+
+*Principal clinical manifestations.* Skeleton: long and skinny arms and legs,
+arachnodactyly, protruding chest bone, scoliosis. Ocular: dislocation of one or
+both lenses. Cardiovascular: defects of the heart valves and aorta.
+
+`[figure]` Three clinical photos/illustrations of Marfan syndrome: a
+scoliotic/winged-scapula back; an illustrated figure noting "this person with the
+Marfan syndrome is tall and thin and has an arm span that exceeds her height";
+and a hand photo demonstrating arachnodactyly (long, thin fingers).
+
+**Thrombophilia** (hypercoagulable state) — an abnormality of blood coagulation
+that increases thrombosis risk (blood clots in vessels). The most common
+congenital type: **Factor V Leiden** mutation.
+
+*Factor V Leiden mutation.* Autosomal dominant hypercoagulability disorder with
+incomplete penetrance; discovered in Leiden, Netherlands, 1994. Most common
+genetic cause: a G>A substitution in the F5 gene (chromosome 1), changing
+arginine to glutamine; this facilitates thrombin overproduction, leading to
+excess fibrin and excess clotting.
+
+*Mechanism.* Factor V is a cofactor for thrombin activation. Protein C is a
+natural anticoagulant that normally arrests the clotting pathway by cleaving
+Factor V (so fibrin can no longer form). The Factor V Leiden molecule has an
+abnormal shape making it resistant to activated protein C (APC), producing a
+hypercoagulable state: Factor V remains active → thrombin overproduction →
+excess fibrin and clotting → DVT (deep vein thrombosis).
+
+### 14.7 X-linked and mosaic examples {#ch14-7}
+**Duchenne muscular dystrophy (DMD).** Since the DMD gene is on the X
+chromosome, it is usually the mother who passes the condition to her children —
+a recessive X-linked form of muscular dystrophy (muscle degeneration). Caused by
+a mutation/deletion in the **dystrophin** gene (skeletal and cardiac muscle; 79
+exons, spanning millions of base pairs).
+
+`[figure]` "Fig. 6.4" — the dystrophin molecule anchors the muscle-cell
+cytoskeleton to the extracellular matrix via the dystrophin glycoprotein complex.
+Muscle cells lacking dystrophin are mechanically fragile and fail after a few
+years, causing progressive muscle weakness. Absence of dystrophin permits excess
+calcium (Ca²⁺) to penetrate the sarcolemma (cell membrane); the resulting
+alterations in calcium and signalling pathways cause water to enter mitochondria,
+which then burst — necrosis. (CK = creatine kinase, shown in the diagram as a
+marker released by this process.)
+
+`[figure]` "Gowers sign" — an illustrated sequence of a child rising from the
+floor by "climbing up" his own legs with his hands (using hands to push on legs
+to stand), a classic clinical sign of proximal muscle weakness seen in DMD.
+
+**Random X-chromosome inactivation.** Early in mammalian development, one of the
+two X chromosomes in each female somatic cell is randomly inactivated — the
+**Lyon hypothesis** (Mary Lyon, 1962). The inactive X is visible near the nuclear
+wall as a condensed **Barr body** (first visualized by Murray Barr, 1949).
+
+`[figure]` A diagram of random X inactivation at the 8-cell stage: a cell
+carrying a maternal (M) and paternal (P) X chromosome undergoes random X
+activation, producing two daughter-cell lineages — one with the maternal X active
+(paternal X as the inactive Barr body) and one with the paternal X active
+(maternal X as the inactive Barr body) — each seeding further tissue development,
+so the resulting tissue is a mosaic of both lineages.
+
+**Female mammals are mosaics.** Once X inactivation occurs in a cell, it is
+permanent in all descendants of that cell. Female mammals are therefore mosaics
+of two cell populations — one expressing the maternal X, the other the paternal
+X — with alleles of both chromosomes expressed roughly equally over the whole
+organism.
+
+**Calico cats are visibly mosaic.** In cats, the X chromosome carries a gene for
+coat color: one allele specifies black, the other yellow. X inactivation in
+heterozygous females produces a pattern of orange and black patches unique to
+each individual. **Epistasis** is a genetic condition in which certain alleles of
+one locus can alter the expression of alleles at a different locus (noted on the
+same slide as the calico-cat example, in that general context).
+
+---
+
 ## Source gaps and flagged passages
 
 None. Every page reviewed — whether from its text layer or, for the 18 near-blank
