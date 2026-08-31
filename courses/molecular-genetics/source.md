@@ -2875,6 +2875,112 @@ compensating expression, so the gene product is entirely absent.
 
 ---
 
+## Ch. 16 — Genetics of Cancer {#ch16}
+
+*Source: "7.Genetics of cancer.pdf" (49p). Full title: "Genetics of Cancer —
+Alterations in the Cell Cycle and Gene Mutations that Cause Cancer."*
+
+### 16.1 Defining cancer {#ch16-1}
+**Cancer** is a group of disorders that causes cells to escape normal controls
+on cell division: cancer cells divide more frequently; are not inhibited by
+contact with other cells and can form tumors; and can invade other tissues, a
+process called **metastasis**.
+
+### 16.2 Control of the cell cycle {#ch16-2}
+Normal cells grow, divide, mature, and die. Mechanisms controlling progress
+through the cell cycle: checkpoints; length of telomeres (the **Hayflick
+limit/time**); chemical signals from within and outside the cell.
+
+`[figure]` A cell-cycle-phase flowchart: **G1** (active gene expression and
+cell activity, preparation for DNA synthesis) → **S phase** (DNA replication
+and chromosome duplication) → **G2** (preparation for cell division) → **M
+phase** (cell division — mitosis in somatic cells, meiosis in germ-line cells).
+A subset of G1 cells instead exit to **G0** (terminal differentiation and
+arrest of cell division), from which the cell either remains specialized but
+does not divide, or eventually undergoes cell death (apoptosis).
+
+**Failure to stop at cell cycle checkpoints — consequences:**
+- Mutation in a gene that usually slows the cell cycle → accelerated rate of
+  cell division.
+- Failure to pause for DNA repair → faulty DNA leads to unregulated cell
+  growth.
+- Loss of control over telomere length → cancer cells express **telomerase**,
+  an enzyme that elongates telomeres, so cells continue to divide past the
+  normal ~50-mitosis limit.
+
+**Chemical signals that control the cell cycle:**
+1. **Cyclin and kinase** — proteins that initiate mitosis; requires a buildup
+   of cyclin to pair with a kinase.
+2. **Hormones** — chemical signals from specialized glands that stimulate
+   mitosis.
+3. **Growth factors** — chemical factors produced locally that stimulate
+   mitosis.
+
+The cell cycle passes the genetic information for all characteristics from
+parent to daughter cells (via mitosis, ending in cytokinesis).
+
+**The three main cell-cycle checkpoints named in this deck:** the G1/S
+checkpoint, the G2/M checkpoint, and the spindle-assembly checkpoint.
+
+### 16.3 The G1/S checkpoint — RB1 and cyclin D1 {#ch16-3}
+**Cyclin-dependent kinases (CDKs)** act by phosphorylation; a CDK is
+functional only when associated with another protein called cyclin.
+
+`[figure]` A G1/S-checkpoint (retinoblastoma pathway) diagram: cyclin D1 (D1)
+combines with a transcription factor complex alongside E2F (D1+E), producing
+an inhibitory effect that is progressively relieved as D1 accumulates — the
+core interaction underlying the RB1/cyclin D1 mechanism described below.
+
+**The RB1 gene is a tumor suppressor gene.** The unphosphorylated pRB (the
+RB1 gene product) acts like a brake on the cell cycle, preventing progression
+to S phase. It is one of many proteins known as tumor suppressors, with roles
+in blocking the cell cycle. RB1, which produces pRB, is a tumor suppressor
+gene.
+
+**The cyclin D1 gene is a proto-oncogene.** The cyclin D1 gene product forms
+the cyclin D1-Cdk4 complex, which stimulates the cell cycle to enter S phase.
+A **proto-oncogene** is defined as a gene that, when expressed, stimulates
+cell cycle progression.
+
+**Cell cycle mutations and cancer.** Normal cells proliferate only when
+needed, in response to growth-factor signals. Cancer is characterized by
+out-of-control proliferation of cells that can invade and displace normal
+cells.
+
+**Two kinds of mutations alter cyclin D1-Cdk4/pRB interactions:**
+1. Mutations that increase the number of copies of cyclin D1 — higher-than-
+   normal cyclin D1 levels interact with the constantly-available Cdk4 to
+   promote uncontrolled entry into S phase, via constant phosphorylation of
+   pRB.
+2. Mutations affecting RB1 itself, producing a pRB that binds weakly or not
+   at all to E2F — this allows uncontrolled entry into S phase because E2F
+   remains constantly available to activate genes needed for S-phase
+   progression. Several cancers are associated with RB1 mutations, including
+   retinoblastoma, and bladder, lung, bone, and breast cancers.
+
+### 16.4 The G2/M and spindle-assembly checkpoints {#ch16-4}
+**G2/M checkpoint — mitosis-promoting factor (MPF).** Cyclin B + CDK forms an
+inactive complex called MPF; MPF is activated by activating factors
+(dephosphorylation). Active MPF phosphorylates other proteins, driving many
+mitotic events: nuclear-membrane breakdown, spindle formation, and chromosome
+condensation.
+
+**Keep in mind:** DNA damage inhibits the activation of MPF; consequently the
+cell is arrested in G2 and does not undergo division.
+
+**Spindle-assembly checkpoint.** Cyclin B is degraded, reducing the amount of
+MPF and initiating anaphase — but this checkpoint delays the onset of
+anaphase until all chromosomes are aligned on the metaphase plate and sister
+kinetochores are attached to spindle fibers from opposite poles. If all
+chromosomes are not properly aligned, the checkpoint blocks the destruction
+of cyclin B.
+
+**Apoptosis (cell death).** A signal arrives at a "death" receptor on the
+cell; **caspase** enzymes carry out cell destruction; white blood cells
+destroy the resulting cell fragments.
+
+---
+
 ## Source gaps and flagged passages
 
 None. Every page reviewed — whether from its text layer or, for the 18 near-blank
