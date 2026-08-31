@@ -2981,6 +2981,150 @@ destroy the resulting cell fragments.
 
 ---
 
+### 16.5 Cancer as a genetic disease {#ch16-5}
+**How many mutant genes are required to produce cancer?** A mutation in a
+single gene is not enough to produce cancer — mutations in many important
+genes are required. The environment (smoking, radiation) is the main cause of
+cancer, meaning most cancers are preventable.
+
+**Types of cancer can be hereditable.** It is now believed that cancer is
+most often caused by genetic mutation, typically a series of mutations, some
+of which may be inherited. Some people are more likely to develop certain
+cancers because they have inherited mutations in cancer-related genes —
+example: women with **BRCA** mutations (breast cancer). *(The slide also
+poses, without an answer transcribed: "why does cancer tend to strike older
+people?")*
+
+`[figure]` "The genetic basis of sporadic cancer": both alleles of a gene
+become inactivated, independently, in one particular somatic cell — this
+single cell's descendants form a clone of cancer cells, leading to loss of
+growth control and unchecked cell proliferation.
+
+`[figure]` "The genetic basis of the dominantly inherited familial cancer
+syndromes": an altered allele is inherited and so is present in all body
+cells containing genetic material; when the second (previously normal)
+allele of that gene pair becomes inactivated in one particular somatic cell,
+that cell's descendants form a clone of cancer cells, again leading to loss
+of growth control and unchecked proliferation. *(Contrasted with the sporadic
+case above: the inherited case starts one mutational step ahead, needing only
+a single further somatic hit rather than two.)*
+
+### 16.6 Oncogenes {#ch16-6}
+**Oncogenes** form when proto-oncogenes that promote cell division are
+improperly activated. This may lead to increased expression of the gene in a
+new chromosomal location, or production of fusion proteins with new
+functions.
+
+**Ras as a proto-oncogene.** In response to growth-factor binding at its
+receptor, the Ras gene product combines with GTP to promote cell division. In
+cancer cells, the RAS gene product is locked into its GTP-binding shape and
+no longer requires a receptor signal to stimulate cell division.
+
+`[figure]` "23.9 The Ras signal-transduction pathway conducts signals from
+growth factors and hormones to the nucleus and stimulates the cell cycle.
+Mutations in this pathway often contribute to cancer": a receptor bound by a
+growth factor and phosphorylated activates Ras (shown bound to GTP), which
+activates Raf (inactive → active), which activates MEK (inactive → active),
+which activates MAP kinase (inactive → active); activated MAP kinase then
+moves into the nucleus and activates transcription factors.
+
+**Chromosome rearrangements are associated with certain cancer types.**
+Movement of a proto-oncogene on chromosome 8 to the vicinity of a highly
+active gene on chromosome 14 causes **Burkitt's lymphoma**.
+
+**Burkitt lymphoma, in detail.** A translocation of the **Myc** gene on
+chromosome 8. Normal Myc genes control cell growth and division; translocated
+Myc genes don't function properly because they come under control of
+regulatory sequences that normally activate immunoglobulin (Ig) production —
+this leads to cancer of the lymph nodes.
+
+**The Philadelphia chromosome**, found in patients with chronic myeloid
+leukemia (**CML**), causes a fusion protein to be made from a combination of
+genes on chromosomes 9 and 22 — the fusion product is **BCR-Abl**, a tyrosine
+kinase (targetable by tyrosine kinase inhibitors, noted alongside "Der 22" and
+"unbalanced" on this slide's terse annotation list).
+
+### 16.7 Tumor suppressor genes {#ch16-7}
+**Tumor suppressor genes** are genes that inhibit cell division and are
+inactivated in cancer:
+- Mutation in a gene that halts the cell cycle in G1 causes retinoblastoma.
+- Mutation in **p53**, a gene that promotes apoptosis when a cell has damaged
+  DNA, leads to a variety of cancers.
+- Mutation in **BRCA1**, involved in tumor suppression and DNA repair, leads
+  to inherited breast cancer.
+
+`[figure]` "23.5 Both oncogenes and tumor-suppressor genes contribute to
+cancer but differ in their modes of action and dominance": (a) **oncogenes**
+— dominant-acting mutation: homozygous wild-type (+/+) produces normal
+growth-stimulating factors → normal cell division; a mutation in *either*
+allele (heterozygous +/−) produces one hyperactive stimulatory factor
+(alongside one still-normal factor) → excessive cell proliferation, because
+proto-oncogene mutant alleles tend to be dominant (one mutant copy is
+sufficient). (b) **tumor-suppressor genes** — recessive-acting mutation:
+homozygous wild-type (+/+) produces normal growth-limiting factors → normal
+cell division; a mutation in *both* alleles (or one mutation plus a deletion
+of the other, giving homozygous −/−) produces no inhibitory factor from
+either allele → excessive cell proliferation, because tumor-suppressor mutant
+alleles are recessive (both alleles must be mutated to produce excessive
+proliferation).
+
+**In normal cells, the Rb gene product controls the G1→S transition.** Rb
+(the retinoblastoma gene product) inhibits the action of E2F until chemically
+modified. **E2F** is a transcription factor required to activate genes for
+DNA synthesis. A CDK-cyclin intracellular signal modifies Rb so that E2F can
+mediate the G1→S transition and initiate DNA synthesis.
+
+**What is retinoblastoma?** A tumor of the eye that occurs at high frequency
+in children and sporadically at older ages. Occurs in hereditary and
+non-hereditary (sporadic) forms. Caused by a deletion on chromosome 13, locus
+13q14.
+
+**The RB gene, mechanistically.** People prone to retinoblastoma have one
+mutated copy of the Rb gene (Rb⁻) and one normal copy (Rb⁺). Conversion of the
+Rb⁺ copy to Rb⁻ by a further mutation leads to uncontrolled growth of retinal
+cells.
+
+**Hereditary retinoblastoma.** Inherited as a dominant genetic trait. Members
+of high-risk families inherit one normal and one abnormal allele — this is a
+strong disposition, not the disease itself. After a retinal cell undergoes
+one further spontaneous mutation, it is left with two mutated alleles, and
+that cell divides uncontrollably, giving rise to a retinal tumor. Develops at
+a young age and affects both eyes.
+
+**Sporadic retinoblastoma.** Very rare. Requires that two separate
+spontaneous mutations occur in the RB gene within the same cell — the tumor
+occurs only once both alleles carry the mutation, and that cell then divides
+uncontrollably. Develops at an older age and affects only one eye. *(Together,
+these two forms are this deck's worked illustration of Knudson's two-hit
+model, though the term "two-hit" itself is not used on the slides.)*
+
+**p53 — "the guardian of the genome."** The most-studied gene ever (more than
+62,800 scientific publications, as printed). The most-mutated gene ever.
+Determines the fate of the cell when exposed to DNA damage or stress. It is a
+transcription factor. Cancer cannot withstand a functional p53 pathway — all
+cancers have mutations in p53 or its signaling pathways.
+
+**In normal cells, the p53 gene product acts at the G1/S checkpoint,
+preventing entry into S phase if DNA is damaged.** p53 is a transcription
+factor that causes **p21** to be produced; p21 inhibits the intracellular
+signals that would activate E2F/EF2. Cells with damaged DNA therefore do not
+pass the G1/S checkpoint. In cancer cells, the mutated p53 gene product no
+longer stimulates p21 production, so cells pass the G1/S checkpoint even when
+chromosomal damage exists.
+
+**In normal cells, the p53 gene product also stimulates apoptosis if DNA
+damage cannot be repaired.** p53 gives an internal signal for apoptosis. In
+cancer cells, a mutated p53 gene product no longer initiates this
+self-destruction — cells with damaged DNA can then divide and accumulate more
+DNA damage. p53 is the most frequently mutated of all known cancer-causing
+genes, contributing to many types of cancer.
+
+`[figure]` "How p53 affects apoptosis" — p53 transcribes pro-apoptotic
+factors and simultaneously inhibits survival factors, tipping the cell's
+balance toward apoptosis.
+
+---
+
 ## Source gaps and flagged passages
 
 None. Every page reviewed — whether from its text layer or, for the 18 near-blank
