@@ -2537,6 +2537,344 @@ same slide as the calico-cat example, in that general context).
 
 ---
 
+## Ch. 15 — Chromosomal Disorders {#ch15}
+
+*Source: "6.Chromosomal Disorder.pdf" (66p).*
+
+### 15.1 Causes and clinical presentation {#ch15-1}
+**Causes of chromosomal disorders:** ionising radiation, virus infections, and
+chemical toxins in the pathogenesis of certain disorders. Most cases of simple
+aneuploidy (monosomy or trisomy) are likely due to **meiotic nondisjunction**;
+**mitotic** nondisjunction can also happen.
+
+**Clinical presentations suggestive of a chromosomal abnormality:**
+- **Infertility and sterility** — cytogenetic analysis is often warranted.
+- **Intersexes** — genetic and phenotypic sex do not correspond.
+- **Multiple congenital malformations** — seen with many types of chromosomal
+  abnormality, particularly deletions and aneuploidy.
+- **Mental retardation** — well-known examples: Down and fragile-X syndromes.
+
+`[figure]` "Sterility vs infertility": sterility = not being able to conceive
+(illustrated by a crossed-out sperm-and-egg icon); infertility = conception
+occurs but implantation never occurs, or occurs and leads to miscarriage
+(illustrated by egg+sperm → crossed-out uterus icon).
+
+**Prenatal diagnostic sampling (posed as an in-class question).** "Chorionic
+villus sampling uses what tissue to analyze the fetal cells and provide a
+karyotype?" Options: (A) fetal blood tissue; (B) cells floating in the amniotic
+fluid; (C) a small biopsy from the embryo itself (heals readily); (D) membrane
+tissue from the embryo side of the placenta; (E) membrane tissue from the
+mother's side of the placenta. **Answer: D.** Performed at 14-16 weeks gestation
+(as printed on this slide — note this conflicts with the standard CVS window of
+10-13 weeks; transcribed as printed, not corrected); 0.25-0.50% miscarriage risk.
+*(A companion slide, unlabelled but contextually amniocentesis, gives: 10-12
+weeks' gestation; risks of miscarriage (1-2%), infection, and amniotic fluid
+leakage.)*
+
+### 15.2 Alterations in chromosome number {#ch15-2}
+**Euploid** — a normal chromosome set (2n). **Polyploidy** — an extra set of the
+entire genome (3n, 4n, etc. — triploidy, tetraploidy). **Aneuploidy** — less or
+more than the normal diploid number: **monosomy** (one member of a chromosome
+pair missing, 2n−1); **trisomy** (one chromosome present in 3 copies, 2n+1).
+
+`[figure]` A reference list: haploid (chromosome number in germ cells) = 23;
+diploid (somatic cells) = 46; triploid = 3×23 = 69; tetraploid = 4×23 = 92;
+aneuploid = 46±n.
+
+**Triploidy** example: 69,XXX — arises from fertilization by two sperm cells, or
+fertilization of a diploid egg.
+
+`[figure]` "Meiotic Non-Disjunction" — two parallel diagrams (homologous
+centromeres vs. identical centromeres) each showing a starting cell with a
+paired chromosome (XX) failing to separate at one meiotic division, producing
+gametes of disomy (n+1) and nullisomy (n−1) in equal numbers.
+
+`[figure]` A trisomic-zygote diagram: egg (2 copies) + sperm (1 copy) → trisomic
+zygote (2n+1) — shown for two independent examples, illustrating that trisomy
+can arise from nondisjunction in either the egg or the sperm lineage.
+
+`[figure]` "Aneuploidy - Trisomy 13" — a full karyotype image with chromosome 13
+circled, showing three copies of chromosome 13 instead of two.
+
+**Trisomy 13 (Patau syndrome) features:** cleft lip and palate, small eyes,
+extra fingers and toes (polydactylism), heart/brain/kidney defects. Most abort;
+live span under 1 month for those born.
+
+### 15.3 Anomalies of chromosome structure {#ch15-3}
+Structural anomalies covered: translocations, deletions, duplications, ring
+chromosomes, and inversion (paracentric and pericentric); translocations are
+further divided into Robertsonian and reciprocal (balanced and unbalanced).
+
+`[figure]` A four-panel reference diagram (labelled A-D) illustrating each basic
+structural rearrangement on one example chromosome (A B C D E · F G H, centromere
+between E and F): (A) **deletion** — part of the chromosome (D) is left out; (B)
+**insertion** — part of a chromatid breaks off and attaches to its sister
+chromatid, duplicating genes on the same chromosome (e.g. B C repeated); (C)
+**inversion** — part of the chromosome breaks off and reattaches backwards (A D
+C B E, order reversed within the broken segment); (D) **translocation** — part
+of one chromosome breaks off and attaches to a different, nonhomologous
+chromosome (W X Y Z donates Y and Z stays behind while W X moves onto the first
+chromosome's end).
+
+**Deletion.** The end of a chromosome, or ends of a chromosome pair, break off.
+**Cri du chat** — a portion of chromosome 5 is deleted.
+
+`[figure]` A deletion-loop diagram: a heterozygote has one normal chromosome and
+one chromosome with a deletion; during pairing of homologs in prophase I, the
+normal chromosome must loop out for the homologous sequences to align, forming a
+visible deletion loop — a real cytological image of paired homologous
+chromosomes during this pairing is shown alongside the schematic.
+
+**Effect of deletion.** If the deletion includes the centromere, the chromosome
+will not segregate properly in meiosis or mitosis and is usually lost.
+Homozygous deletion is typically **lethal**. Heterozygous deletion causes
+imbalances in gene-product amounts: a **haploinsufficient** gene is one whose
+single remaining copy is not sufficient to produce the wild-type phenotype;
+**pseudodominance** is when a recessive mutation on the intact homolog is no
+longer masked (because the deletion removed the dominant wild-type allele on the
+other homolog).
+
+**Cri du chat ("cry of the cat") worked example.** Affected individuals sound
+like crying cats because of improper development of the larynx.
+
+*Cri-du-chat syndrome facts:* 1 in 216,000 births; 46 chromosomes; deletion of
+band p15.3 on chromosome 5; the deletion occurs most often as a random event.
+Symptoms: moon-shaped face, heart disease, mental retardation, malformed larynx,
+normal lifespan.
+
+**Duplication.** Arises from mispairing — unequal crossover results in repeated
+chromosome segments. Types: tandem, displaced, reverse. Worked notation example
+(base sequence ABC·DEFGH): tandem duplication → ABC·DEFEFGH; displaced
+duplication → ABC·DEFGHEF; reverse duplication → ABC·DEFFEGH.
+
+`[figure]` A duplication diagram: a normal chromosome (A B C · D E F G) vs. a
+chromosome with a duplication of segment E-F; alignment in prophase I of
+meiosis requires the duplicated E-F region to loop out so the homologous
+sequences of the two chromosomes can align.
+
+**How does a chromosome duplication alter the phenotype?** (posed, then
+answered on the following slide) — an individual with three functional copies
+of a gene often produces 1.5× as much of that gene's protein as an individual
+with two copies. Because developmental processes require the interaction of
+many proteins, they often depend critically on proper gene dosage; unbalanced
+gene dosage causes developmental abnormalities.
+
+**Inversion.** A chromosome segment breaks apart and rejoins in the reversed
+direction (turned 180°): the same genes are present, but their sequence is
+reversed. This can produce a **position effect** — a gene may be expressed at
+inappropriate times or in inappropriate tissues due to its new chromosomal
+neighborhood. **Paracentric** inversion does not involve the centromere;
+**pericentric** inversion involves the centromeric region.
+
+**Translocation.** Movement of a segment from one chromosome to a
+nonhomologous chromosome. 3-4% of Down syndrome cases (the "familial" form)
+result from a translocation between chromosomes 21 and 14 (a segment of
+chromosome 21 detaches and fuses with chromosome 14, forming a fused 14/21
+chromosome).
+
+`[figure]` "How the 1;22 translocation originated": chromosomes 1 and 22 break
+at marked positions, and the cell's DNA repair machinery rejoins the ends to
+form two derivative chromosomes, der(1) and der(22) — an example of a
+**reciprocal translocation**.
+
+**Robertsonian translocation (centric fusion).** A translocation in which the
+centromeres of two acrocentric chromosomes fuse to generate one large
+metacentric chromosome.
+
+`[figure]` A Robertsonian-translocation diagram: the short arms of all
+acrocentric chromosomes (13, 14, 15, 21, 22) contain similar DNA. Inappropriate
+recombination between two non-homologous acrocentric chromosomes produces the
+fusion chromosome, which functions as a normal single chromosome in mitosis; the
+small acentric fragment comprising the two distal short arms is lost.
+
+`[figure]` "Translocation in meiosis: cross-like structure" — a diagram of the
+characteristic cross-shaped quadrivalent pairing configuration formed during
+meiosis when a translocated chromosome pairs with its two normal homologous
+partners.
+
+`[figure]` A three-panel diagram of translocation segregation patterns at
+anaphase I: **alternate segregation** (the two normal chromosomes N1/N2 segregate
+together and the two translocated chromosomes T1/T2 segregate together — the
+only pattern giving balanced gametes); **adjacent-1 segregation** (N1 segregates
+with T2, and T1 with N2 — unbalanced); **adjacent-2 segregation, rare** (N1
+segregates with T1, and T2 with N2 — unbalanced, since this requires homologous
+rather than the usual non-homologous centromeres to co-segregate).
+
+`[figure]` A follow-on diagram tracking these three segregation patterns through
+anaphase II to eight resulting zygote genotypes (gene sets A-G and M-S tracked
+per chromosome): the two zygotes from alternate segregation are **viable
+gametes** (either the two normal chromosomes intact, or both translocated
+chromosomes intact — either way a complete, balanced gene set); all six zygotes
+from adjacent-1 and adjacent-2 segregation are **nonviable gametes**, because
+some genes end up present in two copies while others are missing.
+
+### 15.4 Most frequent numerical anomalies in live births {#ch15-4}
+**Autosomes:** Down syndrome (trisomy 21: 47,XX,+21); Edwards syndrome (trisomy
+18: 47,XX,+18); Patau syndrome (trisomy 13: 47,XX,+13).
+
+**Sex chromosomes:** Turner syndrome (45,X); Klinefelter syndrome (47,XXY).
+
+### 15.5 Sex-chromosome number variations {#ch15-5}
+**Klinefelter syndrome (47,XXY).** Genital and internal ducts present as in
+males; testes are underdeveloped and fail to produce sperm. Affected
+individuals have enlarged breasts; mentally retarded; feminine sexual
+development is not entirely suppressed.
+
+*Klinefelter facts:* 1 in 1,100 births; 47 chromosomes, XXY only; trisomy of
+chromosome 23 (the sex-chromosome pair) via nondisjunction; no facial hair;
+longer fingers and arms; sterile; low mental ability; normal lifespan; wide
+hips and feminine fat distribution.
+
+`[figure]` "How it happens" — Klinefelter syndrome is caused by an error
+(nondisjunction) in either the mother's or the father's sex chromosomes during
+cell division, illustrated as an XX egg meeting an XY sperm, or an X egg
+meeting a YY sperm, either combination yielding an XXY zygote.
+
+**Turner syndrome (45,X / XO).** Female external genitalia and internal ducts,
+but the ovaries are rudimentary/nonfunctional ("redundant" as printed). Short
+stature, under 5 feet.
+
+*Turner facts:* 1 in 5,000 births; 45 chromosomes, X only; monosomy of
+chromosome 23 via nondisjunction; 96-98% do not survive to birth; no
+menstruation; no breast development; narrow hips; broad shoulders and neck;
+learning difficulties in school; webbed neck.
+
+**Jacob's syndrome (47,XYY).** 1 in 1,800 births; trisomy of chromosome 23 via
+nondisjunction; normal physically and mentally; normal sexual development;
+increased testosterone; more aggressive; normal lifespan.
+
+`[figure]` An XYY meiosis-origin diagram: tracking a starting 2n cell through
+MI/MII in both the sperm lineage (producing an XYY-containing sperm via
+nondisjunction) and, in a parallel panel, the egg lineage — showing how an XYY
+zygote can arise from a paternal nondisjunction event producing a YY sperm that
+fertilizes a normal X egg.
+
+**Triple X syndrome (47,XXX).** Normal physically (sometimes taller); normal
+mentally; fertile, though with menstrual irregularities.
+
+**Worked Punnett-style tables for sex-chromosome nondisjunction**, parental
+cross P: X^B X^b × X^B Y (B/b denoting an X-linked marker allele, used only to
+track which X came from where):
+- *If nondisjunction was in the mother:* gametes X^B X^b (from mother) × Y or
+  X^B (from father, normal) give X^B X^B X^b ("super female") or X^B X^b Y
+  (Klinefelter); gametes "0" (nullisomic, from mother) × Y or X^B give X^B·0
+  (Turner) or 0Y (lethal).
+- *If nondisjunction was in the father:* gametes X^B Y or "0" (from father) ×
+  X^B or X^b (from mother, normal) give X^B X^B Y (Klinefelter), X^B·0 (Turner),
+  X^B X^b Y (Klinefelter), or X^b·0 (Turner).
+
+**Dosage compensation.** Shouldn't XX females produce twice the X-linked gene
+product of XY males? No — XX females compensate by inactivating one X
+chromosome, reducing them to a single "dosage" of X-linked genes.
+
+**Inconsistencies between syndromes and X-inactivation** (posed as a discussion
+question): if a normal XX female has one X inactivated, why is a 45,X Turner
+female not normal? Similarly, if an XXY male has one X inactivated, why does he
+have Klinefelter syndrome? Possible explanations offered: X inactivation is
+random; it may not be complete; or it may not happen immediately, leaving some
+period of X-linked gene overexpression.
+
+### 15.6 Down syndrome {#ch15-6}
+**Trisomy in general is more viable than monosomy.**
+
+**Down syndrome (47,XX,+21).** Characteristic (flattened) facial patterning; 1
+in 800 live births. Most often occurs by nondisjunction of chromosome 21 during
+meiosis; in theory could occur in either parent, but 95% of these trisomies
+have a defective egg as the source. Affected individuals are prone to
+respiratory diseases; account for about 30% of all mental-retardation cases in
+the U.S.; roughly 1/25 of affected individuals can read, 1/50 can write.
+
+`[figure]` "Nondisjunction" — a side-by-side diagram of nondisjunction in
+meiosis I vs. meiosis II starting from the same tetraploid-paired cell,
+tracking resulting gametes through fertilization with a normal gamete to the
+final zygote genotypes: meiosis I nondisjunction yields trisomy, trisomy,
+monosomy, monosomy (in some order); meiosis II nondisjunction yields euploid,
+euploid, trisomy, monosomy — i.e. meiosis II nondisjunction produces two
+normal (euploid) gametes as well as the abnormal ones, unlike meiosis I
+nondisjunction.
+
+**Down syndrome incidence increases with maternal age** — since all eggs are
+formed by birth and arrested in meiosis, the slide poses whether the
+correlation of increased maternal age with Down syndrome is due to more
+nondisjunction occurring in older eggs (posed as an open question, not answered
+further on the slide).
+
+**Familial Down syndrome** (the translocation form): 1 in 31,000 births; 46
+chromosomes (XY = 97% of cases, XX = 3%); a 14/21 translocation.
+
+`[figure]` "9.23 Translocation carriers are at increased risk for producing
+children with Down syndrome" — a full P-generation-to-zygote diagram: a
+14-21 translocation-carrier parent (karyotypically normal, carrying chromosomes
+21, 14, and a fused 14-21) produces six classes of gametes by gametogenesis
+(14-21 alone; 21+14 separately; 14-21+21; 14 alone; 14-21+14; 21 alone), which
+upon fertilization by a normal parent's gamete yield: translocation carrier,
+normal, Down syndrome, monosomy 21 (aborted), trisomy 14 (aborted), monosomy 14
+(aborted) — annotated that of live births to such a couple, 2/3 are healthy and
+normal (including translocation carriers) and 1/3 have Down syndrome, while
+other chromosomal combinations result in aborted embryos.
+
+**Mosaicism.** Can arise from a mutation in a single gene or a chromosomal
+anomaly. Can be **somatic** (present in most body cells) or **gonadal**
+(confined solely to the gonads).
+
+*Turner mosaicism* (45,X/46,XX): about 30% of Turner cases are mosaic, with
+reduced fertility and delayed or absent periods (milder than full-monosomy
+Turner syndrome).
+
+`[figure]` A mosaicism-origin diagram: a fertilized XX egg undergoes an early
+mitotic error, producing an early embryo with a mix of XX and X-only cell
+lineages; the resulting individual (illustrated as a checkerboard-patterned
+figure) is a 45,X/46,XX mosaic — physically and clinically intermediate,
+reflecting the mixture of normal and Turner-genotype cells.
+
+### 15.7 The karyotype — international nomenclature {#ch15-7}
+`[figure]` "The Karyotype: an international description" — a two-part
+reference table (worked examples shown across two consecutive slides, the
+second slide adding the plain-English description for each): 46,XY = normal;
+47,XX,+21 = Trisomy 21 (Down syndrome); 47,XXX = Triple X syndrome; 69,XXY =
+Triploidy; 45,XX,der(22) = a chromosome derived from chromosome 22, containing
+its centromere; 46,XY,t(2;4)(p12;q12) = reciprocal translocation; 46,XX,del(5)
+(p25) = deletion of the tip of chromosome 5; 46,XX,dup(2)(p22) = duplication of
+part of the short arm of chromosome 2; 46,XY,inv(11)(p15q14) = pericentric
+inversion of chromosome 11; 46,XY/47,XXY = mosaicism, normal/Klinefelter
+syndrome; 46,XX/45,X = mosaicism, normal/Turner syndrome. ("+" denotes
+additional material.) The notation's three components, named on the
+introducing slide: total number of chromosomes; sex chromosome constitution;
+abnormalities/variants.
+
+### 15.8 Genomic imprinting {#ch15-8}
+**Epigenetics — genomic imprinting.** Some genes are expressed only from the
+maternal genome, some only from the paternal genome. An estimated ~40 genes are
+imprinted, found on several different chromosomes. Example: the **insulin-like
+growth factor 2 (Igf2)** gene.
+
+`[figure]` An Igf2-imprinting diagram: the paternal Igf2 allele is active and
+its protein product stimulates fetal growth; the maternal Igf2 allele is
+silent, so the absence of its protein product does not further stimulate fetal
+growth; the size of the fetus is determined by the combined effect of both
+alleles (i.e. effectively only the paternal allele's dosage, since the maternal
+copy is imprinted off).
+
+Imprinting is maintained by **DNA methylation**. **Heterochromatin** = more
+condensed = repressed gene; **euchromatin** = loose = active gene. **Chromatin
+remodeling** = dynamic modification of chromatin structure that controls gene
+expression.
+
+**Angelman syndrome.** Features: developmental delay, functionally severe
+speech impairment, frequent laughter/smiling, an apparent happy demeanor, an
+easily excitable personality. Caused by loss of the *maternal* copy of the
+relevant chromosome-15 region — via a maternal chromosome deletion, inheritance
+of two paternal copies (paternal uniparental disomy), or an imprinting defect.
+
+**Prader-Willi syndrome.** Features: poor weight gain in infancy, excessive/
+rapid weight gain between ages 1 and 6, delayed sexual maturity, mild-to-
+moderate mental retardation, obsession with food (hyperphagia), diabetes. For
+the genes affected in PWS, the *paternal* copy of the relevant gene is deleted,
+and the maternal copy — which is normally imprinted (silenced) — provides no
+compensating expression, so the gene product is entirely absent.
+
+---
+
 ## Source gaps and flagged passages
 
 None. Every page reviewed — whether from its text layer or, for the 18 near-blank
