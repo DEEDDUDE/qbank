@@ -2034,6 +2034,227 @@ phenotypes of both homozygotes.
 
 ---
 
+## Ch. 13 — Modes of Heredity {#ch13}
+
+*Source: "4.Mode of heredity.pdf" (53p).*
+
+### 13.1 Pedigree analysis — goals and symbols {#ch13-1}
+This chapter covers: basic patterns of inheritance, how to read pedigrees, and
+applying pedigree analysis in practice.
+
+**The five modes of inheritance covered:** autosomal recessive, autosomal
+dominant, X-linked recessive, X-linked dominant (very rare), Y-linked.
+
+**Goals of pedigree analysis:** (1) determine the mode of inheritance; (2)
+determine the probability of an affected offspring for a given cross.
+
+**Standard pedigree symbols:** male affected (filled square); female unaffected
+(open circle); male deceased (square with diagonal line); a horizontal line
+connecting two symbols = mating; a double line = consanguineous mating; a
+diamond off a mating line = pregnancy; a dot inside an otherwise-open square/circle
+= heterozygous carrier (male or female) for an autosomal- or X-linked-recessive
+trait; two offspring lines joined by a horizontal bar = dizygotic (non-identical)
+twins; two offspring lines joined by both a horizontal bar and a vertical
+connector = monozygotic (identical) twins; a small triangle = spontaneous abortion
+or stillbirth.
+
+### 13.2 Autosomal recessive {#ch13-2}
+Affected persons must be **homozygous** for the disease allele; the usual mating
+producing affected children is Aa × Aa (both parents unaffected carriers), and a
+person needs to inherit two copies of the mutant gene to be affected.
+
+**Features of recessive pedigrees:**
+- Usually see "skipped" generations.
+- Both males and females are affected.
+- Diseased offspring from normal (unaffected) parents.
+- Expect increased consanguinity between the parents — i.e. the parents are more
+  likely to be relatives.
+
+From an Aa × Aa cross, 1/4 of the children are expected to have the recessive
+trait.
+
+**Examples of autosomal recessive diseases:** sickle-cell anemia, cystic
+fibrosis, phenylketonuria (PKU), albinism, thalassemia.
+
+**PKU worked example.** PKU is a metabolic disorder caused by a deficiency of the
+liver enzyme **phenylalanine hydroxylase**, which normally converts phenylalanine
+(Phe) to tyrosine (Tyr). Its absence prevents normal phenylalanine metabolism, so
+phenylalanine builds up to toxic levels, causing mental retardation. The
+Arg408Trp mutation causes "classic PKU"; newborn screening programs test for it.
+
+**Albinism worked example.** To be albino, both alleles must be albino alleles.
+Clinical features include photophobia, nystagmus, and increased melanoma risk
+from ultraviolet radiation. An enzyme, **tyrosinase**, is required (with
+tetrahydrobiopterin as a cofactor context) to convert tyrosine into melanin; if
+tyrosinase is absent, melanocytes cannot produce melanin. The gene producing this
+enzyme is on chromosome 9.
+
+`[figure]` A worked albinism pedigree: unaffected (normal-pigment) parents in the
+pedigree's founding circle each carry one albinism allele. Most offspring receive
+at least one normal allele from a parent — probability of a child with normal
+pigmentation (AA or Aa) = 1/4 + 2/4 = 3/4; probability that a normal-pigmented
+child is a carrier = 2/3. One female offspring in the pedigree received an albino
+allele from both parents (is affected) — probability of having a child with
+albinism = 1/4; probability of three children all with albinism = 1/4 × 1/4 ×
+1/4 = 1/64.
+
+**Probability methods used above:** the **Addition Rule** ("either...or") and the
+**Multiplication Rule** ("and").
+
+### 13.3 Autosomal dominant {#ch13-3}
+The autosomal dominant allele is rare, so an affected individual is more likely
+heterozygous — homozygotes most likely fail to survive. Only one copy of the
+gene (inherited from either parent) needs to contain a disease-causing mutation
+for the disorder to occur.
+
+**Features of dominant pedigrees:**
+- Males and females are equally affected.
+- The phenotype tends to appear in every generation.
+- Affected offspring have at least one affected parent.
+
+From a heterozygous-affected × unaffected cross, 1/2 of the offspring will be
+affected.
+
+**Examples of autosomal dominant disorders:** Huntington disease, familial
+hypercholesterolemia, achondroplasia.
+
+**Achondroplasia worked example.** Short limbs, large head size with a prominent
+forehead, normal intelligence; 100% penetrance; caused by the Gly380Arg mutation
+in the fibroblast growth factor receptor 3 (**FGFR3**) gene.
+
+`[figure]` A three-panel diagram of FGFR3 signaling: (1) normal FGFR3 signaling
+— extracellular FGF ligand binds the FGFR3 receptor, transmitting a signal
+intracellularly; (2) normal FGFR3 signaling's downstream effect — inhibition of
+cartilage growth, i.e. regulation of cell growth/division limiting the formation
+of bone from cartilage (ossification); (3) achondroplasia — the Gly380Arg
+mutation (in the transmembrane domain) causes the receptor to signal even in the
+absence of ligand, so cartilage-growth inhibition and proliferation/
+differentiation of chondrocytes are exaggerated and bone growth is attenuated.
+
+### 13.4 Sex determination and the X/Y chromosomes {#ch13-4}
+X-linked traits are divided into X-linked recessive and X-linked dominant.
+
+**Mammalian sex determination.** Sex determination depends on the presence or
+absence of a single gene, **SRY**, found on the Y chromosome. SRY is a
+transcription factor needed for male-specific gene expression — it is the
+primary determinant of sex in human embryos. Early mammalian embryos have
+clusters of tissue called undifferentiated gonads, which can develop as ovaries
+or testes. Expression of SRY initiates testicular development of the
+undifferentiated gonads; the absence of SRY expression allows the default,
+female state, to develop.
+
+`[figure]` A sex-differentiation diagram: from the undifferentiated
+gonad/Wolffian duct/Müllerian duct stage, SRY-absent development proceeds to
+ovaries → uterus, ovary, vagina (female), while SRY-present development proceeds
+→ prostate, vas deferens, penis, testis (male).
+
+**The pseudoautosomal region.** Two small regions of homology, **PAR1** and
+**PAR2**, exist between the X and Y chromosomes. These allow homologous pairing
+between X and Y at meiosis, and there is evidence that crossing over occurs
+within these regions during meiosis.
+
+`[figure]` X and Y chromosome diagram labelled with PAR1 (top), centromere
+(X only, drawn to scale between PAR1/PAR2), and PAR2 (bottom) on the X
+chromosome; PAR1 and the "sex determining region" (SRY) at the top of the Y
+chromosome, PAR2 near its bottom.
+
+### 13.5 X-linked recessive {#ch13-5}
+X-linked recessive traits occur more frequently in males than females: males
+have only one X chromosome, so a single recessive allele on that X causes
+disease (**hemizygosity**) — they can never be heterozygous or homozygous for an
+X-linked allele, only hemizygous or homozygous-normal. Affected males are
+usually born to unaffected carrier mothers, so the trait skips generations. The
+trait is not passed from father to son because males take only their Y
+chromosome (not an X) from their father.
+
+**Keep in mind:** X-linked traits in males — males are never carriers. A single
+dose of a mutant allele produces a mutant phenotype in the male, whether the
+mutation is dominant or recessive (by ordinary autosomal standards).
+
+**Examples:** hemophilia A, Duchenne muscular dystrophy, color blindness.
+
+`[figure]` A worked X-linked-recessive cross diagram ("myopathie de Duchenne,
+hémophilie A" example): healthy father (XY, normal-only X) × healthy carrier
+mother (XX, one normal + one mutant-marked X) → healthy son (XY), healthy
+daughter (XX), healthy carrier daughter (XX, circled mutant X), and affected son
+(XY, circled mutant X) — a Punnett-style table alongside shows the cross as X/X
+(mother) × X/Y (father) → XX, XX, XY, XY.
+
+`[figure]` A four-generation X-linked-recessive pedigree (generations I-IV):
+starting from an unaffected female carrier (I-2), the trait passes silently
+through unaffected daughter-carriers before surfacing in affected sons two
+generations later (III-2, IV-5, IV-7), illustrating the annotated rules "an
+affected male does not pass the trait to his sons... but can pass the allele to
+a daughter, who is unaffected... and passes it to sons who are [affected]" and
+"X-linked recessive traits appear more frequently in males."
+
+**What do you think? — can females get an X-linked recessive disorder?** (posed
+as a discussion question; a female would need to be homozygous for the mutant
+X-linked allele, i.e. an affected father plus a carrier or affected mother — not
+answered explicitly on this slide beyond the question itself).
+
+**Hemophilia A ("Royalty Disease") worked example.** Caused by a mutation in the
+factor VIII gene on the X chromosome; the mutant allele produces a nonfunctional
+blood-clotting protein.
+
+### 13.6 X-linked dominant {#ch13-6}
+If a male transmits the disease, all of his daughters show the disease (they
+each inherit his one X), and none of his sons (who inherit his Y instead).
+X-linked dominant pedigrees do not skip generations: affected sons must have an
+affected mother; affected daughters must have either an affected mother or an
+affected father. If a female transmits the disease, half of her progeny (both
+sons and daughters) show the disease if she is heterozygous, or all of her
+progeny show the disease if she is homozygous. X-linked dominant is less common
+than X-linked recessive.
+
+`[figure]` A four-generation X-linked-dominant pedigree (I-IV) captioned "6.9
+X-linked dominant traits affect both males and females. An affected male must
+have an affected mother": an affected father (I-1) passes the trait to all three
+of his daughters (II-3, 4, 5) and none of his two sons; affected daughters go on
+to have both affected sons and daughters themselves (heterozygous
+transmission), annotated "affected females (if heterozygous) pass the trait on
+to about half of their sons and about half of their daughters."
+
+**Example:** Fragile-X syndrome — with variable expressivity and possibly
+reduced penetrance.
+
+### 13.7 Y-linked {#ch13-7}
+`[figure]` A four-generation Y-linked pedigree (I-IV) captioned "Y-linked traits
+appear only in males" and "all male offspring of an affected male are
+affected": every affected individual across all four generations is male, and
+every son of an affected male is himself affected, while daughters are never
+affected and never transmit the trait (Y-linked genes pass exclusively down the
+direct male line, father to son).
+
+### 13.8 Reading pedigrees — quick rules and practice {#ch13-8}
+**Quick inference rules** (posed as "think about" prompts, answered inline on
+the same slide):
+- If two affected people have an unaffected child, it must be a **dominant**
+  pedigree.
+- If two unaffected people have an affected child, it is a **recessive**
+  pedigree.
+- If every affected person has an affected parent, it is a **dominant**
+  pedigree.
+
+`[figure]` A practice pedigree (generations I-III, 10 individuals in generation
+I) posed with the question "what is the inheritance pattern?" — answered on the
+same slide as **autosomal recessive**.
+
+`[figure]` A second practice pedigree (generations I-III, individuals numbered
+up to III-6) posed with the same question — answered as **autosomal dominant**.
+
+`[figure]` A third practice pedigree posed with the same question — answered as
+**X-linked recessive**.
+
+Two further practice items are posed without an answer transcribed on the slide
+itself (assignments, not worked examples): one pedigree asking for the pattern
+of inheritance and "what is IV-2's chance of being a carrier?"; another asking
+for the pattern of inheritance and "what is the genotype of III-1, III-2, and
+II-1?" — both left as open assignment questions in the source, not answered
+here.
+
+---
+
 ## Source gaps and flagged passages
 
 None. Every page reviewed — whether from its text layer or, for the 18 near-blank
