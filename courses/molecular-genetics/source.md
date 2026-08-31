@@ -1,12 +1,17 @@
 # molecular-genetics — source
 
-Built from `slides/2024-canonical/molecular/` (9 decks, 331 pages, Dr. Suheir Ereqat,
-2023-2025). Chapter numbers 1–9 are **ours**, not the source's — each deck becomes one
-chapter, in deck order. The decks themselves cite Lehninger *Principles of Biochemistry*
-chapter numbers inconsistently (DNA metabolism decks reference "Chapter 25", RNA
-metabolism decks "Chapter 26", Protein metabolism decks "Chapter 27"; the Techniques
-deck cites none) — those Lehninger numbers are noted per chapter below but are not
-used as our anchors, since no single Lehninger chapter maps cleanly to one deck.
+Built from `slides/2024-canonical/` — the `molecular/` subfolder (Ch. 1–9, 9 decks,
+331 pages) and the `genetics/` subfolder (Ch. 10–16, 7 decks, 306 pages), both by
+Dr. Suheir Ereqat, 2020-2025. Chapter numbers throughout are **ours**, not the
+source's — each deck becomes one chapter, in deck order. The `molecular/` decks
+themselves cite Lehninger *Principles of Biochemistry* chapter numbers inconsistently
+(DNA metabolism decks reference "Chapter 25", RNA metabolism decks "Chapter 26",
+Protein metabolism decks "Chapter 27"; the Techniques deck cites none) — those
+Lehninger numbers are noted per chapter below but are not used as our anchors, since
+no single Lehninger chapter maps cleanly to one deck. The `genetics/` decks (Ch.
+10–16) cite no external textbook chapter numbers of their own; several borrow figure/
+table numbers from an unnamed genetics textbook (e.g. "Fig. 8.1", "Table 18.2") which
+are reproduced as printed, not renumbered.
 
 Several slides carry almost no extractable text — just a diagram or table image and a
 "Dr. Suheir Ereqat" footer. Every one of these was individually reviewed at full
@@ -1584,6 +1589,448 @@ further on the gel. **The gel is read from bottom to top** (shortest fragment = 
 **Automated DNA sequencing** uses four different fluorescent ddNTPs, allowing
 simultaneous detection of all four reactions in a single sample/lane (rather than 4
 separate lanes).
+
+---
+
+## Ch. 10 — Introduction to Genetics {#ch10}
+
+*Source: "1.Introduction to Genetics.pdf" (30p).*
+
+### 10.1 What is genetics {#ch10-1}
+**Genetics** = the scientific study of heredity, the process by which a parent
+passes certain genes onto their children. Children inherit their biological
+parents' genes, which express specific traits — physical characteristics and
+genetic disorders among them.
+
+The cell is the smallest unit of life: all life is composed of cells, and cells
+arise only from cells.
+
+### 10.2 Chromosomes and karyotypes {#ch10-2}
+A pair of **homologous chromosomes** shares a **locus** (the position of a gene)
+and carries **alleles** (alternative forms of a gene) at that locus.
+
+`[figure]` A functional chromosome diagram: at times a chromosome consists of a
+single chromatid, at other times (after replication) of two sister chromatids
+joined at the **centromere**, each ending in a **telomere** (the stable end of the
+chromosome). At the centromere, **kinetochores** form and **spindle microtubules**
+attach.
+
+**Karyotype** — a display or photomicrograph of an individual's somatic-cell
+metaphase chromosomes, arranged in a standard sequence (usually by number, size,
+and type).
+
+**Preparing a karyotype:** dividing cells are first cultured → colcemide arrests
+cells in metaphase → hypotonic treatment (0.075 M KCl) → fixation → Giemsa staining
+→ chromosomes photographed (harvest, M:A ratio 3:1).
+
+`[figure]` An unsorted metaphase spread of Giemsa-stained chromosomes next to a
+numbered grid (1-22, X, Y) captioned "Organize the chromosomes into a karyotype!" —
+illustrating that raw metaphase chromosomes must be matched up and arranged into
+this standard numbered layout.
+
+**Identifying chromosomes — three key features:**
+- **Size** — the easiest way to tell two different chromosomes apart.
+- **Banding pattern** — the size and location of Giemsa bands make each
+  chromosome pair unique.
+- **Centromere position** — centromeres appear as a constriction.
+
+Using these features, scientists match up the 23 pairs.
+
+**Centromere position classes:** metacentric (centromere near the center);
+submetacentric (centromere off-center, one arm longer than the other); acrocentric
+(centromere very near one end — chromosomes 13, 14, 15, 21, 22); telocentric
+(centromere at the very end).
+
+**G-banding.** A dye gives chromosomes a striped appearance by staining regions of
+DNA rich in adenine (A) and thymine (T) base pairs. The active-gene density is
+higher in the G-light regions, which are less compact.
+
+**Chromosome "address" notation.** The combination of numbers and letters gives a
+gene's address on a chromosome — e.g. 14q21 = position 21 on the long arm (q) of
+chromosome 14; 14q21 is closer to the centromere than 14q22.
+
+`[figure]` "Fig. 8.1 G-Banded Metaphase Chromosomes" — a full G-banded karyotype
+image (autosomes 1-22 plus X and Y), illustrating the banding-pattern identification
+principle above.
+
+Karyotypes distinguish **autosomes** from **sex chromosomes**.
+
+**The karyotype notation.** A normal male chromosome pattern is described as
+**46,XY**: 46 = total chromosome number; XY = sex chromosome constitution (XY =
+male, XX = female). Any further description refers to abnormalities or variants
+found.
+
+**Indications for a karyotype:**
+- Problems of early growth and development (failure to thrive, developmental
+  delay, short stature).
+- Stillbirth and neonatal death.
+- Fertility problems (infertility history, multiple pregnancy loss).
+- Family history (a known/suspected chromosomal abnormality in a first-degree
+  relative).
+- Pregnancy in a woman of advanced age (>35 years).
+
+### 10.3 Genotype vs. phenotype {#ch10-3}
+**Genotype** — the genetic makeup, symbolized with letters (e.g. Tt or TT, tt);
+homozygous or heterozygous.
+
+**Phenotype** — the physical appearance of the organism; the expression of the
+trait (shape, size, color — short, tall, yellow, smooth, etc.).
+
+Many phenotypes are influenced by the environment: phenotype results from the
+interaction of genotype (total genetic makeup) with the environment. The most
+common phenotype in a natural population is the **wildtype**.
+
+`[figure]` A Venn diagram of two overlapping circles, "Genes" and "Environment" —
+their overlap is labelled "You", with an arrow up to "Phenotype": phenotype is the
+product of genes and environment together.
+
+**The Himalayan rabbit example.** This rabbit has white fur with black fur on its
+ears, nose, and tail. Himalayan rabbits carry temperature-sensitive tyrosinase
+genes that control fur pigmentation. Extremities are usually coldest (less blood
+flow), so the temperature-induced gene is activated there, producing darker fur.
+Black pigment is deposited in fur when temperature falls; when hair is shaved and
+an ice pack placed on the area, the new fur grows in black.
+
+### 10.4 Genes, gene expression, and gene number {#ch10-4}
+**Gene** — the hereditary unit transmitted from generation to generation. Genes →
+protein → traits.
+
+Each cell expresses (turns on) only a fraction of its genes; the rest are
+repressed (turned off) — this process is **gene regulation**. Regulation involves
+**histone acetylases** and **histone deacetylases** acting through chromatin
+remodeling complexes.
+
+"How many genes do we have?" is almost a meaningless question, because: each gene
+can give rise to several proteins by alternative splicing; each protein can be
+further modified in multiple ways (phosphorylation, methylation, acetylation,
+glycosylation, etc.); and these modified proteins can further take part in
+different protein complexes.
+
+All cells in an organism share the same DNA, but not all genes in the genome are
+expressed the same way in every cell — this is **epigenetics**: heritable changes
+in gene expression that operate outside of changes in the DNA sequence itself.
+
+**Mutation causes** (listed on a summary slide): smoking, radiation, viruses, sun
+exposure, chemicals; also spontaneous mutation at a low background rate.
+
+### 10.5 Glossary (Ch. 10) {#ch10-5}
+`[figure]` "Table 3.1 — Summary of important genetic terms": **Gene** — a genetic
+factor (region of DNA) that helps determine a characteristic. **Allele** — one of
+two or more alternate forms of a gene. **Locus** — the specific place on a
+chromosome occupied by an allele. **Genotype** — the set of alleles possessed by an
+individual organism. **Heterozygote** — an individual possessing two different
+alleles at a locus. **Homozygote** — an individual possessing two of the same
+alleles at a locus. **Phenotype or trait** — the appearance or manifestation of a
+character.
+
+`[figure]` "Table 1.1 — Early concepts of heredity", listing historical theories
+and whether each is correct or incorrect: **Pangenesis** (genetic information
+travels from different parts of the body to reproductive organs) — Incorrect.
+**Inheritance of acquired characteristics** (acquired traits become incorporated
+into hereditary information) — Incorrect. **Preformationism** (a miniature organism
+resides in sex cells, and all traits are inherited from one parent) — Incorrect.
+**Blending inheritance** (genes blend and mix) — Incorrect. **Germ-plasm theory**
+(all cells contain a complete set of genetic information) — Correct. **Cell theory**
+(all life is composed of cells, and cells arise only from cells) — Correct.
+**Mendelian inheritance** (traits are inherited in accord with defined principles)
+— Correct.
+
+---
+
+## Ch. 11 — Mendelian Genetics {#ch11}
+
+*Source: "2.Mendelian Genetics.pdf" (30p).*
+
+### 11.1 Gregor Mendel {#ch11-1}
+Born 1822 in Czechoslovakia (historical Austrian Empire territory, as the deck
+states it). Became a monk at a monastery in 1843; had interests in statistics.
+Between 1856 and 1863 he grew and tested over 28,000 pea plants.
+
+### 11.2 The blending theory of inheritance {#ch11-2}
+Mendel's experiments tested the **blending theory of heredity**, which viewed
+offspring traits as a mixture of the parental traits. Under this theory, a black
+cat crossed with a white one would produce gray kittens, and the black/white
+traits would never reappear if the gray kittens were crossed to each other.
+
+**Why peas?** Easy to grow; easily identifiable traits; can work with large
+numbers of samples.
+
+### 11.3 Fertilization and pure-breeding strains {#ch11-3}
+`[figure]` **Self fertilization** diagram: fertilization (anther/pollen ♂ +
+ovule/egg ♀) → seed development → mature seeds → germination → plant growth →
+plant maturation/flower development → back to fertilization, forming the pea
+plant's self-fertilizing life cycle.
+
+`[figure]` **Cross fertilization** diagram: emasculate purple flowers by removing
+their own anthers (♂) → transfer pollen from a white flower's anthers (♂) to the
+purple flower's ovule (♀) → fertilization occurs → seeds develop → seeds planted,
+plants grow, traits recorded across multiple resulting offspring plants.
+
+Mendel took two years before beginning his experiments to establish **pure-breeding
+(true-breeding)** strains — strains that consistently produce the same phenotype.
+Each experiment began with crosses between two pure-breeding parental-generation
+plants (**P generation**) that produced offspring called **F1** (first filial
+generation). True-breeding = pure-breeding = pure line.
+
+### 11.4 Monohybrid crosses and the Law of Segregation {#ch11-4}
+Mendel crossed plants showing contrasting traits. A **monohybrid cross** reveals
+the principle of segregation and the concept of dominance.
+
+**Mendel's Law of Segregation:**
+1. Plant traits are handed down through "hereditary factors" in the pollen and
+   egg.
+2. Because offspring obtain hereditary factors from both parents, each plant must
+   contain two factors for every trait.
+3. The factors in a pair segregate (separate) during the formation of sex cells,
+   and each pollen or egg receives only one member of the pair.
+
+**Dominant and recessive traits.** The trait shown by F1 offspring = the
+**dominant phenotype** (e.g. purple flower). The trait not apparent in F1 = the
+**recessive phenotype** (e.g. white flower). When F1 were crossed, 75% of the
+resulting F2 had the dominant trait, but the recessive trait reappeared in the
+other 25%.
+
+**Modern terminology.** The "factors" controlling traits are **genes**; different
+forms of a gene are **alleles**. Alleles that mask or hide other alleles (e.g. the
+"round" allele) are **dominant**. A **recessive** allele (e.g. the wrinkle allele)
+is masked whenever the dominant allele is present. The modern term for "purebred"
+is **homozygous** (identical alleles); the offspring of crosses between parents
+with contrasting traits are **hybrids** = **heterozygous**.
+
+Dominant trait = a trait that shows in a heterozygote. Recessive trait = a trait
+that is hidden in a heterozygote.
+
+### 11.5 Replicate, reciprocal, and test crosses {#ch11-5}
+Mendel made many **replicate crosses**, producing hundreds or thousands of
+progeny by repeating each cross several times. He performed **reciprocal
+crosses**, in which the same genotypes are crossed but the sexes of the parents
+are reversed. He also performed **test crosses**.
+
+`[figure]` Reciprocal-cross diagram: pure-breeding pollen (GG) × pure-breeding egg
+(gg) → F1 Gg, alongside the reverse cross, pure-breeding pollen (gg) × pure-breeding
+egg (GG) → F1 Gg — both yielding identical F1 results, illustrating "reciprocal
+crosses between pure-breeding parents produce identical results."
+
+**Test cross** — a cross between an individual of unknown genotype and a
+homozygous recessive genotype.
+
+`[figure]` Test-cross diagram: genotype-unknown individual (R–) × pure-breeding
+recessive (rr) → artificial cross-fertilization. A 1:1 ratio of dominant to
+recessive is expected if the round-seed parent is heterozygous (Rr); all progeny
+are dominant if the round-seed parent is homozygous (RR).
+
+### 11.6 Dihybrid crosses and the Law of Independent Assortment {#ch11-6}
+A **dihybrid cross** reveals the principle of independent assortment. Example:
+RrYy × RrYy gives a 9:3:3:1 ratio — 9 round/yellow : 3 round/green : 3
+wrinkled/yellow : 1 wrinkled/green. The probability of round yellow seeds = 9/16.
+
+**Mendel's Law of Independent Assortment (second law):** alleles at different
+loci separate independently during the formation of gametes. The donation of one
+allele from each pair is independent of any other pair — e.g. if a plant donates
+the yellow-seed allele, that does not determine whether it also donates the
+yellow-pod allele.
+
+### 11.7 Meiosis, gamete number, and linkage {#ch11-7}
+`[figure]` A cell-cycle/mitosis table (numbered "2.12"): across G1, S, G2,
+prophase/prometaphase, metaphase, anaphase, and telophase/cytokinesis, the number
+of chromosomes per cell (4→4→4→4→4→8→4) and the number of DNA molecules per cell
+(4→4→8→8→8→8→4) are tracked. Chromosome number per cell = number of functional
+centromeres; DNA-molecule number per cell = chromosome number when unreplicated,
+doubling when sister chromatids are present. *(This mitosis-tracking table appears
+in the Mendelian Genetics deck alongside meiosis content — transcribed here per
+its actual placement in the source.)*
+
+`[figure]` A meiosis diagram showing two alternative arrangements of homologs at
+metaphase I (from one interphase cell carrying alleles A/a and B/b) — Arrangement I
+and Arrangement II — each proceeding through metaphase II to four gamete types in
+equal (¼) proportions: ¼ AB, ¼ ab (Arrangement I) and ¼ Ab, ¼ aB (Arrangement II),
+illustrating independent assortment at the chromosome level.
+
+**Genetic variation** arises from (I) crossing over and (II) random separation of
+homologous chromosomes — possible combinations = 2 to the power n.
+
+**Genotype vs. gamete.** A genotype contains two copies of the gene (e.g. AaBB); a
+gamete contains only one copy of the gene (e.g. AB). Number of possible gametes =
+2ⁿ, where n = number of heterozygous genes (e.g. CCDdee and AABbCcdd each have a
+specific number of possible gamete types by this rule).
+
+**Gene linkage.** Morgan found that many genes are linked together — it was
+determined that **chromosomes**, not genes, assort independently during meiosis.
+**Linked genes** are carried on the same chromosome, linked during transmission
+from parent to offspring and inherited like single genes; recombination can break
+linkage. Genes close together on the same chromosome belong to the same **linkage
+group**.
+
+---
+
+## Ch. 12 — Non-Mendelian Genetics {#ch12}
+
+*Source: "3.Non mendelian genetics.pdf" (32p).*
+
+### 12.1 The molecular basis of dominance {#ch12-1}
+The terms dominant and recessive have a phenotypic basis, but the dominance of
+one allele over another is determined by the protein product of that allele. The
+overall phenotype is the consequence of the activities of the protein products of
+the gene's alleles.
+
+Topics in this chapter: incomplete dominance, codominance, multiple alleles,
+polygenic traits, penetrance and expressivity.
+
+**Exceptions to Mendel's principles (gene interaction):** some alleles are
+neither dominant nor recessive; there may be more than two alleles for a given
+locus (multiple alleles); many traits are controlled by more than one gene
+(polygenic traits); the expression of a trait may depend on the interaction of
+more than one gene and/or genes with non-genic (environmental) factors.
+
+### 12.2 Polygenic traits {#ch12-2}
+Traits controlled by two or more genes — examples: human height, eye and skin
+color. Diet and health are strong environmental factors in expressing genetic
+potential for height.
+
+Polygenic traits are continuously varying — e.g. skin color: the contribution of
+many genes creates a gradient of colors, producing a bell-shaped curve.
+
+`[figure]` "Polygenic inheritance" — a dihybrid-style Punnett square (parents
+AaBb × AaBb) whose 16 offspring boxes are illustrated as eyes shaded across a
+gradient (AABB → light blue; combinations with three capital alleles → deep
+blue/green; two capital alleles → light or medium brown; one or zero capital
+alleles → dark brown/black), showing how two genes' worth of allele dosage
+produces a continuous phenotype gradient — the two-gene analogue of the
+skin-color example above.
+
+**Pleiotropic inheritance** — one gene, different (multiple) phenotypes.
+
+`[figure]` A 2×2 diagram set distinguishing four gene-to-effect relationships:
+(top-left) each gene has a distinct biological effect (one-to-one arrows);
+(top-right) polygenic trait — many genes contribute to a single effect
+(convergent arrows); (bottom-left) pleiotropy — a gene has multiple effects
+(divergent arrows from one gene); (bottom-right) polygenic traits and pleiotropy
+combined (a fully cross-connected many-to-many arrow network).
+
+### 12.3 Incomplete dominance {#ch12-3}
+A situation in which neither allele is dominant — when both alleles are present,
+a "new" phenotype results. Heterozygous individuals display intermediate
+phenotypes between either homozygous type. (By convention here, alleles are
+represented by capital letters only.)
+
+**Japanese four-o'clock flowers example.** Red flower genotype = RR; white
+flower genotype = WW; pink flower genotype = RW. Crossing red × white: under
+simple Mendelian dominance one would expect some white and some red, or all
+offspring red or white — instead, all F1 are pink. When a trait exhibits
+incomplete dominance, a cross between two heterozygotes produces a 1:2:1
+genotypic **and** phenotypic ratio in the progeny.
+
+`[figure]` "Explain…" — a worked incomplete-dominance cross diagram (fish
+example, labelled "Codominance" in the image but illustrating the incomplete
+dominance pattern in context): red RR × white rr → F1 pink Rr (gametes ½R, ½F) →
+F2 generation showing red RR : pink Rr : pink rR : white rr (a standard 1:2:1
+monohybrid Punnett square). A second panel on the same slide shows an LDL-receptor
+genotype/phenotype example: HH (homozygous, able to make LDL receptors) = normal;
+Hh (heterozygous) = mild disease; hh (homozygous, unable to make LDL receptors) =
+severe disease — illustrating incomplete dominance at the level of receptor
+number/phenotype severity.
+
+### 12.4 Codominance {#ch12-4}
+Codominance produces heterozygotes with a phenotype different from that of
+either homozygote; there is detectable expression of both alleles in the
+heterozygote.
+
+**Roan cattle example.** Cattle can be red (RR — all red hairs), white (WW — all
+white hairs), or roan (RW — red and white hairs together, each individual hair
+being either fully red or fully white). Notice: no pink, no blend — each hair is
+either red or white.
+
+### 12.5 Multiple alleles — ABO blood types {#ch12-5}
+Multiple allele inheritance = when two or more alleles contribute to the
+phenotype. Human blood types: A, B, O, and AB. A and B are codominant to each
+other; both A and B are dominant over O.
+
+**ABO dominance relationships.** Four blood types result from different
+combinations of three alleles: I^A, I^B, and i. I^A and I^B are completely
+dominant over i but codominant with each other. Type A involves one antigen on
+the blood cell surface; type B a different antigen. Type AB has both antigens;
+type O has neither.
+
+`[figure]` Two related "Blood Types (A, B, AB, O)" slides work through the
+ABO system: the genotype-to-phenotype mapping (I^AI^A/I^Ai → A; I^BI^B/I^Bi → B;
+I^AI^B → AB; ii → O) and the count of possible genotypes — 6 genotypes for 3
+alleles at one locus, via the formula **n(n+1)/2** where n = number of alleles at
+a locus (worked example: 5 alleles at a locus → 15 possible genotypes).
+
+**Sample problem (posed, not answered in the source):** a man with type AB blood
+marries a woman with type B blood whose father has type O blood — what are the
+chances of a child with type A blood? Type AB?
+
+### 12.6 Lethal alleles {#ch12-6}
+Some single-gene mutations are so detrimental they cause death in the organism —
+**lethal mutations**, inherited as recessive alleles (only homozygotes die).
+
+**Yellow coat color in mice example.** Wild-type mice have dark pigmentation
+coats; the yellow mutant has a lighter coat color. A yellow mouse is heterozygous
+for the yellow allele (A^Y), and A^Y is dominant for color. Crossing a yellow
+mouse × wild-type mouse (A^Y/A × A/A) gives a 1:1 yellow:wild-type ratio (50%
+A^Y/A yellow, 50% A/A wild-type).
+
+Crossing yellow × yellow (A^Y/A × A^Y/A) gives 50% A^Y/A yellow : 25% A/A
+wild-type : 25% A^Y/A^Y **lethal** — an observed 2:1 (yellow:wild-type) ratio
+among survivors rather than the naively expected 3:1, because the A^Y/A^Y class
+dies. A^Y is dominant for color but **recessive lethal**.
+
+`[figure]` A molecular diagram of the underlying mutation: the wild-type A
+allele carries both a Raly promoter/Raly gene and an Agouti promoter/Agouti gene;
+chromosomes carrying the wild-type A allele produce Raly protein (required for
+mouse embryonic development) and a moderate amount of yellow pigment. A 120,000
+base-pair deletion removes the Raly gene and its promoter, producing the A^Y
+allele, which retains only the Raly promoter directly driving the Agouti gene:
+chromosomes carrying A^Y produce no Raly protein (hence embryonic lethality when
+homozygous) and a very high level of yellow pigment (hence the dominant color
+phenotype).
+
+**Pleiotropic mutation** — a mutation that affects multiple characters (the A^Y
+allele affects both coat color and embryonic viability, i.e. it is pleiotropic).
+
+### 12.7 Penetrance and expressivity {#ch12-7}
+**Penetrance** — the percent of individuals with a given allele that show the
+phenotype of that allele; <100% penetrance can result from epistasis,
+suppressors, or environmental conditions.
+
+**Expressivity** — the extent to which an allele is expressed at the phenotypic
+level; affected by genetic background and environment.
+
+These phenomena make pedigree analysis and genetic counseling more difficult.
+
+**Epistasis** — the alleles of one gene modify or prevent the expression of
+alleles of another gene.
+
+An organism is **penetrant** for a trait when the phenotype is consistent with
+the genotype; an organism that does not produce the phenotype generally
+associated with its genotype is **nonpenetrant**. Traits for which nonpenetrant
+individuals routinely occur display **incomplete penetrance**.
+
+**Polydactyly example.** An autosomal dominant condition in which affected
+individuals have more than 5 fingers and toes; the dominant allele is
+nonpenetrant in about 25-30% of individuals carrying it.
+
+`[figure]` Two clinical photographs of polydactyly: a partially-formed extra
+digit between the thumb and index finger on both hands of one patient, and a
+fully-formed extra (sixth) finger on the ulnar side of another patient's hand —
+illustrating variable expressivity of the same condition.
+
+`[figure]` "Penetrance and expressivity" — three rows of shaded/unshaded ovals,
+each oval representing one individual's phenotypic expression: **variable
+penetrance** (some individuals with the genotype show no phenotype at all —
+alternating filled and empty ovals); **variable expressivity** (every individual
+shows some phenotype, but the shade/intensity varies continuously); **variable
+penetrance and expressivity combined** (some ovals empty, the rest varying in
+shade).
+
+### 12.8 Glossary (Ch. 12) {#ch12-8}
+`[figure]` "Table 5.1 — Differences between dominance, incomplete dominance, and
+codominance": **Dominance** — phenotype of the heterozygote is the same as the
+phenotype of one of the homozygotes. **Incomplete dominance** — phenotype of the
+heterozygote is intermediate (falls within the range) between the phenotypes of
+the two homozygotes. **Codominance** — phenotype of the heterozygote includes the
+phenotypes of both homozygotes.
 
 ---
 
