@@ -15,11 +15,14 @@ are reproduced as printed, not renumbered.
 
 Several slides carry almost no extractable text — just a diagram or table image and a
 "Dr. Suheir Ereqat" footer. Every one of these was individually reviewed at full
-resolution; all 17 found this way turned out to carry real, substantive content
-(textbook tables, mechanism diagrams, a chemical structure) and are transcribed in
-place below, tagged `[figure]`. None were decorative. Several also carry handwritten
-annotations added on top of the printed slide (corrections, mnemonics, extra labels) —
-these are part of the source as captured and are transcribed too, tagged `[handwritten]`.
+resolution: 17 in the `molecular/` unit, 45 in the `genetics/` unit (62 total). All but
+one turned out to carry real, substantive content (textbook tables, mechanism
+diagrams, pedigree diagrams, clinical photographs, a chemical structure) and are
+transcribed in place below, tagged `[figure]`; the one exception (a genuinely blank
+final page in the Gene Disorders deck) is noted in the closing gaps section rather than
+invented content. Several `molecular/`-unit slides also carry handwritten annotations
+added on top of the printed slide (corrections, mnemonics, extra labels) — these are
+part of the source as captured and are transcribed too, tagged `[handwritten]`.
 
 ---
 

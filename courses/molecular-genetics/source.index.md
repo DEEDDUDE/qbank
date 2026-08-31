@@ -134,3 +134,104 @@ terms: PCR, Taq polymerase, thermal cycler, primer, amplicon, RT-PCR, cDNA, olig
 dT, restriction endonuclease, BamHI, EcoRI, PvuII, sticky ends, blunt ends, RFLP,
 VKORC1, MspI, Sanger sequencing, dideoxynucleotide, ddATP, ddGTP, ddTTP, ddCTP,
 chain-termination
+
+## {#ch10} Ch. 10 — Introduction to Genetics
+covers: what genetics is, the cell as smallest unit of life, chromosome structure
+and karyotype preparation (colcemide, Giemsa staining, hypotonic treatment),
+identifying chromosomes (size, banding pattern, centromere position),
+metacentric/submetacentric/acrocentric/telocentric chromosomes, G-banding,
+chromosome address notation (e.g. 14q21), karyotype notation (46,XY), indications
+for a karyotype, genotype vs phenotype, gene-environment interaction, the
+Himalayan rabbit temperature-sensitive-pigmentation example, gene regulation,
+epigenetics, mutation causes, early historical concepts of heredity
+terms: karyotype, centromere, telomere, kinetochore, locus, allele, homologous
+chromosome, metacentric, submetacentric, acrocentric, telocentric, G-banding,
+genotype, phenotype, wildtype, epigenetics, histone acetylase, histone
+deacetylase, pangenesis, preformationism, blending inheritance, germ-plasm theory
+
+## {#ch11} Ch. 11 — Mendelian Genetics
+covers: Gregor Mendel and the pea-plant experiments, blending theory of
+inheritance, self- and cross-fertilization, pure-breeding/true-breeding strains,
+P/F1/F2 generations, monohybrid cross and the Law of Segregation, dominant vs
+recessive phenotype, modern gene/allele terminology, homozygous/heterozygous,
+replicate/reciprocal/test crosses, dihybrid cross and the Law of Independent
+Assortment (9:3:3:1 ratio), meiosis and gamete number (2^n rule), gene linkage,
+linkage groups
+terms: pure-breeding, P generation, F1, F2, dominant, recessive, allele, gene,
+homozygous, heterozygous, hybrid, test cross, reciprocal cross, dihybrid cross,
+Law of Segregation, Law of Independent Assortment, linkage group, Thomas Morgan
+
+## {#ch12} Ch. 12 — Non-Mendelian Genetics
+covers: molecular basis of dominance, polygenic traits (height, eye/skin color),
+pleiotropy, incomplete dominance (Japanese four-o'clock flowers, LDL-receptor
+example), codominance (roan cattle), multiple alleles (ABO blood types, n(n+1)/2
+genotype formula), lethal alleles (agouti/yellow mouse coat color, A^Y allele),
+penetrance and expressivity, incomplete penetrance (polydactyly), epistasis
+terms: incomplete dominance, codominance, multiple alleles, polygenic trait,
+pleiotropy, penetrance, expressivity, epistasis, nonpenetrant, ABO blood group,
+I^A, I^B, lethal allele, agouti, recessive lethal, addition rule, multiplication
+rule
+
+## {#ch13} Ch. 13 — Modes of Heredity
+covers: pedigree analysis goals and standard symbols, autosomal recessive
+inheritance (features, PKU, albinism, probability worked examples), autosomal
+dominant inheritance (features, achondroplasia/FGFR3), mammalian sex
+determination (SRY gene, undifferentiated gonads), pseudoautosomal regions
+(PAR1/PAR2), X-linked recessive inheritance (hemizygosity, hemophilia A),
+X-linked dominant inheritance (fragile-X syndrome), Y-linked inheritance, quick
+pedigree-pattern inference rules, worked practice pedigrees
+terms: pedigree, proband, autosomal recessive, autosomal dominant, X-linked
+recessive, X-linked dominant, Y-linked, SRY, pseudoautosomal region, PAR1, PAR2,
+hemizygous, carrier, consanguinity, achondroplasia, FGFR3, phenylketonuria,
+albinism, tyrosinase, Huntington disease, hemophilia A, fragile-X syndrome
+
+## {#ch14} Ch. 14 — Gene Disorders
+covers: mutation classification (spontaneous/induced, somatic/germ-line, point
+vs indel), transitions vs transversions, silent/missense/nonsense mutations,
+frameshift and in-frame indels, forward/reverse/suppressor mutations
+(intragenic/intergenic), non-coding-sequence mutations, familial Mediterranean
+fever (MEFV/pyrin), cystic fibrosis (CFTR), expanding trinucleotide repeat
+diseases (fragile-X/FMR1, Huntington disease/HTT), Marfan syndrome (FBN1/
+fibrillin), Factor V Leiden thrombophilia, Duchenne muscular dystrophy
+(dystrophin, Gowers sign), random X-inactivation (Lyon hypothesis, Barr body),
+calico cats
+terms: transition, transversion, silent mutation, missense mutation, nonsense
+mutation, frameshift, indel, suppressor mutation, MEFV, pyrin, colchicine, CFTR,
+trinucleotide repeat expansion, anticipation, FMR1, HTT, FBN1, fibrillin,
+microfibril, Factor V Leiden, dystrophin, Gowers sign, Lyon hypothesis, Barr
+body, X-inactivation
+
+## {#ch15} Ch. 15 — Chromosomal Disorders
+covers: causes of chromosomal disorders, clinical presentations (infertility,
+intersex, malformations, mental retardation), chorionic villus sampling and
+amniocentesis, euploidy/polyploidy/aneuploidy, monosomy/trisomy, meiotic and
+mitotic nondisjunction, trisomy 13 (Patau), chromosome structural anomalies
+(deletion, duplication, inversion, translocation, Robertsonian translocation,
+translocation segregation patterns), cri du chat syndrome, Down syndrome
+(trisomy 21 and familial/translocation forms), maternal age and nondisjunction,
+Klinefelter syndrome, Turner syndrome, Jacob's/XYY syndrome, triple X syndrome,
+dosage compensation, mosaicism, international karyotype nomenclature, genomic
+imprinting (Igf2, Angelman syndrome, Prader-Willi syndrome)
+terms: euploid, polyploidy, aneuploidy, monosomy, trisomy, nondisjunction,
+translocation, Robertsonian translocation, deletion, duplication, inversion,
+paracentric, pericentric, cri du chat, Down syndrome, Patau syndrome, Edwards
+syndrome, Klinefelter syndrome, Turner syndrome, Jacob syndrome, triple X
+syndrome, mosaicism, Barr body, genomic imprinting, Igf2, Angelman syndrome,
+Prader-Willi syndrome, karyotype nomenclature
+
+## {#ch16} Ch. 16 — Genetics of Cancer
+covers: defining cancer and metastasis, cell cycle control and checkpoints
+(G1/S, G2/M, spindle-assembly), telomerase and the Hayflick limit, cyclin/CDK
+mechanism, RB1 as tumor suppressor, cyclin D1 as proto-oncogene, apoptosis and
+caspases, cancer as a genetic disease (sporadic vs. inherited/familial basis),
+oncogenes (Ras, Myc/Burkitt lymphoma, Philadelphia chromosome/BCR-Abl), tumor
+suppressor genes (dominant vs recessive mode of action), retinoblastoma
+(hereditary vs sporadic, two-mutation mechanism), p53 as guardian of the
+genome, DNA repair genes (BRCA1, xeroderma pigmentosum, HNPCC), colon cancer
+multi-hit progression, clonal evolution, viral oncogene mechanisms,
+chapter summary of cancer causes
+terms: metastasis, checkpoint, telomerase, Hayflick limit, cyclin, CDK, RB1,
+pRB, E2F, proto-oncogene, oncogene, tumor suppressor gene, Ras, Myc, Burkitt
+lymphoma, Philadelphia chromosome, BCR-Abl, p53, p21, apoptosis, caspase,
+BRCA1, xeroderma pigmentosum, HNPCC, clonal evolution, angiogenesis, retrovirus,
+provirus
