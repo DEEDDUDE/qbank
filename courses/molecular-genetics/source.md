@@ -3123,10 +3123,98 @@ genes, contributing to many types of cancer.
 factors and simultaneously inhibits survival factors, tipping the cell's
 balance toward apoptosis.
 
+### 16.8 DNA repair genes and the multi-hit model {#ch16-8}
+**DNA repair genes** — genes that promote DNA repair are inactivated in
+cancer:
+- **BRCA1** is a tumor suppressor involved in DNA repair; faulty copies cause
+  inherited breast cancer.
+- **Xeroderma pigmentosum** results from a defect in nucleotide-excision
+  repair.
+- **Hereditary nonpolyposis colorectal cancer (HNPCC)** results from a
+  mismatch-repair defect.
+
+**"Applying your knowledge" — true/false prompts (posed, not answered on the
+slide):** "Oncogenes are formed by mutations of genes that normally stimulate
+cell division." "Cancer-causing mutations in tumor suppressor genes inhibit
+cell division." *(Both statements are consistent with the definitions given
+earlier in this chapter — oncogenes arise from proto-oncogenes that normally
+promote division, §16.6; tumor-suppressor mutations remove a normal brake on
+division, §16.7 — so by this chapter's own content both would read as TRUE,
+though the source itself does not state the answer.)*
+
+**A typical progression of colon cancer** — a worked multi-hit example: a
+series of mutations is responsible for colon cancer development, stepping
+through tumor-suppressor loss, oncogene activation, and further
+tumor-suppressor loss, ending in **angiogenesis**. Terms and approximate
+figures listed on the slide (without a fully reconstructable single sequence
+diagram in the source's extractable text): tumor suppressor; loss of contact
+inhibition (80%); protooncogene = over-expression (50-60%); resistant to
+apoptosis; a further tumor-suppressor loss step.
+
+`[figure]` "23.4 Through clonal evolution, tumor cells acquire multiple
+mutations that allow them to become increasingly more aggressive and
+proliferative": a branching-lineage diagram starting from one normal cell —
+(1) a first mutation predisposes a daughter cell to proliferate at an
+abnormally high rate; (2) a second mutation (in one branch of that cell's
+descendants) causes faster division; (3) a third mutation causes structural
+changes in one branch of those cells; (4) a fourth mutation causes uncontrolled
+division and invasion of other tissues, producing a malignant cell — each step
+shown branching from only a subset of the previous step's descendants
+(dashed arrows represent an unillustrated second cell of the same type at each
+branch, per the figure's own caption), illustrating that clonal evolution
+proceeds through a minority lineage acquiring sequential mutations rather than
+uniformly across the whole cell population.
+
+**The genetic basis of sporadic vs. inherited cancer, quantified.** `[figure]`
+A companion diagram to §16.5's sporadic/inherited comparison: in **inherited
+cases**, a person's cells all already carry one mutation (inherited in every
+cell), so only a second somatic mutation (probability *nμ*, reflecting *n*
+cells each with per-cell mutation probability μ) is needed to produce a tumor
+founder cell with two mutations. In **sporadic cases**, a first somatic
+mutation must occur in one cell (probability *nμ*) before a second mutation in
+that same cell's lineage (now probability μ, since only one cell's descendants
+carry the first hit) produces the same two-mutation tumor founder cell — making
+the inherited pathway numerically more likely to reach a tumor founder cell,
+since it skips the low-probability first step of restricting the search to one
+already-mutated lineage.
+
+### 16.9 Viruses and a chapter summary {#ch16-9}
+**Viruses are associated with some cancers.**
+
+`[figure]` A two-panel retroviral-oncogene diagram: (a) a retrovirus inserts
+its RNA into a cell; the viral RNA undergoes reverse transcription and inserts
+into the host chromosome next to a proto-oncogene (forming a provirus adjacent
+to the proto-oncogene); when the virus reproduces, the proto-oncogene is
+incorporated into the virus; in repeated rounds of viral infection and
+reproduction, the proto-oncogene becomes rearranged or mutated (or both),
+producing an oncogene that is inserted back into a host chromosome via a new
+infection. (b) An alternative mechanism not requiring gene capture: a
+retrovirus infects a cell and the provirus inserts near a (not-yet-mutated)
+proto-oncogene; the provirus's own strong viral promoter then stimulates
+over-expression of that unmutated proto-oncogene directly, producing excess
+mRNA — i.e. dysregulation by promoter insertion rather than by altering the
+gene itself.
+
+**Chapter summary — cancer can be caused by:**
+- Environmental factors (increase mutation rate).
+- Mutations in genes that control the cell cycle (CDK/cyclins).
+- Mutations in tumor suppressor genes (act in a recessive manner) and
+  oncogenes (act in a dominant manner).
+- Genes in signal-transduction pathways.
+- Defects in DNA-repair genes.
+- Genes that activate telomerase (allowing cells to divide indefinitely).
+- Chromosome mutations (deletions, inversions, and translocations).
+- Mutations in genes that cause or allow missegregation of chromosomes
+  (aneuploidy).
+- Viruses.
+- Epigenetic changes (hypermethylation contributes to cancer by silencing the
+  expression of tumor-suppressor genes).
+
 ---
 
 ## Source gaps and flagged passages
 
+### Molecular unit (Ch. 1-9)
 None. Every page reviewed — whether from its text layer or, for the 18 near-blank
 pages, from a rendered image — carried transcribable content. No illegible text, no
 genuinely content-free (purely decorative) figure, and no internal contradiction in
@@ -3134,3 +3222,31 @@ the source requiring a flag were found in this batch. The one apparent numeric
 discrepancy (DNA-1 p.15's A-DNA "10" bp/turn) turned out to be the source's own
 handwritten correction to 11, not an extraction error — recorded as such in §1.4
 above rather than silently "fixed" or flagged as wrong.
+
+### Genetics unit (Ch. 10-16)
+One genuinely content-free page: "5.Gene Disorders.pdf" p.46, the deck's final
+page, renders as fully blank (only the standard footer) — no text, no figure, no
+handwritten annotation. Not a read failure; confirmed by direct full-resolution
+render. No chapter content was drawn from it.
+
+Two practice pedigrees in Ch. 13 (§13.8, "4.Mode of heredity.pdf" pp.52-53,
+the deck's own "Assignment" slides) were left undescribed beyond noting their
+questions — they are posed without an answer key anywhere in the source, so
+there is nothing to verify a transcription against; rendering their exact pedigree
+structure was skipped as it would add no checkable fact beyond what the prose
+already states (the question being asked). Not flagged as unclear — simply
+outside this source's own answered content.
+
+One apparent internal date inconsistency, kept as printed rather than corrected:
+Ch. 15 §15.1 ("6.Chromosomal Disorder.pdf" p.5) states the chorionic villus
+sampling window as "14 and 16 weeks gestation," which conflicts with the
+standard clinical CVS window (10-13 weeks) given by the companion amniocentesis
+slide's own framing on the next page. Transcribed as the source printed it, per
+hard rule 4 — not silently corrected.
+
+All other near-blank pages across the genetics unit's seven decks (45 total,
+identified by rendering every page whose extractable text — footer excluded —
+fell under 30 characters) were individually reviewed at full resolution and
+found to carry real, substantive content: pedigree diagrams, mechanism
+diagrams, reference tables, and clinical photographs. All are transcribed in
+place above, tagged `[figure]`.
