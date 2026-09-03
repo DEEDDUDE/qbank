@@ -145,6 +145,24 @@
           "pages": 8
         }
       ]
+    },
+    {
+      "id": "midterm-01",
+      "built": "2026-09-03",
+      "questions": 55,
+      "note": "RUN-PLAN row 6: raw/midterm/2023-2024/ نموذج ١ + نموذج ٢ only. نموذج ٣ + نموذج ٤ are row 7, not yet ledgered.",
+      "files": [
+        {
+          "name": "raw/midterm/2023-2024/نموذج ١.pdf",
+          "sha1": "8675b23e29e73af26d43910c3f000d19b5953cec",
+          "pages": 30
+        },
+        {
+          "name": "raw/midterm/2023-2024/نموذج ٢.pdf",
+          "sha1": "2a5290d3f62ef1cc7f675ab5916822153245d75d",
+          "pages": 21
+        }
+      ]
     }
   ]
 }
