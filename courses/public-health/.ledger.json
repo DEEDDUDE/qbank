@@ -5,15 +5,118 @@
       "built": "2026-08-31",
       "questions": 12,
       "files": [
-        { "name": "raw/quizzes/2020-2021/received_172116801718401.jpeg", "sha1": "f23916e6d6463229dee8b55de523935c1e918e8e", "pages": 1 },
-        { "name": "raw/quizzes/2020-2021/received_249585190401680.jpeg", "sha1": "08e2b7fc001900411255c52f84486ff744282671", "pages": 1 },
-        { "name": "raw/quizzes/2020-2021/received_364171735361055.jpeg", "sha1": "b24974e3cfd8c3f4ff8214f14746c168d4adf8d4", "pages": 1 },
-        { "name": "raw/quizzes/2020-2021/received_434097934696017.jpeg", "sha1": "ffb7fedd0deed154ac5bac4d715becafc33955fc", "pages": 1 },
-        { "name": "raw/quizzes/2020-2021/received_541842906872563.jpeg", "sha1": "252c202572b1e19014ac7dae6f237a0cb827e089", "pages": 1 },
-        { "name": "raw/quizzes/2020-2021/received_630060967961347.jpeg", "sha1": "87754acaf7140634038617bc930e188918c200ba", "pages": 1 },
-        { "name": "raw/quizzes/2020-2021/received_902061567185806.jpeg", "sha1": "e98bd650aad19adf06cb90d6c0fd036eda0f1ff4", "pages": 1 },
-        { "name": "raw/quizzes/2020-2021/received_986560318555265.jpeg", "sha1": "b3673a0d2464586c2cb5ea23ca5978c42ef982eb", "pages": 1 },
-        { "name": "raw/quizzes/2020-2021/received_1461694087541660.jpeg", "sha1": "e42ce25eedc260dd397779d26d4cd67a81d0ced9", "pages": 1 }
+        {
+          "name": "raw/quizzes/2020-2021/received_172116801718401.jpeg",
+          "sha1": "f23916e6d6463229dee8b55de523935c1e918e8e",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2020-2021/received_249585190401680.jpeg",
+          "sha1": "08e2b7fc001900411255c52f84486ff744282671",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2020-2021/received_364171735361055.jpeg",
+          "sha1": "b24974e3cfd8c3f4ff8214f14746c168d4adf8d4",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2020-2021/received_434097934696017.jpeg",
+          "sha1": "ffb7fedd0deed154ac5bac4d715becafc33955fc",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2020-2021/received_541842906872563.jpeg",
+          "sha1": "252c202572b1e19014ac7dae6f237a0cb827e089",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2020-2021/received_630060967961347.jpeg",
+          "sha1": "87754acaf7140634038617bc930e188918c200ba",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2020-2021/received_902061567185806.jpeg",
+          "sha1": "e98bd650aad19adf06cb90d6c0fd036eda0f1ff4",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2020-2021/received_986560318555265.jpeg",
+          "sha1": "b3673a0d2464586c2cb5ea23ca5978c42ef982eb",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/2020-2021/received_1461694087541660.jpeg",
+          "sha1": "e42ce25eedc260dd397779d26d4cd67a81d0ced9",
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "id": "midterm-01",
+      "built": "2026-09-03",
+      "questions": 177,
+      "files": [
+        {
+          "name": "raw/midterm/2023/نموذج ١.pdf",
+          "sha1": "8b0a0f424ab26c3ccfc8b82df12c782b1d53086c",
+          "pages": 27
+        },
+        {
+          "name": "raw/midterm/2023/نموذج ٢.pdf",
+          "sha1": "567219ffa442523cd1ee2ba295410f3143f1c428",
+          "pages": 34
+        },
+        {
+          "name": "raw/midterm/2023/نموذج ٣.pdf",
+          "sha1": "fd8a79b19d7f3a703bb8312ef57273a3b70dc7da",
+          "pages": 18
+        },
+        {
+          "name": "raw/midterm/2022/Screenshot_20221124_215427.jpg",
+          "sha1": "822580b188c39c821bdcaa50b63e4db213c6854f",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022/Screenshot_20221124_215435.jpg",
+          "sha1": "5b19360433e1c03c3f2bf52a06ae2ac0fa306d23",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022/received_1112338756318410.jpeg",
+          "sha1": "e420948da8ff99aad5b0368ed9d8b8060880eadb",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022/received_2250594368452991.jpeg",
+          "sha1": "677c6fc92accde6e909b821c35b3adecc5e08fd2",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022/received_5718925294820858.jpeg",
+          "sha1": "12ffc5e5f9428cb4c9b5184244db18c4192ec652",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022/received_581475463978010.jpeg",
+          "sha1": "11c5d1a53519db83f32c775a20989c350cd5c64d",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022/received_596826195697972.jpeg",
+          "sha1": "b695d053f8b8edcad27af7255542d994674c86cc",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2022/received_689179395876357.jpeg",
+          "sha1": "e2d4c4aae315eb121fcea3030f465926b6c01353",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/2015/Mid Exam P.H. 2015.pdf",
+          "sha1": "c3d36e44f6e79dd6e2d5512bba51b9d1fabdfc25",
+          "pages": 15
+        }
       ]
     }
   ]
