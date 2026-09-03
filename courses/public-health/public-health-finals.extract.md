@@ -1,12 +1,12 @@
 ---
 course: public-health
 tab: finals
-questions: 107
-tiers: claimed 89 | open 18
-forms: mcq 107
+questions: 165
+tiers: claimed 153 | open 12
+forms: mcq 165
 needs-eye: 0
-disputed: 2
-next-id: PH-F-108
+disputed: 4
+next-id: PH-F-166
 ---
 
 <!-- batch 01 -- raw/finals/2023/نموذج 5.pdf, all 50 pages (Q1-Q50), 100% vision
@@ -141,6 +141,91 @@ next-id: PH-F-108
   below (50 original + 57 new = 107), matching this file's own totals.
   **Not yet run through Job C or D.** -->
 
+<!-- batch 03 -- raw/finals/2023/نموذج 3.pdf (26 pages), 100% vision (no text layer) +
+  raw/finals/2020-2021/1/Public Health final 2020-2021.pdf (20 pages), 100% vision (no
+  text layer). RUN-PLAN row 18. Bundles two unrelated exam sittings into one session
+  purely to hit a page budget -- kept completely separate, no cross-matching between
+  them.
+
+  Part 1 (نموذج 3): a fourth reshuffled model of the SAME 2023-2024 sitting already
+  in this file as models 1, 4, 5 (نموذج 2 was never captured and doesn't exist). Its
+  26 captured pages are NOT in reading order -- the p001-p026 filenames run in reverse
+  relative to the exam's own Q1-Q50 order (p001 shows Q49-50, p026 shows Q1-2), a
+  capture-order quirk of this particular screenshot sequence. All 26 pages were read
+  regardless of filename order and every question re-sorted by its own printed
+  question number for the continuity check; Q1-Q50 confirmed unbroken with no gaps
+  (p019 and p020 turned out to be two near-identical captures of the same Q13-15
+  region -- no new information, not a duplicate drop). Matched every question by stem
+  text (never by number, since models are shuffled) against the existing PH-F-001-107
+  pool first: 32 of model 3's 50 questions matched existing entries by stem --
+  extending their `models:` list with `3`, and upgrading six previously-`open`
+  entries (PH-F-006, 007, 009, 010, 011, 029) to `claimed` since model 3 supplied
+  their first-ever claim. The other 18 were genuinely new stems, minted PH-F-108
+  through PH-F-125 in the order encountered (Q2, Q6, Q8, Q10, Q13, Q14, Q17, Q18,
+  Q20, Q23, Q26, Q27, Q28, Q31, Q37, Q39, Q40, Q46).
+
+  Two new disputes surfaced where model 3's claim disagreed with an existing model's
+  claim on content (not just letter -- distractor order is reshuffled per model, so
+  matches and disputes were judged by comparing what the selected option *says*, not
+  its letter): **PH-F-100** (health-promotion approach addressing socioeconomic/
+  environmental determinants) -- model 4 selected "Behaviour change approach", model 3
+  selected "Community development approach". **PH-F-104** (Health Policy Indicators,
+  EXCEPT) -- model 4 selected "The proportion of GDP spent on health services", model
+  3 selected "None is correct". Both recorded `disputed: true` with per-model
+  `claims:`, bringing the file's running dispute total to 4. Every other overlapping
+  question agreed on content across models despite letter reshuffling (e.g. PH-F-094's
+  "25%" is option b in model 3 but option a in model 4 -- same claim, not a dispute).
+
+  Model 3's own Moodle attempt shows "Answer saved" with a filled radio on all 50
+  questions -- no "Not yet answered" state anywhere, unlike نموذج 5's earlier mixed
+  state. No question in model 3 depends on a photo, chart, or diagram -- all 50 are
+  pure text `mcq`, `type: single`; no crops saved to flagged/.
+
+  Part 2 (2020-2021 sitting): a separate exam from a separate academic year, kept
+  entirely out of the PH-F-001-107/108-125 stem-matching pool per the task brief --
+  no cross-matching attempted or found. Its own new ID range: PH-F-126 through
+  PH-F-165, Q1-Q40 in printed order, one straightforward continuous Moodle attempt,
+  "Answer saved" with a filled radio on every question, no gaps. Tagged
+  `source: 2020-2021 sitting` on every entry (mirrors microbiology finals' `source:
+  Exam I` precedent) since this sitting has no reshuffled-model identity of its own.
+  A second, Messenger-photo capture of this same 2020-2021 sitting already sits
+  un-processed in `.prep/finals/2020-2021/` (the `2_received_*.jpg` files) --
+  explicitly out of scope for this session (RUN-PLAN row 19's job) and never opened;
+  every entry here was transcribed verbatim off the printed Moodle text specifically
+  so that a future stem-match against that second capture will work cleanly.
+
+  Three source anomalies in Part 2, transcribed exactly as printed rather than
+  corrected or invented around: **PH-F-158** has two identical options ("Observational
+  case-control" printed for both c and d) -- confirmed at full resolution, genuine
+  duplicate in the source. **PH-F-160**'s stem states the risk ratio as "0.07" but its
+  selected answer (a) describes "0.7 times the risk" -- a decimal-place mismatch
+  between stem and answer text, preserved as printed. **PH-F-162**'s stem has its
+  exposed-group sample size ("... following ___ smokers ...") covered by an on-screen
+  UI overlay (a floating close/"x" icon) baked into the screenshot itself -- not a
+  downscale artifact, so no crop of the original could recover it; recorded as
+  `[obscured]` rather than guessed, and doesn't affect the answer since the
+  interpretation question depends only on the stated risk ratio of 17, not the sample
+  size. Four questions in Part 2 (PH-F-136, 141, 146, 157) share one otitis-media
+  vignette but each individually asks about "streptococcal sore throat" in its own
+  final sentence -- a disease-name mismatch against the vignette printed on every one
+  of the four repeats, not a one-off typo; transcribed verbatim on all four rather
+  than corrected. No question in Part 2 depends on a photo, chart, or diagram beyond
+  the plain-text vignettes above; no crops saved to flagged/.
+
+  Anti-loss checks: number continuity confirmed unbroken 1-50 for model 3 (re-sorted
+  by printed question number, independent of the reversed capture-order filenames)
+  and 1-40 for the 2020-2021 sitting, checked separately per source per the task
+  brief. Count reconciliation: each batch's visible question count matched the number
+  transcribed in both parts (50 for model 3 across 26 pages; 40 for 2020-2021 across
+  20 pages, 2 questions/page with no overflow). Structural floor: all 90 new/updated
+  entries are `mcq` with >=2 options (most 4, several True/False with 2, the four
+  vignette vitals-metric questions with 5), none malformed. Language check: all
+  stems/options are English; the only non-English text anywhere is the نموذج 3
+  filename/course-folder label itself, never inside a stem or option. Computed header
+  counts: questions/tiers/forms/needs-eye/disputed all recomputed from the full body
+  below (107 existing + 18 new from model 3 + 40 new from 2020-2021 = 165), matching
+  this file's own totals. **Not yet run through Job C or D.** -->
+
 ### PH-F-001
 tier: open
 form: mcq
@@ -180,7 +265,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 5]
+models: [1, 3, 5]
 We examined the relationship between television viewing and initiation of smoking and found a strong relationship between both variables. What does this mean
 a) Dose-response relationship
 b) Consistency
@@ -200,10 +285,11 @@ c) 9.6/1000
 d) 9.6/1000
 
 ### PH-F-006
-tier: open
+tier: claimed
 form: mcq
 type: single
-models: [5]
+claimed: a
+models: [3, 5]
 What is the term for an epidemic that has spread across a large geographic area and affects multiple countries or continents?
 a) Pandemic
 b) Outbreak
@@ -211,10 +297,11 @@ c) Epidemic
 d) Endemic
 
 ### PH-F-007
-tier: open
+tier: claimed
 form: mcq
 type: single
-models: [5]
+claimed: c
+models: [3, 5]
 A health system is defined by
 a) A health system is the combined activities of all resources, actors, and institutions related to the financing, regulation, and provision of all activities whose primary intent is to improve or maintain health
 b) A health system is the combined strategies of all resources, actors, and institutions related to the financing, regulation, and provision of all activities whose primary intent is to improve or maintain health
@@ -233,10 +320,11 @@ c) Suitable for studying rare exposures
 d) Vulnerable to cases and control selection bias
 
 ### PH-F-009
-tier: open
+tier: claimed
 form: mcq
 type: single
-models: [5]
+claimed: c
+models: [3, 5]
 Health literacy is best defined as the capacity of a person to:
 a) Read health-related literature
 b) Access the internet
@@ -244,10 +332,11 @@ c) Recognize and know how to find information about a health problem
 d) Follow medical instructions for specific healthcare problems
 
 ### PH-F-010
-tier: open
+tier: claimed
 form: mcq
 type: single
-models: [5]
+claimed: d
+models: [3, 5]
 What is the role of secondary prevention in the natural history of a disease?
 a) Secondary prevention focuses on preventing the occurrence of diseases.
 b) Secondary prevention is unrelated to the natural history of diseases.
@@ -255,10 +344,11 @@ c) Secondary prevention primarily deals with rehabilitation after illness.
 d) Secondary prevention aims to identify diseases in their early stages.
 
 ### PH-F-011
-tier: open
+tier: claimed
 form: mcq
 type: single
-models: [5]
+claimed: b
+models: [3, 5]
 One of the following is not a health determinant
 a) The impact of the natural environment
 b) Health insurance regulations in the country
@@ -293,7 +383,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 5]
+models: [1, 3, 5]
 Which term is used to describe the principle that the cause should consistently precede the effect?
 a) Temporal relationship
 b) Consistency
@@ -339,7 +429,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [4, 5]
+models: [3, 4, 5]
 Primary health care strategy towards Changes in the Health care system includes:
 a) Use and control of resources, Redistribution of existing resources, and Reorientation of Health manpower to PHC
 b) Total coverage with essential health care, Integrated system, and Involvement of communities
@@ -351,7 +441,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 5]
+models: [1, 3, 5]
 Primary health care (PHC) became a core policy for the World Health Organization with:
 a) In 1948 the WHO resolution, including the social health dimension
 b) The Alma-Ata Declaration in 1978 and the 'Health-for-All by the Year 2000' Program.
@@ -446,7 +536,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [4, 5]
+models: [3, 4, 5]
 Which of the following is considered to be a public health achievement during the twentieth century?
 a) Antibiotics
 b) All are correct
@@ -466,10 +556,11 @@ d) Reorient health services
 e) Create supportive environments
 
 ### PH-F-029
-tier: open
+tier: claimed
 form: mcq
 type: single
-models: [5]
+claimed: c
+models: [3, 5]
 A prevalence rate is:
 a) The total number of cases of a disease existing in a population divided by the total population.
 b) The number of new cases of a disease is divided by the number of all cases of a disease.
@@ -481,7 +572,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [4, 5]
+models: [3, 4, 5]
 In a study to evaluate the association between tobacco smoking and lung cancer, it was found that PAR equals 30%. What does the value "30%" PAR represent in this context?
 a) The prevalence of smoking in the population
 b) The total number of lung cancer cases in the population
@@ -529,7 +620,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 5]
+models: [1, 3, 5]
 The denominator of the Maternal mortality rate is:
 a) Total term deliveries
 b) Total pregnant females
@@ -662,7 +753,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [5]
+models: [3, 5]
 Communicable diseases control strategies include:
 a) Prevent recurrence
 b) All are correct
@@ -674,7 +765,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 4, 5]
+models: [1, 3, 4, 5]
 How does food insecurity influence healthcare utilization?
 a) Has no impact on healthcare utilization
 b) Enhances preventive care practices
@@ -746,7 +837,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1]
+models: [1, 3]
 Which of the following is a characteristic of cross-sectional research?
 a) Snapshot of a population at a single point in time
 b) Manipulation of variables to observe their effects
@@ -812,7 +903,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3]
 What is the best way to prevent the spread of infection?
 a) Use personal protective equipment
 b) Wash your hands
@@ -824,7 +915,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3]
 Which organization is crucial in the monitoring and advising of global health issues?
 a) United Nations
 b) World Health Organization
@@ -836,7 +927,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 3]
 Systematic and unjust distribution of social, economic, and environmental conditions needed for health as a definition of
 a) Health Disparities
 b) None of the answers is true
@@ -985,7 +1076,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 4]
+models: [1, 3, 4]
 How is the odds ratio calculated?
 a) (Odds in exposed group) / (Odds in unexposed group)
 b) (Number of cases in exposed group) / (Total number in exposed group)
@@ -1009,7 +1100,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3]
 In which stage of the demographic transition model do birth rates remain high while death rates decline significantly?
 a) Stage 3
 b) Stage 2
@@ -1130,7 +1221,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3]
 What is a potential consequence of food insecurity on mental health?
 a) Enhanced emotional well-being
 b) Increased stress and mental health disorders
@@ -1142,7 +1233,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1]
+models: [1, 3]
 A process by which people gain control and mastery over their own lives.
 a) Sustainability
 b) Equity
@@ -1178,7 +1269,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [4]
+models: [3, 4]
 The declaration of health as a human right was declared at
 a) Kazakhstan 1982
 b) Alam Ata 1978
@@ -1226,7 +1317,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [4]
+models: [3, 4]
 What is the primary goal of tertiary prevention in healthcare?
 a) Identifying diseases in their early stages
 b) Preventing the occurrence of diseases
@@ -1262,7 +1353,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [4]
+models: [3, 4]
 WHO Europe office,1984 set a target to reach, as part of enhancing health equities by ------% by the year 2000
 a) 25%
 b) 30%
@@ -1310,7 +1401,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [4]
+models: [3, 4]
 All of the following are sources for financing the health system except for one
 a) Donations or community health insurance.
 b) Extra budgets from other ministries
@@ -1333,8 +1424,13 @@ d) It focuses on the odds of exposure for an outcome.
 tier: claimed
 form: mcq
 type: single
-claimed: c
-models: [4]
+disputed: true
+claims:
+  - source: model 4
+    answer: c (Behaviour change approach)
+  - source: model 3
+    answer: b (Community development approach)
+models: [3, 4]
 This approach to health promotion aims to improve and promote health by addressing socioeconomic and environmental determinants of health within the community.
 a) None of these
 b) Community development approach
@@ -1346,7 +1442,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [4]
+models: [3, 4]
 Epidemiological measures of effect assess the _______ between an exposure and an outcome.
 a) Strength of the association.
 b) Strength of the causal mechanisms.
@@ -1381,8 +1477,13 @@ d) Clinical Medicine
 tier: claimed
 form: mcq
 type: single
-claimed: c
-models: [4]
+disputed: true
+claims:
+  - source: model 4
+    answer: c (The proportion of GDP spent on health services)
+  - source: model 3
+    answer: d (None is correct)
+models: [3, 4]
 Regarding Health Policy Indicators, the most important indicator of political commitment is the allocation of adequate resources with the following relevant indicators, EXCEPT:
 a) The proportion of total health resources devoted to primary health care
 b) Proportion of GDP spent on health-related activities like water supply and sanitation & housing and nutrition
@@ -1394,7 +1495,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [4]
+models: [3, 4]
 According to the statistics from Palestine in 2022, the Palestinians in the West Bank were
 a) 2,92 million
 b) 4.12 million
@@ -1406,7 +1507,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [4]
+models: [3, 4]
 In the context of a medical test, what does specificity measure?
 a) The ability to minimize false negatives
 b) The ability to correctly identify individuals with the disease
@@ -1424,3 +1525,691 @@ a) Strength of association
 b) Plausibility
 c) Dose-response relationship
 d) Temporal relation
+
+### PH-F-108
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+What does the relative risk (RR) measure in epidemiology?
+a) The ratio of the risk of an outcome in the exposed group to the risk in the unexposed group
+b) The odds of developing a disease
+c) The proportion of cases with exposure
+d) The prevalence of a disease in a population
+
+### PH-F-109
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+In which field of epidemiology would you expect to see ecological studies?
+a) Descriptive epidemiology
+b) Intervention studies
+c) Analytical epidemiology
+d) Statistical analysis
+
+### PH-F-110
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+Between the public health and the medical model, the medical model health is concerned with all of the following except for one
+a) Prevention of the disease
+b) Diagnosis of the disease
+c) Treatment of the disease
+d) Intervention in disease management
+
+### PH-F-111
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+What is the fundamental question that analytical epidemiology aims to answer?
+a) "How do exposures relate to disease occurrence?"
+b) "Who is affected by the disease?"
+c) "What is the basic pattern of the disease?"
+d) "What is the disease's geographic distribution?"
+
+### PH-F-112
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+Differentiation between a point-source epidemic and a progressive (propagated) epidemic is made by:
+a) Considering the characteristics of the infectious agent
+b) Plotting the distribution of cases by time onset
+c) Determining the level of immunity in the community
+d) Determining the number of persons infected and calculating the attack rate
+
+### PH-F-113
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+What is the primary characteristic of a case-control study?
+a) Selection based on outcome status
+b) Random assignment of participants
+c) Prospective data collection
+d) Observation of exposure and outcome simultaneously
+
+### PH-F-114
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+Completeness of primary health care requires that:
+a) Adequate attention to all aspects of a medical problem, including prevention, early detection, diagnosis, treatment, follow-up measures, and rehabilitation.
+b) The care is provided for all types of health problems.
+c) All are correct
+d) The management of a patient's care over time is coordinated among providers.
+
+### PH-F-115
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+What is the primary goal of analytical studies in research?
+a) To explore and describe natural phenomena
+b) To test hypotheses and identify associations or relationships
+c) To gather information from a large sample about attitudes
+d) To manipulate variables and observe their effects
+
+### PH-F-116
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [3]
+In a retrospective descriptive study, when is the data collected?
+a) Before the occurrence of the phenomenon
+b) Simultaneously with the occurrence of the phenomenon
+c) At multiple points in time
+d) After the occurrence of the phenomenon
+
+### PH-F-117
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [3]
+Which of the following is an essential criterion for a condition to be suitable for screening?
+a) No treatment available
+b) No early symptoms.
+c) High prevalence
+d) Low prevalence
+
+### PH-F-118
+tier: claimed
+form: mcq
+type: single
+claimed: c
+models: [3]
+How has the globalization of pharmaceuticals affected access to healthcare in developing countries?
+a) No impact on medication accessibility
+b) Improved access to affordable medications
+c) Increased healthcare disparities
+d) Reduced availability of medications worldwide
+
+### PH-F-119
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+What is the purpose of routine screenings in secondary prevention?
+a) To detect diseases in their early stages
+b) To prevent the occurrence of diseases
+c) To rehabilitate individuals after illness
+d) To diagnose diseases at an advanced stage
+
+### PH-F-120
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+The ______ is a specialized agency of the United Nations responsible for international public health. This international health organization compiles statistics of diseases and investigates health problems.
+a) Occupational Safety and Health Administration
+b) World Health Organization
+c) Food and Drug Administration
+d) Center for Disease Control
+
+### PH-F-121
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+In epidemiological studies, when is it generally true that the odds ratio (OR) approximately equals the risk ratio (RR)?
+a) Only in experimental studies
+b) When the outcome is rare (low prevalence)
+c) When the outcome is common (high prevalence)
+d) Regardless of the prevalence of the outcome
+
+### PH-F-122
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+Which of the following is not an Obstacle to the utilization of healthcare services?
+a) Rationality
+b) Affordability
+c) Acceptability
+d) Accessibility
+
+### PH-F-123
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+Fall in standardized death rates from infectious diseases in the USA during the 60's occurred because of the
+a) Shift in environmental risk factors
+b) Development of antibiotics
+c) Discovery of vaccination of Poliomyelitis
+d) Strict hygiene rules
+
+### PH-F-124
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+note: Radio marked on option b, "Tea drinkers have a higher risk of developing diabetes" -- transcribed exactly as selected on the page, despite the printed RR of 0.86 conventionally indicating a protective effect. Not corrected; Job A transcribes, it does not judge.
+In a cohort study, the risk ratio of developing diabetes was 0.86 when comparing consumers of tea (the exposed) to those who did not drink tea (the unexposed). Which one of the statements is correct?
+a) Tea drinkers have a lower risk of developing diabetes.
+b) Tea drinkers have a higher risk of developing diabetes.
+c) The risk ratio is close to the value one, so there is no difference in disease risk between the two groups
+d) Based on the information given we cannot tell if the observed difference in disease risk is the result of developing diabetes
+
+### PH-F-125
+tier: claimed
+form: mcq
+type: single
+claimed: a
+models: [3]
+What is a key characteristic of multipurpose screening tests in healthcare?
+a) They simultaneously assess multiple health conditions
+b) They are primarily used for diagnostic purposes.
+c) They focus on a single specific condition
+d) They are designed for research purposes only
+
+### PH-F-126
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Identify what this situation reflects: Over 20 million people worldwide died from influenza in 1918—1919
+a) Epidemic disease
+b) Pandemic disease.
+
+### PH-F-127
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+A person working as a health educator use an approach that views health as related to
+a) Pathological processes
+b) Behavioral change
+c) Health screening
+d) Minimize complication
+
+### PH-F-128
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021 sitting
+which of the following studies apply to this: Persons diagnosed with new-onset Lyme disease were asked how often they walk through woods, use insect repellant, wear short sleeves and pants, etc. Twice as many patients without Lyme disease from the same physician's practice were asked the same questions, and the responses in the two groups were compared
+a) Observational cross-sectional
+b) Observational cohort
+c) Observational case-control
+d) Experimental
+
+### PH-F-129
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+In which one of the following circumstances will the prevalence of a disease in the population increase, all else being constant?
+a) If the incidence rate of the disease falls
+b) If the population in which the disease is measured increases.
+c) If recovery of the disease is faster
+d) If survival time with the disease increases.
+
+### PH-F-130
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+The _______ rate is the average number of children per women in reproductive age.
+a) growth
+b) family
+c) birth
+d) fertility
+
+### PH-F-131
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Health Equality is the opportunity for everyone to attain his or her full health potential.
+a) True
+b) False
+
+### PH-F-132
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+The individual's culture does not impact his/her views towards health issues.
+a) True
+b) False
+
+### PH-F-133
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Health promotion became a core policy for the World Health Organization with the Alma-Ata Declaration in 1978 and the 'Health-for-All by the Year Program.
+a) False
+b) True
+
+### PH-F-134
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+A person's health and wellbeing is dependent on a good start, good future, good care and support. These influences, social, economic, physical and environmental factors are known as
+a) Health care
+b) Determinants of Health
+c) Health promotion
+d) Public Health
+
+### PH-F-135
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+which of the following studies apply to this: Representative sample of residents were telephoned and asked how much they exercise each week and whether they currently have (have ever been diagnosed with) heart disease.
+a) Observational cohort
+b) Observational cross-sectional
+c) Observational case-control
+d) Experimental
+
+### PH-F-136
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+note: Vignette (shared with PH-F-141/146/155) describes an otoscopic exam for otitis media (OM), but this question's own stem asks about "streptococcal sore throat" -- a disease-name mismatch against the vignette it's attached to. Transcribed exactly as printed, not corrected.
+You are working in a pediatric clinic with an experienced pediatrician. You do otoscopic examination of the tympanic membrane (TM) to 50 children whose parents are concerned about the possibility of ear infection. You believe that 15 children have red and bulging tympanic membranes consistent with otitis media (OM). The pediatrician examines these same children and makes a diagnosis of otitis media in 25 children. The pediatrician agrees that 10 of your 15 diagnoses of children with otitis media are correct. The negative predictive value for streptococcal sore throat was
+a) 10/35
+b) 20/35
+c) 15/35
+d) 20/50
+e) 10/15
+
+### PH-F-137
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Which is not a type of Epidemiology study?
+a) Scientific
+b) Descriptive
+c) Experimental
+d) Observational
+
+### PH-F-138
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Isolation of a child with measles belongs to secondary prevention.
+a) False
+b) True
+
+### PH-F-139
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Identify what this situation reflects: Cases of infectious disease occurred within 3 weeks among residents of a particular neighborhood (usually 0 or 1 per year)
+a) Epidemic disease
+b) Pandemic disease.
+
+### PH-F-140
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+The decentralization of administrative and decision making functions is considered a way to involve the community in public health development.
+a) True
+b) False
+
+### PH-F-141
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+note: Vignette (shared with PH-F-136/146/155) describes an otoscopic exam for otitis media (OM), but this question's own stem asks about "streptococcal sore throat" -- a disease-name mismatch against the vignette it's attached to. Transcribed exactly as printed, not corrected.
+You are working in a pediatric clinic with an experienced pediatrician. You do otoscopic examination of the tympanic membrane (TM) to 50 children whose parents are concerned about the possibility of ear infection. You believe that 15 children have red and bulging tympanic membranes consistent with otitis media (OM). The pediatrician examines these same children and makes a diagnosis of otitis media in 25 children. The pediatrician agrees that 10 of your 15 diagnoses of children with otitis media are correct. The predictive value of the doctors' clinical judgment for streptococcal sore throat was
+a) 10/25
+b) 10/50
+c) 5/15
+d) 10/15
+e) 15/25
+
+### PH-F-142
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Pathogenicity refers to the ability of an organism to cause disease
+a) False
+b) True
+
+### PH-F-143
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Primary Health care philosophy includes the following EXCEPT
+a) Treating health as commodity
+b) Equity and Justice
+c) Inter relationship of Health and Development
+d) Individual and community self-reliance
+
+### PH-F-144
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Health literacy is best defined as the capacity of a person to:
+a) Recognize and know how to find information about a health problem
+b) Follow medical instruction for specific health care problem
+c) Read health-related literature
+d) Access the internet
+
+### PH-F-145
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+Which of the following processes characterizes the level of disease prevention known as tertiary prevention?
+a) Prevention of illness through appropriate individual and group behaviour modification designed to minimize infection risk
+b) Prevention of disease before its biological onset
+c) Prevention of clinical illness through the early and asymptomatic detection and remediation of certain disease conditions
+d) Prevention of disease progression and additional disease complication after overt clinical disease occurrence
+
+### PH-F-146
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021 sitting
+note: Vignette (shared with PH-F-136/141/155) describes an otoscopic exam for otitis media (OM), but this question's own stem asks about "streptococcal sore throat" -- a disease-name mismatch against the vignette it's attached to. Transcribed exactly as printed, not corrected.
+You are working in a pediatric clinic with an experienced pediatrician. You do otoscopic examination of the tympanic membrane (TM) to 50 children whose parents are concerned about the possibility of ear infection. You believe that 15 children have red and bulging tympanic membranes consistent with otitis media (OM). The pediatrician examines these same children and makes a diagnosis of otitis media in 25 children. The pediatrician agrees that 10 of your 15 diagnoses of children with otitis media are correct. The sensitivity of the doctors' clinical judgment was
+a) 10/35
+b) 10/50
+c) 10/25
+d) 5/15
+e) 15/25
+
+### PH-F-147
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021 sitting
+Getting a young person to quit smoking is an example of
+a) Secondary prevention.
+b) Health promotion
+c) Primary prevention
+d) Tertiary prevention
+
+### PH-F-148
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Which of the following statements about exposures is true?
+a) Dietary intake is not an 'exposure' because individuals make a choice about what they eat.
+b) 'Exposure' refers to contact with some factor that may be harmful or beneficial to health.
+c) An exposed individual has a greater risk of disease.
+d) High body mass index is a risk factor for a range of health conditions, therefore, it cannot be treated as a single exposure.
+
+### PH-F-149
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+In a case-control study, the Odds Ratio (OR) is the Ratio of the odds of exposure among the cases to the odds in favor of exposure among the controls
+a) False
+b) True
+
+### PH-F-150
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Population per hospital bed in Palestine is:
+a) 1.23 bed per 10,000 population
+b) 12.3 bed per 10,000 population
+c) 2 beds per 10,000 population
+d) 1 bed per 10,000 population
+
+### PH-F-151
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+The _________ is an international health organization that compiles statistics of diseases and investigates health problems.
+a) Food and Drug Administration
+b) Occupational Safety and Health Administration
+c) Center for Disease Control
+d) World Health Organization
+
+### PH-F-152
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+A process by which people gain control and mastery over their own lives is called:
+a) Sustainability
+b) Intersectoral
+c) Equity
+d) Empowerment
+
+### PH-F-153
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+_________ is used to describe a small, localized epidemic, often contained to a village or a small town
+a) An outbreak
+b) A pandemic
+c) A sporadic disease
+d) An epidemic
+
+### PH-F-154
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Primary health care is usually practiced in:
+a) Community health services and NGOs
+b) Health education units only
+c) Specialized health services and NGOs
+d) Community and acute care clinics
+
+### PH-F-155
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Public health services are given adequate attention in the financing of health care in Palestine.
+a) True
+b) False
+
+### PH-F-156
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Social Justice refers
+a) Social inclusion
+b) An ethical concept based on human rights and fairness
+c) An ethical concept based on autonomy
+d) Ensuring the punishment fits the crime
+
+### PH-F-157
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021 sitting
+note: Vignette (shared with PH-F-136/141/146) describes an otoscopic exam for otitis media (OM), but this question's own stem asks about "streptococcal sore throat" -- a disease-name mismatch against the vignette it's attached to. Transcribed exactly as printed, not corrected.
+You are working in a pediatric clinic with an experienced pediatrician. You do otoscopic examination of the tympanic membrane (TM) to 50 children whose parents are concerned about the possibility of ear infection. You believe that 15 children have red and bulging tympanic membranes consistent with otitis media (OM). The pediatrician examines these same children and makes a diagnosis of otitis media in 25 children. The pediatrician agrees that 10 of your 15 diagnoses of children with otitis media are correct. The specificity of the doctors' clinical judgment was
+a) 20/35
+b) 5/25
+c) 20/25
+d) 10/25
+e) 20/50
+
+### PH-F-158
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+note: Options c and d print identically ("Observational case-control") -- confirmed at full resolution, not a read error. Transcribed verbatim.
+which of the following studies apply to this: Occurrence of cancer was identified between April 1991 and July 2002 for 50,000 troops who served in the first Gulf War (ended April 1991) and 50,000 troops who served elsewhere during the same period.
+a) Observational cohort
+b) Experimental
+c) Observational case-control
+d) Observational case-control
+
+### PH-F-159
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+By basing programs and services in communities, organizations, and schools where most people spend most of their time, you can increase the likelihood of long-term success to the road of health and wellness.
+a) False
+b) True
+
+### PH-F-160
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+note: Stem prints the risk ratio as "0.07" but option (a), the selected answer, describes "0.7 times the risk" -- transcribed exactly as printed, not corrected.
+A study is done to examine whether is an association between the daily use of vitamins C & E and risk of coronary artery disease (heart attack) over a 10 years period. When subjects who took both vitamins were compared to those who took not vitamins at all, the risk ratio was found to be 0.07. which of the following is a correct interpretation of this finding?
+a) Those who take vitamins C & E daily have 0.7 times the risk of heart attack compared to those who do not take vitamins
+b) The risk difference in this study is 0.70 per 100 vitamin users over ten years.
+c) The risk difference in this study is 70 per 100 vitamin users over ten years
+d) The incidence of coronary artery disease in those who take vitamins C& E daily is 0.70 (or 70%)
+
+### PH-F-161
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+The following criteria are necessary to establish causal relationship between two variables except:
+a) The exposure to this factor should precede the development of the disease.
+b) The factor is present in all subjects with the disease
+c) Elimination of the factor reduces risk of the disease.
+d) One exposure to this factor is always enough to develop the disease
+
+### PH-F-162
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: 2020-2021 sitting
+note: The exposed-group sample size ("... following ___ smokers ...") is covered by an on-screen UI overlay (a floating close/"x" icon) in the source capture -- baked into the screenshot itself, not a downscale artifact, so no crop can recover it. Recorded as omitted rather than guessed; does not affect the answer, which depends only on the stated risk ratio.
+A cohort study examined the association between smoking and lung cancer after following [obscured] smokers and 600 non-smoker for 15 years. At the conclusion of the study the investigators found a risk ratio=17. Which of the following would be the best interpretation of the risk ratio?
+a) Smokers had 17% more lung cancers compared to non-smokers.
+b) There were 17 more cases of lung cancer in the smokers.
+c) Smokers had 17 times more risk of lung cancer than non-smokers.
+d) 17% of the lung cancers in smokers were due to smoking.
+e) Smokers had 17 times the risk of lung cancer compared to non-smokers.
+
+### PH-F-163
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Which of the following is the best definition of public health?
+a) The science and art of preventing disease, prolonging life, and promoting health through the organized efforts of medical science
+b) None of these
+c) All of these
+d) The process of mobilizing local, state/provincial, national and international resources to assure the conditions in which all people can be healthy
+e) Ensuring the health of the individual by maintaining and improving the health of the community
+
+### PH-F-164
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+What is the best way to prevent the spread of infection?
+a) Avoid contact with ill patients
+b) Wash your hands
+c) Use alcohol wipes to clean surfaces
+d) Use personal protective equipment
+
+### PH-F-165
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+which of the following studies apply to this: Subjects were children enrolled in a health maintenance organization. At 2 months, each child was randomly given one of two types of a new vaccine against rotavirus infection. Parents were called by a nurse two weeks later and asked whether the children had experienced any of a list of side-effects.
+a) Observational cohort
+b) Experimental
+c) Observational case-control
+d) Observational cross-sectional
