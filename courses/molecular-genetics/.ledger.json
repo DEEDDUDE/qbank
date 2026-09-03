@@ -325,6 +325,19 @@
           "pages": 30
         }
       ]
+    },
+    {
+      "id": "finals-02",
+      "built": "2026-09-03",
+      "questions": 55,
+      "note": "RUN-PLAN row 11: raw/finals/2023-2024/4.pdf. 44 vision pages, single capture (attempt=991314), screen photos with glare. Cross-matched by stem against finals-01's 81 questions: 39 matched (38 upgraded from open to claimed, 1 -- MGEN-F-052 -- became disputed against an existing claim), 16 genuinely new (MGEN-F-082-097).",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024/4.pdf",
+          "sha1": "b3139f64a8ec251f21c83f81b2c63bbac625d51d",
+          "pages": 44
+        }
+      ]
     }
   ]
 }
