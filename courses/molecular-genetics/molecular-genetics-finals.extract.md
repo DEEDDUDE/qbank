@@ -1,12 +1,12 @@
 ---
 course: molecular-genetics
 tab: finals
-questions: 115
-tiers: official 0 | claimed 70 | open 45
-forms: mcq 114 | unknown 1
-disputed: 5
+questions: 155
+tiers: official 0 | claimed 110 | open 45
+forms: mcq 154 | unknown 1
+disputed: 6
 needs-eye: 2
-next-id: MGEN-F-116
+next-id: MGEN-F-156
 ---
 
 <!-- batch 01 (RUN-PLAN row 10) -- raw/finals/2023-2024/3.pdf + 5.pdf, 61 vision
@@ -1724,3 +1724,522 @@ c. The type of duplication, in which the duplicated segment is located some dist
 d. It can occur in the same orientation as that of the original sequence.
 e. None of the choices
 
+<!-- batch 04 (RUN-PLAN row 13) -- raw/finals/2020-2021/, 21 files, 21 vision
+  pages. A **separate sitting** from the 2023-2024 exam that fills MGEN-F-001-115
+  -- cross-matched by stem against the entire existing spine (disease names,
+  mechanisms and phrasing checked individually) and found zero overlap, so
+  this whole batch is genuinely new content, IDs MGEN-F-116-155.
+
+  **All 21 photos turned out to be one single Moodle attempt (455159, cmid
+  254407)** -- confirmed everywhere the URL's attempt id is legible in the
+  photo, never a different number. Filenames carry no capture-order
+  information (Messenger `received_<random-id>.jpeg` exports, not a phone
+  camera's timestamped naming), so pages were ordered by their own "Question
+  N" badges rather than filename, and the batch covers this attempt's own
+  Q1-40 with no gaps -- a full, clean 40-question exam (shorter than the
+  2023-2024 sitting's 55).
+
+  Every capture shows "Answer saved" with a genuinely filled radio matching
+  the badge throughout -- no stale-badge discrepancy anywhere in this batch,
+  unlike the 2023-2024 folder-1 capture. **One exception: Question 7 (MGEN-F-122)
+  was photographed twice, and the two captures disagree** -- one shows it
+  unflagged with option (a) selected, the other shows it flagged with option
+  (b) selected. Read as the student revisiting and changing the answer
+  between the two screenshots (the flag state changed too), not a rendering
+  artifact -- both captures are clean, unambiguous "Answer saved" shots of
+  the identical stem and options. Recorded `disputed: true` with both claims
+  kept, same convention as this file's own MGEN-F-002/096 (batch 02).
+-->
+
+### MGEN-F-116
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: 2020-2021/
+One of the following mutations is considered a frameshift mutation to this template 5`-AGCCTTAAAGC-3`?
+a. 5`-AGCGCTTAAAGC-3`
+b. 5`-AGCCTTAAAGC-3`
+c. 5`-TTTAGCCTTAAAGC-3`
+d. 5`-TGCCTTAAAGC-3`
+e. 5`-CTTAAAGC-3`
+
+### MGEN-F-117
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021/
+in Huntington disease, if the offspring of a cross have 50% chance of having this disease regardless of the gender of the offspring whether males or females , which sentence is true?
+a. The mother`s genotype is heterozygous
+b. The mother`s genotype is homozygous
+c. The mother doesn't have the disease, and is normal
+d. The father has the disease
+
+### MGEN-F-118
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021/
+which of the following sentences is incorrect ?
+a. Chromosomal abnormalities can cause cancer such as the translocation between ch 9 and 22 leading to Burkitts lymphoma.
+b. Expression of telomerase in cancer cells can be considered as an epigenetic change
+c. Cancer is monoclonal
+d. In many types of cancer, the p53 gene is mutated or downstream effectors are mutated
+
+### MGEN-F-119
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+Which of the following is correct about Polysomes?
+a. several ribosomes moving from the 5 end to the 3 end of mRNA and synthesizing a polypeptide from the C- terminus to the N-terminus.
+b. several ribosomes moving from the 3 end to the 5 end of mRNA and synthesizing a polypeptide from the N- terminus to the C-terminus.
+c. several ribosomes translating only an eukaryotic mRNA molecule simultaneously
+d. several ribosomes translating a prokaryotic or eukaryotic mRNA molecule simultaneously
+
+### MGEN-F-120
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+Which of the following sentences is correct about x linked recessive disease?
+a. Affected offspring have at least affected parent.
+b. PKU is an example on x linked inheritance
+c. Affected males are usually born to unaffected mothers who are carriers
+d. The two parents should be affected to have affected daughter
+
+### MGEN-F-121
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+which of the following is incorrect?
+a. Cancer cells are considered metastatic when they manage to form a secondary site
+b. A defective oncogene is a damaged copy of a protooncogene and is characterized by unresponsiveness to growth inhibitory signals
+c. Cancer is a generic disease which is usually inherited.
+d. Cancer is characterized by dysregulation in epigenetics
+
+### MGEN-F-122
+tier: claimed
+form: mcq
+type: single
+disputed: true
+claims:
+  - source: 2020-2021/, capture 1 (unflagged)
+    answer: a
+  - source: 2020-2021/, capture 2 (flagged)
+    answer: b
+source: 2020-2021/
+note: Two captures of the same attempt (455159) disagree -- one shows this
+  question unflagged with (a) selected, the other shows it flagged with (b)
+  selected. Chronological order between the two captures can't be determined
+  from the raw filenames (Messenger-received IDs, no embedded timestamp), so
+  neither is treated as more authoritative; both kept per this file's own
+  precedent for disagreeing same-attempt captures (see MGEN-F-002/096).
+What is the central dogma of Molecular biology?
+a. Is an explanation of the flow of genetic information within a cell.
+b. States that the gene is the basic physical and functional unit of heredity.
+c. States that DNA can be synthesized using an RNA template
+d. states that proteins can be synthesized directly from a DNA template without the use of mRNA
+
+### MGEN-F-123
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+Which of the following is NOT CORRECT about translocation mutation?
+a. Reciprocal translocation occurs when two non-homologous chromosome break and exchange fragments
+b. Robertsonian translocation occurs when the centromeres of two acrocentric chromosomes fuse and generate one metacentric chromosome
+c. Reciprocal translocation can be balanced or unbalanced
+d. Familial Down syndrome results when a segment of chr. 14 detaches and fuses with chr. 21 leading to a fused chr.21/14
+
+### MGEN-F-124
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+Expanding nucleotide repeats Mutations?
+a. Observed in MFV gene which is located on the short arm of chromosome 16 that encodes a pyrin protein
+b. First described in a gene named CFTR, which causes fragile-X syndrome
+c. Expansion of a set of three nucleotides GCA causing Huntington's disease
+d. Cause several diseases due to the expansion of a set of three nucleotides, most often CNG
+
+### MGEN-F-125
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+which of the following best describes intergenic suppressor mutation?
+a. is a mutation that converts a wild type phenotype to a mutant phenotype
+b. is a second mutation within the same codon or the same gene that restore the wild-type phynotype
+c. is two mutations occur in different genes that together restore the wild-type phynotype
+d. is a second mutation within the same codon reverse a first mutation and restore the wild-type phynotype
+
+### MGEN-F-126
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+Which of the following is a cap synthesizing enzyme?
+a. Phosphatase
+b. guanylyphosphorylase
+c. guanine-7-methyltransferase
+d. O-7-methyltransferase
+
+### MGEN-F-127
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021/
+Which of the following is NOT correct about cyclin D1?
+a. Binds with Cdk4 enzyme forming a complex that stimulates the cell cycle to enter S phase
+b. Encoded by proto-oncogene that when expressed stimulates cell cycle progression
+c. Encoded by tumor suppressor gene that when expressed prevent cell cycle progression
+d. High levels of cyclin D1 interact with the constantly available Cdk4 promoting uncontrolled entry into S phase
+
+### MGEN-F-128
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+One of the following mutations is the most effective / dangerous ?
+a. an insertion of one base in an intron
+b. insertion of 6 bases in the coding region
+c. change of one base in the wobble position
+d. deletion of one base in the 3`UTR
+e. an insertion of two bases in the splice site
+
+### MGEN-F-129
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021/
+If the nondisjunction in the sex chromosomes was caused by the father during spermatogenesis then?
+a. 1/2 of the offspring will have Klinefelter and 1/2 will be non-viable
+b. 1/2 of the offspring will have turner and 1/2 will have Klinefelter syndrome.
+c. 1/2 of the offspring will have Klinefelter and 1/2 will have triple X
+d. 1/4 of the offspring will have turner, 1/4 Klinefelter 1/4 triple X and 1/4 non-viable.
+
+### MGEN-F-130
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+Which of the following statement support that Mitochondria is evolved from alpha-proteobacterial family ?
+a. Mitochondrial protein synthesis starts with methionine as in the bacteria
+b. Mitochondria are not sensitive to many bacterial inhibitors
+c. the inner membrane is more similar to prokaryotic membranes than to eukaryotic
+d. Mitochondria have their own ribosomes, which are of the prokaryotic 80S type
+
+### MGEN-F-131
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+Why calico cats are visibly mosaic?
+a. Both the maternal and the paternal X chromosomes are expressed in the same population of cells
+b. Epistasis affects the gene expression that responsible for coat color
+c. Chromosome 9 carries a gene responsible for coat color, one allele specifies a black color; the other an orange color
+d. X inactivation in heterozygous females leads to a pattern of orange and black patches
+
+### MGEN-F-132
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+which of the following sentences is correct?
+a. In Myeloid leukemia the chromosomal abnormality is a translocation between chromosomes 8 and 14.
+b. The mutations in Cancer are usually inherited
+c. Retinoblastoma is caused by a deletion on chromosome 13
+d. The p21 is a transcription factor important for transition between G1 to S phase when the DNA repair is halted.
+
+### MGEN-F-133
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+which definition best describes polygenic traits?
+a. None of them is true
+b. it is a trait that is controlled by multiple non-allelic genes
+c. Several genes affect one phynotype, the resulting trait is an intermediate of dominant alleles
+d. Polygenic inheritance often results in a bell shaped curve when you analyze the population, where most of people are dominant for all the alleles
+
+### MGEN-F-134
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021/
+In nucleotide excision repair in eukaryotes, all of the following are required except?
+a. Excinuclease UvrA, UvrB, UvrC , helicase, polymerase a , DNA ligase
+b. Excinuclease UvrA, UvrB, UvrC , helicase, polymerase 1 , DNA ligase
+c. Excinuclease, helicase, polymerase 1 , DNA ligase
+d. Excinuclease, helicase, polymerase a , DNA ligase
+
+### MGEN-F-135
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+Which of the following diseases is maternally inherited ?
+a. B- duchenne muscular dystrophy
+b. C- Hypercholesterolemia
+c. A-Leber hereditary optic neuropathy (LHON)
+d. D- Color blindness
+
+### MGEN-F-136
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+Which one of the following is not correct about Patau syndrome?
+a. Affected people characterized by polydactylism
+b. Affected child (male or female) can be born to non-affected parents
+c. The Life span of affected persons is less than 1 month
+d. Caused by improper segregation of chromosome 18 during Meiosis I or II
+
+### MGEN-F-137
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+Which of the following sentences is correct?
+a. Theoretically, even if you want to treat one cell from the patient you need to prepare several copies of the gene.
+b. In gene therapy we correct the wrong gene by reversing the mutation with a correct copy.
+c. The use of lentiviruses as vectors for gene therapy ensures transient transfection for non dividing cells
+d. Several vectors can be used to deliver the therapeutic gene such as plasmids, viruses, electroporation, micro-injection and siRNA
+
+### MGEN-F-138
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021/
+P53 protein is the Guardian of the genome that ensures homeostasis due to its ability to?
+a. All answers are correct
+b. Activate repair pathways
+c. Stop progression into mitosis
+d. Induce the signaling pathway of apoptosis
+
+### MGEN-F-139
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021/
+Regarding chromosomal abnormalities, which of the following is correct?
+a. Aneuploidy includes ( 2n-2, 2n-4, and 4n )
+b. Non disjunction can occur in meiosis 1 or II but not in mitosis.
+c. Trisomy in the sex chromosomes is less severe than in the autosomal chromosomes
+d. Triploidy occurs from fertilization of a diploid egg with two sperms.
+
+### MGEN-F-140
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021/
+Which of the following is NOT true about Factor V Leiden Mutation?
+a. Mutated factor V remains active leads to overproduction of thrombin
+b. It is an autosomal recessive Hypercoagability disorder with incomplete penetrance
+c. Mutated Factor V has an abnormal shape making it resistant to APC
+d. People with Leiden mutation are prone to deep vein thrombosis
+
+### MGEN-F-141
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021/
+Bar body negative is one of the characteristics for the following disease?
+a. Turner syndrome
+b. Kleinfelter syndrome
+c. Triple X
+d. 46,XY/ 47XXY
+
+### MGEN-F-142
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+Which of the following sentences is incorrect ?
+a. The first trial was performed to treat SCID in a little girl and strengthened her immune system only for several months.
+b. Plasmids are useful as non viral vectors for transient transfection to treat gene disorders
+c. The problem with naked DNA is that it doesn't enter the cell without a vector.
+d. The use of adenoviruses as vectors provide and ensure stable transfection for dividing cells.
+
+### MGEN-F-143
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021/
+researchers are studying an inherited metabolic disease in humans, identified it as autosomal dominant, but around 25% of people with the dominant allele do not express any of the symptoms .What is the genetic term that explains this phenomenon?
+a. Epistasis
+b. Penetrance
+c. Variable expressivity
+d. Anticipation
+
+### MGEN-F-144
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021/
+Which sentence is incorrect concerning SOS response?
+a. DNA damage inhibits RecA which causes LexA activation of SOS genes expression .
+b. In eukaryotes its mediated by polymerase eta and iota
+c. Fidelity is reduced by a factor of 102 which means fidelity is lowered to 1 error/ 1000 nucleotide
+d. Activated when replication forks are blocked due to extensive damage
+
+### MGEN-F-145
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+In eukaryotes, the sequence of an intron starts with the following nucleotides ______, and ends with ______?
+a. UG, AG
+b. AG, CU
+c. GU, AG
+d. CA, CU
+
+### MGEN-F-146
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+The number of genes that codes for protein in the human genome is around?
+a. 10,000-16,000
+b. 100000
+c. 30,0000-40,000
+d. 19,000-20,000
+
+### MGEN-F-147
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021/
+Which of the following is NOT seen in autosomal recessive pedigrees?
+a. Affected persons have at least affected parent
+b. The parents are more likely to be relatives
+c. Affected persons must be homozygous for the disease allele
+d. Both males and females can be affected
+
+### MGEN-F-148
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+A nucleoside is composed of the following?
+a. Sugar and phosphate group
+b. Sugar, base and phosphate
+c. Base and sugar
+d. Base and phosphate
+
+### MGEN-F-149
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+In order to correct a mismatch repair at the 5` end of the first methyl group, the following are required?
+a. Mut S,Mut H,Mut L, DNA helicase II, exonuclease VII , polymerase III, SSB
+b. Mut S,Mut H,Mut L, exonuclease VII , polymerase II, SSB
+c. Mut S,Mut H,Mut L, DNA helicase II, exonuclease I or X , polymerase III, SSB
+d. Mut S,Mut H,Mut L, DNA helicase II, exonuclease I or X , polymerase I, SSB
+
+### MGEN-F-150
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021/
+One of the following transcription factors has ATPase and helicase activity?
+a. TFIIF
+b. TFIIE
+c. TFIIH
+d. TFIIB
+
+### MGEN-F-151
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021/
+Consider that yellow beaks and black feathers in birds are dominant traits, if two heterozygous birds are crossed, the probability of having offspring with yellow beaks and white feathers is?
+a. 3/16
+b. 1/4
+c. 1/16
+d. 9/16
+
+### MGEN-F-152
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021/
+Which of the following is true about transmission of X-Linked Dominant trait ?
+a. Dominant males mated to homozygous recessive females pass the trait to all of their sons
+b. All of them are correct
+c. Affected males are usually born to unaffected mothers who are carriers
+d. Heterozygous females mated to wild-type males transmit the dominant allele to half their progeny of each sex
+
+### MGEN-F-153
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+Which of the following is NOT true about Chaperone Protein?
+a. They are proteins that prevent both newly synthesized polypeptide chains and assembled subunits from aggregating into nonfunctional structures
+b. The misfolded protein may refolded by GroEL/GroES system which is chaperone protein
+c. They are proteins that expressed only under conditions of high stress, therefore they named heat shock protein
+d. They are proteins that assist the conformational folding or unfolding and the assembly or disassembly of other protein
+
+### MGEN-F-154
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021/
+Achondroplasia?
+a. It is an autosomal dominant disorder with incomplete penetrance and variable expressivity
+b. If the father is affected, only males can be affected
+c. It is an X-linked recessive disease
+d. Caused by mutation in the FGFR3 gene making the receptor to signal even in absence of ligand
+
+### MGEN-F-155
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021/
+Which of the following sentences is correct?
+a. All of the answers are wrong
+b. Translocation may result in having viable gametes.
+c. Chromosomal deletion results in Haploinsuffiecient gene, but inversion is safe since all genes are present.
+d. Duplication of a gene will affect gene dosage and may cause pseudodominance

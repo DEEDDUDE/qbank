@@ -636,6 +636,119 @@
           "pages": 1
         }
       ]
+    },
+    {
+      "id": "finals-04",
+      "built": "2026-09-04",
+      "questions": 40,
+      "note": "RUN-PLAN row 13: raw/finals/2020-2021/, 21 files, 21 vision pages. A separate sitting from 2023-2024 -- cross-matched against the full MGEN-F-001-115 spine, zero overlap found, so all 40 questions are new (MGEN-F-116-155). All 21 photos turned out to be one Moodle attempt (455159); 1 internal dispute (MGEN-F-122) where two captures of the same question disagree.",
+      "files": [
+        {
+          "name": "raw/finals/2020-2021/received_208598864662866.jpeg",
+          "sha1": "c358176aa9123d4750e8e6e443b52da178c6522c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_210122254480028.jpeg",
+          "sha1": "269cf138a5b9183b1dd29476d6d1cee6574c79ab",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_223440993073954.jpeg",
+          "sha1": "6e7d5b663d6d95a977cd440f180bc2ff2464c7a4",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_249390560427313.jpeg",
+          "sha1": "6b57aa7ae3daab09e9d919bbdd9e7eddd1b14509",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_256599656326229.jpeg",
+          "sha1": "08c2000132d161398c789f60de26ebcee7b66191",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_337747114706871.jpeg",
+          "sha1": "bb93e61cc3cf7299cd9d2d30980f30b549967134",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_371851404581777.jpeg",
+          "sha1": "6f1c6dd78ccd05492a3072888d4e9ec62549d832",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_397425841964411.jpeg",
+          "sha1": "b5ab7881101a279ef96d101026dffd6fa6676eca",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_401532434655180.jpeg",
+          "sha1": "01977cb82193004648a157a91ae433af01791fe1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_410110214025586.jpeg",
+          "sha1": "3972b3868aa593eb42c17f78fc2b65ac46d05266",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_541004380292571.jpeg",
+          "sha1": "2b8cbb07f30a8676437d6fd3371bdbd3a94c9e99",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_549941659396708.jpeg",
+          "sha1": "e9fb5a2abefe61ee0f346232a582be4d758b070b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_551863722811522.jpeg",
+          "sha1": "1b420476c39266122a0f4fe3b67a20bb4887cda5",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_561149241592020.jpeg",
+          "sha1": "217674edd7a288cc4be386609a2762918ceee002",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_587799995916278.jpeg",
+          "sha1": "aee594976cc4521dbbd846ad42c4766b5a314a6b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_605988560755754.jpeg",
+          "sha1": "3de4c869e6a2e23dfb6e734c151486cfc3214d1d",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_811716156169186.jpeg",
+          "sha1": "734dc099c55fb93952ad18a493e3365a86f60e93",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_904566150149811.jpeg",
+          "sha1": "38516a948c3ea6ff81471f6cd8eb18030d8d428d",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_933793330535672.jpeg",
+          "sha1": "206091a74eb8c305ddb2a1e034630dafd82a4bde",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_1018305795662130.jpeg",
+          "sha1": "f5d3d85773c944a84c5b7c8301c141574d4f0f14",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_4190472987687816.jpeg",
+          "sha1": "e66783e8bf0c25baf9fe993a7ceb44b91c907ae5",
+          "pages": 1
+        }
+      ]
     }
   ]
 }
