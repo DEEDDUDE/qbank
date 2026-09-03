@@ -1,12 +1,12 @@
 ---
 course: molecular-genetics
 tab: finals
-questions: 155
-tiers: official 0 | claimed 110 | open 45
-forms: mcq 154 | unknown 1
+questions: 225
+tiers: official 0 | claimed 110 | open 115
+forms: mcq 224 | unknown 1
 disputed: 6
 needs-eye: 2
-next-id: MGEN-F-156
+next-id: MGEN-F-226
 ---
 
 <!-- batch 01 (RUN-PLAN row 10) -- raw/finals/2023-2024/3.pdf + 5.pdf, 61 vision
@@ -2243,3 +2243,903 @@ a. All of the answers are wrong
 b. Translocation may result in having viable gametes.
 c. Chromosomal deletion results in Haploinsuffiecient gene, but inversion is safe since all genes are present.
 d. Duplication of a gene will affect gene dosage and may cause pseudodominance
+
+<!-- batch 05 (RUN-PLAN row 14) -- raw/finals/genetics-70q/, 2 files, 66 pages,
+  100% free text layer. **Confirmed word-for-word identical between both
+  files** by a whitespace/underscore-normalized diff of the full extracted
+  text -- zero differences beyond the export formatting itself: `Final
+  Genetics 2015.pdf` (an easyPDF-exported scan-to-PDF) drops the fill-in
+  blanks' underscore runs and renders Q1's leading "1." as "0." (a glyph
+  substitution, not a real zeroth question -- corrected to 1 here, matching
+  its own immediate continuation into "2." and the second file's own clean
+  "1."); `Final Genetics EXAM-1.pdf` (a native Word-to-PDF export, author
+  "hussein mashaqi") preserves both correctly. Extracted once from the
+  combined, corrected text rather than twice. IDs MGEN-F-156-225, assigned
+  in the exam's own Q1-70 order (no gaps, no cross-file dispute -- there was
+  never anything to disagree about).
+
+  **Zero answers anywhere in either copy** -- both are plain "Select one:"
+  question lists with no printed key, no student marks (there's nothing to
+  mark; this isn't a Moodle capture) -- every entry is tier `open`.
+
+  **The year is genuinely ambiguous, and stays that way.** RUN-PLAN's own
+  survey found the two source folders labelled 2013 and 2015 respectively;
+  neither PDF's own text repeats a year reliably (`Final Genetics 2015.pdf`
+  only in its filename), but both files' embedded PDF metadata gives a
+  creation date of **December 2015** (`20151221`/`20151222`) -- consistent
+  with each other, not with the 2013 folder label. Recorded as-is, not
+  resolved to one year over the other.
+
+  Cross-matched by stem against the full existing MGEN-F-001-155 spine:
+  **one near-miss, no merges.** MGEN-F-182 ("NOT correct about
+  Retinoblastoma") shares three of five near-verbatim options and an
+  almost-identical stem with MGEN-F-097 (2023-2024 sitting), but option (d)
+  here adds a locus detail MGEN-F-097 lacks and option (e) is entirely
+  different content -- kept separate per this project's own near-miss
+  precedent, noted on the entry itself. Two source-text artifacts worth
+  flagging rather than silently fixing, both confirmed present identically
+  in both PDF exports so not a single-file transcription slip: MGEN-F-192's
+  option (c) reads "Genome imprinting.& Sex-linkage." (a duplicate of its
+  own option (b) with a second option's text appended); MGEN-F-200's option
+  (d) carries a stray trailing "18". Both kept as printed per hard rule 4.
+-->
+
+### MGEN-F-156
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Both chloroplasts and mitochondria
+a. Are found within the nucleus.
+b. Display a Mendelian pattern of inheritance.
+c. Have linear DNA.
+d. None of them.
+e. Carry extranuclear genes.
+
+### MGEN-F-157
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Why would the transmission of Down syndrome due to a Robertsonian translocation be unaffected by the age of the mother?
+a. Robertsonian translocations only occur in young mothers.
+b. Down syndrome due to a Robertsonian translocation is not due to nondisjunction, which is affected by age.
+c. This statement is incorrect; the age of the mother does affect the transmission of Down syndrome due to Robertsonian translocations.
+d. None of them.
+e. Mothers with a Robertsonian translocation never have children.
+
+### MGEN-F-158
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Gametes are produced by the process of
+a. Crossing-over.
+b. Replication.
+c. Mitosis.
+d. Binary fission.
+e. Meiosis.
+
+### MGEN-F-159
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+If a single human gene responsible for all of the various forms of physical deterioration commonly associated with PKU, it would be referred to as
+a. Modifying gene.
+b. Pleiotropy.
+c. Imprinted gene.
+d. Redudant gene.
+e. Regulatory gene.
+
+### MGEN-F-160
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Your phenotype is determined by
+a. Your parents.
+b. Your environment only.
+c. Your genotype and environment.
+d. Your genotype only.
+e. Your father's grandmother.
+
+### MGEN-F-161
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Gregor Mendel concluded that traits are
+a. None of them.
+b. Inherited through the passing of factors from parents to offspring.
+c. Determined by recessive factors only.
+d. Not inherited by offspring.
+e. Determined by dominant factors only.
+
+### MGEN-F-162
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+What happens between meiosis I and meiosis II that reduces the number of chromosomes?
+a. Crossing-over occurs.
+b. Replication occurs twice.
+c. Replication does not occur.
+d. Metaphase occurs.
+e. S phase occurs.
+
+### MGEN-F-163
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+If you know that all the genes have complete domenance and the genetic traits of a plants seeds are noted as follows:
+L = long, l = short
+W = wrinkled, w = smooth
+Y = yellow, y = white
+R = ribbed, r = grooved
+Which of the following is the genotype for a short, wrinkled, yellow, grooved seed?
+a. LlWwYYRr.
+b. llWwYYrr.
+c. llWwyyrr
+d. llwwYYrr.
+e. LLWWyYRr.
+
+### MGEN-F-164
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+In Klinefelter's syndrome:
+a. The patient is infertile.
+b. The karyotype is always 47 XXY
+c. The extra chromosome comes from the mother germ cells
+d. There is an increased incidence of cataract
+e. The patient shows normal characteristics
+
+### MGEN-F-165
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which statement concerning a pair of alleles for a gene controlling a single characteristic in humans is true?
+a. Both genes come from the mother.
+b. The genes come randomly in pairs from either the mother or father.
+c. One gene comes from the mother and one gene comes from the father.
+d. Both genes come from the father.
+e. There is not enough genetic information to answer.
+
+### MGEN-F-166
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+A tall plant is crossed with a short plant and all the F1 plants are tall. If the tall F1 pea plants are allowed to self-pollinate,
+a. The majority of the offspring will be short.
+b. Some of the offspring will be tall, and some will be short.
+c. All of the offspring will be tall.
+d. All of the offspring will be short.
+e. The offspring will be of medium height.
+
+### MGEN-F-167
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Proto-oncogene in normal cells
+a. Suppresses progression through the cell cycle in response to DNA damage.
+b. Initiate DNA repair mechanism.
+c. None of them.
+d. Code for proteins involved in the stimulus of cell division.
+e. Initiates apoptosis.
+
+### MGEN-F-168
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Nondisjunction can involve
+a. Hetrologous chromosomes.
+b. All of them.
+c. Autosomes.
+d. Homologous chromosomes.
+e. Sex chromosomes.
+
+### MGEN-F-169
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which ONE of the following is NOT a characteristic of oncogenes?
+a. They are dominant in their mode of action.
+b. Expressed normally when hypermethylated.
+c. Their gene products function mainly in growth factor signalling pathways.
+d. They are derived from normal genes.
+e. Cancer causing mutated ras gene is an example.
+
+### MGEN-F-170
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which is associated with the inability to produce factor VIII in the blood?
+a. Duchenne muscular dystrophy.
+b. Hemophilia.
+c. Trisomy 13.
+d. Trisomy 21.
+e. Color-blindness.
+
+### MGEN-F-171
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following human genetic disorders is NOT caused by nondisjunction?
+a. Triple X syndrome.
+b. Fragile X syndrome.
+c. Down's syndrome.
+d. Klinefelter syndrome.
+e. Turner's syndrome.
+
+### MGEN-F-172
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Organisms that have 2 identical alleles for a particular trait are said to be
+a. Homozygous.
+b. Heterozygous.
+c. Dominant.
+d. Hybrid.
+e. Codominant.
+
+### MGEN-F-173
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Heteroplasmy is best described by
+a. An individual has wild type or mutant mitochondria.
+b. All of them.
+c. Heteroplasmic cells carry only one type of organelle DNA.
+d. Severity of symptoms will vary in different tissues depending on the proportions of the mutant and wild type mitochondria.
+e. Mitochondrial DNA codes for parts of mitochondrial enzymes.
+
+### MGEN-F-174
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+During cell cycle regulation, Cyclin D gene:
+a. All of them.
+b. Leads to formation of the cyclin D1-Cdk4 complex that stimulates the cell cycle to enter S phase.
+c. Is a tumor suppressor gene, when expressed stimulates cell cycle progression.
+d. Involved in DNA repair.
+e. Encodes for RB protein that binds to DNA and initiate transcription.
+
+### MGEN-F-175
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following include all the others?
+a. DNA molecules
+b. Histones.
+c. E-Centromer.
+d. Nucleosomes.
+e. Chromosomes.
+
+### MGEN-F-176
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following factors could lead to variations in the offspring of asexually reproducing organisms?
+a. Gene rearrangment.
+b. Fertilization.
+c. Crossing over.
+d. Mutations.
+e. Independent assortment.
+
+### MGEN-F-177
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+What principle states that during gamete formation genes for different traits separate without influencing each other's inheritance?
+a. Principle of codominance.
+b. Principle of segregation.
+c. Principle of independent assortment.
+d. Principle of probabilities.
+e. Principle of dominance
+
+### MGEN-F-178
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+The basic difference between cancer and normal cell
+a. Cancer cells are less invasive than normal cells
+b. Normal cells is bigger than cancer cells.
+c. Cancer cells are dividing continuously but normal cell is not divided.
+d. Normal cells are immortal but cancer cells have low activity of tolemerase enzyme.
+e. Cancer cell divide but do not differentiate like normal cell.
+
+### MGEN-F-179
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following is correct with regard to aneuploidy?
+a. 3n.
+b. 4n.
+c. Inversion.
+d. All aneuploid individuals die before birth.
+e. 2n + 1.
+
+### MGEN-F-180
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which process listed below separates linked genes during meiosis?
+a. Genomic restructuring.
+b. Phenotypic plasticity.
+c. Sexual differentiation.
+d. Allelic differentiation.
+e. Chiasma or crossing over.
+
+### MGEN-F-181
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+In the P generation, a tall plant was crossed with a short plant. Short plants reappeared in the F2 generation because
+a. They inherited an allele for shortness from one parent and an allele for tallness from the other parent.
+b. The allele for shortness is codominant.
+c. Some of the F2 plants produced gametes that carried the allele for shortness.
+d. The allele for shortness is dominant.
+e. The allele for shortness and the allele for tallness segregated when the F1 plants produced gametes.
+
+### MGEN-F-182
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+note: Near-miss to MGEN-F-097 (2023-2024 sitting) -- three of five options are
+  near-verbatim matches and the stem is nearly identical, but this option
+  (e) is entirely different content ("Children that inherit..." vs.
+  MGEN-F-097's "Can affect both males and females") and this option (d)
+  adds a locus detail ("...with a locus of 13q14") MGEN-F-097 lacks. Kept
+  separate rather than merged, per this project's own near-miss precedent
+  (e.g. MGEN-F-090/067 in pharmacology).
+Which of the following statement is NOT correct about Retinoblastoma
+a. Occurs in hereditary and non-hereditary forms.
+b. People prone to retinoblastoma have one mutated copy of the Rb gene (Rb-) and one normal copy (Rb+).
+c. Inherited retinoblastoma develops at an older age and affects only one eye.
+d. Caused by a deletion on chromosome 13 with a locus of 13q14.
+e. Children that inherit an abnormal allele inherit a strong disposition for developing the disease.
+
+### MGEN-F-183
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Unlike mitosis, meiosis results in the formation of
+a. Diploid cells.
+b. Body cells.
+c. 2N daughter cells.
+d. Haploid cells.
+e. Stem cells.
+
+### MGEN-F-184
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+An individual with the genotype XXY would have ________ chromosomes and phenotypically would be a ________.
+a. 47; female
+b. 46; male
+c. 47; male.
+d. All of them.
+e. 46; female
+
+### MGEN-F-185
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+DNA imprinting is best described by:
+a. Some genes are inherited only from mother.
+b. Some genes are inherited only from father.
+c. Effect of parental gender gene origin on transmission of disease.
+d. hypomethylation of paternal allele.
+e. Altered DNA promoter region.
+
+### MGEN-F-186
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Chromosomal aberrations may be characterized by all of the following except __________.
+a. Chromosome duplication.
+b. Inversions
+c. Chromosome loss.
+d. Translocations.
+e. Frameshift mutation.
+
+### MGEN-F-187
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Males tend to inherit more sex-linked conditions because
+a. There is no corresponding allele on their Y chromosomes
+b. They have two X chromosomes.
+c. There is no corresponding alleles on their X chromosomes.
+d. They have more chromosomes than females.
+e. They have two Y chromosomes.
+
+### MGEN-F-188
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+If you know that colour bluindness is X-link condition the carriers of this trait include:
+a. Women who are heterozygous for the trait.
+b. Women who are homozygous for the trait.
+c. All of them.
+d. Men who are homozygous for the trait.
+e. Men who are heterozygous for the trait.
+
+### MGEN-F-189
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Epigenetics include all the following Except
+a. Gene rearrangement.
+b. mRNA splicing.
+c. Methylation.
+d. Mutations.
+e. MicroRNA.
+
+### MGEN-F-190
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+If you made a Punnett square showing Gregor Mendel's cross between true-breeding tall plants and true-breeding short plants, the square would show that the offspring had
+a. The genotype of one of the parents.
+b. A genotype that was different from that of both parents.
+c. None of them.
+d. The genotype of both parents.
+e. A phenotype that was different from that of both parents.
+
+### MGEN-F-191
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+A heterozygous tall pea plant is crossed with a short plant. The probability that an F1 plant will be tall is
+a. 50%.
+b. 25%.
+c. None of them.
+d. 75%.
+e. 100%.
+
+### MGEN-F-192
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+note: Option (c) reads "Genome imprinting.& Sex-linkage." in the source
+  itself (both PDF exports agree byte-for-byte on this) -- looks like a
+  copy-paste artifact from the original document, kept as printed per hard
+  rule 4.
+A particular allele can have different effects if it was inherited from a male rather than a female. This phenomenon is known as
+a. Extranuclear inheritance.
+b. Genome imprinting.
+c. Genome imprinting.& Sex-linkage.
+d. All of them.
+e. Sex-linkage.
+
+### MGEN-F-193
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Normal human male sperms have:
+a. 46 chromosomes.
+b. 22 autosomes and a Y chromosome.
+c. 23 autosomes.
+d. 44 chromosom and XY chromosomes.
+e. 22 autosomes and an X chromosome.
+
+### MGEN-F-194
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+If a man with blood type A and a woman with blood type B produce an offspring, what might be the offspring's blood type?
+a. A, B, or O
+b. AB or O
+c. AB only
+d. A or B only.
+e. A, B, AB, or O.
+
+### MGEN-F-195
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+DNA is copied during a process called
+a. Translation.
+b. Transcription.
+c. Replication.
+d. Modification.
+e. Transformation.
+
+### MGEN-F-196
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Mitochondrial diseases are characterized by:
+a. Only female can be affected.
+b. Affected bone and teeth.
+c. Variable phenotype due to threshold effect.
+d. X-linked.
+e. Inherited from the father.
+
+### MGEN-F-197
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Huntington's disease, a neurodegenerative genetic disorder, is caused by ---------------------------- of Huntington gene
+a. Expanding nucleotide repeats mutation.
+b. All of them.
+c. Deletion mutation.
+d. Neutral mutation.
+e. Point mutation.
+
+### MGEN-F-198
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+A Human syndrome associated with deletion of a piece of a chromosome is
+a. Cri du Chat syndromes.
+b. Burkitts lymphoma.
+c. Klinefelter's syndrome.
+d. All of the choices are correct.
+e. Turner Syndrome.
+
+### MGEN-F-199
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Nondisjunction during the second meiotic division will result in which of the following gametes?
+a. All trisomic gametes.
+b. Two haploid gametes, one diploid gamete, and one gamete missing a copy of one of the chromosomes.
+c. All haploid gametes.
+d. All monosomic gametes.
+e. Two diploid gametes and two haploid gametes.
+
+### MGEN-F-200
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+note: Option (d) reads "Their sons, their daughters 18." in the source
+  itself (both PDF exports agree byte-for-byte on the trailing "18") -- an
+  apparent stray-text artifact in the original document, kept as printed
+  per hard rule 4.
+Women with X-linked disorders always pass the genes for the disorder to ______, while men with X-linked disorders always pass the genes for the disorder to _______.
+a. Both their daughters and sons; only their daughters.
+b. Both their daughters and sons; only their sons.
+c. Both their daughters and sons; their daughters and sons.
+d. Their sons, their daughters 18.
+e. Only their daughters; only their daughters
+
+### MGEN-F-201
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Assuming that the level of glucose is low, a mutation in the repressor of the lac operon in E. coli, preventing binding of the repressor to the operator, should result in:
+a. Expression of the genes only when lactose is absent.
+b. None of them.
+c. Constitutive expression of the lac operon genes.
+d. Lack of expression or reduced expression of the lac operon genes under all circumstances.
+e. Expression of the genes only when lactose is present.
+
+### MGEN-F-202
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Traits that display continuous phenotypic variation are usually determined by this form of inheritance
+a. multiple-allele.
+b. Sex-linked.
+c. Dominant-recessive.
+d. Incomplete dominance
+e. Polygenic.
+
+### MGEN-F-203
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+A pedigree chart shows:
+a. The genotypes of any parents.
+b. The types of gametes produced by the parents.
+c. Which genes are co-dominant.
+d. The genotypic ratios of the offspring.
+e. The pattern of inheritance of a specific gene.
+
+### MGEN-F-204
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+A duplication is:
+a. An extra copy of the genes on part of a chromosome.
+b. Loss of genes in part of a chromosome.
+c. An exchange between non-homologous chromosomes, resulting in chromosomes with new genes adjacent to each other.
+d. A reversal of order of genes on a chromosome.
+e. An extra set of chromosomes in an organism.
+
+### MGEN-F-205
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+"Triploid" is a term that refers to
+a. Having 2 sets chromosomes with extra one.
+b. Having 2 sets (2N) of chromosomes.
+c. Having 3 sets of chromosomes (3N).
+d. Having multiple sex cell available for fertilization.
+e. Having many expressions of the same gene.
+
+### MGEN-F-206
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following is NOT true about Turner's syndrome:
+a. The patient is below the average height
+b. Premature cataract is common.
+c. The cells contains 45 chromosomes.
+d. The off springs have 50% of inheriting the disease.
+e. The patient is infertile.
+
+### MGEN-F-207
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Why are individuals with an extra chromosome 21, which causes Down syndrome, more numerous than individuals with an extra chromosome 3 or chromosome 16?
+a. Extra copies of the other chromosomes are probably fatal.
+b. Down syndrome people reproduce more than others.
+c. There are probably more genes on chromosome 21 than on the others.
+d. Chromosome 21 is a sex chromosome and 3 and 16 are not.
+e. Down syndrome is not more common, just more serious.
+
+### MGEN-F-208
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+The principle of dominance states that
+a. Some alleles are dominant and others are recessive.
+b. All alleles are codominant.
+c. Alleles are neither dominant nor recessive.
+d. All alleles are dominant.
+e. All alleles are recessive.
+
+### MGEN-F-209
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which ONE of the following is NOT a characteristic of cancer cells?
+a. Increased requirement for stimulation by growth factors.
+b. Unlimited replicative capacity.
+c. Resistance to apoptosis.
+d. Increased requirement for angiogenesis.
+e. Resistance to inhibitory growth signals.
+
+### MGEN-F-210
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which ONE statement is correct for cells in which p53 function has been permanently deleted?
+a. Cells cannot pass the G1 to S checkpoint when chromosomal damage exists.
+b. Cells cannot divided any more.
+c. p53 gene product stimulates p21 production.
+d. Cells are less likely to survive double-strand DNA breaks.
+e. Cells cannot initiate apoptosis.
+
+### MGEN-F-211
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which disease is a kind of mitochondrial disorder
+a. Turners syndrome
+b. Myoclonic epilepsy with ragged-red fibers (MERRF).
+c. Hutington's disease.
+d. Trisomy 13.
+e. Cyctic fibrosis.
+
+### MGEN-F-212
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following is the most mutated oncogene in cancer
+a. ras.
+b. p21.
+c. abl.
+d. p53.
+e. BRACA.
+
+### MGEN-F-213
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Assuming that the level of glucose is low, a mutation in the repressor associated with the lac operon of E. coli which prevents binding of the repressor to lactose should result in:
+a. Expression of the genes only when lactose is present.
+b. Constitutive expression of the lac operon genes.
+c. Expression of the genes only when lactose is absent.
+d. Lack of expression or reduced expression of the lac operon genes under all circumstances.
+e. None of them.
+
+### MGEN-F-214
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+In the human blood type AB, the alleles are
+a. Codominant.
+b. Dominant.
+c. Sex-linked.
+d. Polygenic.
+e. Incomplete dominant
+
+### MGEN-F-215
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+If an organism's diploid number is 12, its haploid number is
+a. 4.
+b. 24.
+c. 3.
+d. 12.
+e. 6.
+
+### MGEN-F-216
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+A man has enlarged breast, spare hair on the body and his sex chromosome complement as (xxy) he suffers from
+a. Cri du chat
+b. Down syndrome.
+c. None of them.
+d. Turner syndrome
+e. Kinfelter syndrome.
+
+### MGEN-F-217
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Most sex-linked genes are located on
+a. The Y chromosome only.
+b. Both the X chromosome and the Y chromosome.
+c. The 22 autosomes.
+d. The X chromosome only.
+e. Centrosome.
+
+### MGEN-F-218
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Human mitochondria
+a. Are all inherited from the father.
+b. Have linear DNA.
+c. Are inherited as an X-linked trait.
+d. Are prokaryotioc cell.
+e. Are all inherited from the mother.
+
+### MGEN-F-219
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+If a fragment of a chromosome breaks off and then reattaches to the original chromosome but in the reverse direction, the resulting chromosomal abnormality is called
+a. Deletion.
+b. An inversion.
+c. A nondisjunction.
+d. Chiazma.
+e. A translocation.
+
+### MGEN-F-220
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following is not a gene mutation?
+a. Deletion.
+b. Substitution.
+c. Point mutation
+d. Inversion.
+e. Insertion.
+
+### MGEN-F-221
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following is never a frame shift mutation?
+a. Substitution.
+b. Inversion.
+c. Deletion.
+d. Point mutation.
+e. Insertion.
+
+### MGEN-F-222
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which ONE statement about chromosomal translocations is correct?
+a. Occurs due to deletion of homologous chromosomes.
+b. No loss of genetic material occurs in balanced translocations.
+c. None of translocations carrier get birth.
+d. Gene disruption occurs but new properties cannot be acquired.
+e. Translocations cannot be inherited.
+
+### MGEN-F-223
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Humans have 23 pairs of chromosomes, while our closest relatives, chimpanzees, have 24. Chromosome studies indicate that at some point early in human evolution, two chromosomes simultaneously broke into a large portion and a small portion. The large parts combined to form a large chromosome, and the small parts combined to form a much smaller chromosome (which was subsequently lost). This important chromosomal change could best be described as
+a. Duplication followed by deletion.
+b. We can't till.
+c. Nondisjunction followed by deletion.
+d. Translocation followed by deletion.
+e. Translocation followed by inversion.
+
+### MGEN-F-224
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+During cell division there are three types of check points one of them (M checkpoint) to ensure
+a. Increase in cell size
+b. Complete transcript formation
+c. DNA not damage or broken.
+d. Chromosomes are attached to the spindle.
+e. Complete DNA replication.
+
+### MGEN-F-225
+tier: open
+form: mcq
+type: single
+source: genetics-70q/
+Which of the following contributes to Cancer
+a. Hypermethylation of tumor-suppressor genes.
+b. Environmental factors which may decrease the mutation rate.
+c. Mutations in tumor-suppressor genes which act in dominant manner.
+d. All of them.
+e. Hypermethylation of proto-oncogenes.

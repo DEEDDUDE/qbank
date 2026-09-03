@@ -749,6 +749,24 @@
           "pages": 1
         }
       ]
+    },
+    {
+      "id": "finals-05",
+      "built": "2026-09-04",
+      "questions": 70,
+      "note": "RUN-PLAN row 14: raw/finals/genetics-70q/, 2 files, 66 text-layer pages, free. Both files confirmed word-for-word identical (whitespace/underscore-normalized diff, zero real differences). Zero answers in either copy -- all 70 open tier (MGEN-F-156-225). One near-miss to MGEN-F-097 (2023-2024 sitting), not merged.",
+      "files": [
+        {
+          "name": "raw/finals/genetics-70q/Final Genetics 2015.pdf",
+          "sha1": "e3f5c6a6e98dd100c4e6bd59576583a6dc3d511d",
+          "pages": 33
+        },
+        {
+          "name": "raw/finals/genetics-70q/Final Genetics EXAM-1.pdf",
+          "sha1": "ed1d7cb7b03b8963a6d2d25f35c4a52b35bedb99",
+          "pages": 33
+        }
+      ]
     }
   ]
 }
