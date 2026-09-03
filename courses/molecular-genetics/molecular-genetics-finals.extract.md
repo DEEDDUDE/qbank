@@ -1,12 +1,12 @@
 ---
 course: molecular-genetics
 tab: finals
-questions: 97
-tiers: official 0 | claimed 59 | open 38
-forms: mcq 97
-disputed: 3
-needs-eye: 1
-next-id: MGEN-F-098
+questions: 115
+tiers: official 0 | claimed 70 | open 45
+forms: mcq 114 | unknown 1
+disputed: 5
+needs-eye: 2
+next-id: MGEN-F-116
 ---
 
 <!-- batch 01 (RUN-PLAN row 10) -- raw/finals/2023-2024/3.pdf + 5.pdf, 61 vision
@@ -122,12 +122,81 @@ next-id: MGEN-F-098
   never copied by letter position.
 -->
 
+<!-- batch 03 (RUN-PLAN row 12) -- raw/finals/2023-2024/1/ (32 files) +
+  raw/finals/2023-2024/2/ (26 files), 58 vision pages. Cross-matched by stem
+  against all 97 batch-01/02 questions, same technique as every prior batch
+  in this file.
+
+  **Folder `1` is one continuous Moodle attempt (991243), not two attempts
+  filed together as RUN-PLAN's own pre-flight note guessed.** The attempt id
+  in the page URL is identical across all 32 photos, front to back; the
+  "different device" the note flagged (an hp laptop visible in the last two
+  photos) is just who physically held the camera for the tail end of the
+  capture, not a second Moodle session. It covers this attempt's own Q1-55
+  with no gaps.
+
+  **Folder `1`'s radios follow a stale-badge pattern for most of the file,
+  the same precedent as this file's own MGEN-F-021/035/074/081 notes and
+  pharmacology RUN-PLAN row 19**: every question up to roughly its own Q46
+  shows "Not yet answered" even where a radio is visibly filled and a "Clear
+  my choice" link is present (confirming a real, saved selection) -- each
+  such case was verified at full resolution before being recorded as a
+  claim. The attempt's last five questions (Q51-55) are the exception: the
+  badge reads "Answer saved" accurately there, matching a genuine claim.
+
+  **Folder `2` is a second, later attempt captured as Moodle's own
+  quiz-navigator review page** (a portrait tablet screenshot, all 55
+  questions reachable via a question-number grid, "Finish attempt..." link
+  visible) rather than the one-question-per-screen format every other
+  capture in this course used. Every one of its 55 questions shows "Answer
+  saved," but **a pixel-level scan of the raw color originals (not just the
+  downscaled/grayscale prep renders, where this is invisible) found exactly
+  one genuine selection in the entire file** -- MGEN-F-040 (Marfan syndrome,
+  option "Fibrillin"), a ~5px blue-filled mark at the extreme left margin of
+  its option row, next to bare gray/white circles for every other option in
+  every other question. This is read as Moodle's own autosave-on-page-view
+  behaviour (the badge reflects that the page was saved, not that every
+  question was answered), not a second capture defect -- unlike 3.pdf's
+  batch-01 systemic radio dropout, folder 2's radios do render; they are
+  simply, almost always, empty. The remaining 54 questions are recorded
+  `open` on this capture's own evidence, same as any other unanswered
+  Moodle question.
+
+  Cross-matching against the existing 97 surfaced 26 questions (batch
+  01/02's own MGEN-F-004, 017, 018, 040, 044, 049, 056, 065, 069, 083 among
+  them) that gained their first claim, a reinforcing claim, or -- for
+  MGEN-F-044 and MGEN-F-083 -- a genuine new disagreement with an existing
+  single-source claim, now recorded `disputed: true`. MGEN-F-052's own
+  existing dispute (SSB vs. Helicase) gained a third source agreeing with
+  the Helicase side. One pedigree question (MGEN-F-021) and one
+  gel-electrophoresis question (MGEN-F-019) were reinforced by folder 1;
+  three pedigree questions (MGEN-F-002, 021, 096) were reinforced by folder
+  2 -- all against figures already flagged in batches 01/02, no new crops
+  needed for any of them. MGEN-F-073 (the Sanger sequencing item, previously
+  `needs-eye` only for its missing native question number) was independently
+  reproduced whole by folder 2 with a clean, unambiguous capture -- content
+  confirmed correct, though folder 2's own numbering is attempt-specific and
+  doesn't resolve 5.pdf's original numbering gap, so the `needs-eye` flag
+  stays.
+
+  18 questions were genuinely new: MGEN-F-098-099, 102-103, 107-108 (folder
+  1 only), MGEN-F-109-115 (folder 2 only, seven questions), and
+  MGEN-F-100-101/104-105 (seen in both folders, merged into one entry each
+  with both sources). MGEN-F-106 is a genuine capture gap in folder 1: the
+  photo immediately before it ends at the bare "Question 36" header with
+  nothing below, and the next photo picks up mid-option-list with the stem,
+  figure (if any) and option (a) never captured anywhere in this raw set --
+  recorded `needs-eye` with only its surviving 3-option fragment, a
+  near-miss to MGEN-F-021's own option set but not merged with it since the
+  stem can't be confirmed. Crop saved to `flagged/MGEN-F-106.jpg`.
+-->
+
 ### MGEN-F-001
 tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 1/
 img: flagged/MGEN-F-001.jpg
 note: Claim from 4.pdf (reinforced across 2 captures, same answer both times).
 The pedigree below represents the Tay sach disease, what is the genotype for the 2 affected females? [figure: 5-generation pedigree, two affected individuals (one female, one male) in generation IV, one affected female in generation V]
@@ -147,7 +216,7 @@ claims:
     answer: c
   - source: 4.pdf, earlier capture (0:20:51 remaining)
     answer: a
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 2/
 img: flagged/MGEN-F-002.jpg
 What is the mode of inheritance for the pedigree below [figure: 4-generation pedigree (I-IV), captioned in the source image itself "Pedigree 5. X-linked dominant inheritance."]
 a. Autosomal dominant
@@ -168,10 +237,12 @@ d. Albinism follows X-linked inheritance pattern, where mutations on X chromosom
 e. Albinism is primarily inherited in an autosomal dominant manner, and affected individuals typically have one affected parent
 
 ### MGEN-F-004
-tier: open
+tier: claimed
 form: mcq
 type: single
-source: 3.pdf, 5.pdf
+claimed: d
+source: 3.pdf, 5.pdf, 2/, 1/
+note: First claim for this question -- radio filled under a stale "Not yet answered" badge in folder 1 (attempt 991243), "Clear my choice" link present confirming a real selection; verified at full resolution per this file's own established rule (see batch 03 note above).
 A pleiotropy:
 a. Is a result of mutations in non-coding regions of the genome.
 b. Occurs when multiple genes control a single trait.
@@ -184,7 +255,7 @@ f. Only observed in recessive alleles.
 tier: open
 form: mcq
 type: single
-source: 3.pdf, 5.pdf
+source: 3.pdf, 5.pdf, 2/
 The Base excision repair mechanism involves the following set of enzymes:
 a. ABC excinuclease, Endonuclease, DNA polymerase III and DNA ligase
 b. DNA glycosylase, Endonuclease, DNA polymerase I, helicase and DNA ligase
@@ -207,7 +278,7 @@ b. False
 tier: open
 form: mcq
 type: single
-source: 3.pdf
+source: 3.pdf, 2/
 Which statement regarding ubiquitin is correct?
 a. Ubiquitin is a carbohydrate group that marks proteins for destruction in proteasomes.
 b. Ubiquitin is attached to proteins by the enzyme peptidyl transferase.
@@ -218,7 +289,7 @@ d. Ubiquitin is found in both prokaryotes and eukaryotes.
 tier: open
 form: mcq
 type: single
-source: 3.pdf, 5.pdf
+source: 3.pdf, 5.pdf, 2/
 What is the primary function of the 5`cap added during RNA posttranscriptional modification in eukaryotes?
 a. Initiating transcription
 b. Promoting RNA polymerase activity
@@ -231,7 +302,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 2/
 Which of the following disorder is an example of point mutation?
 a. Fragile-X syndrome
 b. Huntington's Disease
@@ -279,7 +350,7 @@ d. Consanguinity
 tier: open
 form: mcq
 type: single
-source: 3.pdf
+source: 3.pdf, 2/
 How does p53 prevent the development of cancer?
 a. p53 prevents cells from triggering apoptosis.
 b. p53 stimulates synthesis of DNA repair enzymes which replace telomeres
@@ -301,7 +372,7 @@ d. the reaction will stop after a few cycles
 tier: open
 form: mcq
 type: single
-source: 3.pdf, 5.pdf
+source: 3.pdf, 5.pdf, 1/, 2/
 What is the consequence of the proto-oncogene MYC translocation in Burkitt lymphoma on cell proliferation?
 a. Enhanced cell proliferation
 b. No effect on cell proliferation
@@ -313,7 +384,7 @@ e. Suppression of cell proliferation
 tier: open
 form: mcq
 type: single
-source: 3.pdf
+source: 3.pdf, 2/
 What is the primary mechanism by which retroviruses contribute to the development of cancer?
 a. Enhancement of DNA repair mechanisms by replacing host DNA by viral RNA
 b. Inhibition of cell proliferation by incorporation of viral RNA in host chromosomes
@@ -321,10 +392,12 @@ c. Rearrangement of host genes, converting proto-oncogenes into oncogenes
 d. Insertion of viral RNA next to the promoter of host tumor suppressor genes
 
 ### MGEN-F-017
-tier: open
+tier: claimed
 form: mcq
 type: single
-source: 3.pdf
+claimed: d
+source: 3.pdf, 1/
+note: First claim for this question -- radio filled under a stale "Not yet answered" badge in folder 1 (attempt 991243), "Clear my choice" link present confirming a real selection; verified at full resolution per this file's own established rule (see batch 03 note above).
 A karyotyping result of 46,XY,inv(13)(p15q14) stands for:
 a. None of them
 b. Paracentric inversion chromosome 13
@@ -333,10 +406,12 @@ d. Pericentric inversion chromosome 13
 e. Transloction of p15 with q14 on chromosome 13
 
 ### MGEN-F-018
-tier: open
+tier: claimed
 form: mcq
 type: single
-source: 3.pdf, 5.pdf
+claimed: b
+source: 3.pdf, 5.pdf, 2/, 1/
+note: First claim for this question -- radio filled under a stale "Not yet answered" badge in folder 1 (attempt 991243), "Clear my choice" link present confirming a real selection; verified at full resolution per this file's own established rule (see batch 03 note above).
 Which one of the following processes can induce colon cancer?
 a. Hypomethylation of proto-oncogenes
 b. All of the choices are correct.
@@ -349,7 +424,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 1/
 img: flagged/MGEN-F-019.jpg
 The figure below shows the Agarose gel electrophoresis for RFLP-PCR product of 234 bp fragment of MCP-1 gene that is normally contains one restriction site for EcoRI restriction enzyme, a substitution mutation abolished this restriction site, which of the following patients are homozygous mutant. [figure: agarose gel, lanes M, 1-7, bands at 234bp/159bp/75bp]
 a. Patient 1 and 4
@@ -363,7 +438,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 2/
 Which of the following mechanisms accounts for the addition of a new amino acid residue into a partially completed peptide chain on the ribosome?
 a. The amino acid is transferred to link via its -COOH group to the N-terminal end of the peptide
 b. The amino acid is transferred to link via its -NH2 group to the C-terminal end of the peptide.
@@ -375,7 +450,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 3.pdf, 5.pdf
+source: 3.pdf, 5.pdf, 1/, 2/
 img: flagged/MGEN-F-021.jpg
 note: Claim comes from 5.pdf's own capture of this pedigree (radio filled
   under a stale "Not yet answered" badge, verified at full resolution per
@@ -392,7 +467,7 @@ d. Autosomal dominant
 tier: open
 form: mcq
 type: single
-source: 3.pdf
+source: 3.pdf, 1/, 2/
 Transcription is more selective than replication means that:
 a. All choices are correct.
 b. Specific regulatory sequences designate which strand in duplex DNA is to be used as the template.
@@ -443,7 +518,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 2/
 What distinguishes the ABC excinucleas`s activity from standard endonucleases?
 a. Hydrolyzing two phosphodiester bonds
 b. Recognizing damaged bases
@@ -456,7 +531,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 1/, 2/
 Site specific recombination involves all the following except:
 a. High-energy nucleotide cofactor that involves in DNA breakage and formation of the phosphodiester bond
 b. Formation of holiday intermediate
@@ -469,7 +544,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 1/
 What genetic anomaly and associated symptoms are indicative of Cri du Chat syndrome?
 a. Deletion of chromosome 5, sterility, scoliosis and speech delay
 b. Autosomal dominant mutation in the fibrilin gene, seizures, and hand-flapping behaviors
@@ -482,7 +557,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 1/, 2/
 Which of the following is NOT true about typical Turner's syndrome:
 a. the patient is below the average height
 b. the patient is sterile
@@ -493,7 +568,7 @@ d. the cells contains 45 chromosomes
 tier: open
 form: mcq
 type: single
-source: 3.pdf
+source: 3.pdf, 1/
 The progression of the cell cycle is orchestrated by various regulatory proteins. At which checkpoint of the cell cycle does the Cyclin B-CDK1 complex play a crucial role in promoting entry into mitosis?
 a. Spindle assembly checkpoint
 b. M checkpoint
@@ -505,7 +580,7 @@ e. Both G1/S and M checkpoints
 tier: open
 form: mcq
 type: single
-source: 3.pdf, 5.pdf
+source: 3.pdf, 5.pdf, 2/
 X-linked recessive traits are characterized by:
 a. Affected man passes the trait to all of his daughters but not to his sons.
 b. A heterozygous woman passes the trait to half of her sons and half of her daughters.
@@ -544,7 +619,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 1/, 2/
 In studying the inheritance pattern of a rare genetic trait with higher penetrance in males, how could you distinguish between an autosomal recessive trait and an X-linked recessive trait?
 a. Autosomal recessive traits show equal prevalence in both males and females.
 b. X-linked recessive traits are passed from fathers to sons, while autosomal recessive traits are not.
@@ -557,7 +632,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 3.pdf, 5.pdf
+source: 3.pdf, 5.pdf, 2/
 note: Claim comes from 5.pdf's capture (radio filled, "Not yet answered"
   badge). 3.pdf's independent capture of the identical stem carries no
   claim, per this batch's systemic radio-defect note above.
@@ -573,7 +648,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 2/
 In homologous recombination, what is meant by branch migration?
 a. Formation of DNA-RNA hybrid
 b. Break and reformation of identical base pairs
@@ -585,7 +660,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 2/
 A child with cleft palate, a heart defect, and extra fifth finger is found to have 46 chromosomes with extra material on one homologue of the chromosome 5. This chromosomal abnormality is best described by which of the following terms?
 a. Unbalanced rearrangement
 b. Ring formation
@@ -596,7 +671,7 @@ d. Mosaicism
 tier: open
 form: mcq
 type: single
-source: 3.pdf
+source: 3.pdf, 1/, 2/
 Which of the following statements are true concerning Okazaki fragments:
 a. they are produced by restriction endonucleases
 b. they are products of the action of primase that removed by DNA polymerase I during replication
@@ -608,7 +683,7 @@ e. they are relatively short polydeoxyribonucleotides with a few ribonucleotides
 tier: open
 form: mcq
 type: single
-source: 3.pdf
+source: 3.pdf, 1/
 If a woman is a carrier for the color-blindness and her husband is normal, what are their chances that a son will be color-blind?
 a. 100% because the mother has the gene.
 b. None since the father is normal.
@@ -617,10 +692,12 @@ d. None since he will also be just a carrier.
 e. 50% since the mother is the only carrier
 
 ### MGEN-F-040
-tier: open
+tier: claimed
 form: mcq
 type: single
-source: 3.pdf, 5.pdf
+claimed: d
+source: 3.pdf, 5.pdf, 2/
+note: First claim for this question, from folder 2 -- this capture's radio buttons render as a barely-visible ~5px mark at the extreme left margin of each option row (a portrait tablet screenshot downscaled hard), invisible at prep resolution; confirmed only by a pixel-level scan of the raw color original, which found exactly one such mark (blue-filled, this option) across all 55 questions in this capture -- every other question here is genuinely unanswered despite an "Answer saved" badge on all of them (Moodle logs a save on page view, not only on selection).
 Marfan syndrome is caused by mutations in the gene that encodes:
 a. Dystrophin
 b. Laminin
@@ -645,7 +722,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 1/, 2/
 Molecular analysis is performed on the three copies of chromosome 21 in a child with Down syndrome using DNA polymorphisms for which both parents are heterozygous for different alleles. Two of the chromosomes in the child contain the same alleles as one of the mother's alleles. Based on this, when did the nondisjunction event most likely occur?
 a. Paternal meiosis II
 b. Maternal meiosis II
@@ -658,7 +735,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 1/
 Which one of the following statements about ribosomes is true?
 a. The RNA in ribosomes plays a structural, not catalytic, role.
 b. Ribosomes are relatively small, with molecular weights less than 10,000.
@@ -669,8 +746,13 @@ d. There are two major ribosomal subunits, each with multiple proteins.
 tier: claimed
 form: mcq
 type: single
-claimed: b
-source: 3.pdf, 4.pdf
+disputed: true
+claims:
+  - source: 3.pdf, 4.pdf
+    answer: b
+  - source: 1/ (attempt 991243, stale-badge claim)
+    answer: c
+source: 3.pdf, 4.pdf, 1/
 Which of the following trisomy karyotypes has the mildest effect on human development?
 a. 47,XX,+13
 b. 47,XXX
@@ -694,7 +776,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 1/
 In a family with a history of polydactyly, incomplete penetrance refers to:
 a. Not all individuals with the polydactyly gene showing the physical trait.
 b. Some family members having a different number of fingers or toes.
@@ -706,7 +788,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 2/
 In a family where a specific autosomal recessive disorder called cystic fibrosis (CF) segregates. What is the probability that a couple, both carriers of the CF gene (Cc), will have a child without CF (CC)?
 a. 1/4
 b. 1/16
@@ -718,7 +800,7 @@ e. 1/2
 tier: open
 form: mcq
 type: single
-source: 3.pdf, 5.pdf
+source: 3.pdf, 5.pdf, 2/
 Which of the following does not describe heredity?
 a. the genetic heritage passed down by our biological parents.
 b. None of the choices
@@ -726,10 +808,12 @@ c. the transmission of traits from one generation to the next.
 d. the process in which a parent passes certain genes onto their children.
 
 ### MGEN-F-049
-tier: open
+tier: claimed
 form: mcq
 type: single
-source: 3.pdf
+claimed: d
+source: 3.pdf, 1/
+note: First claim for this question -- radio filled under a stale "Not yet answered" badge in folder 1 (attempt 991243), "Clear my choice" link present confirming a real selection; verified at full resolution per this file's own established rule (see batch 03 note above).
 All of the statements are correct about introns except:
 a. Group I and group II introns are self-splicing.
 b. The introns in the primary RNA transcript are spliced and the exons are joined to form a mature, functional RNA.
@@ -742,7 +826,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 2/
 All the following statements are true about G1-to-S transition except:
 a. Unphosphorylated RB protein releases E2F transcription factor
 b. E2F requires the formation of CDK-cyclin D to stimulate entrance to the S phase
@@ -754,7 +838,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 1/
 The cross where the sources of gametes are reversed is called
 a. dihybrid cross
 b. reverse cross
@@ -771,7 +855,9 @@ claims:
     answer: a
   - source: 4.pdf
     answer: b
-source: 3.pdf, 5.pdf, 4.pdf
+  - source: 1/ (attempt 991243, stale-badge claim)
+    answer: b
+source: 3.pdf, 5.pdf, 4.pdf, 1/, 2/
 note: 5.pdf's claim (a, SSB) comes from a radio filled under a "Not yet
   answered" badge. 4.pdf independently claims b (Helicase) instead. 3.pdf's
   own capture of the identical stem carries no claim, per this batch's
@@ -788,7 +874,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 1/
 Which of the following statements about somatic mutations is false?
 a. Somatic mutations can contribute to cancer development.
 b. Somatic mutations are not passed on to offspring.
@@ -801,7 +887,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-source: 3.pdf, 5.pdf, 4.pdf
+source: 3.pdf, 5.pdf, 4.pdf, 1/, 2/
 Incompletely penetrant genes are ones that
 a. result in an apparent blending of parental traits
 b. The traits exhibit continuous variation and a bell curve when graphed.
@@ -814,7 +900,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 3.pdf, 4.pdf
+source: 3.pdf, 4.pdf, 2/
 Which of the following is most likely associated with hemizygosity?
 a. Codominance
 b. Sex-limited inheritance
@@ -823,11 +909,12 @@ d. Trihybrid crosses
 e. Incomplete dominance
 
 ### MGEN-F-056
-tier: open
+tier: claimed
 form: mcq
 type: single
-source: 5.pdf
-note: Native question number not visible in this capture (header cut off) --
+claimed: c
+source: 5.pdf, 1/
+note: First claim for this question -- radio filled under a stale "Not yet answered" badge in folder 1 (attempt 991243), "Clear my choice" link present confirming a real selection; verified at full resolution per this file's own established rule (see batch 03 note above). Native question number not visible in this capture (header cut off) --
   falls somewhere between the exam's own Q4 and Q5.
 All of the following sentences about familial Mediterranean fever (FMF) are true except:
 a. None, all of them are correct.
@@ -851,7 +938,7 @@ e. Could be AB type with a genotype of IAIB
 tier: open
 form: mcq
 type: single
-source: 5.pdf
+source: 5.pdf, 1/
 Retrovirus may cause mutation by the followings except:
 a. converting oncogenes into proto-oncogenes
 b. converting proto-oncogenes into oncogenes
@@ -877,7 +964,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-source: 5.pdf, 4.pdf
+source: 5.pdf, 4.pdf, 1/, 2/
 note: Native question number 12 (5.pdf). Claim from 4.pdf.
 Which of the following statements about the Rb tumour suppressor protein is correct?
 a. Rb binds the transcription factor E2F and thus prevents the cell from entering S phase until a mitogenic signal is received
@@ -890,7 +977,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-source: 5.pdf, 4.pdf
+source: 5.pdf, 4.pdf, 1/, 2/
 note: Native question number 14 (5.pdf). Claim from 4.pdf.
 Autosomal recessive pedigrees are characterized by all of the following except:
 a. They skip one or more generations without being apparent.
@@ -918,7 +1005,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 5.pdf, 4.pdf
+source: 5.pdf, 4.pdf, 2/
 note: Native question number 18 (5.pdf). Claim from 4.pdf.
 What is a key characteristic of Rho-independent termination?
 a. It is insensitive to the GC content of the DNA.
@@ -940,11 +1027,12 @@ c. The higher temperature of mammalian cells allows for a higher replication rat
 d. The presence of histones speeds up the rate of chromosomal DNA replication
 
 ### MGEN-F-065
-tier: open
+tier: claimed
 form: mcq
 type: single
-source: 5.pdf
-note: Native question number 21.
+claimed: d
+source: 5.pdf, 1/
+note: First claim for this question, from folder 1 (attempt 991243) -- genuine "Answer saved" badge (this attempt's last five questions, unlike the rest of the file, show an accurate badge). Native question number 21.
 The following statements describe G1/S checkpoint except:
 a. When cyclin bound to a CDK, it specifies which proteins the CDK will phosphorylate.
 b. pRB prevents progression of cell cycle to S phase when unphosphorylated.
@@ -969,7 +1057,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-source: 5.pdf, 4.pdf
+source: 5.pdf, 4.pdf, 1/
 note: Native question number 24 (5.pdf). Claim from 4.pdf.
 Consider a scenario where having attached earlobes is a recessive trait with a penetrance of 90%. If two individuals heterozygous for attached earlobes have a child, what is the probability that their child will have attached earlobes?
 a. 22.5%
@@ -983,7 +1071,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 5.pdf, 4.pdf
+source: 5.pdf, 4.pdf, 1/, 2/
 note: Native question number 25 (5.pdf). Claim from 4.pdf.
 What is the key event that leads to association of a protein with a proteosome?
 a. methylation
@@ -993,11 +1081,12 @@ d. ubiquitination
 e. phosphorylation
 
 ### MGEN-F-069
-tier: open
+tier: claimed
 form: mcq
 type: single
-source: 5.pdf
-note: Native question number 26.
+claimed: b
+source: 5.pdf, 1/
+note: First claim for this question -- radio filled under a stale "Not yet answered" badge in folder 1 (attempt 991243), "Clear my choice" link present confirming a real selection; verified at full resolution per this file's own established rule (see batch 03 note above). Native question number 26.
 A gene showing co dominance
 a. Only one allele expressed in heterozygote
 b. Both alleles expressed independently in heterozygote
@@ -1022,7 +1111,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-source: 5.pdf, 4.pdf
+source: 5.pdf, 4.pdf, 1/
 note: Native question number 29 (5.pdf). Claim from 4.pdf.
 Which of the following diseases caused by trinucleotide repeat expansion mutation:
 a. sickle cell anemia
@@ -1049,7 +1138,7 @@ d. Some RNA molecules can act as catalysts (ribozymes).
 tier: open
 form: mcq
 type: single
-source: 5.pdf
+source: 5.pdf, 2/
 img: flagged/MGEN-F-073.jpg
 needs-eye: true
 note: Native question number never visible -- its stem+figure and its
@@ -1072,7 +1161,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 5.pdf
+source: 5.pdf, 1/, 2/
 note: Native question number 36. Radio filled under a stale "Not yet
   answered" badge, verified at full resolution.
 When nondisjunction occurs in meiosis I (first meiotic division), the gametes produced are:
@@ -1086,7 +1175,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 5.pdf, 4.pdf
+source: 5.pdf, 4.pdf, 1/, 2/
 note: Native question number 40 (5.pdf). Claim from 4.pdf.
 Which of the following statement is correct about Burkitt lymphoma?
 a. Characterized by translocation of immunoglobulin locus( IgH) from chromosome 14 to chromosome 8, t(8:14)
@@ -1112,7 +1201,7 @@ e. Dominant and recessive alleles always assort together.
 tier: open
 form: mcq
 type: single
-source: 5.pdf
+source: 5.pdf, 1/
 note: Native question number 47.
 Ultraviolet light can damage a DNA strand causing
 a. Disruption of non-covalent linkage
@@ -1124,7 +1213,7 @@ d. Two adjacent purine residue to form a covalently bounded dimer
 tier: open
 form: mcq
 type: single
-source: 5.pdf
+source: 5.pdf, 2/
 note: Native question number 49.
 A man of A-blood group marries a woman of AB blood group. Which blood group of progeny would indicate that the man is heterozygous for the A-blood group?
 a. AB
@@ -1136,7 +1225,7 @@ d. A
 tier: open
 form: mcq
 type: single
-source: 5.pdf
+source: 5.pdf, 1/
 note: Native question number 50.
 Which of the following statements is NOT true about polyadenylation:
 a. Only the Eukaryotic transcripts require polyadenylation reaction at the 3'end of mRNA
@@ -1149,7 +1238,7 @@ e. It is catalyzed by enzyme complex with endonuclease and polyadenylate polymer
 tier: open
 form: mcq
 type: single
-source: 5.pdf
+source: 5.pdf, 1/, 2/
 note: Native question number 52.
 During meiosis, crosslike structures are characteristic features of:
 a. Deletion
@@ -1163,7 +1252,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 5.pdf
+source: 5.pdf, 2/
 note: Native question number 53. Radio filled under a stale "Not yet
   answered" badge, verified at full resolution.
 If a woman is a carrier for Duchenne muscular dystrophy (DMD) and she has a child whose father is not a carrier, what is the probability that their son will inherit Duchenne muscular dystrophy?
@@ -1178,7 +1267,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-source: 4.pdf
+source: 4.pdf, 1/, 2/
 Which of the following molecular mechanisms is thought to contribute to the pathogenesis of the abnormalities in Klinefelter syndrome?
 a. Non-disjunction during paternal meiosis I
 b. All of the choices are possible
@@ -1190,8 +1279,13 @@ e. Triplet repeat expansion in the androgen receptor gene
 tier: claimed
 form: mcq
 type: single
-claimed: e
-source: 4.pdf
+disputed: true
+claims:
+  - source: 4.pdf
+    answer: e
+  - source: 1/ (attempt 991243, stale-badge claim)
+    answer: d
+source: 4.pdf, 1/
 If damaged DNA is not properly repaired it can lead to:
 a. Genomic instability.
 b. Senescence.
@@ -1217,7 +1311,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 4.pdf
+source: 4.pdf, 1/
 The signal sequences that direct proteins to the nucleus are:
 a. cleaved after the protein arrives in the nucleus.
 b. the same as those that direct certain proteins to lysosomes.
@@ -1256,7 +1350,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 4.pdf
+source: 4.pdf, 1/
 note: Distinct from MGEN-F-024, which asks what disease the Philadelphia
   chromosome is characteristic of -- this question asks which chromosomes and
   which protein type are involved. Not merged.
@@ -1271,7 +1365,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-source: 4.pdf
+source: 4.pdf, 2/
 Which of the following statements accurately describes the genetic basis of Phenylketonuria (PKU)?
 a. PKU results from an autosomal dominant mutation in the phenylalanine hydroxylase gene.
 b. PKU is an X-linked recessive disorder involving a mutation in the PAH gene.
@@ -1283,7 +1377,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-source: 4.pdf
+source: 4.pdf, 2/
 Which statement is correct regarding chronic myeloid leukemia (CML)?
 a. The Bcr-Abl tyrosine kinase constitutively activates cytokine signal transduction pathways that stimulate growth and prevent apoptosis in hematopoietic cells.
 b. The first-line therapy for most patients with CML is using Bcr-Abl tyrosine-kinase inhibitors.
@@ -1308,7 +1402,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-source: 4.pdf
+source: 4.pdf, 1/
 Which of the following statements about RNA splicing is NOT correct
 a. ATP is required for assembly of the spliceosome
 b. Some introns can splice themselves out without the need of GTP/GDP
@@ -1334,7 +1428,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-source: 4.pdf
+source: 4.pdf, 1/
 G-banding is particularly useful in cytogenetics because it:
 a. Reveals the presence of specific genes.
 b. Indicates the presence of specific proteins.
@@ -1365,7 +1459,7 @@ claims:
     answer: e
   - source: 4.pdf, earlier capture (0:06:02 remaining)
     answer: c
-source: 4.pdf
+source: 4.pdf, 2/
 img: flagged/MGEN-F-096.jpg
 note: A different, smaller pedigree than MGEN-F-002 or MGEN-F-021 -- distinct
   option count and image content, confirmed by direct comparison, not merged
@@ -1392,3 +1486,241 @@ c. People prone to retinoblastoma have one mutated copy of the Rb gene (Rb-) and
 d. inherited retinoblastoma develops at an older age and affects only one eye
 e. Can affect both males and females
 e. 75%
+
+### MGEN-F-098
+tier: open
+form: mcq
+type: single
+source: 1/
+Huntington's disease is an example of a disease caused by what type of mutation?
+a. Expanding nucleotide repeat
+b. Nonsense mutation
+c. Gain of function
+d. Loss of function
+e. Frameshift mutation
+
+### MGEN-F-099
+tier: open
+form: mcq
+type: single
+source: 1/
+Which of the following statements is true about Hemophilia A?
+a. Hemophilia A is an X-linked recessive disorder caused by mutation in the F8 gene, leading to an overproduction of factor VIII.
+b. Hemophilia A is an X-linked recessive disorder, and carrier females have a 50% chance of having an affected daughter if the father is affected.
+c. Hemophilia A is inherited in an autosomal dominant manner, and affected individuals have a 50% chance of passing the condition to their offspring.
+d. Hemophilia A is linked to a mutation in the F8 gene on the Y chromosome, resulting in a deficiency of clotting factor IX.
+
+### MGEN-F-100
+tier: open
+form: mcq
+type: single
+source: 1/, 2/
+In a dihybrid cross involving two heterozygous individuals (AaBb x AaBb), according to Mendel's principles, what phenotypic ratio is expected among the offspring for traits controlled by these two independent genes?
+a. 1:2:1
+b. 4:4
+c. 1:1
+d. 9:3:3:1
+e. 3:1
+
+### MGEN-F-101
+tier: open
+form: mcq
+type: single
+source: 1/, 2/
+Thalassemia is:
+a. Autosomal recessive disorder
+b. X-linked dominant disorder
+c. Autosomal dominant disorder
+d. X-linked recessive disorder
+e. Y-linked disorder
+
+### MGEN-F-102
+tier: open
+form: mcq
+type: single
+source: 1/
+How many different gametes could an individual with the genotype AABbCcDd produce?
+a. 64
+b. 8
+c. 4
+d. 16
+e. 32
+
+### MGEN-F-103
+tier: open
+form: mcq
+type: single
+source: 1/
+Jumping genes belong to:
+a. None of the choices
+b. DNA transposition
+c. General recombination
+d. Homologous genetic recombination
+e. Site-specific recombination
+
+### MGEN-F-104
+tier: open
+form: mcq
+type: single
+source: 1/, 2/
+The most important step in maintaining fidelity of the translation process is:
+a. peptide bond formation by peptidyl transferase
+b. correct base pairing between the codon and anticodon
+c. proper methylation of tRNAs
+d. joining of the correct amino acid and tRNA by aminoacyl-tRNA synthetases
+e. none of the above are involved
+
+### MGEN-F-105
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 1/, 2/
+note: Claim from folder 1 (attempt 991243) -- radio filled under a stale
+  "Not yet answered" badge, "Clear my choice" link present, verified at full
+  resolution per this file's own established rule (see batch 03 note above).
+  Folder 2's own capture of the identical stem carries no selection.
+Which of the following statements is accurate for the PCR - polymerase chain reaction?
+a. Millions to billions of desired DNA copies can be produced from microgram quantities of DNA
+b. A thermostable DNA polymerase is required
+c. Automated PCR machines are called thermal cyclers
+d. All of the choices are correct
+
+### MGEN-F-106
+tier: claimed
+form: unknown
+type: single
+claimed: c
+needs-eye: true
+source: 1/
+img: flagged/MGEN-F-106.jpg
+note: Genuine capture gap in folder 1 (attempt 991243) -- the raw photo
+  immediately before this one ends right at the "Question 36 / Not yet
+  answered / Flag question" header with nothing below it (bottom edge of
+  frame), and this photo picks up mid-option-list with option (a) and the
+  question's own stem never captured anywhere in the batch. Options (b)
+  "X-linked r[ecessive]" (partially cut, unselected), (c) "x-linked
+  dominant" (selected, blue-filled radio, confirmed at full resolution --
+  same stale-"Not yet answered"-badge pattern as this attempt's other
+  claims in this range) and (d) "Autosomal dominant" (unselected) are all
+  that survive. This 3-option fragment (missing option + X-linked recessive
+  + X-linked dominant + Autosomal dominant) closely resembles MGEN-F-021's
+  own 4-option set (X linked dominant / Y linked / X linked recessive /
+  Autosomal dominant) and both are "mode of inheritance" pedigree-style
+  questions, but without the stem or a pedigree image the content cannot be
+  confirmed as the same question -- kept separate rather than merged, per
+  this project's established near-miss precedent (e.g. MGEN-F-096 vs
+  MGEN-F-002/021, pharmacology PHARM-F-090/067). claimed: c is recorded
+  against this fragment's own visible lettering only (b/c/d) -- option (a)'s
+  identity, and therefore the canonical lettering, is unknown.
+[stem and any figure not captured -- see note]
+b. X linked r[ecessive] (option letter uncertain -- (a) never captured)
+c. x-linked dominant
+d. Autosomal dominant
+
+### MGEN-F-107
+tier: open
+form: mcq
+type: single
+source: 1/
+Which type of mutation is responsible for Cri-du-chat syndrome?
+a. Chromosomal inversion
+b. Nonsense mutation
+c. Frameshift mutation
+d. Chromosomal deletion
+e. Chromosomal duplication
+
+### MGEN-F-108
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 1/
+note: Radio filled under a stale "Not yet answered" badge (this attempt's
+  12:23 block), "Clear my choice" link present, verified at full resolution.
+Which one is not correct regarding the effect of chromosomal deletion?
+a. The phenotypic consequences of a deletion depend on which genes are located in the deleted region.
+b. Imbalances in the amounts of gene products may be produced in heterozygous condition.
+c. None of the choices
+d. In some genes, a single copy of a gene is not sufficient to produce a wild-type phenotype
+e. The recessive allele is not expressed which indicates that one of the homologous chromosomes has a deletion.
+
+### MGEN-F-109
+tier: open
+form: mcq
+type: single
+source: 2/
+After cross-fertilization of true-breeding tall and dwarf plants, the F1 generation was self-fertilized. The resultant plants have genotype in the ratio
+a. 3:1 (tall: dwarf)
+b. 3:1 (dwarf: tall)
+c. 1:2:1 (homozygous tall: heterozygous tall: dwarf)
+d. 1:2:1 (heterozygous tall: homozygous tall: dwarf)
+
+### MGEN-F-110
+tier: open
+form: mcq
+type: single
+source: 2/
+Familial Down syndrome, accounts for a small percentage of cases of Down syndrome. What is the genetic mechanism underlying this syndrome?
+a. Non-disjunction during maternal meiosis
+b. Non-disjunction during paternal meiosis
+c. Robertsonian translocation involving chromosome 21
+d. A point mutation in the chromosome 21
+
+### MGEN-F-111
+tier: open
+form: mcq
+type: single
+source: 2/
+When the two alleles of a genotype are different, only the trait encoded by one of them (the dominant allele) is observed.
+a. False
+b. True
+
+### MGEN-F-112
+tier: open
+form: mcq
+type: single
+source: 2/
+Which of the following does not describe familial Mediterranean fever?
+a. FMF is usually inherited in an autosomal recessive pattern
+b. MEFV encodes a protein called pyrin which is expressed in neutrophils and monocytes.
+c. The gene coding the disease (MEFV) is located on the short arm of chromosome 16.
+d. FMF appears to be inherited in an autosomal dominant pattern in some cases.
+e. MEFV gene variants lead a malformed pyrin protein that suppresses inflammatory response.
+
+### MGEN-F-113
+tier: open
+form: mcq
+type: single
+source: 2/
+One of the following is not correct about apoptosis:
+a. A number of genes have roles in various stages of the regulation of apoptosis, part of them are the genes encode enzymes called caspases
+b. p53 promotes cell cycle arrest to allow DNA repair and/or apoptosis to prevent the propagation of cells with serious DNA damage.
+c. None of the choices
+d. In cancer cells, a mutated p53 gene product no longer initiates self-destruction, cells with damaged DNA can divide and more DNA damage can be accumulated.
+e. P53 transcribes pro-apoptotic factors and inhibits survival factors like bcl-2.
+
+### MGEN-F-114
+tier: open
+form: mcq
+type: single
+source: 2/
+Processing of a primary mRNA transcript in a eukaryotic cell does not normally involve:
+a. joining of exons.
+b. attachment of a long poly(A) sequence at the 3' end.
+c. conversion of normal bases to modified bases, such as inosine and pseudouridine.
+d. Adding of cap at 5' end
+e. excision of intervening sequences.
+
+### MGEN-F-115
+tier: open
+form: mcq
+type: single
+source: 2/
+Which statement does not describe chromosomal duplication?
+a. A mutation in which part of the chromosome has been doubled.
+b. If the duplicated region is immediately adjacent to the original segment it is called tandem.
+c. The type of duplication, in which the duplicated segment is located some distance from the original segment, either on the same chromosome or on a different one, is referred to as displaced.
+d. It can occur in the same orientation as that of the original sequence.
+e. None of the choices
+

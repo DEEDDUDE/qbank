@@ -338,6 +338,304 @@
           "pages": 44
         }
       ]
+    },
+    {
+      "id": "finals-03",
+      "built": "2026-09-04",
+      "questions": 18,
+      "note": "RUN-PLAN row 12: raw/finals/2023-2024/1/ + 2/, 58 vision pages (32+26 photos). Cross-matched against the existing MGEN-F-001-097 spine; 18 genuinely new questions (MGEN-F-098-115), the rest reinforced or newly claimed existing entries (2 new disputes: MGEN-F-044, 083).",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-30-42.jpg",
+          "sha1": "1504ab22a251be33bdd43d891e54c3084874d425",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-30-50.jpg",
+          "sha1": "f39c9b24a4e95a8fba74c82680698e52172f10c2",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-30-56.jpg",
+          "sha1": "48444bfc2182c789b9c52f505d86400641423a5f",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-31-02.jpg",
+          "sha1": "b737491a8ba0f61a8e1edd42b20944b778677ced",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-31-11.jpg",
+          "sha1": "79c3a58989d04a7b93ad5ad8cdfcb51dbccc1937",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-31-18.jpg",
+          "sha1": "f49a6a987b0601e51f9eb47ff81b5882afb19ffe",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-16.jpg",
+          "sha1": "1b6bc6d4fabc5ca030842c888d1672407cfdabae",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-23.jpg",
+          "sha1": "5cd82c91ce04e77238142faeec3d6533d382f119",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-29.jpg",
+          "sha1": "4a4e1a6ec26ca5df4abc58f863e1f17905de511e",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-35.jpg",
+          "sha1": "ec60466233fea4963088f80ec7d1320286148e90",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-42.jpg",
+          "sha1": "b58c1673d2524096b0e59ba983def4a677195955",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-53.jpg",
+          "sha1": "bde172fe30f17aae751e2a6536f55e9fc9ee4b25",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-06.jpg",
+          "sha1": "bc43590a22ace429242848201ec24d6487def900",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-13.jpg",
+          "sha1": "8fbed54b2a9e00c9029bb95ea8b340ec38a8336c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-20.jpg",
+          "sha1": "5a25657032d8c0206ea595888f43dd98f7c28831",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-27.jpg",
+          "sha1": "7a3628c4cae9f28fc75019c8d7bc93f53093b1e3",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-34.jpg",
+          "sha1": "1942c5b4111fc9873ff24ada6109c4da9ca39c9b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-12-24.jpg",
+          "sha1": "79586fbb15ebd216377a804cc01ef709bd2bccc4",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-12-34.jpg",
+          "sha1": "4c9b049202b6c5fa3a38ae52e9611aa2e6d60943",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-12-39.jpg",
+          "sha1": "22271967d856856641e3a054aa6b1f0a6721176c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-12-57.jpg",
+          "sha1": "e3816956523a5e07b50cfae9531e0fdd71c5bf1c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-13-17.jpg",
+          "sha1": "4bc06f9c217fc1bff76fcca52eae9fd894018d70",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-13-22.jpg",
+          "sha1": "12589538a8ae171306ba5311724feb792b14957e",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-13-29.jpg",
+          "sha1": "5edd3bfdd99f9bc7c840960c4b8b901b40184ede",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-18.jpg",
+          "sha1": "0931932ed4a717bee6eb2294a7bb2d3b126a10d4",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-26.jpg",
+          "sha1": "bf1e89a687a1336817f04b91a4a829267fce2711",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-35.jpg",
+          "sha1": "2f8369a2e5fba6585bd332137cf352bc436d589e",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-42.jpg",
+          "sha1": "5cf0c6b720f2195a3f849339763a53ae3b0a259c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-48.jpg",
+          "sha1": "91405d56ad57886cdf32e606d2c1b830a43f675c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-39-59.jpg",
+          "sha1": "09a4da9086fc6251f55ef3724c81bae3b07c62ef",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-40-09.jpg",
+          "sha1": "b96e759590f95c071256893c3edb535d242d62b1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-40-15.jpg",
+          "sha1": "fc90355fc17c4d88f5cbef1f1dbd42fe04c0fa0f",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-05.jpg",
+          "sha1": "b5f1e616e1c2965a16ed390ba49b5810d2213f71",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-27.jpg",
+          "sha1": "155de8cec277df8b750a8e8595bddee2f0088e11",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-30.jpg",
+          "sha1": "7fa7a139a5e368d0ac405ed18340141295c32824",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-48 2.jpg",
+          "sha1": "77b5c76b976806ba08cecf0c10abd6b85e78f1cf",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-48.jpg",
+          "sha1": "88609945d43e754d13407039dd0e2c9d70b88596",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-49 2.jpg",
+          "sha1": "c232e8806ede174a5d1384ec43fc8bb574ab91ff",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-49 3.jpg",
+          "sha1": "1d23babe2c76b7a8860a843069201ab1cb816fa0",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-49.jpg",
+          "sha1": "d2c5bd14fee1fd2cba302265aa43983b73ff0c4d",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-50 2.jpg",
+          "sha1": "c2366a63438ea051e162d3bd2911ebf91a19427c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-50 3.jpg",
+          "sha1": "c8ccfeef2bbbe3e46747dfd55946f6f1bc6701cf",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-50 4.jpg",
+          "sha1": "43fae5f74981c6f48712afbd6781eb0cd057155b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-50.jpg",
+          "sha1": "b1f54ba91f71e7d5f93d27d4d91563b57c2e8ebd",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-51 2.jpg",
+          "sha1": "8b034b71dcf3d44878499aa6a8f3b44f62d25013",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-51 3.jpg",
+          "sha1": "deb10bf78f33c8c9318f3267021b06c932865ee9",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-51 4.jpg",
+          "sha1": "8093411db31bcaf6243a26e8f497e27fdf6e7bf1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-51.jpg",
+          "sha1": "f8d1761af8257c0708838ec86ced075cb2fce7e5",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-52 2.jpg",
+          "sha1": "0788eee2d5a14fc3881fb6c65e7d6f14481e904a",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-52 3.jpg",
+          "sha1": "ecb666bf07c18230b3a02c07b9dc15511c98c4a1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-52.jpg",
+          "sha1": "805570e952fee014f00fc46fa0d87291105253af",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-53 2.jpg",
+          "sha1": "ba309c0fde4f80cd2817b3591faf80f8af5252be",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-53 3.jpg",
+          "sha1": "08cc04871f946e464bcb9f40adc16d780f0ab101",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-53 4.jpg",
+          "sha1": "784fa7534a56d1f396ba96b5d15840cdfbe30821",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-53.jpg",
+          "sha1": "0a3599612657063e5aba0495ce0b8d34a2c10d60",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-54 2.jpg",
+          "sha1": "7d7345389761925e2b6ec07f196af49e2027e08a",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-54 3.jpg",
+          "sha1": "c0dcdb0cdd49cb71663ac94ba3cb5be72dc5df5d",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-54.jpg",
+          "sha1": "807305470fa59093806a4a44b3bd95dff0ca5d34",
+          "pages": 1
+        }
+      ]
     }
   ]
 }
