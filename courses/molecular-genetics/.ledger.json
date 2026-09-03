@@ -82,6 +82,69 @@
           "pages": 1
         }
       ]
+    },
+    {
+      "id": "quizzes-02",
+      "built": "2026-09-03",
+      "questions": 20,
+      "note": "RUN-PLAN row 5: raw/quizzes/genetics-2021/ + genetics-2024-ch4/.",
+      "files": [
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0019.jpg",
+          "sha1": "08553092d03a14ab36e6b2bed5b846c678de96ff",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0020.jpg",
+          "sha1": "2add2e21da5a9d1a1f8b43720fd3b7bd4e692cb4",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0021.jpg",
+          "sha1": "810eea54a9f3662b97afceb64308c6ea57d2175a",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0022.jpg",
+          "sha1": "4d97b9582f1e24a5faf53b8c2c47d4721766edc0",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0023.jpg",
+          "sha1": "7291610e5499ba89b00ac0c7abf5de0896c90272",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0024.jpg",
+          "sha1": "f625d5f1bcf0e67a7bcbe1a935e09f50ac345876",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0025.jpg",
+          "sha1": "2372b9ad806b8ac0b9a6c07f75999742bea8f7e2",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0026.jpg",
+          "sha1": "1d05d1179545dd4ae246fc26213ff4d13c40a47b",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0027.jpg",
+          "sha1": "3c954cd633f7e53f1ea3dc62059f2c1c3332d24a",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0028.jpg",
+          "sha1": "dcfbdbf0c6f7591754877ab5a516716ca5801c41",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2024-ch4/Quiz chapter 4.pdf",
+          "sha1": "088ec735f2c2e8956518e54980dd95db9969db4a",
+          "pages": 8
+        }
+      ]
     }
   ]
 }

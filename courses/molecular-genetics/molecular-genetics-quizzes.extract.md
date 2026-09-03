@@ -1,12 +1,12 @@
 ---
 course: molecular-genetics
 tab: quizzes
-questions: 45
-tiers: claimed 44 | open 1
-forms: mcq 45
+questions: 65
+tiers: claimed 64 | open 1
+forms: mcq 65
 disputed: 6
-needs-eye: 1
-next-id: MGEN-Q-046
+needs-eye: 2
+next-id: MGEN-Q-066
 ---
 
 <!-- RUN-PLAN row 4 — raw/quizzes/molecular-2024/, molecular-2023/, molecular-previous/
@@ -713,3 +713,321 @@ a) Uses restriction enzymes to detect a specific mutation in a targeted DNA frag
 b) is used to determine whether a gene is transcribed in specific cells
 c) is used to detect proteins
 d) is used to amplify genes for producing useful products
+
+<!-- batch 02 (RUN-PLAN row 5) — raw/quizzes/genetics-2021/ + genetics-2024-ch4/.
+
+  genetics-2021 (MGEN-Q-046-055) — 10 loose jpeg photos (IMG-20210909-WA0019
+  through WA0028), all below the 1000px floor, one Moodle attempt, "Marked out
+  of 1" throughout. Every single question in this sitting is pedigree-dependent
+  — not just Q1 as RUN-PLAN's own pre-flight note anticipated — so all ten get a
+  flagged/ crop, not a subset. Filenames are sequential capture order but do NOT
+  match question order (files landed as Q1, Q4, Q6, Q10, Q5, Q2, Q3, Q9, [no
+  header], Q7) — matched to question number from each screenshot's own
+  "Question N" badge, not file order. One file (WA0027) never captured its own
+  header — inferred as Q8 by elimination, since the other nine numbers 1-7, 9,
+  10 were all independently seen elsewhere in this same 10-file set; recorded
+  needs-eye both for the inferred number and because its option list stops at
+  (c) with only 3 options where every sibling "mode of heredity" question in
+  this sitting has 5 — likely cut off by the photo's own framing, not a Job A
+  read failure. Two more of this sitting's own answer lists carry a duplicate
+  option text under two different letters (MGEN-Q-050's b/d both "Aa",
+  MGEN-Q-051's a/e both "Dd") — preserved exactly as printed per hard rule 2,
+  not corrected. All ten questions are tier claimed; several show "Not yet
+  answered" badges with a filled radio (the same filled-radio-under-stale-badge
+  pattern established elsewhere in this project) and are recorded as claims per
+  that precedent.
+
+  genetics-2024-ch4 (MGEN-Q-056-065) — one PDF, "Quiz chapter 4", 8 vision
+  pages / 10 questions, one clean Moodle attempt, "Marked out of 1" throughout,
+  zero vision cost issues. 3 of its 10 questions are pedigree-dependent
+  (MGEN-Q-059, 062, 065) and get their own flagged/ crop; the other 7 are plain
+  text MCQs. MGEN-Q-065's pedigree is the same family-tree figure as
+  MGEN-Q-050's from the genetics-2021 sitting above (identical shape and fill
+  pattern) — a shared textbook figure reused across two unrelated quiz
+  sittings with two different questions asked about it, not a duplicate
+  question; no merge applies since the stems differ. All ten questions are
+  tier claimed, all cleanly "Answer saved".
+
+  No cross-sitting stem overlap found between these two sittings, and neither
+  overlaps molecular-2024/2023/previous from batch 01 above (different topic:
+  Mendelian/pedigree genetics vs. molecular biology techniques). -->
+
+### MGEN-Q-046
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: genetics-2021
+img: flagged/MGEN-Q-046.jpg
+the pedigree above shows the following mode of heredity? [figure: 3-generation pedigree]
+a) Autosomal recessive
+b) Y-linked
+c) Autosomal dominant
+d) X-linked dominant
+e) X-linked recessive
+
+### MGEN-Q-047
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: genetics-2021
+img: flagged/MGEN-Q-047.jpg
+the pedigree above shows the following mode of heredity? [figure: 4-generation pedigree]
+a) X-linked dominant
+b) Autosomal dominant
+c) Y-linked
+d) Autosomal recessive
+e) X-linked recessive
+
+### MGEN-Q-048
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: genetics-2021
+img: flagged/MGEN-Q-048.jpg
+What is the pattern / mode of heredity for the above pedigree? [figure: 3-generation pedigree]
+a) X-linked dominant
+b) Autosomal recessive
+c) Autosomal dominant
+d) Y linked
+e) X-linked recessive
+
+### MGEN-Q-049
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: genetics-2021
+img: flagged/MGEN-Q-049.jpg
+the pedigree above shows the following mode of heredity? [figure: 3-generation pedigree, individuals numbered 1-15]
+a) Autosomal dominant
+b) Y-linked
+c) X-linked recessive
+d) X-linked dominant
+e) Autosomal recessive
+
+### MGEN-Q-050
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: genetics-2021
+img: flagged/MGEN-Q-050.jpg
+note: Options b and d are both printed "Aa" — preserved exactly as printed,
+  not corrected.
+What is the genotype of individual I-1? [figure: 3-generation pedigree, individuals numbered]
+a) XAY
+b) Aa
+c) XaY
+d) Aa
+e) AA
+
+### MGEN-Q-051
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: genetics-2021
+img: flagged/MGEN-Q-051.jpg
+note: Options a and e are both printed "Dd" — preserved exactly as printed,
+  not corrected.
+Having dimples is an autosomal dominant trait, What is the phenotype of individual III-5? [figure: 3-generation pedigree, individuals numbered; III-2 is shown with a distinct shaded/hatched fill, not solid black]
+a) Dd
+b) No dimples
+c) DD
+d) Dimples
+e) Dd
+
+### MGEN-Q-052
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: genetics-2021
+img: flagged/MGEN-Q-052.jpg
+note: Each option is printed with an extra leading letter before its own
+  position letter (e.g. "a. D. This is a Y linked disease") — preserved
+  exactly as printed; likely an artifact of how the source re-lettered a
+  shuffled option list.
+What is the mode of inheritance in the pedigree shown below: [figure: 3-generation pedigree, individuals numbered]
+a) D. This is a Y linked disease
+b) C. This is an autosomal dominant disease.
+c) A. If individual III-1 marries an unaffected, non-carrier female, none of their offspring will have the disease.
+d) B. This is an X linked dominant disease.
+
+### MGEN-Q-053
+tier: claimed
+form: mcq
+type: single
+needs-eye: true
+claimed: a
+source: genetics-2021
+img: flagged/MGEN-Q-053.jpg
+note: Question number inferred as 8 by elimination — this capture's own
+  header (question number and Answer-saved badge) was never photographed,
+  and every other number 1-7, 9, 10 in this ten-file sitting was
+  independently seen elsewhere. Only 3 options were captured (a-c) where
+  every sibling "mode of heredity" question in this sitting has 5 — most
+  likely cut off by the photo's own framing rather than a genuine 3-option
+  question; options d/e (if any) are not recoverable from this raw set.
+which of the following sentences is true about the pedigree above? [figure: 5-generation pedigree, individuals unnumbered]
+a) An example of a dominant trait with incomplete penetrance in III-3 who passes the disease for her daughter but is herself unaffected
+b) An example of an X-linked dominant trait
+c) An example of an X-linked recessive trait
+
+### MGEN-Q-054
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: genetics-2021
+img: flagged/MGEN-Q-054.jpg
+The genotype for III- 1 is ? [figure: 3-generation pedigree, individuals numbered]
+a) aa or XaY
+b) XaY
+c) a or b
+d) Aa
+e) aa
+
+### MGEN-Q-055
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: genetics-2021
+img: flagged/MGEN-Q-055.jpg
+the pedigree above shows the following mode of heredity? [figure: 3-generation pedigree]
+a) Autosomal recessive
+b) X-linked recessive
+c) X-linked dominant
+d) Autosomal dominant
+e) Y-linked
+
+### MGEN-Q-056
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: genetics-2024-ch4
+If both parents are carriers of the defective Phenylalanine Hydroxylase gene, what is the probability that their child will inherit one defective allele?
+a) 25%
+b) 50%
+c) 100%
+d) 75%
+
+### MGEN-Q-057
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: genetics-2024-ch4
+Which of the following statements about albinism is TRUE?
+a) Parents of children with albinism are usually carriers.
+b) Albinism is caused by a dominant gene mutation.
+c) All of them are true
+d) Albinism cannot skip generations.
+
+### MGEN-Q-058
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: genetics-2024-ch4
+Which inheritance pattern is most likely when a trait consistently skips generations and appears equally in males and females?
+a) Autosomal recessive
+b) X-linked recessive
+c) Autosomal dominant
+d) X-linked dominant
+e) Y-linked
+
+### MGEN-Q-059
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: genetics-2024-ch4
+img: flagged/MGEN-Q-059.jpg
+For the following pedigree, give the most likely mode of inheritance, assuming that the trait is rare. [figure: 4-generation pedigree, individuals numbered, affected symbols shown in gray/shaded fill]
+a) X-linked dominant
+b) X-linked recessive
+c) Autosomal recessive
+d) Y-linked
+e) Autosomal dominant
+
+### MGEN-Q-060
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: genetics-2024-ch4
+Which of the following scenarios for the inheritance of hemophilia is not possible?
+a) A carrier mother and a normal father have a son who is hemophilic
+b) A carrier mother and a hemophilic father have a daughter who is hemophilic
+c) A hemophilic mother and a normal father have a daughter who is a carrier for the disease.
+d) A normal mother and a hemophilic father have a son who is also hemophilic
+
+### MGEN-Q-061
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: genetics-2024-ch4
+Which of the following is NOT seen in autosomal recessive pedigrees
+a) Affected persons must be homozygous for the disease allele
+b) The parents are more likely to be relatives
+c) Both males and females can be affected
+d) Affected persons have at least one affected parent
+
+### MGEN-Q-062
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: genetics-2024-ch4
+img: flagged/MGEN-Q-062.jpg
+What is the mode of inheritance in the pedigree shown below: [figure: 3-generation pedigree, individuals numbered]
+a) Autosomal dominant
+b) X linked recessive
+c) Y linked
+d) X linked dominant
+
+### MGEN-Q-063
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: genetics-2024-ch4
+Which inheritance pattern is most likely if a trait appears in every generation, affects both sexes equally, and each affected individual has an affected parent?
+a) Y-linked
+b) Autosomal dominant
+c) X-linked recessive
+d) Autosomal recessive
+e) X-linked dominant
+
+### MGEN-Q-064
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: genetics-2024-ch4
+In individuals with PKU, the deficiency or absence of the PAH enzyme leads to the buildup of a toxic substance in the blood and brain when consuming foods that contain protein. What does the PAH enzyme normally do?
+a) Breaks down proteins into amino acids
+b) Converts tyrosine to tryptophan
+c) Converts glutamine to glutamate
+d) Converts phenylalanine to tyrosine
+
+### MGEN-Q-065
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: genetics-2024-ch4
+img: flagged/MGEN-Q-065.jpg
+This pedigree tracks the presence of attached earlobes through a family's generations. Having attached earlobes is an autosomal recessive trait. What is the genotype of individual II-3? [figure: 3-generation pedigree, individuals numbered; same underlying family-tree figure as MGEN-Q-050, reused for a different question]
+a) XeY
+b) Ee
+c) EE
+d) XEY
+e) ee
