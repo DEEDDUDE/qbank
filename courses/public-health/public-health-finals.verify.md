@@ -1428,6 +1428,7 @@ evidence: Working definition: "The study of the frequency, distribution and dete
 ### PH-F-205
 status: conflict
 answer: "the combined entity of all resources, actors and institutions related to the financing, regulation and provision of all activities whose primary intent is to improve or maintain health" (WHO, 2000)
+claimed: "the continuum of health services...provided traditionally by autonomous or independent HSOs, often in an uncoordinated and disjointed manner" + an unrelated anthropological healing-practices definition
 basis: Ch. 16 — Health Care System in Palestine {#ch16-1}
 evidence: WHO (2000): "the combined entity of all resources, actors and institutions related to the financing, regulation and provision of all activities whose primary intent is to improve or maintain health."
 note: The claimed answer (about uncoordinated/disjointed HSOs, and anthropologists' healing-practice classifications) does not match this course's own WHO-based Health System definition and appears to describe a substantially different concept. Source wins; both are recorded here.
@@ -1480,6 +1481,7 @@ evidence: "Infant Mortality: number of deaths before one year of age ... divided
 ### PH-F-215
 status: conflict
 answer: Maternal Mortality Rate = Number of Maternal Deaths / Number of women aged 15–49 × 100,000
+claimed: Maternal mortality rate = (Maternal pregnancy-related deaths in one year / Total births in same year) x 10^n
 basis: Ch. 14 — Measuring the Health of a Population {#ch14-4}
 evidence: "Maternal Mortality Rate = Number of Maternal Deaths / Number of women ages 14-49 × 100,000" — explicitly distinguished in the same section from "Maternal Mortality Ratio (MMR) = ... / Number of live births × 100,000 (note: denominator is live births, distinguishing it from the Maternal Mortality Rate's denominator of women aged 15–49)."
 note: The claimed answer's formula (deaths/total births) is this course's own definition of the Maternal Mortality *Ratio*, not the *Rate* asked about here — the same Rate-vs-Ratio tension flagged at PH-F-034. Source wins; both are recorded.

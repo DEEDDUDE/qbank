@@ -165,6 +165,54 @@
           "pages": 15
         }
       ]
+    },
+    {
+      "id": "finals-01",
+      "built": "2026-09-03",
+      "questions": 229,
+      "files": [
+        { "name": "raw/finals/2023/نموذج 1.pdf", "sha1": "b88cbf0a5716ff0b7262e8e440ee551d3fb87b86", "pages": 25 },
+        { "name": "raw/finals/2023/نموذج 3.pdf", "sha1": "f756c5e5e6a57e6b550b7f09da98e43e84d22075", "pages": 26 },
+        { "name": "raw/finals/2023/نموذج 4.pdf", "sha1": "59873eccd204343a0f96e944aed65cb89d7f46dd", "pages": 23 },
+        { "name": "raw/finals/2023/نموذج 5.pdf", "sha1": "4adc42f05d5053048a53ba7eafce28231cc75b50", "pages": 50 },
+        { "name": "raw/finals/2020-2021/1/Public Health final 2020-2021.pdf", "sha1": "9825a56e8a367e5828b5bcf1e92fd9a568f77c4d", "pages": 20 },
+        { "name": "raw/finals/2020-2021/2/received_1189974134820384.jpeg", "sha1": "88f8bfb305f4362a3b2f26374b0a263c8b82dfea", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_258545186151630.jpeg", "sha1": "beabf253c9806f404794cb9215a087115b0a332a", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_2671901293111032.jpeg", "sha1": "b720e20ba31c2f1653b22aedb0cd86ec9099789c", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_275018821104030.jpeg", "sha1": "5f5de8edf03ededeaab74a344f6385237663f6ec", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_290741485719487.jpeg", "sha1": "310181a8a85c849dbf62ed130790d457b1c0573f", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_328006655734693.jpeg", "sha1": "1c36b60aec937145e4065181ad4598b4d7e86d4b", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_352935343190660.jpeg", "sha1": "7daa22f1462568778d9419a31a9f9515400b126b", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_388753026137282.jpeg", "sha1": "01bb60cd60e626eceb188cdf1da200a26407f9f7", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_394509732069020.jpeg", "sha1": "2aabe1d44e77e6947a587d3ad15e764f9bd96fce", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_418108546597923.jpeg", "sha1": "a54a8346cccce4d9cb18e58a032c776cfd824f7f", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_4420040338053685.jpeg", "sha1": "d559047c8aa02e60a0c3b421efa29723c3334d7d", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_546666936393470.jpeg", "sha1": "1f78e1aac5850af2d1f2c82a4db403eab462c029", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_565031661513546.jpeg", "sha1": "6e6169607aecb17ef343bb7861ae5c1dc176e170", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_569199384124760.jpeg", "sha1": "20dc295f0141c28fd275d4f16dce60744f2efd64", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_580260886521181.jpeg", "sha1": "8ab558006832d0b709f61f8fc35a8f55ff1c270f", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_583011406395663.jpeg", "sha1": "213d30a83e0b34750f94bd5a7ce9454e846f34ca", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_602258660944938.jpeg", "sha1": "b1011de9265155c66f2b76bd567bb5840d43e7e3", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_623701665282989.jpeg", "sha1": "faf4252dfc5b24b0c8d3841bb459e1c77d481fbf", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_820902545205465.jpeg", "sha1": "7dde99fc11e44ab6f409100d7eb15435ba288bc9", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_839091236785051.jpeg", "sha1": "3dca52bf2a432372b6fe548d1c90132150faa841", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_910558226201719.jpeg", "sha1": "42d298b901989298eb698a503745a8c4c3da7c2f", "pages": 1 },
+        { "name": "raw/finals/2020-2021/2/received_962618547620644.jpeg", "sha1": "9ea128aadbf96cb1f66938b39d040f7a05f3434f", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15281125_10207414062782477_352817795_n (1).png", "sha1": "1103c3ae701f5191702647e0eac8dd75baca946f", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15281125_10207414062782477_352817795_n.png", "sha1": "1103c3ae701f5191702647e0eac8dd75baca946f", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15281810_10207414061942456_102772918_n (1).png", "sha1": "a00bf316b7b40c1a30ae820bcb6d5bdbd3d5a4d9", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15281810_10207414061942456_102772918_n.png", "sha1": "a00bf316b7b40c1a30ae820bcb6d5bdbd3d5a4d9", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15281837_10207414063582497_1037480881_n.png", "sha1": "4693ced50ed2e48c0f7a18087c8b7c0b0906e9ff", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15281961_10207414076142811_502328483_n.png", "sha1": "23a71841a0b4da25ff346470e25683ec58b10efc", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15281986_10207414063542496_1405204391_n.png", "sha1": "d11fff865ff199c07a930517c41866a43f60b9a3", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15310364_10207414062502470_868273226_n.png", "sha1": "0e8da4b0d989e71bdb75ad01bfb008bb5309dd3f", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15310383_10207414075942806_1125233252_n.png", "sha1": "990159e5efeba541668d8517315317a3b331e71b", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15310465_10207414063862504_1154494685_n.png", "sha1": "afef415843aecaf12fddc0c06175a82bb3934841", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15319323_10207414064502520_467372370_n.png", "sha1": "1ca433e69f63f5f1c6290c2debe51223585e2dc3", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15319511_10207414076182812_974952593_n.png", "sha1": "210723d275424de53d1147d0da997e2c46f55540", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/15320337_10207414063702500_1235052421_n.png", "sha1": "2f98a82e724acbc5903823381089a1f341b7682f", "pages": 1 },
+        { "name": "raw/finals/2015-moodle-final/examPub.doc", "sha1": "dceb350d2008c546bf75a6b2212910d0c364041d", "pages": 1 }
+      ]
     }
   ]
 }
