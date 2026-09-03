@@ -53,6 +53,53 @@
       ]
     },
     {
+      "id": "practice-01",
+      "built": "2026-09-03",
+      "questions": 307,
+      "files": [
+        {
+          "name": "raw/practice/Public Health PYQ& bank question 2023@Fawzi,Ali,Malik.pdf",
+          "sha1": "0ca9759fa040183c5e926dcbc8fe0c2b970217cc",
+          "pages": 64
+        },
+        {
+          "name": "raw/practice/exercises/PHOTO-2022-11-14-11-03-54.jpg",
+          "sha1": "2513411be1172a0cdb0cb5fab55d80bdc7f153ea",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/exercises/PHOTO-2022-11-14-11-03-55 2.jpg",
+          "sha1": "4996659ed8b36c25430888b172a53da58980aa15",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/exercises/PHOTO-2022-11-14-11-03-55.jpg",
+          "sha1": "9f5b277125b88a07164d892c8b076e62a22085fa",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/exercises/PHOTO-2022-11-14-11-03-56 2.jpg",
+          "sha1": "7721a00efd57a2f1af3d55941be1fd77a8e8341a",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/exercises/PHOTO-2022-11-14-11-03-56.jpg",
+          "sha1": "b80ffab147fdc094b549430dd6bb0410968b3d7e",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/exercises/PHOTO-2022-11-14-11-03-58.jpg",
+          "sha1": "5209dcbbcf5abd8131aa6e3bdb25b8aaf2990c6c",
+          "pages": 1
+        },
+        {
+          "name": "raw/practice/exercises/PHOTO-2022-11-14-11-03-59.jpg",
+          "sha1": "3725bd9109254855f328086123e576f6dd676bd3",
+          "pages": 1
+        }
+      ]
+    },
+    {
       "id": "midterm-01",
       "built": "2026-09-03",
       "questions": 177,
