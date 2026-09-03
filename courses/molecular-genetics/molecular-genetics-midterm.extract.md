@@ -1,12 +1,12 @@
 ---
 course: molecular-genetics
 tab: midterm
-questions: 55
-tiers: claimed 55
-forms: mcq 55
-disputed: 2
+questions: 60
+tiers: claimed 60
+forms: mcq 60
+disputed: 11
 needs-eye: 0
-next-id: MGEN-M-056
+next-id: MGEN-M-061
 ---
 
 <!-- batch 01 (RUN-PLAN row 6) — raw/midterm/2023-2024/, نموذج ١ + نموذج ٢ only.
@@ -61,7 +61,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2]
+models: [1, 2, 4]
 Which of the following statements accurately describes a major difference between Eukaryotic and Prokaryotic DNA?
 a) Both Eukaryotic and Prokaryotic DNA have histones.
 b) Prokaryotic DNA is circular, while Eukaryotic DNA is linear.
@@ -73,7 +73,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2]
+models: [1, 2, 3, 4]
 Stalled replication forks is repaired by the transition from recombination to replication and back to recombination.
 a) True
 b) False
@@ -83,7 +83,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2]
+models: [1, 2, 3, 4]
 What cofactors are required for the enzymatic activity of the AlkB protein?
 a) α-ketoglutarate and Fe2+
 b) ATP and magnesium
@@ -96,7 +96,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 2]
+models: [1, 2, 3, 4]
 Under what conditions does the error-prone translesion DNA synthesis (TLS) pathway become active in bacteria?
 a) When mismatch repair fails
 b) During normal cellular replication
@@ -109,7 +109,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 2]
+models: [1, 2, 4]
 What is a characteristic feature of the organization of genetic material in Prokaryotic cells compared to Eukaryotic cells?
 a) Prokaryotic cells have multiple chromosomes, while Eukaryotic cells have a single circular chromosome.
 b) Prokaryotic cells have introns in their DNA, while Eukaryotic cells do not.
@@ -120,8 +120,13 @@ d) Eukaryotic cells have plasmids, while Prokaryotic cells do not.
 tier: claimed
 form: mcq
 type: single
-claimed: b
-models: [1, 2]
+disputed: true
+claims:
+  - source: models 1, 2
+    answer: b (None of them is correct.)
+  - source: models 3, 4
+    answer: e (Plectonemic supercoils are characteristic of prokaryotic DNA only, whereas solenoidal supercoils are specific to eukaryotic DNA.)
+models: [1, 2, 3, 4]
 What is the distinction between plectonemic supercoils and solenoidal supercoils in DNA structure?
 a) No differences between plectonemic and solenoidal supercoils.
 b) None of them is correct.
@@ -133,8 +138,13 @@ e) Plectonemic supercoils are characteristic of prokaryotic DNA only, whereas so
 tier: claimed
 form: mcq
 type: single
-claimed: d
-models: [1]
+disputed: true
+claims:
+  - source: models 1, 3
+    answer: d (A sugar-phosphate bond is formed between the 3' hydroxyl and the 5' phosphate)
+  - source: model 4
+    answer: e (Both RNA and DNA polymerase initiate at promoter sequences)
+models: [1, 3, 4]
 Which of the following features is common to both DNA replication and transcription?
 a) Nucleotides are added to the 5' end of the newly synthesized strand
 b) Deoxyribonucleotides are incorporated into the growing sequence
@@ -146,8 +156,13 @@ e) Both RNA and DNA polymerase initiate at promoter sequences
 tier: claimed
 form: mcq
 type: single
-claimed: d
-models: [1, 2]
+disputed: true
+claims:
+  - source: models 1, 2, 4
+    answer: d (Formation of Tus-Ter complex followed by completion of DNA synthesis and decatenation of daughter molecules by topoisomerase IV)
+  - source: model 3
+    answer: b (Binding of Ter protein with Tus sequences forming Tus-Ter complex)
+models: [1, 2, 3, 4]
 What is the primary mechanism responsible for the termination of DNA replication in E. coli?
 a) DNA helicase inactivation followed by replisome disassembly
 b) Binding of Ter protein with Tus sequences forming Tus-Ter complex
@@ -159,7 +174,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3, 4]
 Which is true concerning UP element in bacteria promoter?
 a) It binds with sigma subunit of RNA polymerase
 b) It binds with alpha subunits of RNA polymerase
@@ -171,7 +186,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2]
+models: [1, 2, 3, 4]
 note: "3'à5'" is printed exactly as it appears in the source (see this file's
   own header comment) — not corrected to an arrow.
 Enzymes that have a 3'à5' proofreading activity
@@ -184,8 +199,13 @@ d) Reverse transcriptase
 tier: claimed
 form: mcq
 type: single
-claimed: b
-models: [1, 2]
+disputed: true
+claims:
+  - source: models 1, 2, 3
+    answer: b (High rate of G≡C to A=T mutations)
+  - source: model 4
+    answer: a (Increased cytosine deamination)
+models: [1, 2, 3, 4]
 What is the consequence of lacking uracil DNA glycosylases in mutant cells?
 a) Enhanced DNA stability
 b) High rate of G≡C to A=T mutations
@@ -198,7 +218,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 2]
+models: [1, 2, 3, 4]
 The transcription factor that has the helicase and phosphorylation activity is
 a) TFIIA
 b) TFIIB
@@ -211,11 +231,11 @@ form: mcq
 type: single
 disputed: true
 claims:
-  - source: model 1
+  - source: models 1, 4
     answer: d (guanosine is added by Guanylyltransferase enzyme)
   - source: model 2
     answer: c (guanosine is added by Guanine-7-methyltransferase)
-models: [1, 2]
+models: [1, 2, 4]
 Which of the following is true concerning mRNA capping?
 a) The source of methyl group is S-adenosylhomocysteine
 b) guanosine is added at 3' end of mRNA
@@ -227,7 +247,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 2]
+models: [1, 2, 3, 4]
 What is the function of O6-methylguanine-DNA methyltransferase in repairing O6-methylguanine lesions?
 a) Photoreactivation
 b) Excising damaged bases
@@ -240,7 +260,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2]
+models: [1, 2, 3, 4]
 A short DNA segment capable to move from one place to another in the genome:
 a) DNA transposition
 b) Translocation
@@ -253,7 +273,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1]
+models: [1, 3]
 __________ is a repair pathway used for large DNA lesions.
 a) Nucleotide-excision repair
 b) Homologous recombination
@@ -265,8 +285,13 @@ e) Mismatch repair
 tier: claimed
 form: mcq
 type: single
-claimed: d
-models: [1, 2]
+disputed: true
+claims:
+  - source: models 1, 2, 3
+    answer: d (Non-adenylated Ligase interacts with DNA-adenylate to form phosphodiester bond.)
+  - source: model 4
+    answer: c (adenylated Ligase interacts with non-adenylate DNA to form phosphodiester bond)
+models: [1, 2, 3, 4]
 note: Option c's "phospahe" is printed exactly as it appears in the source
   (likely meant "phosphate").
 which one of the following steps is NOT part of ligation reaction in DNA replication?
@@ -280,7 +305,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2]
+models: [1, 2, 3, 4]
 What is the basis of strand discrimination in E. coli during DNA replication?
 a) Methylation of adenines within sequences GATC
 b) Methylation of thymidines within GATC sequences
@@ -293,7 +318,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2]
+models: [1, 2, 3, 4]
 Transposons are responsible for the spread of some antibiotic-resistance in bacteria.
 a) False
 b) True
@@ -315,7 +340,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2]
+models: [1, 2, 4]
 In Meselson-Stahl experiment, which model of DNA replication suggests that the two strands of the DNA double helix separate, and each strand serves as a template for the synthesis of a new complementary strand?
 a) Semi-conservative replication
 b) Semi continuous replication
@@ -327,7 +352,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 2]
+models: [1, 2, 3, 4]
 One of the following classes involves the genetic exchanges between DNA molecules of very similar sequences:
 a) Site specific recombination
 b) DNA transposition
@@ -339,7 +364,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [1]
+models: [1, 3]
 The primary function of Helicase enzyme is:
 a) breaking the hydrogen bonds between complementary nucleotide pairs
 b) unwinding the double-stranded DNA molecule
@@ -365,7 +390,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 2]
+models: [1, 2, 3, 4]
 What distinguishes the ABC excinuclease's activity from standard endonucleases?
 a) Initiating repair in the 3' direction
 b) Catalyzing polymerization reactions
@@ -378,7 +403,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2]
+models: [1, 2, 3, 4]
 note: "followings" is printed exactly as it appears in the source.
 All of the followings contribute to promoter binding by RNA pol in E. coli except the:
 a) B subunit of RNA pol
@@ -392,7 +417,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3]
 What is the primary consequence of the end replication problem in DNA?
 a) DNA fragmentation
 b) Telomere shortening
@@ -404,7 +429,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1, 2]
+models: [1, 2, 3, 4]
 What is the primary distinction between a nucleosome and chromatin?
 a) All of them are correct.
 b) Nucleosomes consist only of DNA, while chromatin includes both DNA and protein molecules.
@@ -434,8 +459,15 @@ e) DNA polymerase ι
 tier: claimed
 form: mcq
 type: single
-claimed: c
-models: [1, 2]
+disputed: true
+claims:
+  - source: models 1, 2, 3
+    answer: c (Recombinase)
+  - source: model 4
+    answer: c (Ligase)
+note: The two sides happen to share option letter c — their option orderings
+  differ between captures. See each claim's own text, not the shared letter.
+models: [1, 2, 3, 4]
 Which one of the following enzymes does not require ATP?
 a) RecA
 b) Helicase
@@ -460,7 +492,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [1, 2]
+models: [1, 2, 3, 4]
 One of the following processes contain only the sequences required for transposition and the genes for transposases
 a) None of the choices
 b) Jumping genes
@@ -473,7 +505,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: d
-models: [1, 2]
+models: [1, 2, 3, 4]
 What is the Klenow fragment?
 a) is a large protein fragment produced from DNA polymerase I losing it's 5' → 3' polymerase activity
 b) is a large protein fragment produced from DNA polymerase II Initiating DNA replication
@@ -485,7 +517,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: e
-models: [1, 2]
+models: [1, 2, 3, 4]
 When does Elongation of RNA starts?
 a) After open complex formation
 b) When IF1 binds with A site and IF3 binds with the small ribosomal subunit
@@ -498,7 +530,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2]
+models: [1, 2, 3, 4]
 The part of RNA polymerase that helps find the promoter, whereas it's not needed for the elongation phase, is the
 a) rho factor
 b) sigma factor
@@ -509,8 +541,13 @@ d) factor IF3.
 tier: claimed
 form: mcq
 type: single
-claimed: b
-models: [1, 2]
+disputed: true
+claims:
+  - source: models 1, 2, 3
+    answer: b (composed of several repeats that serve as DnaA binding sites.)
+  - source: model 4
+    answer: c (It primarily consists of -10 and -35 consensus sequences and UP element.)
+models: [1, 2, 3, 4]
 What is a notable characteristic of the sequences in the E. coli replication origin, oriC?
 a) It is located at the end of the E. coli chromosome.
 b) composed of several repeats that serve as DnaA binding sites.
@@ -522,7 +559,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2]
+models: [1, 2, 3, 4]
 One of the following antibiotics intercalates into the double stranded DNA and inhibits RNA elongation
 a) Actinomycin
 b) Puromycin
@@ -533,8 +570,15 @@ d) Diphteria toxin
 tier: claimed
 form: mcq
 type: single
-claimed: b
-models: [1, 2]
+disputed: true
+claims:
+  - source: models 1, 2
+    answer: b (False)
+  - source: model 4
+    answer: a (True)
+note: Model 3 also saw this question but left it genuinely unanswered (no
+  claim contributed).
+models: [1, 2, 3, 4]
 Homologous recombination leads to changing the linear array of genes on a chromosome.
 a) True
 b) False
@@ -544,7 +588,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1]
+models: [1, 3, 4]
 What is the melting temperature (Tm) of DNA?
 a) The temperature at which DNA replication occurs.
 b) The temperature at which DNA partially denatures, separating into single strands.
@@ -559,9 +603,10 @@ disputed: true
 claims:
   - source: model 1
     answer: a (Promote viral gene expression)
-  - source: model 2
+  - source: models 2, 4
     answer: d (Facilitate integration into the host DNA)
-models: [1, 2]
+note: Model 3 does not ask this question.
+models: [1, 2, 4]
 What is the function of the long terminal repeat (LTR) sequences in retroviral genomes?
 a) Promote viral gene expression
 b) Facilitate integration into the host DNA
@@ -574,7 +619,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2]
+models: [1, 2, 3, 4]
 DNA Footprinting technique:
 a) It identifies the RNA sequences bound by a particular protein.
 b) It identifies the DNA sequences bound by a particular protein.
@@ -587,7 +632,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [1, 2]
+models: [1, 2, 3, 4]
 What is the impact of histone acetylation and deacetylation on gene expression?
 a) Histone acetylation promotes gene expression by loosening the chromatin structure, while deacetylation inhibits gene expression by tightening the chromatin.
 b) Both acetylation and deacetylation have no effect on gene expression.
@@ -599,7 +644,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2]
+models: [1, 2, 3, 4]
 Processing of tRNAs in bacteria and eukaryotes requires all the following except:
 a) Base modification
 b) Addition of amino acid at 3' end of the tRNA
@@ -611,7 +656,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [1, 2]
+models: [1, 2, 3]
 3'Azido . 2',3'dideoxythymidine (AZT):
 a) It is a structural analog of deoxythymidine that competitively inhibits dTTP binding with viral reverse transcriptase
 b) AZT is added to the 3 end of the growing RNA strand and RNA transcription is prematurely terminated
@@ -623,7 +668,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [1]
+models: [1, 4]
 The ABC excinuclease is essential in:
 a) Base-excision repair.
 b) Methyl-directed repair.
@@ -635,8 +680,13 @@ e) SOS repair.
 tier: claimed
 form: mcq
 type: single
-claimed: c
-models: [2]
+disputed: true
+claims:
+  - source: model 2
+    answer: c (AP endonuclease.)
+  - source: models 3, 4
+    answer: d (DNA glycosylase.)
+models: [2, 3, 4]
 In base-excision repair, the enzyme responsible for creating the AP site:
 a) Dam methylase.
 b) DNA glycosylase.
@@ -649,7 +699,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [2]
+models: [2, 3]
 Which of the following is not involved in the processing of mRNA:
 a) splicing of exons
 b) transport of the pre-mRNA to the cytoplasm
@@ -660,7 +710,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [2]
+models: [2, 3]
 Which of the following statements best defines a gene?
 a) The basic unit of heredity, composed of DNA, that carries instructions for building and maintaining an organism.
 b) A microscopic structure within the cell nucleus.
@@ -685,7 +735,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: a
-models: [2]
+models: [2, 3, 4]
 The Ames test is used to:
 a) Measure the mutagenic effects of various chemical compounds.
 b) Determine the rate of DNA replication.
@@ -698,7 +748,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: c
-models: [2]
+models: [2, 3, 4]
 The enzyme polyadenylate polymerase
 a) add the 5' cap
 b) have ATPase and helicase activity
@@ -723,7 +773,7 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [2]
+models: [2, 4]
 What is the primary function of the H1 histone in chromatin structure?
 a) Initiating transcription by interacting with RNA polymerase.
 b) Serving as a linker histone and stabilizing the nucleosome structure.
@@ -748,9 +798,100 @@ tier: claimed
 form: mcq
 type: single
 claimed: b
-models: [2]
+models: [2, 3, 4]
 Binding of RNA polymerase to a promoter region on DNA results in:
 a) replication of the promoter DNA.
 b) formation of a closed promoter complex, then an open promoter complex.
 c) formation of an open promoter complex then a closed promoter complex.
 d) reformation of the double helix in the promoter region.
+
+<!-- batch 02 (RUN-PLAN row 7) — raw/midterm/2023-2024/, نموذج ٣ + نموذج ٤ only.
+
+  Both models cross-matched by stem against all 55 questions batch 01 already
+  wrote, not just against each other — same methodology as batch 01. 41 of
+  نموذج ٣'s 45 questions and 44 of نموذج ٤'s 45 matched an existing MGEN-M
+  entry; the remainder (4 from model 3, 1 from model 4) were genuinely new,
+  appended below as MGEN-M-056–060.
+
+  This batch changed the dispute picture substantially: 9 questions that
+  batch 01 recorded as a single clean claim turned out to have a third or
+  fourth model disagreeing (MGEN-M-006, 007, 008, 011, 017, 030, 036, 038,
+  046 — see each entry's own `claims:` list), and both of batch 01's existing
+  disputes (MGEN-M-013, 040) gained a model corroborating one existing side
+  rather than a new position. Disputed count for this tab goes from 2 to 11.
+  Every `models:` field across all 55 pre-existing entries was updated to
+  reflect which of models 3/4 also saw that question, whether or not they
+  added a new claim value (MGEN-M-038 is the one case where a model — 3 —
+  saw a question but left it genuinely unanswered, contributing no claim).
+
+  نموذج ٣ is a set of angled/wide-angle photos of a laptop screen (readable
+  throughout, no right-edge cropping this time) with an occasional low-
+  contrast/washed-out page — none needed Stage 2 recovery. نموذج ٤ is a
+  portrait phone-screenshot capture (Safari on iOS, per the status bar) that
+  consistently shows a small stray pencil/markup-tool icon overlaid near
+  option (a) on several pages — confirmed by pixel-level crop-and-zoom to be
+  a UI artifact, not a hand-drawn mark on any option; the real filled radio
+  on each of those pages sat elsewhere and was read normally. -->
+
+### MGEN-M-056
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [3, 4]
+Which DNA repair system is specifically involved in the repair of 1-methyladenine and 3-methylcytosine in E. coli?
+a) Nucleotide excision repair
+b) Mismatch repair
+c) Direct photoreactivation
+d) Alkylated nucleotide repair system
+e) Base excision repair
+
+### MGEN-M-057
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3, 4]
+What is the primary characteristic of Okazaki fragments in DNA replication?
+a) they are short fragments of RNA that provide the OH group for DNA extension
+b) they are short fragments of DNA with a few RNA residues at the 5'-end
+c) they are produced by DNA polymerase I
+d) they are products of the action of endonucleases that ligated by ligase
+e) they are synthesized on the leading strand during replication
+
+### MGEN-M-058
+tier: claimed
+form: mcq
+type: single
+claimed: d
+models: [3]
+Which of the following DNA structures is characterized by a left-handed helical twist with 12 base pairs per turn?
+a) DNA B
+b) None of them
+c) DNA A
+d) DNA Z
+
+### MGEN-M-059
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [3]
+What is a key difference between topoisomerase I and topoisomerase II?
+a) Both topoisomerase I and topoisomerase II perform the same enzymatic mechanism but in different cellular compartments.
+b) Topoisomerase I introduces single-strand breaks in DNA, while topoisomerase II introduces double-strand breaks to relieve supercoiling.
+c) Topoisomerase I introduces single-strand breaks in DNA, while topoisomerase II relieves supercoiling without breaking the DNA strands.
+d) Topoisomerase I is involved in DNA replication, while topoisomerase II is responsible for DNA repair.
+e) Topoisomerase II is a protein enzyme, while topoisomerase I is a Ribozyme.
+
+### MGEN-M-060
+tier: claimed
+form: mcq
+type: single
+claimed: b
+models: [4]
+In DNA synthesis, why is the process considered semicontinuous and proceeds in the 5' to 3' direction?
+a) DNA helicase unwinds the DNA in a 5' to 3' direction
+b) The leading strand is synthesized continuously, while the lagging strand is synthesized discontinuously
+c) DNA ligase can only join nucleotides in the 5' to 3' direction
+d) DNA polymerase can only add nucleotides to the 5' end of the growing strand
