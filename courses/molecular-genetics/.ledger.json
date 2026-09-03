@@ -181,6 +181,104 @@
           "pages": 14
         }
       ]
+    },
+    {
+      "id": "midterm-03",
+      "built": "2026-09-03",
+      "questions": 136,
+      "note": "RUN-PLAN row 8: raw/midterm/2022-2023/ + before2020-2018/ + before2020-2014/ -- three unrelated paper exams.",
+      "files": [
+        {
+          "name": "raw/midterm/2022-2023/2022_2023_.pdf",
+          "sha1": "db3204ec0812d20446ce2d53ac6f612c0d06c744",
+          "pages": 10
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732639690.jpg",
+          "sha1": "0dc602d0b8f8cd7d4c47385501f19c6163a1190f",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732644964.jpg",
+          "sha1": "0d5d6ec3d4d259689033b51dc269c5f129a8f6b5",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732648429.jpg",
+          "sha1": "4b696f3b506aa385ae247a45ef31ef8431cc6a42",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732654002.jpg",
+          "sha1": "d54c6d025e5e03781238cfc46a47863de8e92730",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732675462.jpg",
+          "sha1": "772000ada59c2c69f759f1aca736d8bc1d4594d2",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732681392.jpg",
+          "sha1": "3f08c260f73228074c6fc316ebec945e4fcbca05",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732722472.jpg",
+          "sha1": "0531474e0fde6b01f97a38d9029ee96068657a69",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732726840.jpg",
+          "sha1": "da7e06066bb74440485d24bedc015e73853691b7",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732729683.jpg",
+          "sha1": "81f24a63ca5be3e5a67af13e54139da111b2cd10",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12226296_926412267443962_713888136_n.jpg",
+          "sha1": "65b73c25589cc739f91f352c2ab8e71a3e5da4d6",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12243955_926412400777282_1163885076_n.jpg",
+          "sha1": "cb546b2a1c50df4af0a81814fa7b18a060a2d7cd",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12248643_1082642365079254_955494856_n.jpg",
+          "sha1": "175374b6739f2552b5b6f0c4a53bf3a16bc89f89",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12255494_926412180777304_238648681_o.jpg",
+          "sha1": "3fb872070a11b9fe7821e77ed2a3967ecc21c0a0",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12272742_926412634110592_469424125_n.jpg",
+          "sha1": "ade5db8b4a42a4947a9c0ec62b550e972edf4530",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12277032_926412180777304_238648681_n.jpg",
+          "sha1": "57b3fb9843cea2aade5d598ebf32de26202d883c",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12278123_926412774110578_339388228_n.jpg",
+          "sha1": "f4393682e34197185ecded3edd65fa464f65ffb1",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/هام.txt",
+          "sha1": "34ef103b6448ff7fecce309d28b435691980094a",
+          "pages": 1
+        }
+      ]
     }
   ]
 }
