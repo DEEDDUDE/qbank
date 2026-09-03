@@ -307,6 +307,24 @@
           "pages": 6
         }
       ]
+    },
+    {
+      "id": "finals-01",
+      "built": "2026-09-03",
+      "questions": 81,
+      "note": "RUN-PLAN row 10: raw/finals/2023-2024/3.pdf + 5.pdf. 61 vision pages. Both files vision-only (no text layer). 3.pdf has a systemic missing-radio-button capture defect (every question's actual selection is unrecoverable); 5.pdf's pages are out of order and its radios render normally.",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024/3.pdf",
+          "sha1": "e7419cc1d077f34f06119c491a8bb6d378cd7ee7",
+          "pages": 31
+        },
+        {
+          "name": "raw/finals/2023-2024/5.pdf",
+          "sha1": "3f108f0c41b50d1d442662cc1adcff123822aa6d",
+          "pages": 30
+        }
+      ]
     }
   ]
 }
