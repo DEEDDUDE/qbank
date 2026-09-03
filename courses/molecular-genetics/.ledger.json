@@ -279,6 +279,34 @@
           "pages": 1
         }
       ]
+    },
+    {
+      "id": "midterm-04",
+      "built": "2026-09-03",
+      "questions": 146,
+      "note": "RUN-PLAN row 9: raw/midterm/before2020-2015/ + before2020-darwish-keys/. All 4 files text-layer, no vision spent.",
+      "files": [
+        {
+          "name": "raw/midterm/before2020-2015/Mid  2015 system (suher&hesham).pdf",
+          "sha1": "19cc0b70ad02d64f02c72fa5fdc6dd76db67ee13",
+          "pages": 9
+        },
+        {
+          "name": "raw/midterm/before2020-darwish-keys/Genetics key.pdf",
+          "sha1": "275861264f71ed3dfb6c1f8ea5de846b05e121ca",
+          "pages": 7
+        },
+        {
+          "name": "raw/midterm/before2020-darwish-keys/Med_Genetics_Exam_2013_key_.pdf",
+          "sha1": "66f5a488386ae8184191c64b3b3180ae4eb923cb",
+          "pages": 9
+        },
+        {
+          "name": "raw/midterm/before2020-darwish-keys/Med_Genetics_Exam_key.pdf",
+          "sha1": "eb4c42262390c6d034f3978728ac10ec8f25d5de",
+          "pages": 6
+        }
+      ]
     }
   ]
 }
