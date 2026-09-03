@@ -1,12 +1,12 @@
 ---
 course: public-health
 tab: finals
-questions: 165
-tiers: claimed 153 | open 12
-forms: mcq 165
+questions: 229
+tiers: claimed 217 | open 12
+forms: mcq 197 | qa 32
 needs-eye: 0
-disputed: 4
-next-id: PH-F-166
+disputed: 8
+next-id: PH-F-230
 ---
 
 <!-- batch 01 -- raw/finals/2023/نموذج 5.pdf, all 50 pages (Q1-Q50), 100% vision
@@ -1963,8 +1963,14 @@ d) Access the internet
 tier: claimed
 form: mcq
 type: single
-claimed: d
+disputed: true
+claims:
+  - source: PDF capture
+    answer: Prevention of disease progression and additional disease complication after overt clinical disease occurrence
+  - source: Messenger capture
+    answer: Prevention of clinical illness through the early and asymptomatic detection and remediation of certain disease conditions
 source: 2020-2021 sitting
+note: Second (Messenger) capture of this same sitting selected the option describing early/asymptomatic detection -- which is actually a description of secondary prevention, not tertiary -- while the PDF capture selected the option describing post-clinical progression/complications (correct for tertiary). Matched by content, not letter, since option order differs between captures. RUN-PLAN row 19.
 Which of the following processes characterizes the level of disease prevention known as tertiary prevention?
 a) Prevention of illness through appropriate individual and group behaviour modification designed to minimize infection risk
 b) Prevention of disease before its biological onset
@@ -2142,9 +2148,14 @@ b) True
 tier: claimed
 form: mcq
 type: single
-claimed: a
+disputed: true
+claims:
+  - source: PDF capture
+    answer: Those who take vitamins C & E daily have 0.7 times the risk of heart attack compared to those who do not take vitamins
+  - source: Messenger capture
+    answer: The incidence of coronary artery disease in those who take vitamins C& E daily is 0.70 (or 70%)
 source: 2020-2021 sitting
-note: Stem prints the risk ratio as "0.07" but option (a), the selected answer, describes "0.7 times the risk" -- transcribed exactly as printed, not corrected.
+note: Stem prints the risk ratio as "0.07" but the PDF capture's selected answer describes "0.7 times the risk" -- transcribed exactly as printed, not corrected. Second (Messenger) capture of this same sitting selected a different option entirely ("incidence...0.70 (70%)"), a genuine within-sitting disagreement, not just a reshuffled letter. RUN-PLAN row 19.
 A study is done to examine whether is an association between the daily use of vitamins C & E and risk of coronary artery disease (heart attack) over a 10 years period. When subjects who took both vitamins were compared to those who took not vitamins at all, the risk ratio was found to be 0.07. which of the following is a correct interpretation of this finding?
 a) Those who take vitamins C & E daily have 0.7 times the risk of heart attack compared to those who do not take vitamins
 b) The risk difference in this study is 0.70 per 100 vitamin users over ten years.
@@ -2155,8 +2166,16 @@ d) The incidence of coronary artery disease in those who take vitamins C& E dail
 tier: claimed
 form: mcq
 type: single
-claimed: d
+disputed: true
+claims:
+  - source: PDF capture
+    answer: One exposure to this factor is always enough to develop the disease
+  - source: Messenger capture (Q21, "Answer saved" state matching the rest of this capture)
+    answer: One exposure to this factor is always enough to develop the disease
+  - source: Messenger capture (page labeled "Question 78", "Marked out of 1.0", "Select one:" -- visual style anomalous vs. the rest of this capture, possibly a different attempt/quiz that got mixed into this photo set)
+    answer: The exposure to this factor should precede the development of the disease.
 source: 2020-2021 sitting
+note: Same messenger capture set contains two photos of this question. One (numbered Question 21, styled like the rest of the set) reconfirms the existing PDF-capture claim. The other (numbered Question 78, styled differently -- "Marked out of 1.0" instead of "Marked out of 1", an explicit "Select one:" label, hand-drawn tick mark) disagrees and may not actually be from the same exam attempt as the rest of this photo set. Recorded as a dispute rather than silently preferring one; flagged for a future session to judge. RUN-PLAN row 19.
 The following criteria are necessary to establish causal relationship between two variables except:
 a) The exposure to this factor should precede the development of the disease.
 b) The factor is present in all subjects with the disease
@@ -2167,10 +2186,15 @@ d) One exposure to this factor is always enough to develop the disease
 tier: claimed
 form: mcq
 type: single
-claimed: e
+disputed: true
+claims:
+  - source: PDF capture
+    answer: Smokers had 17 times the risk of lung cancer compared to non-smokers.
+  - source: Messenger capture
+    answer: Smokers had 17 times more risk of lung cancer than non-smokers.
 source: 2020-2021 sitting
-note: The exposed-group sample size ("... following ___ smokers ...") is covered by an on-screen UI overlay (a floating close/"x" icon) in the source capture -- baked into the screenshot itself, not a downscale artifact, so no crop can recover it. Recorded as omitted rather than guessed; does not affect the answer, which depends only on the stated risk ratio.
-A cohort study examined the association between smoking and lung cancer after following [obscured] smokers and 600 non-smoker for 15 years. At the conclusion of the study the investigators found a risk ratio=17. Which of the following would be the best interpretation of the risk ratio?
+note: The PDF capture's on-screen UI overlay obscuring the exposed-group sample size ("... following ___ smokers ...") is NOT present in the second (Messenger) capture, which shows the number plainly -- "400 smokers" -- so the stem below is now complete instead of "[obscured]". On the answer itself, the two captures selected two similarly-worded but distinct options ("17 times the risk...compared to" vs. "17 times more risk...than"), a genuine disagreement, not a reshuffled letter -- both options exist in each capture's own list and only one of the two was selected each time. RUN-PLAN row 19.
+A cohort study examined the association between smoking and lung cancer after following 400 smokers and 600 non-smoker for 15 years. At the conclusion of the study the investigators found a risk ratio=17. Which of the following would be the best interpretation of the risk ratio?
 a) Smokers had 17% more lung cancers compared to non-smokers.
 b) There were 17 more cases of lung cancer in the smokers.
 c) Smokers had 17 times more risk of lung cancer than non-smokers.
@@ -2213,3 +2237,646 @@ a) Observational cohort
 b) Experimental
 c) Observational case-control
 d) Observational cross-sectional
+
+<!-- batch 04 -- .prep/finals/2020-2021/2/ (22 Messenger-photo pages, all vision, all below prep.py's 1000px floor per manifest.json but confirmed legible on direct read). RUN-PLAN row 19, Part 1. A second, independent capture of the SAME 2020-2021 sitting already in this file as PH-F-126-165 (that pool was captured via PDF, `raw/finals/2020-2021/1/`). Matched every fully-legible question against PH-F-126-165 by stem text only -- never against PH-F-001-125, which belong to a different sitting/year and were kept out of scope per this row's own brief (mirrors batch03's precedent of not cross-matching sittings).
+
+  This capture is inherently fragmentary: 22 phone photos of a scrolling browser window, several page boundaries mid-question, several photos duplicating the same scroll position (no new information -- not a duplicate drop, same handling as batch03's p019/p020). Because of this, standard number continuity does not apply cleanly -- question numbers 13, 19, 33, 35, 37 were never captured at all, and several other questions were seen only as a stem with no visible answer state or vice versa (excluded below rather than guessed). This is a property of a partial re-capture, not a loss from this session's reading.
+
+  21 questions matched PH-F-126-165 by stem with the same claimed content (letter position frequently differs between the two captures -- Moodle re-randomizes option order per attempt -- so matches were judged by what the selected option *says*, never by its letter): PH-F-126, 127, 128, 129, 130, 131, 132, 135, 136, 139, 141, 144, 146, 149, 150, 155, 157, 158, 159, 163, 164, 165 (22 listed -- one of these, PH-F-161, also surfaced a second, disagreeing sighting, see below). No changes were needed to these entries beyond this confirmation; none carry a `models:`-style cross-reference since this isn't the reshuffled-models exception, just a second capture of one sitting.
+
+  4 questions matched but disagreed with the existing PDF-capture claim on content, not just letter -- each now marked `disputed: true` with per-capture `claims:`, updated in place above: **PH-F-145** (tertiary prevention -- Messenger capture selected the option describing early/asymptomatic detection, which actually describes secondary prevention). **PH-F-160** (vitamin C&E/CAD risk-ratio interpretation -- Messenger capture selected a wholly different option than the PDF capture, not just a relettered version of the same one). **PH-F-161** (causal-relationship-except -- see note below, an internal anomaly). **PH-F-162** (smoking/lung-cancer risk ratio=17 interpretation -- the two captures picked two similarly-worded but distinct options; the Messenger capture also incidentally recovered this question's previously `[obscured]` sample size, now legible as "400 smokers", folded into the stem with a note rather than left obscured).
+
+  PH-F-161 is a special case worth flagging on its own: this capture contains TWO photos of the same question. One, numbered "Question 21" and styled identically to the rest of this photo set ("Answer saved", "Marked out of 1", no "Select one:" label), reconfirms the existing PDF-capture claim exactly. The other, numbered "Question 78" -- a number impossible for this 40-question sitting -- is styled differently ("Marked out of 1.0", an explicit "Select one:" line, a hand-drawn pen tick instead of a filled Moodle radio) and selects a different answer. This page may not actually belong to the same exam attempt as the rest of the folder; it was processed per this row's brief regardless (every image in the folder was read), and both sightings are recorded as competing claims in PH-F-161 rather than one being silently discarded.
+
+  14 questions never appeared anywhere in PH-F-126-165 and were minted as new IDs, continuing the running counter (PH-F-166 through PH-F-179), tagged `source: 2020-2021 sitting` like the rest of this sitting's pool. One of the fourteen ("Primary health care is:") was itself seen on two separate photos within this same Messenger capture, agreeing both times -- counted once.
+
+  No question in this batch depends on a photo, chart, or diagram -- all legible entries are plain-text `mcq`, `type: single`; no crops saved to `flagged/`. Every legible question in this capture already carries an "Answer saved" state with a filled radio, so every entry (new or matched) is tier `claimed`, consistent with the rest of PH-F-126-165 -- no official tier anywhere in this sitting.
+
+  Anti-loss checks: number continuity does not cleanly apply to this fragmentary re-capture (see above) -- documented rather than silently skipped or forced. Count reconciliation: 22 photos yielded 39 distinct fully-legible question-sightings (some questions spanned 2 photos at a page boundary and were combined into one reading, consistent with job-a-extract.md's stitching rule) -- 21 clean matches + 4 disputed matches + 14 new = 39, accounted for. A handful of additional partial sightings (stems or option lists cut off at a photo boundary with no continuation elsewhere in this capture) were deliberately excluded rather than transcribed incomplete or guessed. Structural floor: all 14 new entries are `mcq` with >=2 options, none malformed. Language check: all stems/options are English; the only non-English text anywhere is Moodle interface chrome, discarded. Computed header counts: recomputed from the full body below at the end of this session's edits. **Not yet run through Job C or D.** -->
+
+### PH-F-166
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+Health Promotion Action means EXCEPT
+a) Reorient health services to focus on people empowerment
+b) Strengthen community-wide health action
+c) Building public healthy policy
+d) Develop highly specialized medical services
+e) Create supportive social environment
+
+### PH-F-167
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Screening is a good way to prevent the occurrence of non-communicable diseases such as cancer.
+a) False
+b) True
+
+### PH-F-168
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+Which of the following is an example of a non-communicable condition with multiple social determinants and causes?
+a) Violence including suicide and homicide
+b) Alcohol related deaths and disease
+c) Obesity
+d) All are correct
+e) Teen/unplanned parenthood
+
+### PH-F-169
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Which of the following can be an observational study:
+a) Community trial
+b) Cross-Sectional
+c) Randomized controlled trial
+d) Field trial
+
+### PH-F-170
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Which of the following is considered to be a public health achievement during the twentieth century?
+a) Vaccination
+b) Maternal and infant care
+c) All are correct
+d) Antibiotics
+
+### PH-F-171
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Becoming health literate requires understanding technical medical terms.
+a) False
+b) True
+
+### PH-F-172
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2020-2021 sitting
+Which of the following is true of the determinants of health?
+a) If a pathogenic organism can be shown to cause a disease then no other determinants are present
+b) One determinant is operating to bring about each disease
+c) They reflect multiple, interconnected underlying forces that influence health and the subsequent development of disease
+d) Each determinant can usually be traced to specific diseases
+
+### PH-F-173
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+note: Seen on two separate photos in this capture (once numbered Question 27), agreeing both times.
+Primary health care is:
+a) The first point of contact for people with the health care services.
+b) Care provided in the acute setting
+c) Care provided in hospices
+d) Care provided by GPs only
+
+### PH-F-174
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Epidemiological measures of effect assess the _______ between an exposure and an outcome.
+a) Strength of the association
+b) Strength of the causal mechanisms
+c) Strength of the reversibility
+d) Strength of a confounding factor
+
+### PH-F-175
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2020-2021 sitting
+Which is the direct mechanism of transmission of communicable diseases:
+a) Air borne
+b) Vehicle borne
+c) Vector borne
+d) Sexual intercourse
+
+### PH-F-176
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Health care services include:
+a) All are correct
+b) All of the above
+c) Acute and Chronic
+d) Restorative and palliative
+e) Preventive
+
+### PH-F-177
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+If a disease is endemic that means it is at the normal, expected level within the population.
+a) False
+b) True
+
+### PH-F-178
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2020-2021 sitting
+Screening is considered sensitive if:
+a) If high percentage of identified cases are true positives
+b) If majority of identified cases are true negatives
+c) All detected cases are true positives
+d) If None of the identified cases is false positive
+
+### PH-F-179
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2020-2021 sitting
+Availability means that the cost should be within the means and resources of the individual and the country.
+a) True
+b) False
+
+<!-- batch 05 -- .prep/finals/2015-moodle-final/*.jpg (11 unique pages after Stage 0 dedup dropped 2 exact-duplicate PNGs; all vision, all below the 1000px floor per manifest.json but confirmed legible on direct read). RUN-PLAN row 19, Part 2. Genuine 2015 Moodle "Final exam" attempt screenshots -- confirmed directly: browser chrome (Firefox), breadcrumb reading "Home > Fall 2015/2016 > GENERAL MEDICINE... 2151-6106211-sec7 > General > Final exam", Al-Quds University Moodle header visible on 3 of the 11 photos, "Answer saved"/"Marked out of 1" states throughout. Own new pool, own new ID range (PH-F-180 through PH-F-197) -- not merged with PH-F-001-179, a distinct exam year with its own content. Every entry tagged `source: 2015 Moodle final (partial)`.
+
+  This is inherently partial coverage, confirmed by the exam's own question-navigation grid (visible on 3 of the 11 photos): the grid runs to at least 80 ("79 80" then "Finish attempt...", "Time left 0:17:51"), so the exam has >=80 questions total, not the ~66 previously guessed -- these 11 photos cover only a fragment of that, and the rest was simply never screenshotted by whoever captured this, not a failure to find it. Do not assume/interpolate the missing questions.
+
+  Of the 11 photos, several show duplicate scroll positions: two separate photos (different filenames/hashes, not caught by Stage 0's exact-file dedup) show the identical rendered page for Q26-Q29, and three separate photos show the identical rendered page for Q1-Q3 -- no new information beyond confirming the same reading each time, not a duplicate drop (same handling as batch03's p019/p020 precedent).
+
+  18 questions were fully legible end to end (stem + complete option list + a visible selection) and were transcribed: Q1, Q2, Q3, Q4, Q5, Q6, Q10, Q11, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q26, Q27, Q28 -- minted PH-F-180 through PH-F-197 in question-number order. One of these, Q6, has the identical stem to Q2 ("Both equal utilization of health care and equal access to health care lead to equity.") and both independently selected True -- recorded as two separate entries (PH-F-181 and PH-F-185) since Moodle showed them as two separate numbered questions in the same attempt, not a page-boundary artifact; noted on PH-F-185.
+
+  6 further questions were sighted but NOT transcribed because a photo-boundary cut them off before the answer state or full option list ever appeared on any of the 11 pages, and nothing elsewhere in this batch completes them: Q7 ("Body mass index is defined as...") -- stem visible, options/selection never captured. Q8 -- never appeared at all. Q9 -- only its answer tail ("a. False / b. True [selected]") is visible with no stem ever captured. Q12 ("The decentralization of administrative and decision making functions...") -- stem visible, options never captured. Q20 ("Prevention refers to the goals of medicine...") -- stem visible, options never captured. Q29 ("Environmental hazards might be") -- stem visible, options never captured. None of these six are guessed or interpolated; they simply don't exist in this extract.
+
+  All 18 transcribed questions are plain-text `mcq` -- 12 are `type: single` True/False, 6 are `type: single` multi-option mcq (one with 6 options, Q4). None depend on a photo, chart, or diagram; no crops saved to `flagged/`. Every question shows "Answer saved" with a filled radio and no printed key anywhere -- tier `claimed` throughout, consistent with every other tab in this course.
+
+  Anti-loss checks: number continuity does not apply -- this is a deliberately partial re-capture of a >=80-question exam, not a claim of a complete 1-N sequence (documented above rather than silently skipped). Count reconciliation: 11 photos, 18 fully legible + 6 explicitly-excluded partial sightings = 24 question-instances accounted for (some questions spanning 2-3 duplicate/boundary photos, combined into one reading each). Structural floor: all 18 are `mcq` with >=2 options, none malformed. Language check: all stems/options are English; the only non-English text is the Al-Quds University Arabic branding visible in the page chrome on 3 photos, never inside a stem or option. Computed header counts: recomputed from the full body below at the end of this session's edits. **Not yet run through Job C or D.** -->
+
+### PH-F-180
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+Which of the following is considered to be a public health achievement during the twentieth century?
+a) All of them
+b) Maternal and infant care
+c) Antibiotics
+d) Vaccination
+
+### PH-F-181
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2015 Moodle final (partial)
+Both equal utilization of health care and equal access to health care lead to equity.
+a) False
+b) True
+
+### PH-F-182
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2015 Moodle final (partial)
+Health promotion fall into two clusters that are mutually exclusive.
+a) True
+b) False
+
+### PH-F-183
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2015 Moodle final (partial)
+Methods of Primary Prevention:
+a) None of them
+b) Keeping yourself clean—wash hands with antibacterial soaps & shower
+c) All of them
+d) Exercise and good nutrition
+e) Get enough rest
+f) Isolation or avoidance—staying away from infected individuals
+
+### PH-F-184
+tier: claimed
+form: mcq
+type: single
+claimed: d
+source: 2015 Moodle final (partial)
+The Declaration outlined the central concerns of the global community and articulated a set of interconnected and mutually reinforcing goals for sustainable development
+a) Health determinants
+b) Health development
+c) Alma-Ata Declaration
+d) Millennium Development Goals
+
+### PH-F-185
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+note: Identical stem to PH-F-181 (Q2 in this same attempt); both independently selected True. Kept as two separate entries since Moodle presented them as two distinct numbered questions (Q2 and Q6) in the one attempt, not a capture artifact.
+Both equal utilization of health care and equal access to health care lead to equity.
+a) True
+b) False
+
+### PH-F-186
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+Chronic PEM effects are growth retardation, lowered resistance to infection, and increased mortality rates in young children.
+a) True
+b) False
+
+### PH-F-187
+tier: claimed
+form: mcq
+type: single
+claimed: e
+source: 2015 Moodle final (partial)
+The main determinants of health are
+a) Individual capacity & coping skills
+b) Health services
+c) Social & economic environment
+d) Personal health practices
+e) All of them
+f) Physical environment
+
+### PH-F-188
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2015 Moodle final (partial)
+Health improves only when scientific knowledge on disease causation adopted by the public.
+a) False
+b) True
+
+### PH-F-189
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+Obesity affects children and adolescents, as well as the adult population.
+a) True
+b) False
+
+### PH-F-190
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+The Inborn immune system is the following except
+a) White blood cells & Lymphocytes
+b) Macrophages, Natural Killer Cells & Neutrophils kill infectious agents
+c) Skin—outer protective barrier
+d) The body's first line of defense against disease.
+
+### PH-F-191
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2015 Moodle final (partial)
+Socratis's approach to disease and research were the first steps on the way to the prevention and control of disease.
+a) True
+b) False
+
+### PH-F-192
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+Alcoholism and other certain drug addictions may lead to malnutrition...
+a) True
+b) False
+
+### PH-F-193
+tier: claimed
+form: mcq
+type: single
+claimed: c
+source: 2015 Moodle final (partial)
+Eric visits his doctor on a regular basis because he is a hypochondria. What level of prevention is it?
+a) None of them
+b) Tertiary prevention
+c) Secondary prevention
+d) Primary prevention
+
+### PH-F-194
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+PEM stand for Positron emission mammography
+a) False
+b) True
+
+### PH-F-195
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+Infant mortality rate is made up of two components, the neonatal mortality & postneonatal mortality.
+a) True
+b) False
+
+### PH-F-196
+tier: claimed
+form: mcq
+type: single
+claimed: a
+source: 2015 Moodle final (partial)
+An individual must be an active and willing participant in health behavior change if that is to be maintained.
+a) True
+b) False
+
+### PH-F-197
+tier: claimed
+form: mcq
+type: single
+claimed: b
+source: 2015 Moodle final (partial)
+Primary prevention aims to reduce the onset of ill health.
+a) False
+b) True
+
+<!-- batch 06 -- raw/finals/2015-moodle-final/examPub.doc, a separate, unrelated document (own new pool, own new ID range PH-F-198 through PH-F-229). RUN-PLAN row 19, Part 3. An old binary OLE `.doc`, read via `antiword` (the Read tool cannot open it directly; antiword produced ~218 clean lines of text). Content: a fully-answered essay/short-answer exam template -- header "Al-Quds University, Faculty of Medicine, Khuloud Khayyat Dajani, M.D, M.Sc, CM.D, Ph.D., Date: May 15, 2013" with blank, never-filled-in `Name:____`/`Number:____` fields -- 6 numbered Questions, several with lettered or numbered sub-parts, each followed by a complete written answer, ending "GOOD LUCK (2 hrs)".
+
+  **Tier is genuinely ambiguous and was deliberately set to `claimed`, not `official`, per job-a-extract.md's own rule ("when the tier is ambiguous, drop to the lower one").** The professor's name is in the header, but since Name/Number were never filled in, there's no way to tell whether this is the professor's own answer key, or a student's (or later compiler's) completed answer sheet using the professor's blank template. Job C should weigh this tier deliberately rather than pass it through as free/trusted -- it reads as polished and textbook-accurate, but its provenance is not certain.
+
+  Every numbered Question (1-6) with its lettered/numbered sub-parts was split into one `form: qa` entry per sub-part, following this repo's existing precedent for matching/EMQ-style blocks (see `public-health-practice.extract.md`). No options were invented anywhere -- `qa` with no options is this entry type's correct shape, not a malformed one. Every entry tagged `source: Dajani essay exam (2013, definitions doc)`, distinct from Part 2's `source: 2015 Moodle final (partial)` even though both live in the same raw folder -- they are unrelated documents that merely happen to share a directory.
+
+  The document has some Arabic annotations interspersed (e.g. after PH-F-202, PH-F-206, PH-F-207) that antiword renders as garbled `?` characters, since it does not handle non-Latin encoding. These are noted explicitly on the affected entries as "Arabic annotation present, not recoverable via antiword" rather than silently dropped or fabricated as a translation.
+
+  The document has 9 embedded images (4 JPEG + 5 PNG, extracted via binary signature scan since antiword only leaves `[pic]` placeholders), each a formula or table supporting one specific written answer. All 9 were inspected directly; 8 are load-bearing (the written answer alone does not convey the formula/table, which exists only in the image) and were copied to `flagged/`: `PH-F-211-prevalence-formula.png`, `PH-F-212-incidence-formula.png`, `PH-F-213-case-fatality-formula.png`, `PH-F-214-infant-mortality-formula.png`, `PH-F-215-maternal-mortality-formula.png` (Q2's rate-formula sub-items), `PH-F-220-levels-of-prevention-table.jpg` (Q3), `PH-F-221-epi-study-types-table.jpg` (Q4), `PH-F-222-causation-criteria-table.jpg` (Q5). The 9th image (a "Table 7.2, Modes of transmission of an infectious agent" JPEG) sits after the exam's "GOOD LUCK (2 hrs)" sign-off, alongside an untranslated Arabic line and a trailing English paragraph on endemic/epidemic terminology -- judged, per this row's own instruction to use judgment on where the exam content ends, to be trailing supplementary notes rather than a formal numbered exam question. It was NOT minted as a PH-F entry and NOT copied to `flagged/` (nothing to be load-bearing for), but is recorded here rather than silently discarded -- a future session can revisit this call if warranted.
+
+  Question 2's own text has a stray non-English fragment ("7asab jadwal 2*2", i.e. Arabic transliterated into Latin letters, roughly "according to the 2x2 table") inline in its Odd Ratio sub-answer -- preserved verbatim as printed, not translated or removed, since it is Latin-script and not the antiword-garbled Arabic seen elsewhere. Also preserved verbatim: the document's own spelling "Odd Ratio" (not "Odds Ratio") and a formula in Question 6 that appears to duplicate itself (Prevalence Rate and Attack Rate are both given as "(a+c)/(a+b+c+d)" despite being different measures) -- not corrected, flagged on the Attack Rate entry.
+
+  Anti-loss checks: number continuity is not applicable (this is a lettered/numbered outline, not a numbered question sequence) -- documented rather than silently skipped, per job-a-extract.md's own carve-out for unnumbered material. Count reconciliation: 6 source Questions with 32 total sub-parts (Q1: 1 + 1 + 10 = 12; Q2: 10; Q3: 1; Q4: 1; Q5: 1; Q6: 1 + 6 = 7) match the 32 entries below (PH-F-198 through PH-F-229). Structural floor: all 32 are `form: qa` with no options -- their correct shape, not malformed. Language check: English throughout except the noted, explicitly-flagged Arabic/transliterated fragments. Computed header counts: recomputed from the full body below at the end of this session's edits. **Not yet run through Job C or D.** -->
+
+### PH-F-198
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: Health: The state of complete physical, mental & social well-being & not merely the absence of disease or infirmity. Positive Health: Holds that health is the maximization of the biological and clinical indicator of organ function and the maximization of physical, mental and role functioning in every day life.
+What is your understanding of health / positive health?
+
+### PH-F-199
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: 1-Hygiene: Personal Health Exercise & Body Built. 2-Sanitation: Health Emergency, Sewage System, Water Supply, Solid Waste Disposal. 3-Preventive Medicine: A-Preventive Medicine (Immunization, Supplementation), B-Prevention of complication of diseases (Secondary Prevention), C-Prevent further complication of Rabies (tertiary prevention). Environmental Health: Monitor & protection of air pollution, Healthy Houses, Master Plan (Villages & towns), Safe water supply, Sewage Disposal, Solid Waste disposal, Protection of water source from pollution, Rodent Control, Control of Hazards waste. 4-Healthy Group: Ante-Natal and post Natal care, Child Care, Infants, Pre school, Adult age (including occupational Health), Elderly Care.
+What are the goals of good health?
+
+### PH-F-200
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: is a science that aims to prevent diseases, increase life expectancy, provide good health & good socioeconomic status. That is through concern on Environmental Health, Prevention of communicable and non communicable diseases, Provide Personal Hygiene education, early diagnosis of disease and Socio-economic Development.
+Write the definition of the following: Public Health
+
+### PH-F-201
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: is the total societal effort, undertaken in the private and public sectors focused on pursuing health.
+Write the definition of the following: Health Care
+
+### PH-F-202
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+note: An Arabic annotation follows this item in the source ("??????? ? ?? ???? ?? ?????? 5 ?? ???? ?????" per antiword, followed by "health Management") -- antiword garbles non-Latin script; not recoverable, not fabricated as a translation.
+answer: within the larger domain of health care, health services are specific activities undertaken to maintain or improve health or to prevent decrements of health. These services can be preventive, acute, chronic, restorative or palliative.
+Write the definition of the following: Health Care Service/s
+
+### PH-F-203
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: HSOs are entities that provide the organizational structure within which the delivery of health services is made directly to consumers, whether the purpose of the services is preventive, acute, chronic, restorative or palliative.
+Write the definition of the following: Health Care Services Organization
+
+### PH-F-204
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: the study of the distribution and determinants of health-related states or events in specified populations, and the applications of this study to control of health problems.
+Write the definition of the following: Epidemiology
+
+### PH-F-205
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: 1- the continuum of health services outlined previously has been provided traditionally by autonomous or independent HSOs, often in an uncoordinated and disjointed manner. 2- anthropologists refer to various practices for healing the sick, according to diverse religious, philosophical, magical, and empirical doctrines.
+Write the definition of the following: Health System
+
+### PH-F-206
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+note: An Arabic annotation follows this item in the source ("???? ??? ??????? ?? ????? ????? ?? ????? ??????? ???? ?????? ??? ????? ????? ." per antiword) -- antiword garbles non-Latin script; not recoverable, not fabricated as a translation.
+answer: is the occurrence in a community or region of number of cases of a disease that is unusually large or unexpected for the given place and time. Time period, Geographical region and the particular community group in which the cases occur must be clearly specified.
+Write the definition of the following: Epidemic Disease
+
+### PH-F-207
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+note: An Arabic annotation follows this item in the source ("*???? ?? ????? ????? ??? ???? ?? ????? ???? ?????" per antiword) mixed with the English fragment "normal number of cases" -- antiword garbles non-Latin script; not recoverable, not fabricated as a translation.
+answer: is one that usually present in a given geographical area or population group at relatively high prevalence and incidence rate in comparison with the other area or population, e.g: Malaria.
+Write the definition of the following: Endemic Disease
+
+### PH-F-208
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+note: An Arabic annotation follows this item in the source ("?????? ????? ??? ???? ????? ." per antiword) -- antiword garbles non-Latin script; not recoverable, not fabricated as a translation.
+answer: is an epidemic of infectious disease that has spread through human populations across a large region; for instance multiple continents, or even worldwide.
+Write the definition of the following: Pandemic Disease
+
+### PH-F-209
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: is an event, condition, characteristic or a combination of these factors which plays an important role in producing the disease. Logically, a cause must precede a disease. A cause is termed sufficient when it inevitably produces or initiates a disease and is termed necessary if a disease cannot develop in its absence.
+Write the definition of the following: Causal Association
+
+### PH-F-210
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: a measure of the frequency with which an event occurs in a defined population in specified period of time. R = (No. of events / No. of total pop) x 10^n.
+Explain the following and show how to measure each: Rate
+
+### PH-F-211
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+img: flagged/PH-F-211-prevalence-formula.png
+answer: is the number of cases in a defined population at a specified point in time. Formula shown in the referenced image: P = (Number of people with the disease or condition at a specified time / Number of people in the population at risk at the specified time) x 10^n.
+Explain the following and show how to measure each: Prevalence
+
+### PH-F-212
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+img: flagged/PH-F-212-incidence-formula.png
+answer: the number of new cases arising in a given period in a specified population. Formula shown in the referenced image: I = (Number of people who get a disease in a specified period / Sum of the length of time during which each person in the population is at risk) x 10^n.
+Explain the following and show how to measure each: Incidence
+
+### PH-F-213
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+img: flagged/PH-F-213-case-fatality-formula.png
+answer: is a measure of the severity of a disease and is defined as the proportion of cases of a specified disease or condition which are fatal within a specified time. Formula shown in the referenced image: Case-fatality (%) = (Number of deaths from a disease in a specified period / Number of diagnosed cases of the disease in the same period) x 100.
+Explain the following and show how to measure each: Case-Fatality
+
+### PH-F-214
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+img: flagged/PH-F-214-infant-mortality-formula.png
+answer: is commonly used as an indicator of the level of health in a community. It measures the death rate in children during the first year of life. Formula shown in the referenced image: Infant mortality rate = (Number of deaths in a year of children less than 1 year of age / Number of live births in the same year) x 1000.
+Explain the following and show how to measure each: Infant Mortality Rate
+
+### PH-F-215
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+img: flagged/PH-F-215-maternal-mortality-formula.png
+answer: Formula shown in the referenced image: Maternal mortality rate = (Maternal pregnancy-related deaths in one year / Total births in same year) x 10^n.
+Explain the following and show how to measure each: Maternal Mortality Rate
+
+### PH-F-216
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: incidence of disease, measured by counting the number of people who become ill.
+Explain the following and show how to measure each: Morbidity
+
+### PH-F-217
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: any restriction or lack (resulting from impairment) of ability to perform an activity in the manner or within the range considered normal for a human being.
+Explain the following and show how to measure each: Disability
+
+### PH-F-218
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+note: Source spells this "Odd Ratio", not "Odds Ratio" -- preserved as printed. Contains an inline transliterated-Arabic fragment ("7asab jadwal 2*2", i.e. "according to the 2x2 table") -- preserved verbatim, not translated or removed.
+answer: the rate of the odds of the exposure among cases to the odds in favour of exposure among control. OR = (a*d)/(b*c) (7asab jadwal 2*2).
+Explain the following and show how to measure each: Odd Ratio
+
+### PH-F-219
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: the ratio of the risk of occurrence of a disease among people exposed to that in unexposed.
+Explain the following and show how to measure each: Relative Risk
+
+### PH-F-220
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+img: flagged/PH-F-220-levels-of-prevention-table.jpg
+answer: Shown in the referenced image (Table 6.1, Levels of prevention): Primordial -- phase: underlying conditions leading to causation; target: total population and selected groups. Primary -- phase: specific causal factors; target: total population, selected groups and healthy individuals. Secondary -- phase: early stage of disease; target: patients. Tertiary -- phase: late stage of disease (treatment, rehabilitation); target: patients.
+Levels of prevention can be identified corresponding to different phases of the development of disease. All levels of prevention are important and complementary. Explain the levels of prevention and relate each to phase of disease, and identify the target population.
+
+### PH-F-221
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+img: flagged/PH-F-221-epi-study-types-table.jpg
+answer: Shown in the referenced image (Table 3.1, Types of epidemiological study): Observational studies -- Descriptive studies; Analytical studies: Ecological (alt. name Correlational, unit: Populations), Cross-sectional (alt. name Prevalence, unit: Individuals), Case-control (alt. name Case-reference, unit: Individuals), Cohort (alt. name Follow-up, unit: Individuals). Experimental studies (alt. name Intervention studies): Randomized controlled trials (alt. name Clinical trials, unit: Patients), Field trials (unit: Healthy people), Community trials (alt. name Community intervention studies, unit: Communities).
+Concerning the different types of Epidemiological studies, please fill the following table.
+
+### PH-F-222
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+img: flagged/PH-F-222-causation-criteria-table.jpg
+answer: Shown in the referenced image: Temporal relation (does the cause precede the effect? -- essential), Plausibility (is the association consistent with other knowledge -- mechanism of action, evidence from experimental animals), Consistency (have similar results been shown in other studies?), Strength (what is the strength of the association between the cause and the effect? -- relative risk), Dose-response relationship (is increased exposure to the possible cause associated with increased effect?), Reversibility (does removal of a possible cause lead to reduction of disease risk?), Study design (is the evidence based on a strong study design?), Judging the evidence (how many lines of evidence lead to the conclusion?).
+List the basic concept to establish causation about a case of a disease (Causal Association).
+
+### PH-F-223
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: a = true positive, b = false positive, c = false negative, d = true negative.
+The screening test is valid if it correctly categorizes people with and without disease. From the following (2x2) table: | | Disease present | Disease absent | | Screening test positive | a | b | | Screening test negative | c | d |. From the (2x2) table, explain what a, b, c, and d represent.
+
+### PH-F-224
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: a / (a+c)
+From the screening-test 2x2 table (a = true positive, b = false positive, c = false negative, d = true negative), measure the following: Sensitivity
+
+### PH-F-225
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: d / (b+d)
+From the screening-test 2x2 table (a = true positive, b = false positive, c = false negative, d = true negative), measure the following: Specificity
+
+### PH-F-226
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: a / (a+b)
+From the screening-test 2x2 table (a = true positive, b = false positive, c = false negative, d = true negative), measure the following: Positive Predictive value
+
+### PH-F-227
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: d / (c+d)
+From the screening-test 2x2 table (a = true positive, b = false positive, c = false negative, d = true negative), measure the following: Negative Predictive Value
+
+### PH-F-228
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+answer: (a+c) / (a+b+c+d) -- (x) [printed exactly as this, with a trailing "- (x)" of unclear referent; preserved verbatim, not corrected]
+From the screening-test 2x2 table (a = true positive, b = false positive, c = false negative, d = true negative), measure the following: Prevalence Rate
+
+### PH-F-229
+tier: claimed
+form: qa
+source: Dajani essay exam (2013, definitions doc)
+note: This formula is printed identically to Prevalence Rate's (PH-F-228) above, despite Attack Rate being a different measure -- preserved verbatim, not corrected; likely a source error.
+answer: (a+c) / (a+b+c+d)
+From the screening-test 2x2 table (a = true positive, b = false positive, c = false negative, d = true negative), measure the following: Attack Rate, if (X) reflects the people who died
