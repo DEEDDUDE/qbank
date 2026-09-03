@@ -1,0 +1,87 @@
+{
+  "batches": [
+    {
+      "id": "quizzes-01",
+      "built": "2026-09-03",
+      "questions": 45,
+      "note": "RUN-PLAN row 4: raw/quizzes/molecular-2024/, molecular-2023/, molecular-previous/ only. The other two quizzes subfolders (genetics-2021, genetics-2024-ch4) are row 5, not yet ledgered.",
+      "files": [
+        {
+          "name": "raw/quizzes/molecular-2024/Quiz 1 - DNA metabolism (10_10) نموذج ١ . pdf",
+          "sha1": "933fece783a4fa9e95c323253976f434ca3b5911",
+          "pages": 6
+        },
+        {
+          "name": "raw/quizzes/molecular-2024/Quiz 1 - DNA metabolism (10_10)نموذج ٢ .pdf",
+          "sha1": "97047f7b6fb50bce3cefc1fcecfb46a08043cecd",
+          "pages": 6
+        },
+        {
+          "name": "raw/quizzes/molecular-2023/Protein 1&2 + techniques (نموذج 1).pdf",
+          "sha1": "8e74f0833f66105fd718f4190eed680488f2883d",
+          "pages": 5
+        },
+        {
+          "name": "raw/quizzes/molecular-2023/Protein 1&2 + techniques (نموذج 2).pdf",
+          "sha1": "588620d8d337b489d66ab65c10dc1a0a634c0d4d",
+          "pages": 17
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_151364533819008.jpeg",
+          "sha1": "9568e1856aafd5644072c950b7e9e257843634ac",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_171314125146901.jpeg",
+          "sha1": "2986208116cb6c3e4d339814a6a68f0d096dd74e",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_380712676964622.jpeg",
+          "sha1": "9ef039d2f706272083db9d649bca83b057b9f653",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_442349913742754.jpeg",
+          "sha1": "132109bb7427fdf8cd5d38a4754422bf16e7985c",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_536352997467235.jpeg",
+          "sha1": "e6388034daa4769dcf3135fe940787ced2fbf9d1",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_857631521788036.jpeg",
+          "sha1": "01c5c7580a013dd14944e19d89dbd575b23aa0a7",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_1003911830182816.jpeg",
+          "sha1": "587aa76d9957f2a2c5c1524f70b25e8a22718274",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_1283043405447764.jpeg",
+          "sha1": "cdf83218d62720c7151abfcc0b81df4ec2175ab0",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_1472866079747361.jpeg",
+          "sha1": "de3e7a53ee6aee252acc045693e298291cbfdf13",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_1955084351318408.jpeg",
+          "sha1": "b32d368b9ea8b31919b2262c58b3bbdf8d496b55",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_2473919332743881.jpeg",
+          "sha1": "a090071457dec1c3fc12cd3973af3ad8a587abc8",
+          "pages": 1
+        }
+      ]
+    }
+  ]
+}

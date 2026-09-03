@@ -125,7 +125,11 @@ def capture_order_key(path: Path):
 
 
 def classify_file(path: Path) -> str:
-    ext = path.suffix.lower()
+    # A stray space before the extension (e.g. "... . pdf") is a capture-source
+    # typo, not a different file type — strip internal whitespace from the
+    # suffix rather than mis-classifying it as unrecognized. The raw filename
+    # itself is never touched (CLAUDE.md: never rename raw files).
+    ext = path.suffix.lower().replace(" ", "")
     if ext in IMAGE_EXTS:
         return "image"
     if ext == ".pdf":
