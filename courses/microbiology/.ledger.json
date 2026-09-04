@@ -737,6 +737,1070 @@
           "pages": 9
         }
       ]
+    },
+    {
+      "id": "finals-03",
+      "built": "2026-08-30",
+      "questions": 12,
+      "note": "RUN-PLAN row 21. نموذج 3 — 44/50 questions captured, 26 confirmed existing, 6 disputed, 12 new (MICRO-F-077–088). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024-Finals/Medicine/نموذج 3.pdf",
+          "sha1": "330324a23ca41f0ee134a370336db223caec0dee"
+        }
+      ]
+    },
+    {
+      "id": "finals-04",
+      "built": "2026-08-30",
+      "questions": 7,
+      "note": "RUN-PLAN row 22. نموذج 4 — 49/50 questions captured, 7 new (MICRO-F-089–095). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024-Finals/Medicine/نموذج 4.pdf",
+          "sha1": "7fc1375446fc8fc6b9ad9fd9ff4261fe9efefb9f"
+        }
+      ]
+    },
+    {
+      "id": "finals-05",
+      "built": "2026-08-30",
+      "questions": 2,
+      "note": "RUN-PLAN row 23. نموذج ٦ — 50/50 questions captured, entirely unanswered, 2 new (MICRO-F-096–097). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024-Finals/Medicine/نموذج ٦.pdf",
+          "sha1": "e2cbe2fc4801e403b3c52fb786ecf3f1f853d762"
+        }
+      ]
+    },
+    {
+      "id": "finals-06",
+      "built": "2026-08-30",
+      "questions": 194,
+      "note": "RUN-PLAN row 24. before2020-MICRO-FINAL part 1 — four old exams (A, B, C, D) tangled together, 194 new questions (MICRO-F-098–291). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro system !!/10479751_930696833625415_1834335936_n.jpg",
+          "sha1": "e2288f7e865c84f8c574debe62bc239fec44f9c9"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro system !!/10656174_930696826958749_809247579_n.jpg",
+          "sha1": "de2b32e648e5cc92da3f8607ed90fad556fb661c"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro system !!/10751699_930696830292082_1769975275_n.jpg",
+          "sha1": "71c8c2419d213b615f692e8d8a223a9145c63074"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro system !!/10806917_930696836958748_1022865202_n.jpg",
+          "sha1": "4570469235a7f45333b9a3725bf2aa5e892e4fc5"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro system !!/10811574_930696163625482_1748058201_n.jpg",
+          "sha1": "e2288f7e865c84f8c574debe62bc239fec44f9c9"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro/10744530_753289734737516_1541648508_n.jpg",
+          "sha1": "01a0a86b33944ea0c95eb7e58f9e017e09766f6b"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro/10754797_753289738070849_860151219_n.jpg",
+          "sha1": "91f2ba4d2e96d2efb201656352f5fc1f35fb8710"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro/10754831_753289728070850_429215181_n.jpg",
+          "sha1": "910109f8148d6cffcb556f63cbba452ed7e5ccc5"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro/10799406_753289741404182_1970053954_n.jpg",
+          "sha1": "1c6cafd4202c05a4d6a2621999ed744649d93f00"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro/10799846_753289748070848_189963112_n.jpg",
+          "sha1": "a6d7b7dbab5881e616f7dc97cf7b79292aba8dd1"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Micro/10807908_753289724737517_894375725_n.jpg",
+          "sha1": "cd9a99dc99cd8a96fa69cf864ebf254108157818"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10735657_753288911404265_1467147699_n.jpg",
+          "sha1": "52e03c9febfe8bacfbe612cdbe14161d882ccade"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10735751_753288898070933_787025956_n.jpg",
+          "sha1": "b14abcf796a4c8449f0783d4cab67938c0f4b224"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10752033_753288874737602_1933150885_n.jpg",
+          "sha1": "ad1b5f45febeaf1e29ae5a4288121621b2673cc5"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10754771_753288888070934_808791912_n.jpg",
+          "sha1": "bda8754ebcf3c19b978b7a751838cab7bd1afdbc"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10805136_753288841404272_591670157_n.jpg",
+          "sha1": "fd17c8132d50273faa8bc7af368492143aedb36f"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10806874_753288891404267_26710863_n.jpg",
+          "sha1": "7f683cf8a168e322e17a52dddc763159d13ad5b8"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10807005_753288871404269_959556585_n.jpg",
+          "sha1": "a185671cbc909ae38797ebc872d29c076b45c49b"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10808025_753288878070935_272174651_n.jpg",
+          "sha1": "8cddc79ebb5b2517fa92e941fbdcda193d13051e"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/10814146_753288904737599_2028974883_n.jpg",
+          "sha1": "20d76e2944a9468ed2ab7af832e64c908a5c863f"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 1/أجوبة.txt",
+          "sha1": "3efaf3406afc7dd1abaa9b7d28b4bbc3bcedd9d4"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/1+.JPG",
+          "sha1": "a49bbc9848585a14a44892a3e610caa1e9a06310"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/10735751_753288898070933_787025956_n.jpg",
+          "sha1": "b14abcf796a4c8449f0783d4cab67938c0f4b224"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/10752033_753288874737602_1933150885_n.jpg",
+          "sha1": "ad1b5f45febeaf1e29ae5a4288121621b2673cc5"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/10754771_753288888070934_808791912_n.jpg",
+          "sha1": "bda8754ebcf3c19b978b7a751838cab7bd1afdbc"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/10806874_753288891404267_26710863_n.jpg",
+          "sha1": "7f683cf8a168e322e17a52dddc763159d13ad5b8"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/10807005_753288871404269_959556585_n.jpg",
+          "sha1": "a185671cbc909ae38797ebc872d29c076b45c49b"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/10808025_753288878070935_272174651_n.jpg",
+          "sha1": "8cddc79ebb5b2517fa92e941fbdcda193d13051e"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/10814146_753288904737599_2028974883_n.jpg",
+          "sha1": "20d76e2944a9468ed2ab7af832e64c908a5c863f"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/2+.JPG",
+          "sha1": "4b7744b8a31cb17d64f9770f9021fcf774347226"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 2/أجوبة.txt",
+          "sha1": "3efaf3406afc7dd1abaa9b7d28b4bbc3bcedd9d4"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/1-7.jpg",
+          "sha1": "97b583fdca4dea7bcefd3f419c79d799779fe66c"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/14-19.jpg",
+          "sha1": "f34a2bbf1c70652464d04287f2b0e2fbe5401555"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/20-27.jpg",
+          "sha1": "fefe9e62760094acbe58cd472b72b054ca28bac0"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/28-34.jpg",
+          "sha1": "ee3a39a053d65caab8bf51f47d17aa7fefd6b689"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/35-41.jpg",
+          "sha1": "d15eec0fc3c52b2f0c611f4c076ba347f237b302"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/42-47.jpg",
+          "sha1": "de2d663d1ca2637807e9af58c2826577b793b02f"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/48-54.jpg",
+          "sha1": "1d388d577927307323a52767d319aa8b967ae385"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/55-60.jpg",
+          "sha1": "fcfd23eac051cd30e93cdc0c4638132f4af26143"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/8-13.jpg",
+          "sha1": "a9a535ce1e3885636a9e6c3d6d1075605aa14259"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 3/QII.jpg",
+          "sha1": "417dbdd94e8bbf6809f57fcc2d4888ce0a4b2ad5"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/0.jpg",
+          "sha1": "9a0c6220f27e006653b24febd913e7ddb3698c66"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/01.jpg",
+          "sha1": "3a4df2eb888fc9e36f2c9e88000d29e06a2c77f3"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/02.jpg",
+          "sha1": "3991b6f6cd725294d585bed09e529a4d8cd56583"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/03.jpg",
+          "sha1": "4e6aa59535352a0f3e262654f734f2f1386ea78c"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/04.jpg",
+          "sha1": "926108cbe92f2bd4a38c577eceace665ca76ce3c"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/05.jpg",
+          "sha1": "6d63b09633eda90174234a6ff86f101b3ab28098"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/06.jpg",
+          "sha1": "f76b6a6f46a9a68b1c950a23a7cd628c8f61f7d5"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/07.jpg",
+          "sha1": "b4445fe194a41d8d4e3a6d1df61a5716009d3936"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/08.jpg",
+          "sha1": "2b91b8f14b0d10d0f79a613b181d58cac44ba749"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/09.jpg",
+          "sha1": "794bbe87f419c3e32a4ff42ea10ff7197d6cd84e"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/Microbiology 4/10.jpg",
+          "sha1": "cc54da0e3c5b62ea8c14c8872517bf298510d603"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/exam.a-أجوبة-الصواعق.pdf",
+          "sha1": "bc56aa164c719e00c3dcb815f23a4918cd8d9bee"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/اهم ANB/10859582_10205583764460178_944218772_n.jpg",
+          "sha1": "c8720caf113c0c6186ce875e3b1cbdb3ad8dfbdb"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/اهم ANB/10859725_10205583763700159_126035481_n.jpg",
+          "sha1": "a14728341122a359d64ca7c79c917ecfe60c808a"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/اهم ANB/961487_10205583765060193_420952042_n.jpg",
+          "sha1": "717a9d7ec66214bac2db35358f2ef055a0384c2a"
+        }
+      ]
+    },
+    {
+      "id": "finals-07",
+      "built": "2026-08-30",
+      "questions": 20,
+      "note": "RUN-PLAN row 25. before2020-MICRO-FINAL part 2 — more captures of part 1's exams plus Exams E/F/G, 20 new questions (MICRO-F-298–307, 308–328, 329–384, 385–390 combined). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1396715_712983015381222_1975667088_n.jpg",
+          "sha1": "c7feed856a9d0fd0fff773c529bd39012c01cbb4"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420062_712981252048065_2011463710_n.jpg",
+          "sha1": "1c18a3340fda1652e29a91e6503fb87a9bb18d9d"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420243_712984118714445_1481827479_n (1).jpg",
+          "sha1": "3930f5c26629bc91cbeb691dcdad5075637c50bb"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420243_712984118714445_1481827479_n.jpg",
+          "sha1": "3930f5c26629bc91cbeb691dcdad5075637c50bb"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420271_712982305381293_1445885859_n.jpg",
+          "sha1": "44b6162b04480f42ea3ad8f9fdd5f3945d14830c"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420285_712984122047778_616443456_n.jpg",
+          "sha1": "8c1b676bce749b8b0ad99a4042fc6cd5a9143a42"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420356_712981262048064_1893545936_n.jpg",
+          "sha1": "5015aea099bc3165d10be4d05aaffd55042aae1c"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420476_712983725381151_823100799_n (1).jpg",
+          "sha1": "6af37871aa377f62f9d00179bb171cfb54e6aab1"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420476_712983725381151_823100799_n.jpg",
+          "sha1": "6af37871aa377f62f9d00179bb171cfb54e6aab1"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1420643_712982295381294_1860950101_n.jpg",
+          "sha1": "b5f9927422720bccec6301ef31795e947667cafb"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1422678_712981678714689_1967215962_n.jpg",
+          "sha1": "6c1dc7be92c2d5a174e27dc2b4824b652fe2f2cb"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1458758_712983718714485_1597458208_n.jpg",
+          "sha1": "92746b675d45b75c3ed3e93aba46496782aae214"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1462096_712984108714446_1289475374_n.jpg",
+          "sha1": "07e28a057d0e04c7f5fa93e323116017712a39bb"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1464854_712984115381112_920265244_n.jpg",
+          "sha1": "d6579efe378b4a450271d4ae0b9d06c4efcc4dcd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1465080_712984225381101_1058628176_n.jpg",
+          "sha1": "7f642a1945641592468fdb42419a053f8fbc6ac1"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1470647_712981265381397_1977494240_n.jpg",
+          "sha1": "7fddc83dc611baf4b2ac19c3eadf0065b2b036cd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1470810_712984112047779_1568696620_n.jpg",
+          "sha1": "b310f30eb4b6e29ec20ad118f1ed5079c96bb206"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1472160_712981672048023_443312346_n.jpg",
+          "sha1": "822d3a4643c1b52317f02b21d90d7075906c19f4"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1472221_712983722047818_191860346_n.jpg",
+          "sha1": "231d63f2987367162c3a330a4dbf7d111519ed9e"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1473711_712981255381398_1575758035_n.jpg",
+          "sha1": "8640609180bb628375154618aec3a6a0c2cf5816"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1473911_712981248714732_495087619_n.jpg",
+          "sha1": "a71295cc7bd34938053f53deffafbc1316669fc6"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1473986_712983708714486_1416674321_n (1).jpg",
+          "sha1": "58f572be31b01693b3e45aa80d182bb41af92f04"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1473986_712983708714486_1416674321_n.jpg",
+          "sha1": "58f572be31b01693b3e45aa80d182bb41af92f04"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1474009_712981668714690_1821298823_n.jpg",
+          "sha1": "2c956efc477b656f77f63cbce74ac2f0e8912f83"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1474720_712982308714626_2049202108_n.jpg",
+          "sha1": "6a157415c21c1651c524e03798e00ad0e5ac1775"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1474870_712983715381152_599650494_n (1).jpg",
+          "sha1": "d6a733c9aeb6f07533596a57268fc58fb64811b7"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1474870_712983715381152_599650494_n.jpg",
+          "sha1": "d6a733c9aeb6f07533596a57268fc58fb64811b7"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1474916_712983028714554_2005151767_n.jpg",
+          "sha1": "00f1fb13044882d8acf32d776ed076406102a909"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1477002_712984228714434_2007612356_n.jpg",
+          "sha1": "1c5917255ab772520265a3caf4dac6ad4908931b"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1477540_712982298714627_477178035_n.jpg",
+          "sha1": "4f8af198fb11f4e2ad6aa31f39780038379ce3c7"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1477712_712982292047961_1520921808_n.jpg",
+          "sha1": "6b7686c9e35eb9af3902ca2438ffbeaa8d06acd0"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1479591_712983012047889_1378127738_n.jpg",
+          "sha1": "2994eceb7eff0689d03613e7518a9d489bfa2afa"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1479708_712983018714555_2052737615_n.jpg",
+          "sha1": "2e0f8615ff793b41147f0a58ceb7db5c4cdcbfbd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1479790_712983025381221_1174538987_n.jpg",
+          "sha1": "aa205f70e0cf3928d39f4316a03d9cd6297d6b0e"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1483941_712981675381356_56295867_n.jpg",
+          "sha1": "8b4d074cc7ba53096942f1e829976c006dbcb0ca"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1484873_712982302047960_1893288722_n.jpg",
+          "sha1": "b07a5da12815c155408af21b47e9f8f3e852447d"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1488379_712981258714731_561854536_n.jpg",
+          "sha1": "ed3cc06282d7f93dc4c99fbe8721c4e7daf3917d"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1488588_712984125381111_1901623529_n (1).jpg",
+          "sha1": "2652a1ac3b7c1e38008b923d1da4a671228d6860"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/1488588_712984125381111_1901623529_n.jpg",
+          "sha1": "2652a1ac3b7c1e38008b923d1da4a671228d6860"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/702349_712983712047819_330855516_n (1).jpg",
+          "sha1": "38a7105f0d880f47cf52bc0616318bf747ed165d"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/702349_712983712047819_330855516_n.jpg",
+          "sha1": "38a7105f0d880f47cf52bc0616318bf747ed165d"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/974539_712983022047888_311646377_n.jpg",
+          "sha1": "942a336f1b52309012751277b2e89c19e2633e46"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/11.jpg",
+          "sha1": "de69ea972fef4876b647cee4a3e99e5af232c6fc"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/12.jpg",
+          "sha1": "e3918e2c1562b081647dd5e628cae60135e02edd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/13.jpg",
+          "sha1": "0d97d8eeb5bbba1cd786715fd69ab0ed387d61c1"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/14.jpg",
+          "sha1": "98396e1291ab6fb868e6bb4836103ff2498c0bdd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/15.jpg",
+          "sha1": "3a2852dcdbc45acdf1ad8bf0fae3d808103adf87"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/16.jpg",
+          "sha1": "bb4bdc4f38e99746070e4e4d0a4eea8764806f37"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/17.jpg",
+          "sha1": "9e7a184aea34f6d5871b5a0588a767e0146c2a16"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/18.jpg",
+          "sha1": "8c0f02ed003d7b1d4967a8547f6af4bad9428fcd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/19.jpg",
+          "sha1": "7c498edf3b1a9517c2c30dba7f1add66b405d5e1"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/New folder/20.jpg",
+          "sha1": "52b81740a5a8fb7a16e77ebeda3138d207bc2b41"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/lhd_v.png",
+          "sha1": "138db27d63b495a40d10f19bfdc383ac59bab8b8"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/حح.png",
+          "sha1": "6ea6cc40d565254a948d4d07a45064ba7850944f"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/ححح.png",
+          "sha1": "cef72ee4e7bb31a6516d42d95cce8d9d6229f43f"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/dina 1st 2nd final/مايكرو/حل.png",
+          "sha1": "10e48ae20d2a57ac42f8db51990a4371cf7099c0"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/1.jpg",
+          "sha1": "7d9a755edcf34d1049aff854326a87831441db51"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/10.jpg",
+          "sha1": "3e8da6974580529b6fd29d1486aa04a38acd209e"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/11.jpg",
+          "sha1": "de69ea972fef4876b647cee4a3e99e5af232c6fc"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/12.jpg",
+          "sha1": "e3918e2c1562b081647dd5e628cae60135e02edd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/13.jpg",
+          "sha1": "0d97d8eeb5bbba1cd786715fd69ab0ed387d61c1"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/14.jpg",
+          "sha1": "98396e1291ab6fb868e6bb4836103ff2498c0bdd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/15.jpg",
+          "sha1": "3a2852dcdbc45acdf1ad8bf0fae3d808103adf87"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/16.jpg",
+          "sha1": "bb4bdc4f38e99746070e4e4d0a4eea8764806f37"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/17.jpg",
+          "sha1": "9e7a184aea34f6d5871b5a0588a767e0146c2a16"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/18.jpg",
+          "sha1": "8c0f02ed003d7b1d4967a8547f6af4bad9428fcd"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/19.jpg",
+          "sha1": "7c498edf3b1a9517c2c30dba7f1add66b405d5e1"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/2.jpg",
+          "sha1": "3edd56f0c99d732eaba5f5b7498f44055c6d4332"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/20.jpg",
+          "sha1": "52b81740a5a8fb7a16e77ebeda3138d207bc2b41"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/3.jpg",
+          "sha1": "11de1bf099abe3df906537762537ea34e909a908"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/4.jpg",
+          "sha1": "9377f9e43d36703549b7e4562cc6bbd6b3bb56c3"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/5.jpg",
+          "sha1": "3ef3b95d07cb253a9cb328e4c76b7bbde93d4a7c"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/6.jpg",
+          "sha1": "dec456c19e280ec5fd55b9e9b5609d34ece4bd22"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/7.jpg",
+          "sha1": "c17002e21c0ab6349b4562f3ae731a5ee7c5de11"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/8.jpg",
+          "sha1": "404eba0205d223d82cc086691bea031fb1d8ffd7"
+        },
+        {
+          "name": "raw/finals/before2020-MICRO-FINAL/micro مهم جدا جدا جدا/9.jpg",
+          "sha1": "71ba02fca3981c9cdba94aa4c3a2158b14370447"
+        }
+      ]
+    },
+    {
+      "id": "finals-08",
+      "built": "2026-08-30",
+      "questions": 25,
+      "note": "RUN-PLAN row 26. Exam H — sparse microbiology final mixed into a Biochemistry exam, 25 new questions (MICRO-F-391–415). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/Unknown-Final-Micro/00f0afdd-805b-4a05-b014-f86d76e752fd.JPG",
+          "sha1": "7dbcf0e9e9239358a11abf54217e3a3b11b0953b"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/019d3add-ecf0-4f20-a17c-4f743d57eb3a.JPG",
+          "sha1": "11215ea38fa9a14911aa8a516661c1358561d4ab"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/047bb370-b7f2-4bd7-aca7-88bb20517c41.JPG",
+          "sha1": "82d599e8f9c15f14c8968c75b9c143c656d19b88"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/0570548c-045f-403e-8edb-b1840b94e888.JPG",
+          "sha1": "c3303f233866cc379e841bd92bf0aca41fb51276"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/06590d76-2732-4791-90ea-69566c75f250.JPG",
+          "sha1": "b1dd929c4c240de3f97cbdc2928b84df94daee8b"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/0761d15d-6c8c-4b6f-8c62-063e2eeaca61.JPG",
+          "sha1": "da13c0890ed7dfd9ab29a2c51eb5325d17c51b9e"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/15e3c0ba-aea4-45cb-899e-0f88d072b6b9.JPG",
+          "sha1": "3db5c3e940c75a5d74957c3005908ced833ae112"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/1b65f163-62dc-4ecf-b019-693b207f8601.JPG",
+          "sha1": "3db5c3e940c75a5d74957c3005908ced833ae112"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/1b720416-ef4b-466c-b8bd-6edc861820dd.JPG",
+          "sha1": "17f406454fc05f543e85867cb1b2b09238e3d1b2"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/241ba298-2b71-4ca9-8860-0155046b39ec.JPG",
+          "sha1": "c3303f233866cc379e841bd92bf0aca41fb51276"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/4d810b61-5ecd-4db4-84e6-30c78e71d12c.JPG",
+          "sha1": "9b13c0912cd23f69ba5a960a23ff955201a4bf22"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/532869a0-bfcc-4a03-9c81-cfdac2df488f.JPG",
+          "sha1": "5a74513977e726818e8517cc4ec3ef42668998a6"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/5f5d6a8c-7063-4e2f-9c33-e004f2e489ad.JPG",
+          "sha1": "c3ec7ed2856c1e5eb3c41e33b074be2d168743fe"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/6273aea2-9daf-47c8-b560-b45c603b71b0.JPG",
+          "sha1": "c3ec7ed2856c1e5eb3c41e33b074be2d168743fe"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/63b4c7a7-0f89-4673-95ac-5186e25f90ba.JPG",
+          "sha1": "dec07e20d49feb7b1340f22227eb7a5a8c2898d3"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/6ae8d5d9-c916-463f-8e7c-46bf3cf7bd11.JPG",
+          "sha1": "03a9dfb0ed734c38a414500ebbbdc1b17add403a"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/74fa02d1-d00e-4bea-bd2a-9a764c36f72e.JPG",
+          "sha1": "3f7247d8f9b0a1d85bc0d1c46170a6f2591a5234"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/845c285a-4df1-4260-b642-1f82fa43f8d0.JPG",
+          "sha1": "4be56580d8772f49a6705d00a0c6e7c4b48e3d05"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/87ac6034-83f1-4b78-b879-94405435a89b.JPG",
+          "sha1": "278b2270273114de877afcd294f9e6bbf2163308"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/8ded6c57-917a-483f-8292-bac0d1811697.JPG",
+          "sha1": "0c8ae689d531fbf35de2dbef12479ae75db6cc75"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/912aa7a5-3603-446b-99da-1ab2ecbb2ce1.JPG",
+          "sha1": "2f87e337ce0c997dda2aed7ca3b54acc8757bd5b"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/a63b7d78-b201-4704-81ac-78554d2c9238.JPG",
+          "sha1": "51a1871da1e8f78893d07e8345e4c9e164c5b71b"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/a87deec2-3044-45ba-936d-46339f458b2e.JPG",
+          "sha1": "249e918c885d3db675ab0ba04f3aea166638eeae"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/b05e16f8-95ad-4135-b14c-1f4be1193ac1.JPG",
+          "sha1": "033130530349622cffffba2a1175cf179b346eb1"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/b1abed74-808b-4139-b1f7-4128466a90ce.JPG",
+          "sha1": "3034e18dc6a288578bea269439ea4bea85fbf42e"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/b89cf0b4-cf17-4447-92a4-71c847b8c83a.JPG",
+          "sha1": "422a6dcf36c46654d81ec5571f76be6ca17e5fdc"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/c00c0713-a766-49b5-80ed-6c1530ff82f9.JPG",
+          "sha1": "135766148b70bd1d31d986ad01b830f4e8b68ebb"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/c020f6f0-c72f-40af-98e5-d0a0f95bd3a6.JPG",
+          "sha1": "2458f7cacbcdec087a79ae21381dd2cb08a8fc5f"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/c2fec1c6-5a29-4762-b155-951b4c8a6b72.JPG",
+          "sha1": "535b81f4cf463a8af332a6e2d5b08b8fb4c2060d"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/c9007d7c-0e38-48cd-ac46-4081db0af6ec.JPG",
+          "sha1": "a0ef18e9d770c28bc737ed5c6f2ac45ae61b0b21"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/cc3944bd-6d7e-40d8-a718-dacb835e74dd.JPG",
+          "sha1": "49e593b307afc5bd8f0a2d7415f47a9b62e64f58"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/d7aefa55-7d10-42df-ab49-2c6e1288f811.JPG",
+          "sha1": "b48349d9d9a4270aef37b137783e9b85dd90b160"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/dba4b836-0b1a-4f63-aa90-a63ad14423c0.JPG",
+          "sha1": "422a6dcf36c46654d81ec5571f76be6ca17e5fdc"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/ebe12e6d-73ba-4d17-b07e-885fb7fbf536.JPG",
+          "sha1": "fe6f4a64bcd94bbcb9f9b7a6c1595f209fe96a21"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/eca2a9a4-7c7c-4154-bf62-874ec421f86a.JPG",
+          "sha1": "7dbcf0e9e9239358a11abf54217e3a3b11b0953b"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/f1adb084-51d8-4e1a-b980-330f36e83e12.JPG",
+          "sha1": "297ff90d3968f34dc210027f8efc30b63478508b"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/f7d9d727-abf0-4ac3-b96d-b7ef8c7f0e18.JPG",
+          "sha1": "db5e3132bce7af10459701a0f4984d7066d921b8"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/f8ea4da9-73d5-4c96-8504-7068456f9070.JPG",
+          "sha1": "d35a5f731bc7428f227ac1f4673a9b613b749391"
+        },
+        {
+          "name": "raw/finals/Unknown-Final-Micro/fa3ea3c5-868a-4704-a173-c4eb475111a1.JPG",
+          "sha1": "c1084ed9566353caf7f4a4427790d367e2a0430d"
+        }
+      ]
+    },
+    {
+      "id": "finals-09",
+      "built": "2026-08-30",
+      "questions": 49,
+      "note": "RUN-PLAN row 27. Exam I — 2020-2021 sitting, several students' attempts merged by stem, 49 new questions (MICRO-F-416–464). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/2020-2021-Final/received_1062157287522147.jpeg",
+          "sha1": "3ba8dc35b83491bd8c95c3b7d5f519d3344a83e2"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_1172099949947168.jpeg",
+          "sha1": "10dd87488235c6685acb65895aebb7ddfc9d9e59"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_1250018585436754.jpeg",
+          "sha1": "ea33d6a12aa80979b452c619a5268d68e9972076"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_1316881165429362.jpeg",
+          "sha1": "03e08890bcc332f29b76f81839363f1e5a2e4b13"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_153793496937029.jpeg",
+          "sha1": "e0b5c4524276afb890ed39daba59af1de962268f"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_1702482143275295.jpeg",
+          "sha1": "f9a590791afeca6b20eb2da99c23c24a79f365de"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_188741300027007.jpeg",
+          "sha1": "a6d52d7e13c3175c06eb04d4d384120034e025e4"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_2087873024699835.jpeg",
+          "sha1": "ba94e6c86d2adc20d7eb665ac6919e2a10fb4ef2"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_223916356365969.jpeg",
+          "sha1": "031999d3329280f4cbc6020b583dea5a5d0465ce"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_230038302307915.jpeg",
+          "sha1": "92d8431be864c2c99b35aee39269e975e285d221"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_233715235225999.jpeg",
+          "sha1": "0202b6d53c6b7c6407c74c283d8fbe0c3c019d74"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_242679914302486.jpeg",
+          "sha1": "2dd55464b280d1d4d28522519cb2f6e57c738eb0"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_278724444090307.jpeg",
+          "sha1": "222feca5ddab5c31984ae4ee7f4452cb3f01f0ef"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_285555172960471.jpeg",
+          "sha1": "5d570f18469f5b953e9b07e4e61766c1c10314bf"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_361787385601498.jpeg",
+          "sha1": "63abfe427cf2801b09dc817facc8dcdf607ed4e0"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_379542857137579.jpeg",
+          "sha1": "8d4ce40fef53a15e0dfa7f074995fdf1647a4e40"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_383486010146200.jpeg",
+          "sha1": "cab1d35e68357d4fcfce053e4806567aa67c067e"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_386752539651687.jpeg",
+          "sha1": "c50890ffbd1bce32f62f837c87c7d266191f9213"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_4352411514839018.jpeg",
+          "sha1": "5f739372504c485ce3c4bbfefb74f17f111db792"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_4379460845476538.jpeg",
+          "sha1": "2a7c958339b3e93791630d38cc0fb06d8093dbaf"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_450609499427242.jpeg",
+          "sha1": "91212e9f2435e6d58d6a0afc853f98e84c4ca66c"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_508724823797407.jpeg",
+          "sha1": "f75610afb8539c079c90397eaa12052a91ea054c"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_576110123741851.jpeg",
+          "sha1": "9d4fa6e69dc9bdce7a9c8a7769664e1d3892a29b"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_577974483342215.jpeg",
+          "sha1": "876fd8879ac3c9120345ffd814118c2181989430"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_593498735162073.jpeg",
+          "sha1": "75dae4ec098fd04b3c6c11bd7062a4d263f64575"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_599378791234485.jpeg",
+          "sha1": "db8d44696798e5b4645164dab342528b972664a9"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_631251904511379.jpeg",
+          "sha1": "f05a75968619240f8e2d5320fe0ce0da320143b0"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_867045607576291.jpeg",
+          "sha1": "b8adc310faf27bc7e4ecfe3c74c1f0b3bba41cda"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_870188120537852.jpeg",
+          "sha1": "3fc19d543ffe4e41b39b8dc3d3e39e7d4c678c93"
+        },
+        {
+          "name": "raw/finals/2020-2021-Final/received_945961212625284.jpeg",
+          "sha1": "4b9080c3ece1da3deabc32c3699ce1b7e2342c7a"
+        }
+      ]
+    },
+    {
+      "id": "finals-10",
+      "built": "2026-08-30",
+      "questions": 74,
+      "note": "RUN-PLAN row 28. Exam J — 2017 resit compiled key, 74 new questions (MICRO-F-465–538). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939874981.jpg",
+          "sha1": "58b6a5fcc35d9e8db6469c269e12574770c6dac2"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939876957.jpg",
+          "sha1": "dd267c72eccd7cd1ecb872a24f28f2e45b210615"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939879677.jpg",
+          "sha1": "a366efc63a57a7de646a4399e1584474dab91098"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939881336.jpg",
+          "sha1": "6c398138845e7b05e5e3e1145e8595bc60dc0fa1"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939883514.jpg",
+          "sha1": "ba6dd21700e4e76fd9e9e7af1cbbbfb605298b65"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939885589.jpg",
+          "sha1": "20c2013bf21ddd50ec3c88b95c8c97fda1f2ed08"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939887548.jpg",
+          "sha1": "d0b92ac59c31cbf57544544cff5005a87ef9ead2"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939890142.jpg",
+          "sha1": "36dd64c6d579b7dbc48644c470882a74c47c4860"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939892449.jpg",
+          "sha1": "ff10ae8cb0ad9c97f868189cd6a2839cf5d619c6"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939894410.jpg",
+          "sha1": "9c47ffc7f936bc55c00c1dcbd8b7a97c37092254"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939896471.jpg",
+          "sha1": "19a21daf7743042b78fdaf1fa805d69d34faed9d"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939898312.jpg",
+          "sha1": "9ac4de7c5faacb520a515d45b6a043903a9b757f"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939900070.jpg",
+          "sha1": "716e407c4b55725f4cf410930e3b07ce6a734553"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939902345.jpg",
+          "sha1": "efa09f02816e6f6fcd3579de72f60d0dc10ef8cd"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939904320.jpg",
+          "sha1": "5d1e9eaa3058a5dd772e1668374f3434dca3ff12"
+        },
+        {
+          "name": "raw/finals/before2020-resit-2017/FB_IMG_1630939906248.jpg",
+          "sha1": "a4d5c5374a75af8bb368e096e2d2800646738212"
+        }
+      ]
+    },
+    {
+      "id": "finals-11",
+      "built": "2026-08-30",
+      "questions": 0,
+      "note": "RUN-PLAN row 29. second blank capture of Exam J, zero new questions, corrected MICRO-F-538's option list. Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590711010058.jpeg",
+          "sha1": "4b2a0a46d299a2a0462c5a45d24b771631aaa80e"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590714343391.jpeg",
+          "sha1": "1d81f776c02f4162e3010de5c71159661336d324"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590717676724.jpeg",
+          "sha1": "ccc77523556eb779a3cc22232f647e0108e28d63"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590721010057.jpeg",
+          "sha1": "4979e39d1d5b82bc6d63aa86dbc52bf238cd8194"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590724343390.jpeg",
+          "sha1": "73a7d9b0d635e17bee868a60d79de9d47f3fd010"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590727676723.jpeg",
+          "sha1": "3163bdfca1fea78e6c148d8836407b025b01f343"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590731010056.jpeg",
+          "sha1": "dccc2dfb33a73094c88825bd0f3776eca5e2e3b5"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590734343389.jpeg",
+          "sha1": "eb7ef61002bd4ee7b2183a099088175dd746bb55"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590737676722.jpeg",
+          "sha1": "4f707a094974298b031e8d80b3ce1e7411991dcc"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590741010055.jpeg",
+          "sha1": "706ce5371ad451564e0dda36c34634d02f76cb44"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590744343388.jpeg",
+          "sha1": "c33880779549db1661b5622958477041d49c9516"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_2025590754343387.jpeg",
+          "sha1": "67bf43e1d5f4b8c4b376cb05820c46d5fe9deee7"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_825126940985721.jpeg",
+          "sha1": "81cd8b6d722f5e12961efc62c79e977bcbed1adc"
+        },
+        {
+          "name": "raw/finals/before2020-resit-ekmal/received_825139707651111.jpeg",
+          "sha1": "438dd105ea2a7cbfa29a4bc1cfc3794e76d707f6"
+        }
+      ]
+    },
+    {
+      "id": "finals-12",
+      "built": "2026-08-30",
+      "questions": 93,
+      "note": "RUN-PLAN row 30. Exam K/L — hand-circled three-part final plus a background fragment, 93 new questions (MICRO-F-539–631). Files ledgered retroactively at Job D close-out (row 32) — never ledgered at extraction time.",
+      "files": [
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940458404.jpg",
+          "sha1": "49b5117dfb207b0e4975ae88eb747cca1b4a9fee"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940460866.jpg",
+          "sha1": "1df0d78c606811ee89d878b5eab695136c0f8733"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940463811.jpg",
+          "sha1": "9c5f24589060aba84f07fb6d107f6c3ac78d221d"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940466202.jpg",
+          "sha1": "73394964247361d3adb394ac5b33a54c81c86b5c"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940468178.jpg",
+          "sha1": "0eabae9b87ff43b83a634016d0cee6ce6182ad63"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940470354.jpg",
+          "sha1": "b9ad85dc919d961a1921e3d77f4a0085524dff23"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940472179.jpg",
+          "sha1": "878e7c152154032c51866a03fde4cf571ef4c50b"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940474170.jpg",
+          "sha1": "84d76a81871999d2e4b13e1d51ac1bc886449884"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940477802.jpg",
+          "sha1": "c47f41c7a2819154ef9c684e950b9fe72fee7963"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940479577.jpg",
+          "sha1": "5f2b8724c22f0a21ec06d9af50e1d774a2e88162"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940481517.jpg",
+          "sha1": "5c8aee8eaafb2752ef0b1a31614735ab0b16a234"
+        },
+        {
+          "name": "raw/finals/before2020-2018-course/FB_IMG_1630940484047.jpg",
+          "sha1": "9aedc14fd3f1cb5e10a606576ea7b8b314d5b3bb"
+        }
+      ]
     }
   ]
 }

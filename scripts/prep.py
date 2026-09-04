@@ -11,7 +11,7 @@ one folder within a tab (e.g. one exam's subfolder) without disturbing the
 tab-level prep output a later full-tab run would use — the shared
 .ledger.json is still consulted either way, so nothing gets double-processed.
 
-    py scripts/prep.py <course> --file <path under courses/<course>/> --pages 1,2,3 [--out label] [--color]
+    py scripts/prep.py <course> --file <path under courses/<course>/> --pages 1,2,3 [--out label] [--color] [--force-vision]
 
 Patch mode, for Job B: prep specific known pages of one slide deck (e.g. a
 handful of diagram-only pages whose caption text a first pass couldn't
@@ -24,6 +24,13 @@ exam captures (the answer is which radio is filled, not what color it is)
 but wrong for a slide whose diagnostic content IS color — a plate photo
 distinguished by a colored sheen or pigment, a stained-slide comparison.
 Use --color when the fact being patched in is itself a color.
+
+--force-vision renders every requested page even if its text layer clears
+the 20-char threshold. A slide whose only extractable text is a footer/
+page-number/author-credit line still passes that threshold while its real
+content sits inside an embedded image the text layer never sees — use this
+flag once you've confirmed (e.g. by checking page.get_images()) that a
+"text" page is actually a diagram wearing a text footer.
 
 Never writes to, renames, or deletes anything under raw/.
 
@@ -125,7 +132,11 @@ def capture_order_key(path: Path):
 
 
 def classify_file(path: Path) -> str:
-    ext = path.suffix.lower()
+    # A stray space before the extension (e.g. "... . pdf") is a capture-source
+    # typo, not a different file type — strip internal whitespace from the
+    # suffix rather than mis-classifying it as unrecognized. The raw filename
+    # itself is never touched (CLAUDE.md: never rename raw files).
+    ext = path.suffix.lower().replace(" ", "")
     if ext in IMAGE_EXTS:
         return "image"
     if ext == ".pdf":
@@ -287,13 +298,17 @@ def prep_image(path: Path, out_path: Path) -> dict:
     return info
 
 
-def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None, grayscale: bool = True) -> dict:
+def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None, grayscale: bool = True, force_vision: bool = False) -> dict:
     """Returns per-page results: list of dicts with keys
     {page, mode: text|image, chars, out_path, below_floor}.
     only_pages, if given, is a set of 1-indexed page numbers — every other
     page is skipped entirely (used for patching specific known-diagram pages
     rather than re-processing a whole deck). grayscale=False preserves color
-    for pages whose diagnostic content is itself a color."""
+    for pages whose diagnostic content is itself a color. force_vision=True
+    renders every requested page regardless of its text-layer length — for
+    a page whose only text is a footer/page-number/author-credit line (so it
+    clears the 20-char threshold) but whose real content is locked inside an
+    embedded image the text layer never captures."""
     results = []
     doc = fitz.open(str(path))
     for i, page in enumerate(doc, start=1):
@@ -301,7 +316,7 @@ def prep_pdf(path: Path, out_dir: Path, stem: str, only_pages: set = None, grays
             continue
         text = page.get_text("text")
         chars = len(text.strip())
-        if chars >= 20:  # a real text layer, not stray OCR noise/watermark
+        if chars >= 20 and not force_vision:  # a real text layer, not stray OCR noise/watermark
             results.append({"page": i, "mode": "text", "chars": chars, "out_path": None})
             continue
 
@@ -351,7 +366,7 @@ def estimate_tokens(vision_pages: int, text_chars: int) -> tuple:
     return low, high
 
 
-def patch_file(course: str, file_arg: str, pages_arg: str, out_label: str = None, color: bool = False):
+def patch_file(course: str, file_arg: str, pages_arg: str, out_label: str = None, color: bool = False, force_vision: bool = False):
     course_dir = REPO_ROOT / "courses" / course
     src_path = course_dir / file_arg
     if not src_path.exists():
@@ -364,7 +379,7 @@ def patch_file(course: str, file_arg: str, pages_arg: str, out_label: str = None
     prep_dir.mkdir(parents=True, exist_ok=True)
 
     stem = re.sub(r"[^A-Za-z0-9._-]", "_", src_path.stem)
-    page_results = prep_pdf(src_path, prep_dir, stem, only_pages=only_pages, grayscale=not color)
+    page_results = prep_pdf(src_path, prep_dir, stem, only_pages=only_pages, grayscale=not color, force_vision=force_vision)
 
     manifest = {
         "course": course, "mode": "patch", "file": file_arg,
@@ -396,7 +411,7 @@ def main():
         args = sys.argv[2:]
         opts = {}
         i = 0
-        BOOL_FLAGS = {"color"}
+        BOOL_FLAGS = {"color", "force-vision"}
         while i < len(args):
             if args[i].startswith("--"):
                 key = args[i][2:]
@@ -409,9 +424,9 @@ def main():
             else:
                 i += 1
         if "file" not in opts or "pages" not in opts:
-            print("usage: py scripts/prep.py <course> --file <path> --pages 1,2,3 [--out label] [--color]", file=sys.stderr)
+            print("usage: py scripts/prep.py <course> --file <path> --pages 1,2,3 [--out label] [--color] [--force-vision]", file=sys.stderr)
             sys.exit(1)
-        patch_file(course, opts["file"], opts["pages"], opts.get("out"), color=("color" in opts))
+        patch_file(course, opts["file"], opts["pages"], opts.get("out"), color=("color" in opts), force_vision=("force-vision" in opts))
         return
 
     if len(sys.argv) not in (3, 4):

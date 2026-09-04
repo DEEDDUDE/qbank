@@ -1,0 +1,772 @@
+{
+  "batches": [
+    {
+      "id": "quizzes-01",
+      "built": "2026-09-03",
+      "questions": 45,
+      "note": "RUN-PLAN row 4: raw/quizzes/molecular-2024/, molecular-2023/, molecular-previous/ only. The other two quizzes subfolders (genetics-2021, genetics-2024-ch4) are row 5, not yet ledgered.",
+      "files": [
+        {
+          "name": "raw/quizzes/molecular-2024/Quiz 1 - DNA metabolism (10_10) نموذج ١ . pdf",
+          "sha1": "933fece783a4fa9e95c323253976f434ca3b5911",
+          "pages": 6
+        },
+        {
+          "name": "raw/quizzes/molecular-2024/Quiz 1 - DNA metabolism (10_10)نموذج ٢ .pdf",
+          "sha1": "97047f7b6fb50bce3cefc1fcecfb46a08043cecd",
+          "pages": 6
+        },
+        {
+          "name": "raw/quizzes/molecular-2023/Protein 1&2 + techniques (نموذج 1).pdf",
+          "sha1": "8e74f0833f66105fd718f4190eed680488f2883d",
+          "pages": 5
+        },
+        {
+          "name": "raw/quizzes/molecular-2023/Protein 1&2 + techniques (نموذج 2).pdf",
+          "sha1": "588620d8d337b489d66ab65c10dc1a0a634c0d4d",
+          "pages": 17
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_151364533819008.jpeg",
+          "sha1": "9568e1856aafd5644072c950b7e9e257843634ac",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_171314125146901.jpeg",
+          "sha1": "2986208116cb6c3e4d339814a6a68f0d096dd74e",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_380712676964622.jpeg",
+          "sha1": "9ef039d2f706272083db9d649bca83b057b9f653",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_442349913742754.jpeg",
+          "sha1": "132109bb7427fdf8cd5d38a4754422bf16e7985c",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_536352997467235.jpeg",
+          "sha1": "e6388034daa4769dcf3135fe940787ced2fbf9d1",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_857631521788036.jpeg",
+          "sha1": "01c5c7580a013dd14944e19d89dbd575b23aa0a7",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_1003911830182816.jpeg",
+          "sha1": "587aa76d9957f2a2c5c1524f70b25e8a22718274",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_1283043405447764.jpeg",
+          "sha1": "cdf83218d62720c7151abfcc0b81df4ec2175ab0",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_1472866079747361.jpeg",
+          "sha1": "de3e7a53ee6aee252acc045693e298291cbfdf13",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_1955084351318408.jpeg",
+          "sha1": "b32d368b9ea8b31919b2262c58b3bbdf8d496b55",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/molecular-previous/received_2473919332743881.jpeg",
+          "sha1": "a090071457dec1c3fc12cd3973af3ad8a587abc8",
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "id": "quizzes-02",
+      "built": "2026-09-03",
+      "questions": 20,
+      "note": "RUN-PLAN row 5: raw/quizzes/genetics-2021/ + genetics-2024-ch4/.",
+      "files": [
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0019.jpg",
+          "sha1": "08553092d03a14ab36e6b2bed5b846c678de96ff",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0020.jpg",
+          "sha1": "2add2e21da5a9d1a1f8b43720fd3b7bd4e692cb4",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0021.jpg",
+          "sha1": "810eea54a9f3662b97afceb64308c6ea57d2175a",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0022.jpg",
+          "sha1": "4d97b9582f1e24a5faf53b8c2c47d4721766edc0",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0023.jpg",
+          "sha1": "7291610e5499ba89b00ac0c7abf5de0896c90272",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0024.jpg",
+          "sha1": "f625d5f1bcf0e67a7bcbe1a935e09f50ac345876",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0025.jpg",
+          "sha1": "2372b9ad806b8ac0b9a6c07f75999742bea8f7e2",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0026.jpg",
+          "sha1": "1d05d1179545dd4ae246fc26213ff4d13c40a47b",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0027.jpg",
+          "sha1": "3c954cd633f7e53f1ea3dc62059f2c1c3332d24a",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2021/IMG-20210909-WA0028.jpg",
+          "sha1": "dcfbdbf0c6f7591754877ab5a516716ca5801c41",
+          "pages": 1
+        },
+        {
+          "name": "raw/quizzes/genetics-2024-ch4/Quiz chapter 4.pdf",
+          "sha1": "088ec735f2c2e8956518e54980dd95db9969db4a",
+          "pages": 8
+        }
+      ]
+    },
+    {
+      "id": "midterm-01",
+      "built": "2026-09-03",
+      "questions": 55,
+      "note": "RUN-PLAN row 6: raw/midterm/2023-2024/ نموذج ١ + نموذج ٢ only. نموذج ٣ + نموذج ٤ are row 7, not yet ledgered.",
+      "files": [
+        {
+          "name": "raw/midterm/2023-2024/نموذج ١.pdf",
+          "sha1": "8675b23e29e73af26d43910c3f000d19b5953cec",
+          "pages": 30
+        },
+        {
+          "name": "raw/midterm/2023-2024/نموذج ٢.pdf",
+          "sha1": "2a5290d3f62ef1cc7f675ab5916822153245d75d",
+          "pages": 21
+        }
+      ]
+    },
+    {
+      "id": "midterm-02",
+      "built": "2026-09-03",
+      "questions": 60,
+      "note": "RUN-PLAN row 7: raw/midterm/2023-2024/ نموذج ٣ + نموذج ٤. Combined with midterm-01 (نموذج ١+٢), all four 2023-2024 models now ledgered.",
+      "files": [
+        {
+          "name": "raw/midterm/2023-2024/نموذج ٣.pdf",
+          "sha1": "dea12daf6b1a689ab392d853c33c5277e8724cd7",
+          "pages": 23
+        },
+        {
+          "name": "raw/midterm/2023-2024/نموذج ٤.pdf",
+          "sha1": "c07c2369b01e18f979d66c62193affab9f32bff5",
+          "pages": 14
+        }
+      ]
+    },
+    {
+      "id": "midterm-03",
+      "built": "2026-09-03",
+      "questions": 136,
+      "note": "RUN-PLAN row 8: raw/midterm/2022-2023/ + before2020-2018/ + before2020-2014/ -- three unrelated paper exams.",
+      "files": [
+        {
+          "name": "raw/midterm/2022-2023/2022_2023_.pdf",
+          "sha1": "db3204ec0812d20446ce2d53ac6f612c0d06c744",
+          "pages": 10
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732639690.jpg",
+          "sha1": "0dc602d0b8f8cd7d4c47385501f19c6163a1190f",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732644964.jpg",
+          "sha1": "0d5d6ec3d4d259689033b51dc269c5f129a8f6b5",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732648429.jpg",
+          "sha1": "4b696f3b506aa385ae247a45ef31ef8431cc6a42",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732654002.jpg",
+          "sha1": "d54c6d025e5e03781238cfc46a47863de8e92730",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732675462.jpg",
+          "sha1": "772000ada59c2c69f759f1aca736d8bc1d4594d2",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732681392.jpg",
+          "sha1": "3f08c260f73228074c6fc316ebec945e4fcbca05",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732722472.jpg",
+          "sha1": "0531474e0fde6b01f97a38d9029ee96068657a69",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732726840.jpg",
+          "sha1": "da7e06066bb74440485d24bedc015e73853691b7",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2018/FB_IMG_1630732729683.jpg",
+          "sha1": "81f24a63ca5be3e5a67af13e54139da111b2cd10",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12226296_926412267443962_713888136_n.jpg",
+          "sha1": "65b73c25589cc739f91f352c2ab8e71a3e5da4d6",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12243955_926412400777282_1163885076_n.jpg",
+          "sha1": "cb546b2a1c50df4af0a81814fa7b18a060a2d7cd",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12248643_1082642365079254_955494856_n.jpg",
+          "sha1": "175374b6739f2552b5b6f0c4a53bf3a16bc89f89",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12255494_926412180777304_238648681_o.jpg",
+          "sha1": "3fb872070a11b9fe7821e77ed2a3967ecc21c0a0",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12272742_926412634110592_469424125_n.jpg",
+          "sha1": "ade5db8b4a42a4947a9c0ec62b550e972edf4530",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12277032_926412180777304_238648681_n.jpg",
+          "sha1": "57b3fb9843cea2aade5d598ebf32de26202d883c",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/12278123_926412774110578_339388228_n.jpg",
+          "sha1": "f4393682e34197185ecded3edd65fa464f65ffb1",
+          "pages": 1
+        },
+        {
+          "name": "raw/midterm/before2020-2014/هام.txt",
+          "sha1": "34ef103b6448ff7fecce309d28b435691980094a",
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "id": "midterm-04",
+      "built": "2026-09-03",
+      "questions": 146,
+      "note": "RUN-PLAN row 9: raw/midterm/before2020-2015/ + before2020-darwish-keys/. All 4 files text-layer, no vision spent.",
+      "files": [
+        {
+          "name": "raw/midterm/before2020-2015/Mid  2015 system (suher&hesham).pdf",
+          "sha1": "19cc0b70ad02d64f02c72fa5fdc6dd76db67ee13",
+          "pages": 9
+        },
+        {
+          "name": "raw/midterm/before2020-darwish-keys/Genetics key.pdf",
+          "sha1": "275861264f71ed3dfb6c1f8ea5de846b05e121ca",
+          "pages": 7
+        },
+        {
+          "name": "raw/midterm/before2020-darwish-keys/Med_Genetics_Exam_2013_key_.pdf",
+          "sha1": "66f5a488386ae8184191c64b3b3180ae4eb923cb",
+          "pages": 9
+        },
+        {
+          "name": "raw/midterm/before2020-darwish-keys/Med_Genetics_Exam_key.pdf",
+          "sha1": "eb4c42262390c6d034f3978728ac10ec8f25d5de",
+          "pages": 6
+        }
+      ]
+    },
+    {
+      "id": "finals-01",
+      "built": "2026-09-03",
+      "questions": 81,
+      "note": "RUN-PLAN row 10: raw/finals/2023-2024/3.pdf + 5.pdf. 61 vision pages. Both files vision-only (no text layer). 3.pdf has a systemic missing-radio-button capture defect (every question's actual selection is unrecoverable); 5.pdf's pages are out of order and its radios render normally.",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024/3.pdf",
+          "sha1": "e7419cc1d077f34f06119c491a8bb6d378cd7ee7",
+          "pages": 31
+        },
+        {
+          "name": "raw/finals/2023-2024/5.pdf",
+          "sha1": "3f108f0c41b50d1d442662cc1adcff123822aa6d",
+          "pages": 30
+        }
+      ]
+    },
+    {
+      "id": "finals-02",
+      "built": "2026-09-03",
+      "questions": 55,
+      "note": "RUN-PLAN row 11: raw/finals/2023-2024/4.pdf. 44 vision pages, single capture (attempt=991314), screen photos with glare. Cross-matched by stem against finals-01's 81 questions: 39 matched (38 upgraded from open to claimed, 1 -- MGEN-F-052 -- became disputed against an existing claim), 16 genuinely new (MGEN-F-082-097).",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024/4.pdf",
+          "sha1": "b3139f64a8ec251f21c83f81b2c63bbac625d51d",
+          "pages": 44
+        }
+      ]
+    },
+    {
+      "id": "finals-03",
+      "built": "2026-09-04",
+      "questions": 18,
+      "note": "RUN-PLAN row 12: raw/finals/2023-2024/1/ + 2/, 58 vision pages (32+26 photos). Cross-matched against the existing MGEN-F-001-097 spine; 18 genuinely new questions (MGEN-F-098-115), the rest reinforced or newly claimed existing entries (2 new disputes: MGEN-F-044, 083).",
+      "files": [
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-30-42.jpg",
+          "sha1": "1504ab22a251be33bdd43d891e54c3084874d425",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-30-50.jpg",
+          "sha1": "f39c9b24a4e95a8fba74c82680698e52172f10c2",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-30-56.jpg",
+          "sha1": "48444bfc2182c789b9c52f505d86400641423a5f",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-31-02.jpg",
+          "sha1": "b737491a8ba0f61a8e1edd42b20944b778677ced",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-31-11.jpg",
+          "sha1": "79c3a58989d04a7b93ad5ad8cdfcb51dbccc1937",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-31-18.jpg",
+          "sha1": "f49a6a987b0601e51f9eb47ff81b5882afb19ffe",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-16.jpg",
+          "sha1": "1b6bc6d4fabc5ca030842c888d1672407cfdabae",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-23.jpg",
+          "sha1": "5cd82c91ce04e77238142faeec3d6533d382f119",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-29.jpg",
+          "sha1": "4a4e1a6ec26ca5df4abc58f863e1f17905de511e",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-35.jpg",
+          "sha1": "ec60466233fea4963088f80ec7d1320286148e90",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-42.jpg",
+          "sha1": "b58c1673d2524096b0e59ba983def4a677195955",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-45-53.jpg",
+          "sha1": "bde172fe30f17aae751e2a6536f55e9fc9ee4b25",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-06.jpg",
+          "sha1": "bc43590a22ace429242848201ec24d6487def900",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-13.jpg",
+          "sha1": "8fbed54b2a9e00c9029bb95ea8b340ec38a8336c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-20.jpg",
+          "sha1": "5a25657032d8c0206ea595888f43dd98f7c28831",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-27.jpg",
+          "sha1": "7a3628c4cae9f28fc75019c8d7bc93f53093b1e3",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-11-56-34.jpg",
+          "sha1": "1942c5b4111fc9873ff24ada6109c4da9ca39c9b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-12-24.jpg",
+          "sha1": "79586fbb15ebd216377a804cc01ef709bd2bccc4",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-12-34.jpg",
+          "sha1": "4c9b049202b6c5fa3a38ae52e9611aa2e6d60943",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-12-39.jpg",
+          "sha1": "22271967d856856641e3a054aa6b1f0a6721176c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-12-57.jpg",
+          "sha1": "e3816956523a5e07b50cfae9531e0fdd71c5bf1c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-13-17.jpg",
+          "sha1": "4bc06f9c217fc1bff76fcca52eae9fd894018d70",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-13-22.jpg",
+          "sha1": "12589538a8ae171306ba5311724feb792b14957e",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-13-29.jpg",
+          "sha1": "5edd3bfdd99f9bc7c840960c4b8b901b40184ede",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-18.jpg",
+          "sha1": "0931932ed4a717bee6eb2294a7bb2d3b126a10d4",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-26.jpg",
+          "sha1": "bf1e89a687a1336817f04b91a4a829267fce2711",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-35.jpg",
+          "sha1": "2f8369a2e5fba6585bd332137cf352bc436d589e",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-42.jpg",
+          "sha1": "5cf0c6b720f2195a3f849339763a53ae3b0a259c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-23-48.jpg",
+          "sha1": "91405d56ad57886cdf32e606d2c1b830a43f675c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-39-59.jpg",
+          "sha1": "09a4da9086fc6251f55ef3724c81bae3b07c62ef",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-40-09.jpg",
+          "sha1": "b96e759590f95c071256893c3edb535d242d62b1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/1/PHOTO-2024-01-06-12-40-15.jpg",
+          "sha1": "fc90355fc17c4d88f5cbef1f1dbd42fe04c0fa0f",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-05.jpg",
+          "sha1": "b5f1e616e1c2965a16ed390ba49b5810d2213f71",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-27.jpg",
+          "sha1": "155de8cec277df8b750a8e8595bddee2f0088e11",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-30.jpg",
+          "sha1": "7fa7a139a5e368d0ac405ed18340141295c32824",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-48 2.jpg",
+          "sha1": "77b5c76b976806ba08cecf0c10abd6b85e78f1cf",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-48.jpg",
+          "sha1": "88609945d43e754d13407039dd0e2c9d70b88596",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-49 2.jpg",
+          "sha1": "c232e8806ede174a5d1384ec43fc8bb574ab91ff",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-49 3.jpg",
+          "sha1": "1d23babe2c76b7a8860a843069201ab1cb816fa0",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-49.jpg",
+          "sha1": "d2c5bd14fee1fd2cba302265aa43983b73ff0c4d",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-50 2.jpg",
+          "sha1": "c2366a63438ea051e162d3bd2911ebf91a19427c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-50 3.jpg",
+          "sha1": "c8ccfeef2bbbe3e46747dfd55946f6f1bc6701cf",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-50 4.jpg",
+          "sha1": "43fae5f74981c6f48712afbd6781eb0cd057155b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-50.jpg",
+          "sha1": "b1f54ba91f71e7d5f93d27d4d91563b57c2e8ebd",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-51 2.jpg",
+          "sha1": "8b034b71dcf3d44878499aa6a8f3b44f62d25013",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-51 3.jpg",
+          "sha1": "deb10bf78f33c8c9318f3267021b06c932865ee9",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-51 4.jpg",
+          "sha1": "8093411db31bcaf6243a26e8f497e27fdf6e7bf1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-51.jpg",
+          "sha1": "f8d1761af8257c0708838ec86ced075cb2fce7e5",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-52 2.jpg",
+          "sha1": "0788eee2d5a14fc3881fb6c65e7d6f14481e904a",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-52 3.jpg",
+          "sha1": "ecb666bf07c18230b3a02c07b9dc15511c98c4a1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-52.jpg",
+          "sha1": "805570e952fee014f00fc46fa0d87291105253af",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-53 2.jpg",
+          "sha1": "ba309c0fde4f80cd2817b3591faf80f8af5252be",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-53 3.jpg",
+          "sha1": "08cc04871f946e464bcb9f40adc16d780f0ab101",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-53 4.jpg",
+          "sha1": "784fa7534a56d1f396ba96b5d15840cdfbe30821",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-53.jpg",
+          "sha1": "0a3599612657063e5aba0495ce0b8d34a2c10d60",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-54 2.jpg",
+          "sha1": "7d7345389761925e2b6ec07f196af49e2027e08a",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-54 3.jpg",
+          "sha1": "c0dcdb0cdd49cb71663ac94ba3cb5be72dc5df5d",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2023-2024/2/PHOTO-2024-01-06-14-01-54.jpg",
+          "sha1": "807305470fa59093806a4a44b3bd95dff0ca5d34",
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "id": "finals-04",
+      "built": "2026-09-04",
+      "questions": 40,
+      "note": "RUN-PLAN row 13: raw/finals/2020-2021/, 21 files, 21 vision pages. A separate sitting from 2023-2024 -- cross-matched against the full MGEN-F-001-115 spine, zero overlap found, so all 40 questions are new (MGEN-F-116-155). All 21 photos turned out to be one Moodle attempt (455159); 1 internal dispute (MGEN-F-122) where two captures of the same question disagree.",
+      "files": [
+        {
+          "name": "raw/finals/2020-2021/received_208598864662866.jpeg",
+          "sha1": "c358176aa9123d4750e8e6e443b52da178c6522c",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_210122254480028.jpeg",
+          "sha1": "269cf138a5b9183b1dd29476d6d1cee6574c79ab",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_223440993073954.jpeg",
+          "sha1": "6e7d5b663d6d95a977cd440f180bc2ff2464c7a4",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_249390560427313.jpeg",
+          "sha1": "6b57aa7ae3daab09e9d919bbdd9e7eddd1b14509",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_256599656326229.jpeg",
+          "sha1": "08c2000132d161398c789f60de26ebcee7b66191",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_337747114706871.jpeg",
+          "sha1": "bb93e61cc3cf7299cd9d2d30980f30b549967134",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_371851404581777.jpeg",
+          "sha1": "6f1c6dd78ccd05492a3072888d4e9ec62549d832",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_397425841964411.jpeg",
+          "sha1": "b5ab7881101a279ef96d101026dffd6fa6676eca",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_401532434655180.jpeg",
+          "sha1": "01977cb82193004648a157a91ae433af01791fe1",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_410110214025586.jpeg",
+          "sha1": "3972b3868aa593eb42c17f78fc2b65ac46d05266",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_541004380292571.jpeg",
+          "sha1": "2b8cbb07f30a8676437d6fd3371bdbd3a94c9e99",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_549941659396708.jpeg",
+          "sha1": "e9fb5a2abefe61ee0f346232a582be4d758b070b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_551863722811522.jpeg",
+          "sha1": "1b420476c39266122a0f4fe3b67a20bb4887cda5",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_561149241592020.jpeg",
+          "sha1": "217674edd7a288cc4be386609a2762918ceee002",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_587799995916278.jpeg",
+          "sha1": "aee594976cc4521dbbd846ad42c4766b5a314a6b",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_605988560755754.jpeg",
+          "sha1": "3de4c869e6a2e23dfb6e734c151486cfc3214d1d",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_811716156169186.jpeg",
+          "sha1": "734dc099c55fb93952ad18a493e3365a86f60e93",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_904566150149811.jpeg",
+          "sha1": "38516a948c3ea6ff81471f6cd8eb18030d8d428d",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_933793330535672.jpeg",
+          "sha1": "206091a74eb8c305ddb2a1e034630dafd82a4bde",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_1018305795662130.jpeg",
+          "sha1": "f5d3d85773c944a84c5b7c8301c141574d4f0f14",
+          "pages": 1
+        },
+        {
+          "name": "raw/finals/2020-2021/received_4190472987687816.jpeg",
+          "sha1": "e66783e8bf0c25baf9fe993a7ceb44b91c907ae5",
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "id": "finals-05",
+      "built": "2026-09-04",
+      "questions": 70,
+      "note": "RUN-PLAN row 14: raw/finals/genetics-70q/, 2 files, 66 text-layer pages, free. Both files confirmed word-for-word identical (whitespace/underscore-normalized diff, zero real differences). Zero answers in either copy -- all 70 open tier (MGEN-F-156-225). One near-miss to MGEN-F-097 (2023-2024 sitting), not merged.",
+      "files": [
+        {
+          "name": "raw/finals/genetics-70q/Final Genetics 2015.pdf",
+          "sha1": "e3f5c6a6e98dd100c4e6bd59576583a6dc3d511d",
+          "pages": 33
+        },
+        {
+          "name": "raw/finals/genetics-70q/Final Genetics EXAM-1.pdf",
+          "sha1": "ed1d7cb7b03b8963a6d2d25f35c4a52b35bedb99",
+          "pages": 33
+        }
+      ]
+    }
+  ]
+}
